@@ -30,7 +30,7 @@ License
 #include "dummyISstream.H"
 #include "SubList.H"
 #include "PackedBoolList.H"
-#include "gzstream.h"
+#include <gzstream.h>
 #include "addToRunTimeSelectionTable.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */

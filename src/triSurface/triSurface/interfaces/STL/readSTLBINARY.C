@@ -27,7 +27,7 @@ License
 #include "STLtriangle.H"
 #include "IFstream.H"
 #include "OSspecific.H"
-#include "gzstream.h"
+#include <gzstream.h>
 #include "floatVector.H"
 #include "mergePoints.H"
 

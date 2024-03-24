@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "STLsurfaceFormatCore.H"
-#include "gzstream.h"
+#include <gzstream.h>
 #include "OSspecific.H"
 #include "Map.H"
 #include "IFstream.H"

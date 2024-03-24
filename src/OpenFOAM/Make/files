@@ -179,9 +179,6 @@ $(Sstreams)/SstreamsPrint.C
 $(Sstreams)/readHexLabel.C
 $(Sstreams)/prefixOSstream.C
 
-gzstream = $(Streams)/gzstream
-$(gzstream)/gzstream.C
-
 Fstreams = $(Streams)/Fstreams
 $(Fstreams)/IFstream.C
 $(Fstreams)/OFstream.C
