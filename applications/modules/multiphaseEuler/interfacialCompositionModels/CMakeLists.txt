@@ -1,0 +1,52 @@
+add_library( eulerianInterfacialCompositionModels )
+target_link_libraries( eulerianInterfacialCompositionModels
+  PRIVATE
+  OpenFOAM
+  finiteVolume
+  fluidThermophysicalModels
+  multicomponentThermophysicalModels
+  phaseSystem
+  sampling
+
+  PUBLIC
+  saturationModels
+)
+target_include_directories( eulerianInterfacialCompositionModels
+  PUBLIC
+  .
+)
+target_sources( eulerianInterfacialCompositionModels
+  PRIVATE
+  diffusiveMassTransferModels/Frossling/Frossling.C
+  diffusiveMassTransferModels/diffusiveMassTransferModel/diffusiveMassTransferModel.C
+  diffusiveMassTransferModels/diffusiveMassTransferModel/diffusiveMassTransferModelNew.C
+  diffusiveMassTransferModels/sphericalDiffusiveMassTransfer/sphericalDiffusiveMassTransfer.C
+  interfaceCompositionModels/Henry/Henry.C
+  interfaceCompositionModels/Raoult/Raoult.C
+  interfaceCompositionModels/interfaceCompositionModel/interfaceCompositionModel.C
+  interfaceCompositionModels/interfaceCompositionModel/interfaceCompositionModelNew.C
+  interfaceCompositionModels/nonRandomTwoLiquid/nonRandomTwoLiquid.C
+  interfaceCompositionModels/saturated/saturated.C
+  interfaceSaturationTemperatureModel/interfaceSaturationTemperatureModel.C
+  interfaceSaturationTemperatureModel/interfaceSaturationTemperatureModelNew.C
+  interfaceSurfaceTensionModels/constantSurfaceTensionCoefficient/constantSurfaceTensionCoefficient.C
+  interfaceSurfaceTensionModels/interfaceSurfaceTensionModel/interfaceSurfaceTensionModel.C
+  interfaceSurfaceTensionModels/interfaceSurfaceTensionModel/interfaceSurfaceTensionModelNew.C
+
+  PRIVATE
+  FILE_SET HEADERS
+  FILES
+  diffusiveMassTransferModels/Frossling/Frossling.H
+  diffusiveMassTransferModels/diffusiveMassTransferModel/diffusiveMassTransferModel.H
+  diffusiveMassTransferModels/sphericalDiffusiveMassTransfer/sphericalDiffusiveMassTransfer.H
+  interfaceCompositionModels/Henry/Henry.H
+  interfaceCompositionModels/Raoult/Raoult.H
+  interfaceCompositionModels/interfaceCompositionModel/interfaceCompositionModel.H
+  interfaceCompositionModels/interfaceCompositionModel/interfaceCompositionModelI.H
+  interfaceCompositionModels/nonRandomTwoLiquid/nonRandomTwoLiquid.H
+  interfaceCompositionModels/saturated/saturated.H
+  interfaceSaturationTemperatureModel/interfaceSaturationTemperatureModel.H
+  interfaceSurfaceTensionModels/constantSurfaceTensionCoefficient/constantSurfaceTensionCoefficient.H
+  interfaceSurfaceTensionModels/interfaceSurfaceTensionModel/interfaceSurfaceTensionModel.H
+)
+install( TARGETS eulerianInterfacialCompositionModels )

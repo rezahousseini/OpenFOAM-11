@@ -1,0 +1,4 @@
+add_subdirectory( field )
+add_subdirectory( forces )
+add_subdirectory( solvers )
+add_subdirectory( utilities )

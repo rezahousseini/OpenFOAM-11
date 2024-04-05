@@ -1,0 +1,5 @@
+add_subdirectory( adjointShapeOptimisationFoam )
+add_subdirectory( dnsFoam )
+add_subdirectory( icoFoam )
+add_subdirectory( porousSimpleFoam )
+add_subdirectory( shallowWaterFoam )

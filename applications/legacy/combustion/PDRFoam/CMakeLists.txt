@@ -1,0 +1,87 @@
+add_executable( PDRFoam )
+target_link_libraries( PDRFoam
+  PRIVATE
+  OpenFOAM
+  XiIgnition
+  compressibleMomentumTransportModels
+  coupledThermophysicalTransportModels
+  finiteVolume
+  #fluidThermophysicalModels
+  fluidThermophysicalTransportModel
+  fluidThermoThermophysicalTransportModels
+  fvConstraints
+  fvModels
+  laminarFlameSpeedModels
+  #meshTools
+  #momentumTransportModels
+  multicomponentThermophysicalModels
+  #physicalProperties
+  #specie
+  #thermophysicalTransportModel
+)
+target_include_directories( PDRFoam
+  PUBLIC
+  .
+)
+target_sources( PDRFoam
+  PRIVATE
+  PDRFoam.C
+  PDRModels/XiEqModels/basicXiSubXiEq/basicXiSubXiEq.C
+  PDRModels/XiGModels/basicXiSubG/basicXiSubG.C
+  PDRModels/dragModels/PDRDragModel/PDRDragModel.C
+  PDRModels/dragModels/PDRDragModel/PDRDragModelNew.C
+  PDRModels/dragModels/basic/basic.C
+  PDRModels/turbulence/PDRkEpsilon/PDRkEpsilon.C
+  XiModels/XiEqModels/Gulder/Gulder.C
+  XiModels/XiEqModels/SCOPEBlendXiEq/SCOPEBlendXiEq.C
+  XiModels/XiEqModels/SCOPEXiEq/SCOPEXiEq.C
+  XiModels/XiEqModels/XiEqModel/XiEqModel.C
+  XiModels/XiEqModels/XiEqModel/XiEqModelNew.C
+  XiModels/XiEqModels/instabilityXiEq/instabilityXiEq.C
+  XiModels/XiGModels/KTS/KTS.C
+  XiModels/XiGModels/XiGModel/XiGModel.C
+  XiModels/XiGModels/XiGModel/XiGModelNew.C
+  XiModels/XiGModels/instabilityG/instabilityG.C
+  XiModels/XiModel/XiModel.C
+  XiModels/XiModel/XiModelNew.C
+  XiModels/algebraic/algebraic.C
+  XiModels/fixed/fixed.C
+  XiModels/transport/transport.C
+  laminarFlameSpeed/SCOPE/SCOPELaminarFlameSpeed.C
+
+  PRIVATE
+  FILE_SET HEADERS
+  FILES
+  EaEqn.H
+  EauEqn.H
+  PDRModels/XiEqModels/basicXiSubXiEq/basicXiSubXiEq.H
+  PDRModels/XiGModels/basicXiSubG/basicXiSubG.H
+  PDRModels/dragModels/PDRDragModel/PDRDragModel.H
+  PDRModels/dragModels/basic/basic.H
+  PDRModels/turbulence/PDRkEpsilon/PDRkEpsilon.H
+  StCorr.H
+  StCourantNo.H
+  UEqn.H
+  XiModels/XiEqModels/Gulder/Gulder.H
+  XiModels/XiEqModels/SCOPEBlendXiEq/SCOPEBlendXiEq.H
+  XiModels/XiEqModels/SCOPEXiEq/SCOPEXiEq.H
+  XiModels/XiEqModels/XiEqModel/XiEqModel.H
+  XiModels/XiEqModels/instabilityXiEq/instabilityXiEq.H
+  XiModels/XiGModels/KTS/KTS.H
+  XiModels/XiGModels/XiGModel/XiGModel.H
+  XiModels/XiGModels/instabilityG/instabilityG.H
+  XiModels/XiModel/XiModel.H
+  XiModels/algebraic/algebraic.H
+  XiModels/fixed/fixed.H
+  XiModels/transport/transport.H
+  bEqn.H
+  createFieldRefs.H
+  createFields.H
+  ftEqn.H
+  laminarFlameSpeed/SCOPE/SCOPELaminarFlameSpeed.H
+  pEqn.H
+  readCombustionProperties.H
+  rhoEqn.H
+  setDeltaT.H
+)
+install( TARGETS PDRFoam )

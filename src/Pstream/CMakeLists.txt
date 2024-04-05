@@ -1,0 +1,5 @@
+if( ${MPI_FOUND} )
+  add_subdirectory( mpi )
+else()
+  add_subdirectory( dummy )
+endif()

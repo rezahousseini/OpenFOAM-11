@@ -1,0 +1,84 @@
+add_library( blockMesh )
+target_link_libraries( blockMesh
+  PRIVATE
+  OpenFOAM
+  fileFormats
+  meshTools
+)
+target_include_directories( blockMesh
+  PUBLIC
+  .
+)
+target_sources( blockMesh
+  PRIVATE
+  blockDescriptor/blockDescriptor.C
+  blockDescriptor/blockDescriptorEdges.C
+  blockEdges/BSplineEdge/BSpline.C
+  blockEdges/BSplineEdge/BSplineEdge.C
+  blockEdges/arcEdge/arcEdge.C
+  blockEdges/blockEdge/blockEdge.C
+  blockEdges/lineDivide/lineDivide.C
+  blockEdges/lineEdge/lineEdge.C
+  blockEdges/polyLineEdge/polyLine.C
+  blockEdges/polyLineEdge/polyLineEdge.C
+  blockEdges/projectCurveEdge/projectCurveEdge.C
+  blockEdges/projectEdge/projectEdge.C
+  blockEdges/splineEdge/CatmullRomSpline.C
+  blockEdges/splineEdge/splineEdge.C
+  blockFaces/blockFace/blockFace.C
+  blockFaces/projectFace/projectFace.C
+  blockMesh/blockMesh.C
+  blockMesh/blockMeshCheck.C
+  blockMesh/blockMeshCreate.C
+  blockMesh/blockMeshMerge.C
+  blockMesh/blockMeshMergeFast.C
+  blockMesh/blockMeshTopology.C
+  blockMeshTools/blockMeshTools.C
+  blockVertices/blockVertex/blockVertex.C
+  blockVertices/namedVertex/namedVertex.C
+  blockVertices/pointVertex/pointVertex.C
+  blockVertices/projectVertex/projectVertex.C
+  blocks/block/block.C
+  blocks/block/blockCreate.C
+  blocks/namedBlock/namedBlock.C
+  gradingDescriptor/gradingDescriptor.C
+  gradingDescriptor/gradingDescriptors.C
+
+  PRIVATE
+  FILE_SET HEADERS
+  FILES
+  blockDescriptor/blockDescriptor.H
+  blockDescriptor/blockDescriptorI.H
+  blockEdges/BSplineEdge/BSpline.H
+  blockEdges/BSplineEdge/BSplineEdge.H
+  blockEdges/arcEdge/arcEdge.H
+  blockEdges/blockEdge/blockEdge.H
+  blockEdges/blockEdge/blockEdgeI.H
+  blockEdges/blockEdge/blockEdgeList.H
+  blockEdges/lineDivide/lineDivide.H
+  blockEdges/lineEdge/lineEdge.H
+  blockEdges/polyLineEdge/polyLine.H
+  blockEdges/polyLineEdge/polyLineEdge.H
+  blockEdges/projectCurveEdge/projectCurveEdge.H
+  blockEdges/projectEdge/projectEdge.H
+  blockEdges/splineEdge/CatmullRomSpline.H
+  blockEdges/splineEdge/splineEdge.H
+  blockFaces/blockFace/blockFace.H
+  blockFaces/blockFace/blockFaceI.H
+  blockFaces/blockFace/blockFaceList.H
+  blockFaces/projectFace/projectFace.H
+  blockMesh/blockMesh.H
+  blockMeshTools/blockMeshTools.H
+  blockVertices/blockVertex/blockVertex.H
+  blockVertices/blockVertex/blockVertexList.H
+  blockVertices/namedVertex/namedVertex.H
+  blockVertices/pointVertex/pointVertex.H
+  blockVertices/projectVertex/projectVertex.H
+  blocks/block/block.H
+  blocks/block/blockI.H
+  blocks/block/blockList.H
+  blocks/namedBlock/namedBlock.H
+  gradingDescriptor/gradingDescriptor.H
+  gradingDescriptor/gradingDescriptors.H
+)
+install( TARGETS blockMesh )

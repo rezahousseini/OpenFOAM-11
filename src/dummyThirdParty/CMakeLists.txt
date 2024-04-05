@@ -1,0 +1,8 @@
+add_subdirectory( MGridGen )
+if(NOT ${METIS_FOUND})
+  add_subdirectory( metisDecomp )
+endif()
+if(NOT ${PTSCOTCH_FOUND})
+  add_subdirectory( ptscotchDecomp )
+  add_subdirectory( scotchDecomp )
+endif()

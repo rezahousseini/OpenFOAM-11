@@ -1,0 +1,5 @@
+add_subdirectory( legacy )
+add_subdirectory( modules )
+add_subdirectory( solvers )
+add_subdirectory( test )
+add_subdirectory( utilities )

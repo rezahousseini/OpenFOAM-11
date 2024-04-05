@@ -1,0 +1,6 @@
+add_subdirectory( basic )
+add_subdirectory( combustion )
+add_subdirectory( compressible )
+add_subdirectory( electromagnetics )
+add_subdirectory( incompressible )
+add_subdirectory( lagrangian )

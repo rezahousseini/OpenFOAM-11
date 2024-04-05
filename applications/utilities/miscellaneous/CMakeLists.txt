@@ -1,0 +1,5 @@
+add_subdirectory( foamDictionary )
+add_subdirectory( foamFormatConvert )
+add_subdirectory( foamListTimes )
+add_subdirectory( foamToC )
+add_subdirectory( patchSummary )

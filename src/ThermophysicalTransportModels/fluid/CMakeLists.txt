@@ -1,0 +1,53 @@
+add_library( fluidThermophysicalTransportModel )
+target_link_libraries( fluidThermophysicalTransportModel
+  PRIVATE
+  OpenFOAM
+  compressibleMomentumTransportModels
+  fluidThermophysicalModels
+  solidThermo
+
+  PUBLIC
+  thermophysicalTransportModel
+)
+target_include_directories( fluidThermophysicalTransportModel
+  PUBLIC
+  .
+)
+target_sources( fluidThermophysicalTransportModel
+  PRIVATE
+  derivedFvPatchFields/alphatWallFunctions/alphatJayatillekeWallFunction/alphatJayatillekeWallFunctionFvPatchScalarField.C
+  derivedFvPatchFields/alphatWallFunctions/alphatWallFunction/alphatWallFunctionFvPatchScalarField.C
+  derivedFvPatchFields/convectiveHeatTransfer/convectiveHeatTransferFvPatchScalarField.C
+  derivedFvPatchFields/externalCoupledTemperatureMixed/externalCoupledTemperatureMixedFvPatchScalarField.C
+  derivedFvPatchFields/thermalBaffle1D/thermalBaffle1DFvPatchScalarFields.C
+  derivedFvPatchFields/totalFlowRateAdvectiveDiffusive/totalFlowRateAdvectiveDiffusiveFvPatchScalarField.C
+  fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.C
+
+  PRIVATE
+  FILE_SET HEADERS
+  FILES
+  PhaseThermophysicalTransportModel/PhaseThermophysicalTransportModel.H
+  ThermophysicalTransportModel/ThermophysicalTransportModel.H
+  derivedFvPatchFields/alphatWallFunctions/alphatJayatillekeWallFunction/alphatJayatillekeWallFunctionFvPatchScalarField.H
+  derivedFvPatchFields/alphatWallFunctions/alphatWallFunction/alphatWallFunctionFvPatchScalarField.H
+  derivedFvPatchFields/convectiveHeatTransfer/convectiveHeatTransferFvPatchScalarField.H
+  derivedFvPatchFields/externalCoupledTemperatureMixed/externalCoupledTemperatureMixedFvPatchScalarField.H
+  derivedFvPatchFields/thermalBaffle1D/thermalBaffle1DFvPatchScalarField.H
+  derivedFvPatchFields/totalFlowRateAdvectiveDiffusive/totalFlowRateAdvectiveDiffusiveFvPatchScalarField.H
+  fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H
+  laminar/Fickian/Fickian.H
+  laminar/FickianFourier/FickianFourier.H
+  laminar/Fourier/Fourier.H
+  laminar/MaxwellStefan/MaxwellStefan.H
+  laminar/MaxwellStefanFourier/MaxwellStefanFourier.H
+  laminar/laminarThermophysicalTransportModel/laminarThermophysicalTransportModel.H
+  laminar/unityLewisFourier/unityLewisFourier.H
+  makeThermophysicalTransportModel.H
+  turbulence/FickianEddyDiffusivity/FickianEddyDiffusivity.H
+  turbulence/LES/LESThermophysicalTransportModel/LESThermophysicalTransportModel.H
+  turbulence/RAS/RASThermophysicalTransportModel/RASThermophysicalTransportModel.H
+  turbulence/eddyDiffusivity/eddyDiffusivity.H
+  turbulence/nonUnityLewisEddyDiffusivity/nonUnityLewisEddyDiffusivity.H
+  turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H
+)
+install( TARGETS fluidThermophysicalTransportModel )

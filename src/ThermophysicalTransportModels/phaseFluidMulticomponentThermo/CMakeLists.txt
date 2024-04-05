@@ -1,0 +1,26 @@
+add_library( phaseFluidMulticomponentThermophysicalTransportModels )
+target_link_libraries( phaseFluidMulticomponentThermophysicalTransportModels
+  PRIVATE
+  OpenFOAM
+  compressibleMomentumTransportModels
+  fluidThermophysicalModels
+  fluidThermophysicalTransportModel
+  multicomponentThermophysicalModels
+  phaseCompressibleMomentumTransportModels
+  thermophysicalTransportModel
+)
+target_include_directories( phaseFluidMulticomponentThermophysicalTransportModels
+  PUBLIC
+  .
+)
+target_sources( phaseFluidMulticomponentThermophysicalTransportModels
+  PRIVATE
+  phaseFluidMulticomponentThermophysicalTransportModels.C
+
+  PRIVATE
+  FILE_SET HEADERS
+  FILES
+  phaseFluidMulticomponentThermophysicalTransportModel.H
+  phaseFluidMulticomponentThermophysicalTransportModels.H
+)
+install( TARGETS phaseFluidMulticomponentThermophysicalTransportModels )

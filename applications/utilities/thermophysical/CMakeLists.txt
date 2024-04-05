@@ -1,0 +1,5 @@
+add_subdirectory( adiabaticFlameT )
+add_subdirectory( chemkinToFoam )
+add_subdirectory( equilibriumCO )
+add_subdirectory( equilibriumFlameT )
+add_subdirectory( mixtureAdiabaticFlameT )

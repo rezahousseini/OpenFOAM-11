@@ -1,0 +1,81 @@
+add_library( fvMotionSolvers )
+target_link_libraries( fvMotionSolvers
+  PRIVATE
+  OpenFOAM
+  dynamicMesh
+  finiteVolume
+  fvMeshMovers
+)
+target_include_directories( fvMotionSolvers
+  PUBLIC
+  .
+)
+target_sources( fvMotionSolvers
+  PRIVATE
+  fvMotionSolvers/componentDisplacement/componentLaplacian/displacementComponentLaplacianFvMotionSolver.C
+  fvMotionSolvers/componentVelocity/componentLaplacian/velocityComponentLaplacianFvMotionSolver.C
+  fvMotionSolvers/displacement/SBRStress/displacementSBRStressFvMotionSolver.C
+  fvMotionSolvers/displacement/laplacian/displacementLaplacianFvMotionSolver.C
+  fvMotionSolvers/fvMotionSolver/fvMotionSolver.C
+  fvMotionSolvers/velocity/laplacian/velocityLaplacianFvMotionSolver.C
+  fvPatchFields/derived/cellMotion/cellMotionFvPatchFields.C
+  fvPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementFvPatchFields.C
+  motionDiffusivity/directional/directionalDiffusivity.C
+  motionDiffusivity/file/fileDiffusivity.C
+  motionDiffusivity/inverseDistance/inverseDistanceDiffusivity.C
+  motionDiffusivity/inverseFaceDistance/inverseFaceDistanceDiffusivity.C
+  motionDiffusivity/inversePointDistance/inversePointDistanceDiffusivity.C
+  motionDiffusivity/inverseVolume/inverseVolumeDiffusivity.C
+  motionDiffusivity/manipulators/exponential/exponentialDiffusivity.C
+  motionDiffusivity/manipulators/quadratic/quadraticDiffusivity.C
+  motionDiffusivity/motionDiffusivity/motionDiffusivity.C
+  motionDiffusivity/motionDirectional/motionDirectionalDiffusivity.C
+  motionDiffusivity/uniform/uniformDiffusivity.C
+  pointPatchFields/derived/angularOscillatingDisplacement/angularOscillatingDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/angularOscillatingVelocity/angularOscillatingVelocityPointPatchVectorField.C
+  pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/oscillatingVelocity/oscillatingVelocityPointPatchVectorField.C
+  pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValuePointPatchFields.C
+  pointPatchFields/derived/uniformInterpolatedDisplacement/uniformInterpolatedDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/waveDisplacement/waveDisplacementPointPatchVectorField.C
+
+  PRIVATE
+  FILE_SET HEADERS
+  FILES
+  fvMotionSolvers/componentDisplacement/componentLaplacian/displacementComponentLaplacianFvMotionSolver.H
+  fvMotionSolvers/componentVelocity/componentLaplacian/velocityComponentLaplacianFvMotionSolver.H
+  fvMotionSolvers/displacement/SBRStress/displacementSBRStressFvMotionSolver.H
+  fvMotionSolvers/displacement/laplacian/displacementLaplacianFvMotionSolver.H
+  fvMotionSolvers/fvMotionSolver/fvMotionSolver.H
+  fvMotionSolvers/velocity/laplacian/velocityLaplacianFvMotionSolver.H
+  fvPatchFields/derived/cellMotion/cellMotionFvPatchField.H
+  fvPatchFields/derived/cellMotion/cellMotionFvPatchFields.H
+  fvPatchFields/derived/cellMotion/cellMotionFvPatchFieldsFwd.H
+  fvPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementFvPatchField.H
+  fvPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementFvPatchFields.H
+  fvPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementFvPatchFieldsFwd.H
+  motionDiffusivity/directional/directionalDiffusivity.H
+  motionDiffusivity/file/fileDiffusivity.H
+  motionDiffusivity/inverseDistance/inverseDistanceDiffusivity.H
+  motionDiffusivity/inverseFaceDistance/inverseFaceDistanceDiffusivity.H
+  motionDiffusivity/inversePointDistance/inversePointDistanceDiffusivity.H
+  motionDiffusivity/inverseVolume/inverseVolumeDiffusivity.H
+  motionDiffusivity/manipulators/exponential/exponentialDiffusivity.H
+  motionDiffusivity/manipulators/quadratic/quadraticDiffusivity.H
+  motionDiffusivity/motionDiffusivity/motionDiffusivity.H
+  motionDiffusivity/motionDirectional/motionDirectionalDiffusivity.H
+  motionDiffusivity/uniform/uniformDiffusivity.H
+  pointPatchFields/derived/angularOscillatingDisplacement/angularOscillatingDisplacementPointPatchVectorField.H
+  pointPatchFields/derived/angularOscillatingVelocity/angularOscillatingVelocityPointPatchVectorField.H
+  pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.H
+  pointPatchFields/derived/oscillatingVelocity/oscillatingVelocityPointPatchVectorField.H
+  pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.H
+  pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.H
+  pointPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValuePointPatchField.H
+  pointPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValuePointPatchFields.H
+  pointPatchFields/derived/uniformInterpolatedDisplacement/uniformInterpolatedDisplacementPointPatchVectorField.H
+  pointPatchFields/derived/waveDisplacement/waveDisplacementPointPatchVectorField.H
+)
+install( TARGETS fvMotionSolvers )

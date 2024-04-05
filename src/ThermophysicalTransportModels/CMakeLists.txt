@@ -1,0 +1,8 @@
+add_subdirectory( coupledThermophysicalTransportModels )
+add_subdirectory( fluid )
+add_subdirectory( fluidMulticomponentThermo )
+add_subdirectory( fluidThermo )
+add_subdirectory( phaseFluidMulticomponentThermo )
+add_subdirectory( phaseFluidThermo )
+add_subdirectory( solid )
+add_subdirectory( thermophysicalTransportModel )

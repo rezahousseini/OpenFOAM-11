@@ -1,0 +1,76 @@
+add_library( multiphaseMomentumTransportModels )
+target_link_libraries( multiphaseMomentumTransportModels
+  PRIVATE
+  OpenFOAM
+  eulerianInterfacialModels
+  finiteVolume
+  momentumTransportModels
+  phaseCompressibleMomentumTransportModels
+  phaseSystem
+)
+target_include_directories( multiphaseMomentumTransportModels
+  PUBLIC
+  .
+)
+target_sources( multiphaseMomentumTransportModels
+  PRIVATE
+  derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C
+  derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.C
+  kineticTheoryModels/conductivityModel/Gidaspow/GidaspowConductivity.C
+  kineticTheoryModels/conductivityModel/HrenyaSinclair/HrenyaSinclairConductivity.C
+  kineticTheoryModels/conductivityModel/Syamlal/SyamlalConductivity.C
+  kineticTheoryModels/conductivityModel/conductivityModel/conductivityModel.C
+  kineticTheoryModels/conductivityModel/conductivityModel/conductivityModelNew.C
+  kineticTheoryModels/frictionalStressModel/JohnsonJackson/JohnsonJacksonFrictionalStress.C
+  kineticTheoryModels/frictionalStressModel/JohnsonJacksonSchaeffer/JohnsonJacksonSchaefferFrictionalStress.C
+  kineticTheoryModels/frictionalStressModel/Schaeffer/SchaefferFrictionalStress.C
+  kineticTheoryModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.C
+  kineticTheoryModels/frictionalStressModel/frictionalStressModel/frictionalStressModelNew.C
+  kineticTheoryModels/granularPressureModel/Lun/LunPressure.C
+  kineticTheoryModels/granularPressureModel/SyamlalRogersOBrien/SyamlalRogersOBrienPressure.C
+  kineticTheoryModels/granularPressureModel/granularPressureModel/granularPressureModel.C
+  kineticTheoryModels/granularPressureModel/granularPressureModel/granularPressureModelNew.C
+  kineticTheoryModels/kineticTheoryModel/kineticTheoryModel.C
+  kineticTheoryModels/radialModel/CarnahanStarling/CarnahanStarlingRadial.C
+  kineticTheoryModels/radialModel/LunSavage/LunSavageRadial.C
+  kineticTheoryModels/radialModel/SinclairJackson/SinclairJacksonRadial.C
+  kineticTheoryModels/radialModel/radialModel/radialModel.C
+  kineticTheoryModels/radialModel/radialModel/radialModelNew.C
+  kineticTheoryModels/viscosityModel/Gidaspow/GidaspowViscosity.C
+  kineticTheoryModels/viscosityModel/HrenyaSinclair/HrenyaSinclairViscosity.C
+  kineticTheoryModels/viscosityModel/Syamlal/SyamlalViscosity.C
+  kineticTheoryModels/viscosityModel/none/noneViscosity.C
+  kineticTheoryModels/viscosityModel/viscosityModel/kineticTheoryViscosityModel.C
+  kineticTheoryModels/viscosityModel/viscosityModel/kineticTheoryViscosityModelNew.C
+  multiphaseCompressibleMomentumTransportModels.C
+  phasePressureModel/phasePressureModel.C
+
+  PRIVATE
+  FILE_SET HEADERS
+  FILES
+  derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.H
+  derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.H
+  kineticTheoryModels/conductivityModel/Gidaspow/GidaspowConductivity.H
+  kineticTheoryModels/conductivityModel/HrenyaSinclair/HrenyaSinclairConductivity.H
+  kineticTheoryModels/conductivityModel/Syamlal/SyamlalConductivity.H
+  kineticTheoryModels/conductivityModel/conductivityModel/conductivityModel.H
+  kineticTheoryModels/frictionalStressModel/JohnsonJackson/JohnsonJacksonFrictionalStress.H
+  kineticTheoryModels/frictionalStressModel/JohnsonJacksonSchaeffer/JohnsonJacksonSchaefferFrictionalStress.H
+  kineticTheoryModels/frictionalStressModel/Schaeffer/SchaefferFrictionalStress.H
+  kineticTheoryModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.H
+  kineticTheoryModels/granularPressureModel/Lun/LunPressure.H
+  kineticTheoryModels/granularPressureModel/SyamlalRogersOBrien/SyamlalRogersOBrienPressure.H
+  kineticTheoryModels/granularPressureModel/granularPressureModel/granularPressureModel.H
+  kineticTheoryModels/kineticTheoryModel/kineticTheoryModel.H
+  kineticTheoryModels/radialModel/CarnahanStarling/CarnahanStarlingRadial.H
+  kineticTheoryModels/radialModel/LunSavage/LunSavageRadial.H
+  kineticTheoryModels/radialModel/SinclairJackson/SinclairJacksonRadial.H
+  kineticTheoryModels/radialModel/radialModel/radialModel.H
+  kineticTheoryModels/viscosityModel/Gidaspow/GidaspowViscosity.H
+  kineticTheoryModels/viscosityModel/HrenyaSinclair/HrenyaSinclairViscosity.H
+  kineticTheoryModels/viscosityModel/Syamlal/SyamlalViscosity.H
+  kineticTheoryModels/viscosityModel/none/noneViscosity.H
+  kineticTheoryModels/viscosityModel/viscosityModel/kineticTheoryViscosityModel.H
+  phasePressureModel/phasePressureModel.H
+)
+install( TARGETS multiphaseMomentumTransportModels )

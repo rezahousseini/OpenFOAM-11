@@ -1,0 +1,5 @@
+add_subdirectory( boundaryFoam )
+add_subdirectory( chemFoam )
+add_subdirectory( foamMultiRun )
+add_subdirectory( foamRun )
+add_subdirectory( potentialFoam )

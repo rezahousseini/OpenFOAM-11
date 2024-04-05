@@ -1,0 +1,7 @@
+add_subdirectory( mesh )
+add_subdirectory( miscellaneous )
+add_subdirectory( parallelProcessing )
+add_subdirectory( postProcessing )
+add_subdirectory( preProcessing )
+add_subdirectory( surface )
+add_subdirectory( thermophysical )

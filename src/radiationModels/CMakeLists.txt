@@ -1,0 +1,87 @@
+add_library( radiationModels )
+target_link_libraries( radiationModels
+  PRIVATE
+  OpenFOAM
+  fluidThermophysicalModels
+  multicomponentThermophysicalModels
+)
+target_include_directories( radiationModels
+  PUBLIC
+  .
+)
+target_sources( radiationModels
+  PRIVATE
+  absorptionEmissionModels/absorptionEmissionModel/absorptionEmissionModel.C
+  absorptionEmissionModels/absorptionEmissionModel/absorptionEmissionModelNew.C
+  absorptionEmissionModels/binary/binary.C
+  absorptionEmissionModels/constantAbsorptionEmission/constantAbsorptionEmission.C
+  absorptionEmissionModels/greyMean/greyMean.C
+  absorptionEmissionModels/interpolationLookUpTable/interpolationLookUpTable.C
+  absorptionEmissionModels/noAbsorptionEmission/noAbsorptionEmission.C
+  absorptionEmissionModels/wideBand/wideBand.C
+  derivedFvPatchFields/MarshakRadiation/MarshakRadiationFvPatchScalarField.C
+  derivedFvPatchFields/MarshakRadiationFixedTemperature/MarshakRadiationFixedTemperatureFvPatchScalarField.C
+  derivedFvPatchFields/greyDiffusiveRadiation/greyDiffusiveRadiationMixedFvPatchScalarField.C
+  derivedFvPatchFields/greyDiffusiveViewFactor/greyDiffusiveViewFactorFixedValueFvPatchScalarField.C
+  derivedFvPatchFields/radiationCoupledBase/radiationCoupledBase.C
+  derivedFvPatchFields/wideBandDiffusiveRadiation/wideBandDiffusiveRadiationMixedFvPatchScalarField.C
+  fvModels/radiation/radiation.C
+  radiationModels/P1/P1.C
+  radiationModels/fvDOM/absorptionCoeffs/absorptionCoeffs.C
+  radiationModels/fvDOM/blackBodyEmission/blackBodyEmission.C
+  radiationModels/fvDOM/fvDOM.C
+  radiationModels/fvDOM/radiativeIntensityRay/radiativeIntensityRay.C
+  radiationModels/noRadiation/noRadiation.C
+  radiationModels/opaqueSolid/opaqueSolid.C
+  radiationModels/radiationModel/radiationModel.C
+  radiationModels/radiationModel/radiationModelNew.C
+  radiationModels/viewFactor/viewFactor.C
+  scatterModels/constantScatter/constantScatter.C
+  scatterModels/noScatter/noScatter.C
+  scatterModels/scatterModel/scatterModel.C
+  scatterModels/scatterModel/scatterModelNew.C
+  sootModels/noSoot/noSoot.C
+  sootModels/sootModel/sootModel.C
+  sootModels/sootModel/sootModelNew.C
+
+  PRIVATE
+  FILE_SET HEADERS
+  FILES
+  absorptionEmissionModels/absorptionEmissionModel/absorptionEmissionModel.H
+  absorptionEmissionModels/binary/binary.H
+  absorptionEmissionModels/constantAbsorptionEmission/constantAbsorptionEmission.H
+  absorptionEmissionModels/greyMean/greyMean.H
+  absorptionEmissionModels/interpolationLookUpTable/interpolationLookUpTable.H
+  absorptionEmissionModels/interpolationLookUpTable/interpolationLookUpTableI.H
+  absorptionEmissionModels/noAbsorptionEmission/noAbsorptionEmission.H
+  absorptionEmissionModels/wideBand/wideBand.H
+  derivedFvPatchFields/MarshakRadiation/MarshakRadiationFvPatchScalarField.H
+  derivedFvPatchFields/MarshakRadiationFixedTemperature/MarshakRadiationFixedTemperatureFvPatchScalarField.H
+  derivedFvPatchFields/greyDiffusiveRadiation/greyDiffusiveRadiationMixedFvPatchScalarField.H
+  derivedFvPatchFields/greyDiffusiveViewFactor/greyDiffusiveViewFactorFixedValueFvPatchScalarField.H
+  derivedFvPatchFields/radiationCoupledBase/radiationCoupledBase.H
+  derivedFvPatchFields/wideBandDiffusiveRadiation/wideBandDiffusiveRadiationMixedFvPatchScalarField.H
+  fvModels/radiation/radiation.H
+  include/createIncompressibleRadiationModel.H
+  include/createRadiationModel.H
+  radiationModels/P1/P1.H
+  radiationModels/fvDOM/absorptionCoeffs/absorptionCoeffs.H
+  radiationModels/fvDOM/absorptionCoeffs/absorptionCoeffsI.H
+  radiationModels/fvDOM/blackBodyEmission/blackBodyEmission.H
+  radiationModels/fvDOM/fvDOM.H
+  radiationModels/fvDOM/fvDOMI.H
+  radiationModels/fvDOM/radiativeIntensityRay/radiativeIntensityRay.H
+  radiationModels/fvDOM/radiativeIntensityRay/radiativeIntensityRayI.H
+  radiationModels/noRadiation/noRadiation.H
+  radiationModels/opaqueSolid/opaqueSolid.H
+  radiationModels/radiationModel/radiationModel.H
+  radiationModels/viewFactor/viewFactor.H
+  radiationModels/viewFactor/viewFactorI.H
+  scatterModels/constantScatter/constantScatter.H
+  scatterModels/noScatter/noScatter.H
+  scatterModels/scatterModel/scatterModel.H
+  sootModels/noSoot/noSoot.H
+  sootModels/sootModel/makeThermoSootModel.H
+  sootModels/sootModel/sootModel.H
+)
+install( TARGETS radiationModels )

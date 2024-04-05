@@ -1,0 +1,6 @@
+add_subdirectory( dataConversion )
+add_subdirectory( foamPostProcess )
+add_subdirectory( graphics )
+add_subdirectory( lagrangian )
+add_subdirectory( miscellaneous )
+add_subdirectory( noise )

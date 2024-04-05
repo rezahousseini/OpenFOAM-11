@@ -1,0 +1,108 @@
+FLEX_TARGET(STLsurfaceFormatASCII
+  surfaceFormats/stl/STLsurfaceFormatASCII.L
+  ${CMAKE_CURRENT_BINARY_DIR}/STLsurfaceFormatASCII.L.cpp
+  COMPILE_FLAGS ${FLEX_FLAGS}
+)
+add_library( surfMesh )
+target_link_libraries( surfMesh
+  PRIVATE
+  OpenFOAM
+
+  PUBLIC
+  fileFormats
+)
+target_include_directories( surfMesh
+  PUBLIC
+  .
+)
+target_sources( surfMesh
+  PRIVATE
+  MeshedSurface/MeshedSurfaceCore.C
+  MeshedSurface/MeshedSurfaces.C
+  MeshedSurfaceAllocator/MeshedSurfaceIOAllocator.C
+  MeshedSurfaceProxy/MeshedSurfaceProxyCore.C
+  UnsortedMeshedSurface/UnsortedMeshedSurfaces.C
+  surfFields/surfFields/surfFields.C
+  surfFields/surfPointFields/surfPointFields.C
+  surfMesh/surfMesh.C
+  surfMesh/surfMeshClear.C
+  surfMesh/surfMeshIO.C
+  surfZone/surfZone/surfZone.C
+  surfZone/surfZone/surfZoneIOList.C
+  surfZone/surfZoneIdentifier/surfZoneIdentifier.C
+  surfaceFormats/ac3d/AC3DsurfaceFormatCore.C
+  surfaceFormats/ac3d/AC3DsurfaceFormatRunTime.C
+  surfaceFormats/gts/GTSsurfaceFormatRunTime.C
+  surfaceFormats/nas/NASsurfaceFormatRunTime.C
+  surfaceFormats/obj/OBJsurfaceFormatRunTime.C
+  surfaceFormats/off/OFFsurfaceFormatRunTime.C
+  surfaceFormats/ofs/OFSsurfaceFormatCore.C
+  surfaceFormats/ofs/OFSsurfaceFormatRunTime.C
+  surfaceFormats/smesh/SMESHsurfaceFormatRunTime.C
+  surfaceFormats/starcd/STARCDsurfaceFormatCore.C
+  surfaceFormats/starcd/STARCDsurfaceFormatRunTime.C
+  surfaceFormats/stl/STLsurfaceFormatCore.C
+  surfaceFormats/stl/STLsurfaceFormatRunTime.C
+  surfaceFormats/surfaceFormatsCore.C
+  surfaceFormats/tri/TRIsurfaceFormatCore.C
+  surfaceFormats/tri/TRIsurfaceFormatRunTime.C
+  surfaceFormats/vtk/VTKsurfaceFormatCore.C
+  surfaceFormats/vtk/VTKsurfaceFormatRunTime.C
+  surfaceFormats/wrl/WRLsurfaceFormatCore.C
+  surfaceFormats/wrl/WRLsurfaceFormatRunTime.C
+  surfaceFormats/x3d/X3DsurfaceFormatCore.C
+  surfaceFormats/x3d/X3DsurfaceFormatRunTime.C
+  surfaceRegistry/surfaceRegistry.C
+  ${CMAKE_CURRENT_BINARY_DIR}/STLsurfaceFormatASCII.L.cpp
+
+  PRIVATE
+  FILE_SET HEADERS
+  FILES
+  MeshedSurface/MeshedSurface.H
+  MeshedSurface/MeshedSurfaces.H
+  MeshedSurface/MeshedSurfacesFwd.H
+  MeshedSurfaceAllocator/MeshedSurfaceIOAllocator.H
+  MeshedSurfaceProxy/MeshedSurfaceProxy.H
+  UnsortedMeshedSurface/UnsortedMeshedSurface.H
+  UnsortedMeshedSurface/UnsortedMeshedSurfaces.H
+  UnsortedMeshedSurface/UnsortedMeshedSurfacesFwd.H
+  surfFields/surfFields/surfFields.H
+  surfFields/surfFields/surfFieldsFwd.H
+  surfFields/surfFields/surfGeoMesh.H
+  surfFields/surfPointFields/surfPointFields.H
+  surfFields/surfPointFields/surfPointFieldsFwd.H
+  surfFields/surfPointFields/surfPointGeoMesh.H
+  surfMesh/surfMesh.H
+  surfZone/surfZone/surfZone.H
+  surfZone/surfZone/surfZoneIOList.H
+  surfZone/surfZone/surfZoneList.H
+  surfZone/surfZoneIdentifier/surfZoneIdentifier.H
+  surfZone/surfZoneIdentifier/surfZoneIdentifierList.H
+  surfaceFormats/ac3d/AC3DsurfaceFormat.H
+  surfaceFormats/ac3d/AC3DsurfaceFormatCore.H
+  surfaceFormats/gts/GTSsurfaceFormat.H
+  surfaceFormats/nas/NASsurfaceFormat.H
+  surfaceFormats/obj/OBJsurfaceFormat.H
+  surfaceFormats/off/OFFsurfaceFormat.H
+  surfaceFormats/ofs/OFSsurfaceFormat.H
+  surfaceFormats/ofs/OFSsurfaceFormatCore.H
+  surfaceFormats/smesh/SMESHsurfaceFormat.H
+  surfaceFormats/starcd/STARCDsurfaceFormat.H
+  surfaceFormats/starcd/STARCDsurfaceFormatCore.H
+  surfaceFormats/stl/STLpoint.H
+  surfaceFormats/stl/STLsurfaceFormat.H
+  surfaceFormats/stl/STLsurfaceFormatCore.H
+  surfaceFormats/stl/STLtriangle.H
+  surfaceFormats/stl/STLtriangleI.H
+  surfaceFormats/surfaceFormatsCore.H
+  surfaceFormats/tri/TRIsurfaceFormat.H
+  surfaceFormats/tri/TRIsurfaceFormatCore.H
+  surfaceFormats/vtk/VTKsurfaceFormat.H
+  surfaceFormats/vtk/VTKsurfaceFormatCore.H
+  surfaceFormats/wrl/WRLsurfaceFormat.H
+  surfaceFormats/wrl/WRLsurfaceFormatCore.H
+  surfaceFormats/x3d/X3DsurfaceFormat.H
+  surfaceFormats/x3d/X3DsurfaceFormatCore.H
+  surfaceRegistry/surfaceRegistry.H
+)
+install( TARGETS surfMesh )

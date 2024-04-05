@@ -1,0 +1,6 @@
+add_subdirectory( DSMC )
+add_subdirectory( basic )
+add_subdirectory( functionObjects )
+add_subdirectory( molecularDynamics )
+add_subdirectory( parcel )
+add_subdirectory( solidParticle )

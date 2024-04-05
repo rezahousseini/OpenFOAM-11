@@ -1,0 +1,6 @@
+add_subdirectory( blockMesh )
+add_subdirectory( extrude2DMesh )
+add_subdirectory( extrudeMesh )
+add_subdirectory( extrudeToRegionMesh )
+add_subdirectory( snappyHexMesh )
+add_subdirectory( zeroDimensionalMesh )
