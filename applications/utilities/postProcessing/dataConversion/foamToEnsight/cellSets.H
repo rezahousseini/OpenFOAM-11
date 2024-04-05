@@ -31,7 +31,7 @@ Description
 #ifndef cellSets_H
 #define cellSets_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

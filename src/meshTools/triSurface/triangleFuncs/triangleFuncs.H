@@ -35,10 +35,10 @@ SourceFiles
 #ifndef triangleFuncs_H
 #define triangleFuncs_H
 
-#include "point.H"
-#include "label.H"
-#include "scalar.H"
-#include "pointField.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

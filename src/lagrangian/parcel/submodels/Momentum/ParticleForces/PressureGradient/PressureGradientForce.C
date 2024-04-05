@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PressureGradientForce.H"
-#include "fvcDdt.H"
-#include "fvcGrad.H"
+#include "submodels/Momentum/ParticleForces/PressureGradient/PressureGradientForce.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

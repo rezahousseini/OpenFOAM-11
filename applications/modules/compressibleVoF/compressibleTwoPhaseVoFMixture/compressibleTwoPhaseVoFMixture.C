@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compressibleTwoPhaseVoFMixture.H"
+#include "compressibleTwoPhaseVoFMixture/compressibleTwoPhaseVoFMixture.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -44,21 +44,21 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubset.H"
-#include "argList.H"
-#include "cellSet.H"
-#include "IOobjectList.H"
-#include "volFields.H"
-#include "polyTopoChangeMap.H"
-#include "faceSet.H"
-#include "cellSet.H"
-#include "syncTools.H"
-#include "polyTopoChange.H"
-#include "polyModifyFace.H"
-#include "polyAddFace.H"
-#include "regionSplit.H"
-#include "Tuple2.H"
-#include "cyclicFvPatch.H"
+#include "fvMeshSubset/fvMeshSubset.H"
+#include "global/argList/argList.H"
+#include "sets/topoSets/cellSet.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/cellSet.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/polyTopoChange/addObject/polyAddFace.H"
+#include "regionSplit/regionSplit.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
 
 using namespace Foam;
 
@@ -561,10 +561,10 @@ label findPatch(const polyBoundaryMesh& patches, const word& patchName)
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createMeshNoChangers.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createMeshNoChangers.H"
 
     // Read control dictionary
     // ~~~~~~~~~~~~~~~~~~~~~~~

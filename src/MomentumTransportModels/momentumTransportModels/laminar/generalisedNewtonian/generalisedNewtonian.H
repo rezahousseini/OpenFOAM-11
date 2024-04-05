@@ -35,9 +35,9 @@ SourceFiles
 #ifndef generalisedNewtonian_H
 #define generalisedNewtonian_H
 
-#include "laminarModel.H"
-#include "linearViscousStress.H"
-#include "generalisedNewtonianViscosityModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "linearViscousStress/linearViscousStress.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonianViscosityModels/generalisedNewtonianViscosityModel/generalisedNewtonianViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -136,7 +136,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "generalisedNewtonian.C"
+    #include "laminar/generalisedNewtonian/generalisedNewtonian.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -43,9 +43,9 @@ SourceFiles
 #ifndef parcelThermo_H
 #define parcelThermo_H
 
-#include "fluidThermo.H"
-#include "liquidMixtureProperties.H"
-#include "solidMixtureProperties.H"
+#include "fluidThermo/fluidThermo.H"
+#include "liquidProperties/liquidMixtureProperties/liquidMixtureProperties.H"
+#include "solidProperties/solidMixtureProperties/solidMixtureProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

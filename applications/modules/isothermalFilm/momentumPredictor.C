@@ -24,11 +24,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "isothermalFilm.H"
-#include "surfaceTensionModel.H"
-#include "fvmDiv.H"
-#include "fvcSnGrad.H"
-#include "fvcLaplacian.H"
-#include "fvcReconstruct.H"
+#include "surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

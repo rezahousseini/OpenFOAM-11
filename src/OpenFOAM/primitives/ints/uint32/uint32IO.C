@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uint32.H"
-#include "IOstreams.H"
+#include "primitives/ints/uint32/uint32.H"
+#include "db/IOstreams/IOstreams.H"
 
 #include <sstream>
 

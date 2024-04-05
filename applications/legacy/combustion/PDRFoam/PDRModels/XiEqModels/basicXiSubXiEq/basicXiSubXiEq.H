@@ -66,7 +66,7 @@ SourceFiles
 #ifndef basicXiSubXiEq_H
 #define basicXiSubXiEq_H
 
-#include "XiEqModel.H"
+#include "XiModels/XiEqModels/XiEqModel/XiEqModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionSet.H"
-#include "IOstreams.H"
-#include "dimensionedScalar.H"
+#include "dimensionSet/dimensionSet.H"
+#include "db/IOstreams/IOstreams.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 #include <limits>
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

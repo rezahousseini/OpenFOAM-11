@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatch.H"
-#include "Map.H"
+#include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

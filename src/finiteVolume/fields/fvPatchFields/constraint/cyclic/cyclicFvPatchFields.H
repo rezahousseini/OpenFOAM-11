@@ -26,8 +26,8 @@ License
 #ifndef cyclicFvPatchFields_H
 #define cyclicFvPatchFields_H
 
-#include "cyclicFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

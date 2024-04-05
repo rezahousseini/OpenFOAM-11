@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CloudFilmTransfer.H"
-#include "filmCloudTransfer.H"
-#include "mappedPatchBase.H"
-#include "ThermoCloud.H"
-#include "meshTools.H"
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvModels/filmCloudTransfer/cloudFilmTransfer/CloudFilmTransfer/CloudFilmTransfer.H"
+#include "fvModels/filmCloudTransfer/filmCloudTransfer.H"
+#include "mappedPatches/mappedPatchBase/mappedPatchBase.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloud.H"
+#include "meshTools/meshTools.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant::mathematical;
 

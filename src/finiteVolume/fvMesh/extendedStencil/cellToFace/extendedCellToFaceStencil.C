@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedCellToFaceStencil.H"
-#include "globalIndex.H"
-#include "syncTools.H"
-#include "SortableList.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedCellToFaceStencil.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "containers/Lists/SortableList/SortableList.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

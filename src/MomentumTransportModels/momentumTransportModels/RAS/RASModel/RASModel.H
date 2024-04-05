@@ -39,7 +39,7 @@ SourceFiles
 #define RASModel_H
 
 #include "momentumTransportModel.H"
-#include "generalisedNewtonianViscosityModel.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonianViscosityModels/generalisedNewtonianViscosityModel/generalisedNewtonianViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -256,7 +256,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "RASModel.C"
+    #include "RAS/RASModel/RASModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSet.H"
-#include "polyMesh.H"
-#include "meshSearch.H"
-#include "setWriter.H"
-#include "lineCell.H"
-#include "lineCellFace.H"
-#include "lineFace.H"
-#include "lineUniform.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshSearch/meshSearch.H"
+#include "sampledSet/writers/setWriter.H"
+#include "sampledSet/lineCell/lineCell.H"
+#include "sampledSet/lineCellFace/lineCellFace.H"
+#include "sampledSet/lineFace/lineFace.H"
+#include "sampledSet/lineUniform/lineUniform.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

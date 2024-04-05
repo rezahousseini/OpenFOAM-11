@@ -35,9 +35,9 @@ SourceFiles
 #ifndef vector_H
 #define vector_H
 
-#include "scalar.H"
-#include "Vector.H"
-#include "contiguous.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/Vector.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

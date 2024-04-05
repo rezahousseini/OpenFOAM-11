@@ -38,7 +38,7 @@ SourceFiles
 #ifndef timeScaleFilteredHeatTransfer_H
 #define timeScaleFilteredHeatTransfer_H
 
-#include "heatTransferModel.H"
+#include "heatTransferModels/heatTransferModel/heatTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

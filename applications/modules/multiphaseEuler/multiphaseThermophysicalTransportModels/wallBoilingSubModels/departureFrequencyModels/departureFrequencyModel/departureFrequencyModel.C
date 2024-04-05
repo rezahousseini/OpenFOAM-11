@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "departureFrequencyModel.H"
+#include "wallBoilingSubModels/departureFrequencyModels/departureFrequencyModel/departureFrequencyModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

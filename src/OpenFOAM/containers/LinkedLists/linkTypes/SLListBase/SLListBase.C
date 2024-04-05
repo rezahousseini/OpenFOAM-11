@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "SLListBase.H"
+#include "db/error/error.H"
+#include "containers/LinkedLists/linkTypes/SLListBase/SLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

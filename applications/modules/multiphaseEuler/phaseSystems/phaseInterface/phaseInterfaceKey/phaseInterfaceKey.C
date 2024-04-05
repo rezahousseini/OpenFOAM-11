@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseModel.H"
-#include "phaseInterface.H"
-#include "phaseInterfaceKey.H"
+#include "phaseModel/phaseModel/phaseModel.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
+#include "phaseInterface/phaseInterfaceKey/phaseInterfaceKey.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

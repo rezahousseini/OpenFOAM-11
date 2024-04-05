@@ -35,8 +35,8 @@ SourceFiles
 #ifndef nonConformalProcessorCyclicFvsPatchField_H
 #define nonConformalProcessorCyclicFvsPatchField_H
 
-#include "nonConformalProcessorCyclicFvPatch.H"
-#include "processorCyclicFvsPatchField.H"
+#include "fvMesh/fvPatches/constraint/nonConformalProcessorCyclic/nonConformalProcessorCyclicFvPatch.H"
+#include "fields/fvsPatchFields/constraint/processorCyclic/processorCyclicFvsPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -137,7 +137,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nonConformalProcessorCyclicFvsPatchField.C"
+    #include "fields/fvsPatchFields/constraint/nonConformalProcessorCyclic/nonConformalProcessorCyclicFvsPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

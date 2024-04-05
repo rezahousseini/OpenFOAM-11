@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixedFixedValueSlipFvPatchField.H"
-#include "symmTransformField.H"
+#include "derivedFvPatchFields/mixedFixedValueSlip/mixedFixedValueSlipFvPatchField.H"
+#include "fields/Fields/symmTransformField/symmTransformField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

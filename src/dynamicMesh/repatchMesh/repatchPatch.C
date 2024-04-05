@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "repatchPatch.H"
-#include "dictionary.H"
-#include "Ostream.H"
+#include "repatchMesh/repatchPatch.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -42,8 +42,8 @@ SourceFiles
 #ifndef viscosityModel_H
 #define viscosityModel_H
 
-#include "physicalProperties.H"
-#include "viscosity.H"
+#include "physicalProperties/physicalProperties.H"
+#include "viscosity/viscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

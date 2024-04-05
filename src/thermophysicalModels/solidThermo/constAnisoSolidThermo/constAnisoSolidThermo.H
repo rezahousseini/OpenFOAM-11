@@ -117,7 +117,7 @@ SourceFiles
 #ifndef constAnisoSolidThermo_H
 #define constAnisoSolidThermo_H
 
-#include "constSolidThermo.H"
+#include "constSolidThermo/constSolidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

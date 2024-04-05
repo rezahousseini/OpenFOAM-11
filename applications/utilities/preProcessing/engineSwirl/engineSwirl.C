@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "volFields.H"
-#include "mathematicalConstants.H"
+#include "global/argList/argList.H"
+#include "fields/volFields/volFields.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam;
 
@@ -39,9 +39,9 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMeshNoChangers.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMeshNoChangers.H"
     #include "createFields.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

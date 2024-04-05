@@ -35,8 +35,8 @@ SourceFiles
 #ifndef weighted_H
 #define weighted_H
 
-#include "surfaceInterpolationScheme.H"
-#include "volFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

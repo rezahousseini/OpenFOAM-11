@@ -35,7 +35,7 @@ SourceFiles
 #ifndef polyMeshCheck_H
 #define polyMeshCheck_H
 
-#include "polyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

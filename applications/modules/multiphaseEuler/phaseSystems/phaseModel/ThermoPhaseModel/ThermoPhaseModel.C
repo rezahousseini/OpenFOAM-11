@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoPhaseModel.H"
-#include "phaseSystem.H"
+#include "phaseModel/ThermoPhaseModel/ThermoPhaseModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

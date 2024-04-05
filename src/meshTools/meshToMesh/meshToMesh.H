@@ -36,11 +36,11 @@ SourceFiles
 #ifndef meshToMesh_H
 #define meshToMesh_H
 
-#include "polyMesh.H"
-#include "cellsToCells.H"
-#include "cellsToCellsStabilisation.H"
-#include "patchToPatch.H"
-#include "patchToPatchStabilisation.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "cellsToCells/cellsToCells/cellsToCells.H"
+#include "cellsToCells/cellsToCellsStabilisation/cellsToCellsStabilisation.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
+#include "patchToPatch/patchToPatchStabilisation/patchToPatchStabilisation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshToMeshI.H"
+#include "meshToMesh/meshToMeshI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

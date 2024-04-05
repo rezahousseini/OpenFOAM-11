@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleMomentumTransportModel.H"
-#include "fvMatrix.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

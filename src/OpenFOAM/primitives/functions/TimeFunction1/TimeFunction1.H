@@ -36,8 +36,8 @@ SourceFiles
 #ifndef TimeFunction1_H
 #define TimeFunction1_H
 
-#include "Function1.H"
-#include "Time.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TimeFunction1.C"
+    #include "primitives/functions/TimeFunction1/TimeFunction1.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "eddyDiffusivity.H"
-#include "fvmLaplacian.H"
-#include "fvcLaplacian.H"
+#include "turbulence/eddyDiffusivity/eddyDiffusivity.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

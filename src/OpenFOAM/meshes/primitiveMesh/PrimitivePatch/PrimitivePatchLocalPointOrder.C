@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "SLList.H"
-#include "boolList.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

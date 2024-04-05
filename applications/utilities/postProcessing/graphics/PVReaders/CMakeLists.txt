@@ -1,8 +1,6 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 3.5.1)
-
-PROJECT(PVReaders)
-
-FIND_PACKAGE(ParaView REQUIRED)
+if( ${ParaView_FOUND} )
+add_subdirectory( vtkPVFoam )
+add_subdirectory( vtkPVblockMesh )
 
 INCLUDE(GNUInstallDirs)
 
@@ -17,3 +15,4 @@ PARAVIEW_PLUGIN_SCAN(
 )
 
 PARAVIEW_PLUGIN_BUILD(PLUGINS ${plugins})
+endif()

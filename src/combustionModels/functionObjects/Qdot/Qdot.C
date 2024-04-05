@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Qdot.H"
-#include "combustionModel.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/Qdot/Qdot.H"
+#include "combustionModel/combustionModel.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

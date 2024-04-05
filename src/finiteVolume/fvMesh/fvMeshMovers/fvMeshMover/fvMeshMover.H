@@ -39,7 +39,7 @@ SourceFiles
 #ifndef fvMeshMover_H
 #define fvMeshMover_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

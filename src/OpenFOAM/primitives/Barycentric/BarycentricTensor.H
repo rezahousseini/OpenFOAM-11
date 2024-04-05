@@ -38,9 +38,9 @@ SourceFiles
 #ifndef BarycentricTensor_H
 #define BarycentricTensor_H
 
-#include "Barycentric.H"
-#include "Tensor.H"
-#include "Vector.H"
+#include "primitives/Barycentric/Barycentric.H"
+#include "primitives/Tensor/Tensor.H"
+#include "primitives/Vector/Vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BarycentricTensorI.H"
+#include "primitives/Barycentric/BarycentricTensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

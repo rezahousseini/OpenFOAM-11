@@ -35,12 +35,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "viscosityModel.H"
+#include "global/argList/argList.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
 #include "incompressibleMomentumTransportModels.H"
-#include "wallDist.H"
-#include "bound.H"
-#include "fvcFlux.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "cfdTools/general/bound/bound.H"
+#include "finiteVolume/fvc/fvcFlux.H"
 
 using namespace Foam;
 
@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
         "write nut field"
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (!args.optionFound("ybl") && !args.optionFound("Cbl"))
     {
@@ -96,8 +96,8 @@ int main(int argc, char *argv[])
             << exit(FatalError);
     }
 
-    #include "createTime.H"
-    #include "createMeshNoChangers.H"
+    #include "include/createTime.H"
+    #include "include/createMeshNoChangers.H"
     #include "createFields.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -122,7 +122,7 @@ int main(int argc, char *argv[])
     U.write();
 
     // Update/re-write phi
-    #include "createPhi.H"
+    #include "cfdTools/incompressible/createPhi.H"
     phi.write();
 
     autoPtr<viscosityModel> viscosity(viscosityModel::New(mesh));

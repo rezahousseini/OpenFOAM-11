@@ -34,18 +34,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "extrude2DMesh.H"
-#include "extrudeModel.H"
-#include "polyTopoChange.H"
-#include "MeshedSurface.H"
-#include "edgeCollapser.H"
-#include "addPatchCellLayer.H"
-#include "patchToPoly2DMesh.H"
-#include "globalIndex.H"
-#include "IOdictionary.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "extrude2DMesh/extrude2DMesh/extrude2DMesh.H"
+#include "extrudeModel/extrudeModel.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "polyTopoChange/polyTopoChange/edgeCollapser.H"
+#include "polyTopoChange/polyTopoChange/addPatchCellLayer.H"
+#include "extrude2DMesh/patchToPoly2DMesh/patchToPoly2DMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 using namespace Foam;
 
@@ -115,9 +115,9 @@ int main(int argc, char *argv[])
 {
     argList::validArgs.append("surfaceFormat");
 
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     Info<< "Create time\n" << endl;
 

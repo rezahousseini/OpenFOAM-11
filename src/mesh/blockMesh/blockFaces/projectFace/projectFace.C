@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "projectFace.H"
-#include "blockDescriptor.H"
-#include "linearInterpolationWeights.H"
-#include "OBJstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "blockFaces/projectFace/projectFace.H"
+#include "blockDescriptor/blockDescriptor.H"
+#include "interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.H"
+#include "obj/OBJstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

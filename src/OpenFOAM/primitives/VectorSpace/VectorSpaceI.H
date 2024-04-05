@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "products.H"
-#include "VectorSpaceOps.H"
-#include "ops.H"
+#include "db/error/error.H"
+#include "primitives/VectorSpace/products.H"
+#include "primitives/VectorSpace/VectorSpaceOps.H"
+#include "primitives/ops/ops.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

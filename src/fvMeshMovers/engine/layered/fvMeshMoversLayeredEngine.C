@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshMoversLayeredEngine.H"
-#include "addToRunTimeSelectionTable.H"
+#include "engine/layered/fvMeshMoversLayeredEngine.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

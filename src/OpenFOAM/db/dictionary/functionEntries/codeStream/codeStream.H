@@ -73,7 +73,7 @@ Usage
             //- Optional:
             codeInclude
             #{
-                #include "volFields.H"
+                #include "fields/volFields/volFields.H"
             #};
 
             //- Optional:
@@ -97,8 +97,8 @@ Usage
         {
             codeInclude
             #{
-                #include "pointField.H"
-                #include "transform.H"
+                #include "meshes/primitiveShapes/point/pointField.H"
+                #include "primitives/transform/transform.H"
             #};
 
             code
@@ -120,7 +120,7 @@ Usage
        {
            codeInclude
            #{
-               #include "polygonTriangulate.H"
+               #include "algorithms/polygonTriangulate/polygonTriangulate.H"
            #};
 
            code
@@ -151,7 +151,7 @@ Usage
         {
             codeInclude
             #{
-                #include "boundBox.H"
+                #include "meshes/boundBox/boundBox.H"
             #};
 
             code
@@ -185,7 +185,7 @@ SourceFiles
 #ifndef codeStream_H
 #define codeStream_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

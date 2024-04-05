@@ -35,7 +35,7 @@ SourceFiles
 #ifndef harmonicSpring_H
 #define harmonicSpring_H
 
-#include "tetherPotential.H"
+#include "tetherPotential/basic/tetherPotential.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

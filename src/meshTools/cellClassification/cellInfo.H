@@ -37,9 +37,9 @@ SourceFiles
 #ifndef cellInfo_H
 #define cellInfo_H
 
-#include "point.H"
-#include "label.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -202,7 +202,7 @@ inline bool contiguous<cellInfo>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellInfoI.H"
+#include "cellClassification/cellInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

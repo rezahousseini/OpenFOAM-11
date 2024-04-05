@@ -35,7 +35,7 @@ SourceFiles
 #ifndef solidDisplacementThermo_H
 #define solidDisplacementThermo_H
 
-#include "constSolidThermo.H"
+#include "constSolidThermo/constSolidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

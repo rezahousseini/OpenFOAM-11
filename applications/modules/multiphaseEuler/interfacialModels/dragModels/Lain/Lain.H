@@ -50,7 +50,7 @@ SourceFiles
 #ifndef Lain_H
 #define Lain_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

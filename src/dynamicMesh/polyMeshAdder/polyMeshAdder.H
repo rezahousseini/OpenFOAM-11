@@ -38,11 +38,11 @@ SourceFiles
 #ifndef polyMeshAdder_H
 #define polyMeshAdder_H
 
-#include "autoPtr.H"
-#include "polyMesh.H"
-#include "mapAddedPolyMesh.H"
-#include "faceCoupleInfo.H"
-#include "SortableList.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/mapAddedPolyMesh.H"
+#include "polyMeshAdder/faceCoupleInfo.H"
+#include "containers/Lists/SortableList/SortableList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

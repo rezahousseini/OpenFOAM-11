@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloudSolution.H"
-#include "Time.H"
-#include "localEulerDdtScheme.H"
+#include "clouds/Templates/MomentumCloud/cloudSolution/cloudSolution.H"
+#include "db/Time/Time.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

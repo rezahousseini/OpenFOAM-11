@@ -41,14 +41,14 @@ SourceFiles
 #ifndef searchableSurface_H
 #define searchableSurface_H
 
-#include "pointField.H"
-#include "boundBox.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "pointIndexHit.H"
-#include "linePointRef.H"
-#include "objectRegistry.H"
-#include "volumeType.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/boundBox/boundBox.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshes/primitiveShapes/line/linePointRef.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "algorithms/indexedOctree/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

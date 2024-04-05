@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "partialSlipFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/partialSlip/partialSlipFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

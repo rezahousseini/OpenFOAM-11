@@ -36,7 +36,7 @@ Description
 #ifndef MixedDiffuseSpecular_H
 #define MixedDiffuseSpecular_H
 
-#include "WallInteractionModel.H"
+#include "submodels/WallInteractionModel/WallInteractionModel/WallInteractionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -91,7 +91,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MixedDiffuseSpecular.C"
+    #include "submodels/WallInteractionModel/MixedDiffuseSpecular/MixedDiffuseSpecular.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

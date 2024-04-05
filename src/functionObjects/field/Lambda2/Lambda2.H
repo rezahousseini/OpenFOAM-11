@@ -41,7 +41,7 @@ SourceFiles
 #ifndef functionObjects_Lambda2_H
 #define functionObjects_Lambda2_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

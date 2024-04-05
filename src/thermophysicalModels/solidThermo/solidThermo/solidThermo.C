@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidThermo.H"
-#include "fvMesh.H"
+#include "solidThermo/solidThermo.H"
+#include "fvMesh/fvMesh.H"
 
 /* * * * * * * * * * * * * * * private static data * * * * * * * * * * * * * */
 

@@ -38,8 +38,8 @@ See also
 #ifndef internalPointPatch_H
 #define internalPointPatch_H
 
-#include "facePointPatch.H"
-#include "internalPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/internal/internalPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

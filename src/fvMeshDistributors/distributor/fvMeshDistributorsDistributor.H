@@ -54,7 +54,7 @@ SourceFiles
 #ifndef fvMeshDistributorsDistributor_H
 #define fvMeshDistributorsDistributor_H
 
-#include "fvMeshDistributor.H"
+#include "fvMesh/fvMeshDistributors/fvMeshDistributor/fvMeshDistributor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorTopology.H"
-#include "polyBoundaryMesh.H"
-#include "processorPolyPatch.H"
-#include "commSchedule.H"
+#include "meshes/polyMesh/globalMeshData/processorTopology.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/globalMeshData/commSchedule.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

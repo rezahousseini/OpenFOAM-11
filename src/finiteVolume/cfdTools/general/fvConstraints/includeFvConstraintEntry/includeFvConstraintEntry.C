@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "includeFvConstraintEntry.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "cfdTools/general/fvConstraints/includeFvConstraintEntry/includeFvConstraintEntry.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

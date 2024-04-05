@@ -36,7 +36,7 @@ SourceFiles
 #ifndef turbulentShear_H
 #define turbulentShear_H
 
-#include "coalescenceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

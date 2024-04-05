@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PtrListDictionary.H"
-#include "UPtrListDictionary.H"
+#include "containers/Dictionaries/PtrListDictionary/PtrListDictionary.H"
+#include "containers/Dictionaries/UPtrListDictionary/UPtrListDictionary.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

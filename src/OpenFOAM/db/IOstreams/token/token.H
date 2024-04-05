@@ -37,19 +37,19 @@ SourceFiles
 #ifndef token_H
 #define token_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "scalar.H"
-#include "word.H"
-#include "functionName.H"
-#include "variable.H"
-#include "verbatimString.H"
-#include "InfoProxy.H"
-#include "refCount.H"
-#include "typeInfo.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/strings/functionName/functionName.H"
+#include "primitives/strings/variable/variable.H"
+#include "primitives/strings/verbatimString/verbatimString.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "memory/refCount/refCount.H"
+#include "db/typeInfo/typeInfo.H"
 
 #define NoHashTableC
-#include "runTimeSelectionTables.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 #include <iostream>
 
@@ -491,8 +491,8 @@ Ostream& operator<<(Ostream& os, const InfoProxy<token>& ip);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tokenI.H"
-#include "Istream.H"
+#include "db/IOstreams/token/tokenI.H"
+#include "db/IOstreams/IOstreams/Istream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

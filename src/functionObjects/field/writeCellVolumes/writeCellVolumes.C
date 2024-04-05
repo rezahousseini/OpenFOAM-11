@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeCellVolumes.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "writeCellVolumes/writeCellVolumes.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef residualDiameter_H
 #define residualDiameter_H
 
-#include "sphericalDiameter.H"
+#include "diameterModels/sphericalDiameter/sphericalDiameter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

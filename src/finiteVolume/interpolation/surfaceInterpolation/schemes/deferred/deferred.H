@@ -41,7 +41,7 @@ SourceFiles
 #ifndef deferred_H
 #define deferred_H
 
-#include "upwind.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

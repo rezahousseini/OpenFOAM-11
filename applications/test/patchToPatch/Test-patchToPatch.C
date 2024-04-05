@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "cpuTime.H"
-#include "patchToPatch.H"
-#include "polyMesh.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "cpuTime/cpuTime.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -54,10 +54,10 @@ int main(int argc, char *argv[])
         "The region with the source patch"
     );
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedPolyMesh.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedPolyMesh.H"
 
     // Optionally read a different mesh for the source
     autoPtr<Time> srcRunTimePtr;

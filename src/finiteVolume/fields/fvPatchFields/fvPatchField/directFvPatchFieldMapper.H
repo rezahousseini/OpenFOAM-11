@@ -32,8 +32,8 @@ Description
 #ifndef directFvPatchFieldMapper_H
 #define directFvPatchFieldMapper_H
 
-#include "fvPatchFieldMapper.H"
-#include "directFieldMapper.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/Fields/fieldMappers/directFieldMapper/directFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

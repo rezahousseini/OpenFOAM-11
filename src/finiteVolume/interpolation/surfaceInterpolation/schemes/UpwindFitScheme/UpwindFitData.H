@@ -38,7 +38,7 @@ SourceFiles
 #ifndef UpwindFitData_H
 #define UpwindFitData_H
 
-#include "FitData.H"
+#include "interpolation/surfaceInterpolation/schemes/FitData/FitData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UpwindFitData.C"
+    #include "interpolation/surfaceInterpolation/schemes/UpwindFitScheme/UpwindFitData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

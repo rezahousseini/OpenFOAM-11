@@ -57,7 +57,7 @@ SourceFiles
 #ifndef kLowReWallFunctionFvPatchScalarField_H
 #define kLowReWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchField.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

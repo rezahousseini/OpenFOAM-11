@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MPPICCloud.H"
-#include "NoPacking.H"
-#include "ParticleStressModel.H"
-#include "NoDamping.H"
-#include "NoIsotropy.H"
-#include "TimeScaleModel.H"
+#include "clouds/Templates/MPPICCloud/MPPICCloud.H"
+#include "submodels/MPPIC/PackingModels/NoPacking/NoPacking.H"
+#include "submodels/MPPIC/ParticleStressModels/ParticleStressModel/ParticleStressModel.H"
+#include "submodels/MPPIC/DampingModels/NoDamping/NoDamping.H"
+#include "submodels/MPPIC/IsotropyModels/NoIsotropy/NoIsotropy.H"
+#include "submodels/MPPIC/TimeScaleModels/TimeScaleModel/TimeScaleModel.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OFstreamCollator.H"
-#include "OFstream.H"
-#include "decomposedBlockData.H"
-#include "masterUncollatedFileOperation.H"
-#include "OSspecific.H"
+#include "global/fileOperations/collatedFileOperation/OFstreamCollator.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

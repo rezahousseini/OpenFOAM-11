@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceSaturationTemperatureModel.H"
+#include "interfaceSaturationTemperatureModel/interfaceSaturationTemperatureModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

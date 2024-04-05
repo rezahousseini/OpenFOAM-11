@@ -54,7 +54,7 @@ SourceFiles
 #ifndef liquidPropertiesSurfaceTension_H
 #define liquidPropertiesSurfaceTension_H
 
-#include "surfaceTensionModel.H"
+#include "surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

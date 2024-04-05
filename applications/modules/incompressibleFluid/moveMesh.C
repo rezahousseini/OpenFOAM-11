@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleFluid.H"
-#include "fvCorrectPhi.H"
-#include "fvcMeshPhi.H"
+#include "cfdTools/general/correctPhi/fvCorrectPhi.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

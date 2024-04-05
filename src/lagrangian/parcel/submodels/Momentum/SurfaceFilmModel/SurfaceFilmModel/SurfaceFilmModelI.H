@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SurfaceFilmModel.H"
+#include "submodels/Momentum/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModel.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

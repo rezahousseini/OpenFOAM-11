@@ -36,7 +36,7 @@ SourceFiles
 #ifndef RemoteData_H
 #define RemoteData_H
 
-#include "remote.H"
+#include "primitives/remote/remote.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ struct pTraits<RemoteData<Type>>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "RemoteDataI.H"
+#include "primitives/RemoteData/RemoteDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -57,7 +57,7 @@ SourceFiles
 #define LienCubicKE_H
 
 #include "incompressibleMomentumTransportModels.H"
-#include "nonlinearEddyViscosity.H"
+#include "nonlinearEddyViscosity/nonlinearEddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

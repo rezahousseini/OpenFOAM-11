@@ -38,8 +38,8 @@ SourceFiles
 #ifndef PtrListDictionary_H
 #define PtrListDictionary_H
 
-#include "DictionaryBase.H"
-#include "PtrList.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PtrListDictionary.C"
+    #include "containers/Dictionaries/PtrListDictionary/PtrListDictionary.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

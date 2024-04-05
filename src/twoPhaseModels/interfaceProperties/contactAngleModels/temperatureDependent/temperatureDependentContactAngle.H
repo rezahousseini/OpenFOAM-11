@@ -59,8 +59,8 @@ SourceFiles
 #ifndef temperatureDependentContactAngle_H
 #define temperatureDependentContactAngle_H
 
-#include "contactAngleModel.H"
-#include "Function1.H"
+#include "contactAngleModels/contactAngleModel/contactAngleModel.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatch.H"
-#include "demandDrivenData.H"
+#include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.H"
+#include "include/demandDrivenData.H"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

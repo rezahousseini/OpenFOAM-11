@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellEdgeAddressing.H"
-#include "polyDistributionMap.H"
-#include "polyTopoChangeMap.H"
-#include "polyMeshMap.H"
-#include "HashList.H"
+#include "cutPoly/cellEdgeAddressing.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyMeshMap/polyMeshMap.H"
+#include "containers/HashTables/HashList/HashList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

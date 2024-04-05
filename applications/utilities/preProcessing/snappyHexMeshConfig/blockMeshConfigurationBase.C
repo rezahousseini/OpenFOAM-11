@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "blockMeshConfigurationBase.H"
-#include "polyPatch.H"
-#include "wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
 #include "blockMeshFunctions.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //

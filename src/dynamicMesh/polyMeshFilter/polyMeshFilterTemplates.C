@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshFilter.H"
-#include "polyMesh.H"
-#include "polyTopoChangeMap.H"
-#include "IOobjectList.H"
+#include "polyMeshFilter/polyMeshFilter.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * Public Member Functions * * * * * * * * * * * * //
 

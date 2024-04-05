@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicMeshPointInterpolator.H"
-#include "pointFields.H"
-#include "interpolationWeights.H"
-#include "uniformInterpolate.H"
-#include "ReadFields.H"
+#include "pointInterpolator/dynamicMeshPointInterpolator.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "interpolations/interpolationWeights/interpolationWeights/interpolationWeights.H"
+#include "fields/GeometricFields/GeometricField/uniformInterpolate.H"
+#include "fields/ReadFields/ReadFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

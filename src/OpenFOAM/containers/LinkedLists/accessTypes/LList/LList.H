@@ -36,7 +36,7 @@ SourceFiles
 #ifndef LList_H
 #define LList_H
 
-#include "label.H"
+#include "primitives/ints/label/label.H"
 #include <initializer_list>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -381,7 +381,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LList.C"
+    #include "containers/LinkedLists/accessTypes/LList/LList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

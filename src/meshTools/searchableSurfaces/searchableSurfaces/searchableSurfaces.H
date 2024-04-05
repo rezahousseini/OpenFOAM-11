@@ -35,8 +35,8 @@ SourceFiles
 #ifndef searchableSurfaces_H
 #define searchableSurfaces_H
 
-#include "searchableSurface.H"
-#include "labelPair.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

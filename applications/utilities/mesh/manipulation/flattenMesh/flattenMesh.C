@@ -29,11 +29,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "emptyPolyPatch.H"
-#include "twoDPointCorrector.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "twoDPointCorrector/twoDPointCorrector.H"
 
 using namespace Foam;
 
@@ -41,9 +41,9 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     pointIOField points
     (

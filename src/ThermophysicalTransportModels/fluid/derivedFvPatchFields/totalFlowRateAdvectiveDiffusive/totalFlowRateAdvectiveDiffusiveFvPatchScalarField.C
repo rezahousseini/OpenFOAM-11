@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "totalFlowRateAdvectiveDiffusiveFvPatchScalarField.H"
-#include "surfaceFields.H"
-#include "fluidThermophysicalTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/totalFlowRateAdvectiveDiffusive/totalFlowRateAdvectiveDiffusiveFvPatchScalarField.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

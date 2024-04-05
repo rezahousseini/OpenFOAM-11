@@ -115,8 +115,8 @@ SourceFiles
 #ifndef externalCoupledMixedFvPatchField_H
 #define externalCoupledMixedFvPatchField_H
 
-#include "mixedFvPatchFields.H"
-#include "OFstream.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -324,7 +324,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "externalCoupledMixedFvPatchField.C"
+    #include "fields/fvPatchFields/derived/externalCoupledMixed/externalCoupledMixedFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

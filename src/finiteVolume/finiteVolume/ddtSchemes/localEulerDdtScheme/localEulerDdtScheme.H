@@ -46,7 +46,7 @@ SourceFiles
 #ifndef localEulerDdtScheme_H
 #define localEulerDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -351,7 +351,7 @@ tmp<surfaceScalarField> localEulerDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "localEulerDdtScheme.C"
+    #include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

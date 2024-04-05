@@ -39,8 +39,8 @@ SourceFiles
 #ifndef psiuMulticomponentThermo_H
 #define psiuMulticomponentThermo_H
 
-#include "psiThermo.H"
-#include "basicCombustionMixture.H"
+#include "psiThermo/psiThermo.H"
+#include "mixtures/basicCombustionMixture/basicCombustionMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

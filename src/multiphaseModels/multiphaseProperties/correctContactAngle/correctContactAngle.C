@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "correctContactAngle.H"
-#include "unitConversion.H"
+#include "correctContactAngle/correctContactAngle.H"
+#include "global/unitConversion/unitConversion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

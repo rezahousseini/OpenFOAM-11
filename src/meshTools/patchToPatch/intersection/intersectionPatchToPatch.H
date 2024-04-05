@@ -37,10 +37,10 @@ SourceFiles
 #ifndef intersectionPatchToPatch_H
 #define intersectionPatchToPatch_H
 
-#include "patchToPatch.H"
-#include "polygonTriangulate.H"
-#include "triFaceList.H"
-#include "triIntersectLocation.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
+#include "algorithms/polygonTriangulate/polygonTriangulate.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
+#include "triIntersect/triIntersectLocation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -428,7 +428,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "intersectionPatchToPatchI.H"
+#include "patchToPatch/intersection/intersectionPatchToPatchI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

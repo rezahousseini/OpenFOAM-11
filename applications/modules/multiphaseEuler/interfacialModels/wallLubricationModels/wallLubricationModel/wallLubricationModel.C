@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallLubricationModel.H"
-#include "wallFvPatch.H"
+#include "wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

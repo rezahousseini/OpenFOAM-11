@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "segregatedBlendingMethod.H"
-#include "addToRunTimeSelectionTable.H"
+#include "BlendedInterfacialModel/blendingMethods/segregatedBlendingMethod/segregatedBlendingMethod.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

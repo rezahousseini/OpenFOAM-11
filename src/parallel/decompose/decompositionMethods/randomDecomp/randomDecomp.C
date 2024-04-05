@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "randomDecomp.H"
-#include "clock.H"
-#include "Random.H"
-#include "addToRunTimeSelectionTable.H"
+#include "randomDecomp/randomDecomp.H"
+#include "global/clock/clock.H"
+#include "primitives/Random/Random.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

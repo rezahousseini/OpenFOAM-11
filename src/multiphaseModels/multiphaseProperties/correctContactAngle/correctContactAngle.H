@@ -38,8 +38,8 @@ SourceFiles
 #ifndef correctContactAngle_H
 #define correctContactAngle_H
 
-#include "alphaContactAngleFvPatchScalarField.H"
-#include "surfaceFields.H"
+#include "alphaContactAngle/alphaContactAngleFvPatchScalarField.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidThermophysicalTransportModel.H"
-#include "isotropic.H"
+#include "solidThermophysicalTransportModel/solidThermophysicalTransportModel.H"
+#include "isotropic/isotropic.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

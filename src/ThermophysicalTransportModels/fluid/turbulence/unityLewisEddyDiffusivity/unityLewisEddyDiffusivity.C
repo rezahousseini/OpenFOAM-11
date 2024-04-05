@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "unityLewisEddyDiffusivity.H"
-#include "fvcSnGrad.H"
-#include "fvmLaplacian.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

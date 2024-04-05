@@ -38,7 +38,7 @@ SourceFiles
 #ifndef continuous_H
 #define continuous_H
 
-#include "blendingMethod.H"
+#include "BlendedInterfacialModel/blendingMethods/blendingMethod/blendingMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

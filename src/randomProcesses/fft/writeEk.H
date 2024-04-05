@@ -37,7 +37,7 @@ Description
 #ifndef writeEk_H
 #define writeEk_H
 
-#include "volFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

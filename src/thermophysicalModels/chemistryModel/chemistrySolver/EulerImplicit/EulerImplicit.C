@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EulerImplicit.H"
-#include "SubField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "chemistrySolver/EulerImplicit/EulerImplicit.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

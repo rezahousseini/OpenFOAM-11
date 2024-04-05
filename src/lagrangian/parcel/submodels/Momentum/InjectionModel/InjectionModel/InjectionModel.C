@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InjectionModel.H"
-#include "mathematicalConstants.H"
-#include "meshTools.H"
-#include "volFields.H"
-#include "Scale.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "meshTools/meshTools.H"
+#include "fields/volFields/volFields.H"
+#include "primitives/functions/Function1/Scale/Scale.H"
 
 using namespace Foam::constant::mathematical;
 
@@ -868,6 +868,6 @@ void Foam::InjectionModel<CloudType>::info(Ostream& os)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "InjectionModelNew.C"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModelNew.C"
 
 // ************************************************************************* //

@@ -44,7 +44,7 @@ SourceFiles
 #ifndef TomiyamaKataokaZunSakaguchi_H
 #define TomiyamaKataokaZunSakaguchi_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

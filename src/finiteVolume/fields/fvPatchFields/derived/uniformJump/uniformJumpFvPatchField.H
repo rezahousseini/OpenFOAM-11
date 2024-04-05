@@ -67,8 +67,8 @@ SourceFiles
 #ifndef uniformJumpFvPatchField_H
 #define uniformJumpFvPatchField_H
 
-#include "fixedJumpFvPatchField.H"
-#include "Function1.H"
+#include "fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchField.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -158,7 +158,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformJumpFvPatchField.C"
+    #include "fields/fvPatchFields/derived/uniformJump/uniformJumpFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

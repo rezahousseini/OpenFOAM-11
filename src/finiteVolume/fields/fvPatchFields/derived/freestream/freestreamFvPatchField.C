@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "freestreamFvPatchField.H"
-#include "surfaceFields.H"
+#include "fields/fvPatchFields/derived/freestream/freestreamFvPatchField.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

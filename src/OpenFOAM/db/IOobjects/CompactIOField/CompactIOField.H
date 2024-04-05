@@ -36,8 +36,8 @@ Description
 #ifndef CompactIOField_H
 #define CompactIOField_H
 
-#include "CompactIOList.H"
-#include "IOField.H"
+#include "db/IOobjects/CompactIOList/CompactIOList.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

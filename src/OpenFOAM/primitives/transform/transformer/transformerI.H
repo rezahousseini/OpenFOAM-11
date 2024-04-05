@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformer.H"
-#include "diagTensor.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "primitives/DiagTensor/diagTensor/diagTensor.H"
 
 // * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * * //
 

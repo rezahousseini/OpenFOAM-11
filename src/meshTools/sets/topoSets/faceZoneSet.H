@@ -35,8 +35,8 @@ SourceFiles
 #ifndef faceZoneSet_H
 #define faceZoneSet_H
 
-#include "faceSet.H"
-#include "boolList.H"
+#include "sets/topoSets/faceSet.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

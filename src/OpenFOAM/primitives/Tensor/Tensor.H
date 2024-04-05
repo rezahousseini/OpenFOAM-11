@@ -42,9 +42,9 @@ See also
 #ifndef Tensor_H
 #define Tensor_H
 
-#include "MatrixSpace.H"
-#include "Vector.H"
-#include "SphericalTensor.H"
+#include "primitives/MatrixSpace/MatrixSpace.H"
+#include "primitives/Vector/Vector.H"
+#include "primitives/SphericalTensor/SphericalTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -237,7 +237,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "TensorI.H"
+#include "primitives/Tensor/TensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

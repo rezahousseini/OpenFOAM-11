@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermo.H"
-#include "IOmanip.H"
-#include "IOstreams.H"
+#include "thermo/thermo/thermo.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

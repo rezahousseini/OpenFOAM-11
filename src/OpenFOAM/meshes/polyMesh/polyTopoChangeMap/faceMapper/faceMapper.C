@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceMapper.H"
-#include "fieldTypes.H"
-#include "demandDrivenData.H"
-#include "polyMesh.H"
-#include "polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyTopoChangeMap/faceMapper/faceMapper.H"
+#include "fields/Fields/fieldTypes.H"
+#include "include/demandDrivenData.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

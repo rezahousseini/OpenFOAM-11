@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchInjectionBase.H"
-#include "polyMesh.H"
-#include "SubField.H"
-#include "Random.H"
-#include "triPointRef.H"
-#include "volFields.H"
-#include "polyMeshTetDecomposition.H"
-#include "polygonTriangulate.H"
+#include "submodels/Momentum/InjectionModel/PatchInjection/patchInjectionBase.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/Fields/Field/SubField.H"
+#include "primitives/Random/Random.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
+#include "algorithms/polygonTriangulate/polygonTriangulate.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

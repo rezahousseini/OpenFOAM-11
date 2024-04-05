@@ -26,19 +26,19 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
 
-#include "fvMesh.H"
-#include "Time.H"
-#include "volMesh.H"
-#include "surfaceMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "ReadFields.H"
-#include "interpolationWeights.H"
-#include "uniformInterpolate.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/Time.H"
+#include "volMesh/volMesh.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "interpolations/interpolationWeights/interpolationWeights/interpolationWeights.H"
+#include "fields/GeometricFields/GeometricField/uniformInterpolate.H"
 
 using namespace Foam;
 
@@ -180,7 +180,7 @@ void fieldInterpolator::interpolate()
 int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::addOption
     (
         "fields",
@@ -201,8 +201,8 @@ int main(int argc, char *argv[])
         "specify type of interpolation (linear or spline)"
     );
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
 
     HashSet<word> selectedFields;
     if (args.optionFound("fields"))
@@ -254,7 +254,7 @@ int main(int argc, char *argv[])
     );
 
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     Info<< "Interpolating fields for times:" << endl;
 

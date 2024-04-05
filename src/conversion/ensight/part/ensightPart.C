@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightPart.H"
-#include "dictionary.H"
-#include "ListOps.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ensight/part/ensightPart.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 namespace Foam

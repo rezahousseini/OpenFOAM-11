@@ -32,8 +32,8 @@ Description
 #ifndef setSizePointPatchFieldMapper_H
 #define setSizePointPatchFieldMapper_H
 
-#include "pointPatchFieldMapper.H"
-#include "setSizeFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+#include "fields/Fields/fieldMappers/setSizeFieldMapper/setSizeFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

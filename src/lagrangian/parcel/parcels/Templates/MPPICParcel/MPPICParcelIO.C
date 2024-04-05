@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MPPICParcel.H"
-#include "IOstreams.H"
-#include "IOField.H"
+#include "parcels/Templates/MPPICParcel/MPPICParcel.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleMatrix.H"
-#include "vector.H"
+#include "matrices/simpleMatrix/simpleMatrix.H"
+#include "primitives/Vector/vector/vector.H"
 
 using namespace Foam;
 

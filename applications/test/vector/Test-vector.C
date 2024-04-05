@@ -1,5 +1,5 @@
-#include "vector.H"
-#include "IOstreams.H"
+#include "primitives/Vector/vector/vector.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

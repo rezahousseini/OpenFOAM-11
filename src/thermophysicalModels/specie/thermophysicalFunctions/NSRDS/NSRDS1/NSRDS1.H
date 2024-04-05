@@ -54,7 +54,7 @@ Description
 #ifndef NSRDS1_H
 #define NSRDS1_H
 
-#include "Function1.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

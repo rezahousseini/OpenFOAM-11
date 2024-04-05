@@ -52,9 +52,9 @@ SourceFiles
 #ifndef enrichedPatch_H
 #define enrichedPatch_H
 
-#include "primitiveFacePatch.H"
-#include "Map.H"
-#include "point.H"
+#include "meshes/primitiveMesh/primitivePatch/primitiveFacePatch.H"
+#include "containers/HashTables/Map/Map.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

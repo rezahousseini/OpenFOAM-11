@@ -32,8 +32,8 @@ Description
 #ifndef blockEdgeList_H
 #define blockEdgeList_H
 
-#include "blockEdge.H"
-#include "PtrList.H"
+#include "blockEdges/blockEdge/blockEdge.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

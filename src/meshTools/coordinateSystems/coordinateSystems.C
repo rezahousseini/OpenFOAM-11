@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateSystems.H"
-#include "Time.H"
+#include "coordinateSystems/coordinateSystems.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

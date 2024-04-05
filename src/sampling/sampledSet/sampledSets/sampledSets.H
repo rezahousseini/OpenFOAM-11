@@ -36,15 +36,15 @@ SourceFiles
 #ifndef sampledSets_H
 #define sampledSets_H
 
-#include "fvMeshFunctionObject.H"
-#include "sampledSet.H"
-#include "volFieldsFwd.H"
-#include "meshSearch.H"
-#include "interpolation.H"
-#include "coordSet.H"
-#include "setWriter.H"
-#include "wordReList.H"
-#include "HashPtrTable.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "meshSearch/meshSearch.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "coordSet/coordSet.H"
+#include "sampledSet/writers/setWriter.H"
+#include "primitives/strings/lists/wordReList.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -200,7 +200,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledSetsTemplates.C"
+    #include "sampledSet/sampledSets/sampledSetsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

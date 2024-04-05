@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedEdgeMesh.H"
-#include "ListListOps.H"
-#include "unitConversion.H"
-#include "PackedBoolList.H"
-#include "PatchTools.H"
-#include "searchableBox.H"
+#include "edgeMesh/extendedEdgeMesh/extendedEdgeMesh.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "global/unitConversion/unitConversion.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "searchableSurfaces/searchableBox/searchableBox.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

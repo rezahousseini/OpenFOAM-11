@@ -35,9 +35,9 @@ SourceFiles
 #ifndef floatScalar_H
 #define floatScalar_H
 
-#include "doubleFloat.H"
-#include "direction.H"
-#include "word.H"
+#include "primitives/Scalar/doubleFloat.H"
+#include "primitives/direction/direction.H"
+#include "primitives/strings/word/word.H"
 
 #include <limits>
 using std::numeric_limits;
@@ -123,7 +123,7 @@ inline Scalar func(const Scalar s) \
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "Scalar.H"
+#include "primitives/Scalar/Scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

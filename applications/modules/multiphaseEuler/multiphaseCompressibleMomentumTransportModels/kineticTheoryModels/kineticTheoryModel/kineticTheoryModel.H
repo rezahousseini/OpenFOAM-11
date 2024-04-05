@@ -45,16 +45,16 @@ SourceFiles
 #ifndef kineticTheoryModel_H
 #define kineticTheoryModel_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
 #include "phaseCompressibleMomentumTransportModel.H"
-#include "phaseModel.H"
-#include "dragModel.H"
-#include "kineticTheoryViscosityModel.H"
-#include "conductivityModel.H"
-#include "radialModel.H"
-#include "granularPressureModel.H"
-#include "frictionalStressModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
+#include "dragModels/dragModel/dragModel.H"
+#include "kineticTheoryModels/viscosityModel/viscosityModel/kineticTheoryViscosityModel.H"
+#include "kineticTheoryModels/conductivityModel/conductivityModel/conductivityModel.H"
+#include "kineticTheoryModels/radialModel/radialModel/radialModel.H"
+#include "kineticTheoryModels/granularPressureModel/granularPressureModel/granularPressureModel.H"
+#include "kineticTheoryModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

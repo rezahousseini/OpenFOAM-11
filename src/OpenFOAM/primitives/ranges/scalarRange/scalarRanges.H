@@ -35,8 +35,8 @@ SourceFiles
 #ifndef scalarRanges_H
 #define scalarRanges_H
 
-#include "scalarRange.H"
-#include "List.H"
+#include "primitives/ranges/scalarRange/scalarRange.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

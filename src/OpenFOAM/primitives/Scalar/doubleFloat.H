@@ -26,8 +26,8 @@ License
 #ifndef doubleFloat_H
 #define doubleFloat_H
 
-#include "label.H"
-#include "products.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/VectorSpace/products.H"
 
 #include <cmath>
 

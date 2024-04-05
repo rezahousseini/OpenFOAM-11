@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "eddyViscosity.H"
-#include "fvcMeshPhi.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
+#include "eddyViscosity/eddyViscosity.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

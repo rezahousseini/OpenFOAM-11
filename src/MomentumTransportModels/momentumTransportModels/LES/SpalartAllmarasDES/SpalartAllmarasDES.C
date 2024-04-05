@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpalartAllmarasDES.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
+#include "LES/SpalartAllmarasDES/SpalartAllmarasDES.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

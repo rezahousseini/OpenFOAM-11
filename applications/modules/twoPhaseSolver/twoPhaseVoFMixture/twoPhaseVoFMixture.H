@@ -35,7 +35,7 @@ SourceFiles
 #ifndef twoPhaseVoFMixture_H
 #define twoPhaseVoFMixture_H
 
-#include "VoFMixture.H"
+#include "VoFMixture/VoFMixture.H"
 #include "twoPhaseMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

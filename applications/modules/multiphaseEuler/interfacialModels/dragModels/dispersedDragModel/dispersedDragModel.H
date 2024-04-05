@@ -39,8 +39,8 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "dragModel.H"
-#include "dispersedPhaseInterface.H"
+#include "dragModels/dragModel/dragModel.H"
+#include "phaseInterface/dispersedPhaseInterface/dispersedPhaseInterface.H"
 
 namespace Foam
 {

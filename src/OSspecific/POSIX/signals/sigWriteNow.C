@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sigWriteNow.H"
-#include "error.H"
-#include "jobInfo.H"
-#include "IOstreams.H"
-#include "Time.H"
+#include "signals/sigWriteNow.H"
+#include "db/error/error.H"
+#include "global/jobInfo/jobInfo.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

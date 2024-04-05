@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "particles.H"
-#include "viscosityModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "particles/particles.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

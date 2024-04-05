@@ -29,21 +29,21 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "pisoControl.H"
-#include "pressureReference.H"
-#include "findRefCell.H"
-#include "constrainPressure.H"
-#include "constrainHbyA.H"
-#include "adjustPhi.H"
+#include "global/argList/argList.H"
+#include "cfdTools/general/solutionControl/pisoControl/pisoControl.H"
+#include "cfdTools/general/pressureReference/pressureReference.H"
+#include "cfdTools/general/findRefCell/findRefCell.H"
+#include "cfdTools/general/constrainPressure/constrainPressure.H"
+#include "cfdTools/general/constrainHbyA/constrainHbyA.H"
+#include "cfdTools/general/adjustPhi/adjustPhi.H"
 
-#include "fvcDdt.H"
-#include "fvcGrad.H"
-#include "fvcFlux.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcFlux.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 using namespace Foam;
 
@@ -51,14 +51,14 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     pisoControl piso(mesh);
 
     #include "createFields.H"
-    #include "initContinuityErrs.H"
+    #include "cfdTools/general/include/initContinuityErrs.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
     {
         Info<< "Time = " << runTime.userTimeName() << nl << endl;
 
-        #include "CourantNo.H"
+        #include "cfdTools/incompressible/CourantNo.H"
 
         // Momentum predictor
 
@@ -121,7 +121,7 @@ int main(int argc, char *argv[])
                 }
             }
 
-            #include "continuityErrs.H"
+            #include "cfdTools/incompressible/continuityErrs.H"
 
             U = HbyA - rAU*fvc::grad(p);
             U.correctBoundaryConditions();

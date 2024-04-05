@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicFvsPatchField.H"
-#include "GeometricField.H"
-#include "surfaceMesh.H"
+#include "fields/fvsPatchFields/constraint/cyclic/cyclicFvsPatchField.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

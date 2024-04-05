@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchToPatchStabilisation.H"
+#include "patchToPatch/patchToPatchStabilisation/patchToPatchStabilisation.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

@@ -42,8 +42,8 @@ SourceFiles
 #ifndef segregated_H
 #define segregated_H
 
-#include "dragModel.H"
-#include "segregatedPhaseInterface.H"
+#include "dragModels/dragModel/dragModel.H"
+#include "phaseInterface/segregatedPhaseInterface/segregatedPhaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

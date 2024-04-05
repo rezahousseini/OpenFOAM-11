@@ -50,9 +50,9 @@ SourceFiles
 #ifndef wordRe_H
 #define wordRe_H
 
-#include "word.H"
+#include "primitives/strings/word/word.H"
 #include "regExp.H"
-#include "keyType.H"
+#include "db/dictionary/keyType/keyType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -269,7 +269,7 @@ inline int operator&
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wordReI.H"
+#include "primitives/strings/wordRe/wordReI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

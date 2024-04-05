@@ -46,8 +46,8 @@ SourceFiles
 #ifndef Polynomial1_H
 #define Polynomial1_H
 
-#include "Function1.H"
-#include "Tuple2.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "primitives/Tuple2/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Polynomial1.C"
+    #include "primitives/functions/Function1/Polynomial1/Polynomial1.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

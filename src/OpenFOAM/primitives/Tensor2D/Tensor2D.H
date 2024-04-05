@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Tensor2D_H
 #define Tensor2D_H
 
-#include "Vector2D.H"
-#include "SphericalTensor2D.H"
+#include "primitives/Vector2D/Vector2D.H"
+#include "primitives/SphericalTensor2D/SphericalTensor2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "Tensor2DI.H"
+#include "primitives/Tensor2D/Tensor2DI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

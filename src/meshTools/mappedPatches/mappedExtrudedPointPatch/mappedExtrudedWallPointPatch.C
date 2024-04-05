@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedExtrudedWallPointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedExtrudedPointPatch/mappedExtrudedWallPointPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

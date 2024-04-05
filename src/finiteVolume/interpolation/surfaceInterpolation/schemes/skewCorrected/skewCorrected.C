@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "skewCorrected.H"
+#include "interpolation/surfaceInterpolation/schemes/skewCorrected/skewCorrected.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

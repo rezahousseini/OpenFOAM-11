@@ -34,12 +34,12 @@ Description
 #ifndef MeshToMeshMapGeometricFields_H
 #define MeshToMeshMapGeometricFields_H
 
-#include "polyMesh.H"
-#include "fvMeshToFvMesh.H"
-#include "fvPatchFieldMapper.H"
-#include "pointPatchFieldMapper.H"
-#include "setSizeFieldMapper.H"
-#include "processorPolyPatch.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fvMeshToFvMesh/fvMeshToFvMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+#include "fields/Fields/fieldMappers/setSizeFieldMapper/setSizeFieldMapper.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

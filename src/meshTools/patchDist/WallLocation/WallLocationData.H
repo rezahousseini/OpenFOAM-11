@@ -36,7 +36,7 @@ SourceFiles
 #ifndef WallLocationData_H
 #define WallLocationData_H
 
-#include "point.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -148,7 +148,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WallLocationDataI.H"
+#include "patchDist/WallLocation/WallLocationDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

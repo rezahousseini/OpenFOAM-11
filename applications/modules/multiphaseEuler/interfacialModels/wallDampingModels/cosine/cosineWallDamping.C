@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cosineWallDamping.H"
-#include "addToRunTimeSelectionTable.H"
+#include "wallDampingModels/cosine/cosineWallDamping.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

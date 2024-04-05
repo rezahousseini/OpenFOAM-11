@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kEqn.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
+#include "LES/kEqn/kEqn.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

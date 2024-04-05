@@ -27,13 +27,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "cpuTime.H"
-#include "treeBoundBox.H"
-#include "dynamicIndexedOctree.H"
-#include "dynamicTreeDataPoint.H"
-#include "indexedOctree.H"
-#include "treeDataPoint.H"
+#include "global/argList/argList.H"
+#include "cpuTime/cpuTime.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "algorithms/dynamicIndexedOctree/dynamicIndexedOctree.H"
+#include "algorithms/dynamicIndexedOctree/dynamicTreeDataPoint.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataPoint.H"
 
 using namespace Foam;
 

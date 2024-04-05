@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "multicomponentFluid.H"
-#include "fvcSmooth.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

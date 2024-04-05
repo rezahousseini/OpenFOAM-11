@@ -32,8 +32,8 @@ Description
 #ifndef GlobalIOField_H
 #define GlobalIOField_H
 
-#include "GlobalIOList.H"
-#include "Field.H"
+#include "db/IOobjects/GlobalIOList/GlobalIOList.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

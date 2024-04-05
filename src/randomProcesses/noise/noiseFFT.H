@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noiseFFT_H
 #define noiseFFT_H
 
-#include "scalarField.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

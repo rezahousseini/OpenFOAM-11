@@ -38,7 +38,7 @@ SourceFiles
 #ifndef shapeToCell_H
 #define shapeToCell_H
 
-#include "topoSetSource.H"
+#include "sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -90,8 +90,8 @@ SourceFiles
 #ifndef CrankNicolsonDdtScheme_H
 #define CrankNicolsonDdtScheme_H
 
-#include "ddtScheme.H"
-#include "Function1.H"
+#include "finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -412,7 +412,7 @@ tmp<surfaceScalarField> CrankNicolsonDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CrankNicolsonDdtScheme.C"
+    #include "finiteVolume/ddtSchemes/CrankNicolsonDdtScheme/CrankNicolsonDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

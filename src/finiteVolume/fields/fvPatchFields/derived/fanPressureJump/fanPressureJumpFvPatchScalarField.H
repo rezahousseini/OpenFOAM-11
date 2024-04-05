@@ -87,8 +87,8 @@ SourceFiles
 #ifndef fanPressureJumpFvPatchScalarField_H
 #define fanPressureJumpFvPatchScalarField_H
 
-#include "fixedJumpFvPatchFields.H"
-#include "Function1.H"
+#include "fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

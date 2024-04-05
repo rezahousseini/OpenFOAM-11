@@ -40,13 +40,13 @@ SourceFiles
 #ifndef patchInjectionBase_H
 #define patchInjectionBase_H
 
-#include "word.H"
-#include "labelList.H"
-#include "scalarList.H"
-#include "vectorList.H"
-#include "faceList.H"
-#include "triFaceList.H"
-#include "barycentric.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
+#include "primitives/Barycentric/barycentric/barycentric.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SMESHsurfaceFormat.H"
-#include "clock.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "Ostream.H"
+#include "surfaceFormats/smesh/SMESHsurfaceFormat.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EmbeddedTableReader.H"
-#include "FoamTableReader.H"
+#include "primitives/functions/Function1/Table/TableReader/Embedded/EmbeddedTableReader.H"
+#include "primitives/functions/Function1/Table/TableReader/Foam/FoamTableReader.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

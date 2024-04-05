@@ -42,8 +42,8 @@ See also
 #ifndef incompressibleVoFphase_H
 #define incompressibleVoFphase_H
 
-#include "VoFphase.H"
-#include "viscosityModel.H"
+#include "multiphaseVoFMixture/VoFphase/VoFphase.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

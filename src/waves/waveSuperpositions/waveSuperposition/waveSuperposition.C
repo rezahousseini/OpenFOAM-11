@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveSuperposition.H"
-#include "dimensionedTypes.H"
-#include "Time.H"
-#include "uniformDimensionedFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "waveSuperpositions/waveSuperposition/waveSuperposition.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "db/Time/Time.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

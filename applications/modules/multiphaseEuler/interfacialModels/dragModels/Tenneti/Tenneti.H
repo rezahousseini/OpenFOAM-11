@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Tenneti_H
 #define Tenneti_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

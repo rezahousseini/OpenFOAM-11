@@ -35,11 +35,11 @@ SourceFiles
 #ifndef meshCutAndRemove_H
 #define meshCutAndRemove_H
 
-#include "edgeVertex.H"
-#include "boolList.H"
-#include "labelList.H"
-#include "typeInfo.H"
-#include "Map.H"
+#include "meshCut/edgeVertex/edgeVertex.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

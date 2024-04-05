@@ -36,7 +36,7 @@ SourceFiles
 #ifndef snappySnapDriver_H
 #define snappySnapDriver_H
 
-#include "meshRefinement.H"
+#include "meshRefinement/meshRefinement.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

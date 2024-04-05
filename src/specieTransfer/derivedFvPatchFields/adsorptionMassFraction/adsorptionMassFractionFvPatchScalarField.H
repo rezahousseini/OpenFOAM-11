@@ -84,7 +84,7 @@ SourceFiles
 #ifndef adsorptionMassFractionFvPatchScalarField_H
 #define adsorptionMassFractionFvPatchScalarField_H
 
-#include "specieTransferMassFractionFvPatchScalarField.H"
+#include "derivedFvPatchFields/specieTransferMassFraction/specieTransferMassFractionFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

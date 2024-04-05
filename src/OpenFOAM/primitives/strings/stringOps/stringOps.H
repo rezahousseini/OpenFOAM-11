@@ -36,9 +36,9 @@ SourceFiles
 #ifndef stringOps_H
 #define stringOps_H
 
-#include "string.H"
-#include "dictionary.H"
-#include "HashTable.H"
+#include "primitives/strings/string/string.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

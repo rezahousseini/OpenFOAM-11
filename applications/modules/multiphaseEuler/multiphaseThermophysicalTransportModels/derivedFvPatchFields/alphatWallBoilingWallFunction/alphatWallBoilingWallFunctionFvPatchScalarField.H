@@ -126,12 +126,12 @@ SourceFiles
 #ifndef compressible_alphatWallBoilingWallFunctionFvPatchScalarField_H
 #define compressible_alphatWallBoilingWallFunctionFvPatchScalarField_H
 
-#include "alphatPhaseChangeWallFunctionBase.H"
-#include "fixedValueFvPatchFields.H"
-#include "partitioningModel.H"
-#include "nucleationSiteModel.H"
-#include "departureDiameterModel.H"
-#include "departureFrequencyModel.H"
+#include "derivedFvPatchFields/alphatPhaseChangeWallFunctionBase/alphatPhaseChangeWallFunctionBase.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "wallBoilingSubModels/partitioningModels/partitioningModel/partitioningModel.H"
+#include "wallBoilingSubModels/nucleationSiteModels/nucleationSiteModel/nucleationSiteModel.H"
+#include "wallBoilingSubModels/departureDiameterModels/departureDiameterModel/departureDiameterModel.H"
+#include "wallBoilingSubModels/departureFrequencyModels/departureFrequencyModel/departureFrequencyModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

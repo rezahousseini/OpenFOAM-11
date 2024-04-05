@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedFilmWallPointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patches/mappedFilmWall/mappedFilmWallPointPatch/mappedFilmWallPointPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

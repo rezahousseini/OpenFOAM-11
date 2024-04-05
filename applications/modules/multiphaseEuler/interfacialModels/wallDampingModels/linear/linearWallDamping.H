@@ -34,7 +34,7 @@ SourceFiles
 #ifndef linearWallDamping_H
 #define linearWallDamping_H
 
-#include "wallDampingModel.H"
+#include "wallDampingModels/wallDampingModel/wallDampingModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

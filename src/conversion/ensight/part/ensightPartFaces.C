@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightPartFaces.H"
-#include "IOstreams.H"
-#include "IStringStream.H"
-#include "dictionary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ensight/part/ensightPartFaces.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

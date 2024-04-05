@@ -43,8 +43,8 @@ SourceFiles
 #ifndef DynamicList_H
 #define DynamicList_H
 
-#include "List.H"
-#include "DynamicListFwd.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/DynamicList/DynamicListFwd.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -269,12 +269,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DynamicListI.H"
+#include "containers/Lists/DynamicList/DynamicListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DynamicList.C"
+    #include "containers/Lists/DynamicList/DynamicList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

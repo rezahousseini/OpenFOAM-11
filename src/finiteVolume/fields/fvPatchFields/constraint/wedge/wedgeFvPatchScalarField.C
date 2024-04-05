@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wedgeFvPatchField.H"
-#include "volFields.H"
+#include "fields/fvPatchFields/constraint/wedge/wedgeFvPatchField.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ Description
 #ifndef sector_H
 #define sector_H
 
-#include "extrudeModel.H"
+#include "extrudeModel/extrudeModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

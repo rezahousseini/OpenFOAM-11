@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "IFstream.H"
-#include "IStringStream.H"
-#include "transform.H"
-#include "tensor.H"
+#include "triSurface/triSurface.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "primitives/transform/transform.H"
+#include "primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

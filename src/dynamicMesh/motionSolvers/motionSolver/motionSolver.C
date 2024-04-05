@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionSolverList.H"
-#include "polyMesh.H"
-#include "dictionaryEntry.H"
-#include "twoDPointCorrector.H"
+#include "motionSolvers/motionSolverList/motionSolverList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
+#include "twoDPointCorrector/twoDPointCorrector.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

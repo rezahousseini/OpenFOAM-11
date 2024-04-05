@@ -47,9 +47,9 @@ Usage
 #ifndef heatSource_H
 #define heatSource_H
 
-#include "fvModel.H"
-#include "fvCellSet.H"
-#include "Function1.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

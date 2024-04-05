@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchCollisionDensity.H"
-#include "Pstream.H"
-#include "stringListOps.H"
-#include "ListOps.H"
-#include "ListListOps.H"
-#include "nonConformalFvPatch.H"
-#include "fvPatchFieldMapper.H"
-#include "setSizeFvPatchFieldMapper.H"
+#include "submodels/CloudFunctionObjects/PatchCollisionDensity/PatchCollisionDensity.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "fvMesh/fvPatches/constraint/nonConformal/nonConformalFvPatch.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/fvPatchFields/fvPatchField/setSizeFvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

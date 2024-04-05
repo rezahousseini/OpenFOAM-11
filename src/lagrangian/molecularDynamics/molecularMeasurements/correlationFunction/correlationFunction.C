@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "correlationFunction.H"
+#include "correlationFunction/correlationFunction.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -218,6 +218,6 @@ Foam::scalar Foam::correlationFunction<Type>::integral() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "correlationFunctionIO.C"
+    #include "correlationFunction/correlationFunctionIO.C"
 
 // ************************************************************************* //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantVirtualMassCoefficient.H"
-#include "addToRunTimeSelectionTable.H"
+#include "virtualMassModels/constantVirtualMassCoefficient/constantVirtualMassCoefficient.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

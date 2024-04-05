@@ -26,8 +26,8 @@ License
 #ifndef makeThermoSootModel_H
 #define makeThermoSootModel_H
 
-#include "sootModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sootModels/sootModel/sootModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

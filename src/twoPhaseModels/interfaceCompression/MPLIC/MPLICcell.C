@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MPLICcell.H"
-#include "tetCell.H"
-#include "cubicEqn.H"
+#include "MPLIC/MPLICcell.H"
+#include "meshes/meshShapes/tetCell/tetCell.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqn.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

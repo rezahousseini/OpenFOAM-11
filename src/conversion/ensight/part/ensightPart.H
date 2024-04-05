@@ -37,14 +37,14 @@ SourceFiles
 #ifndef ensightPart_H
 #define ensightPart_H
 
-#include "ensightFile.H"
-#include "ensightGeoFile.H"
-#include "typeInfo.H"
-#include "labelList.H"
-#include "polyMesh.H"
-#include "Field.H"
-#include "IOPtrList.H"
-#include "IOstream.H"
+#include "ensight/file/ensightFile.H"
+#include "ensight/file/ensightGeoFile.H"
+#include "db/typeInfo/typeInfo.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/Fields/Field/Field.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -366,7 +366,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ensightPartTemplates.C"
+    #include "ensight/part/ensightPartTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

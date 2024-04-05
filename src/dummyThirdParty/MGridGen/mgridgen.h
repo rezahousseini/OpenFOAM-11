@@ -36,7 +36,7 @@ SourceFiles
 #ifndef mgridgen_H
 #define mgridgen_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 #ifndef idxtype
 #define idxtype int

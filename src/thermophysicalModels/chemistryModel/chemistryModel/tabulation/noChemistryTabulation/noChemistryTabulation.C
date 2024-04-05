@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noChemistryTabulation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "chemistryModel/tabulation/noChemistryTabulation/noChemistryTabulation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */

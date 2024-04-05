@@ -35,8 +35,8 @@ Description
 #ifndef FreeStream_H
 #define FreeStream_H
 
-#include "InflowBoundaryModel.H"
-#include "polyMesh.H"
+#include "submodels/InflowBoundaryModel/InflowBoundaryModel/InflowBoundaryModel.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -111,7 +111,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FreeStream.C"
+    #include "submodels/InflowBoundaryModel/FreeStream/FreeStream.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

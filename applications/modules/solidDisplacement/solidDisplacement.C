@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "solidDisplacement.H"
-#include "fvcGrad.H"
-#include "fvcDiv.H"
-#include "fvcLaplacian.H"
-#include "fvmD2dt2.H"
-#include "fvmLaplacian.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "finiteVolume/fvm/fvmD2dt2.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

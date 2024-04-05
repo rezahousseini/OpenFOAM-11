@@ -55,10 +55,10 @@ See also
 #define incompressibleFluid_H
 
 #include "fluidSolver.H"
-#include "viscosityModel.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
 #include "incompressibleMomentumTransportModel.H"
-#include "pressureReference.H"
-#include "IOMRFZoneList.H"
+#include "cfdTools/general/pressureReference/pressureReference.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

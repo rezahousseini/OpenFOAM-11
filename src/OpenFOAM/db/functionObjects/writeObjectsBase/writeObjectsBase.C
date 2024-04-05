@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeObjectsBase.H"
-#include "Time.H"
-#include "dictionary.H"
+#include "db/functionObjects/writeObjectsBase/writeObjectsBase.H"
+#include "db/Time/Time.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

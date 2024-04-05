@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryPoints.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "treeBoundBox.H"
-#include "treeDataFace.H"
-#include "Time.H"
-#include "meshTools.H"
-#include "RemoteData.H"
+#include "sampledSet/boundaryPoints/boundaryPoints.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "indexedOctree/treeDataFace.H"
+#include "db/Time/Time.H"
+#include "meshTools/meshTools.H"
+#include "primitives/RemoteData/RemoteData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -41,10 +41,10 @@ SourceFiles
 #ifndef functionObjects_specieReactionRates_H
 #define functionObjects_specieReactionRates_H
 
-#include "fvMeshFunctionObject.H"
-#include "fvCellSet.H"
-#include "logFiles.H"
-#include "basicChemistryModel.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "basicChemistryModel/basicChemistryModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

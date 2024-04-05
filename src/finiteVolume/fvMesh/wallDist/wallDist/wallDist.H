@@ -53,9 +53,9 @@ SourceFiles
 #ifndef wallDist_H
 #define wallDist_H
 
-#include "DemandDrivenMeshObject.H"
-#include "patchDistMethod.H"
-#include "volFields.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

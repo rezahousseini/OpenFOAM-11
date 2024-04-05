@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Gibilaro_H
 #define Gibilaro_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

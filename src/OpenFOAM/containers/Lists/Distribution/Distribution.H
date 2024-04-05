@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Distribution_H
 #define Distribution_H
 
-#include "List.H"
-#include "Pair.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/Pair/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -199,12 +199,12 @@ Distribution<Type> operator+
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DistributionI.H"
+#include "containers/Lists/Distribution/DistributionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Distribution.C"
+    #include "containers/Lists/Distribution/Distribution.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

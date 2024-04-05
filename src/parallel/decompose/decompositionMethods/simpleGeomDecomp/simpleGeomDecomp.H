@@ -34,7 +34,7 @@ SourceFiles
 #ifndef simpleGeomDecomp_H
 #define simpleGeomDecomp_H
 
-#include "geomDecomp.H"
+#include "geomDecomp/geomDecomp.H"
 
 namespace Foam
 {

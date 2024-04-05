@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dispersedVirtualMassModel.H"
-#include "surfaceInterpolate.H"
+#include "virtualMassModels/dispersedVirtualMassModel/dispersedVirtualMassModel.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef wordReListMatcher_H
 #define wordReListMatcher_H
 
-#include "wordReList.H"
+#include "primitives/strings/lists/wordReList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -93,7 +93,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wordReListMatcherI.H"
+#include "primitives/strings/lists/wordReListMatcherI.H"
 
 #endif
 

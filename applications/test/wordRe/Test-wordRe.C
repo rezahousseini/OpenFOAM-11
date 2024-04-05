@@ -25,12 +25,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "IOobject.H"
-#include "IFstream.H"
-#include "List.H"
-#include "Tuple2.H"
-#include "wordRe.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "primitives/strings/wordRe/wordRe.H"
 
 using namespace Foam;
 

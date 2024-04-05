@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOdistributionMap.H"
+#include "meshes/polyMesh/polyDistributionMap/IOdistributionMap.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

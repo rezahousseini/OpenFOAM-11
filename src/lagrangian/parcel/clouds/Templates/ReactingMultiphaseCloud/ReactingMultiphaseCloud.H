@@ -41,12 +41,12 @@ SourceFiles
 #ifndef ReactingMultiphaseCloud_H
 #define ReactingMultiphaseCloud_H
 
-#include "volFieldsFwd.H"
-#include "fvMatricesFwd.H"
-#include "dimensionedTypes.H"
-#include "fvMesh.H"
-#include "fluidThermo.H"
-#include "Cloud.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "fvMesh/fvMesh.H"
+#include "fluidThermo/fluidThermo.H"
+#include "Cloud/Cloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -299,12 +299,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactingMultiphaseCloudI.H"
+#include "clouds/Templates/ReactingMultiphaseCloud/ReactingMultiphaseCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactingMultiphaseCloud.C"
+    #include "clouds/Templates/ReactingMultiphaseCloud/ReactingMultiphaseCloud.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

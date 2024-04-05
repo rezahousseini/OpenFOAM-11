@@ -57,8 +57,8 @@ SourceFiles
 #ifndef functionObjects_phaseMap_H
 #define functionObjects_phaseMap_H
 
-#include "fvMeshFunctionObject.H"
-#include "phaseSystem.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

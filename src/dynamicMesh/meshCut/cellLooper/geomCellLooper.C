@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "geomCellLooper.H"
-#include "polyMesh.H"
-#include "DynamicList.H"
-#include "plane.H"
-#include "meshTools.H"
-#include "SortableList.H"
-#include "triSurfaceTools.H"
-#include "HashSet.H"
-#include "ListOps.H"
-#include "transform.H"
+#include "meshCut/cellLooper/geomCellLooper.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "meshTools/meshTools.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/transform/transform.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // Extension factor of edges to make sure we catch intersections through

@@ -27,15 +27,15 @@ License
 
 // OpenFOAM includes
 #include "vtkPVFoamReader.h"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "IOobjectList.H"
-#include "IOPtrList.H"
-#include "polyBoundaryMeshEntries.H"
-#include "entry.H"
-#include "Cloud.H"
-#include "surfaceFields.H"
+#include "sets/topoSets/cellSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/pointSet.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMeshEntries.H"
+#include "db/dictionary/entry/entry.H"
+#include "Cloud/Cloud.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // Local includes
 #include "vtkPVFoamAddToSelection.H"

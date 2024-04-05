@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceCollection.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SortableList.H"
-#include "Time.H"
-#include "ListOps.H"
+#include "searchableSurfaces/searchableSurfaceCollection/searchableSurfaceCollection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "db/Time/Time.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "restrainedHarmonicSpring.H"
-#include "addToRunTimeSelectionTable.H"
+#include "tetherPotential/derived/restrainedHarmonicSpring/restrainedHarmonicSpring.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

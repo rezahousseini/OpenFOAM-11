@@ -28,13 +28,13 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CellZoneInjection.H"
-#include "ConeInjection.H"
-#include "FieldActivatedInjection.H"
-#include "ManualInjection.H"
-#include "NoInjection.H"
-#include "PatchInjection.H"
-#include "PatchFlowRateInjection.H"
+#include "submodels/Momentum/InjectionModel/CellZoneInjection/CellZoneInjection.H"
+#include "submodels/Momentum/InjectionModel/ConeInjection/ConeInjection.H"
+#include "submodels/Momentum/InjectionModel/FieldActivatedInjection/FieldActivatedInjection.H"
+#include "submodels/Momentum/InjectionModel/ManualInjection/ManualInjection.H"
+#include "submodels/Momentum/InjectionModel/NoInjection/NoInjection.H"
+#include "submodels/Momentum/InjectionModel/PatchInjection/PatchInjection.H"
+#include "submodels/Momentum/InjectionModel/PatchFlowRateInjection/PatchFlowRateInjection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef DiagonalPreconditioner_H
 #define DiagonalPreconditioner_H
 
-#include "LduMatrix.H"
+#include "matrices/LduMatrix/LduMatrix/LduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DiagonalPreconditioner.C"
+    #include "matrices/LduMatrix/Preconditioners/DiagonalPreconditioner/DiagonalPreconditioner.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

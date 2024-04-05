@@ -35,10 +35,10 @@ SourceFiles
 #ifndef vtkWritePolyData_H
 #define vtkWritePolyData_H
 
-#include "vtkWriteOps.H"
-#include "boolList.H"
-#include "fileName.H"
-#include "Field.H"
+#include "vtk/vtkWriteOps.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,7 +213,7 @@ inline void write
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "vtkWritePolyDataTemplates.C"
+    #include "vtk/vtkWritePolyDataTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

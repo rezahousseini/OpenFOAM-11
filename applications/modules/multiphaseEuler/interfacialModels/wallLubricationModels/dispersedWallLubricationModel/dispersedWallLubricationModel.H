@@ -38,8 +38,8 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wallLubricationModel.H"
-#include "dispersedPhaseInterface.H"
+#include "wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
+#include "phaseInterface/dispersedPhaseInterface/dispersedPhaseInterface.H"
 
 namespace Foam
 {

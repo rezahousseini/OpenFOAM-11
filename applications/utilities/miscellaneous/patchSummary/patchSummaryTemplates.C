@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "patchSummaryTemplates.H"
-#include "genericPatchField.H"
-#include "IOmanip.H"
+#include "genericPatchField/genericPatchField.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

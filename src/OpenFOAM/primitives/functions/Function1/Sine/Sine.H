@@ -73,7 +73,7 @@ SourceFiles
 #ifndef Sine_H
 #define Sine_H
 
-#include "Function1.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,10 +164,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SineI.H"
+#include "primitives/functions/Function1/Sine/SineI.H"
 
 #ifdef NoRepository
-    #include "Sine.C"
+    #include "primitives/functions/Function1/Sine/Sine.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

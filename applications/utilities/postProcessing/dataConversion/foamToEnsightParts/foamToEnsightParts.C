@@ -58,17 +58,17 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
 
-#include "volFields.H"
-#include "OFstream.H"
-#include "IOmanip.H"
-#include "IOobjectList.H"
-#include "scalarIOField.H"
-#include "tensorIOField.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "fields/Fields/tensorField/tensorIOField.H"
 
-#include "ensightParts.H"
+#include "ensight/part/ensightParts.H"
 #include "ensightOutputFunctions.H"
 
 using namespace Foam;
@@ -131,8 +131,8 @@ int main(int argc, char *argv[])
 
     const char* geometryName = "geometry";
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // get times list
     const instantList timeDirs = timeSelector::select0(runTime, args);
@@ -181,7 +181,7 @@ int main(int argc, char *argv[])
     mkDir(ensightDir);
     mkDir(dataDir);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // Mesh instance (region0 gets filtered out)
     fileName regionPrefix;

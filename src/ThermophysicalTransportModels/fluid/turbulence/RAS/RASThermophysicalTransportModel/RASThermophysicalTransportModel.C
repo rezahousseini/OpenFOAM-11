@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RASThermophysicalTransportModel.H"
-#include "unityLewisEddyDiffusivity.H"
+#include "turbulence/RAS/RASThermophysicalTransportModel/RASThermophysicalTransportModel.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef reverseFvPatchFieldMapper_H
 #define reverseFvPatchFieldMapper_H
 
-#include "fvPatchFieldMapper.H"
-#include "reverseFieldMapper.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/Fields/fieldMappers/reverseFieldMapper/reverseFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

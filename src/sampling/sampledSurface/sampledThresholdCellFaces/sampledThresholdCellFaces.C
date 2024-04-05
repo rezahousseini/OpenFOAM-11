@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledThresholdCellFaces.H"
-#include "thresholdCellFaces.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledThresholdCellFaces/sampledThresholdCellFaces.H"
+#include "sampledSurface/sampledThresholdCellFaces/thresholdCellFaces.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

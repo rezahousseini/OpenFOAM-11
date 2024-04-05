@@ -32,7 +32,7 @@ Description
 #ifndef RanzMarshall_H
 #define RanzMarshall_H
 
-#include "HeatTransferModel.H"
+#include "submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -97,7 +97,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "RanzMarshall.C"
+    #include "submodels/Thermodynamic/HeatTransferModel/RanzMarshall/RanzMarshall.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

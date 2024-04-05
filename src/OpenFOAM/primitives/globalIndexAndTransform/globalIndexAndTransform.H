@@ -44,9 +44,9 @@ SourceFiles
 #ifndef globalIndexAndTransform_H
 #define globalIndexAndTransform_H
 
-#include "labelPair.H"
-#include "transformer.H"
-#include "HashSet.H"
+#include "primitives/Pair/labelPair.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -292,7 +292,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "globalIndexAndTransformI.H"
+#include "primitives/globalIndexAndTransform/globalIndexAndTransformI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pimpleControl.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl/pimpleControl.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

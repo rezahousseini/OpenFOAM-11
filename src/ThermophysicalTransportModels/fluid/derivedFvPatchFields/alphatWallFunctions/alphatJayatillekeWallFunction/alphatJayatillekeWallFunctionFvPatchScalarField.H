@@ -58,8 +58,8 @@ SourceFiles
 #ifndef alphatJayatillekeWallFunctionFvPatchScalarField_H
 #define alphatJayatillekeWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "nutWallFunctionFvPatchScalarField.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

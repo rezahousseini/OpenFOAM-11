@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noSwarm.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "swarmCorrections/noSwarm/noSwarm.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

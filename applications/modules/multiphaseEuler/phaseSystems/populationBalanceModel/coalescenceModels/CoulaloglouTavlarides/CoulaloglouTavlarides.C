@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CoulaloglouTavlarides.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/coalescenceModels/CoulaloglouTavlarides/CoulaloglouTavlarides.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

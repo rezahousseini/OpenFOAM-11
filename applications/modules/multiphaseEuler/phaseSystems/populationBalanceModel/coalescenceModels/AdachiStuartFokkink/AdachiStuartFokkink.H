@@ -59,7 +59,7 @@ SourceFiles
 #ifndef AdachiStuartFokkink_H
 #define AdachiStuartFokkink_H
 
-#include "coalescenceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

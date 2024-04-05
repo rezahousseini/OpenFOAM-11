@@ -39,7 +39,7 @@ SourceFiles
 #ifndef SlicedDimensionedField_H
 #define SlicedDimensionedField_H
 
-#include "DimensionedField.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -87,7 +87,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SlicedDimensionedField.C"
+    #include "fields/DimensionedFields/SlicedDimensionedField/SlicedDimensionedField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -37,15 +37,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "cellSet.H"
-#include "multiDirRefinement.H"
-#include "labelIOList.H"
-#include "IOdictionary.H"
-#include "syncTools.H"
-#include "systemDict.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "sets/topoSets/cellSet.H"
+#include "meshCut/meshModifiers/multiDirRefinement/multiDirRefinement.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
 using namespace Foam;
 
@@ -158,9 +158,9 @@ int main(int argc, char *argv[])
         "refine cells in multiple directions"
     );
 
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
-    #include "addDictOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addDictOption.H"
 
     Foam::argList::addBoolOption
     (
@@ -168,9 +168,9 @@ int main(int argc, char *argv[])
         "Refine all cells"
     );
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createNamedPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createNamedPolyMesh.H"
     const word oldInstance = mesh.pointsInstance();
 
     printEdgeStats(mesh);

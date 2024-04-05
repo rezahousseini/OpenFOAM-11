@@ -64,8 +64,8 @@ SourceFiles
 #ifndef rotatingWallVelocityFvPatchVectorField_H
 #define rotatingWallVelocityFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "omega.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "primitives/functions/Function1/omega/omega.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

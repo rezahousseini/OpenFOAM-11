@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricField.H"
-#include "Time.H"
-#include "demandDrivenData.H"
-#include "dictionary.H"
-#include "localIOdictionary.H"
-#include "data.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "db/Time/Time.H"
+#include "include/demandDrivenData.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
+#include "meshes/data/data.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1815,6 +1815,6 @@ Foam::Ostream& Foam::operator<<
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "GeometricFieldFunctions.C"
+#include "fields/GeometricFields/GeometricField/GeometricFieldFunctions.C"
 
 // ************************************************************************* //

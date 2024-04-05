@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cpuLoad.H"
+#include "fvMesh/fvMeshDistributors/cpuLoad/cpuLoad.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

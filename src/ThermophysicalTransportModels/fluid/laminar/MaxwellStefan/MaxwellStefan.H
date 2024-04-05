@@ -54,8 +54,8 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Function2.H"
-#include "LUscalarMatrix.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
+#include "matrices/LUscalarMatrix/LUscalarMatrix.H"
 
 #ifndef MaxwellStefan_H
 #define MaxwellStefan_H
@@ -245,7 +245,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MaxwellStefan.C"
+    #include "laminar/MaxwellStefan/MaxwellStefan.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

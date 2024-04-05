@@ -29,9 +29,9 @@ Description
 #ifndef meshPointZones_H
 #define meshPointZones_H
 
-#include "MeshZones.H"
-#include "pointZone.H"
-#include "meshPointZonesFwd.H"
+#include "meshes/polyMesh/zones/MeshZones/MeshZones.H"
+#include "meshes/polyMesh/zones/pointZone/pointZone.H"
+#include "meshes/polyMesh/zones/MeshZones/meshPointZonesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

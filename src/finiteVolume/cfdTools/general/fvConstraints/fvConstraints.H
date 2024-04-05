@@ -35,10 +35,10 @@ SourceFiles
 #ifndef fvConstraints_H
 #define fvConstraints_H
 
-#include "fvConstraint.H"
-#include "PtrListDictionary.H"
-#include "DemandDrivenMeshObject.H"
-#include "HashSet.H"
+#include "cfdTools/general/fvConstraints/fvConstraint.H"
+#include "containers/Dictionaries/PtrListDictionary/PtrListDictionary.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,7 +201,7 @@ struct typeGlobal<fvConstraints>
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvConstraintsTemplates.C"
+    #include "cfdTools/general/fvConstraints/fvConstraintsTemplates.C"
 #endif
 
 

@@ -35,10 +35,10 @@ SourceFiles
 #ifndef MRFZoneList_H
 #define MRFZoneList_H
 
-#include "fvMesh.H"
-#include "dictionary.H"
-#include "fvMatricesFwd.H"
-#include "MRFZone.H"
+#include "fvMesh/fvMesh.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "cfdTools/general/MRF/MRFZone.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReynoldsStress.H"
-#include "fvcSnGrad.H"
-#include "wallFvPatch.H"
+#include "ReynoldsStress/ReynoldsStress.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

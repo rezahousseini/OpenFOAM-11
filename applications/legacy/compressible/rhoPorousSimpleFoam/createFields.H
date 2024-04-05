@@ -36,7 +36,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 pressureReference pressureReference
 (
@@ -67,6 +67,6 @@ autoPtr<fluidThermoThermophysicalTransportModel> thermophysicalTransport
 
 dimensionedScalar initialMass = fvc::domainIntegrate(rho);
 
-#include "createMRF.H"
-#include "createFvModels.H"
-#include "createFvConstraints.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "cfdTools/general/include/createFvModels.H"
+#include "cfdTools/general/include/createFvConstraints.H"

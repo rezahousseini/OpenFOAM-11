@@ -38,8 +38,8 @@ SourceFiles
 #ifndef STARCDMeshWriter_H
 #define STARCDMeshWriter_H
 
-#include "meshWriter.H"
-#include "IOstream.H"
+#include "meshWriter/meshWriter.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

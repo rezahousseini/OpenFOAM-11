@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "verbatimString.H"
-#include "debug.H"
+#include "primitives/strings/verbatimString/verbatimString.H"
+#include "global/debug/debug.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

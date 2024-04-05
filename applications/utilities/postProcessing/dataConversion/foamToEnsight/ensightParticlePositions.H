@@ -34,7 +34,7 @@ SourceFiles
 #ifndef ensightParticlePositions_H
 #define ensightParticlePositions_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

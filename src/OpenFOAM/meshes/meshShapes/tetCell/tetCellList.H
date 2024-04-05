@@ -32,8 +32,8 @@ Description
 #ifndef tetCellList_H
 #define tetCellList_H
 
-#include "tetCell.H"
-#include "List.H"
+#include "meshes/meshShapes/tetCell/tetCell.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

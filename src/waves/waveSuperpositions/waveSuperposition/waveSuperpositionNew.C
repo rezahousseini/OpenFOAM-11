@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveSuperposition.H"
-#include "Time.H"
+#include "waveSuperpositions/waveSuperposition/waveSuperposition.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

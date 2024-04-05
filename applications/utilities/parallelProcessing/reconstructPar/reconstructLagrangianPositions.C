@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "reconstructLagrangian.H"
-#include "labelIOList.H"
-#include "passiveParticleCloud.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "passiveParticle/passiveParticleCloud.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

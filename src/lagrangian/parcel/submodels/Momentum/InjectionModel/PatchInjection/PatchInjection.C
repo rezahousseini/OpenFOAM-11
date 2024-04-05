@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchInjection.H"
-#include "TimeFunction1.H"
-#include "distribution.H"
+#include "submodels/Momentum/InjectionModel/PatchInjection/PatchInjection.H"
+#include "primitives/functions/TimeFunction1/TimeFunction1.H"
+#include "distributions/distribution/distribution.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

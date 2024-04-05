@@ -32,9 +32,9 @@ SourceFiles
 #ifndef heatTransferPhaseSystem_H
 #define heatTransferPhaseSystem_H
 
-#include "NamedEnum.H"
-#include "primitiveFieldsFwd.H"
-#include "volFieldsFwd.H"
+#include "containers/NamedEnum/NamedEnum.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

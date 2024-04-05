@@ -31,10 +31,10 @@ Description
 #ifndef cellShapeRecognition_H
 #define cellShapeRecognition_H
 
-#include "cellShape.H"
-#include "cellModeller.H"
-#include "faceList.H"
-#include "PtrList.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -86,10 +86,10 @@ SourceFiles
 #ifndef functionObjects_turbulenceFields_H
 #define functionObjects_turbulenceFields_H
 
-#include "fvMeshFunctionObject.H"
-#include "HashSet.H"
-#include "NamedEnum.H"
-#include "volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/NamedEnum/NamedEnum.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -219,7 +219,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "turbulenceFieldsTemplates.C"
+    #include "turbulenceFields/turbulenceFieldsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -100,14 +100,14 @@ SourceFiles
 #ifndef rotorDiskSource_H
 #define rotorDiskSource_H
 
-#include "fvModel.H"
-#include "fvCellSet.H"
-#include "cylindricalCS.H"
-#include "cylindrical.H"
-#include "NamedEnum.H"
-#include "bladeModel.H"
-#include "profileModelList.H"
-#include "volFieldsFwd.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "coordinateSystems/cylindricalCS.H"
+#include "coordinateSystems/coordinateRotation/cylindrical.H"
+#include "containers/NamedEnum/NamedEnum.H"
+#include "derived/rotorDiskSource/bladeModel/bladeModel.H"
+#include "derived/rotorDiskSource/profileModel/profileModelList.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -365,12 +365,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rotorDiskSourceI.H"
+#include "derived/rotorDiskSource/rotorDiskSourceI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "rotorDiskSourceTemplates.C"
+    #include "derived/rotorDiskSource/rotorDiskSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

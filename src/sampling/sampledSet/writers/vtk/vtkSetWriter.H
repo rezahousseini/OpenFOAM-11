@@ -34,7 +34,7 @@ SourceFiles
 #ifndef vtkSetWriter_H
 #define vtkSetWriter_H
 
-#include "setWriter.H"
+#include "sampledSet/writers/setWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

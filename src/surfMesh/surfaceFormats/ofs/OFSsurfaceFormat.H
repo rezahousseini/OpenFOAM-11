@@ -39,12 +39,12 @@ SourceFiles
 #ifndef OFSsurfaceFormat_H
 #define OFSsurfaceFormat_H
 
-#include "Ostream.H"
-#include "OFstream.H"
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
-#include "OFSsurfaceFormatCore.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "surfaceFormats/ofs/OFSsurfaceFormatCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "OFSsurfaceFormat.C"
+    #include "surfaceFormats/ofs/OFSsurfaceFormat.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

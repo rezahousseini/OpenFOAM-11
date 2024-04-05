@@ -35,13 +35,13 @@ SourceFiles
 #ifndef laplacianScheme_H
 #define laplacianScheme_H
 
-#include "tmp.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "linear.H"
-#include "correctedSnGrad.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "memory/tmp/tmp.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -251,7 +251,7 @@ makeFvLaplacianTypeScheme(SS, tensor, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "laplacianScheme.C"
+    #include "finiteVolume/laplacianSchemes/laplacianScheme/laplacianScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

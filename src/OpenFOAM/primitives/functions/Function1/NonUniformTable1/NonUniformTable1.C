@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NonUniformTable1.H"
+#include "primitives/functions/Function1/NonUniformTable1/NonUniformTable1.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

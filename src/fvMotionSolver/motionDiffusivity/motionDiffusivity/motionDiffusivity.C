@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionDiffusivity.H"
+#include "motionDiffusivity/motionDiffusivity/motionDiffusivity.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

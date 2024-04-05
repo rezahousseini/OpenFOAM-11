@@ -48,7 +48,7 @@ SourceFiles
 #ifndef IATE_H
 #define IATE_H
 
-#include "diameterModel.H"
+#include "diameterModels/diameterModel/diameterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

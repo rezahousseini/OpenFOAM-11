@@ -33,8 +33,8 @@ SourceFiles
 #ifndef boundSphere_H
 #define boundSphere_H
 
-#include "point.H"
-#include "Random.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -89,7 +89,7 @@ Tuple2<point, scalar> boundSphere(const PointField& ps);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "boundSphereTemplates.C"
+    #include "algorithms/boundSphere/boundSphereTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

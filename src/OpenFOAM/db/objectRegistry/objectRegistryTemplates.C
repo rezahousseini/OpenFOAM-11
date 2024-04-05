@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectRegistry.H"
-#include "stringListOps.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "primitives/strings/lists/stringListOps.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

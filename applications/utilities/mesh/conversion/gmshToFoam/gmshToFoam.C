@@ -45,15 +45,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "IFstream.H"
-#include "cellModeller.H"
-#include "repatchPolyTopoChanger.H"
-#include "cellSet.H"
-#include "faceSet.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "polyTopoChange/repatchPolyTopoChanger/repatchPolyTopoChanger.H"
+#include "sets/topoSets/cellSet.H"
+#include "sets/topoSets/faceSet.H"
 
 using namespace Foam;
 
@@ -761,10 +761,10 @@ int main(int argc, char *argv[])
         "retain raw orientation for prisms/hexs"
     );
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     Foam::word regionName;
 

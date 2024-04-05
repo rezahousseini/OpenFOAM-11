@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurface.H"
-#include "Time.H"
-#include "triSurface.H"
-#include "OSspecific.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "db/Time/Time.H"
+#include "triSurface/triSurface.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

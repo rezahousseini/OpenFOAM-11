@@ -43,7 +43,7 @@ SourceFiles
 #ifndef compositeJoint_H
 #define compositeJoint_H
 
-#include "joint.H"
+#include "joints/joint/joint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

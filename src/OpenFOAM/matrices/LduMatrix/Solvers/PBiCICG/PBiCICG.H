@@ -36,7 +36,7 @@ SourceFiles
 #ifndef PBiCICG_H
 #define PBiCICG_H
 
-#include "LduMatrix.H"
+#include "matrices/LduMatrix/LduMatrix/LduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PBiCICG.C"
+    #include "matrices/LduMatrix/Solvers/PBiCICG/PBiCICG.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

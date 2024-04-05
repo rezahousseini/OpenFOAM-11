@@ -32,8 +32,8 @@ Description
 #ifndef surfaceMesh_H
 #define surfaceMesh_H
 
-#include "GeoMesh.H"
-#include "fvMesh.H"
+#include "meshes/GeoMesh/GeoMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

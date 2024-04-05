@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SchillerNaumannDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/SchillerNaumannDrag/SchillerNaumannDragForce.H"
 
 // * * * * * * * * * * * * *  Static Member Functions  * * * * * * * * * * * //
 

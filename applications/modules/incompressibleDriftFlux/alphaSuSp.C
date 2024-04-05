@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleDriftFlux.H"
-#include "fvcFlux.H"
-#include "fvcDiv.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvc/fvcDiv.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

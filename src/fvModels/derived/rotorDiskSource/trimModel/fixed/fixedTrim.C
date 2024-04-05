@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedTrim.H"
-#include "addToRunTimeSelectionTable.H"
-#include "unitConversion.H"
-#include "mathematicalConstants.H"
+#include "derived/rotorDiskSource/trimModel/fixed/fixedTrim.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/unitConversion/unitConversion.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant;
 

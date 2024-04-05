@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Scale2.H"
+#include "primitives/functions/Function2/Scale/Scale2.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

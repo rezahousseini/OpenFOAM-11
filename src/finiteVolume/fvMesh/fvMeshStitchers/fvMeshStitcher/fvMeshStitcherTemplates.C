@@ -26,17 +26,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvPatchFieldMapper.H"
-#include "fvMeshStitcher.H"
-#include "setSizeFvPatchFieldMapper.H"
-#include "nonConformalBoundary.H"
-#include "nonConformalCyclicFvPatch.H"
-#include "nonConformalProcessorCyclicFvPatch.H"
-#include "nonConformalErrorFvPatch.H"
-#include "processorFvPatch.H"
-#include "surfaceToVolVelocity.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fvMesh/fvMeshStitchers/fvMeshStitcher/fvMeshStitcher.H"
+#include "fields/fvPatchFields/fvPatchField/setSizeFvPatchFieldMapper.H"
+#include "nonConformal/boundary/nonConformalBoundary.H"
+#include "fvMesh/fvPatches/constraint/nonConformalCyclic/nonConformalCyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/nonConformalProcessorCyclic/nonConformalProcessorCyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/nonConformalError/nonConformalErrorFvPatch.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "cfdTools/general/surfaceToVolVelocity/surfaceToVolVelocity.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -55,7 +55,7 @@ SourceFiles
 #ifndef turbulentBL_H
 #define turbulentBL_H
 
-#include "Function1.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -135,7 +135,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "turbulentBLI.H"
+    #include "fields/fvPatchFields/derived/flowRateInletVelocity/turbulentBL/turbulentBLI.H"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exponentialRepulsion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "pairPotential/derived/exponentialRepulsion/exponentialRepulsion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

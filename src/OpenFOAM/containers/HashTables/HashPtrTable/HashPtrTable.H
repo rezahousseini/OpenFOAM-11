@@ -36,7 +36,7 @@ SourceFiles
 #ifndef HashPtrTable_H
 #define HashPtrTable_H
 
-#include "HashTable.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -160,7 +160,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "HashPtrTable.C"
+    #include "containers/HashTables/HashPtrTable/HashPtrTable.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

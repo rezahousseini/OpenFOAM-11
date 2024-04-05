@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldValueDelta.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fieldValues/fieldValueDelta/fieldValueDelta.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

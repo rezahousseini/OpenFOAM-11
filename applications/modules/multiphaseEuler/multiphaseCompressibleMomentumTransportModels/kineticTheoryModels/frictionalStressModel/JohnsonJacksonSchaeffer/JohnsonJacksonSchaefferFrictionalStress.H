@@ -34,7 +34,7 @@ SourceFiles
 #ifndef JohnsonJacksonSchaefferFrictionalStress_H
 #define JohnsonJacksonSchaefferFrictionalStress_H
 
-#include "frictionalStressModel.H"
+#include "kineticTheoryModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "arcUniform.H"
-#include "sampledSet.H"
-#include "meshSearch.H"
-#include "DynamicList.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "word.H"
-#include "points.H"
-#include "unitConversion.H"
+#include "sampledSet/arcUniform/arcUniform.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "meshSearch/meshSearch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/strings/word/word.H"
+#include "sampledSet/points/points.H"
+#include "global/unitConversion/unitConversion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

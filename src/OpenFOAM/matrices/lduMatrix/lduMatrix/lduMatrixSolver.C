@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMatrix.H"
-#include "diagonalSolver.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "matrices/lduMatrix/solvers/diagonalSolver/diagonalSolver.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

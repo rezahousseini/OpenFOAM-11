@@ -29,8 +29,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "md.H"
+#include "global/argList/argList.H"
+#include "mdTools/md.H"
 
 using namespace Foam;
 
@@ -38,9 +38,9 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
 
     moleculeCloud molecules(mesh, pot);
 
-    #include "temperatureAndPressureVariables.H"
+    #include "mdTools/temperatureAndPressureVariables.H"
 
     #include "readmdEquilibrationDict.H"
 
@@ -78,11 +78,11 @@ int main(int argc, char *argv[])
 
         molecules.evolve();
 
-        #include "meanMomentumEnergyAndNMols.H"
+        #include "mdTools/meanMomentumEnergyAndNMols.H"
 
-        #include "temperatureAndPressure.H"
+        #include "mdTools/temperatureAndPressure.H"
 
-        #include "temperatureEquilibration.H"
+        #include "mdTools/temperatureEquilibration.H"
 
         runTime.write();
 

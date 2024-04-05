@@ -62,8 +62,8 @@ SourceFiles
 #ifndef MRFFreestreamVelocityFvPatchVectorField_H
 #define MRFFreestreamVelocityFvPatchVectorField_H
 
-#include "freestreamVelocityFvPatchVectorField.H"
-#include "MRFPatchField.H"
+#include "fields/fvPatchFields/derived/freestreamVelocity/freestreamVelocityFvPatchVectorField.H"
+#include "cfdTools/general/MRF/derivedFvPatchFields/MRFPatchField/MRFPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -62,7 +62,7 @@ SourceFiles
 #ifndef interRegionExplicitPorositySource_H
 #define interRegionExplicitPorositySource_H
 
-#include "interRegionModel.H"
+#include "interRegion/interRegionModel/interRegionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TAB.H"
+#include "submodels/Spray/BreakupModel/TAB/TAB.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -195,12 +195,12 @@ bool Foam::TAB<CloudType>::update
                 {
                     case method1:
                     {
-                        #include "TABSMDCalcMethod1.H"
+                        #include "submodels/Spray/BreakupModel/TAB/TABSMDCalcMethod1.H"
                         break;
                     }
                     case method2:
                     {
-                        #include "TABSMDCalcMethod2.H"
+                        #include "submodels/Spray/BreakupModel/TAB/TABSMDCalcMethod2.H"
                         break;
                     }
                 }

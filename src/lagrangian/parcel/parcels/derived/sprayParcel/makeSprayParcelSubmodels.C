@@ -23,29 +23,29 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sprayCloud.H"
+#include "clouds/derived/sprayCloud/sprayCloud.H"
 
-#include "makeParcelCloudFunctionObjects.H"
+#include "parcels/include/makeParcelCloudFunctionObjects.H"
 
 // Momentum
-#include "makeThermoParcelForces.H"
-#include "makeParcelDispersionModels.H"
-#include "makeSprayParcelInjectionModels.H"
-#include "makeParcelPatchInteractionModels.H"
-#include "makeSprayParcelStochasticCollisionModels.H"
+#include "parcels/include/makeThermoParcelForces.H"
+#include "parcels/include/makeParcelDispersionModels.H"
+#include "parcels/include/makeSprayParcelInjectionModels.H"
+#include "parcels/include/makeParcelPatchInteractionModels.H"
+#include "parcels/include/makeSprayParcelStochasticCollisionModels.H"
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
-#include "makeParcelCompositionModels.H"
+#include "parcels/include/makeParcelHeatTransferModels.H"
+#include "parcels/include/makeParcelCompositionModels.H"
 
 // Reacting
-#include "makeReactingParcelPhaseChangeModels.H"
-#include "makeParcelSurfaceFilmModels.H"
+#include "parcels/include/makeReactingParcelPhaseChangeModels.H"
+#include "parcels/include/makeParcelSurfaceFilmModels.H"
 
 // Spray
-#include "DistortedSphereDragForce.H"
-#include "makeSprayParcelAtomisationModels.H"
-#include "makeSprayParcelBreakupModels.H"
+#include "submodels/Momentum/ParticleForces/Drag/DistortedSphereDrag/DistortedSphereDragForce.H"
+#include "parcels/include/makeSprayParcelAtomisationModels.H"
+#include "parcels/include/makeSprayParcelBreakupModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

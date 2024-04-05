@@ -35,7 +35,7 @@ SourceFiles
 #ifndef functionName_H
 #define functionName_H
 
-#include "word.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ void writeEntry(Ostream& os, const functionName& value);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "functionNameI.H"
+#include "primitives/strings/functionName/functionNameI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

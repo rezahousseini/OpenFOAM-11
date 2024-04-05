@@ -69,8 +69,8 @@ SourceFiles
 #ifndef edgeFaceCirculator_H
 #define edgeFaceCirculator_H
 
-#include "face.H"
-#include "ListOps.H"
+#include "meshes/meshShapes/face/face.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,7 +208,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "edgeFaceCirculatorI.H"
+#include "edgeFaceCirculator/edgeFaceCirculatorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

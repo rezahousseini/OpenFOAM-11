@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "actuationDiskSource.H"
-#include "volFields.H"
+#include "derived/actuationDiskSource/actuationDiskSource.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * *  Member Functions * * * * * * * * * * * * * //
 

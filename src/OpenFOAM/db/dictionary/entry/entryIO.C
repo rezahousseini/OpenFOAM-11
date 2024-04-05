@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "entry.H"
-#include "dictionaryListEntry.H"
-#include "inputSyntaxEntry.H"
-#include "includeEntry.H"
-#include "inputModeEntry.H"
-#include "stringOps.H"
+#include "db/dictionary/entry/entry.H"
+#include "db/dictionary/dictionaryListEntry/dictionaryListEntry.H"
+#include "db/dictionary/functionEntries/inputSyntaxEntry/inputSyntaxEntry.H"
+#include "db/dictionary/functionEntries/includeEntry/includeEntry.H"
+#include "db/dictionary/functionEntries/inputModeEntry/inputModeEntry.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

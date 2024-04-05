@@ -30,12 +30,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "volFields.H"
-#include "wallPolyPatch.H"
-#include "atmBoundaryLayer.H"
-#include "systemDict.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "derivedFvPatchFields/atmBoundaryLayer/atmBoundaryLayer.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
 using namespace Foam;
 
@@ -45,14 +45,14 @@ int main(int argc, char *argv[])
 {
     timeSelector::addOptions(false, false);
 
-    #include "addDictOption.H"
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addDictOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const instantList timeDirs = timeSelector::selectIfPresent(runTime, args);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     const dictionary setAtmBoundaryLayerDict
     (

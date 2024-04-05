@@ -26,8 +26,8 @@ License
 #ifndef zeroInletOutletFvPatchFields_H
 #define zeroInletOutletFvPatchFields_H
 
-#include "zeroInletOutletFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/zeroInletOutlet/zeroInletOutletFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

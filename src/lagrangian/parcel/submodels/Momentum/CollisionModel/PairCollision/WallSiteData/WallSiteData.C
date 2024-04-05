@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallSiteData.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/WallSiteData/WallSiteData.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

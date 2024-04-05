@@ -59,8 +59,8 @@ SourceFiles
 #ifndef uniformFixedValueFvPatchField_H
 #define uniformFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "Function1.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -150,7 +150,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformFixedValueFvPatchField.C"
+    #include "fields/fvPatchFields/derived/uniformFixedValue/uniformFixedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

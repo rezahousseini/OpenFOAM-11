@@ -60,15 +60,15 @@ SourceFiles
     #define VTK_EXCLUDE_STRSTREAM_HEADERS
 #endif
 
-#include "className.H"
-#include "fileName.H"
-#include "stringList.H"
-#include "wordList.H"
-#include "primitivePatch.H"
-#include "PrimitivePatchInterpolation.H"
-#include "volPointInterpolation.H"
-#include "surfaceFieldsFwd.H"
-#include "instantList.H"
+#include "db/typeInfo/className.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "primitives/strings/lists/stringList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "interpolations/primitivePatchInterpolation/PrimitivePatchInterpolation.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "db/Time/instant/instantList.H"
 
 // * * * * * * * * * * * * * Forward Declarations  * * * * * * * * * * * * * //
 

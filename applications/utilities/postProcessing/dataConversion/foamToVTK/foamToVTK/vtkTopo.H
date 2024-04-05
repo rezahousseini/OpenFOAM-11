@@ -35,7 +35,7 @@ SourceFiles
 #ifndef vtkTopo_H
 #define vtkTopo_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

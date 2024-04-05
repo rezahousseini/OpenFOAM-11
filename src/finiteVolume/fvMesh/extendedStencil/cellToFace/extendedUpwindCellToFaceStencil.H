@@ -44,7 +44,7 @@ SourceFiles
 #ifndef extendedUpwindCellToFaceStencil_H
 #define extendedUpwindCellToFaceStencil_H
 
-#include "extendedCellToFaceStencil.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedCellToFaceStencil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -197,7 +197,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "extendedUpwindCellToFaceStencilTemplates.C"
+    #include "fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencilTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

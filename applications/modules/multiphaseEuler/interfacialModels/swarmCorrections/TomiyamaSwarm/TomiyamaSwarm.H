@@ -43,8 +43,8 @@ SourceFiles
 #ifndef TomiyamaSwarm_H
 #define TomiyamaSwarm_H
 
-#include "swarmCorrection.H"
-#include "dispersedPhaseInterface.H"
+#include "swarmCorrections/swarmCorrection/swarmCorrection.H"
+#include "phaseInterface/dispersedPhaseInterface/dispersedPhaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

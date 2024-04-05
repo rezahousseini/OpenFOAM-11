@@ -35,7 +35,7 @@ SourceFiles
 #ifndef constantSurfaceTensionCoefficient_H
 #define constantSurfaceTensionCoefficient_H
 
-#include "interfaceSurfaceTensionModel.H"
+#include "interfaceSurfaceTensionModels/interfaceSurfaceTensionModel/interfaceSurfaceTensionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

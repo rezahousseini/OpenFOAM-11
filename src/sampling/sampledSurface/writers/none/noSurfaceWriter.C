@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noSurfaceWriter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/writers/none/noSurfaceWriter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

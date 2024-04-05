@@ -35,11 +35,11 @@ SourceFiles
 #ifndef GeometricScalarField_H
 #define GeometricScalarField_H
 
-#include "GeometricField.H"
-#include "DimensionedScalarField.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "fields/DimensionedFields/DimensionedScalarField/DimensionedScalarField.H"
 
 #define TEMPLATE template<template<class> class PatchField, class GeoMesh>
-#include "GeometricFieldFunctionsM.H"
+#include "fields/GeometricFields/GeometricField/GeometricFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,10 +167,10 @@ BesselFunc(yn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 #ifdef NoRepository
-    #include "GeometricScalarField.C"
+    #include "fields/GeometricFields/GeometricScalarField/GeometricScalarField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

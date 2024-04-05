@@ -29,13 +29,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "Time.H"
-#include "IOobjectList.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "db/Time/Time.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 using namespace Foam;
 
@@ -146,12 +146,12 @@ void ReadAndMapFields
 int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     timeSelector::select0(runTime, args);
-    #include "createMeshNoChangers.H"
+    #include "include/createMeshNoChangers.H"
 
     // Read the tetDualMesh
     Info<< "Create tetDualMesh for time = "

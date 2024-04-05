@@ -33,15 +33,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyTopoChange.H"
-#include "faceSet.H"
-#include "removeFaces.H"
-#include "ReadFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "sets/topoSets/faceSet.H"
+#include "polyTopoChange/polyTopoChange/removeFaces.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 using namespace Foam;
 
@@ -49,7 +49,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     argList::validArgs.append("faceSet");
     argList::addBoolOption
     (
@@ -58,13 +58,13 @@ int main(int argc, char *argv[])
     );
 
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
 
     const bool overwrite = args.optionFound("overwrite");
     const bool fields = !args.optionFound("noFields");
 
-    #include "createMeshNoChangers.H"
+    #include "include/createMeshNoChangers.H"
     const word oldInstance = mesh.pointsInstance();
 
     const word setName = args[1];
@@ -116,9 +116,9 @@ int main(int argc, char *argv[])
 
     if (fields) Info<< "Reading geometric fields" << nl << endl;
 
-    #include "readVolFields.H"
-    #include "readSurfaceFields.H"
-    #include "readPointFields.H"
+    #include "fields/ReadFields/readVolFields.H"
+    #include "fields/ReadFields/readSurfaceFields.H"
+    #include "fields/ReadFields/readPointFields.H"
 
     Info<< endl;
 

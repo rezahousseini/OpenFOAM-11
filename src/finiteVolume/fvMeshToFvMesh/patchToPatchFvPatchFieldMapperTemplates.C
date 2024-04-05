@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchToPatchFvPatchFieldMapper.H"
+#include "fvMeshToFvMesh/patchToPatchFvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

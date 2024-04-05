@@ -38,11 +38,11 @@ SourceFiles
 #ifndef chemistryReductionMethod_H
 #define chemistryReductionMethod_H
 
-#include "IOdictionary.H"
-#include "DynamicField.H"
-#include "Switch.H"
-#include "cpuTime.H"
-#include "OFstream.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "cpuTime/cpuTime.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,13 +214,13 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "chemistryReductionMethodI.H"
+#include "chemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethodI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "chemistryReductionMethod.C"
-    #include "chemistryReductionMethodNew.C"
+    #include "chemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.C"
+    #include "chemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethodNew.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

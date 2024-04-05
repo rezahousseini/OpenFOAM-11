@@ -37,7 +37,7 @@ SourceFiles
 #ifndef VoFphase_H
 #define VoFphase_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

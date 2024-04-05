@@ -42,10 +42,10 @@ SourceFiles
 #ifndef STARCDMeshReader_H
 #define STARCDMeshReader_H
 
-#include "meshReader.H"
-#include "boundaryRegion.H"
-#include "cellShape.H"
-#include "IFstream.H"
+#include "meshReader/meshReader.H"
+#include "meshTables/boundaryRegion.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

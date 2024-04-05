@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "fileStat.H"
-#include "IOstreams.H"
+#include "db/IOstreams/IOstreams.H"
 #include "timer.H"
 
 #include <signal.h>

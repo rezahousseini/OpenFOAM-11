@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "variable.H"
-#include "fluidThermophysicalTransportModel.H"
-#include "zeroGradientFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derived/heatTransfer/heatTransferCoefficientModels/variable/variable.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

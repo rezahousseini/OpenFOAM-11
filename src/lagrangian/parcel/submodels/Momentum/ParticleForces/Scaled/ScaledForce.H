@@ -32,7 +32,7 @@ Description
 #ifndef ScaledForce_H
 #define ScaledForce_H
 
-#include "ParticleForce.H"
+#include "submodels/Momentum/ParticleForces/ParticleForce/ParticleForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ScaledForce.C"
+    #include "submodels/Momentum/ParticleForces/Scaled/ScaledForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

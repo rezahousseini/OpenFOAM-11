@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceIntersection.H"
-#include "triSurfaceSearch.H"
-#include "labelPairLookup.H"
-#include "OFstream.H"
-#include "HashSet.H"
-#include "triSurface.H"
-#include "pointIndexHit.H"
-#include "meshTools.H"
+#include "triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "tools/labelPair/labelPairLookup.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "triSurface/triSurface.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodySolver.H"
+#include "rigidBodySolvers/rigidBodySolver/rigidBodySolver.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

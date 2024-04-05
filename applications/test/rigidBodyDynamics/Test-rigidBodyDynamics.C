@@ -29,11 +29,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyMotion.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "boundBox.H"
-#include "argList.H"
+#include "rigidBodyMotion/rigidBodyMotion.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/boundBox/boundBox.H"
+#include "global/argList/argList.H"
 
 using namespace Foam;
 using namespace RBD;

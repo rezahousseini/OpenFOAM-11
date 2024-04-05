@@ -36,7 +36,7 @@ SourceFiles
 #ifndef cubicEqn_H
 #define cubicEqn_H
 
-#include "Roots.H"
+#include "primitives/polynomialEqns/Roots.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cubicEqnI.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqnI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

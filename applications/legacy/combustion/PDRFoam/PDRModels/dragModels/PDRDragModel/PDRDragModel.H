@@ -36,11 +36,11 @@ SourceFiles
 #ifndef PDRDragModel_H
 #define PDRDragModel_H
 
-#include "IOdictionary.H"
-#include "psiuMulticomponentThermo.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "psiuMulticomponentThermo/psiuMulticomponentThermo.H"
 #include "compressibleMomentumTransportModels.H"
-#include "multivariateSurfaceInterpolationScheme.H"
-#include "runTimeSelectionTables.H"
+#include "interpolation/surfaceInterpolation/multivariateSchemes/multivariateSurfaceInterpolationScheme/multivariateSurfaceInterpolationScheme.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

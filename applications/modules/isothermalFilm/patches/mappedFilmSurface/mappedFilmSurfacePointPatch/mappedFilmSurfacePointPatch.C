@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedFilmSurfacePointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patches/mappedFilmSurface/mappedFilmSurfacePointPatch/mappedFilmSurfacePointPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

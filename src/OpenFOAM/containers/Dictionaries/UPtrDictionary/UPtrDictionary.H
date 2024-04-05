@@ -39,8 +39,8 @@ SourceFiles
 #ifndef UPtrDictionary_H
 #define UPtrDictionary_H
 
-#include "DictionaryBase.H"
-#include "UDLPtrList.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "containers/LinkedLists/user/UDLPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -91,7 +91,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UPtrDictionary.C"
+    #include "containers/Dictionaries/UPtrDictionary/UPtrDictionary.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

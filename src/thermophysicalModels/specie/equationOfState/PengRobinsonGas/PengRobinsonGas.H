@@ -61,7 +61,7 @@ SourceFiles
 #ifndef PengRobinsonGas_H
 #define PengRobinsonGas_H
 
-#include "autoPtr.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -253,10 +253,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PengRobinsonGasI.H"
+#include "equationOfState/PengRobinsonGas/PengRobinsonGasI.H"
 
 #ifdef NoRepository
-    #include "PengRobinsonGas.C"
+    #include "equationOfState/PengRobinsonGas/PengRobinsonGas.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

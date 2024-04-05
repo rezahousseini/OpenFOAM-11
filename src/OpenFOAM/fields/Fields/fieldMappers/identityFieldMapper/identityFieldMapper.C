@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "identityFieldMapper.H"
+#include "fields/Fields/fieldMappers/identityFieldMapper/identityFieldMapper.H"
 
 // * * * * * * * * * * * * * * * Member Operators  * * * * * * * * * * * * * //
 

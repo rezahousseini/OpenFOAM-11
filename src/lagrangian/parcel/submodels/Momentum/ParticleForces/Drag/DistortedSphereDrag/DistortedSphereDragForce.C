@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DistortedSphereDragForce.H"
-#include "SphereDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/DistortedSphereDrag/DistortedSphereDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/SphereDrag/SphereDragForce.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

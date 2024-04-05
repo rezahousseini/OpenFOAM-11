@@ -54,22 +54,22 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMeshStitchersStationary.H"
-#include "fvMeshTools.H"
-#include "IOobjectList.H"
-#include "nonConformalCyclicPolyPatch.H"
-#include "nonConformalErrorPolyPatch.H"
-#include "nonConformalProcessorCyclicPolyPatch.H"
-#include "polyMesh.H"
-#include "processorPolyPatch.H"
-#include "systemDict.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMeshStitchers/stationary/fvMeshStitchersStationary.H"
+#include "fvMeshTools/fvMeshTools.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "nonConformal/polyPatches/nonConformalCyclic/nonConformalCyclicPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformalError/nonConformalErrorPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformalProcessorCyclic/nonConformalProcessorCyclicPolyPatch.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
+#include "db/Time/Time.H"
 
-#include "ReadFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 using namespace Foam;
 
@@ -77,9 +77,9 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
-    #include "addDictOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addDictOption.H"
 
     const bool haveArgs = argList::hasArgs(argc, argv);
     if (haveArgs)
@@ -93,8 +93,8 @@ int main(int argc, char *argv[])
         );
     }
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
 
     // Flag to determine whether or not patches are added to fields
     bool fields;
@@ -186,7 +186,7 @@ int main(int argc, char *argv[])
     Foam::word meshRegionName = polyMesh::defaultRegion;
     args.optionReadIfPresent("region", meshRegionName);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     const polyBoundaryMesh& patches = mesh.boundaryMesh();
 
@@ -197,9 +197,9 @@ int main(int argc, char *argv[])
     // Read the fields
     IOobjectList objects(mesh, runTime.name());
     if (fields) Info<< "Reading geometric fields" << nl << endl;
-    #include "readVolFields.H"
-    #include "readSurfaceFields.H"
-    #include "readPointFields.H"
+    #include "fields/ReadFields/readVolFields.H"
+    #include "fields/ReadFields/readSurfaceFields.H"
+    #include "fields/ReadFields/readPointFields.H"
     if (fields) Info<< endl;
 
     // Make sure the mesh is not connected before couples are added

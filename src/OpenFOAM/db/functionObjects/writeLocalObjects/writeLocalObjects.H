@@ -65,8 +65,8 @@ SourceFiles
 #ifndef functionObjects_writeLocalObjects_H
 #define functionObjects_writeLocalObjects_H
 
-#include "wordList.H"
-#include "writeObjectsBase.H"
+#include "primitives/strings/lists/wordList.H"
+#include "db/functionObjects/writeObjectsBase/writeObjectsBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

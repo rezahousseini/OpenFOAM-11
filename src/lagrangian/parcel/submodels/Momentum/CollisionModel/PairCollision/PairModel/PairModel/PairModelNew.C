@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PairModel.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/PairModel/PairModel/PairModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

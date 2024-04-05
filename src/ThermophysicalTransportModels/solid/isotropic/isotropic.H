@@ -39,7 +39,7 @@ SourceFiles
 #ifndef isotropic_H
 #define isotropic_H
 
-#include "solidThermophysicalTransportModel.H"
+#include "solidThermophysicalTransportModel/solidThermophysicalTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

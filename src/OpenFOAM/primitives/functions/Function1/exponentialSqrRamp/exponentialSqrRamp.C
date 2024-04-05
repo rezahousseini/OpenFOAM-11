@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exponentialSqrRamp.H"
+#include "primitives/functions/Function1/exponentialSqrRamp/exponentialSqrRamp.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

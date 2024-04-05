@@ -39,7 +39,7 @@ Description
 #ifndef SchillerNaumannDragForce_H
 #define SchillerNaumannDragForce_H
 
-#include "ParticleForce.H"
+#include "submodels/Momentum/ParticleForces/ParticleForce/ParticleForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -117,7 +117,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SchillerNaumannDragForce.C"
+    #include "submodels/Momentum/ParticleForces/Drag/SchillerNaumannDrag/SchillerNaumannDragForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

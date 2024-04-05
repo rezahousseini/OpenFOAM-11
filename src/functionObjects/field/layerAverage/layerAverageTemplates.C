@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "layerAverage.H"
+#include "layerAverage/layerAverage.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

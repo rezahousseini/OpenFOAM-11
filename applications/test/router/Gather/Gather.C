@@ -25,9 +25,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "Gather.H"
-#include "IPstream.H"
-#include "OPstream.H"
+#include "Gather/Gather.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

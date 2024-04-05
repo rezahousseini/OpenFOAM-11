@@ -47,8 +47,8 @@ SourceFiles
 #ifndef simpleControl_H
 #define simpleControl_H
 
-#include "fluidSolutionControl.H"
-#include "singleRegionConvergenceControl.H"
+#include "cfdTools/general/solutionControl/solutionControl/fluidSolutionControl/fluidSolutionControl.H"
+#include "cfdTools/general/solutionControl/convergenceControl/singleRegionConvergenceControl/singleRegionConvergenceControl.H"
 
 #define SIMPLE_CONTROL
 

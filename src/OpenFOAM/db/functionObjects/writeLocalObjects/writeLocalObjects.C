@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeLocalObjects.H"
-#include "stringListOps.H"
-#include "dictionary.H"
+#include "db/functionObjects/writeLocalObjects/writeLocalObjects.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Vector2D.H"
-#include "Tensor2D.H"
+#include "primitives/Vector2D/Vector2D.H"
+#include "primitives/Tensor2D/Tensor2D.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PairCollision.H"
-#include "PairModel.H"
-#include "WallModel.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/PairCollision.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/PairModel/PairModel/PairModel.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/WallModel/WallModel/WallModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

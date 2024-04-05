@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyDistributionMap.H"
-#include "polyMesh.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

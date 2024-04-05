@@ -35,7 +35,7 @@ SourceFiles
 #ifndef binary_H
 #define binary_H
 
-#include "absorptionEmissionModel.H"
+#include "absorptionEmissionModels/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

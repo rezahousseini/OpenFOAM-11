@@ -27,10 +27,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 
-#include "IOstreams.H"
-#include "DLList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/LinkedLists/user/DLList.H"
 
 using namespace Foam;
 

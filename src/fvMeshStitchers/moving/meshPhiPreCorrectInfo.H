@@ -32,9 +32,9 @@ SourceFiles
 #ifndef meshPhiPreCorrectInfo_H
 #define meshPhiPreCorrectInfo_H
 
-#include "labelPair.H"
-#include "pointField.H"
-#include "face.H"
+#include "primitives/Pair/labelPair.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/face.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshPhiPreCorrectInfoI.H"
+#include "moving/meshPhiPreCorrectInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

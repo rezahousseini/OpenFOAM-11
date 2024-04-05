@@ -29,25 +29,25 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "Kmesh.H"
-#include "UOprocess.H"
-#include "fft.H"
-#include "writeEk.H"
-#include "writeFile.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "Kmesh/Kmesh.H"
+#include "processes/UOprocess/UOprocess.H"
+#include "fft/fft.H"
+#include "fft/writeEk.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
-#include "pisoControl.H"
-#include "constrainPressure.H"
-#include "constrainHbyA.H"
+#include "cfdTools/general/solutionControl/pisoControl/pisoControl.H"
+#include "cfdTools/general/constrainPressure/constrainPressure.H"
+#include "cfdTools/general/constrainHbyA/constrainHbyA.H"
 
-#include "fvcDdt.H"
-#include "fvcGrad.H"
-#include "fvcFlux.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcFlux.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 using namespace Foam;
 
@@ -55,14 +55,14 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMeshNoClear.H"
-    #include "createControl.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMeshNoClear.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
-    #include "initContinuityErrs.H"
+    #include "cfdTools/general/include/initContinuityErrs.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
 
             phi = phiHbyA - pEqn.flux();
 
-            #include "continuityErrs.H"
+            #include "cfdTools/incompressible/continuityErrs.H"
 
             U = HbyA - rAU*fvc::grad(p);
             U.correctBoundaryConditions();

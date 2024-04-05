@@ -35,7 +35,7 @@ SourceFiles
 #ifndef twoPhases_H
 #define twoPhases_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

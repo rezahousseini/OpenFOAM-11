@@ -36,7 +36,7 @@ SourceFiles
 #ifndef blockMeshTools_H
 #define blockMeshTools_H
 
-#include "dictionary.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -75,7 +75,7 @@ namespace blockMeshTools
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "blockMeshToolsTemplates.C"
+    #include "blockMeshTools/blockMeshToolsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

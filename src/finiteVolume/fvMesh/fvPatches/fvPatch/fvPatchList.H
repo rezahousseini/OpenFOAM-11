@@ -32,8 +32,8 @@ Description
 #ifndef fvPatchList_H
 #define fvPatchList_H
 
-#include "fvPatch.H"
-#include "PtrList.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

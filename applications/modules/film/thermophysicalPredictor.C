@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "film.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

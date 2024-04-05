@@ -81,8 +81,8 @@ SourceFiles
 #ifndef waveForcing_H
 #define waveForcing_H
 
-#include "forcing.H"
-#include "waveSuperposition.H"
+#include "fvModels/forcing/forcing.H"
+#include "waveSuperpositions/waveSuperposition/waveSuperposition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PtrList.H"
-#include "SLList.H"
-#include "Istream.H"
-#include "Ostream.H"
-#include "INew.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/IOstreams/INew.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

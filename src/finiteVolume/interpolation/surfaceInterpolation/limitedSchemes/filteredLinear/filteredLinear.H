@@ -44,7 +44,7 @@ SourceFiles
 #ifndef filteredLinear_H
 #define filteredLinear_H
 
-#include "vector.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

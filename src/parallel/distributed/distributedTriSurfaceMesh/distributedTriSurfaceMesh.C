@@ -23,21 +23,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributedTriSurfaceMesh.H"
-#include "distributionMap.H"
-#include "Random.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triangleFuncs.H"
-#include "matchPoints.H"
-#include "globalIndex.H"
-#include "Time.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "primitives/Random/Random.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "triSurface/triangleFuncs/triangleFuncs.H"
+#include "meshes/meshTools/matchPoints.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "db/Time/Time.H"
 
-#include "IFstream.H"
-#include "decompositionMethod.H"
-#include "geomDecomp.H"
-#include "vectorList.H"
-#include "PackedBoolList.H"
-#include "PatchTools.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "geomDecomp/geomDecomp.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

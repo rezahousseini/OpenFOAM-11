@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingMultiphaseParcel.H"
-#include "IOstreams.H"
+#include "parcels/Templates/ReactingMultiphaseParcel/ReactingMultiphaseParcel.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

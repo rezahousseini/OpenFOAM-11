@@ -35,7 +35,7 @@ SourceFiles
 #ifndef AverageField_H
 #define AverageField_H
 
-#include "Field.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -88,7 +88,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AverageField.C"
+    #include "fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFvPatchField/AverageField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

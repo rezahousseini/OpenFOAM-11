@@ -27,12 +27,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "enrichedPatch.H"
-#include "boolList.H"
-#include "DynamicList.H"
-#include "labelPair.H"
-#include "primitiveMesh.H"
-#include "HashSet.H"
+#include "slidingInterface/enrichedPatch/enrichedPatch.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/Pair/labelPair.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

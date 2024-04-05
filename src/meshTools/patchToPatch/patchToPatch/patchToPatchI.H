@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchToPatch.H"
-#include "patchToPatchTools.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
+#include "patchToPatchTools/patchToPatchTools.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

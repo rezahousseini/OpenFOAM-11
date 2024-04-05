@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkSurfaceWriter.H"
-#include "vtkWritePolyData.H"
-#include "OSspecific.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/writers/vtk/vtkSurfaceWriter.H"
+#include "vtk/vtkWritePolyData.H"
+#include "include/OSspecific.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

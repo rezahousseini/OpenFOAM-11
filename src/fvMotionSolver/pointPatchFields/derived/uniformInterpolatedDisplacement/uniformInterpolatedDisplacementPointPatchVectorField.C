@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformInterpolatedDisplacementPointPatchVectorField.H"
-#include "pointFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "pointPatchFields/derived/uniformInterpolatedDisplacement/uniformInterpolatedDisplacementPointPatchVectorField.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

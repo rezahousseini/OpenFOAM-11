@@ -38,9 +38,9 @@ SourceFiles
 #ifndef cellEdgeAddressing_H
 #define cellEdgeAddressing_H
 
-#include "DemandDrivenMeshObject.H"
-#include "polyMesh.H"
-#include "CompactListList.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/Lists/CompactListList/CompactListList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,7 +214,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellEdgeAddressingI.H"
+#include "cutPoly/cellEdgeAddressingI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

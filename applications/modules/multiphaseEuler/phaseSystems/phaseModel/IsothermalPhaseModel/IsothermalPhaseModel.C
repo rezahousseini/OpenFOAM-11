@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IsothermalPhaseModel.H"
-#include "phaseSystem.H"
+#include "phaseModel/IsothermalPhaseModel/IsothermalPhaseModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvPatchDistWave.H"
-#include "nonConformalFvPatch.H"
+#include "fvMesh/wallDist/fvPatchDistWave/fvPatchDistWave.H"
+#include "fvMesh/fvPatches/constraint/nonConformal/nonConformalFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

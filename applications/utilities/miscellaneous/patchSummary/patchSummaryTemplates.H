@@ -26,7 +26,7 @@ License
 #ifndef patchSummaryTemplates_H
 #define patchSummaryTemplates_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

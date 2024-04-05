@@ -32,10 +32,10 @@ Description
 #ifndef pointMesh_H
 #define pointMesh_H
 
-#include "GeoMesh.H"
-#include "DemandDrivenMeshObject.H"
-#include "polyMesh.H"
-#include "pointBoundaryMesh.H"
+#include "meshes/GeoMesh/GeoMesh.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

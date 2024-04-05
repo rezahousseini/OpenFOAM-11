@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceToPoint.H"
-#include "polyMesh.H"
-#include "triSurfaceSearch.H"
-#include "triSurface.H"
-#include "cpuTime.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sets/pointSources/surfaceToPoint/surfaceToPoint.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "triSurface/triSurface.H"
+#include "cpuTime/cpuTime.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

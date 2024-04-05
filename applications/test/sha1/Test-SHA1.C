@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSHA1stream.H"
-#include "IStringStream.H"
-#include "dictionary.H"
+#include "db/IOstreams/hashes/OSHA1stream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "db/dictionary/dictionary.H"
 
 using namespace Foam;
 

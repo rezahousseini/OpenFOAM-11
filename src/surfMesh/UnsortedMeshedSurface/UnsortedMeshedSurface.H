@@ -46,13 +46,13 @@ SourceFiles
 #ifndef UnsortedMeshedSurface_H
 #define UnsortedMeshedSurface_H
 
-#include "MeshedSurface.H"
-#include "surfZoneIdentifierList.H"
-#include "surfZoneList.H"
-#include "surfaceFormatsCore.H"
-#include "runTimeSelectionTables.H"
-#include "memberFunctionSelectionTables.H"
-#include "HashSet.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "surfZone/surfZoneIdentifier/surfZoneIdentifierList.H"
+#include "surfZone/surfZone/surfZoneList.H"
+#include "surfaceFormats/surfaceFormatsCore.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -379,7 +379,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UnsortedMeshedSurface.C"
+    #include "UnsortedMeshedSurface/UnsortedMeshedSurface.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

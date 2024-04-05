@@ -54,8 +54,8 @@ SourceFiles
 #ifndef MomentumLookupTableInjection_H
 #define MomentumLookupTableInjection_H
 
-#include "InjectionModel.H"
-#include "momentumParcelInjectionDataIOList.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.H"
+#include "submodels/Momentum/InjectionModel/MomentumLookupTableInjection/momentumParcelInjectionDataIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -188,7 +188,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MomentumLookupTableInjection.C"
+    #include "submodels/Momentum/InjectionModel/MomentumLookupTableInjection/MomentumLookupTableInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

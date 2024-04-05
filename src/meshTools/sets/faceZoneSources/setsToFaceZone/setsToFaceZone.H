@@ -35,8 +35,8 @@ SourceFiles
 #ifndef setsToFaceZone_H
 #define setsToFaceZone_H
 
-#include "topoSetSource.H"
-#include "Switch.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

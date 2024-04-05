@@ -38,7 +38,7 @@ SourceFiles
 #ifndef data_H
 #define data_H
 
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

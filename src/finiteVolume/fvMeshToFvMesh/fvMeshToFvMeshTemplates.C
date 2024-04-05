@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshToFvMesh.H"
-#include "directFvPatchFieldMapper.H"
-#include "identityFvPatchFieldMapper.H"
-#include "patchToPatchFvPatchFieldMapper.H"
+#include "fvMeshToFvMesh/fvMeshToFvMesh.H"
+#include "fields/fvPatchFields/fvPatchField/directFvPatchFieldMapper.H"
+#include "fields/fvPatchFields/fvPatchField/identityFvPatchFieldMapper.H"
+#include "fvMeshToFvMesh/patchToPatchFvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

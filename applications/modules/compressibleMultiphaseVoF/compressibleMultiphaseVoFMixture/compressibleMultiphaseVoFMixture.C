@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compressibleMultiphaseVoFMixture.H"
-#include "surfaceInterpolate.H"
+#include "compressibleMultiphaseVoFMixture/compressibleMultiphaseVoFMixture.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

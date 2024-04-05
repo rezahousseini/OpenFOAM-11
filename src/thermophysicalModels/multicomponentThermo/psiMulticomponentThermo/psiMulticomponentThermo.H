@@ -39,8 +39,8 @@ SourceFiles
 #ifndef psiMulticomponentThermo_H
 #define psiMulticomponentThermo_H
 
-#include "psiThermo.H"
-#include "fluidMulticomponentThermo.H"
+#include "psiThermo/psiThermo.H"
+#include "fluidMulticomponentThermo/fluidMulticomponentThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

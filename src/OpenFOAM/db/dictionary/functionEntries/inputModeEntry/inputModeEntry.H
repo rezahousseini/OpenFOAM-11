@@ -49,7 +49,7 @@ SourceFiles
 #ifndef inputModeEntry_H
 #define inputModeEntry_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

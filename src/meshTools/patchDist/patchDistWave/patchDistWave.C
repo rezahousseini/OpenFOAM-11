@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchDistWave.H"
-#include "FaceCellWave.H"
-#include "wallPoint.H"
-#include "WallInfo.H"
+#include "patchDist/patchDistWave/patchDistWave.H"
+#include "algorithms/FaceCellWave/FaceCellWave.H"
+#include "patchDist/WallLocation/wallPoint.H"
+#include "patchDist/WallInfo/WallInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

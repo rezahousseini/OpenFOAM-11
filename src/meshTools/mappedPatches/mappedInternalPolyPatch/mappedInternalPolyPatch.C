@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedInternalPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedInternalPolyPatch/mappedInternalPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

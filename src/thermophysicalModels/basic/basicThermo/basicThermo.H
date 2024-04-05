@@ -60,11 +60,11 @@ SourceFiles
 #ifndef basicThermo_H
 #define basicThermo_H
 
-#include "volFields.H"
-#include "typeInfo.H"
-#include "physicalProperties.H"
-#include "autoPtr.H"
-#include "wordIOList.H"
+#include "fields/volFields/volFields.H"
+#include "db/typeInfo/typeInfo.H"
+#include "physicalProperties/physicalProperties.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/strings/word/wordIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -533,7 +533,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "basicThermoTemplates.C"
+    #include "basicThermo/basicThermoTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

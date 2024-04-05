@@ -159,7 +159,7 @@ namespace filmCompressible
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "filmCompressibleMomentumTransportModelTemplates.C"
+    #include "filmCompressibleMomentumTransportModels/filmCompressibleMomentumTransportModelTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

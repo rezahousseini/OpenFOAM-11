@@ -35,8 +35,8 @@ SourceFiles
 #ifndef polyMeshTools_H
 #define polyMeshTools_H
 
-#include "polyMesh.H"
-#include "primitiveMeshTools.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

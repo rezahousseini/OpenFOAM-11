@@ -51,7 +51,7 @@ SourceFiles
 #ifndef rhoConst_H
 #define rhoConst_H
 
-#include "autoPtr.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -223,10 +223,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rhoConstI.H"
+#include "equationOfState/rhoConst/rhoConstI.H"
 
 #ifdef NoRepository
-    #include "rhoConst.C"
+    #include "equationOfState/rhoConst/rhoConst.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

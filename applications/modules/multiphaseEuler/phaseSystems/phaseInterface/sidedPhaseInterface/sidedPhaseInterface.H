@@ -35,7 +35,7 @@ SourceFiles
 #ifndef sidedPhaseInterface_H
 #define sidedPhaseInterface_H
 
-#include "phaseInterface.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

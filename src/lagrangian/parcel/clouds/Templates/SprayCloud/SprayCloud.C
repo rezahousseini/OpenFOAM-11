@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SprayCloud.H"
-#include "AtomisationModel.H"
-#include "BreakupModel.H"
-#include "ConeInjection.H"
-#include "parcelThermo.H"
+#include "clouds/Templates/SprayCloud/SprayCloud.H"
+#include "submodels/Spray/AtomisationModel/AtomisationModel/AtomisationModel.H"
+#include "submodels/Spray/BreakupModel/BreakupModel/BreakupModel.H"
+#include "submodels/Momentum/InjectionModel/ConeInjection/ConeInjection.H"
+#include "parcelThermo/parcelThermo.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

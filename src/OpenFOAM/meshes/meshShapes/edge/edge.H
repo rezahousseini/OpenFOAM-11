@@ -36,9 +36,9 @@ SourceFiles
 #ifndef edge_H
 #define edge_H
 
-#include "FixedList.H"
-#include "pointField.H"
-#include "linePointRef.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/primitiveShapes/line/linePointRef.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ inline bool contiguous<edge>()  {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "edgeI.H"
+#include "meshes/meshShapes/edge/edgeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

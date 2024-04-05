@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshDistributorsNone.H"
+#include "fvMesh/fvMeshDistributors/none/fvMeshDistributorsNone.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

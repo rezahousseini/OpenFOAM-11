@@ -46,7 +46,7 @@ See also
 #define film_H
 
 #include "isothermalFilm.H"
-#include "filmThermophysicalTransportModel.H"
+#include "filmThermophysicalTransportModels/filmThermophysicalTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

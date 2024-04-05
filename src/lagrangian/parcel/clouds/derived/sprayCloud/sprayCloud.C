@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sprayCloud.H"
-#include "addToRunTimeSelectionTable.H"
+#include "clouds/derived/sprayCloud/sprayCloud.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

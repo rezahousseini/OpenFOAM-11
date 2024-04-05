@@ -48,7 +48,7 @@ See also
 #ifndef SpatialVector_H
 #define SpatialVector_H
 
-#include "Vector.H"
+#include "primitives/Vector/Vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "SpatialVectorI.H"
+#include "primitives/spatialVectorAlgebra/SpatialVector/SpatialVectorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

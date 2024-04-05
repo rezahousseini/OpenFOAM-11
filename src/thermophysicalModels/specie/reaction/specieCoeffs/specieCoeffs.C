@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "specieCoeffs.H"
-#include "DynamicList.H"
-#include "OStringStream.H"
+#include "reaction/specieCoeffs/specieCoeffs.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

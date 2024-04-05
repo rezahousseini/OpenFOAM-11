@@ -36,8 +36,8 @@ Description
 #ifndef oneField_H
 #define oneField_H
 
-#include "one.H"
-#include "scalar.H"
+#include "primitives/one/one.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -86,7 +86,7 @@ inline const oneField& operator/(const oneField&, const oneField&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "oneFieldI.H"
+#include "fields/Fields/oneField/oneFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

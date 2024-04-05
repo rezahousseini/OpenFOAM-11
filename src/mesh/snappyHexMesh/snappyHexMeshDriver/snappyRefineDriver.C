@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "snappyRefineDriver.H"
-#include "meshRefinement.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "cellSet.H"
-#include "syncTools.H"
-#include "refinementParameters.H"
-#include "refinementSurfaces.H"
-#include "refinementFeatures.H"
-#include "refinementRegions.H"
-#include "polyDistributionMap.H"
-#include "unitConversion.H"
-#include "snapParameters.H"
-#include "localPointRegion.H"
+#include "snappyHexMeshDriver/snappyRefineDriver.H"
+#include "meshRefinement/meshRefinement.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/Time.H"
+#include "sets/topoSets/cellSet.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "snappyHexMeshDriver/refinementParameters/refinementParameters.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "refinementFeatures/refinementFeatures.H"
+#include "refinementRegions/refinementRegions.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "global/unitConversion/unitConversion.H"
+#include "snappyHexMeshDriver/snapParameters/snapParameters.H"
+#include "regionSplit/localPointRegion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeActivatedFileUpdate.H"
-#include "Time.H"
-#include "OSspecific.H"
-#include "addToRunTimeSelectionTable.H"
+#include "timeActivatedFileUpdate/timeActivatedFileUpdate.H"
+#include "db/Time/Time.H"
+#include "include/OSspecific.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

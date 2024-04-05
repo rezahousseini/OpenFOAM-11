@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointMVCWeight.H"
-#include "polyMesh.H"
+#include "interpolation/interpolation/interpolationPointMVC/pointMVCWeight.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

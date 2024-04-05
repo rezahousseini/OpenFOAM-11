@@ -39,7 +39,7 @@ SourceFiles
 #ifndef halfCosineRamp_H
 #define halfCosineRamp_H
 
-#include "Ramp.H"
+#include "primitives/functions/Function1/Ramp/Ramp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -104,7 +104,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "halfCosineRampI.H"
+#include "primitives/functions/Function1/halfCosineRamp/halfCosineRampI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

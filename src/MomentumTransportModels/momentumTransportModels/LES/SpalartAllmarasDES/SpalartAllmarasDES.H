@@ -44,7 +44,7 @@ SourceFiles
 #ifndef SpalartAllmarasDES_H
 #define SpalartAllmarasDES_H
 
-#include "LESeddyViscosity.H"
+#include "LES/LESeddyViscosity/LESeddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -215,7 +215,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SpalartAllmarasDES.C"
+    #include "LES/SpalartAllmarasDES/SpalartAllmarasDES.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

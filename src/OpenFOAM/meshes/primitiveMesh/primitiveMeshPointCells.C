@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "cell.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/meshShapes/cell/cell.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

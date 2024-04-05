@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmSurfacePointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patches/filmSurface/filmSurfacePointPatch/filmSurfacePointPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

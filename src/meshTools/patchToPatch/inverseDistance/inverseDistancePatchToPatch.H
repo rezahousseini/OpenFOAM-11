@@ -38,7 +38,7 @@ SourceFiles
 #ifndef inverseDistancePatchToPatch_H
 #define inverseDistancePatchToPatch_H
 
-#include "nearbyPatchToPatch.H"
+#include "patchToPatch/nearby/nearbyPatchToPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

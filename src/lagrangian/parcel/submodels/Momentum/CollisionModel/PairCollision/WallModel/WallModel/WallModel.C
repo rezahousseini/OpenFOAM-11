@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallModel.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/WallModel/WallModel/WallModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -83,6 +83,6 @@ Foam::WallModel<CloudType>::coeffDict() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WallModelNew.C"
+#include "submodels/Momentum/CollisionModel/PairCollision/WallModel/WallModel/WallModelNew.C"
 
 // ************************************************************************* //

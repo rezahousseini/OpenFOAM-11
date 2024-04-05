@@ -38,8 +38,8 @@ Description
 #ifndef vectorList_H
 #define vectorList_H
 
-#include "vector.H"
-#include "List.H"
+#include "primitives/Vector/vector/vector.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

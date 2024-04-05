@@ -37,7 +37,7 @@ SourceFiles
 #ifndef QRMatrix_H
 #define QRMatrix_H
 
-#include "SquareMatrix.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,12 +118,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "QRMatrixI.H"
+#include "matrices/QRMatrix/QRMatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "QRMatrix.C"
+    #include "matrices/QRMatrix/QRMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

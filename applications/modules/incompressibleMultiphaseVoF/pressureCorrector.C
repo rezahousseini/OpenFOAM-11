@@ -24,17 +24,17 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleMultiphaseVoF.H"
-#include "constrainHbyA.H"
-#include "constrainPressure.H"
-#include "adjustPhi.H"
-#include "findRefCell.H"
-#include "fvcMeshPhi.H"
-#include "fvcFlux.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvcSnGrad.H"
-#include "fvcReconstruct.H"
-#include "fvmLaplacian.H"
+#include "cfdTools/general/constrainHbyA/constrainHbyA.H"
+#include "cfdTools/general/constrainPressure/constrainPressure.H"
+#include "cfdTools/general/adjustPhi/adjustPhi.H"
+#include "cfdTools/general/findRefCell/findRefCell.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

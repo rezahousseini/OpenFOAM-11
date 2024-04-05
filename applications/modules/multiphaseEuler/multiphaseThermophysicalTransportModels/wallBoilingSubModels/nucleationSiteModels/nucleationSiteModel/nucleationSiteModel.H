@@ -36,11 +36,11 @@ SourceFiles
 #ifndef nucleationSiteModel_H
 #define nucleationSiteModel_H
 
-#include "volFields.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
-#include "phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

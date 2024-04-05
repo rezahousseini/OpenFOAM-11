@@ -54,7 +54,7 @@ SourceFiles
 #ifndef basicXiSubG_H
 #define basicXiSubG_H
 
-#include "XiGModel.H"
+#include "XiModels/XiGModels/XiGModel/XiGModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

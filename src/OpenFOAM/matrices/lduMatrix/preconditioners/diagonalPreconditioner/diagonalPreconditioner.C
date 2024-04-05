@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "diagonalPreconditioner.H"
+#include "matrices/lduMatrix/preconditioners/diagonalPreconditioner/diagonalPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

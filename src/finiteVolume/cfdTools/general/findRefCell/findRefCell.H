@@ -36,8 +36,8 @@ SourceFiles
 #ifndef findRefCell_H
 #define findRefCell_H
 
-#include "label.H"
-#include "volFields.H"
+#include "primitives/ints/label/label.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

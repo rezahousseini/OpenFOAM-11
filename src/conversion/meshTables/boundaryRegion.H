@@ -52,12 +52,12 @@ SourceFiles
 #ifndef boundaryRegion_H
 #define boundaryRegion_H
 
-#include "polyMesh.H"
-#include "Map.H"
-#include "dictionary.H"
-#include "labelList.H"
-#include "wordList.H"
-#include "wordReList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/strings/lists/wordReList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

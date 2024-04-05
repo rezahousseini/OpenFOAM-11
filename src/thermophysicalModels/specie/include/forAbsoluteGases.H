@@ -26,22 +26,22 @@ License
 #ifndef forAbsoluteGases_H
 #define forAbsoluteGases_H
 
-#include "specie.H"
+#include "specie/specie.H"
 
-#include "perfectGas.H"
+#include "equationOfState/perfectGas/perfectGas.H"
 
-#include "eConstThermo.H"
-#include "hConstThermo.H"
-#include "janafThermo.H"
+#include "thermo/eConst/eConstThermo.H"
+#include "thermo/hConst/hConstThermo.H"
+#include "thermo/janaf/janafThermo.H"
 
-#include "absoluteEnthalpy.H"
+#include "thermo/absoluteEnthalpy/absoluteEnthalpy.H"
 
-#include "constTransport.H"
-#include "sutherlandTransport.H"
+#include "transport/const/constTransport.H"
+#include "transport/sutherland/sutherlandTransport.H"
 
-#include "thermo.H"
+#include "thermo/thermo/thermo.H"
 
-#include "forThermo.H"
+#include "include/forThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

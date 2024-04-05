@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CoEulerDdtScheme.H"
-#include "fvMesh.H"
+#include "finiteVolume/ddtSchemes/CoEulerDdtScheme/CoEulerDdtScheme.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

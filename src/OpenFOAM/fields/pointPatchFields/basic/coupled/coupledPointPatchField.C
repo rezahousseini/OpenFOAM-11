@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledPointPatchField.H"
+#include "fields/pointPatchFields/basic/coupled/coupledPointPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * * //
 

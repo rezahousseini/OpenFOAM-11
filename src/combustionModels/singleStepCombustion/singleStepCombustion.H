@@ -35,9 +35,9 @@ SourceFiles
 #ifndef singleStepCombustion_H
 #define singleStepCombustion_H
 
-#include "combustionModel.H"
-#include "basicSpecieMixture.H"
-#include "reaction.H"
+#include "combustionModel/combustionModel.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "reaction/reaction/reaction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,7 +193,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "singleStepCombustionI.H"
+#include "singleStepCombustion/singleStepCombustionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

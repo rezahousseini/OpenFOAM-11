@@ -32,7 +32,7 @@ SourceFiles
 #ifndef checkMeshQuality_H
 #define checkMeshQuality_H
 
-#include "dictionary.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

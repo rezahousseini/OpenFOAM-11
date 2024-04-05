@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributionMap.H"
-#include "globalIndexAndTransform.H"
-#include "transformField.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "primitives/globalIndexAndTransform/globalIndexAndTransform.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

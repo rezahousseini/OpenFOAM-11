@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeScaleFilteredDrag.H"
-#include "swarmCorrection.H"
-#include "addToRunTimeSelectionTable.H"
+#include "dragModels/timeScaleFilteredDrag/timeScaleFilteredDrag.H"
+#include "swarmCorrections/swarmCorrection/swarmCorrection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

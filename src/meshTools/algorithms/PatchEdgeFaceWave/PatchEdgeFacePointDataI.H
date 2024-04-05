@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchEdgeFacePointData.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFacePointData.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

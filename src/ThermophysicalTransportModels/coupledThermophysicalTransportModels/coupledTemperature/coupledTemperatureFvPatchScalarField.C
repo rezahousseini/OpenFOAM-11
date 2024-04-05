@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledTemperatureFvPatchScalarField.H"
+#include "coupledTemperature/coupledTemperatureFvPatchScalarField.H"
 #include "thermophysicalTransportModel.H"
-#include "volFields.H"
-#include "fvPatchFieldMapper.H"
-#include "mappedPatchBase.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "mappedPatches/mappedPatchBase/mappedPatchBase.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

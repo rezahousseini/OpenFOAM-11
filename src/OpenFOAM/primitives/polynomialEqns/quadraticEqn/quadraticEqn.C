@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearEqn.H"
-#include "quadraticEqn.H"
+#include "primitives/polynomialEqns/linearEqn/linearEqn.H"
+#include "primitives/polynomialEqns/quadraticEqn/quadraticEqn.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

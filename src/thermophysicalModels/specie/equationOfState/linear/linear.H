@@ -59,7 +59,7 @@ SourceFiles
 #ifndef linear_H
 #define linear_H
 
-#include "autoPtr.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -239,10 +239,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "linearI.H"
+#include "equationOfState/linear/linearI.H"
 
 #ifdef NoRepository
-    #include "linear.C"
+    #include "interpolation/surfaceInterpolation/schemes/linear/linear.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

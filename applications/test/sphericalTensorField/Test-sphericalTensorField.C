@@ -26,7 +26,7 @@ Application
 
 \*---------------------------------------------------------------------------*/
 
-#include "tensorField.H"
+#include "fields/Fields/tensorField/tensorField.H"
 
 using namespace Foam;
 

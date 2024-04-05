@@ -29,11 +29,11 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "vtkTopo.H"
-#include "polyMesh.H"
-#include "cellShape.H"
-#include "cellModeller.H"
-#include "Swap.H"
-#include "polygonTriangulate.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "primitives/Swap/Swap.H"
+#include "algorithms/polygonTriangulate/polygonTriangulate.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

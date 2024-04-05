@@ -23,27 +23,27 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarTransport.H"
-#include "surfaceFields.H"
-#include "fvmDdt.H"
-#include "fvcDdt.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvmSup.H"
-#include "fvcFlux.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
+#include "scalarTransport/scalarTransport.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
 #include "incompressibleMomentumTransportModel.H"
 #include "compressibleMomentumTransportModel.H"
 
-#include "CMULES.H"
-#include "EulerDdtScheme.H"
-#include "localEulerDdtScheme.H"
-#include "CrankNicolsonDdtScheme.H"
-#include "subCycle.H"
-#include "interfaceCompression.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/ddtSchemes/CrankNicolsonDdtScheme/CrankNicolsonDdtScheme.H"
+#include "algorithms/subCycle/subCycle.H"
+#include "interfaceCompression/interfaceCompression.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

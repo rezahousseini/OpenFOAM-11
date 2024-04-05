@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDsurfaceFormat.H"
-#include "ListOps.H"
-#include "polygonTriangulate.H"
+#include "surfaceFormats/starcd/STARCDsurfaceFormat.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "algorithms/polygonTriangulate/polygonTriangulate.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

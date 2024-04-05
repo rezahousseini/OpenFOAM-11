@@ -44,11 +44,11 @@ SourceFiles
 #ifndef Flux_H
 #define Flux_H
 
-#include "NamedEnum.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "cloud.H"
-#include "CloudFunctionObject.H"
+#include "containers/NamedEnum/NamedEnum.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "cloud/cloud.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -252,7 +252,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Flux.C"
+    #include "submodels/CloudFunctionObjects/Flux/Flux.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

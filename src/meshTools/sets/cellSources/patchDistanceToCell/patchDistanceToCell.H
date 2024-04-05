@@ -35,8 +35,8 @@ SourceFiles
 #ifndef patchDistanceToCell_H
 #define patchDistanceToCell_H
 
-#include "topoSetSource.H"
-#include "NamedEnum.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NicenoKEqn.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
-#include "phaseSystem.H"
-#include "dragModel.H"
+#include "LES/Niceno/NicenoKEqn.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "phaseSystem/phaseSystem.H"
+#include "dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

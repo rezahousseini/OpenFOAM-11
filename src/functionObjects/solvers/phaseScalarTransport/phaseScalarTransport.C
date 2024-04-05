@@ -23,21 +23,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "fixedValueFvPatchField.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
-#include "nonOrthogonalSolutionControl.H"
-#include "phaseScalarTransport.H"
-#include "surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "cfdTools/general/solutionControl/solutionControl/nonOrthogonalSolutionControl/nonOrthogonalSolutionControl.H"
+#include "phaseScalarTransport/phaseScalarTransport.H"
+#include "fields/surfaceFields/surfaceFields.H"
 #include "momentumTransportModel.H"
-#include "wallFvPatch.H"
-#include "zeroGradientFvPatchField.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
 
 #define PhiDimensionErrorInFunction(phi)                                       \
     FatalErrorInFunction                                                       \

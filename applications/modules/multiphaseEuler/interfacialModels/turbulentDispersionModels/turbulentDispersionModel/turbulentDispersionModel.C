@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentDispersionModel.H"
+#include "turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
 #include "phaseCompressibleMomentumTransportModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

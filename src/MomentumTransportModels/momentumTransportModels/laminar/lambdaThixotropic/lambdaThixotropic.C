@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lambdaThixotropic.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
-#include "uniformDimensionedFields.H"
+#include "laminar/lambdaThixotropic/lambdaThixotropic.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

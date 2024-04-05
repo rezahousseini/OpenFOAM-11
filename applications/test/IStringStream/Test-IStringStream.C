@@ -25,9 +25,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IStringStream.H"
-#include "wordList.H"
-#include "IOstreams.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "primitives/strings/lists/wordList.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

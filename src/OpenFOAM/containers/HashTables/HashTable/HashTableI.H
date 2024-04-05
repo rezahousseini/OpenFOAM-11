@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * Private Member Classes * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 pressureReference pressureReference(p, simple.dict());
 
@@ -39,6 +39,6 @@ autoPtr<incompressible::momentumTransportModel> turbulence
     incompressible::momentumTransportModel::New(U, phi, viscosity)
 );
 
-#include "createMRF.H"
-#include "createFvModels.H"
-#include "createFvConstraints.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "cfdTools/general/include/createFvModels.H"
+#include "cfdTools/general/include/createFvConstraints.H"

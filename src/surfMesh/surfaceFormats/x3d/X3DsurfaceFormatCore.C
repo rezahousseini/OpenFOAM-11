@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "X3DsurfaceFormatCore.H"
-#include "clock.H"
+#include "surfaceFormats/x3d/X3DsurfaceFormatCore.H"
+#include "global/clock/clock.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

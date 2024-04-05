@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "multiphaseEuler.H"
-#include "localEulerDdtScheme.H"
-#include "surfaceFields.H"
-#include "fvcDiv.H"
-#include "fvcSurfaceIntegrate.H"
-#include "fvcMeshPhi.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

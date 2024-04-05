@@ -26,11 +26,11 @@ License
 #ifndef Function2Fwd_H
 #define Function2Fwd_H
 
-#include "Function2.H"
-#include "vector.H"
-#include "symmTensor.H"
-#include "sphericalTensor.H"
-#include "tensor.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

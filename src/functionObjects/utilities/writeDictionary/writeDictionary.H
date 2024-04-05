@@ -35,9 +35,9 @@ SourceFiles
 #ifndef functionObjects_writeDictionary_H
 #define functionObjects_writeDictionary_H
 
-#include "functionObject.H"
-#include "wordList.H"
-#include "SHA1Digest.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/hashes/SHA1/SHA1Digest.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

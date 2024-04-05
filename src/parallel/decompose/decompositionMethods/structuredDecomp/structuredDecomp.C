@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "structuredDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "FaceCellWave.H"
-#include "topoDistanceData.H"
-#include "fvMeshSubset.H"
+#include "structuredDecomp/structuredDecomp.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "algorithms/FaceCellWave/FaceCellWave.H"
+#include "meshStructure/topoDistanceData.H"
+#include "fvMeshSubset/fvMeshSubset.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

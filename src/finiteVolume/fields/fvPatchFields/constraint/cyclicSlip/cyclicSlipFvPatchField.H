@@ -48,8 +48,8 @@ SourceFiles
 #ifndef cyclicSlipFvPatchField_H
 #define cyclicSlipFvPatchField_H
 
-#include "cyclicFvPatchField.H"
-#include "cyclicSlipFvPatch.H"
+#include "fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/cyclicSlip/cyclicSlipFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -129,7 +129,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicSlipFvPatchField.C"
+    #include "fields/fvPatchFields/constraint/cyclicSlip/cyclicSlipFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

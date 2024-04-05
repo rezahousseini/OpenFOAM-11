@@ -36,7 +36,7 @@ SourceFiles
 #ifndef cylinderAnnulusToFace_H
 #define cylinderAnnulusToFace_H
 
-#include "topoSetSource.H"
+#include "sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 #ifndef surfaceSlipDisplacementFvPatchFieldsFwd_H
 #define surfaceSlipDisplacementFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

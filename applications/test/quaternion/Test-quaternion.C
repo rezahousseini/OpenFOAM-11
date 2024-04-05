@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "quaternion.H"
-#include "septernion.H"
-#include "IOstreams.H"
+#include "primitives/quaternion/quaternion.H"
+#include "primitives/septernion/septernion.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

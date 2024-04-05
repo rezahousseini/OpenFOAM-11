@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetCell.H"
-#include "cellShape.H"
-#include "cellModeller.H"
+#include "meshes/meshShapes/tetCell/tetCell.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

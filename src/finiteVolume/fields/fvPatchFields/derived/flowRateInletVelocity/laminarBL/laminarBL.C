@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminarBL.H"
+#include "fields/fvPatchFields/derived/flowRateInletVelocity/laminarBL/laminarBL.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

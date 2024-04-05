@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "VoFSolver.H"
-#include "fvmDiv.H"
-#include "fvcSnGrad.H"
-#include "fvcReconstruct.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

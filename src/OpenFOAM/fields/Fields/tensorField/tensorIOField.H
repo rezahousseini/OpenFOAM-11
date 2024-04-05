@@ -32,8 +32,8 @@ Description
 #ifndef tensorIOField_H
 #define tensorIOField_H
 
-#include "tensorField.H"
-#include "IOField.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

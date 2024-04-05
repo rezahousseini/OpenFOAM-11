@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveInletOutletFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "levelSet.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "waveSuperposition.H"
+#include "derivedFvPatchFields/waveInletOutlet/waveInletOutletFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "cfdTools/general/levelSet/levelSet.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "waveSuperpositions/waveSuperposition/waveSuperposition.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

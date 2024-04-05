@@ -92,10 +92,10 @@ SourceFiles
 #ifndef semiImplicitSource_H
 #define semiImplicitSource_H
 
-#include "fvModel.H"
-#include "fvCellSet.H"
-#include "HashPtrTable.H"
-#include "unknownTypeFunction1.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "primitives/functions/Function1/unknownTypeFunction1/unknownTypeFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

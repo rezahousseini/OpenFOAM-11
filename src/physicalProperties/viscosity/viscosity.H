@@ -35,8 +35,8 @@ SourceFiles
 #ifndef viscosity_H
 #define viscosity_H
 
-#include "primitiveFieldsFwd.H"
-#include "volFieldsFwd.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

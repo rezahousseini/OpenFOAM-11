@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSphere.H"
-#include "addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/searchableSphere/searchableSphere.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

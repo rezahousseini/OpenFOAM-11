@@ -35,8 +35,8 @@ SourceFiles
 #ifndef filmWallPointPatch_H
 #define filmWallPointPatch_H
 
-#include "facePointPatch.H"
-#include "filmWallPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "patches/filmWall/filmWallPolyPatch/filmWallPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

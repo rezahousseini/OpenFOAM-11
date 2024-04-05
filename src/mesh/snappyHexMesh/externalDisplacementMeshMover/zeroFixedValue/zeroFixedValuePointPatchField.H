@@ -43,7 +43,7 @@ SourceFiles
 #ifndef zeroFixedValuePointPatchField_H
 #define zeroFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchField.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -132,7 +132,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "zeroFixedValuePointPatchField.C"
+    #include "externalDisplacementMeshMover/zeroFixedValue/zeroFixedValuePointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

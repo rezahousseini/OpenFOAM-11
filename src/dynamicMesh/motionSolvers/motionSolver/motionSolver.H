@@ -35,9 +35,9 @@ SourceFiles
 #ifndef motionSolver_H
 #define motionSolver_H
 
-#include "pointField.H"
-#include "Time.H"
-#include "dictionary.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "db/Time/Time.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

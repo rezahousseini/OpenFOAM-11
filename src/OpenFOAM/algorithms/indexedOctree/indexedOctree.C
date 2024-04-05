@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedOctree.H"
-#include "linePointRef.H"
-#include "OFstream.H"
-#include "ListOps.H"
-#include "memInfo.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "meshes/primitiveShapes/line/linePointRef.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "memInfo/memInfo.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

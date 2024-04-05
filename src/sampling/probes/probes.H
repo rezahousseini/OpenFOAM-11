@@ -37,14 +37,14 @@ SourceFiles
 #ifndef probes_H
 #define probes_H
 
-#include "functionObject.H"
-#include "HashPtrTable.H"
-#include "OFstream.H"
-#include "polyMesh.H"
-#include "pointField.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "surfaceMesh.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -284,7 +284,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "probesTemplates.C"
+    #include "probes/probesTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

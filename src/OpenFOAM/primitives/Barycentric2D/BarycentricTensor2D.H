@@ -38,9 +38,9 @@ SourceFiles
 #ifndef BarycentricTensor2D_H
 #define BarycentricTensor2D_H
 
-#include "Barycentric2D.H"
-#include "Tensor2D.H"
-#include "Vector.H"
+#include "primitives/Barycentric2D/Barycentric2D.H"
+#include "primitives/Tensor2D/Tensor2D.H"
+#include "primitives/Vector/Vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -128,7 +128,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BarycentricTensor2DI.H"
+#include "primitives/Barycentric2D/BarycentricTensor2DI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

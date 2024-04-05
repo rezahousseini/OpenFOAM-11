@@ -35,11 +35,11 @@ SourceFiles
 #ifndef fvSurfaceMapper_H
 #define fvSurfaceMapper_H
 
-#include "morphFieldMapper.H"
-#include "fvMesh.H"
-#include "faceMapper.H"
-#include "HashSet.H"
-#include "polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyTopoChangeMap/morphFieldMapper.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/faceMapper/faceMapper.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

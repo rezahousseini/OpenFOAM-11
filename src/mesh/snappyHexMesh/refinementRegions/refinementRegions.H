@@ -36,9 +36,9 @@ SourceFiles
 #ifndef refinementRegions_H
 #define refinementRegions_H
 
-#include "Tuple2.H"
-#include "triSurfaceMesh.H"
-#include "triSurfaceFieldsFwd.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "triSurfaceFields/triSurfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

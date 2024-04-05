@@ -130,10 +130,10 @@ SourceFiles
 #ifndef distributionMap_H
 #define distributionMap_H
 
-#include "distributionMapBase.H"
-#include "transformer.H"
-#include "coupledPolyPatch.H"
-#include "EdgeMap.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMapBase.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "meshes/meshShapes/edge/EdgeMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -651,7 +651,7 @@ void distributionMap::transform::operator()
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "distributionMapTemplates.C"
+    #include "meshes/polyMesh/polyDistributionMap/distributionMapTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,12 +36,12 @@ SourceFiles
 #ifndef surfaceMeshWriter_H
 #define surfaceMeshWriter_H
 
-#include "pointMesh.H"
-#include "OFstream.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 #include "vtkMesh.H"
-#include "indirectPrimitivePatch.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 using namespace Foam;
 

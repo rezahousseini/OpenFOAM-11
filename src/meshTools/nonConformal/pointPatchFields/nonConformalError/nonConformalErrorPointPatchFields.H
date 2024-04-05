@@ -26,8 +26,8 @@ License
 #ifndef nonConformalErrorPointPatchFields_H
 #define nonConformalErrorPointPatchFields_H
 
-#include "nonConformalErrorPointPatchField.H"
-#include "fieldTypes.H"
+#include "nonConformal/pointPatchFields/nonConformalError/nonConformalErrorPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

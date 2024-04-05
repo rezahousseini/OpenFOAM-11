@@ -36,7 +36,7 @@ SourceFiles
 #ifndef MulticomponentPhaseModel_H
 #define MulticomponentPhaseModel_H
 
-#include "phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -114,7 +114,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MulticomponentPhaseModel.C"
+    #include "phaseModel/MulticomponentPhaseModel/MulticomponentPhaseModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

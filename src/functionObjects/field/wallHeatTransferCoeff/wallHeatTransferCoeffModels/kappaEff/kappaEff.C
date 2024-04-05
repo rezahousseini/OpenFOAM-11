@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kappaEff.H"
+#include "wallHeatTransferCoeff/wallHeatTransferCoeffModels/kappaEff/kappaEff.H"
 #include "incompressibleMomentumTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

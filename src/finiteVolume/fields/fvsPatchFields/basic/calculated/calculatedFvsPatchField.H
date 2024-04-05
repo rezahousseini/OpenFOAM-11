@@ -35,7 +35,7 @@ SourceFiles
 #ifndef calculatedFvsPatchField_H
 #define calculatedFvsPatchField_H
 
-#include "fvsPatchField.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -120,7 +120,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "calculatedFvsPatchField.C"
+    #include "fields/fvsPatchFields/basic/calculated/calculatedFvsPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantContactAngle.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "contactAngleModels/constant/constantContactAngle.H"
+#include "global/unitConversion/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

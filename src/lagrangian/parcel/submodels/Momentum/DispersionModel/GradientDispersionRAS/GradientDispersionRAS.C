@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GradientDispersionRAS.H"
-#include "demandDrivenData.H"
-#include "fvcGrad.H"
+#include "submodels/Momentum/DispersionModel/GradientDispersionRAS/GradientDispersionRAS.H"
+#include "include/demandDrivenData.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

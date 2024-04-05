@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactionDriven.H"
-#include "addToRunTimeSelectionTable.H"
-#include "phaseSystem.H"
+#include "populationBalanceModel/nucleationModels/reactionDriven/reactionDriven.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

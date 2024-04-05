@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tabulatedDensity.H"
-#include "unintegrable.H"
-#include "SubField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "distributions/tabulatedDensity/tabulatedDensity.H"
+#include "distributions/unintegrable/unintegrable.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyState.H"
-#include "fvMeshMoversMotionSolver.H"
-#include "motionSolver.H"
-#include "sixDoFRigidBodyMotion.H"
-#include "quaternion.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sixDoFRigidBodyState/sixDoFRigidBodyState.H"
+#include "motionSolver/fvMeshMoversMotionSolver.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.H"
+#include "primitives/quaternion/quaternion.H"
+#include "global/unitConversion/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

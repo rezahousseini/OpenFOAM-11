@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "granularPressureModel.H"
+#include "kineticTheoryModels/granularPressureModel/granularPressureModel/granularPressureModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

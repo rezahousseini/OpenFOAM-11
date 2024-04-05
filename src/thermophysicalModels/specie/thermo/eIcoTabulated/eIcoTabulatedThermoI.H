@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "eIcoTabulatedThermo.H"
+#include "thermo/eIcoTabulated/eIcoTabulatedThermo.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

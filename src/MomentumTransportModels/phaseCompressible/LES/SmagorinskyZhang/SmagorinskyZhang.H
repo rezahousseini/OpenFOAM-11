@@ -53,8 +53,8 @@ SourceFiles
 #ifndef SmagorinskyZhang_H
 #define SmagorinskyZhang_H
 
-#include "Smagorinsky.H"
-#include "eddyViscosity.H"
+#include "LES/Smagorinsky/Smagorinsky.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -152,7 +152,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SmagorinskyZhang.C"
+    #include "LES/SmagorinskyZhang/SmagorinskyZhang.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

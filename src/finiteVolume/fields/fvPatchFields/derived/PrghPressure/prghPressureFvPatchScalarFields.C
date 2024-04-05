@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrghPressureFvPatchScalarField.H"
-#include "pressureFvPatchScalarField.H"
-#include "totalPressureFvPatchScalarField.H"
-#include "entrainmentPressureFvPatchScalarField.H"
-#include "uniformDensityHydrostaticPressureFvPatchScalarField.H"
+#include "fields/fvPatchFields/derived/PrghPressure/PrghPressureFvPatchScalarField.H"
+#include "fields/fvPatchFields/derived/pressure/pressureFvPatchScalarField.H"
+#include "fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.H"
+#include "fields/fvPatchFields/derived/entrainmentPressure/entrainmentPressureFvPatchScalarField.H"
+#include "fields/fvPatchFields/derived/uniformDensityHydrostaticPressure/uniformDensityHydrostaticPressureFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constAnisoSolidThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "constAnisoSolidThermo/constAnisoSolidThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 /* * * * * * * * * * * * * * * Private Static Data * * * * * * * * * * * * * */
 

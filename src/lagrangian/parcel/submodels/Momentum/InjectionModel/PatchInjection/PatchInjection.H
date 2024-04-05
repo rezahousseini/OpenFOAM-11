@@ -46,8 +46,8 @@ SourceFiles
 #ifndef PatchInjection_H
 #define PatchInjection_H
 
-#include "InjectionModel.H"
-#include "patchInjectionBase.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.H"
+#include "submodels/Momentum/InjectionModel/PatchInjection/patchInjectionBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -176,7 +176,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchInjection.C"
+    #include "submodels/Momentum/InjectionModel/PatchInjection/PatchInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

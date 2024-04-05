@@ -26,7 +26,7 @@ License
 #ifndef mixedFvPatchFieldsFwd_H
 #define mixedFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

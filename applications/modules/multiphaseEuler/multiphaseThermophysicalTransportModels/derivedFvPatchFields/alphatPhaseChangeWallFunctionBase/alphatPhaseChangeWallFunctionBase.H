@@ -35,7 +35,7 @@ SourceFiles
 #ifndef alphatPhaseChangeWallFunctionBase_H
 #define alphatPhaseChangeWallFunctionBase_H
 
-#include "fvPatchFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

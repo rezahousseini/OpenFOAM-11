@@ -46,7 +46,7 @@ Description
 #ifndef attachPolyTopoChanger_H
 #define attachPolyTopoChanger_H
 
-#include "polyTopoChanger.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

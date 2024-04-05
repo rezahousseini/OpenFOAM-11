@@ -41,7 +41,7 @@ SourceFiles
 #define solidDisplacement_H
 
 #include "solid.H"
-#include "solidDisplacementThermo.H"
+#include "solidDisplacementThermo/solidDisplacementThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,10 +35,10 @@ SourceFiles
 #ifndef basicCombustionMixture_H
 #define basicCombustionMixture_H
 
-#include "volFields.H"
-#include "PtrList.H"
-#include "basicMixture.H"
-#include "speciesTable.H"
+#include "fields/volFields/volFields.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "mixtures/basicMixture/basicMixture.H"
+#include "speciesTable/speciesTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicCombustionMixtureI.H"
+#include "mixtures/basicCombustionMixture/basicCombustionMixtureI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

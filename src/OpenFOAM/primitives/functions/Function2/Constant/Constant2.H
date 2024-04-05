@@ -47,7 +47,7 @@ SourceFiles
 #ifndef Constant2_H
 #define Constant2_H
 
-#include "Function2.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,11 +134,11 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "Constant2I.H"
+#include "primitives/functions/Function2/Constant/Constant2I.H"
 
 #ifdef NoRepository
-    #include "Constant2.C"
-    #include "Function2New.C"
+    #include "primitives/functions/Function2/Constant/Constant2.C"
+    #include "primitives/functions/Function2/Function2/Function2New.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

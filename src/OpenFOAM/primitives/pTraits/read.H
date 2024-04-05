@@ -32,8 +32,8 @@ Description
 #ifndef read_H
 #define read_H
 
-#include "pTraits.H"
-#include "IStringStream.H"
+#include "primitives/pTraits/pTraits.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

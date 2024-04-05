@@ -36,8 +36,8 @@ SourceFiles
 #ifndef smoothData_H
 #define smoothData_H
 
-#include "scalar.H"
-#include "labelPair.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,7 +214,7 @@ inline bool contiguous<smoothData>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "smoothDataI.H"
+#include "finiteVolume/fvc/fvcSmooth/smoothDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BrownianCollisions.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fundamentalConstants.H"
+#include "populationBalanceModel/coalescenceModels/BrownianCollisions/BrownianCollisions.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/fundamental/fundamentalConstants.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

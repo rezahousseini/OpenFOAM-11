@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SurfaceFilmModel.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "submodels/Momentum/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModel.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -190,6 +190,6 @@ void Foam::SurfaceFilmModel<CloudType>::info(Ostream& os)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SurfaceFilmModelNew.C"
+#include "submodels/Momentum/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModelNew.C"
 
 // ************************************************************************* //

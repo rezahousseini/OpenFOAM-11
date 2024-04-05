@@ -43,11 +43,11 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionRestraint_H
 #define sixDoFRigidBodyMotionRestraint_H
 
-#include "Time.H"
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "vector.H"
-#include "runTimeSelectionTables.H"
+#include "db/Time/Time.H"
+#include "db/dictionary/dictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/Vector/vector/vector.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

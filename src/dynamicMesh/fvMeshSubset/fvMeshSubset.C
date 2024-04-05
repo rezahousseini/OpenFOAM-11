@@ -28,16 +28,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubset.H"
-#include "boolList.H"
-#include "Pstream.H"
-#include "internalPolyPatch.H"
-#include "demandDrivenData.H"
-#include "cyclicPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "removeCells.H"
-#include "polyTopoChange.H"
-#include "polyTopoChangeMap.H"
+#include "fvMeshSubset/fvMeshSubset.H"
+#include "primitives/bools/lists/boolList.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "meshes/polyMesh/polyPatches/constraint/internal/internalPolyPatch.H"
+#include "include/demandDrivenData.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "polyTopoChange/polyTopoChange/removeCells.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

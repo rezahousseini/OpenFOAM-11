@@ -36,7 +36,7 @@ SourceFiles
 #ifndef searchableSurfaceToFaceZone_H
 #define searchableSurfaceToFaceZone_H
 
-#include "topoSetSource.H"
+#include "sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

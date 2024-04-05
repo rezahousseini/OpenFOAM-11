@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "ListLoopM.H"
-#include "FixedList.H"
-#include "PtrList.H"
-#include "SLList.H"
-#include "IndirectList.H"
-#include "UIndirectList.H"
-#include "BiIndirectList.H"
-#include "contiguous.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/ListLoopM.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "containers/Lists/IndirectList/IndirectList.H"
+#include "containers/Lists/UIndirectList/UIndirectList.H"
+#include "containers/Lists/BiIndirectList/BiIndirectList.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 
@@ -477,6 +477,6 @@ void Foam::List<T>::operator=(std::initializer_list<T> lst)
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "ListIO.C"
+#include "containers/Lists/List/ListIO.C"
 
 // ************************************************************************* //

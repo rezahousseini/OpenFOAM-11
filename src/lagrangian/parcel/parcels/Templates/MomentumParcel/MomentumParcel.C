@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MomentumParcel.H"
-#include "forceSuSp.H"
-#include "integrationScheme.H"
-#include "meshTools.H"
+#include "parcels/Templates/MomentumParcel/MomentumParcel.H"
+#include "submodels/Momentum/ParticleForces/forceSuSp/forceSuSp.H"
+#include "integrationScheme/integrationScheme/integrationScheme.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -563,6 +563,6 @@ void Foam::MomentumParcel<ParcelType>::hitBasicPatch
 
 // * * * * * * * * * * * * * * IOStream operators  * * * * * * * * * * * * * //
 
-#include "MomentumParcelIO.C"
+#include "parcels/Templates/MomentumParcel/MomentumParcelIO.C"
 
 // ************************************************************************* //

@@ -59,7 +59,7 @@ SourceFiles
 #ifndef dynamicContactAngle_H
 #define dynamicContactAngle_H
 
-#include "contactAngleModel.H"
+#include "contactAngleModels/contactAngleModel/contactAngleModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

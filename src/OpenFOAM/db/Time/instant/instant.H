@@ -35,8 +35,8 @@ SourceFiles
 #ifndef instant_H
 #define instant_H
 
-#include "word.H"
-#include "scalar.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

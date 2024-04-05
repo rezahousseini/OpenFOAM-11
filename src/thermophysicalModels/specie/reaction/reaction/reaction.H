@@ -36,8 +36,8 @@ SourceFiles
 #ifndef reaction_H
 #define reaction_H
 
-#include "speciesTable.H"
-#include "specieCoeffs.H"
+#include "speciesTable/speciesTable.H"
+#include "reaction/specieCoeffs/specieCoeffs.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "reactionI.H"
+#include "reaction/reaction/reactionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

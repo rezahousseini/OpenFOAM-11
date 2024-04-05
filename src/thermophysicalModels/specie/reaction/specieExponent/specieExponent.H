@@ -36,8 +36,8 @@ SourceFiles
 #ifndef specieExponent_H
 #define specieExponent_H
 
-#include "label.H"
-#include "scalar.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -145,7 +145,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "specieExponentI.H"
+#include "reaction/specieExponent/specieExponentI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

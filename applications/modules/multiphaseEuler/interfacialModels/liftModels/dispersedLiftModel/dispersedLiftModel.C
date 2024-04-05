@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dispersedLiftModel.H"
-#include "fvcCurl.H"
-#include "fvcFlux.H"
-#include "surfaceInterpolate.H"
+#include "liftModels/dispersedLiftModel/dispersedLiftModel.H"
+#include "finiteVolume/fvc/fvcCurl.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

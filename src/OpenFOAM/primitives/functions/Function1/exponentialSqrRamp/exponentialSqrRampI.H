@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exponentialSqrRamp.H"
-#include "mathematicalConstants.H"
+#include "primitives/functions/Function1/exponentialSqrRamp/exponentialSqrRamp.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

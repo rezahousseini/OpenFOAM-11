@@ -33,7 +33,7 @@ Description
 #ifndef WallSpringSliderDashpot_H
 #define WallSpringSliderDashpot_H
 
-#include "WallModel.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/WallModel/WallModel/WallModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -176,7 +176,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "WallSpringSliderDashpot.C"
+    #include "submodels/Momentum/CollisionModel/PairCollision/WallModel/WallSpringSliderDashpot/WallSpringSliderDashpot.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

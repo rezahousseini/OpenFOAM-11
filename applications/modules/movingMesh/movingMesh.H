@@ -38,7 +38,7 @@ SourceFiles
 #ifndef movingMesh_H
 #define movingMesh_H
 
-#include "solver.H"
+#include "solver/solver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

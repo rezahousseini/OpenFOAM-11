@@ -35,8 +35,8 @@ SourceFiles
 #ifndef ensightPartCells_H
 #define ensightPartCells_H
 
-#include "ensightPart.H"
-#include "typeInfo.H"
+#include "ensight/part/ensightPart.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "yPlus.H"
+#include "yPlus/yPlus.H"
 #include "momentumTransportModel.H"
-#include "nutWallFunctionFvPatchScalarField.H"
-#include "wallFvPatch.H"
-#include "nearWallDist.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fvMesh/wallDist/nearWallDist/nearWallDist.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

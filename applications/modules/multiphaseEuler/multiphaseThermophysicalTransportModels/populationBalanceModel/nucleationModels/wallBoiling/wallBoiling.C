@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallBoiling.H"
-#include "addToRunTimeSelectionTable.H"
-#include "alphatWallBoilingWallFunctionFvPatchScalarField.H"
-#include "phaseSystem.H"
+#include "populationBalanceModel/nucleationModels/wallBoiling/wallBoiling.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

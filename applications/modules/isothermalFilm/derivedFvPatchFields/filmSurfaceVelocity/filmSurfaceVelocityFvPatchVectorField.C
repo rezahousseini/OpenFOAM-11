@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmSurfaceVelocityFvPatchVectorField.H"
+#include "derivedFvPatchFields/filmSurfaceVelocity/filmSurfaceVelocityFvPatchVectorField.H"
 #include "compressibleMomentumTransportModel.H"
-#include "mappedPatchBase.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedPatchBase/mappedPatchBase.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

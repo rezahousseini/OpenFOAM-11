@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "convergenceControl.H"
-#include "volFields.H"
+#include "cfdTools/general/solutionControl/convergenceControl/convergenceControl/convergenceControl.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

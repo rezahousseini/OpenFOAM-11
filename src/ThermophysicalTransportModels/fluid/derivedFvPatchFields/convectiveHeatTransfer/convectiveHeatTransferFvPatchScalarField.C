@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "convectiveHeatTransferFvPatchScalarField.H"
-#include "fluidThermophysicalTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/convectiveHeatTransfer/convectiveHeatTransferFvPatchScalarField.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

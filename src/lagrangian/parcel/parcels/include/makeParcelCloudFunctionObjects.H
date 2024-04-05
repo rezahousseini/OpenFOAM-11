@@ -28,17 +28,17 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FacePostProcessing.H"
-#include "Flux.H"
-#include "ParticleCollector.H"
-#include "ParticleErosion.H"
-#include "ParticleTracks.H"
-#include "ParticleTrap.H"
-#include "PatchCollisionDensity.H"
-#include "PatchPostProcessing.H"
-#include "RelativeVelocity.H"
-#include "SizeDistribution.H"
-#include "VoidFraction.H"
+#include "submodels/CloudFunctionObjects/FacePostProcessing/FacePostProcessing.H"
+#include "submodels/CloudFunctionObjects/Flux/Flux.H"
+#include "submodels/CloudFunctionObjects/ParticleCollector/ParticleCollector.H"
+#include "submodels/CloudFunctionObjects/ParticleErosion/ParticleErosion.H"
+#include "submodels/CloudFunctionObjects/ParticleTracks/ParticleTracks.H"
+#include "submodels/CloudFunctionObjects/ParticleTrap/ParticleTrap.H"
+#include "submodels/CloudFunctionObjects/PatchCollisionDensity/PatchCollisionDensity.H"
+#include "submodels/CloudFunctionObjects/PatchPostProcessing/PatchPostProcessing.H"
+#include "submodels/CloudFunctionObjects/RelativeVelocity/RelativeVelocity.H"
+#include "submodels/CloudFunctionObjects/SizeDistribution/SizeDistribution.H"
+#include "submodels/CloudFunctionObjects/VoidFraction/VoidFraction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

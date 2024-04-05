@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellToFaceStencil.H"
-#include "SortableList.H"
-#include "emptyPolyPatch.H"
-#include "syncTools.H"
-#include "dummyTransform.H"
+#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/cellToFaceStencil.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/syncTools/dummyTransform.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

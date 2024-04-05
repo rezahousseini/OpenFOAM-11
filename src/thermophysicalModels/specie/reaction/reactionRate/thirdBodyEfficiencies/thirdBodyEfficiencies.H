@@ -35,8 +35,8 @@ SourceFiles
 #ifndef thirdBodyEfficiencies_H
 #define thirdBodyEfficiencies_H
 
-#include "scalarField.H"
-#include "speciesTable.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "speciesTable/speciesTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -107,7 +107,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thirdBodyEfficienciesI.H"
+#include "reaction/reactionRate/thirdBodyEfficiencies/thirdBodyEfficienciesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

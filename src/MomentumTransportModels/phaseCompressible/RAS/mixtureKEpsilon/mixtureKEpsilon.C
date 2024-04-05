@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixtureKEpsilon.H"
-#include "fvModels.H"
-#include "bound.H"
-#include "phaseSystem.H"
-#include "dispersedDragModel.H"
-#include "dispersedVirtualMassModel.H"
-#include "fixedValueFvPatchFields.H"
-#include "inletOutletFvPatchFields.H"
-#include "epsilonWallFunctionFvPatchScalarField.H"
-#include "epsilonmWallFunctionFvPatchScalarField.H"
-#include "fvmSup.H"
+#include "RAS/mixtureKEpsilon/mixtureKEpsilon.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/bound/bound.H"
+#include "phaseSystem/phaseSystem.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
+#include "virtualMassModels/dispersedVirtualMassModel/dispersedVirtualMassModel.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.H"
+#include "derivedFvPatchFields/wallFunctions/epsilonWallFunctions/epsilonWallFunction/epsilonWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/wallFunctions/epsilonWallFunctions/epsilonmWallFunction/epsilonmWallFunctionFvPatchScalarField.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

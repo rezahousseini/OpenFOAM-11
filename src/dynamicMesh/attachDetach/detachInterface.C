@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "attachDetach.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "polyTopoChange.H"
-#include "polyTopoChanger.H"
-#include "polyAddPoint.H"
-#include "polyModifyFace.H"
-#include "polyAddFace.H"
+#include "attachDetach/attachDetach.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "polyTopoChange/polyTopoChange/addObject/polyAddPoint.H"
+#include "polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/polyTopoChange/addObject/polyAddFace.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

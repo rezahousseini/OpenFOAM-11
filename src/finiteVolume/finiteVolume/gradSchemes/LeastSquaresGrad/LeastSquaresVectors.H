@@ -38,8 +38,8 @@ SourceFiles
 #ifndef LeastSquaresVectors_H
 #define LeastSquaresVectors_H
 
-#include "extendedCentredCellToCellStencil.H"
-#include "DemandDrivenMeshObject.H"
+#include "fvMesh/extendedStencil/cellToCell/extendedCentredCellToCellStencil.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -135,7 +135,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LeastSquaresVectors.C"
+    #include "finiteVolume/gradSchemes/LeastSquaresGrad/LeastSquaresVectors.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

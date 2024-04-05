@@ -59,9 +59,9 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "unitConversion.H"
-#include "MeshedSurfaces.H"
+#include "global/argList/argList.H"
+#include "global/unitConversion/unitConversion.H"
+#include "MeshedSurface/MeshedSurfaces.H"
 
 using namespace Foam;
 
@@ -69,7 +69,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::addNote
     (

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AtomisationModel.H"
+#include "submodels/Spray/AtomisationModel/AtomisationModel/AtomisationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

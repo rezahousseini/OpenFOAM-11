@@ -39,7 +39,7 @@ SourceFiles
 #ifndef timeIOdictionary_H
 #define timeIOdictionary_H
 
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

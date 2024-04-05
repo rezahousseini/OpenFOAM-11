@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "unintegrable.H"
-#include "quadraticEqn.H"
-#include "SubField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "distributions/unintegrable/unintegrable.H"
+#include "primitives/polynomialEqns/quadraticEqn/quadraticEqn.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

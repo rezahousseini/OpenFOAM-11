@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceZoneSelection.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
+#include "faceSelection/faceZoneSelection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

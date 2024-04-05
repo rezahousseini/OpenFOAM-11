@@ -55,8 +55,8 @@ See also
 #define incompressibleDriftFlux_H
 
 #include "twoPhaseSolver.H"
-#include "incompressibleDriftFluxMixture.H"
-#include "relativeVelocityModel.H"
+#include "incompressibleDriftFluxMixture/incompressibleDriftFluxMixture.H"
+#include "relativeVelocityModels/relativeVelocityModel/relativeVelocityModel.H"
 #include "momentumTransportModel.H"
 #include "compressibleMomentumTransportModels.H"
 

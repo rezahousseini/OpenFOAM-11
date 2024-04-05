@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LeastSquaresGrad.H"
-#include "LeastSquaresVectors.H"
-#include "gaussGrad.H"
-#include "fvMesh.H"
-#include "volMesh.H"
-#include "extrapolatedCalculatedFvPatchField.H"
+#include "finiteVolume/gradSchemes/LeastSquaresGrad/LeastSquaresGrad.H"
+#include "finiteVolume/gradSchemes/LeastSquaresGrad/LeastSquaresVectors.H"
+#include "finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
+#include "fvMesh/fvMesh.H"
+#include "volMesh/volMesh.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

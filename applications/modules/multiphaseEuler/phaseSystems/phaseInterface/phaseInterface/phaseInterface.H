@@ -38,10 +38,10 @@ SourceFiles
 #ifndef phaseInterface_H
 #define phaseInterface_H
 
-#include "phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 #include "compressibleTwoPhases.H"
-#include "uniformDimensionedFields.H"
-#include "runTimeSelectionTables.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -417,7 +417,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "phaseInterfaceI.H"
+#include "phaseInterface/phaseInterface/phaseInterfaceI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseModel.H"
-#include "phaseSystem.H"
-#include "diameterModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "diameterModels/diameterModel/diameterModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

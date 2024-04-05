@@ -36,8 +36,8 @@ SourceFiles
 #ifndef pressureReference_H
 #define pressureReference_H
 
-#include "dimensionedScalar.H"
-#include "volFieldsFwd.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -98,7 +98,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pressureReferenceI.H"
+#include "cfdTools/general/pressureReference/pressureReferenceI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

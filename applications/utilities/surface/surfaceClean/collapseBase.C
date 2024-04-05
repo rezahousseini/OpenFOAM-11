@@ -24,13 +24,13 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "collapseBase.H"
-#include "triSurfaceTools.H"
-#include "argList.H"
-#include "OFstream.H"
-#include "SubList.H"
-#include "labelPair.H"
-#include "meshTools.H"
-#include "OSspecific.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/SubList/SubList.H"
+#include "primitives/Pair/labelPair.H"
+#include "meshTools/meshTools.H"
+#include "include/OSspecific.H"
 
 using namespace Foam;
 

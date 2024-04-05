@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "segregatedPhaseInterface.H"
-#include "addToRunTimeSelectionTable.H"
+#include "phaseInterface/segregatedPhaseInterface/segregatedPhaseInterface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

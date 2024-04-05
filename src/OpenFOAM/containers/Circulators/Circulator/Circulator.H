@@ -60,7 +60,7 @@ SourceFiles
 #ifndef Circulator_H
 #define Circulator_H
 
-#include "CirculatorBase.H"
+#include "containers/Circulators/CirculatorBase/CirculatorBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -222,7 +222,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CirculatorI.H"
+#include "containers/Circulators/Circulator/CirculatorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

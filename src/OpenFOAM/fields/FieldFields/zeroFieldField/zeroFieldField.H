@@ -37,7 +37,7 @@ Description
 #ifndef zeroFieldField_H
 #define zeroFieldField_H
 
-#include "zeroField.H"
+#include "fields/Fields/zeroField/zeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -74,7 +74,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "zeroFieldFieldI.H"
+    #include "fields/FieldFields/zeroFieldField/zeroFieldFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

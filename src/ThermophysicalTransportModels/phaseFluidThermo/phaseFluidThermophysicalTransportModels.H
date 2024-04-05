@@ -26,7 +26,7 @@ License
 #include "phaseFluidThermophysicalTransportModel.H"
 #include "phaseCompressibleMomentumTransportModels.H"
 #include "makeThermophysicalTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

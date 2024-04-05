@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPatchMapper.H"
-#include "pointPatch.H"
-#include "polyTopoChangeMap.H"
-#include "faceMapper.H"
-#include "demandDrivenData.H"
+#include "meshes/pointMesh/pointMeshMapper/pointPatchMapper.H"
+#include "meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyTopoChangeMap/faceMapper/faceMapper.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

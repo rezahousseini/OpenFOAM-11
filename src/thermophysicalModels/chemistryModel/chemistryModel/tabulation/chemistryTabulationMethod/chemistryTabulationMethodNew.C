@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemistryTabulationMethod.H"
-#include "noChemistryTabulation.H"
-#include "Time.H"
+#include "chemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.H"
+#include "chemistryModel/tabulation/noChemistryTabulation/noChemistryTabulation.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoStochasticCollision.H"
-#include "ORourkeCollision.H"
-#include "TrajectoryCollision.H"
+#include "submodels/Momentum/StochasticCollision/NoStochasticCollision/NoStochasticCollision.H"
+#include "submodels/Spray/StochasticCollision/ORourkeCollision/ORourkeCollision.H"
+#include "submodels/Spray/StochasticCollision/TrajectoryCollision/TrajectoryCollision.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

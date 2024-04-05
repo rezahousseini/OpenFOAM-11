@@ -35,8 +35,8 @@ SourceFiles
 #ifndef masterCoarsestGAMGProcAgglomeration_H
 #define masterCoarsestGAMGProcAgglomeration_H
 
-#include "GAMGProcAgglomeration.H"
-#include "DynamicList.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/GAMGProcAgglomeration/GAMGProcAgglomeration.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

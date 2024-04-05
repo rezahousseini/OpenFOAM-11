@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicSlipPointPatchField_H
 #define cyclicSlipPointPatchField_H
 
-#include "cyclicPointPatchField.H"
-#include "cyclicSlipPointPatch.H"
+#include "fields/pointPatchFields/constraint/cyclic/cyclicPointPatchField.H"
+#include "meshes/pointMesh/pointPatches/constraint/cyclicSlip/cyclicSlipPointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicSlipPointPatchField.C"
+    #include "fields/pointPatchFields/constraint/cyclicSlip/cyclicSlipPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

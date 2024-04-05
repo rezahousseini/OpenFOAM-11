@@ -58,7 +58,7 @@ SourceFiles
 #ifndef HerschelBulkley_H
 #define HerschelBulkley_H
 
-#include "strainRateViscosityModel.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonianViscosityModels/strainRateViscosityModels/strainRateViscosityModel/strainRateViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

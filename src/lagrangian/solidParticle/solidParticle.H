@@ -38,12 +38,12 @@ SourceFiles
 #ifndef solidParticle_H
 #define solidParticle_H
 
-#include "particle.H"
-#include "Cloud.H"
-#include "IOstream.H"
-#include "autoPtr.H"
-#include "interpolationCellPoint.H"
-#include "contiguous.H"
+#include "particle/particle.H"
+#include "Cloud/Cloud.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

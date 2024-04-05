@@ -32,14 +32,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "volFields.H"
-#include "OFstream.H"
-#include "instantList.H"
-#include "IOobjectList.H"
+#include "global/argList/argList.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/Time/instant/instantList.H"
+#include "db/IOobjectList/IOobjectList.H"
 #include "itoa.H"
-#include "Cloud.H"
-#include "passiveParticle.H"
+#include "Cloud/Cloud.H"
+#include "passiveParticle/passiveParticle.H"
 
 using namespace Foam;
 
@@ -57,10 +57,10 @@ int main(int argc, char *argv[])
         cloud::prefix
     };
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMeshNoChangers.H"
+    #include "include/createTime.H"
+    #include "include/createMeshNoChangers.H"
 
     #include "readConversionProperties.H"
 

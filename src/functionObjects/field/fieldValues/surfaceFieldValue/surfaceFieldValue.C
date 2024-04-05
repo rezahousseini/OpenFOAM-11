@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFieldValue.H"
-#include "processorFvPatch.H"
-#include "processorCyclicFvPatch.H"
-#include "sampledSurface.H"
-#include "mergePoints.H"
-#include "indirectPrimitivePatch.H"
-#include "PatchTools.H"
-#include "fvMeshStitcher.H"
-#include "polyTopoChangeMap.H"
-#include "polyMeshMap.H"
-#include "polyDistributionMap.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fieldValues/surfaceFieldValue/surfaceFieldValue.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "fvMesh/fvPatches/constraint/processorCyclic/processorCyclicFvPatch.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "fvMesh/fvMeshStitchers/fvMeshStitcher/fvMeshStitcher.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyMeshMap/polyMeshMap.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

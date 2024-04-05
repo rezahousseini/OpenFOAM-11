@@ -29,21 +29,21 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "cellShape.H"
-#include "cellModeller.H"
-#include "preservePatchTypes.H"
-#include "emptyPolyPatch.H"
-#include "wallPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "wedgePolyPatch.H"
-#include "mergedCyclicPolyPatch.H"
-#include "polyMeshUnMergeCyclics.H"
-#include "unitConversion.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "mergedCyclic/mergedCyclicPolyPatch.H"
+#include "mergedCyclic/polyMeshUnMergeCyclics.H"
+#include "global/unitConversion/unitConversion.H"
 
 using namespace Foam;
 
@@ -78,8 +78,8 @@ int main(int argc, char *argv[])
         "minimum z-height for transferring liner faces to cylinder-head"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const fileName kivaFileName =
         args.optionLookupOrDefault<fileName>("file", "otape17");

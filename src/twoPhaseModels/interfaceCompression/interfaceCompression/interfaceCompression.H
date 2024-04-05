@@ -64,7 +64,7 @@ SourceFiles
 #ifndef interfaceCompression_H
 #define interfaceCompression_H
 
-#include "surfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,8 +39,8 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "liftModel.H"
-#include "dispersedPhaseInterface.H"
+#include "liftModels/liftModel/liftModel.H"
+#include "phaseInterface/dispersedPhaseInterface/dispersedPhaseInterface.H"
 
 namespace Foam
 {

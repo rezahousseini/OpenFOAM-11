@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshMoversInterpolator.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "points0MotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interpolator/fvMeshMoversInterpolator.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "motionSolvers/displacement/points0/points0MotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

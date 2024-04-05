@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseForces.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcGrad.H"
-#include "dragModel.H"
-#include "virtualMassModel.H"
-#include "liftModel.H"
-#include "wallLubricationModel.H"
-#include "turbulentDispersionModel.H"
+#include "phaseForces/phaseForces.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "dragModels/dragModel/dragModel.H"
+#include "virtualMassModels/virtualMassModel/virtualMassModel.H"
+#include "liftModels/liftModel/liftModel.H"
+#include "wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
+#include "turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

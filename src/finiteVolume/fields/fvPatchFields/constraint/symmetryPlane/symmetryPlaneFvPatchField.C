@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryPlaneFvPatchField.H"
+#include "fields/fvPatchFields/constraint/symmetryPlane/symmetryPlaneFvPatchField.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

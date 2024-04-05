@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TomiyamaAspectRatio.H"
-#include "addToRunTimeSelectionTable.H"
+#include "aspectRatioModels/TomiyamaAspectRatio/TomiyamaAspectRatio.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

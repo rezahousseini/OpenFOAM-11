@@ -56,13 +56,13 @@ SourceFiles
 #ifndef surfaceIntersection_H
 #define surfaceIntersection_H
 
-#include "DynamicList.H"
-#include "point.H"
-#include "edge.H"
-#include "labelPairLookup.H"
-#include "typeInfo.H"
-#include "edgeList.H"
-#include "pointIndexHit.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "tools/labelPair/labelPairLookup.H"
+#include "db/typeInfo/typeInfo.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -294,7 +294,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "surfaceIntersectionTemplates.C"
+    #include "triSurface/booleanOps/surfaceIntersection/surfaceIntersectionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

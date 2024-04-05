@@ -30,14 +30,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "repatchMesh.H"
-#include "repatchPolyTopoChanger.H"
-#include "unitConversion.H"
-#include "OFstream.H"
-#include "ListOps.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "repatchMesh/repatchMesh.H"
+#include "polyTopoChange/repatchPolyTopoChanger/repatchPolyTopoChanger.H"
+#include "global/unitConversion/unitConversion.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 using namespace Foam;
 
@@ -70,13 +70,13 @@ void collectFeatureEdges(const repatchMesh& rMesh, labelList& markedEdges)
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     argList::noParallel();
     argList::validArgs.append("feature angle[0-180]");
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createPolyMesh.H"
     const word oldInstance = mesh.pointsInstance();
 
     Info<< "Mesh read in = "

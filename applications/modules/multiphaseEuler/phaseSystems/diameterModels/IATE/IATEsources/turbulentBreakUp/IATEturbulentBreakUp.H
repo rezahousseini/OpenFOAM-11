@@ -42,7 +42,7 @@ SourceFiles
 #ifndef IATEturbulentBreakUp_H
 #define IATEturbulentBreakUp_H
 
-#include "IATEsource.H"
+#include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

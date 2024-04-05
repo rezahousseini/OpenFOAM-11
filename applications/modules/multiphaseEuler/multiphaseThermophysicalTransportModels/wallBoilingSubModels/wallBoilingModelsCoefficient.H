@@ -29,9 +29,9 @@ Namespace
 #ifndef wallBoilingModelsCoefficient_H
 #define wallBoilingModelsCoefficient_H
 
-#include "dimensionedTypes.H"
-#include "volFieldsFwd.H"
-#include "UniformDimensionedField.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/UniformDimensionedFields/UniformDimensionedField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "age.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
+#include "age/age.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
 #include "momentumTransportModel.H"
-#include "zeroInletOutletFvPatchField.H"
-#include "wallFvPatch.H"
-#include "zeroGradientFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/zeroInletOutlet/zeroInletOutletFvPatchField.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

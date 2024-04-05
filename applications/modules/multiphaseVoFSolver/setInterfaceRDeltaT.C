@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "multiphaseVoFSolver.H"
-#include "fvcSmooth.H"
-#include "fvcSurfaceIntegrate.H"
-#include "fvcAverage.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "finiteVolume/fvc/fvcAverage.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

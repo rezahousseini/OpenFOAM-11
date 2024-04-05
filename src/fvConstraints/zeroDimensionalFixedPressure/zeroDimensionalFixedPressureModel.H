@@ -50,7 +50,7 @@ Usage
 #ifndef zeroDimensionalFixedPressureModel_H
 #define zeroDimensionalFixedPressureModel_H
 
-#include "fvModel.H"
+#include "cfdTools/general/fvModels/fvModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

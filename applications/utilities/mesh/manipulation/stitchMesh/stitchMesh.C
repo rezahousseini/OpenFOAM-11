@@ -60,15 +60,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyTopoChanger.H"
-#include "polyTopoChangeMap.H"
-#include "slidingInterface.H"
-#include "perfectInterface.H"
-#include "ReadFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
+#include "global/argList/argList.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "slidingInterface/slidingInterface.H"
+#include "perfectInterface/perfectInterface.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 using namespace Foam;
 
@@ -207,8 +207,8 @@ int main(int argc, char *argv[])
     );
 
     argList::noParallel();
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
     argList::addBoolOption
     (
         "noFields",
@@ -235,9 +235,9 @@ int main(int argc, char *argv[])
         "dictionary file with tolerances"
     );
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createNamedMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 
@@ -437,9 +437,9 @@ int main(int argc, char *argv[])
 
     if (fields) Info<< "Reading geometric fields" << nl << endl;
 
-    #include "readVolFields.H"
-    // #include "readSurfaceFields.H"
-    #include "readPointFields.H"
+    #include "fields/ReadFields/readVolFields.H"
+    // #include "fields/ReadFields/readSurfaceFields.H"
+    #include "fields/ReadFields/readPointFields.H"
 
     if (!overwrite)
     {

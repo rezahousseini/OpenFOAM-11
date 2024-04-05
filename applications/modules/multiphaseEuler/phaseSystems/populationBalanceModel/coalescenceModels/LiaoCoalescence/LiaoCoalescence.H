@@ -79,8 +79,8 @@ SourceFiles
 #ifndef LiaoCoalescence_H
 #define LiaoCoalescence_H
 
-#include "coalescenceModel.H"
-#include "LiaoBase.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
+#include "populationBalanceModel/binaryBreakupModels/Liao/LiaoBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

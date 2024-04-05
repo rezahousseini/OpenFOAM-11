@@ -60,8 +60,8 @@ SourceFiles
 #ifndef kOmega2006_H
 #define kOmega2006_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -205,7 +205,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 #ifdef NoRepository
-    #include "kOmega2006.C"
+    #include "RAS/kOmega2006/kOmega2006.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DiagonalSolver.H"
+#include "matrices/LduMatrix/Solvers/DiagonalSolver/DiagonalSolver.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

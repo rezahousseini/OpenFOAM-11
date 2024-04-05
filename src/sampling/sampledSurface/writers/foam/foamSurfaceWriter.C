@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamSurfaceWriter.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/writers/foam/foamSurfaceWriter.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

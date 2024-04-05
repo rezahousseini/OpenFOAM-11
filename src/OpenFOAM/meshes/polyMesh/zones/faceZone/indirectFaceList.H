@@ -31,8 +31,8 @@ Description
 #ifndef indirectFaceList_H
 #define indirectFaceList_H
 
-#include "face.H"
-#include "IndirectList.H"
+#include "meshes/meshShapes/face/face.H"
+#include "containers/Lists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -63,7 +63,7 @@ SourceFiles
 #ifndef functionObjects_stopAtTimeStep_H
 #define functionObjects_stopAtTimeStep_H
 
-#include "stopAt.H"
+#include "stopAt/stopAt.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

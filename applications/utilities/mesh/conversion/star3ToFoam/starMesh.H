@@ -49,12 +49,12 @@ SourceFiles
 #ifndef starMesh_H
 #define starMesh_H
 
-#include "polyMesh.H"
-#include "cellShape.H"
-#include "cellList.H"
-#include "polyPatchList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/meshShapes/cell/cellList.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatchList.H"
 #include "coupledFacePair.H"
-#include "IFstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

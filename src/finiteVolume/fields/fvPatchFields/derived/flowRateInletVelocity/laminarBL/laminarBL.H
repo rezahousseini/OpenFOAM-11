@@ -46,7 +46,7 @@ SourceFiles
 #ifndef laminarBL_H
 #define laminarBL_H
 
-#include "Function1.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -115,7 +115,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "laminarBLI.H"
+    #include "fields/fvPatchFields/derived/flowRateInletVelocity/laminarBL/laminarBLI.H"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reverseFieldMapper.H"
+#include "fields/Fields/fieldMappers/reverseFieldMapper/reverseFieldMapper.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

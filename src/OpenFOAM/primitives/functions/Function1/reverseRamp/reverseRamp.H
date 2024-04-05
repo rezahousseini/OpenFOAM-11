@@ -67,7 +67,7 @@ SourceFiles
 #ifndef reverseRamp_H
 #define reverseRamp_H
 
-#include "Ramp.H"
+#include "primitives/functions/Function1/Ramp/Ramp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -143,7 +143,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "reverseRampI.H"
+#include "primitives/functions/Function1/reverseRamp/reverseRampI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

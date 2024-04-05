@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapAddedPolyMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/mapAddedPolyMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

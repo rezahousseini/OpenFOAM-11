@@ -32,8 +32,8 @@ Description
 #ifndef triFaceList_H
 #define triFaceList_H
 
-#include "triFace.H"
-#include "List.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

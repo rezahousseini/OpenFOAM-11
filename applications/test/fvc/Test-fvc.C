@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "volFields.H"
-#include "fvcGrad.H"
-#include "fvcCurl.H"
+#include "global/argList/argList.H"
+#include "fields/volFields/volFields.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcCurl.H"
 
 using namespace Foam;
 
@@ -40,10 +40,10 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     volScalarField fx(pow(mesh.C().component(vector::X), 1));
     fx.write();

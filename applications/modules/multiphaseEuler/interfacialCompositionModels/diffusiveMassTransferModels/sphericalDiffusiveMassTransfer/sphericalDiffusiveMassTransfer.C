@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalDiffusiveMassTransfer.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diffusiveMassTransferModels/sphericalDiffusiveMassTransfer/sphericalDiffusiveMassTransfer.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

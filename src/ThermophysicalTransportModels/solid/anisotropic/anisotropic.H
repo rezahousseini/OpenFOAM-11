@@ -98,10 +98,10 @@ SourceFiles
 #ifndef anisotropic_H
 #define anisotropic_H
 
-#include "solidThermophysicalTransportModel.H"
-#include "coordinateSystem.H"
-#include "PtrDictionary.H"
-#include "MeshObjects.H"
+#include "solidThermophysicalTransportModel/solidThermophysicalTransportModel.H"
+#include "coordinateSystems/coordinateSystem.H"
+#include "containers/Dictionaries/PtrDictionary/PtrDictionary.H"
+#include "meshes/meshObjects/MeshObjects.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

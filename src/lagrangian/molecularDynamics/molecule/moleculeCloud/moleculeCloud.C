@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "moleculeCloud.H"
-#include "fvMesh.H"
-#include "mathematicalConstants.H"
+#include "moleculeCloud/moleculeCloud.H"
+#include "fvMesh/fvMesh.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant::mathematical;
 

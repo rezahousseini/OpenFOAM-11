@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledDistanceSurface.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledDistanceSurface/sampledDistanceSurface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

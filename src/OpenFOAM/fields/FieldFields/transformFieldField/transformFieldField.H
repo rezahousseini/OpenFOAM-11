@@ -36,8 +36,8 @@ SourceFiles
 #ifndef transformFieldField_H
 #define transformFieldField_H
 
-#include "transform.H"
-#include "tensorFieldField.H"
+#include "primitives/transform/transform.H"
+#include "fields/FieldFields/tensorFieldField/tensorFieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,7 +113,7 @@ tmp<FieldField<Field, Type>> transform
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformFieldField.C"
+    #include "fields/FieldFields/transformFieldField/transformFieldField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

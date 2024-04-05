@@ -53,7 +53,7 @@ See also
 #define shockFluid_H
 
 #include "fluidSolver.H"
-#include "psiThermo.H"
+#include "psiThermo/psiThermo.H"
 #include "compressibleMomentumTransportModel.H"
 #include "fluidThermoThermophysicalTransportModel.H"
 

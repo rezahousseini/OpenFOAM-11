@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "probes.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "IOmanip.H"
-#include "interpolation.H"
+#include "probes/probes.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

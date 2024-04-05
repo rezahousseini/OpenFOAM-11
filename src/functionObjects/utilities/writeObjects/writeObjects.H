@@ -81,9 +81,9 @@ SourceFiles
 #ifndef functionObjects_writeObjects_H
 #define functionObjects_writeObjects_H
 
-#include "functionObject.H"
-#include "writeObjectsBase.H"
-#include "NamedEnum.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "db/functionObjects/writeObjectsBase/writeObjectsBase.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

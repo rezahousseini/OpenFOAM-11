@@ -67,8 +67,8 @@ SourceFiles
 #ifndef fvCellSet_H
 #define fvCellSet_H
 
-#include "polyCellSet.H"
-#include "writeFile.H"
+#include "sets/polyCellSet/polyCellSet.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,7 +165,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvCellSetI.H"
+#include "fvMesh/fvCellSet/fvCellSetI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

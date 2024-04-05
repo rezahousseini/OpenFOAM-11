@@ -25,10 +25,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "pTraits.H"
-#include "vector.H"
-#include "tensor.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/pTraits/pTraits.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/Tensor/tensor/tensor.H"
 
 using namespace Foam;
 

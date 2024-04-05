@@ -44,7 +44,7 @@ SourceFiles
 #ifndef fluidSolver_H
 #define fluidSolver_H
 
-#include "solver.H"
+#include "solver/solver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

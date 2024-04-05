@@ -41,7 +41,7 @@ SourceFiles
 #ifndef coupledMultiphaseTemperatureFvPatchScalarField_H
 #define coupledMultiphaseTemperatureFvPatchScalarField_H
 
-#include "coupledTemperatureFvPatchScalarField.H"
+#include "coupledTemperature/coupledTemperatureFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

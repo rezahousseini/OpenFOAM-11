@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceSurfaceTensionModel.H"
+#include "interfaceSurfaceTensionModels/interfaceSurfaceTensionModel/interfaceSurfaceTensionModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

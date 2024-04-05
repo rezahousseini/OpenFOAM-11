@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Kusters.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/breakupModels/Kusters/Kusters.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

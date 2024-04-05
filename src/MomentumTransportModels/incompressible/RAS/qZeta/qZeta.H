@@ -53,7 +53,7 @@ SourceFiles
 #define qZeta_H
 
 #include "incompressibleMomentumTransportModels.H"
-#include "eddyViscosity.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

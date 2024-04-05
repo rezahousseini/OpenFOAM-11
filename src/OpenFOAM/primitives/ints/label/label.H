@@ -36,7 +36,7 @@ Description
 #ifndef label_H
 #define label_H
 
-#include "int.H"
+#include "primitives/ints/int/int.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ inline label component(const label l, const direction)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "labelSpecific.H"
+#include "primitives/ints/label/labelSpecific.H"
 
 #undef INT_ADD_SIZE
 #undef INT_ADD_DEF_SIZE

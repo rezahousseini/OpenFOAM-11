@@ -47,8 +47,8 @@ Usage
 #ifndef function1_H
 #define function1_H
 
-#include "heatTransferCoefficientModel.H"
-#include "Function1.H"
+#include "derived/heatTransfer/heatTransferCoefficientModels/heatTransferCoefficientModel/heatTransferCoefficientModel.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

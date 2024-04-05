@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleDriftFlux.H"
-#include "fvCorrectPhi.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cfdTools/general/correctPhi/fvCorrectPhi.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "fvmDdt.H"
+#include "finiteVolume/fvm/fvmDdt.H"
 
-#include "fvcDdt.H"
+#include "finiteVolume/fvc/fvcDdt.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

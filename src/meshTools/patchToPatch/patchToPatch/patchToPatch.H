@@ -37,12 +37,12 @@ SourceFiles
 #ifndef patchToPatch_H
 #define patchToPatch_H
 
-#include "remote.H"
-#include "distributionMap.H"
-#include "primitivePatch.H"
-#include "primitiveOldTimePatch.H"
-#include "runTimeSelectionTables.H"
-#include "treeBoundBox.H"
+#include "primitives/remote/remote.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "PrimitiveOldTimePatch/primitiveOldTimePatch.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -395,12 +395,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchToPatchI.H"
+#include "patchToPatch/patchToPatch/patchToPatchI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "patchToPatchTemplates.C"
+    #include "patchToPatch/patchToPatch/patchToPatchTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

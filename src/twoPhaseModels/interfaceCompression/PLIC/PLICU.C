@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PLICU.H"
-#include "slicedSurfaceFields.H"
+#include "PLIC/PLICU.H"
+#include "fields/surfaceFields/slicedSurfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

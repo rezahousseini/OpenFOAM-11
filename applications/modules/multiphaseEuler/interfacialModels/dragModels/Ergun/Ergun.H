@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Ergun_H
 #define Ergun_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,8 +34,8 @@ SourceFiles
 #ifndef uniformGeometricFields_H
 #define uniformGeometricFields_H
 
-#include "UniformGeometricField.H"
-#include "fieldTypes.H"
+#include "fields/UniformGeometricFields/UniformGeometricField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

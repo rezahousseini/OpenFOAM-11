@@ -35,14 +35,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "viscosityModel.H"
+#include "global/argList/argList.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
 #include "incompressibleMomentumTransportModels.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
-#include "wallFvPatch.H"
-#include "setWriter.H"
-#include "writeFile.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "sampledSet/writers/setWriter.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 using namespace Foam;
 
@@ -52,10 +52,10 @@ int main(int argc, char *argv[])
 {
     argList::noParallel();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
     #include "createFields.H"
     #include "interrogateWallPatches.H"
 

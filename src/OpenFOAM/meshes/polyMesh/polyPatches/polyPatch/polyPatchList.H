@@ -32,8 +32,8 @@ Description
 #ifndef polyPatchList_H
 #define polyPatchList_H
 
-#include "polyPatch.H"
-#include "PtrList.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

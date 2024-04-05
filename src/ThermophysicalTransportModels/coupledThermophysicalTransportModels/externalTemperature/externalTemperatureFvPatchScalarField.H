@@ -95,8 +95,8 @@ SourceFiles
 #ifndef externalTemperatureFvPatchScalarField_H
 #define externalTemperatureFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "Function1.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hyperbolic.H"
-#include "addToRunTimeSelectionTable.H"
+#include "BlendedInterfacialModel/blendingMethods/hyperbolic/hyperbolic.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

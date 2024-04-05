@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicIndexedOctree.H"
-#include "linePointRef.H"
-#include "OFstream.H"
-#include "ListOps.H"
+#include "algorithms/dynamicIndexedOctree/dynamicIndexedOctree.H"
+#include "meshes/primitiveShapes/line/linePointRef.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

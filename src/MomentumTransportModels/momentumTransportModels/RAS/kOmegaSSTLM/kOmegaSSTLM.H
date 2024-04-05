@@ -85,7 +85,7 @@ SourceFiles
 #ifndef kOmegaSSTLM_H
 #define kOmegaSSTLM_H
 
-#include "kOmegaSST.H"
+#include "RAS/kOmegaSST/kOmegaSST.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -288,7 +288,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kOmegaSSTLM.C"
+    #include "RAS/kOmegaSSTLM/kOmegaSSTLM.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

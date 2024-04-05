@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ePowerThermo.H"
-#include "specie.H"
+#include "thermo/ePower/ePowerThermo.H"
+#include "specie/specie.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

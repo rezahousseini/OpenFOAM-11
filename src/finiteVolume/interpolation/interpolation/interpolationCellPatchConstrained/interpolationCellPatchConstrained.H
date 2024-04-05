@@ -34,7 +34,7 @@ Description
 #ifndef interpolationCellPatchConstrained_H
 #define interpolationCellPatchConstrained_H
 
-#include "interpolation.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationCellPatchConstrained.C"
+    #include "interpolation/interpolation/interpolationCellPatchConstrained/interpolationCellPatchConstrained.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

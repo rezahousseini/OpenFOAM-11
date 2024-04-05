@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "OSspecific.H"
-#include "clock.H"
-#include "IFstream.H"
-#include "dictionary.H"
-#include "IOobject.H"
-#include "jobInfo.H"
-#include "labelList.H"
-#include "regIOobject.H"
-#include "dynamicCode.H"
-#include "fileOperation.H"
-#include "fileOperationInitialise.H"
-#include "stringListOps.H"
-#include "dlLibraryTable.H"
+#include "global/argList/argList.H"
+#include "include/OSspecific.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOobject/IOobject.H"
+#include "global/jobInfo/jobInfo.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "global/fileOperations/fileOperationInitialise/fileOperationInitialise.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
 
 #include <cctype>
 

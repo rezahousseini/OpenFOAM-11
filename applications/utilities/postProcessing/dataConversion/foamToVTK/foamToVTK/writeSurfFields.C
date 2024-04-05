@@ -24,11 +24,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "writeSurfFields.H"
-#include "OFstream.H"
-#include "floatScalar.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "primitives/Scalar/floatScalar/floatScalar.H"
 #include "vtkWriteFieldOps.H"
-#include "emptyFvsPatchFields.H"
-#include "fvsPatchFields.H"
+#include "fields/fvsPatchFields/constraint/empty/emptyFvsPatchFields.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

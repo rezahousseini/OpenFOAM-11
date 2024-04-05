@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleGeomDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SortableList.H"
-#include "globalIndex.H"
-#include "SubField.H"
+#include "simpleGeomDecomp/simpleGeomDecomp.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "fields/Fields/Field/SubField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

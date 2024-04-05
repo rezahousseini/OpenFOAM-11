@@ -38,10 +38,10 @@ SourceFiles
 #ifndef ReactingParcel_H
 #define ReactingParcel_H
 
-#include "particle.H"
-#include "interpolation.H"
-#include "fluidThermo.H"
-#include "demandDrivenEntry.H"
+#include "particle/particle.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "fluidThermo/fluidThermo.H"
+#include "demandDrivenEntry/demandDrivenEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -321,12 +321,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactingParcelI.H"
+#include "parcels/Templates/ReactingParcel/ReactingParcelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactingParcel.C"
+    #include "parcels/Templates/ReactingParcel/ReactingParcel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

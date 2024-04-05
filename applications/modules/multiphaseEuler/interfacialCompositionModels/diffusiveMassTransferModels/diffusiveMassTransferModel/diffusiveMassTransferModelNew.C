@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "diffusiveMassTransferModel.H"
+#include "diffusiveMassTransferModels/diffusiveMassTransferModel/diffusiveMassTransferModel.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

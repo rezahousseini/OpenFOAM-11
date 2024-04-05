@@ -36,7 +36,7 @@ SourceFiles
 #ifndef fixed_H
 #define fixed_H
 
-#include "XiModel.H"
+#include "XiModels/XiModel/XiModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

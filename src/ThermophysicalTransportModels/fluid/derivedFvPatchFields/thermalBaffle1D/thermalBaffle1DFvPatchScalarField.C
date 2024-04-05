@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermalBaffle1DFvPatchScalarField.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "derivedFvPatchFields/thermalBaffle1D/thermalBaffle1DFvPatchScalarField.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 #include "thermophysicalTransportModel.H"
-#include "mappedPatchBase.H"
+#include "mappedPatches/mappedPatchBase/mappedPatchBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

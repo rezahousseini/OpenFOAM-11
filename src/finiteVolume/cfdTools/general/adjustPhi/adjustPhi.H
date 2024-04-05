@@ -36,8 +36,8 @@ SourceFiles
 #ifndef adjustPhi_H
 #define adjustPhi_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

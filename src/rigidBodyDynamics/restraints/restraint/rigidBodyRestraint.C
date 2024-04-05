@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyRestraint.H"
-#include "rigidBodyModel.H"
+#include "restraints/restraint/rigidBodyRestraint.H"
+#include "rigidBodyModel/rigidBodyModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

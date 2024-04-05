@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PackedBoolList.H"
-#include "IOstreams.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

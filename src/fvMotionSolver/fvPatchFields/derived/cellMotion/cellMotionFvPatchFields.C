@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellMotionFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvPatchFields/derived/cellMotion/cellMotionFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

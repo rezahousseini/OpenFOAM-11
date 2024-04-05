@@ -32,7 +32,7 @@ Description
 #ifndef NoDispersion_H
 #define NoDispersion_H
 
-#include "DispersionModel.H"
+#include "submodels/Momentum/DispersionModel/DispersionModel/DispersionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -98,7 +98,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoDispersion.C"
+    #include "submodels/Momentum/DispersionModel/NoDispersion/NoDispersion.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

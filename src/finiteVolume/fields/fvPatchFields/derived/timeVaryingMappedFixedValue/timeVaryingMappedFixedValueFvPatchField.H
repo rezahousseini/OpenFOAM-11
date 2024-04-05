@@ -100,8 +100,8 @@ SourceFiles
 #ifndef timeVaryingMappedFixedValueFvPatchField_H
 #define timeVaryingMappedFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "timeVaryingMappedFvPatchField.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFvPatchField/timeVaryingMappedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,7 +208,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "timeVaryingMappedFixedValueFvPatchField.C"
+    #include "fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionSolverList.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionSolvers/motionSolverList/motionSolverList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

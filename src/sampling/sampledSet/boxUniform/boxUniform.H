@@ -53,10 +53,10 @@ SourceFiles
 #ifndef boxUniform_H
 #define boxUniform_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
-#include "labelVector.H"
-#include "boundBox.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/Vector/labelVector/labelVector.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

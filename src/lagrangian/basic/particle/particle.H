@@ -32,18 +32,18 @@ Description
 #ifndef particle_H
 #define particle_H
 
-#include "vector.H"
-#include "barycentric.H"
-#include "barycentricTensor.H"
-#include "IDLList.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "OFstream.H"
-#include "tetPointRef.H"
-#include "FixedList.H"
-#include "polyMeshTetDecomposition.H"
-#include "particleMacros.H"
-#include "transformer.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/Barycentric/barycentric/barycentric.H"
+#include "primitives/Barycentric/barycentricTensor/barycentricTensor.H"
+#include "containers/LinkedLists/user/IDLList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/primitiveShapes/tetrahedron/tetPointRef.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
+#include "particle/particleMacros.H"
+#include "primitives/transform/transformer/transformer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -732,12 +732,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "particleI.H"
+#include "particle/particleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "particleTemplates.C"
+    #include "particle/particleTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

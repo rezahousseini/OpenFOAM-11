@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DampingModel.H"
-#include "NoDamping.H"
-#include "Relaxation.H"
+#include "submodels/MPPIC/DampingModels/DampingModel/DampingModel.H"
+#include "submodels/MPPIC/DampingModels/NoDamping/NoDamping.H"
+#include "submodels/MPPIC/DampingModels/Relaxation/Relaxation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

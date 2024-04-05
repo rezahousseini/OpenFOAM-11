@@ -26,8 +26,8 @@ License
 #ifndef internalPointPatchFields_H
 #define internalPointPatchFields_H
 
-#include "internalPointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/constraint/internal/internalPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

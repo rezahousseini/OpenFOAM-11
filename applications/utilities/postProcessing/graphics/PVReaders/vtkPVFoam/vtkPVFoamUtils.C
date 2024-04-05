@@ -30,10 +30,10 @@ Description
 #include "vtkPVFoamReader.h"
 
 // OpenFOAM includes
-#include "fvMesh.H"
-#include "Time.H"
-#include "IFstream.H"
-#include "memInfo.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "memInfo/memInfo.H"
 
 // VTK includes
 #include "vtkDataArraySelection.h"

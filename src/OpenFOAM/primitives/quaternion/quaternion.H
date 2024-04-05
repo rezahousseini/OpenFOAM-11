@@ -36,11 +36,11 @@ SourceFiles
 #ifndef quaternion_H
 #define quaternion_H
 
-#include "scalar.H"
-#include "vector.H"
-#include "tensor.H"
-#include "word.H"
-#include "contiguous.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -300,7 +300,7 @@ inline quaternion operator/(const quaternion& q, const scalar s);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "quaternionI.H"
+#include "primitives/quaternion/quaternionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

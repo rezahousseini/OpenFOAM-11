@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Lun.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/MPPIC/ParticleStressModels/Lun/Lun.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AveragingMethod.H"
+#include "submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

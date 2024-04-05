@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearUpwindV.H"
+#include "interpolation/surfaceInterpolation/schemes/linearUpwind/linearUpwindV.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

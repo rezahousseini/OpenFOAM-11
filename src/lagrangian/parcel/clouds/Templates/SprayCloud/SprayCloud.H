@@ -36,13 +36,13 @@ Description
 #ifndef SprayCloud_H
 #define SprayCloud_H
 
-#include "volFieldsFwd.H"
-#include "fvMatricesFwd.H"
-#include "dimensionedTypes.H"
-#include "fvMesh.H"
-#include "fluidThermo.H"
-#include "globalIndex.H"
-#include "Cloud.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "fvMesh/fvMesh.H"
+#include "fluidThermo/fluidThermo.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "Cloud/Cloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -248,12 +248,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SprayCloudI.H"
+#include "clouds/Templates/SprayCloud/SprayCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SprayCloud.C"
+    #include "clouds/Templates/SprayCloud/SprayCloud.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoDispersion.H"
-#include "GradientDispersionRAS.H"
-#include "StochasticDispersionRAS.H"
+#include "submodels/Momentum/DispersionModel/NoDispersion/NoDispersion.H"
+#include "submodels/Momentum/DispersionModel/GradientDispersionRAS/GradientDispersionRAS.H"
+#include "submodels/Momentum/DispersionModel/StochasticDispersionRAS/StochasticDispersionRAS.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

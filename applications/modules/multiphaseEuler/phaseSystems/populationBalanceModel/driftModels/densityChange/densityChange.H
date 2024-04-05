@@ -35,7 +35,7 @@ SourceFiles
 #ifndef densityChange_H
 #define densityChange_H
 
-#include "driftModel.H"
+#include "populationBalanceModel/driftModels/driftModel/driftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

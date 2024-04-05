@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingCloud.H"
-#include "CompositionModel.H"
-#include "PhaseChangeModel.H"
+#include "clouds/Templates/ReactingCloud/ReactingCloud.H"
+#include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.H"
+#include "submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModel.H"
 
 // * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * * //
 

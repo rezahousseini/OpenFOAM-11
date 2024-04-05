@@ -37,8 +37,8 @@ SourceFiles
 #ifndef repatchPolyTopoChanger_H
 #define repatchPolyTopoChanger_H
 
-#include "polyMesh.H"
-#include "polyTopoChange.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

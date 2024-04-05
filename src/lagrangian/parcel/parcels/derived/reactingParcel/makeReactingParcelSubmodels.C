@@ -23,24 +23,24 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingCloud.H"
+#include "clouds/derived/reactingCloud/reactingCloud.H"
 
-#include "makeParcelCloudFunctionObjects.H"
+#include "parcels/include/makeParcelCloudFunctionObjects.H"
 
 // Momentum
-#include "makeThermoParcelForces.H"
-#include "makeParcelDispersionModels.H"
-#include "makeReactingParcelInjectionModels.H"
-#include "makeParcelPatchInteractionModels.H"
-#include "makeParcelStochasticCollisionModels.H"
-#include "makeParcelSurfaceFilmModels.H"
+#include "parcels/include/makeThermoParcelForces.H"
+#include "parcels/include/makeParcelDispersionModels.H"
+#include "parcels/include/makeReactingParcelInjectionModels.H"
+#include "parcels/include/makeParcelPatchInteractionModels.H"
+#include "parcels/include/makeParcelStochasticCollisionModels.H"
+#include "parcels/include/makeParcelSurfaceFilmModels.H"
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
-#include "makeParcelCompositionModels.H"
+#include "parcels/include/makeParcelHeatTransferModels.H"
+#include "parcels/include/makeParcelCompositionModels.H"
 
 // Reacting
-#include "makeReactingParcelPhaseChangeModels.H"
+#include "parcels/include/makeReactingParcelPhaseChangeModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

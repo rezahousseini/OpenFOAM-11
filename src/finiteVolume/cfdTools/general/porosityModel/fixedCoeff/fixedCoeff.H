@@ -42,8 +42,8 @@ SourceFiles
 #ifndef fixedCoeff_H
 #define fixedCoeff_H
 
-#include "porosityModel.H"
-#include "dimensionedTensor.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModel.H"
+#include "dimensionedTypes/dimensionedTensor/dimensionedTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

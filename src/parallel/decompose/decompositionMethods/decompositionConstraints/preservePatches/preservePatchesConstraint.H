@@ -36,8 +36,8 @@ SourceFiles
 #ifndef preservePatchesConstraint_H
 #define preservePatchesConstraint_H
 
-#include "decompositionConstraint.H"
-#include "wordReList.H"
+#include "decompositionConstraints/decompositionConstraint/decompositionConstraint.H"
+#include "primitives/strings/lists/wordReList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

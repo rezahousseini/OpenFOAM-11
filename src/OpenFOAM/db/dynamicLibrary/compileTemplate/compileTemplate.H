@@ -26,8 +26,8 @@ License
 #ifndef compileTemplate_H
 #define compileTemplate_H
 
-#include "codedBase.H"
-#include "dynamicCode.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

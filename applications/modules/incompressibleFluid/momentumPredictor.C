@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleFluid.H"
-#include "fvcGrad.H"
-#include "fvmDiv.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvm/fvmDiv.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

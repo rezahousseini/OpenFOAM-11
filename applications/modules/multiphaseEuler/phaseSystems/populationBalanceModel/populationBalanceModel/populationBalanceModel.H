@@ -204,11 +204,11 @@ SourceFiles
 #ifndef populationBalanceModel_H
 #define populationBalanceModel_H
 
-#include "sizeGroup.H"
-#include "phaseSystem.H"
+#include "diameterModels/velocityGroup/sizeGroup/sizeGroup.H"
+#include "phaseSystem/phaseSystem.H"
 #include "phaseCompressibleMomentumTransportModel.H"
-#include "HashPtrTable.H"
-#include "Pair.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "primitives/Pair/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -497,7 +497,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "populationBalanceModelI.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

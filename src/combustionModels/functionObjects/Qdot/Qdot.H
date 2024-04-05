@@ -36,8 +36,8 @@ SourceFiles
 #ifndef functionObjects_Qdot_H
 #define functionObjects_Qdot_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeLocalObjects.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeLocalObjects/writeLocalObjects.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

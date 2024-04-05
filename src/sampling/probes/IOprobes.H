@@ -32,9 +32,9 @@ Description
 #ifndef IOprobes_H
 #define IOprobes_H
 
-#include "probes.H"
-#include "patchProbes.H"
-#include "IOOutputFilter.H"
+#include "probes/probes.H"
+#include "probes/patchProbes.H"
+#include "db/functionObjects/IOOutputFilter/IOOutputFilter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

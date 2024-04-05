@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rhoThermo.H"
-#include "heRhoThermo.H"
-#include "pureMixture.H"
+#include "rhoThermo/rhoThermo.H"
+#include "rhoThermo/heRhoThermo.H"
+#include "mixtures/pureMixture/pureMixture.H"
 
-#include "forGases.H"
-#include "forLiquids.H"
-#include "forTabulated.H"
-#include "makeThermo.H"
+#include "include/forGases.H"
+#include "include/forLiquids.H"
+#include "include/forTabulated.H"
+#include "include/makeThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

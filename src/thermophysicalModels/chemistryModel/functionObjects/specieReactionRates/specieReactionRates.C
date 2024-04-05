@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "specieReactionRates.H"
-#include "fvcVolumeIntegrate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/specieReactionRates/specieReactionRates.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -32,7 +32,7 @@ Description
 #ifndef ensightGeoFile_H
 #define ensightGeoFile_H
 
-#include "ensightFile.H"
+#include "ensight/file/ensightFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

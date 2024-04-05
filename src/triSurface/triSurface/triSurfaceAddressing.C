@@ -27,11 +27,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "HashTable.H"
-#include "SortableList.H"
-#include "transform.H"
-#include "PatchTools.H"
+#include "triSurface/triSurface.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "primitives/transform/transform.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef heSolidThermo_H
 #define heSolidThermo_H
 
-#include "heThermo.H"
+#include "heThermo/heThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -123,7 +123,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "heSolidThermo.C"
+    #include "solidThermo/heSolidThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

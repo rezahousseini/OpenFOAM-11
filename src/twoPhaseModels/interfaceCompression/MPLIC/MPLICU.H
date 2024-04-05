@@ -72,7 +72,7 @@ SourceFiles
 #ifndef MPLICU_H
 #define MPLICU_H
 
-#include "MPLIC.H"
+#include "MPLIC/MPLIC.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

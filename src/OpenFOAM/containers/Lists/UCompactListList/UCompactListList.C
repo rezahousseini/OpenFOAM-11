@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UCompactListList.H"
+#include "containers/Lists/UCompactListList/UCompactListList.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 
@@ -107,6 +107,6 @@ Foam::List<Container> Foam::UCompactListList<T>::list() const
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "UCompactListListIO.C"
+#include "containers/Lists/UCompactListList/UCompactListListIO.C"
 
 // ************************************************************************* //

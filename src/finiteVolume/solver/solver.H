@@ -36,10 +36,10 @@ SourceFiles
 #ifndef solver_H
 #define solver_H
 
-#include "fvMesh.H"
-#include "pimpleNoLoopControl.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
+#include "fvMesh/fvMesh.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleNoLoopControl/pimpleNoLoopControl.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

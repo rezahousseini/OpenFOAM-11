@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hydrostaticDisplacementFvPatchVectorField.H"
-#include "uniformDimensionedFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/hydrostaticDisplacement/hydrostaticDisplacementFvPatchVectorField.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

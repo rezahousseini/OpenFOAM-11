@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gravitationalContactAngle.H"
-#include "unitConversion.H"
-#include "uniformDimensionedFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "contactAngleModels/gravitational/gravitationalContactAngle.H"
+#include "global/unitConversion/unitConversion.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -71,8 +71,8 @@ SourceFiles
 #ifndef VoFTurbulenceDamping_H
 #define VoFTurbulenceDamping_H
 
-#include "fvModel.H"
-#include "volFields.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

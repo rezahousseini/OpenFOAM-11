@@ -95,7 +95,7 @@ SourceFiles
 #ifndef entrainmentPressureFvPatchScalarField_H
 #define entrainmentPressureFvPatchScalarField_H
 
-#include "dynamicPressureFvPatchScalarField.H"
+#include "fields/fvPatchFields/derived/dynamicPressure/dynamicPressureFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

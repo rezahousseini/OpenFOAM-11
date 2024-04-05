@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaces.H"
-#include "searchableSurfacesQueries.H"
-#include "ListOps.H"
-#include "Time.H"
-#include "DynamicField.H"
-#include "PatchTools.H"
-#include "triSurfaceMesh.H"
-#include "vtkWritePolyData.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/Time/Time.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "vtk/vtkWritePolyData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

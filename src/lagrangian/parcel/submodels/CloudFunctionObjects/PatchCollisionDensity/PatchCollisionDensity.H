@@ -46,7 +46,7 @@ SourceFiles
 #ifndef PatchCollisionDensity_H
 #define PatchCollisionDensity_H
 
-#include "CloudFunctionObject.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchCollisionDensity.C"
+    #include "submodels/CloudFunctionObjects/PatchCollisionDensity/PatchCollisionDensity.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

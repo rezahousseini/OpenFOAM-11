@@ -35,7 +35,7 @@ SourceFiles
 #ifndef faceCorrectedSnGrad_H
 #define faceCorrectedSnGrad_H
 
-#include "snGradScheme.H"
+#include "finiteVolume/snGradSchemes/snGradScheme/snGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ tmp<surfaceVectorField> faceCorrectedSnGrad<vector>::correction
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faceCorrectedSnGrad.C"
+    #include "finiteVolume/snGradSchemes/faceCorrectedSnGrad/faceCorrectedSnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

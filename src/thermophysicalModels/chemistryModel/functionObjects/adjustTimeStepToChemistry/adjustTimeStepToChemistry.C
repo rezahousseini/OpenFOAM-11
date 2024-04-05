@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjustTimeStepToChemistry.H"
-#include "basicChemistryModel.H"
-#include "solver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/adjustTimeStepToChemistry/adjustTimeStepToChemistry.H"
+#include "basicChemistryModel/basicChemistryModel.H"
+#include "solver/solver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

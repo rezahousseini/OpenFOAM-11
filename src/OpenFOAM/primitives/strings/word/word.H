@@ -39,7 +39,7 @@ SourceFiles
 #ifndef word_H
 #define word_H
 
-#include "string.H"
+#include "primitives/strings/string/string.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ void writeEntry(Ostream& os, const word& value);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wordI.H"
+#include "primitives/strings/word/wordI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

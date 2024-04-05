@@ -58,8 +58,8 @@ SourceFiles
 #ifndef sampledDistanceSurface_H
 #define sampledDistanceSurface_H
 
-#include "sampledIsoSurfaceSurface.H"
-#include "searchableSurface.H"
+#include "sampledSurface/sampledIsoSurfaceSurface/sampledIsoSurfaceSurface.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

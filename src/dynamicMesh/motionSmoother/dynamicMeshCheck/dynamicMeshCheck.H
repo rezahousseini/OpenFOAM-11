@@ -34,8 +34,8 @@ SourceFiles
 #ifndef dynamicMeshCheck_H
 #define dynamicMeshCheck_H
 
-#include "pointFields.H"
-#include "HashSet.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

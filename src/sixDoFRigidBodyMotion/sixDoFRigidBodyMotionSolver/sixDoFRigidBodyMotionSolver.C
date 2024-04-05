@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyMotionSolver.H"
-#include "polyMesh.H"
-#include "pointPatchDist.H"
-#include "pointConstraints.H"
-#include "timeIOdictionary.H"
-#include "uniformDimensionedFields.H"
-#include "forces.H"
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sixDoFRigidBodyMotionSolver/sixDoFRigidBodyMotionSolver.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "pointPatchDist/pointPatchDist.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
+#include "db/IOobjects/IOdictionary/timeIOdictionary.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "forces/forces.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

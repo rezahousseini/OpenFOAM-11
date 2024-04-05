@@ -58,7 +58,7 @@ Usage
 #ifndef integratedNonUniformTable1_H
 #define integratedNonUniformTable1_H
 
-#include "NonUniformTable1.H"
+#include "primitives/functions/Function1/NonUniformTable1/NonUniformTable1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

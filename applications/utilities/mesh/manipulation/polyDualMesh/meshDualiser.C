@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "meshDualiser.H"
-#include "meshTools.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyTopoChangeMap.H"
-#include "edgeFaceCirculator.H"
-#include "OFstream.H"
+#include "meshTools/meshTools.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "edgeFaceCirculator/edgeFaceCirculator.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

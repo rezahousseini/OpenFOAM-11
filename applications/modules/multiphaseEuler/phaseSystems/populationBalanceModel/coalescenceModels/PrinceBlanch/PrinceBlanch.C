@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrinceBlanch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcGrad.H"
+#include "populationBalanceModel/coalescenceModels/PrinceBlanch/PrinceBlanch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

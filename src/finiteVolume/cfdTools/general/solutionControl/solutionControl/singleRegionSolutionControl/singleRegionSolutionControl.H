@@ -37,8 +37,8 @@ SourceFiles
 #ifndef singleRegionSolutionControl_H
 #define singleRegionSolutionControl_H
 
-#include "fvMesh.H"
-#include "solutionControl.H"
+#include "fvMesh/fvMesh.H"
+#include "cfdTools/general/solutionControl/solutionControl/solutionControl/solutionControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -117,12 +117,12 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "singleRegionSolutionControlTemplates.C"
+    #include "cfdTools/general/solutionControl/solutionControl/singleRegionSolutionControl/singleRegionSolutionControlTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "singleRegionSolutionControlI.H"
+#include "cfdTools/general/solutionControl/solutionControl/singleRegionSolutionControl/singleRegionSolutionControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

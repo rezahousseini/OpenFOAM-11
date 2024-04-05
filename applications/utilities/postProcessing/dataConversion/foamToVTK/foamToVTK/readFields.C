@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "readFields.H"
-#include "IOobjectList.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

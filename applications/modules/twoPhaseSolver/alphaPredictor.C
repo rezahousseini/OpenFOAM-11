@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "twoPhaseSolver.H"
-#include "subCycle.H"
-#include "interfaceCompression.H"
-#include "CMULES.H"
-#include "CrankNicolsonDdtScheme.H"
-#include "fvcFlux.H"
-#include "fvmSup.H"
+#include "algorithms/subCycle/subCycle.H"
+#include "interfaceCompression/interfaceCompression.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "finiteVolume/ddtSchemes/CrankNicolsonDdtScheme/CrankNicolsonDdtScheme.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef DiagonalMatrix_H
 #define DiagonalMatrix_H
 
-#include "List.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -104,7 +104,7 @@ DiagonalMatrix<Type> inv(const DiagonalMatrix<Type>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DiagonalMatrix.C"
+    #include "matrices/DiagonalMatrix/DiagonalMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

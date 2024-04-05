@@ -42,8 +42,8 @@ SourceFiles
 #ifndef generalisedNewtonianViscosityModel_H
 #define generalisedNewtonianViscosityModel_H
 
-#include "viscosity.H"
-#include "runTimeSelectionTables.H"
+#include "viscosity/viscosity.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

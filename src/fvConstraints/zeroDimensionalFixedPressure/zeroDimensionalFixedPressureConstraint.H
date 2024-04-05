@@ -59,9 +59,9 @@ Usage
 #ifndef zeroDimensionalFixedPressureConstraint_H
 #define zeroDimensionalFixedPressureConstraint_H
 
-#include "fvConstraint.H"
-#include "Function1.H"
-#include "volFields.H"
+#include "cfdTools/general/fvConstraints/fvConstraint.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

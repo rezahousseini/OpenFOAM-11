@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformField.H"
-#include "FieldM.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "fields/Fields/Field/FieldM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "momentumCloud.H"
-#include "addToRunTimeSelectionTable.H"
+#include "clouds/derived/momentumCloud/momentumCloud.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef loadOrCreateMesh_H
 #define loadOrCreateMesh_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

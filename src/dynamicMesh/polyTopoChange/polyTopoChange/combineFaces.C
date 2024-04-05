@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "combineFaces.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyRemoveFace.H"
-#include "polyAddFace.H"
-#include "polyModifyFace.H"
-#include "polyRemovePoint.H"
-#include "polyAddPoint.H"
-#include "syncTools.H"
-#include "meshTools.H"
+#include "polyTopoChange/polyTopoChange/combineFaces.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/removeObject/polyRemoveFace.H"
+#include "polyTopoChange/polyTopoChange/addObject/polyAddFace.H"
+#include "polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/polyTopoChange/removeObject/polyRemovePoint.H"
+#include "polyTopoChange/polyTopoChange/addObject/polyAddPoint.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

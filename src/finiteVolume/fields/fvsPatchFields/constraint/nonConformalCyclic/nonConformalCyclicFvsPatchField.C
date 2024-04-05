@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonConformalCyclicFvsPatchField.H"
-#include "fvPatchFieldMapper.H"
-#include "surfaceMesh.H"
+#include "fields/fvsPatchFields/constraint/nonConformalCyclic/nonConformalCyclicFvsPatchField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

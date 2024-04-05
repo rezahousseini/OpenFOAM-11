@@ -45,8 +45,8 @@ SourceFiles
 #ifndef MovingPhaseModel_H
 #define MovingPhaseModel_H
 
-#include "phaseModel.H"
-#include "PhaseThermophysicalTransportModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
+#include "PhaseThermophysicalTransportModel/PhaseThermophysicalTransportModel.H"
 #include "phaseCompressibleMomentumTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -306,7 +306,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MovingPhaseModel.C"
+    #include "phaseModel/MovingPhaseModel/MovingPhaseModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

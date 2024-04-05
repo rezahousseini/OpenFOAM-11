@@ -64,7 +64,7 @@ SourceFiles
 #ifndef polyCellSet_H
 #define polyCellSet_H
 
-#include "cellSet.H"
+#include "sets/topoSets/cellSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,7 +193,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "polyCellSetI.H"
+#include "sets/polyCellSet/polyCellSetI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -57,11 +57,11 @@ See also
 #define incompressibleDenseParticleFluid_H
 
 #include "fluidSolver.H"
-#include "viscosityModel.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
 #include "phaseIncompressibleMomentumTransportModel.H"
-#include "pressureReference.H"
-#include "uniformDimensionedFields.H"
-#include "parcelClouds.H"
+#include "cfdTools/general/pressureReference/pressureReference.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "parcelCloud/parcelClouds.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

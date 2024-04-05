@@ -37,7 +37,7 @@ SourceFiles
 #ifndef RBD_compositeBody_H
 #define RBD_compositeBody_H
 
-#include "rigidBody.H"
+#include "bodies/rigidBody/rigidBody.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -97,7 +97,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "compositeBodyI.H"
+#include "bodies/compositeBody/compositeBodyI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

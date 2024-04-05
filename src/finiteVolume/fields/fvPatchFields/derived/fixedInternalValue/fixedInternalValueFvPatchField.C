@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedInternalValueFvPatchField.H"
-#include "fvMatrix.H"
+#include "fields/fvPatchFields/derived/fixedInternalValue/fixedInternalValueFvPatchField.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

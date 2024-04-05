@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "smoothDelta.H"
+#include "LES/LESdeltas/smoothDelta/smoothDelta.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heheuPsiThermo.H"
-#include "fvMesh.H"
-#include "fixedValueFvPatchFields.H"
+#include "psiuMulticomponentThermo/heheuPsiThermo.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

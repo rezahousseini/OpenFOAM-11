@@ -39,9 +39,9 @@ SourceFiles
 #ifndef unknownTypeFunction1_H
 #define unknownTypeFunction1_H
 
-#include "Function1.H"
-#include "fieldTypes.H"
-#include "nil.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "fields/Fields/fieldTypes.H"
+#include "primitives/nil/nil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -142,7 +142,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "unknownTypeFunction1Templates.C"
+    #include "primitives/functions/Function1/unknownTypeFunction1/unknownTypeFunction1Templates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

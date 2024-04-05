@@ -52,13 +52,13 @@ SourceFiles
 #ifndef slidingInterface_H
 #define slidingInterface_H
 
-#include "polyMeshModifier.H"
-#include "primitiveFacePatch.H"
-#include "polyPatchID.H"
-#include "ZoneIDs.H"
-#include "intersection.H"
-#include "Pair.H"
-#include "objectHit.H"
+#include "polyTopoChange/polyMeshModifier/polyMeshModifier.H"
+#include "meshes/primitiveMesh/primitivePatch/primitiveFacePatch.H"
+#include "meshes/Identifiers/patch/polyPatchID.H"
+#include "meshes/Identifiers/zones/ZoneIDs.H"
+#include "meshes/primitiveShapes/triangle/intersection.H"
+#include "primitives/Pair/Pair.H"
+#include "meshes/primitiveShapes/objectHit/objectHit.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

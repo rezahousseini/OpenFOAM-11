@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "twoPhaseMixture.H"
-#include "viscosityModel.H"
-#include "surfaceInterpolate.H"
-#include "fvcGrad.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

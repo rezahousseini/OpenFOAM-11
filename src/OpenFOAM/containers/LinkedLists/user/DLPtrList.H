@@ -32,8 +32,8 @@ Description
 #ifndef DLPtrList_H
 #define DLPtrList_H
 
-#include "LPtrList.H"
-#include "DLListBase.H"
+#include "containers/LinkedLists/accessTypes/LPtrList/LPtrList.H"
+#include "containers/LinkedLists/linkTypes/DLListBase/DLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RanzMarshall.H"
-#include "addToRunTimeSelectionTable.H"
+#include "heatTransferModels/RanzMarshall/RanzMarshall.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

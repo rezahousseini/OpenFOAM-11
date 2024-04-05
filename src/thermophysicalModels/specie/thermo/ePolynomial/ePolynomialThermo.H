@@ -72,8 +72,8 @@ See also
 #ifndef ePolynomialThermo_H
 #define ePolynomialThermo_H
 
-#include "scalar.H"
-#include "Polynomial.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/functions/Polynomial/Polynomial.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -200,7 +200,7 @@ public:
             //- Gibbs free energy of the mixture in the standard state [J/kg]
             inline scalar Gstd(const scalar T) const;
 
-            #include "EtoHthermo.H"
+            #include "thermo/thermo/EtoHthermo.H"
 
 
         // Derivative term used for Jacobian
@@ -258,10 +258,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ePolynomialThermoI.H"
+#include "thermo/ePolynomial/ePolynomialThermoI.H"
 
 #ifdef NoRepository
-    #include "ePolynomialThermo.C"
+    #include "thermo/ePolynomial/ePolynomialThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

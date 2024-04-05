@@ -89,7 +89,7 @@ SourceFiles
 #ifndef DAC_H
 #define DAC_H
 
-#include "chemistryReductionMethod.H"
+#include "chemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DAC.C"
+    #include "chemistryModel/reduction/DAC/DAC.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

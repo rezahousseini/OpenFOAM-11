@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BlobsSheetAtomisation.H"
+#include "submodels/Spray/AtomisationModel/BlobsSheetAtomisation/BlobsSheetAtomisation.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

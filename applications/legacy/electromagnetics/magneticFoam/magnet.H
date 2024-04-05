@@ -35,7 +35,7 @@ SourceFiles
 #ifndef magnet_H
 #define magnet_H
 
-#include "dimensionedVector.H"
+#include "dimensionedTypes/dimensionedVector/dimensionedVector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,26 +26,26 @@ License
 #ifndef forSolids_H
 #define forSolids_H
 
-#include "specie.H"
+#include "specie/specie.H"
 
-#include "rhoConst.H"
+#include "equationOfState/rhoConst/rhoConst.H"
 
-#include "eConstThermo.H"
-#include "ePolynomialThermo.H"
-#include "ePowerThermo.H"
-#include "eIcoTabulatedThermo.H"
+#include "thermo/eConst/eConstThermo.H"
+#include "thermo/ePolynomial/ePolynomialThermo.H"
+#include "thermo/ePower/ePowerThermo.H"
+#include "thermo/eIcoTabulated/eIcoTabulatedThermo.H"
 
-#include "sensibleInternalEnergy.H"
+#include "thermo/sensibleInternalEnergy/sensibleInternalEnergy.H"
 
-#include "constIsoSolidTransport.H"
-#include "constAnisoSolidTransport.H"
-#include "exponentialSolidTransport.H"
-#include "polynomialSolidTransport.H"
-#include "tabulatedSolidTransport.H"
+#include "solidSpecie/transport/constIso/constIsoSolidTransport.H"
+#include "solidSpecie/transport/constAniso/constAnisoSolidTransport.H"
+#include "solidSpecie/transport/exponential/exponentialSolidTransport.H"
+#include "solidSpecie/transport/polynomial/polynomialSolidTransport.H"
+#include "solidSpecie/transport/tabulated/tabulatedSolidTransport.H"
 
-#include "thermo.H"
+#include "thermo/thermo/thermo.H"
 
-#include "forThermo.H"
+#include "include/forThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,19 +23,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshStitchersMoving.H"
-#include "FvFaceCellWave.H"
-#include "fvMeshSubset.H"
-#include "fvmLaplacian.H"
-#include "meshPhiCorrectInfo.H"
-#include "meshPhiPreCorrectInfo.H"
-#include "movingWallVelocityFvPatchVectorField.H"
-#include "movingWallSlipVelocityFvPatchVectorField.H"
-#include "regionSplit.H"
-#include "solutionControl.H"
-#include "syncTools.H"
-#include "zeroGradientFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "moving/fvMeshStitchersMoving.H"
+#include "algorithms/FvFaceCellWave/FvFaceCellWave.H"
+#include "fvMeshSubset/fvMeshSubset.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "moving/meshPhiCorrectInfo.H"
+#include "moving/meshPhiPreCorrectInfo.H"
+#include "fields/fvPatchFields/derived/movingWallVelocity/movingWallVelocityFvPatchVectorField.H"
+#include "fields/fvPatchFields/derived/movingWallSlipVelocity/movingWallSlipVelocityFvPatchVectorField.H"
+#include "regionSplit/regionSplit.H"
+#include "cfdTools/general/solutionControl/solutionControl/solutionControl/solutionControl.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

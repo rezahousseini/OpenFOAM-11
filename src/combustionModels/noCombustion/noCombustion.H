@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noCombustion_H
 #define noCombustion_H
 
-#include "combustionModel.H"
+#include "combustionModel/combustionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

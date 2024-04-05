@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uncollatedFileOperation.H"
-#include "Time.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "decomposedBlockData.H"
-#include "dummyISstream.H"
-#include "unthreadedInitialise.H"
-#include "OSspecific.H"
-#include "addToRunTimeSelectionTable.H"
+#include "global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "db/IOstreams/dummyISstream/dummyISstream.H"
+#include "global/fileOperations/fileOperationInitialise/unthreadedInitialise.H"
+#include "include/OSspecific.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "twoResistanceHeatTransferPhaseSystem.H"
+#include "TwoResistanceHeatTransferPhaseSystem/twoResistanceHeatTransferPhaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef pointPatch_H
 #define pointPatch_H
 
-#include "labelList.H"
-#include "vectorField.H"
-#include "pointField.H"
+#include "primitives/ints/lists/labelList.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ SourceFiles
 #ifndef sineWallDamping_H
 #define sineWallDamping_H
 
-#include "wallDampingModel.H"
+#include "wallDampingModels/wallDampingModel/wallDampingModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

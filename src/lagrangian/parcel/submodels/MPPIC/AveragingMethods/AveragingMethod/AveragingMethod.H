@@ -36,11 +36,11 @@ SourceFiles
 #ifndef AveragingMethod_H
 #define AveragingMethod_H
 
-#include "barycentric.H"
-#include "tetIndices.H"
-#include "FieldField.H"
-#include "fvMesh.H"
-#include "runTimeSelectionTables.H"
+#include "primitives/Barycentric/barycentric/barycentric.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "fvMesh/fvMesh.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,12 +194,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "AveragingMethodI.H"
+#include "submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethodI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AveragingMethod.C"
+    #include "submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

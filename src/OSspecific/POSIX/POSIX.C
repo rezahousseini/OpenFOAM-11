@@ -30,17 +30,17 @@ Description
     #define _SYS_VNODE_H
 #endif
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 #include "POSIX.H"
-#include "foamVersion.H"
-#include "fileName.H"
+#include "global/foamVersion.H"
+#include "primitives/strings/fileName/fileName.H"
 #include "fileStat.H"
 #include "timer.H"
-#include "IFstream.H"
-#include "DynamicList.H"
-#include "HashSet.H"
-#include "IOstreams.H"
-#include "Pstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 #include <fstream>
 #include <cstdlib>

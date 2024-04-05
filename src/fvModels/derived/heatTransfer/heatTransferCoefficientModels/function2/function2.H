@@ -48,8 +48,8 @@ Usage
 #ifndef function2_H
 #define function2_H
 
-#include "heatTransferCoefficientModel.H"
-#include "Function2.H"
+#include "derived/heatTransfer/heatTransferCoefficientModels/heatTransferCoefficientModel/heatTransferCoefficientModel.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

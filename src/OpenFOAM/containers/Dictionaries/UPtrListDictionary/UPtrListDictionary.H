@@ -38,8 +38,8 @@ SourceFiles
 #ifndef UPtrListDictionary_H
 #define UPtrListDictionary_H
 
-#include "DictionaryBase.H"
-#include "UPtrList.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "containers/Lists/UPtrList/UPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -111,7 +111,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UPtrListDictionary.C"
+    #include "containers/Dictionaries/UPtrListDictionary/UPtrListDictionary.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

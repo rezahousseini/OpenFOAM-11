@@ -56,11 +56,11 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
 
-#include "MeshedSurfaces.H"
-#include "coordinateSystems.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "coordinateSystems/coordinateSystems.H"
 
 using namespace Foam;
 

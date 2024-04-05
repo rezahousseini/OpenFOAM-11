@@ -139,11 +139,11 @@ SourceFiles
 #ifndef polyTopoChangeMap_H
 #define polyTopoChangeMap_H
 
-#include "labelList.H"
-#include "objectMap.H"
-#include "pointField.H"
-#include "HashSet.H"
-#include "Map.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/polyMesh/polyTopoChangeMap/objectMap/objectMap.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

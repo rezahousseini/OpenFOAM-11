@@ -35,7 +35,7 @@ SourceFiles
 #ifndef simple_H
 #define simple_H
 
-#include "relativeVelocityModel.H"
+#include "relativeVelocityModels/relativeVelocityModel/relativeVelocityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

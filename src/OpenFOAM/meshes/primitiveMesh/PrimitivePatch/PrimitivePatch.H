@@ -51,13 +51,13 @@ SourceFiles
 #ifndef PrimitivePatch_H
 #define PrimitivePatch_H
 
-#include "boolList.H"
-#include "labelList.H"
-#include "edgeList.H"
-#include "point.H"
-#include "intersection.H"
-#include "HashSet.H"
-#include "objectHit.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/primitiveShapes/triangle/intersection.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/primitiveShapes/objectHit/objectHit.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -502,7 +502,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PrimitivePatch.C"
+    #include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

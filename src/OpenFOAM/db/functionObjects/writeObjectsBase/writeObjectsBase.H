@@ -65,9 +65,9 @@ SourceFiles
 #ifndef functionObjects_writeObjectsBase_H
 #define functionObjects_writeObjectsBase_H
 
-#include "wordList.H"
-#include "wordReList.H"
-#include "Switch.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/strings/lists/wordReList.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

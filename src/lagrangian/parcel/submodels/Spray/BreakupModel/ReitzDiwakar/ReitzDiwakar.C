@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReitzDiwakar.H"
+#include "submodels/Spray/BreakupModel/ReitzDiwakar/ReitzDiwakar.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "forces.H"
-#include "fvcGrad.H"
-#include "porosityModel.H"
+#include "forces/forces.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModel.H"
 #include "incompressibleMomentumTransportModel.H"
 #include "compressibleMomentumTransportModel.H"
 #include "phaseIncompressibleMomentumTransportModel.H"
 #include "phaseCompressibleMomentumTransportModel.H"
-#include "fluidThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fluidThermo/fluidThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

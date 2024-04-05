@@ -56,10 +56,10 @@ See also
 #define multicomponentFluid_H
 
 #include "isothermalFluid.H"
-#include "fluidMulticomponentThermo.H"
-#include "combustionModel.H"
+#include "fluidMulticomponentThermo/fluidMulticomponentThermo.H"
+#include "combustionModel/combustionModel.H"
 #include "fluidMulticomponentThermophysicalTransportModel.H"
-#include "multivariateScheme.H"
+#include "interpolation/surfaceInterpolation/multivariateSchemes/multivariateScheme/multivariateScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

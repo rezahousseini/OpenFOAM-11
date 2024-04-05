@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchIdentifier.H"
-#include "dictionary.H"
-#include "ListOps.H"
+#include "meshes/Identifiers/patch/patchIdentifier.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

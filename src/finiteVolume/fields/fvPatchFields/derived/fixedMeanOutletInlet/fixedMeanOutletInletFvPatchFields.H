@@ -26,8 +26,8 @@ License
 #ifndef fixedMeanOutletInletFvPatchFields_H
 #define fixedMeanOutletInletFvPatchFields_H
 
-#include "fixedMeanOutletInletFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/fixedMeanOutletInlet/fixedMeanOutletInletFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -122,10 +122,10 @@ SourceFiles
 #ifndef functionObject_H
 #define functionObject_H
 
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "Switch.H"
-#include "runTimeSelectionTables.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

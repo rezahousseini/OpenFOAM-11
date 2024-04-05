@@ -37,7 +37,7 @@ SourceFiles
 #ifndef sortLabelledTri_H
 #define sortLabelledTri_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

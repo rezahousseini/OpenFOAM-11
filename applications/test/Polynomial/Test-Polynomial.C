@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IStringStream.H"
-#include "Polynomial.H"
-#include "Random.H"
-#include "cpuTime.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "primitives/functions/Polynomial/Polynomial.H"
+#include "primitives/Random/Random.H"
+#include "cpuTime/cpuTime.H"
 
 using namespace Foam;
 

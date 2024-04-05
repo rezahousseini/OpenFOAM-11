@@ -29,7 +29,7 @@ License
 #include "vtkUnstructuredGrid.h"
 
 // OpenFOAM includes
-#include "IOobjectList.H"
+#include "db/IOobjectList/IOobjectList.H"
 #include "vtkPVFoam.H"
 #include "vtkPVFoamReader.h"
 #include "vtkPVFoamVolFields.H"

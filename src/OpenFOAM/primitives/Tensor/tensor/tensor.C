@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tensor.H"
-#include "cubicEqn.H"
-#include "mathematicalConstants.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqn.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant::mathematical;
 

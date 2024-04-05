@@ -35,8 +35,8 @@ SourceFiles
 #ifndef mappedInternalPolyPatch_H
 #define mappedInternalPolyPatch_H
 
-#include "polyPatch.H"
-#include "mappedInternalPatchBase.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "mappedPatches/mappedInternalPatchBase/mappedInternalPatchBase.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

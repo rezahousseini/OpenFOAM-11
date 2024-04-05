@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyControl.H"
-#include "Time.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sixDoFRigidBodyControl/sixDoFRigidBodyControl.H"
+#include "db/Time/Time.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

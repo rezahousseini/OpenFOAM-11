@@ -58,7 +58,7 @@ SourceFiles
 #ifndef phaseLimitStabilisation_H
 #define phaseLimitStabilisation_H
 
-#include "fvModel.H"
+#include "cfdTools/general/fvModels/fvModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

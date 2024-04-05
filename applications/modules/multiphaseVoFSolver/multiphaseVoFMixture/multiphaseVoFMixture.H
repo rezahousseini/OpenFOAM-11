@@ -38,10 +38,10 @@ SourceFiles
 #ifndef multiphaseVoFMixture_H
 #define multiphaseVoFMixture_H
 
-#include "VoFMixture.H"
-#include "IOdictionary.H"
-#include "PtrListDictionary.H"
-#include "VoFphase.H"
+#include "VoFMixture/VoFMixture.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "containers/Dictionaries/PtrListDictionary/PtrListDictionary.H"
+#include "multiphaseVoFMixture/VoFphase/VoFphase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

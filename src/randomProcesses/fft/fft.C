@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fft.H"
-#include "fftRenumber.H"
+#include "fft/fft.H"
+#include "fft/fftRenumber.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

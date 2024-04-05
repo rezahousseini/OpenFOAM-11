@@ -35,12 +35,12 @@ SourceFiles
 #ifndef potential_H
 #define potential_H
 
-#include "polyMesh.H"
-#include "IOdictionary.H"
-#include "Time.H"
-#include "pairPotentialList.H"
-#include "electrostaticPotential.H"
-#include "tetherPotentialList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/Time/Time.H"
+#include "pairPotential/pairPotentialList/pairPotentialList.H"
+#include "electrostaticPotential/electrostaticPotential.H"
+#include "tetherPotential/tetherPotentialList/tetherPotentialList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "potentialI.H"
+#include "potential/potentialI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

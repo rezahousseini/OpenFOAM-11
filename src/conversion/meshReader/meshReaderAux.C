@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshReader.H"
-#include "IOMap.H"
-#include "OFstream.H"
-#include "Time.H"
+#include "meshReader/meshReader.H"
+#include "db/IOobjects/IOMap/IOMap.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * Static Functions  * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef sampledIsoSurfaceSurface_H
 #define sampledIsoSurfaceSurface_H
 
-#include "sampledSurface.H"
-#include "cutPolyIsoSurface.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "cutPoly/cutPolyIsoSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledIsoSurfaceSurfaceTemplates.C"
+    #include "sampledSurface/sampledIsoSurfaceSurface/sampledIsoSurfaceSurfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

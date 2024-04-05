@@ -54,9 +54,9 @@ SourceFiles
 #ifndef directionInfo_H
 #define directionInfo_H
 
-#include "point.H"
-#include "labelList.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -250,7 +250,7 @@ inline bool contiguous<directionInfo>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "directionInfoI.H"
+#include "meshCut/directions/directionInfo/directionInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

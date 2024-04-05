@@ -37,8 +37,8 @@ SourceFiles
 #ifndef fvMeshStitcher_H
 #define fvMeshStitcher_H
 
-#include "fvMesh.H"
-#include "intersectionPatchToPatch.H"
+#include "fvMesh/fvMesh.H"
+#include "patchToPatch/intersection/intersectionPatchToPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -421,7 +421,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshStitcherTemplates.C"
+    #include "fvMesh/fvMeshStitchers/fvMeshStitcher/fvMeshStitcherTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

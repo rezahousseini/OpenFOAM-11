@@ -79,7 +79,7 @@ SourceFiles
 #ifndef Square_H
 #define Square_H
 
-#include "Function1.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -175,10 +175,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SquareI.H"
+#include "primitives/functions/Function1/Square/SquareI.H"
 
 #ifdef NoRepository
-    #include "Square.C"
+    #include "primitives/functions/Function1/Square/Square.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

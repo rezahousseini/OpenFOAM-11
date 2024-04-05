@@ -67,10 +67,10 @@ SourceFiles
 #ifndef functionObjects_particles_H
 #define functionObjects_particles_H
 
-#include "fvMeshFunctionObject.H"
-#include "parcelCloud.H"
-#include "volFieldsFwd.H"
-#include "uniformDimensionedFields.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "parcelCloud/parcelCloud.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

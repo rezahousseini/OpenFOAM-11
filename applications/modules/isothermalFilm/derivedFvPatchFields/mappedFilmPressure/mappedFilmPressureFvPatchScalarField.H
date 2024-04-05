@@ -36,8 +36,8 @@ SourceFiles
 #ifndef mappedFilmPressureFvPatchScalarField_H
 #define mappedFilmPressureFvPatchScalarField_H
 
-#include "zeroGradientFvPatchFields.H"
-#include "mappedFvPatchField.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "fields/fvPatchFields/derived/mapped/mappedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

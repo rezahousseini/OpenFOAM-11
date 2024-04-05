@@ -59,9 +59,9 @@ See also
 #define compressibleVoF_H
 
 #include "twoPhaseVoFSolver.H"
-#include "compressibleTwoPhaseVoFMixture.H"
-#include "compressibleInterPhaseTransportModel.H"
-#include "compressibleInterPhaseThermophysicalTransportModel.H"
+#include "compressibleTwoPhaseVoFMixture/compressibleTwoPhaseVoFMixture.H"
+#include "compressibleInterPhaseTransportModel/compressibleInterPhaseTransportModel.H"
+#include "compressibleInterPhaseThermophysicalTransportModel/compressibleInterPhaseThermophysicalTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

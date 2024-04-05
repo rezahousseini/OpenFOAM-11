@@ -35,9 +35,9 @@ SourceFiles
 #ifndef cell_H
 #define cell_H
 
-#include "faceList.H"
-#include "oppositeFace.H"
-#include "boundBox.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/face/oppositeFace.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -150,7 +150,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellI.H"
+#include "meshes/meshShapes/cell/cellI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ SourceFiles
 #ifndef vector2DField_H
 #define vector2DField_H
 
-#include "vector2DFieldFwd.H"
-#include "Field.H"
+#include "fields/Fields/vector2DField/vector2DFieldFwd.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

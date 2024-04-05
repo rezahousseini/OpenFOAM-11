@@ -46,7 +46,7 @@ SourceFiles
 #ifndef movingWallSlipVelocityFvPatchVectorField_H
 #define movingWallSlipVelocityFvPatchVectorField_H
 
-#include "directionMixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

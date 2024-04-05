@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhaseChangeModel.H"
+#include "submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -180,6 +180,6 @@ void Foam::PhaseChangeModel<CloudType>::info(Ostream& os)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PhaseChangeModelNew.C"
+#include "submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModelNew.C"
 
 // ************************************************************************* //

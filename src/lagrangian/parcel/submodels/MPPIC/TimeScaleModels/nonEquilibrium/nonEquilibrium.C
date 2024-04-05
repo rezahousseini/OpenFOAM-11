@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonEquilibrium.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/MPPIC/TimeScaleModels/nonEquilibrium/nonEquilibrium.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

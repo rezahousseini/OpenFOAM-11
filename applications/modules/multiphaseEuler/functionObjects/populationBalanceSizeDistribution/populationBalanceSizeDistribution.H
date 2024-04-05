@@ -78,11 +78,11 @@ SourceFiles
 #ifndef populationBalanceSizeDistribution_H
 #define populationBalanceSizeDistribution_H
 
-#include "fvMeshFunctionObject.H"
-#include "fvCellSet.H"
-#include "populationBalanceModel.H"
-#include "writeFile.H"
-#include "setWriter.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "sampledSet/writers/setWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

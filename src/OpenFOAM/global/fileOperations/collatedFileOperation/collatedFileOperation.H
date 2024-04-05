@@ -41,8 +41,8 @@ SourceFiles
 #ifndef fileOperations_collatedFileOperation_H
 #define fileOperations_collatedFileOperation_H
 
-#include "masterUncollatedFileOperation.H"
-#include "OFstreamCollator.H"
+#include "global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.H"
+#include "global/fileOperations/collatedFileOperation/OFstreamCollator.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

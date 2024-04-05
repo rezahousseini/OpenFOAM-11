@@ -71,9 +71,9 @@ SourceFiles
 #ifndef layerAverage_H
 #define layerAverage_H
 
-#include "fvMeshFunctionObject.H"
-#include "setWriter.H"
-#include "boolList.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "sampledSet/writers/setWriter.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -220,7 +220,7 @@ tensor layerAverage::symmetricCoeff<tensor>() const;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "layerAverageTemplates.C"
+    #include "layerAverage/layerAverageTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef zoneCombustion_H
 #define zoneCombustion_H
 
-#include "combustionModel.H"
+#include "combustionModel/combustionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

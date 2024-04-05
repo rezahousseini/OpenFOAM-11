@@ -39,11 +39,11 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionState_H
 #define sixDoFRigidBodyMotionState_H
 
-#include "vector.H"
-#include "point.H"
-#include "diagTensor.H"
-#include "tensor.H"
-#include "dictionary.H"
+#include "primitives/Vector/vector/vector.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/DiagTensor/diagTensor/diagTensor.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sixDoFRigidBodyMotionStateI.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotionStateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

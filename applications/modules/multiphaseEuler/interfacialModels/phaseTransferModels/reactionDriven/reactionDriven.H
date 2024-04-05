@@ -36,7 +36,7 @@ SourceFiles
 #ifndef reactionDriven_H
 #define reactionDriven_H
 
-#include "phaseTransferModel.H"
+#include "phaseTransferModels/phaseTransferModel/phaseTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

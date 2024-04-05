@@ -31,8 +31,8 @@ Description
 #ifndef surfacePatchList_H
 #define surfacePatchList_H
 
-#include "surfacePatch.H"
-#include "List.H"
+#include "triSurface/surfacePatch/surfacePatch.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

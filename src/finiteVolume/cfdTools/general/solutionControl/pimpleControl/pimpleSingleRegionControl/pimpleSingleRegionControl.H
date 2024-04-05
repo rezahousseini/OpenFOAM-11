@@ -58,8 +58,8 @@ SourceFiles
 #ifndef pimpleSingleRegionControl_H
 #define pimpleSingleRegionControl_H
 
-#include "pimpleLoop.H"
-#include "pimpleNoLoopControl.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleLoop/pimpleLoop.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleNoLoopControl/pimpleNoLoopControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pimpleSingleRegionControlI.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleSingleRegionControl/pimpleSingleRegionControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

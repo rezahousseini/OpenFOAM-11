@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "demandDrivenData.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

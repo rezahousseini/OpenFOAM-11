@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Cloud.H"
-#include "processorPolyPatch.H"
-#include "globalMeshData.H"
-#include "meshToMesh.H"
-#include "PstreamCombineReduceOps.H"
-#include "polyTopoChangeMap.H"
-#include "polyMeshMap.H"
-#include "polyDistributionMap.H"
-#include "Time.H"
-#include "OFstream.H"
-#include "wallPolyPatch.H"
-#include "nonConformalCyclicPolyPatch.H"
+#include "Cloud/Cloud.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshToMesh/meshToMesh.H"
+#include "db/IOstreams/Pstreams/PstreamCombineReduceOps.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyMeshMap/polyMeshMap.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformalCyclic/nonConformalCyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -695,6 +695,6 @@ void Foam::Cloud<ParticleType>::storeGlobalPositions() const
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "CloudIO.C"
+#include "Cloud/CloudIO.C"
 
 // ************************************************************************* //

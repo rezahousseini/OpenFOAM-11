@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TRIsurfaceFormat.H"
-#include "ListOps.H"
+#include "surfaceFormats/tri/TRIsurfaceFormat.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalTensorFieldField.H"
+#include "fields/FieldFields/sphericalTensorFieldField/sphericalTensorFieldField.H"
 
 #define TEMPLATE template<template<class> class Field>
-#include "FieldFieldFunctionsM.C"
+#include "fields/FieldFields/FieldField/FieldFieldFunctionsM.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -56,6 +56,6 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSymmetryFvPatchField.H"
-#include "volFields.H"
+#include "fields/fvPatchFields/basic/basicSymmetry/basicSymmetryFvPatchField.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

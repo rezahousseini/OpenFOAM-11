@@ -70,8 +70,8 @@ SourceFiles
 #ifndef actuationDiskSource_H
 #define actuationDiskSource_H
 
-#include "fvModel.H"
-#include "fvCellSet.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -238,7 +238,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "actuationDiskSourceTemplates.C"
+    #include "derived/actuationDiskSource/actuationDiskSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

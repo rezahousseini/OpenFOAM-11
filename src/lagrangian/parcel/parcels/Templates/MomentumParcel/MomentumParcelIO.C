@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MomentumParcel.H"
-#include "IOstreams.H"
-#include "IOField.H"
-#include "Cloud.H"
+#include "parcels/Templates/MomentumParcel/MomentumParcel.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "Cloud/Cloud.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

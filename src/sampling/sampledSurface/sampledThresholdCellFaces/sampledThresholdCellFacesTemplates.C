@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledThresholdCellFaces.H"
-#include "thresholdCellFaces.H"
+#include "sampledSurface/sampledThresholdCellFaces/sampledThresholdCellFaces.H"
+#include "sampledSurface/sampledThresholdCellFaces/thresholdCellFaces.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

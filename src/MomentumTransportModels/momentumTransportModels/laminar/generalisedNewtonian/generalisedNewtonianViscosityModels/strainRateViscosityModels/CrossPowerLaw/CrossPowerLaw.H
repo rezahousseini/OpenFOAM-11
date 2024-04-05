@@ -65,7 +65,7 @@ SourceFiles
 #ifndef CrossPowerLaw_H
 #define CrossPowerLaw_H
 
-#include "strainRateViscosityModel.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonianViscosityModels/strainRateViscosityModels/strainRateViscosityModel/strainRateViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

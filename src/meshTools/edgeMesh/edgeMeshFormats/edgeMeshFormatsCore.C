@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeMeshFormatsCore.H"
+#include "edgeMesh/edgeMeshFormats/edgeMeshFormatsCore.H"
 
-#include "Time.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "edgeMesh.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "edgeMesh/edgeMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

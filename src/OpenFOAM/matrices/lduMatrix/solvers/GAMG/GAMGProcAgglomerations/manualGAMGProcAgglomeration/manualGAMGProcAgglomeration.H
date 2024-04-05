@@ -59,9 +59,9 @@ SourceFiles
 #ifndef manualGAMGProcAgglomeration_H
 #define manualGAMGProcAgglomeration_H
 
-#include "GAMGProcAgglomeration.H"
-#include "DynamicList.H"
-#include "Tuple2.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/GAMGProcAgglomeration/GAMGProcAgglomeration.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/Tuple2/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

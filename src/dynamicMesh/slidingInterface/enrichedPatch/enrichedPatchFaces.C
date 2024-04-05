@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "enrichedPatch.H"
-#include "DynamicList.H"
+#include "slidingInterface/enrichedPatch/enrichedPatch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

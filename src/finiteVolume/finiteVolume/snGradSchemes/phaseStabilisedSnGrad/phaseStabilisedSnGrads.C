@@ -30,8 +30,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseStabilisedSnGrad.H"
-#include "fvMesh.H"
+#include "finiteVolume/snGradSchemes/phaseStabilisedSnGrad/phaseStabilisedSnGrad.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef distribution_H
 #define distribution_H
 
-#include "Map.H"
-#include "Pair.H"
+#include "containers/HashTables/Map/Map.H"
+#include "primitives/Pair/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "distributionI.H"
+#include "distribution/distributionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

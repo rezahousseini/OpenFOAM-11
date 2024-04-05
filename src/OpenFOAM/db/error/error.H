@@ -48,8 +48,8 @@ SourceFiles
 #ifndef error_H
 #define error_H
 
-#include "OStringStream.H"
-#include "messageStream.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
+#include "db/error/messageStream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -356,7 +356,7 @@ constexpr bool False = false;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "errorManip.H"
+#include "db/error/errorManip.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

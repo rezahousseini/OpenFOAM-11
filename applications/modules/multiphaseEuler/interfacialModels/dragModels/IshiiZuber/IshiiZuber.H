@@ -43,7 +43,7 @@ SourceFiles
 #ifndef IshiiZuber_H
 #define IshiiZuber_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

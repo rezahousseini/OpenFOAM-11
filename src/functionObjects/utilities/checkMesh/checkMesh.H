@@ -54,7 +54,7 @@ SourceFiles
 #ifndef functionObjects_checkMesh_H
 #define functionObjects_checkMesh_H
 
-#include "fvMeshFunctionObject.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

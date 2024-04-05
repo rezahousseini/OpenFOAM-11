@@ -37,13 +37,13 @@ SourceFiles
 #ifndef Reaction_H
 #define Reaction_H
 
-#include "reaction.H"
-#include "HashPtrTable.H"
-#include "scalarField.H"
-#include "simpleMatrix.H"
-#include "Tuple2.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "reaction/reaction/reaction.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "matrices/simpleMatrix/simpleMatrix.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -376,12 +376,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactionI.H"
+#include "reaction/Reactions/Reaction/ReactionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Reaction.C"
+    #include "reaction/Reactions/Reaction/Reaction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

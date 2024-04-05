@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallInteractionModel.H"
+#include "submodels/WallInteractionModel/WallInteractionModel/WallInteractionModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -90,6 +90,6 @@ Foam::WallInteractionModel<CloudType>::coeffDict() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WallInteractionModelNew.C"
+#include "submodels/WallInteractionModel/WallInteractionModel/WallInteractionModelNew.C"
 
 // ************************************************************************* //

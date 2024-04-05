@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "calcIncludeEntry.H"
-#include "dictionary.H"
-#include "IFstream.H"
-#include "addToMemberFunctionSelectionTable.H"
-#include "stringOps.H"
-#include "IOobject.H"
-#include "fileOperation.H"
+#include "db/dictionary/functionEntries/calcIncludeEntry/calcIncludeEntry.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/IOobject/IOobject.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

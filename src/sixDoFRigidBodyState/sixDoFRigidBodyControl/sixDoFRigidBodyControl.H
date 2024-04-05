@@ -70,7 +70,7 @@ SourceFiles
 #ifndef sixDoFRigidBodyControl_H
 #define sixDoFRigidBodyControl_H
 
-#include "sixDoFRigidBodyState.H"
+#include "sixDoFRigidBodyState/sixDoFRigidBodyState.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

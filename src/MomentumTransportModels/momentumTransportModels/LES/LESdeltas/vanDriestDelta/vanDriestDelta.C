@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vanDriestDelta.H"
-#include "wallFvPatch.H"
-#include "fvPatchDistWave.H"
-#include "WallLocationYPlus.H"
-#include "addToRunTimeSelectionTable.H"
+#include "LES/LESdeltas/vanDriestDelta/vanDriestDelta.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fvMesh/wallDist/fvPatchDistWave/fvPatchDistWave.H"
+#include "LES/LESdeltas/vanDriestDelta/WallLocationYPlus.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

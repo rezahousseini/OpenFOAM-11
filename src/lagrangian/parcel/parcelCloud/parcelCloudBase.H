@@ -42,8 +42,8 @@ SourceFiles
 #ifndef parcelCloudBase_H
 #define parcelCloudBase_H
 
-#include "volFields.H"
-#include "fvMatricesFwd.H"
+#include "fields/volFields/volFields.H"
+#include "fvMatrices/fvMatricesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

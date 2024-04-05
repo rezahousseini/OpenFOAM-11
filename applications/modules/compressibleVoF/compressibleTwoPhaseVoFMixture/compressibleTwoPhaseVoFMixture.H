@@ -35,9 +35,9 @@ SourceFiles
 #ifndef compressibleTwoPhaseVoFMixture_H
 #define compressibleTwoPhaseVoFMixture_H
 
-#include "twoPhaseVoFMixture.H"
+#include "twoPhaseVoFMixture/twoPhaseVoFMixture.H"
 #include "compressibleTwoPhases.H"
-#include "rhoThermo.H"
+#include "rhoThermo/rhoThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

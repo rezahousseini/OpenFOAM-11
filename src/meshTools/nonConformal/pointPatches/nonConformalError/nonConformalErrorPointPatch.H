@@ -38,8 +38,8 @@ See also
 #ifndef nonConformalErrorPointPatch_H
 #define nonConformalErrorPointPatch_H
 
-#include "facePointPatch.H"
-#include "nonConformalErrorPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "nonConformal/polyPatches/nonConformalError/nonConformalErrorPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

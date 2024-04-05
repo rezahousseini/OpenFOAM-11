@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixtureViscosityModel.H"
-#include "incompressibleDriftFluxMixture.H"
+#include "mixtureViscosityModels/mixtureViscosityModel/mixtureViscosityModel.H"
+#include "incompressibleDriftFluxMixture/incompressibleDriftFluxMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

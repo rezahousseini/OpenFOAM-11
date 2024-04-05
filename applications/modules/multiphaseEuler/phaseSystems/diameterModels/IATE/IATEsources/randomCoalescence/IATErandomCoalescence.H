@@ -43,7 +43,7 @@ SourceFiles
 #ifndef IATErandomCoalescence_H
 #define IATErandomCoalescence_H
 
-#include "IATEsource.H"
+#include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

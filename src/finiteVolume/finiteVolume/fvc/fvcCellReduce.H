@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fvcCellReduce_H
 #define fvcCellReduce_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -74,7 +74,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcCellReduce.C"
+    #include "finiteVolume/fvc/fvcCellReduce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

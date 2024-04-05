@@ -35,8 +35,8 @@ SourceFiles
 #ifndef IOList_H
 #define IOList_H
 
-#include "regIOobject.H"
-#include "List.H"
+#include "db/regIOobject/regIOobject.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -150,7 +150,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IOList.C"
+    #include "db/IOobjects/IOList/IOList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CollidingCloud.H"
-#include "subCycleTime.H"
+#include "clouds/Templates/CollidingCloud/CollidingCloud.H"
+#include "db/Time/subCycleTime.H"
 
-#include "CollisionModel.H"
-#include "NoCollision.H"
+#include "submodels/Momentum/CollisionModel/CollisionModel/CollisionModel.H"
+#include "submodels/Momentum/CollisionModel/NoCollision/NoCollision.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

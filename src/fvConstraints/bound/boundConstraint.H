@@ -51,8 +51,8 @@ SourceFiles
 #ifndef boundConstraint_H
 #define boundConstraint_H
 
-#include "fvConstraint.H"
-#include "dimensionedScalar.H"
+#include "cfdTools/general/fvConstraints/fvConstraint.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

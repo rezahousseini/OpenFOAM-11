@@ -24,10 +24,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "fluidSolver.H"
-#include "surfaceFields.H"
-#include "fvcDiv.H"
-#include "fvcSurfaceIntegrate.H"
-#include "fvcVolumeIntegrate.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

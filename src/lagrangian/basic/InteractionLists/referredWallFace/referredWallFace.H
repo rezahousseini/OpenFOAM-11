@@ -37,8 +37,8 @@ SourceFiles
 #ifndef referredWallFace_H
 #define referredWallFace_H
 
-#include "face.H"
-#include "pointField.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -127,7 +127,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "referredWallFaceI.H"
+#include "InteractionLists/referredWallFace/referredWallFaceI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

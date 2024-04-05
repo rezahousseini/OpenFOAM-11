@@ -52,10 +52,10 @@ See also
 #define VoFSolver_H
 
 #include "fluidSolver.H"
-#include "VoFMixture.H"
-#include "buoyancy.H"
-#include "pressureReference.H"
-#include "IOMRFZoneList.H"
+#include "VoFMixture/VoFMixture.H"
+#include "cfdTools/general/buoyancy/buoyancy.H"
+#include "cfdTools/general/pressureReference/pressureReference.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

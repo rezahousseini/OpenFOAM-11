@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "isothermalFilm.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvmDdt.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmDdt.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

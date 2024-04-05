@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmThermophysicalTransportModel.H"
-#include "laminarThermophysicalTransportModel.H"
+#include "filmThermophysicalTransportModels/filmThermophysicalTransportModel.H"
+#include "laminar/laminarThermophysicalTransportModel/laminarThermophysicalTransportModel.H"
 #include "makeThermophysicalTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

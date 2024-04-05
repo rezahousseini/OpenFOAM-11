@@ -23,21 +23,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshTopoChangersMeshToMesh.H"
-#include "polyTopoChangeMap.H"
-#include "volFields.H"
-#include "surfaceInterpolate.H"
-#include "pointFields.H"
-#include "meshToMeshAdjustTimeStepFunctionObject.H"
-#include "fvMeshToFvMesh.H"
-#include "intersectionCellsToCells.H"
-#include "surfaceToVolVelocity.H"
-#include "MeshToMeshMapGeometricFields.H"
-#include "polyMeshMap.H"
-#include "processorPolyPatch.H"
-#include "setSizeFvPatchFieldMapper.H"
-#include "setSizePointPatchFieldMapper.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshToMesh/fvMeshTopoChangersMeshToMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "meshToMesh/meshToMeshAdjustTimeStep/meshToMeshAdjustTimeStepFunctionObject.H"
+#include "fvMeshToFvMesh/fvMeshToFvMesh.H"
+#include "cellsToCells/intersection/intersectionCellsToCells.H"
+#include "cfdTools/general/surfaceToVolVelocity/surfaceToVolVelocity.H"
+#include "meshToMesh/MeshToMeshMapGeometricFields.H"
+#include "meshes/polyMesh/polyMeshMap/polyMeshMap.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "fields/fvPatchFields/fvPatchField/setSizeFvPatchFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/setSizePointPatchFieldMapper.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SchaefferFrictionalStress.H"
-#include "addToRunTimeSelectionTable.H"
+#include "kineticTheoryModels/frictionalStressModel/Schaeffer/SchaefferFrictionalStress.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

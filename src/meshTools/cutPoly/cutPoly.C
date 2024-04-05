@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cutPolyValue.H"
-#include "OBJstream.H"
+#include "cutPoly/cutPolyValue.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

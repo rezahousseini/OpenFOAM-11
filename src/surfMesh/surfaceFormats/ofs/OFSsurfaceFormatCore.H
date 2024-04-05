@@ -35,10 +35,10 @@ SourceFiles
 #ifndef OFSsurfaceFormatCore_H
 #define OFSsurfaceFormatCore_H
 
-#include "Ostream.H"
-#include "OFstream.H"
-#include "MeshedSurface.H"
-#include "UnsortedMeshedSurface.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

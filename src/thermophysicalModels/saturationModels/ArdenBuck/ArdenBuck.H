@@ -35,7 +35,7 @@ SourceFiles
 #ifndef ArdenBuck_H
 #define ArdenBuck_H
 
-#include "saturationPressureModel.H"
+#include "saturationPressureModel/saturationPressureModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

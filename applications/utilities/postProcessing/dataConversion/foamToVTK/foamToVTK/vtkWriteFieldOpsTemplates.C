@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "vtkWriteFieldOps.H"
-#include "interpolatePointToCell.H"
+#include "interpolations/interpolatePointToCell/interpolatePointToCell.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

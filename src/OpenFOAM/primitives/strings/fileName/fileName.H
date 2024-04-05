@@ -45,7 +45,7 @@ SourceFiles
 #ifndef fileName_H
 #define fileName_H
 
-#include "word.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -265,7 +265,7 @@ fileName operator/(const string&, const string&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fileNameI.H"
+#include "primitives/strings/fileName/fileNameI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

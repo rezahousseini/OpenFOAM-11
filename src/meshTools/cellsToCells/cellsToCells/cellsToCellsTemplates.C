@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellsToCells.H"
-#include "patchToPatchTools.H"
+#include "cellsToCells/cellsToCells/cellsToCells.H"
+#include "patchToPatchTools/patchToPatchTools.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

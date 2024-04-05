@@ -34,7 +34,7 @@ SourceFiles
 #ifndef noLift_H
 #define noLift_H
 
-#include "liftModel.H"
+#include "liftModels/liftModel/liftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

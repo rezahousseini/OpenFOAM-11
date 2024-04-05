@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Phi_H
 #define Phi_H
 
-#include "vector.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

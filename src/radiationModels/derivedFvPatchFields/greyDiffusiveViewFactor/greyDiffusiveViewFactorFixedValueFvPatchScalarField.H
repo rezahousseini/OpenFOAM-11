@@ -60,8 +60,8 @@ SourceFiles
 #ifndef greyDiffusiveViewFactorFixedValueFvPatchScalarField_H
 #define greyDiffusiveViewFactorFixedValueFvPatchScalarField_H
 
-#include "radiationCoupledBase.H"
-#include "fixedValueFvPatchFields.H"
+#include "derivedFvPatchFields/radiationCoupledBase/radiationCoupledBase.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volumeFractionSource.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvcDiv.H"
-#include "surfaceInterpolate.H"
-#include "fluidThermophysicalTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derived/volumeFractionSource/volumeFractionSource.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

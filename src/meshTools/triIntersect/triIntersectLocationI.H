@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triIntersectLocation.H"
+#include "triIntersect/triIntersectLocation.H"
 
 // * * * * * * * * * * * Private Static Member Functions * * * * * * * * * * //
 

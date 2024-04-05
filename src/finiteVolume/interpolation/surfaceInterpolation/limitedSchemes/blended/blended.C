@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "blended.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/blended/blended.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

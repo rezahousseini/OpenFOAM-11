@@ -32,8 +32,8 @@ SourceFiles
 #ifndef mappedInternalFvPatch_H
 #define mappedInternalFvPatch_H
 
-#include "fvPatch.H"
-#include "mappedInternalPolyPatch.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "mappedPatches/mappedInternalPolyPatch/mappedInternalPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

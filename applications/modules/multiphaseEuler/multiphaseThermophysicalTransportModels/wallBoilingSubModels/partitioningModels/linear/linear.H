@@ -48,7 +48,7 @@ SourceFiles
 #ifndef linear_H
 #define linear_H
 
-#include "partitioningModel.H"
+#include "wallBoilingSubModels/partitioningModels/partitioningModel/partitioningModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelRange.H"
-#include "token.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "db/IOstreams/token/token.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

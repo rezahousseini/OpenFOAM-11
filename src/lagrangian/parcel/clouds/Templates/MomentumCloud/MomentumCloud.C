@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MomentumCloud.H"
-#include "integrationScheme.H"
-#include "interpolation.H"
-#include "subCycleTime.H"
+#include "clouds/Templates/MomentumCloud/MomentumCloud.H"
+#include "integrationScheme/integrationScheme/integrationScheme.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "db/Time/subCycleTime.H"
 
-#include "InjectionModelList.H"
-#include "DispersionModel.H"
-#include "PatchInteractionModel.H"
-#include "StochasticCollisionModel.H"
-#include "SurfaceFilmModel.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModelList.H"
+#include "submodels/Momentum/DispersionModel/DispersionModel/DispersionModel.H"
+#include "submodels/Momentum/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.H"
+#include "submodels/Momentum/StochasticCollision/StochasticCollisionModel/StochasticCollisionModel.H"
+#include "submodels/Momentum/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModel.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef physicalProperties_H
 #define physicalProperties_H
 
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

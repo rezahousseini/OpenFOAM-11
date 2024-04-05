@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "includeFvModelEntry.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "cfdTools/general/fvModels/includeFvModelEntry/includeFvModelEntry.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

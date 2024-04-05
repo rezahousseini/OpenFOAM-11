@@ -25,8 +25,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OStringStream.H"
-#include "IOstreams.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

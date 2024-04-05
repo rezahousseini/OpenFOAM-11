@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noAbsorptionEmission_H
 #define noAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
+#include "absorptionEmissionModels/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

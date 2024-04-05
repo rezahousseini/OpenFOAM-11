@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LESThermophysicalTransportModel.H"
-#include "unityLewisEddyDiffusivity.H"
+#include "turbulence/LES/LESThermophysicalTransportModel/LESThermophysicalTransportModel.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "etcFiles.H"
-#include "OSspecific.H"
-#include "foamVersion.H"
+#include "global/etcFiles/etcFiles.H"
+#include "include/OSspecific.H"
+#include "global/foamVersion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

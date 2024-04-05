@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedFvPatchField.H"
-#include "mappedPolyPatch.H"
+#include "fields/fvPatchFields/derived/mapped/mappedFvPatchField.H"
+#include "mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

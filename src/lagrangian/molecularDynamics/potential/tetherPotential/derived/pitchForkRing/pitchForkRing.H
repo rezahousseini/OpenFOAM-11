@@ -35,7 +35,7 @@ SourceFiles
 #ifndef pitchForkRing_H
 #define pitchForkRing_H
 
-#include "tetherPotential.H"
+#include "tetherPotential/basic/tetherPotential.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef nearbyPatchToPatch_H
 #define nearbyPatchToPatch_H
 
-#include "patchToPatch.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

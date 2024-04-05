@@ -33,7 +33,7 @@ Description
 #ifndef blockMeshFunctions_H
 #define blockMeshFunctions_H
 
-#include "vector.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

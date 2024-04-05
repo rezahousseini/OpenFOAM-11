@@ -42,7 +42,7 @@ SourceFiles
 #ifndef StationaryPhaseModel_H
 #define StationaryPhaseModel_H
 
-#include "phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "StationaryPhaseModel.C"
+    #include "phaseModel/StationaryPhaseModel/StationaryPhaseModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

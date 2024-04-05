@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseTransferModel.H"
+#include "phaseTransferModels/phaseTransferModel/phaseTransferModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

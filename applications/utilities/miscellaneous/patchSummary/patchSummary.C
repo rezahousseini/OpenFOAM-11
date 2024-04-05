@@ -35,11 +35,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "IOobjectList.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/Time/timeSelector.H"
 #include "patchSummaryTemplates.H"
 
 using namespace Foam;
@@ -50,21 +50,21 @@ int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::addBoolOption
     (
         "expand",
         "Do not combine patches"
     );
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const instantList timeDirs = timeSelector::select0(runTime, args);
 
     const bool expand = args.optionFound("expand");
 
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
     const polyBoundaryMesh& bm = mesh.boundaryMesh();
 
 

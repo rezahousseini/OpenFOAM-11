@@ -35,8 +35,8 @@ SourceFiles
 #ifndef badQualityToFace_H
 #define badQualityToFace_H
 
-#include "topoSetSource.H"
-#include "PackedBoolList.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,8 +39,8 @@ See also
 #ifndef tmp_H
 #define tmp_H
 
-#include "refCount.H"
-#include "word.H"
+#include "memory/refCount/refCount.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -179,7 +179,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tmpI.H"
+#include "memory/tmp/tmpI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

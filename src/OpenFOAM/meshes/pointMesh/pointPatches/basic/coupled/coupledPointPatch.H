@@ -36,7 +36,7 @@ SourceFiles
 #ifndef coupledPointPatch_H
 #define coupledPointPatch_H
 
-#include "coupledPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,24 +26,24 @@ License
 #ifndef forGases_H
 #define forGases_H
 
-#include "specie.H"
+#include "specie/specie.H"
 
-#include "Boussinesq.H"
-#include "perfectGas.H"
+#include "equationOfState/Boussinesq/Boussinesq.H"
+#include "equationOfState/perfectGas/perfectGas.H"
 
-#include "eConstThermo.H"
-#include "hConstThermo.H"
-#include "janafThermo.H"
+#include "thermo/eConst/eConstThermo.H"
+#include "thermo/hConst/hConstThermo.H"
+#include "thermo/janaf/janafThermo.H"
 
-#include "sensibleEnthalpy.H"
-#include "sensibleInternalEnergy.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "thermo/sensibleInternalEnergy/sensibleInternalEnergy.H"
 
-#include "constTransport.H"
-#include "sutherlandTransport.H"
+#include "transport/const/constTransport.H"
+#include "transport/sutherland/sutherlandTransport.H"
 
-#include "thermo.H"
+#include "thermo/thermo/thermo.H"
 
-#include "forThermo.H"
+#include "include/forThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polygonTriangulate.H"
-#include "tensor2D.H"
+#include "algorithms/polygonTriangulate/polygonTriangulate.H"
+#include "primitives/Tensor2D/tensor2D/tensor2D.H"
 
 // * * * * * * * * * * * Private Static Member Functions * * * * * * * * * * //
 

@@ -70,22 +70,22 @@ Usage
 
 #include "processorRunTimes.H"
 #include "domainDecomposition.H"
-#include "decompositionMethod.H"
-#include "argList.H"
-#include "timeSelector.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
 
-#include "labelIOField.H"
-#include "labelFieldIOField.H"
-#include "scalarIOField.H"
-#include "scalarFieldIOField.H"
-#include "vectorIOField.H"
-#include "vectorFieldIOField.H"
-#include "sphericalTensorIOField.H"
-#include "sphericalTensorFieldIOField.H"
-#include "symmTensorIOField.H"
-#include "symmTensorFieldIOField.H"
-#include "tensorIOField.H"
-#include "tensorFieldIOField.H"
+#include "fields/Fields/labelField/labelIOField.H"
+#include "fields/Fields/labelField/labelFieldIOField.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "fields/Fields/scalarField/scalarFieldIOField.H"
+#include "fields/Fields/vectorField/vectorIOField.H"
+#include "fields/Fields/vectorField/vectorFieldIOField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorIOField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorFieldIOField.H"
+#include "fields/Fields/symmTensorField/symmTensorIOField.H"
+#include "fields/Fields/symmTensorField/symmTensorFieldIOField.H"
+#include "fields/Fields/tensorField/tensorIOField.H"
+#include "fields/Fields/tensorField/tensorFieldIOField.H"
 
 #include "readFields.H"
 #include "dimFieldDecomposer.H"
@@ -197,8 +197,8 @@ int main(int argc, char *argv[])
     );
 
     argList::noParallel();
-    #include "addRegionOption.H"
-    #include "addAllRegionsOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addAllRegionsOption.H"
     argList::addBoolOption
     (
         "cellProc",
@@ -239,7 +239,7 @@ int main(int argc, char *argv[])
     // Include explicit constant options, have zero from time range
     timeSelector::addOptions(true, false);
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     bool region                  = args.optionFound("region");
     bool writeCellProc           = args.optionFound("cellProc");
@@ -272,7 +272,7 @@ int main(int argc, char *argv[])
 
     const Time& runTime = runTimes.completeTime();
 
-    #include "setRegionNames.H"
+    #include "include/setRegionNames.H"
 
     // Remove existing processor directories if requested
     if (forceOverwrite)

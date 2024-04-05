@@ -45,8 +45,8 @@ SourceFiles
 #ifndef string_H
 #define string_H
 
-#include "char.H"
-#include "Hasher.H"
+#include "primitives/chars/char/char.H"
+#include "primitives/hashes/Hasher/Hasher.H"
 
 #include <string>
 #include <cstring>
@@ -299,7 +299,7 @@ void writeEntry(Ostream& os, const string& value);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "stringI.H"
+#include "primitives/strings/string/stringI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

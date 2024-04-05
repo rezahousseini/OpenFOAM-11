@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshFilterSettings.H"
-#include "unitConversion.H"
+#include "polyMeshFilter/polyMeshFilterSettings.H"
+#include "global/unitConversion/unitConversion.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

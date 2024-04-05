@@ -36,10 +36,10 @@ SourceFiles
 #ifndef plane_H
 #define plane_H
 
-#include "point.H"
-#include "scalarList.H"
-#include "dictionary.H"
-#include "line.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/primitiveShapes/line/line.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

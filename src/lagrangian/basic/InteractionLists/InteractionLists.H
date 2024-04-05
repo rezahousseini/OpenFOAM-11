@@ -60,9 +60,9 @@ SourceFiles
 #ifndef InteractionLists_H
 #define InteractionLists_H
 
-#include "polyMesh.H"
-#include "referredWallFace.H"
-//#include "distributionMap.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "InteractionLists/referredWallFace/referredWallFace.H"
+//#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -311,12 +311,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "InteractionListsI.H"
+#include "InteractionLists/InteractionListsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "InteractionLists.C"
+    #include "InteractionLists/InteractionLists.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "enrichedPatch.H"
-#include "primitiveMesh.H"
-#include "demandDrivenData.H"
-#include "DynamicList.H"
+#include "slidingInterface/enrichedPatch/enrichedPatch.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "include/demandDrivenData.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

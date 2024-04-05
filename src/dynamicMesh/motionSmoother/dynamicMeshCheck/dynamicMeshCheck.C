@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicMeshCheck.H"
-#include "polyMeshTetDecomposition.H"
-#include "pyramidPointFaceRef.H"
-#include "tetPointRef.H"
-#include "syncTools.H"
-#include "unitConversion.H"
-#include "primitiveMeshTools.H"
+#include "motionSmoother/dynamicMeshCheck/dynamicMeshCheck.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
+#include "meshes/meshShapes/cell/pyramidPointFaceRef.H"
+#include "meshes/primitiveShapes/tetrahedron/tetPointRef.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "global/unitConversion/unitConversion.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

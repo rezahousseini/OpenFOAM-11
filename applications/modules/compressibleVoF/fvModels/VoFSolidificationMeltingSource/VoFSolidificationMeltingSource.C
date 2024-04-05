@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VoFSolidificationMeltingSource.H"
-#include "compressibleTwoPhaseVoFMixture.H"
-#include "fvcDdt.H"
-#include "zeroGradientFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvModels/VoFSolidificationMeltingSource/VoFSolidificationMeltingSource.H"
+#include "compressibleTwoPhaseVoFMixture/compressibleTwoPhaseVoFMixture.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

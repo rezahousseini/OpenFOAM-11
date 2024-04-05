@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "masterOFstream.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "PstreamBuffers.H"
-#include "masterUncollatedFileOperation.H"
-#include "boolList.H"
+#include "db/IOstreams/Fstreams/masterOFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
+#include "global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

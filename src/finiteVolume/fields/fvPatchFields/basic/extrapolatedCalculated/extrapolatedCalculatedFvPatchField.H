@@ -47,7 +47,7 @@ SourceFiles
 #ifndef extrapolatedCalculatedFvPatchField_H
 #define extrapolatedCalculatedFvPatchField_H
 
-#include "calculatedFvPatchField.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "extrapolatedCalculatedFvPatchField.C"
+    #include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

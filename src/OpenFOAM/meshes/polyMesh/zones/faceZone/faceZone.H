@@ -40,10 +40,10 @@ SourceFiles
 #ifndef faceZone_H
 #define faceZone_H
 
-#include "zone.H"
-#include "meshFaceZonesFwd.H"
-#include "boolList.H"
-#include "primitiveFacePatch.H"
+#include "meshes/polyMesh/zones/zone/zone.H"
+#include "meshes/polyMesh/zones/MeshZones/meshFaceZonesFwd.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/primitiveMesh/primitivePatch/primitiveFacePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

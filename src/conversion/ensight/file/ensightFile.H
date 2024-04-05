@@ -33,8 +33,8 @@ Description
 #ifndef ensightFile_H
 #define ensightFile_H
 
-#include "OFstream.H"
-#include "IOstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "absorptionCoeffs.H"
-#include "IOstreams.H"
+#include "radiationModels/fvDOM/absorptionCoeffs/absorptionCoeffs.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Destructor  * * * * * * * * * * * * * * //
 

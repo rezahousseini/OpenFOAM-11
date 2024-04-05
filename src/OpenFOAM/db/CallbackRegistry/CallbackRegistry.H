@@ -38,8 +38,8 @@ SourceFiles
 #ifndef CallbackRegistry_H
 #define CallbackRegistry_H
 
-#include "UIDLList.H"
-#include "className.H"
+#include "containers/LinkedLists/user/UIDLList.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CallbackRegistry.C"
+    #include "db/CallbackRegistry/CallbackRegistry.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

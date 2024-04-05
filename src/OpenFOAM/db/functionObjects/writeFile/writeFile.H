@@ -39,8 +39,8 @@ SourceFiles
 #ifndef functionObjects_writeFile_H
 #define functionObjects_writeFile_H
 
-#include "objectRegistry.H"
-#include "IOmanip.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "writeFileTemplates.C"
+    #include "db/functionObjects/writeFile/writeFileTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -34,7 +34,7 @@ SourceFiles
 #ifndef PrimitiveOldTimePatch_H
 #define PrimitiveOldTimePatch_H
 
-#include "PrimitivePatch.H"
+#include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -223,7 +223,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PrimitiveOldTimePatch.C"
+    #include "PrimitiveOldTimePatch/PrimitiveOldTimePatch.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

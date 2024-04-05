@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SmoothSolver.H"
+#include "matrices/LduMatrix/Solvers/SmoothSolver/SmoothSolver.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

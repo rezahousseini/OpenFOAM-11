@@ -35,9 +35,9 @@ SourceFiles
 #ifndef combustionModel_H
 #define combustionModel_H
 
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 #include "compressibleMomentumTransportModels.H"
-#include "fluidMulticomponentThermo.H"
+#include "fluidMulticomponentThermo/fluidMulticomponentThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "combustionModelI.H"
+#include "combustionModel/combustionModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

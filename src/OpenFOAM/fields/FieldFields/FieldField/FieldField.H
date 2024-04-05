@@ -35,11 +35,11 @@ SourceFiles
 #ifndef FieldField_H
 #define FieldField_H
 
-#include "tmp.H"
-#include "PtrList.H"
-#include "scalar.H"
-#include "direction.H"
-#include "VectorSpace.H"
+#include "memory/tmp/tmp.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/direction/direction.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,10 +194,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FieldFieldFunctions.H"
+#include "fields/FieldFields/FieldField/FieldFieldFunctions.H"
 
 #ifdef NoRepository
-    #include "FieldField.C"
+    #include "fields/FieldFields/FieldField/FieldField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

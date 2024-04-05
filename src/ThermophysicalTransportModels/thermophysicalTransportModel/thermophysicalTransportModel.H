@@ -35,8 +35,8 @@ SourceFiles
 #ifndef thermophysicalTransportModel_H
 #define thermophysicalTransportModel_H
 
-#include "IOdictionary.H"
-#include "fvMatrix.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

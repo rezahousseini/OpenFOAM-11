@@ -39,8 +39,8 @@ SourceFiles
 #ifndef functionObjects_uniform_H
 #define functionObjects_uniform_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFields.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

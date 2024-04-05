@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "velocityMotionSolver.H"
-#include "polyTopoChangeMap.H"
+#include "motionSolvers/velocity/velocityMotionSolver.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

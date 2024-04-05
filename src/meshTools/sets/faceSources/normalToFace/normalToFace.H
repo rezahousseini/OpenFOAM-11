@@ -35,8 +35,8 @@ SourceFiles
 #ifndef normalToFace_H
 #define normalToFace_H
 
-#include "topoSetSource.H"
-#include "NamedEnum.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

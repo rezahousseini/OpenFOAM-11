@@ -36,9 +36,9 @@ SourceFiles
 #ifndef hexRef8Data_H
 #define hexRef8Data_H
 
-#include "labelIOList.H"
-#include "uniformDimensionedFields.H"
-#include "UPtrList.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "containers/Lists/UPtrList/UPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

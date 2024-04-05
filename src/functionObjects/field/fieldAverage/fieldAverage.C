@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldAverage.H"
-#include "fieldAverageItem.H"
-#include "timeIOdictionary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fieldAverage/fieldAverage.H"
+#include "fieldAverage/fieldAverageItem/fieldAverageItem.H"
+#include "db/IOobjects/IOdictionary/timeIOdictionary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

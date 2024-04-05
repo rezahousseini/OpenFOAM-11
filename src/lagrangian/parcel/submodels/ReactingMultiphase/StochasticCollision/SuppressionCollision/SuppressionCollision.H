@@ -33,7 +33,7 @@ Description
 #ifndef SuppressionCollision_H
 #define SuppressionCollision_H
 
-#include "StochasticCollisionModel.H"
+#include "submodels/Momentum/StochasticCollision/StochasticCollisionModel/StochasticCollisionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SuppressionCollision.C"
+    #include "submodels/ReactingMultiphase/StochasticCollision/SuppressionCollision/SuppressionCollision.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

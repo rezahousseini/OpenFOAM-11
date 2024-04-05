@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Time.H"
-#include "timeIOdictionary.H"
-#include "OSspecific.H"
+#include "db/Time/Time.H"
+#include "db/IOobjects/IOdictionary/timeIOdictionary.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

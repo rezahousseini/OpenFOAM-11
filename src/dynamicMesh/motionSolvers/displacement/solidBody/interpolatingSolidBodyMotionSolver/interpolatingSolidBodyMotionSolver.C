@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolatingSolidBodyMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointPatchDist.H"
-#include "pointConstraints.H"
+#include "motionSolvers/displacement/solidBody/interpolatingSolidBodyMotionSolver/interpolatingSolidBodyMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "pointPatchDist/pointPatchDist.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

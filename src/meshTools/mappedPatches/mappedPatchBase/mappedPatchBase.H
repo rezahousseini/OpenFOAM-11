@@ -50,10 +50,10 @@ SourceFiles
 #ifndef mappedPatchBase_H
 #define mappedPatchBase_H
 
-#include "pointField.H"
-#include "patchToPatch.H"
-#include "coupleGroupIdentifier.H"
-#include "cyclicTransform.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
+#include "meshes/Identifiers/patch/coupleGroupIdentifier.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicTransform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -305,12 +305,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "mappedPatchBaseI.H"
+#include "mappedPatches/mappedPatchBase/mappedPatchBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedPatchBaseTemplates.C"
+    #include "mappedPatches/mappedPatchBase/mappedPatchBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

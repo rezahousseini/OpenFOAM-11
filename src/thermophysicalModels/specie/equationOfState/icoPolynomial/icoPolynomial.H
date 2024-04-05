@@ -63,8 +63,8 @@ See also
 #ifndef icoPolynomial_H
 #define icoPolynomial_H
 
-#include "autoPtr.H"
-#include "Polynomial.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/functions/Polynomial/Polynomial.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -241,12 +241,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "icoPolynomialI.H"
+#include "equationOfState/icoPolynomial/icoPolynomialI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "icoPolynomial.C"
+    #include "equationOfState/icoPolynomial/icoPolynomial.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

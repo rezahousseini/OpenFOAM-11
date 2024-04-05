@@ -32,8 +32,8 @@ Description
 #ifndef vector2DIOField_H
 #define vector2DIOField_H
 
-#include "vector2DField.H"
-#include "IOField.H"
+#include "fields/Fields/vector2DField/vector2DField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

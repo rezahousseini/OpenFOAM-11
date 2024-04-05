@@ -27,9 +27,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "uLabel.H"
-#include "IOstreams.H"
-#include "PackedBoolList.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 
 using namespace Foam;
 

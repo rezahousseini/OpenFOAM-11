@@ -67,7 +67,7 @@ SourceFiles
 #ifndef inletOutletFvPatchField_H
 #define inletOutletFvPatchField_H
 
-#include "mixedFvPatchField.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -190,7 +190,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "inletOutletFvPatchField.C"
+    #include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

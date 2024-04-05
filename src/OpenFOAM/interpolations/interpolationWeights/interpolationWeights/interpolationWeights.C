@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationWeights.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
+#include "interpolations/interpolationWeights/interpolationWeights/interpolationWeights.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

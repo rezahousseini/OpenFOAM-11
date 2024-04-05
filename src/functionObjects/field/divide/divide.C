@@ -26,10 +26,10 @@ License
 // There is some include hell going on with regards to the scalar-divided-by-
 // sphericalTensor operation. This rather odd include sequence resolves it.
 
-#include "Field.H"
-#include "sphericalTensorFieldField.H"
-#include "divide.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/Fields/Field/Field.H"
+#include "fields/FieldFields/sphericalTensorFieldField/sphericalTensorFieldField.H"
+#include "divide/divide.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

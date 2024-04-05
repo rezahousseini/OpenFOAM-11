@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KocamustafaogullariIshiiNucleationSite.H"
-#include "wallBoilingModelsCoefficient.H"
-#include "addToRunTimeSelectionTable.H"
-#include "phaseSystem.H"
+#include "wallBoilingSubModels/nucleationSiteModels/KocamustafaogullariIshiiNucleationSite/KocamustafaogullariIshiiNucleationSite.H"
+#include "wallBoilingSubModels/wallBoilingModelsCoefficient.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

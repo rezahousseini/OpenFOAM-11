@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ManualInjection.H"
-#include "mathematicalConstants.H"
-#include "PackedBoolList.H"
+#include "submodels/Momentum/InjectionModel/ManualInjection/ManualInjection.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 
 using namespace Foam::constant::mathematical;
 

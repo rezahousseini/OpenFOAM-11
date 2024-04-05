@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "negEntry.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/negEntry/negEntry.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

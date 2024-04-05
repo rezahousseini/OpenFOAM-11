@@ -55,7 +55,7 @@ See also
 #ifndef exponential_H
 #define exponential_H
 
-#include "unintegrable.H"
+#include "distributions/unintegrable/unintegrable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

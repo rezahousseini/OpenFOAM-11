@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HeatTransferPhaseSystem.H"
-#include "fvmSup.H"
-#include "rhoMulticomponentThermo.H"
+#include "HeatTransferPhaseSystem/HeatTransferPhaseSystem.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "rhoMulticomponentThermo/rhoMulticomponentThermo.H"
 
 // * * * * * * * * * * * * Protected Member Functions * * * * * * * * * * * //
 

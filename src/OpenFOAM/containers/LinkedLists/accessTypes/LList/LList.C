@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LList.H"
+#include "containers/LinkedLists/accessTypes/LList/LList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -125,6 +125,6 @@ void Foam::LList<LListBase, T>::operator=(std::initializer_list<T> lst)
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "LListIO.C"
+#include "containers/LinkedLists/accessTypes/LList/LListIO.C"
 
 // ************************************************************************* //

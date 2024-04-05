@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "multiphaseEuler.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvcSup.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcSup.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

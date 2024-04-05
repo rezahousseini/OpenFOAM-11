@@ -32,8 +32,8 @@ Description
 #ifndef reversePointPatchFieldMapper_H
 #define reversePointPatchFieldMapper_H
 
-#include "pointPatchFieldMapper.H"
-#include "reverseFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+#include "fields/Fields/fieldMappers/reverseFieldMapper/reverseFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

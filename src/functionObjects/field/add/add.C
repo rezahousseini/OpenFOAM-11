@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "add.H"
-#include "ops.H"
-#include "addToRunTimeSelectionTable.H"
+#include "add/add.H"
+#include "primitives/ops/ops.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

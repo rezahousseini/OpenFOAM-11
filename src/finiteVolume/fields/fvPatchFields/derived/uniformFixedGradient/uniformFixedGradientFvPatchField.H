@@ -59,8 +59,8 @@ SourceFiles
 #ifndef uniformFixedGradientFvPatchField_H
 #define uniformFixedGradientFvPatchField_H
 
-#include "fixedGradientFvPatchFields.H"
-#include "Function1.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformFixedGradientFvPatchField.C"
+    #include "fields/fvPatchFields/derived/uniformFixedGradient/uniformFixedGradientFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

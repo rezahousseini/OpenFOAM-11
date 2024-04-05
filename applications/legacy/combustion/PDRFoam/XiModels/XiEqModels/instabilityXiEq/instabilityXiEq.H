@@ -37,7 +37,7 @@ SourceFiles
 #ifndef instabilityXiEq_H
 #define instabilityXiEq_H
 
-#include "XiEqModel.H"
+#include "XiModels/XiEqModels/XiEqModel/XiEqModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

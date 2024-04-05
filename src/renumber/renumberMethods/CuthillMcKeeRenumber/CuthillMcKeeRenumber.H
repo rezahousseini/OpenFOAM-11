@@ -35,8 +35,8 @@ SourceFiles
 #ifndef CuthillMcKeeRenumber_H
 #define CuthillMcKeeRenumber_H
 
-#include "renumberMethod.H"
-#include "Switch.H"
+#include "renumberMethod/renumberMethod.H"
+#include "primitives/bools/Switch/Switch.H"
 
 namespace Foam
 {

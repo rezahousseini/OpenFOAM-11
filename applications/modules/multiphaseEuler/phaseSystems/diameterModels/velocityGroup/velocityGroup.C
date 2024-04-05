@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "velocityGroup.H"
-#include "addToRunTimeSelectionTable.H"
-#include "populationBalanceModel.H"
+#include "diameterModels/velocityGroup/velocityGroup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

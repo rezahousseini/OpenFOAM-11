@@ -35,8 +35,8 @@ SourceFiles
 #ifndef nonConformalErrorPointPatchField_H
 #define nonConformalErrorPointPatchField_H
 
-#include "pointPatchField.H"
-#include "nonConformalErrorPointPatch.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "nonConformal/pointPatches/nonConformalError/nonConformalErrorPointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nonConformalErrorPointPatchField.C"
+    #include "nonConformal/pointPatchFields/nonConformalError/nonConformalErrorPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

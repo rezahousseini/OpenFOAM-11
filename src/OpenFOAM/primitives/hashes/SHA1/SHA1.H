@@ -45,8 +45,8 @@ SourceFiles
 #include <string>
 #include <cstddef>
 
-#include "int.H"
-#include "SHA1Digest.H"
+#include "primitives/ints/int/int.H"
+#include "primitives/hashes/SHA1/SHA1Digest.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SHA1I.H"
+#include "primitives/hashes/SHA1/SHA1I.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

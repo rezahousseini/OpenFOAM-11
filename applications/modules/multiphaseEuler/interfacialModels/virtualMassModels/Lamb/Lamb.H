@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Lamb_H
 #define Lamb_H
 
-#include "dispersedVirtualMassModel.H"
+#include "virtualMassModels/dispersedVirtualMassModel/dispersedVirtualMassModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

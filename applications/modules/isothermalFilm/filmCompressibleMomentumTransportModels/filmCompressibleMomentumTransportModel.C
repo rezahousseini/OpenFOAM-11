@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmCompressibleMomentumTransportModel.H"
-#include "surfaceInterpolate.H"
+#include "filmCompressibleMomentumTransportModels/filmCompressibleMomentumTransportModel.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DahnekeInterpolation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "BrownianCollisions.H"
-#include "ballisticCollisions.H"
+#include "populationBalanceModel/coalescenceModels/DahnekeInterpolation/DahnekeInterpolation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/coalescenceModels/BrownianCollisions/BrownianCollisions.H"
+#include "populationBalanceModel/coalescenceModels/ballisticCollisions/ballisticCollisions.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

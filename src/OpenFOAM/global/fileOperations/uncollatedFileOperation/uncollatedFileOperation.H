@@ -32,7 +32,7 @@ Description
 #ifndef fileOperations_uncollatedFileOperation_H
 #define fileOperations_uncollatedFileOperation_H
 
-#include "fileOperation.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

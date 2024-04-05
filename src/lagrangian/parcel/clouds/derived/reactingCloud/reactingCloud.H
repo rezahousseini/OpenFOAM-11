@@ -32,12 +32,12 @@ Description
 #ifndef reactingCloud_H
 #define reactingCloud_H
 
-#include "ParcelCloudBase.H"
-#include "MomentumCloud.H"
-#include "ThermoCloud.H"
-#include "ReactingCloud.H"
-#include "ParcelCloud.H"
-#include "reactingParcel.H"
+#include "parcelCloud/ParcelCloudBase.H"
+#include "clouds/Templates/MomentumCloud/MomentumCloud.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloud.H"
+#include "clouds/Templates/ReactingCloud/ReactingCloud.H"
+#include "parcelCloud/ParcelCloud.H"
+#include "parcels/derived/reactingParcel/reactingParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

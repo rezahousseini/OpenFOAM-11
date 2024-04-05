@@ -68,9 +68,9 @@ SourceFiles
 #ifndef dripping_H
 #define dripping_H
 
-#include "ejectionModel.H"
-#include "distribution.H"
-#include "Random.H"
+#include "fvModels/filmCloudTransfer/ejectionModels/ejectionModel/ejectionModel.H"
+#include "distributions/distribution/distribution.H"
+#include "primitives/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

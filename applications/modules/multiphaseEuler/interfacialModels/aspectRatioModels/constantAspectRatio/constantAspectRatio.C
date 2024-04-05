@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantAspectRatio.H"
-#include "addToRunTimeSelectionTable.H"
+#include "aspectRatioModels/constantAspectRatio/constantAspectRatio.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

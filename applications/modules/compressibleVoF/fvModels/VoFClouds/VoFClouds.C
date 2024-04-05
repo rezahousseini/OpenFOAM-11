@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VoFClouds.H"
-#include "compressibleTwoPhaseVoFMixture.H"
-#include "fvmSup.H"
-#include "uniformDimensionedFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvModels/VoFClouds/VoFClouds.H"
+#include "compressibleTwoPhaseVoFMixture/compressibleTwoPhaseVoFMixture.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

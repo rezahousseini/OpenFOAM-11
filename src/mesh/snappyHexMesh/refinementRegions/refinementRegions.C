@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementRegions.H"
-#include "refinementSurfaces.H"
-#include "searchableSurfaces.H"
-#include "orientedSurface.H"
-#include "volumeType.H"
+#include "refinementRegions/refinementRegions.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "triSurface/orientedSurface/orientedSurface.H"
+#include "algorithms/indexedOctree/volumeType.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

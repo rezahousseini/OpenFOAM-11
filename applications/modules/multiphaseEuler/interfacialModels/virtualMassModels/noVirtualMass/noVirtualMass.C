@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noVirtualMass.H"
-#include "addToRunTimeSelectionTable.H"
+#include "virtualMassModels/noVirtualMass/noVirtualMass.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

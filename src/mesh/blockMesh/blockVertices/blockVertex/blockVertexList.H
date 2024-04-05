@@ -32,8 +32,8 @@ Description
 #ifndef blockVertexList_H
 #define blockVertexList_H
 
-#include "blockVertex.H"
-#include "PtrList.H"
+#include "blockVertices/blockVertex/blockVertex.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

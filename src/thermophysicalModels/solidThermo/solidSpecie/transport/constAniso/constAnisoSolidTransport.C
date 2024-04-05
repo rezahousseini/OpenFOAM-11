@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constAnisoSolidTransport.H"
-#include "IOstreams.H"
+#include "solidSpecie/transport/constAniso/constAnisoSolidTransport.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

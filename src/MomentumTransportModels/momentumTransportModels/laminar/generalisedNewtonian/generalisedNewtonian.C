@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "generalisedNewtonian.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvcGrad.H"
-#include "fvcDiv.H"
-#include "fvmLaplacian.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonian.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

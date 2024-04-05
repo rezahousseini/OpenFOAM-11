@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Function1.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //

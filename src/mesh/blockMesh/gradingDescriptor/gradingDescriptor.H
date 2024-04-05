@@ -44,7 +44,7 @@ SourceFiles
 #ifndef gradingDescriptor_H
 #define gradingDescriptor_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

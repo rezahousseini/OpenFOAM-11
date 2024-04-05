@@ -80,8 +80,8 @@ SourceFiles
 #ifndef codedFixedValueFvPatchField_H
 #define codedFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "codedBase.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "codedFixedValueFvPatchField.C"
+    #include "fields/fvPatchFields/derived/codedFixedValue/codedFixedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

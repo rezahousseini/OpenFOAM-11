@@ -35,13 +35,13 @@ SourceFiles
 #ifndef momentumTransportModel_H
 #define momentumTransportModel_H
 
-#include "IOdictionary.H"
-#include "primitiveFieldsFwd.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMatricesFwd.H"
-#include "geometricOneField.H"
-#include "viscosity.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "viscosity/viscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

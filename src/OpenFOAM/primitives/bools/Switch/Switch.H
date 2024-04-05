@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Switch_H
 #define Switch_H
 
-#include "bool.H"
-#include "word.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

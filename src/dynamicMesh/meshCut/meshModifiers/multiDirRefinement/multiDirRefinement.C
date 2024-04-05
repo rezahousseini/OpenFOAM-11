@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiDirRefinement.H"
-#include "polyMesh.H"
-#include "polyTopoChanger.H"
-#include "Time.H"
-#include "undoableMeshCutter.H"
-#include "hexCellLooper.H"
-#include "geomCellLooper.H"
-#include "topoSet.H"
-#include "directions.H"
-#include "hexRef8.H"
-#include "polyTopoChangeMap.H"
-#include "polyTopoChange.H"
-#include "ListOps.H"
-#include "cellModeller.H"
+#include "meshCut/meshModifiers/multiDirRefinement/multiDirRefinement.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "db/Time/Time.H"
+#include "meshCut/meshModifiers/undoableMeshCutter/undoableMeshCutter.H"
+#include "meshCut/cellLooper/hexCellLooper.H"
+#include "meshCut/cellLooper/geomCellLooper.H"
+#include "sets/topoSets/topoSet.H"
+#include "meshCut/directions/directions.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "orthogonalSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "finiteVolume/snGradSchemes/orthogonalSnGrad/orthogonalSnGrad.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

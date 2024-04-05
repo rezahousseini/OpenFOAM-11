@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallBoilingHeatTransfer.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
-#include "interfaceSaturationTemperatureModel.H"
-#include "diameterModel.H"
+#include "heatTransferModels/wallBoiling/wallBoilingHeatTransfer.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "interfaceSaturationTemperatureModel/interfaceSaturationTemperatureModel.H"
+#include "diameterModels/diameterModel/diameterModel.H"
 
 using namespace Foam::constant::mathematical;
 

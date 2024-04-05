@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataPoint.H"
-#include "treeBoundBox.H"
-#include "indexedOctree.H"
-#include "triangleFuncs.H"
+#include "indexedOctree/treeDataPoint.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "triSurface/triangleFuncs/triangleFuncs.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

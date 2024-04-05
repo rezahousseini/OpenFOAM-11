@@ -40,8 +40,8 @@ SourceFiles
 #ifndef sampledPatchInternalField_H
 #define sampledPatchInternalField_H
 
-#include "sampledPatch.H"
-#include "mappedInternalPatchBase.H"
+#include "sampledSurface/sampledPatch/sampledPatch.H"
+#include "mappedPatches/mappedInternalPatchBase/mappedInternalPatchBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -179,7 +179,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledPatchInternalFieldTemplates.C"
+    #include "sampledSurface/sampledPatchInternalField/sampledPatchInternalFieldTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

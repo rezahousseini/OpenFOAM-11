@@ -36,7 +36,7 @@ SourceFiles
 #ifndef PhaseTransferPhaseSystem_H
 #define PhaseTransferPhaseSystem_H
 
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -160,7 +160,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PhaseTransferPhaseSystem.C"
+    #include "PhaseSystems/PhaseTransferPhaseSystem/PhaseTransferPhaseSystem.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

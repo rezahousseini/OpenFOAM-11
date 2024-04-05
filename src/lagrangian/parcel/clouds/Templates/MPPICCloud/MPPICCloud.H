@@ -36,12 +36,12 @@ SourceFiles
 #ifndef MPPICCloud_H
 #define MPPICCloud_H
 
-#include "volFieldsFwd.H"
-#include "fvMatricesFwd.H"
-#include "dimensionedTypes.H"
-#include "fvMesh.H"
-#include "fluidThermo.H"
-#include "Cloud.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "fvMesh/fvMesh.H"
+#include "fluidThermo/fluidThermo.H"
+#include "Cloud/Cloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -262,12 +262,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MPPICCloudI.H"
+#include "clouds/Templates/MPPICCloud/MPPICCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MPPICCloud.C"
+    #include "clouds/Templates/MPPICCloud/MPPICCloud.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

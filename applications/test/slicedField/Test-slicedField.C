@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "SlicedGeometricField.H"
-#include "slicedFvPatchFields.H"
-#include "slicedSurfaceFields.H"
-#include "surfaceInterpolate.H"
+#include "global/argList/argList.H"
+#include "fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.H"
+#include "fields/fvPatchFields/basic/sliced/slicedFvPatchFields.H"
+#include "fields/surfaceFields/slicedSurfaceFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 using namespace Foam;
 
@@ -40,10 +40,10 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     Info<< "Reading field p\n" << endl;
     volScalarField p

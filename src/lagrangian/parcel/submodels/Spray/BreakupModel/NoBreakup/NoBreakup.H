@@ -32,7 +32,7 @@ Description
 #ifndef NoBreakup_H
 #define NoBreakup_H
 
-#include "BreakupModel.H"
+#include "submodels/Spray/BreakupModel/BreakupModel/BreakupModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,7 +113,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoBreakup.C"
+    #include "submodels/Spray/BreakupModel/NoBreakup/NoBreakup.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

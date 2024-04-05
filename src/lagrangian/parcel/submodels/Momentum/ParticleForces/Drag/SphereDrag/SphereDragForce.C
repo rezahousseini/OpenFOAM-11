@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SphereDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/SphereDrag/SphereDragForce.H"
 
 // * * * * * * * * * * * * *  Static Member Functions  * * * * * * * * * * * //
 

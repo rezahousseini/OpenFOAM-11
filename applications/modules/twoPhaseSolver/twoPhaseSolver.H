@@ -55,7 +55,7 @@ See also
 #define twoPhaseSolver_H
 
 #include "VoFSolver.H"
-#include "twoPhaseVoFMixture.H"
+#include "twoPhaseVoFMixture/twoPhaseVoFMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

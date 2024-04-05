@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "actuationDiskSource.H"
-#include "fvMesh.H"
-#include "fvMatrix.H"
-#include "geometricOneField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derived/actuationDiskSource/actuationDiskSource.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

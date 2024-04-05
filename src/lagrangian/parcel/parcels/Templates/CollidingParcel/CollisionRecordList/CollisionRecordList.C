@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CollisionRecordList.H"
-#include "IOstreams.H"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/CollisionRecordList.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmContactAngleFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/filmContactAngle/filmContactAngleFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

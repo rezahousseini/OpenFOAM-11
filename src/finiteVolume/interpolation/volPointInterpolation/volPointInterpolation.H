@@ -37,10 +37,10 @@ SourceFiles
 #ifndef volPointInterpolation_H
 #define volPointInterpolation_H
 
-#include "DemandDrivenMeshObject.H"
-#include "scalarList.H"
-#include "volFields.H"
-#include "pointFields.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -202,7 +202,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "volPointInterpolationTemplates.C"
+    #include "interpolation/volPointInterpolation/volPointInterpolationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

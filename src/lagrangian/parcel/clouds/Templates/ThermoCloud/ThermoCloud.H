@@ -39,12 +39,12 @@ SourceFiles
 #ifndef ThermoCloud_H
 #define ThermoCloud_H
 
-#include "volFieldsFwd.H"
-#include "fvMatricesFwd.H"
-#include "dimensionedTypes.H"
-#include "fvMesh.H"
-#include "parcelThermo.H"
-#include "Cloud.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "fvMesh/fvMesh.H"
+#include "parcelThermo/parcelThermo.H"
+#include "Cloud/Cloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -404,12 +404,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ThermoCloudI.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermoCloud.C"
+    #include "clouds/Templates/ThermoCloud/ThermoCloud.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

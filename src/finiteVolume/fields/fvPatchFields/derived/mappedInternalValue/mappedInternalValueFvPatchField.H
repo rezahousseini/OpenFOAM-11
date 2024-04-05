@@ -71,8 +71,8 @@ SourceFiles
 #ifndef mappedInternalValueFvPatchField_H
 #define mappedInternalValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "mappedInternalPatchBase.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "mappedPatches/mappedInternalPatchBase/mappedInternalPatchBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -200,7 +200,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedInternalValueFvPatchField.C"
+    #include "fields/fvPatchFields/derived/mappedInternalValue/mappedInternalValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

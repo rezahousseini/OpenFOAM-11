@@ -39,7 +39,7 @@ SourceFiles
 #ifndef fvMeshDistributor_H
 #define fvMeshDistributor_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef GeometricBoundaryField_H
 #define GeometricBoundaryField_H
 
-#include "dimensionedTypes.H"
-#include "DimensionedField.H"
-#include "FieldField.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -225,7 +225,7 @@ Ostream& operator<<
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "GeometricBoundaryField.C"
+    #include "fields/GeometricFields/GeometricField/GeometricBoundaryField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

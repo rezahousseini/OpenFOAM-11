@@ -26,7 +26,7 @@ License
 #ifndef waveInletOutletFvPatchFieldsFwd_H
 #define waveInletOutletFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

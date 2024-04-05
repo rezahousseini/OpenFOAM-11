@@ -24,11 +24,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "edgeStats.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "Ostream.H"
-#include "twoDPointCorrector.H"
-#include "IOdictionary.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "twoDPointCorrector/twoDPointCorrector.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

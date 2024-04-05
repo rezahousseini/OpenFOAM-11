@@ -30,12 +30,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "STLpoint.H"
-#include "SLList.H"
-#include "IFstream.H"
-#include "readHexLabel.H"
-#include "stringList.H"
+#include "triSurface/triSurface.H"
+#include "surfaceFormats/stl/STLpoint.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Sstreams/readHexLabel.H"
+#include "primitives/strings/lists/stringList.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

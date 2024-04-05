@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CFCCellToFaceStencil.H"
-#include "CFCCellToCellStencil.H"
+#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/CFCCellToFaceStencil.H"
+#include "fvMesh/extendedStencil/cellToCell/globalIndexStencils/CFCCellToCellStencil.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

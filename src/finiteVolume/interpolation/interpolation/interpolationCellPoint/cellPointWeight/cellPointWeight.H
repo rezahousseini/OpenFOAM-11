@@ -35,9 +35,9 @@ SourceFiles
 #ifndef cellPointWeight_H
 #define cellPointWeight_H
 
-#include "vector.H"
-#include "barycentric.H"
-#include "triFace.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/Barycentric/barycentric/barycentric.H"
+#include "meshes/meshShapes/triFace/triFace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

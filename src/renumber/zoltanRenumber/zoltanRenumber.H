@@ -44,7 +44,7 @@ SourceFiles
 #ifndef zoltanRenumber_H
 #define zoltanRenumber_H
 
-#include "renumberMethod.H"
+#include "renumberMethod/renumberMethod.H"
 
 namespace Foam
 {

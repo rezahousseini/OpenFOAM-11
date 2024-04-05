@@ -39,8 +39,8 @@ SourceFiles
 #ifndef CompactIOList_H
 #define CompactIOList_H
 
-#include "IOList.H"
-#include "regIOobject.H"
+#include "db/IOobjects/IOList/IOList.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -323,7 +323,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CompactIOList.C"
+    #include "db/IOobjects/CompactIOList/CompactIOList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -50,16 +50,16 @@ SourceFiles
 #ifndef primitiveMesh_H
 #define primitiveMesh_H
 
-#include "DynamicList.H"
-#include "edgeList.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "cellList.H"
-#include "cellShapeList.H"
-#include "labelList.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "Map.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/cell/cellList.H"
+#include "meshes/meshShapes/cellShape/cellShapeList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -771,7 +771,7 @@ namespace polyMeshCheck
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "primitiveMeshI.H"
+#include "meshes/primitiveMesh/primitiveMeshI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

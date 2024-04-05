@@ -31,8 +31,8 @@ Description
 #ifndef indirectPointList_H
 #define indirectPointList_H
 
-#include "point.H"
-#include "IndirectList.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "containers/Lists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

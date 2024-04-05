@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WRLsurfaceFormat.H"
+#include "surfaceFormats/wrl/WRLsurfaceFormat.H"
 
-#include "Ostream.H"
-#include "OFstream.H"
-#include "ListOps.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

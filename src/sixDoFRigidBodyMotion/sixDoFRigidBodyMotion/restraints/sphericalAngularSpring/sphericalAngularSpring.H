@@ -35,9 +35,9 @@ SourceFiles
 #ifndef sphericalAngularSpring_H
 #define sphericalAngularSpring_H
 
-#include "sixDoFRigidBodyMotionRestraint.H"
-#include "point.H"
-#include "tensor.H"
+#include "sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint/sixDoFRigidBodyMotionRestraint.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

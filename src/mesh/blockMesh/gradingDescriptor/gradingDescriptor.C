@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gradingDescriptor.H"
-#include "IOstream.H"
-#include "token.H"
+#include "gradingDescriptor/gradingDescriptor.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "db/IOstreams/token/token.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

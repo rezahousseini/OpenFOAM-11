@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "plastic.H"
-#include "incompressibleDriftFluxMixture.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mixtureViscosityModels/plastic/plastic.H"
+#include "incompressibleDriftFluxMixture/incompressibleDriftFluxMixture.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

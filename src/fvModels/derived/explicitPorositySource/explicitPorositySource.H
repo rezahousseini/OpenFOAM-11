@@ -65,8 +65,8 @@ SourceFiles
 #ifndef explicitPorositySource_H
 #define explicitPorositySource_H
 
-#include "fvModel.H"
-#include "fvCellSet.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

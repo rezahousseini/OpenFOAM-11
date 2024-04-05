@@ -23,28 +23,28 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingMultiphaseCloud.H"
+#include "clouds/derived/reactingMultiphaseCloud/reactingMultiphaseCloud.H"
 
-#include "makeParcelCloudFunctionObjects.H"
+#include "parcels/include/makeParcelCloudFunctionObjects.H"
 
 // Momentum
-#include "makeThermoParcelForces.H"
-#include "makeParcelDispersionModels.H"
-#include "makeReactingMultiphaseParcelInjectionModels.H"
-#include "makeParcelPatchInteractionModels.H"
-#include "makeReactingMultiphaseParcelStochasticCollisionModels.H"
-#include "makeParcelSurfaceFilmModels.H"
+#include "parcels/include/makeThermoParcelForces.H"
+#include "parcels/include/makeParcelDispersionModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelInjectionModels.H"
+#include "parcels/include/makeParcelPatchInteractionModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelStochasticCollisionModels.H"
+#include "parcels/include/makeParcelSurfaceFilmModels.H"
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
+#include "parcels/include/makeParcelHeatTransferModels.H"
 
 // Reacting
-#include "makeReactingMultiphaseParcelCompositionModels.H"
-#include "makeReactingParcelPhaseChangeModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelCompositionModels.H"
+#include "parcels/include/makeReactingParcelPhaseChangeModels.H"
 
 // Reacting multiphase
-#include "makeReactingMultiphaseParcelDevolatilisationModels.H"
-#include "makeReactingMultiphaseParcelSurfaceReactionModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelDevolatilisationModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelSurfaceReactionModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -72,9 +72,9 @@ SourceFiles
 #ifndef patchCutLayerAverage_H
 #define patchCutLayerAverage_H
 
-#include "fvMeshFunctionObject.H"
-#include "vector.H"
-#include "setWriter.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "primitives/Vector/vector/vector.H"
+#include "sampledSet/writers/setWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

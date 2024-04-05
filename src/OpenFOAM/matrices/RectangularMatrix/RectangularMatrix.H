@@ -38,8 +38,8 @@ SourceFiles
 #ifndef RectangularMatrix_H
 #define RectangularMatrix_H
 
-#include "Matrix.H"
-#include "SquareMatrix.H"
+#include "matrices/Matrix/Matrix.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -145,7 +145,7 @@ RectangularMatrix<Type> outer(const Field<Type>& f1, const Field<Type>& f2);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "RectangularMatrixI.H"
+#include "matrices/RectangularMatrix/RectangularMatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

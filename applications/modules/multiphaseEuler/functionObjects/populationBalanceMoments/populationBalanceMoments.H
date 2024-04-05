@@ -75,8 +75,8 @@ SourceFiles
 #ifndef functionObjects_populationBalanceMoments_H
 #define functionObjects_populationBalanceMoments_H
 
-#include "fvMeshFunctionObject.H"
-#include "populationBalanceModel.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

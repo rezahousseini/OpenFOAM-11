@@ -29,14 +29,14 @@ License
 using std::ofstream;
 using std::ios;
 
-#include "Time.H"
+#include "db/Time/Time.H"
 #include "fluentFvMesh.H"
-#include "primitiveMesh.H"
-#include "wallFvPatch.H"
-#include "symmetryPlaneFvPatch.H"
-#include "symmetryFvPatch.H"
-#include "cellModeller.H"
-#include "OSspecific.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fvMesh/fvPatches/constraint/symmetryPlane/symmetryPlaneFvPatch.H"
+#include "fvMesh/fvPatches/constraint/symmetry/symmetryFvPatch.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

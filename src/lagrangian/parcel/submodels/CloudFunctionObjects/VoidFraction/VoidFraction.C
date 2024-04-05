@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VoidFraction.H"
+#include "submodels/CloudFunctionObjects/VoidFraction/VoidFraction.H"
 
 // * * * * * * * * * * * * * Protectd Member Functions * * * * * * * * * * * //
 

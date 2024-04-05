@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kEpsilonLopesdaCosta.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
-#include "explicitPorositySource.H"
-#include "bound.H"
+#include "kEpsilonLopesdaCosta/kEpsilonLopesdaCosta.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "derived/explicitPorositySource/explicitPorositySource.H"
+#include "cfdTools/general/bound/bound.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

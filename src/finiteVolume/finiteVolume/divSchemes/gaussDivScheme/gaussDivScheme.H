@@ -35,7 +35,7 @@ SourceFiles
 #ifndef gaussDivScheme_H
 #define gaussDivScheme_H
 
-#include "divScheme.H"
+#include "finiteVolume/divSchemes/divScheme/divScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -108,7 +108,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "gaussDivScheme.C"
+    #include "finiteVolume/divSchemes/gaussDivScheme/gaussDivScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

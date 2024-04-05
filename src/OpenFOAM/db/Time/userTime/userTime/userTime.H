@@ -35,8 +35,8 @@ SourceFiles
 #ifndef userTime_H
 #define userTime_H
 
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

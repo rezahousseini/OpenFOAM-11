@@ -38,8 +38,8 @@ Description
 #ifndef tensorList_H
 #define tensorList_H
 
-#include "tensor.H"
-#include "List.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

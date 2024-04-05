@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tractionDisplacementFvPatchVectorField.H"
-#include "solidDisplacementThermo.H"
+#include "derivedFvPatchFields/tractionDisplacement/tractionDisplacementFvPatchVectorField.H"
+#include "solidDisplacementThermo/solidDisplacementThermo.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

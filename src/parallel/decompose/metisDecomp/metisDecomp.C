@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "metisDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/Time.H"
 
 extern "C"
 {

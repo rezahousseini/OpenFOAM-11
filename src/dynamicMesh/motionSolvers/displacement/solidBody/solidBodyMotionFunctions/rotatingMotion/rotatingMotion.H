@@ -38,9 +38,9 @@ SourceFiles
 #ifndef rotatingMotion_H
 #define rotatingMotion_H
 
-#include "solidBodyMotionFunction.H"
-#include "primitiveFields.H"
-#include "omega.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/solidBodyMotionFunction/solidBodyMotionFunction.H"
+#include "fields/Fields/primitiveFields.H"
+#include "primitives/functions/Function1/omega/omega.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

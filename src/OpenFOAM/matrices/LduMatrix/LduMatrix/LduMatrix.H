@@ -50,14 +50,14 @@ SourceFiles
 #ifndef LduMatrix_H
 #define LduMatrix_H
 
-#include "lduMesh.H"
-#include "Field.H"
-#include "FieldField.H"
-#include "LduInterfaceFieldPtrsList.H"
-#include "SolverPerformance.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "fields/Fields/Field/Field.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "matrices/LduMatrix/LduMatrix/LduInterfaceField/LduInterfaceFieldPtrsList.H"
+#include "matrices/LduMatrix/LduMatrix/SolverPerformance.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -824,8 +824,8 @@ LduMatrix<Type, DType, LUType>::solver::                                       \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LduMatrixI.H"
-    #include "LduMatrix.C"
+    #include "matrices/LduMatrix/LduMatrix/LduMatrixI.H"
+    #include "matrices/LduMatrix/LduMatrix/LduMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

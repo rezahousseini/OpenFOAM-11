@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundedConvectionScheme.H"
-#include "fvMesh.H"
+#include "finiteVolume/convectionSchemes/boundedConvectionScheme/boundedConvectionScheme.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

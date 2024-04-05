@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LehrMilliesMewesCoalescence.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/coalescenceModels/LehrMilliesMewesCoalescence/LehrMilliesMewesCoalescence.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

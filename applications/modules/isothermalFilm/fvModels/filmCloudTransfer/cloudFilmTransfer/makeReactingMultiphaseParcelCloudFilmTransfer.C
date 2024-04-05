@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingMultiphaseCloud.H"
-#include "CloudFilmTransfer.H"
+#include "clouds/derived/reactingMultiphaseCloud/reactingMultiphaseCloud.H"
+#include "fvModels/filmCloudTransfer/cloudFilmTransfer/CloudFilmTransfer/CloudFilmTransfer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

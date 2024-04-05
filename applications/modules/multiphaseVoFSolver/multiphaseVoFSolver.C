@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "multiphaseVoFSolver.H"
-#include "localEulerDdtScheme.H"
-#include "fvcAverage.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/fvc/fvcAverage.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

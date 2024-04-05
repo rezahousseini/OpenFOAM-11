@@ -26,9 +26,9 @@ License
 #ifndef ListHashTable_C
 #define ListHashTable_C
 
-#include "ListHashTable.H"
-#include "List.H"
-#include "IOstreams.H"
+#include "containers/HashTables/ListHashTable/ListHashTable.H"
+#include "containers/Lists/List/List.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 
@@ -555,7 +555,7 @@ bool Foam::ListHashTable<T, Key, Hash>::operator!=
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "ListHashTableIO.C"
+#include "containers/HashTables/ListHashTable/ListHashTableIO.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nucleationSiteModel.H"
+#include "wallBoilingSubModels/nucleationSiteModels/nucleationSiteModel/nucleationSiteModel.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

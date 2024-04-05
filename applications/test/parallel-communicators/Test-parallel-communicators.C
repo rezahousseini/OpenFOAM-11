@@ -29,13 +29,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "vector.H"
-#include "IOstreams.H"
-#include "PstreamReduceOps.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "primitives/Vector/vector/vector.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 using namespace Foam;
 
@@ -130,8 +130,8 @@ scalar sumReduce
 int main(int argc, char *argv[])
 {
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 #ifndef nonConformalErrorFvPatchFieldsFwd_H
 #define nonConformalErrorFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

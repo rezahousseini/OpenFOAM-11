@@ -34,10 +34,10 @@ SourceFiles
 #ifndef readFields_H
 #define readFields_H
 
-#include "fvMesh.H"
-#include "PtrList.H"
-#include "IOobjectList.H"
-#include "HashSet.H"
+#include "fvMesh/fvMesh.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AveragingMethod.H"
-#include "pointMesh.H"
-#include "polyMeshTetDecomposition.H"
-#include "volFields.H"
-#include "runTimeSelectionTables.H"
+#include "submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

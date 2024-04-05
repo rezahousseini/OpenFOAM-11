@@ -36,8 +36,8 @@ SourceFiles
 #ifndef nearWallDist_H
 #define nearWallDist_H
 
-#include "DemandDrivenMeshObject.H"
-#include "volFields.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

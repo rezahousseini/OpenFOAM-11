@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FDICPreconditioner.H"
+#include "matrices/lduMatrix/preconditioners/FDICPreconditioner/FDICPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

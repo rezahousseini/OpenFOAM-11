@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NASedgeFormat.H"
-#include "IFstream.H"
-#include "IStringStream.H"
-#include "PackedBoolList.H"
+#include "edgeMesh/edgeMeshFormats/nas/NASedgeFormat.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

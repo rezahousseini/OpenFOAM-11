@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicChemistryModel.H"
-#include "basicThermo.H"
-#include "compileTemplate.H"
+#include "basicChemistryModel/basicChemistryModel.H"
+#include "basicThermo/basicThermo.H"
+#include "db/dynamicLibrary/compileTemplate/compileTemplate.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

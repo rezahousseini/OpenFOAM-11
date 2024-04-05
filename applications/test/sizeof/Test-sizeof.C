@@ -26,13 +26,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "bool.H"
-#include "Switch.H"
-#include "string.H"
-#include "dictionary.H"
-#include "nil.H"
-#include "IOstreams.H"
-#include "IStringStream.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/strings/string/string.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/nil/nil.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 namespace Foam
 {

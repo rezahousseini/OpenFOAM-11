@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LegendreMagnaudet.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liftModels/LegendreMagnaudet/LegendreMagnaudet.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockMesh.H"
-#include "blockMeshTools.H"
-#include "Time.H"
-#include "preservePatchTypes.H"
-#include "emptyPolyPatch.H"
-#include "cyclicPolyPatch.H"
+#include "blockMesh/blockMesh.H"
+#include "blockMeshTools/blockMeshTools.H"
+#include "db/Time/Time.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

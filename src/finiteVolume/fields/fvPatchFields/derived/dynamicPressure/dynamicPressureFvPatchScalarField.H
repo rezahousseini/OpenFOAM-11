@@ -41,7 +41,7 @@ SourceFiles
 #ifndef dynamicPressureFvPatchScalarField_H
 #define dynamicPressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

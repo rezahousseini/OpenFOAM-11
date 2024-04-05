@@ -36,7 +36,7 @@ SourceFiles
 #ifndef vtkSurfaceWriter_H
 #define vtkSurfaceWriter_H
 
-#include "surfaceWriter.H"
+#include "sampledSurface/writers/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

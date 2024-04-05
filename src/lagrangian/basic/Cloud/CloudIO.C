@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Cloud.H"
-#include "Time.H"
-#include "IOPosition.H"
-#include "timeIOdictionary.H"
+#include "Cloud/Cloud.H"
+#include "db/Time/Time.H"
+#include "IOPosition/IOPosition.H"
+#include "db/IOobjects/IOdictionary/timeIOdictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

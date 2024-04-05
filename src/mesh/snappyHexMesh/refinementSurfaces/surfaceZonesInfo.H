@@ -34,11 +34,11 @@ SourceFiles
 #ifndef surfaceZonesInfo_H
 #define surfaceZonesInfo_H
 
-#include "NamedEnum.H"
-#include "point.H"
-#include "word.H"
-#include "PtrList.H"
-#include "labelList.H"
+#include "containers/NamedEnum/NamedEnum.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/strings/word/word.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

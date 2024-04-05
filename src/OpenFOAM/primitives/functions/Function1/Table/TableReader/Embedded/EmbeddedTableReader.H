@@ -47,7 +47,7 @@ SourceFiles
 #ifndef EmbeddedTableReader_H
 #define EmbeddedTableReader_H
 
-#include "TableReader.H"
+#include "primitives/functions/Function1/Table/TableReader/TableReader/TableReader.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "EmbeddedTableReader.C"
+    #include "primitives/functions/Function1/Table/TableReader/Embedded/EmbeddedTableReader.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

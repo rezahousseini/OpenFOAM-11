@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "md.H"
+#include "global/argList/argList.H"
+#include "mdTools/md.H"
 
 using namespace Foam;
 
@@ -35,9 +35,9 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMeshNoChangers.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMeshNoChangers.H"
 
     IOdictionary mdInitialiseDict
     (

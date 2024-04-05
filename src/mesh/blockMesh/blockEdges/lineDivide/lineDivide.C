@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lineDivide.H"
-#include "blockEdge.H"
+#include "blockEdges/lineDivide/lineDivide.H"
+#include "blockEdges/blockEdge/blockEdge.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

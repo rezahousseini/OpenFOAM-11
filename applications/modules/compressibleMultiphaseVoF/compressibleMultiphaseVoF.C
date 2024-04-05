@@ -24,10 +24,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "compressibleMultiphaseVoF.H"
-#include "geometricZeroField.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/GeometricFields/geometricZeroField/geometricZeroField.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

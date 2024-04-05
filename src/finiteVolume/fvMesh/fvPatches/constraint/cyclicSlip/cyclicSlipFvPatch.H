@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicSlipFvPatch_H
 #define cyclicSlipFvPatch_H
 
-#include "cyclicFvPatch.H"
-#include "cyclicSlipPolyPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclicSlip/cyclicSlipPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

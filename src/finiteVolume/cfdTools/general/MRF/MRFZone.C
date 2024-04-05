@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MRFZone.H"
-#include "MRFPatchField.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "fvMatrices.H"
-#include "geometricOneField.H"
-#include "faceSet.H"
-#include "syncTools.H"
+#include "cfdTools/general/MRF/MRFZone.H"
+#include "cfdTools/general/MRF/derivedFvPatchFields/MRFPatchField/MRFPatchField.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fvMatrices/fvMatrices.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "sets/topoSets/faceSet.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

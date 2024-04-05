@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellToCell.H"
-#include "cellSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sets/cellSources/cellToCell/cellToCell.H"
+#include "sets/topoSets/cellSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

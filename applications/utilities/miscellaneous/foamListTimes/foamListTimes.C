@@ -39,9 +39,9 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/Time.H"
 
 using namespace Foam;
 
@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
         "execute functionEntries"
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     entry::disableFunctionEntries = !args.optionFound("withFunctionEntries");
 

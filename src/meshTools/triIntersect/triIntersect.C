@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triIntersect.H"
-#include "boundBox.H"
-#include "cubicEqn.H"
-#include "mathematicalConstants.H"
-#include "OFstream.H"
-#include "tensor2D.H"
-#include "vtkWritePolyData.H"
+#include "triIntersect/triIntersect.H"
+#include "meshes/boundBox/boundBox.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqn.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "primitives/Tensor2D/tensor2D/tensor2D.H"
+#include "vtk/vtkWritePolyData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef patchToPatchStabilisation_H
 #define patchToPatchStabilisation_H
 
-#include "patchToPatch.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "patchToPatchStabilisationTemplates.C"
+    #include "patchToPatch/patchToPatchStabilisation/patchToPatchStabilisationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

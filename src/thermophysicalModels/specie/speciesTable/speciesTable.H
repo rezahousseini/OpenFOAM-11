@@ -32,7 +32,7 @@ Description
 #ifndef speciesTable_H
 #define speciesTable_H
 
-#include "hashedWordList.H"
+#include "primitives/strings/lists/hashedWordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

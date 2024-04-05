@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvConstraints.H"
-#include "fvModel.H"
-#include "fvMesh.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -46,10 +46,10 @@ SourceFiles
 #ifndef RBD_rigidBodyInertia_H
 #define RBD_rigidBodyInertia_H
 
-#include "vector.H"
-#include "symmTensor.H"
-#include "spatialVector.H"
-#include "spatialTensor.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/spatialVectorAlgebra/SpatialVector/spatialVector/spatialVector.H"
+#include "primitives/spatialVectorAlgebra/SpatialTensor/spatialTensor/spatialTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyInertiaI.H"
+#include "rigidBodyInertia/rigidBodyInertiaI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

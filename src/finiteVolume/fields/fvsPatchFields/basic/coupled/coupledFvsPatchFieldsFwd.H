@@ -29,7 +29,7 @@ InClass
 #ifndef coupledFvsPatchFieldsFwd_H
 #define coupledFvsPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

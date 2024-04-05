@@ -84,7 +84,7 @@ SourceFiles
 #ifndef linearRamp_H
 #define linearRamp_H
 
-#include "Ramp.H"
+#include "primitives/functions/Function1/Ramp/Ramp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,7 +149,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "linearRampI.H"
+#include "primitives/functions/Function1/linearRamp/linearRampI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

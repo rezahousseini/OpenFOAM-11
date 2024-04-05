@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lineUniform.H"
-#include "meshSearch.H"
-#include "DynamicList.H"
-#include "polyMesh.H"
-#include "sampledSetCloud.H"
-#include "points.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/lineUniform/lineUniform.H"
+#include "meshSearch/meshSearch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "sampledSet/sampledSet/sampledSetCloud.H"
+#include "sampledSet/points/points.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

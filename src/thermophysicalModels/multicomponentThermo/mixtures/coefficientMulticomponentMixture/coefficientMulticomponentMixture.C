@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coefficientMulticomponentMixture.H"
+#include "mixtures/coefficientMulticomponentMixture/coefficientMulticomponentMixture.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

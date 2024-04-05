@@ -34,8 +34,8 @@ SourceFiles
 #ifndef fvMeshToFvMesh_H
 #define fvMeshToFvMesh_H
 
-#include "meshToMesh.H"
-#include "volFields.H"
+#include "meshToMesh/meshToMesh.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -128,7 +128,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshToFvMeshTemplates.C"
+    #include "fvMeshToFvMesh/fvMeshToFvMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

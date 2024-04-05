@@ -35,11 +35,11 @@ SourceFiles
 #ifndef tensor_H
 #define tensor_H
 
-#include "Tensor.H"
-#include "vector.H"
-#include "sphericalTensor.H"
-#include "symmTensor.H"
-#include "contiguous.H"
+#include "primitives/Tensor/Tensor.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

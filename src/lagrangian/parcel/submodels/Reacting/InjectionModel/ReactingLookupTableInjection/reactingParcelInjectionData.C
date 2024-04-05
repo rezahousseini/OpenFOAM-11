@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingParcelInjectionData.H"
+#include "submodels/Reacting/InjectionModel/ReactingLookupTableInjection/reactingParcelInjectionData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

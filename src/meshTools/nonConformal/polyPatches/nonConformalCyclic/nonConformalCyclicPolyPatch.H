@@ -39,10 +39,10 @@ SourceFiles
 #ifndef nonConformalCyclicPolyPatch_H
 #define nonConformalCyclicPolyPatch_H
 
-#include "cyclicPolyPatch.H"
-#include "nonConformalCoupledPolyPatch.H"
-#include "intersectionPatchToPatch.H"
-#include "raysPatchToPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformalCoupled/nonConformalCoupledPolyPatch.H"
+#include "patchToPatch/intersection/intersectionPatchToPatch.H"
+#include "patchToPatch/rays/raysPatchToPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

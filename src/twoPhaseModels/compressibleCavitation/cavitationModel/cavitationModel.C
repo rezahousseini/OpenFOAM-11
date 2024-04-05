@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cavitationModel.H"
-#include "constantPressure.H"
-#include "fvmSup.H"
+#include "cavitationModel/cavitationModel.H"
+#include "constantPressure/constantPressure.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fluidThermophysicalTransportModel.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -24,11 +24,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ptscotchDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
-#include "OFstream.H"
-#include "globalIndex.H"
-#include "SubField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "fields/Fields/Field/SubField.H"
 #include "PstreamGlobals.H"
 
 extern "C"

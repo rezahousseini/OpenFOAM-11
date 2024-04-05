@@ -157,10 +157,10 @@ SourceFiles
 #ifndef fvMeshTopoChangersRefiner_H
 #define fvMeshTopoChangersRefiner_H
 
-#include "fvMeshTopoChanger.H"
-#include "hexRef8.H"
-#include "PackedBoolList.H"
-#include "Switch.H"
+#include "fvMesh/fvMeshTopoChangers/fvMeshTopoChanger/fvMeshTopoChanger.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

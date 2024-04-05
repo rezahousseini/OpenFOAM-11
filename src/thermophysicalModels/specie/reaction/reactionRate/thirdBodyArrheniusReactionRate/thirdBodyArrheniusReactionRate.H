@@ -35,8 +35,8 @@ SourceFiles
 #ifndef thirdBodyArrheniusReactionRate_H
 #define thirdBodyArrheniusReactionRate_H
 
-#include "ArrheniusReactionRate.H"
-#include "thirdBodyEfficiencies.H"
+#include "reaction/reactionRate/ArrheniusReactionRate/ArrheniusReactionRate.H"
+#include "reaction/reactionRate/thirdBodyEfficiencies/thirdBodyEfficiencies.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,7 +149,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thirdBodyArrheniusReactionRateI.H"
+#include "reaction/reactionRate/thirdBodyArrheniusReactionRate/thirdBodyArrheniusReactionRateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

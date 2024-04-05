@@ -32,13 +32,13 @@ Description
 #ifndef makeReaction_H
 #define makeReaction_H
 
-#include "Reaction.H"
+#include "reaction/Reactions/Reaction/Reaction.H"
 
-#include "IrreversibleReaction.H"
-#include "ReversibleReaction.H"
-#include "NonEquilibriumReversibleReaction.H"
+#include "reaction/Reactions/IrreversibleReaction/IrreversibleReaction.H"
+#include "reaction/Reactions/ReversibleReaction/ReversibleReaction.H"
+#include "reaction/Reactions/NonEquilibriumReversibleReaction/NonEquilibriumReversibleReaction.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

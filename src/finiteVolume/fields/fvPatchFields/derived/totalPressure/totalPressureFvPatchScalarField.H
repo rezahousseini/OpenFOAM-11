@@ -142,7 +142,7 @@ SourceFiles
 #ifndef totalPressureFvPatchScalarField_H
 #define totalPressureFvPatchScalarField_H
 
-#include "dynamicPressureFvPatchScalarField.H"
+#include "fields/fvPatchFields/derived/dynamicPressure/dynamicPressureFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

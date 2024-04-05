@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/Time.H"
+#include "db/Time/timeSelector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -35,12 +35,12 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
     Foam::argList::addBoolOption("write", "write mesh/results files");
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createNamedMesh.H"
 
     const bool write = args.optionFound("write");
     const bool overwrite = args.optionFound("overwrite");

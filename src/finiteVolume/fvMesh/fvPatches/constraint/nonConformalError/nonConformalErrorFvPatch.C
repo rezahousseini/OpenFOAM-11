@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonConformalErrorFvPatch.H"
-#include "nonConformalCyclicFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "transform.H"
+#include "fvMesh/fvPatches/constraint/nonConformalError/nonConformalErrorFvPatch.H"
+#include "fvMesh/fvPatches/constraint/nonConformalCyclic/nonConformalCyclicFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

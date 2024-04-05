@@ -35,7 +35,7 @@ SourceFiles
 #ifndef allReduce_H
 #define allReduce_H
 
-#include "UPstream.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
 
 #include <mpi.h>
 

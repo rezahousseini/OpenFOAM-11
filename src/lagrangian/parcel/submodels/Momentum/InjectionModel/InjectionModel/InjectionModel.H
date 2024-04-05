@@ -48,11 +48,11 @@ SourceFiles
 #ifndef InjectionModel_H
 #define InjectionModel_H
 
-#include "injectionModel.H"
-#include "CloudSubModelBase.H"
-#include "particle.H"
-#include "TimeFunction1.H"
-#include "runTimeSelectionTables.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/injectionModel.H"
+#include "submodels/CloudSubModelBase.H"
+#include "particle/particle.H"
+#include "primitives/functions/TimeFunction1/TimeFunction1.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -388,12 +388,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "InjectionModelI.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "InjectionModel.C"
+    #include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

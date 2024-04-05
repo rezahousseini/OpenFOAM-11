@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MovingPhaseModel.H"
-#include "phaseSystem.H"
-#include "fixedValueFvPatchFields.H"
-#include "slipFvPatchFields.H"
-#include "partialSlipFvPatchFields.H"
+#include "phaseModel/MovingPhaseModel/MovingPhaseModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/derived/slip/slipFvPatchFields.H"
+#include "fields/fvPatchFields/derived/partialSlip/partialSlipFvPatchFields.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvcFlux.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcFlux.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

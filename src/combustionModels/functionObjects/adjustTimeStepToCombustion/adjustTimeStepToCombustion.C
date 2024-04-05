@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjustTimeStepToCombustion.H"
-#include "combustionModel.H"
-#include "solver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/adjustTimeStepToCombustion/adjustTimeStepToCombustion.H"
+#include "combustionModel/combustionModel.H"
+#include "solver/solver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

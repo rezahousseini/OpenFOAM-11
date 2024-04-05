@@ -25,8 +25,8 @@ License
 
 #include "lagrangianWriter.H"
 #include "vtkWriteFieldOps.H"
-#include "Cloud.H"
-#include "IOField.H"
+#include "Cloud/Cloud.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

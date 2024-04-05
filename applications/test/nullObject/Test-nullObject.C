@@ -1,5 +1,5 @@
-#include "nullObject.H"
-#include "IOstreams.H"
+#include "primitives/nullObject/nullObject.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

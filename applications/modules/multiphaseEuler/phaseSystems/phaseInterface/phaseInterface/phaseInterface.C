@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseInterface.H"
-#include "phaseSystem.H"
-#include "interfaceSurfaceTensionModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
+#include "phaseSystem/phaseSystem.H"
+#include "interfaceSurfaceTensionModels/interfaceSurfaceTensionModel/interfaceSurfaceTensionModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

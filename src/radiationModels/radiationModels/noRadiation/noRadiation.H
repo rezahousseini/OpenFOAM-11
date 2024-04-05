@@ -36,7 +36,7 @@ SourceFiles
 #ifndef noRadiation_H
 #define noRadiation_H
 
-#include "radiationModel.H"
+#include "radiationModels/radiationModel/radiationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

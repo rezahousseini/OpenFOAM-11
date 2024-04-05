@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "momentumTransportModel.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "wallFvPatch.H"
-#include "nearWallDist.H"
-#include "fvcFlux.H"
-#include "fvmDiv.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fvMesh/wallDist/nearWallDist/nearWallDist.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvm/fvmDiv.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

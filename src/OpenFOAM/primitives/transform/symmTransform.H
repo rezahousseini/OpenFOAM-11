@@ -32,7 +32,7 @@ Description
 #ifndef symmTransform_H
 #define symmTransform_H
 
-#include "transform.H"
+#include "primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

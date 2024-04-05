@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dispersedTurbulentDispersionModel.H"
+#include "turbulentDispersionModels/dispersedTurbulentDispersionModel/dispersedTurbulentDispersionModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

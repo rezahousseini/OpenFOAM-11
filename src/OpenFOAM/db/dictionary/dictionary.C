@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "dictionaryEntry.H"
+#include "db/dictionary/dictionary.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
 #include "regExp.H"
-#include "OSHA1stream.H"
-#include "inputSyntaxEntry.H"
+#include "db/IOstreams/hashes/OSHA1stream.H"
+#include "db/dictionary/functionEntries/inputSyntaxEntry/inputSyntaxEntry.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

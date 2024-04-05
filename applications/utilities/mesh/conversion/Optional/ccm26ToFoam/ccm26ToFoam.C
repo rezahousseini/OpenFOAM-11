@@ -32,16 +32,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "ListOps.H"
-#include "argList.H"
-#include "Time.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "emptyPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "wallPolyPatch.H"
-#include "SortableList.H"
-#include "cellSet.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "sets/topoSets/cellSet.H"
 
 #include <ccmio.h>
 #include <vector>
@@ -617,8 +617,8 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::validArgs.append("ccmFile");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Foam mesh data
     // ~~~~~~~~~~~~~~

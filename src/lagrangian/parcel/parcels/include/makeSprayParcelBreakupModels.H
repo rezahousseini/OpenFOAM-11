@@ -28,13 +28,13 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoBreakup.H"
-#include "PilchErdman.H"
-#include "ReitzDiwakar.H"
-#include "ReitzKHRT.H"
-#include "TAB.H"
-#include "ETAB.H"
-#include "SHF.H"
+#include "submodels/Spray/BreakupModel/NoBreakup/NoBreakup.H"
+#include "submodels/Spray/BreakupModel/PilchErdman/PilchErdman.H"
+#include "submodels/Spray/BreakupModel/ReitzDiwakar/ReitzDiwakar.H"
+#include "submodels/Spray/BreakupModel/ReitzKHRT/ReitzKHRT.H"
+#include "submodels/Spray/BreakupModel/TAB/TAB.H"
+#include "submodels/Spray/BreakupModel/ETAB/ETAB.H"
+#include "submodels/Spray/BreakupModel/SHF/SHF.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -48,12 +48,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyTopoChange.H"
-#include "cellCuts.H"
-#include "cellSet.H"
-#include "meshCutter.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshCut/cellCuts/cellCuts.H"
+#include "sets/topoSets/cellSet.H"
+#include "meshCut/meshModifiers/meshCutter/meshCutter.H"
 
 using namespace Foam;
 
@@ -61,8 +61,8 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
     argList::noParallel();
     argList::validArgs.append("patches");
     argList::validArgs.append("edgeFraction");
@@ -74,13 +74,13 @@ int main(int argc, char *argv[])
         "Restrict cells to refine to those in specified cellSet"
     );
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
 
     Foam::word meshRegionName = polyMesh::defaultRegion;
     args.optionReadIfPresent("region", meshRegionName);
 
-    #include "createNamedPolyMesh.H"
+    #include "include/createNamedPolyMesh.H"
     const word oldInstance = mesh.pointsInstance();
 
     // Find set of patches from the list of regular expressions provided

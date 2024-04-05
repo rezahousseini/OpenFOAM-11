@@ -36,9 +36,9 @@ SourceFiles
 #ifndef processorLduInterface_H
 #define processorLduInterface_H
 
-#include "lduInterface.H"
-#include "transformer.H"
-#include "primitiveFieldsFwd.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorLduInterfaceTemplates.C"
+    #include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef hePsiThermo_H
 #define hePsiThermo_H
 
-#include "psiThermo.H"
-#include "heThermo.H"
+#include "psiThermo/psiThermo.H"
+#include "heThermo/heThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -103,7 +103,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "hePsiThermo.C"
+    #include "psiThermo/hePsiThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

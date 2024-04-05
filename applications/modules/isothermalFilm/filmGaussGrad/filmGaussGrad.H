@@ -35,7 +35,7 @@ SourceFiles
 #ifndef filmGaussGrad_H
 #define filmGaussGrad_H
 
-#include "gaussGrad.H"
+#include "finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -110,7 +110,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "filmGaussGrad.C"
+    #include "filmGaussGrad/filmGaussGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

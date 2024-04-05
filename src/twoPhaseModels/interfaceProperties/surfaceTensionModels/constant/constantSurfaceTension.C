@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantSurfaceTension.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "surfaceTensionModels/constant/constantSurfaceTension.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

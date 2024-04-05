@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceSelection.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
-#include "searchableSurface.H"
-#include "fvMesh.H"
-#include "Time.H"
+#include "faceSelection/searchableSurfaceSelection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

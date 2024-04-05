@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedInternalValueFvPatchField.H"
-#include "volFields.H"
-#include "interpolationCell.H"
+#include "fields/fvPatchFields/derived/mappedInternalValue/mappedInternalValueFvPatchField.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/interpolation/interpolationCell/interpolationCell.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

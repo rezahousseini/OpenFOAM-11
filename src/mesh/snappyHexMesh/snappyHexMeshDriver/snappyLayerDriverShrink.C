@@ -26,17 +26,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "snappyLayerDriver.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "pointFields.H"
-#include "motionSmoother.H"
-#include "pointData.H"
-#include "PointEdgeWave.H"
-#include "OBJstream.H"
-#include "meshTools.H"
-#include "PatchTools.H"
-#include "unitConversion.H"
+#include "snappyHexMeshDriver/snappyLayerDriver.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/Time.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "motionSmoother/motionSmoother.H"
+#include "snappyHexMeshDriver/pointData/pointData.H"
+#include "algorithms/PointEdgeWave/PointEdgeWave.H"
+#include "obj/OBJstream.H"
+#include "meshTools/meshTools.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "global/unitConversion/unitConversion.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

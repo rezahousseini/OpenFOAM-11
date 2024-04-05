@@ -63,11 +63,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "IFstream.H"
-#include "cellModeller.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
 
 using namespace Foam;
 
@@ -105,8 +105,8 @@ int main(int argc, char *argv[])
         "skip reading .face file for boundary information"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const fileName prefix = args[1];
     const bool readFaceFile = !args.optionFound("noFaceFile");

@@ -76,8 +76,8 @@ SourceFiles
 #ifndef VoFCavitation_H
 #define VoFCavitation_H
 
-#include "fvModel.H"
-#include "cavitationModel.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "cavitationModel/cavitationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

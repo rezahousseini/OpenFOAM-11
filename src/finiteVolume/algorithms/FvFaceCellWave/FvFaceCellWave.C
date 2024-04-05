@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FvFaceCellWave.H"
-#include "processorFvPatch.H"
-#include "cyclicFvPatch.H"
-#include "CompactListList.H"
-#include "OPstream.H"
-#include "IPstream.H"
-#include "PstreamReduceOps.H"
+#include "algorithms/FvFaceCellWave/FvFaceCellWave.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
+#include "containers/Lists/CompactListList/CompactListList.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

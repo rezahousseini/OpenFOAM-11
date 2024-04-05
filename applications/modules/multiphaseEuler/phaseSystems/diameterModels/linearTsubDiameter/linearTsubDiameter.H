@@ -45,7 +45,7 @@ SourceFiles
 #ifndef linearTsubDiameter_H
 #define linearTsubDiameter_H
 
-#include "sphericalDiameter.H"
+#include "diameterModels/sphericalDiameter/sphericalDiameter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

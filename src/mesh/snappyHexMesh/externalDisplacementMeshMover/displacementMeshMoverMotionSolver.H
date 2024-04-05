@@ -36,8 +36,8 @@ SourceFiles
 #ifndef displacementMeshMoverMotionSolver_H
 #define displacementMeshMoverMotionSolver_H
 
-#include "displacementMotionSolver.H"
-#include "externalDisplacementMeshMover.H"
+#include "motionSolvers/displacement/displacement/displacementMotionSolver.H"
+#include "externalDisplacementMeshMover/externalDisplacementMeshMover.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

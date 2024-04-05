@@ -35,10 +35,10 @@ SourceFiles
 #ifndef vtkWriteFieldOps_H
 #define vtkWriteFieldOps_H
 
-#include "vtkWriteOps.H"
-#include "pointFieldsFwd.H"
+#include "vtk/vtkWriteOps.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
 #include "vtkMesh.H"
-#include "volPointInterpolation.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

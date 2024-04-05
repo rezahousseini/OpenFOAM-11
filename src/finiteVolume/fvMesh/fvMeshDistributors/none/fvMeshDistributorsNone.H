@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fvMeshDistributorsNone_H
 #define fvMeshDistributorsNone_H
 
-#include "fvMeshDistributor.H"
+#include "fvMesh/fvMeshDistributors/fvMeshDistributor/fvMeshDistributor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

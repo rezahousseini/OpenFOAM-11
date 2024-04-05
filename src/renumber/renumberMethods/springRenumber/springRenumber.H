@@ -46,7 +46,7 @@ SourceFiles
 #ifndef springRenumber_H
 #define springRenumber_H
 
-#include "renumberMethod.H"
+#include "renumberMethod/renumberMethod.H"
 
 namespace Foam
 {

@@ -57,10 +57,10 @@ SourceFiles
 #ifndef cavitation_H
 #define cavitation_H
 
-#include "phaseTransferModel.H"
-#include "cavitationModel.H"
-#include "phaseModel.H"
-#include "dispersedPhaseInterface.H"
+#include "phaseTransferModels/phaseTransferModel/phaseTransferModel.H"
+#include "cavitationModel/cavitationModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
+#include "phaseInterface/dispersedPhaseInterface/dispersedPhaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

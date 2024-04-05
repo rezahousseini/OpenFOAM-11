@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformDiffusivity.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionDiffusivity/uniform/uniformDiffusivity.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

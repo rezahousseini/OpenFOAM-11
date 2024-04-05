@@ -39,9 +39,9 @@ SourceFiles
 #ifndef triad_H
 #define triad_H
 
-#include "vector.H"
-#include "tensor.H"
-#include "contiguous.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,7 +165,7 @@ inline bool contiguous<triad>() {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triadI.H"
+#include "primitives/triad/triadI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpalartAllmarasDDES.H"
+#include "LES/SpalartAllmarasDDES/SpalartAllmarasDDES.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

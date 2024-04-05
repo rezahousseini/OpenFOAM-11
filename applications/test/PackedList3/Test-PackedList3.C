@@ -27,12 +27,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "cpuTime.H"
+#include "global/argList/argList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "cpuTime/cpuTime.H"
 #include <vector>
-#include "PackedBoolList.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 
 using namespace Foam;
 

@@ -34,10 +34,10 @@ SourceFiles
 #ifndef labelBits_H
 #define labelBits_H
 
-#include "label.H"
-//#include "uLabel.H"
-#include "direction.H"
-#include "error.H"
+#include "primitives/ints/label/label.H"
+//#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/direction/direction.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

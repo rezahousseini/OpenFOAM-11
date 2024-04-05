@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ILList.H"
+#include "containers/LinkedLists/accessTypes/ILList/ILList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -166,7 +166,7 @@ void Foam::ILList<LListBase, T>::operator=(ILList<LListBase, T>&& lst)
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "ILListIO.C"
+#include "containers/LinkedLists/accessTypes/ILList/ILListIO.C"
 
 
 // ************************************************************************* //

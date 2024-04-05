@@ -55,8 +55,8 @@ SourceFiles
 #ifndef functionObjects_massFractions_H
 #define functionObjects_massFractions_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

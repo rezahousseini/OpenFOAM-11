@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkWriteOps.H"
+#include "vtk/vtkWriteOps.H"
 
 #if defined(__mips)
     #include <standards.h>

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef directionMixedFvPatchField_H
 #define directionMixedFvPatchField_H
 
-#include "transformFvPatchField.H"
+#include "fields/fvPatchFields/basic/transform/transformFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -231,7 +231,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "directionMixedFvPatchField.C"
+    #include "fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

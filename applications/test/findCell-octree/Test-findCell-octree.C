@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "fvMesh.H"
-#include "IStringStream.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "fvMesh/fvMesh.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 using namespace Foam;
 
@@ -40,9 +40,9 @@ int main(int argc, char *argv[])
 {
     argList::validArgs.append("point (x y z)");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     label nReps = 10000;
 

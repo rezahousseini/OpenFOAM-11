@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelSphericalTensor.H"
+#include "primitives/SphericalTensor/labelSphericalTensor/labelSphericalTensor.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

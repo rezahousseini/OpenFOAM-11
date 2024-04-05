@@ -26,8 +26,8 @@ License
 #ifndef genericFvPatchFields_H
 #define genericFvPatchFields_H
 
-#include "genericFvPatchField.H"
-#include "fieldTypes.H"
+#include "genericFvPatchField/genericFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

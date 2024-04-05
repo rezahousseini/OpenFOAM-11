@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pimpleLoop.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleLoop/pimpleLoop.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

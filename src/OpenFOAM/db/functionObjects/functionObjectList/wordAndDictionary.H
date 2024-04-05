@@ -57,7 +57,7 @@ SourceFiles
 #ifndef wordAndDictionary_H
 #define wordAndDictionary_H
 
-#include "dictionary.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

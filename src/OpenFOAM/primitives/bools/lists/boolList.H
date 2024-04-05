@@ -38,8 +38,8 @@ Description
 #ifndef boolList_H
 #define boolList_H
 
-#include "bool.H"
-#include "List.H"
+#include "primitives/bools/bool/bool.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

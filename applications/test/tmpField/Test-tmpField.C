@@ -29,7 +29,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveFields.H"
+#include "fields/Fields/primitiveFields.H"
 
 using namespace Foam;
 

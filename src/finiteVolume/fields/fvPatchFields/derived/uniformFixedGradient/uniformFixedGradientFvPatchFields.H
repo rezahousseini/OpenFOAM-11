@@ -26,8 +26,8 @@ License
 #ifndef uniformFixedGradientFvPatchFields_H
 #define uniformFixedGradientFvPatchFields_H
 
-#include "uniformFixedGradientFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/uniformFixedGradient/uniformFixedGradientFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

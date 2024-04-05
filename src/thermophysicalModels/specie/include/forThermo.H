@@ -26,7 +26,7 @@ License
 #ifndef forThermo_H
 #define forThermo_H
 
-#include "typedefThermo.H"
+#include "include/typedefThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

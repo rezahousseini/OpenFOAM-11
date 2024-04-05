@@ -49,7 +49,7 @@ SourceFiles
 #ifndef filmVoFTransfer_H
 #define filmVoFTransfer_H
 
-#include "fvModel.H"
+#include "cfdTools/general/fvModels/fvModel.H"
 #include "isothermalFilm.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -39,7 +39,7 @@ SourceFiles
 #ifndef DICSmoother_H
 #define DICSmoother_H
 
-#include "lduMatrix.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

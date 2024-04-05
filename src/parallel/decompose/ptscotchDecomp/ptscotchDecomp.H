@@ -51,7 +51,7 @@ SourceFiles
 #ifndef ptscotchDecomp_H
 #define ptscotchDecomp_H
 
-#include "decompositionMethod.H"
+#include "decompositionMethod/decompositionMethod.H"
 
 namespace Foam
 {

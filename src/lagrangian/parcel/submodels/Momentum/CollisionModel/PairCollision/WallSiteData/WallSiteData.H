@@ -38,7 +38,7 @@ SourceFiles
 #ifndef WallSiteData_H
 #define WallSiteData_H
 
-#include "label.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -129,12 +129,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WallSiteDataI.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/WallSiteData/WallSiteDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "WallSiteData.C"
+    #include "submodels/Momentum/CollisionModel/PairCollision/WallSiteData/WallSiteData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

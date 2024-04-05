@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchDistanceToCell.H"
-#include "patchDistWave.H"
-#include "wallPoint.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sets/cellSources/patchDistanceToCell/patchDistanceToCell.H"
+#include "patchDist/patchDistWave/patchDistWave.H"
+#include "patchDist/WallLocation/wallPoint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

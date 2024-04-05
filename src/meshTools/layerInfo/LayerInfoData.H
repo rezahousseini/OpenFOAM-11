@@ -36,7 +36,7 @@ SourceFiles
 #ifndef LayerInfoData_H
 #define LayerInfoData_H
 
-#include "layerInfo.H"
+#include "layerInfo/layerInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ FOR_ALL_FIELD_TYPES(DefineContiguousLayerInfoDataType);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LayerInfoDataI.H"
+#include "layerInfo/LayerInfoDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

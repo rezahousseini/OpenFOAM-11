@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshDistributorsDistributor.H"
-#include "decompositionMethod.H"
-#include "fvMeshDistribute.H"
-#include "polyDistributionMap.H"
-#include "addToRunTimeSelectionTable.H"
+#include "distributor/fvMeshDistributorsDistributor.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "fvMeshDistribute/fvMeshDistribute.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

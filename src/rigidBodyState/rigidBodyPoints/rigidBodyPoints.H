@@ -68,9 +68,9 @@ SourceFiles
 #ifndef rigidBodyPoints_H
 #define rigidBodyPoints_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "rigidBodyMotion.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "rigidBodyMotion/rigidBodyMotion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

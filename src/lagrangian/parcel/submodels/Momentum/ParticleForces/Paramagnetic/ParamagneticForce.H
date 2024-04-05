@@ -36,8 +36,8 @@ SourceFiles
 #ifndef ParamagneticForce_H
 #define ParamagneticForce_H
 
-#include "ParticleForce.H"
-#include "interpolation.H"
+#include "submodels/Momentum/ParticleForces/ParticleForce/ParticleForce.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -135,10 +135,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParamagneticForceI.H"
+#include "submodels/Momentum/ParticleForces/Paramagnetic/ParamagneticForceI.H"
 
 #ifdef NoRepository
-    #include "ParamagneticForce.C"
+    #include "submodels/Momentum/ParticleForces/Paramagnetic/ParamagneticForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

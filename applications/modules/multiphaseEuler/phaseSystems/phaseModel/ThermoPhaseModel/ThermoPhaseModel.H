@@ -39,7 +39,7 @@ SourceFiles
 #ifndef ThermoPhaseModel_H
 #define ThermoPhaseModel_H
 
-#include "phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -132,7 +132,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermoPhaseModel.C"
+    #include "phaseModel/ThermoPhaseModel/ThermoPhaseModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

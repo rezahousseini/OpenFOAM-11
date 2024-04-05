@@ -35,7 +35,7 @@ Description
 #ifndef linearFitPolynomial_H
 #define linearFitPolynomial_H
 
-#include "vector.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

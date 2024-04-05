@@ -36,9 +36,9 @@ SourceFiles
 #ifndef systemDict_H
 #define systemDict_H
 
-#include "argList.H"
-#include "IOdictionary.H"
-#include "polyMesh.H"
+#include "global/argList/argList.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

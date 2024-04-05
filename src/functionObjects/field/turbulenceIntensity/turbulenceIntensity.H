@@ -82,9 +82,9 @@ SourceFiles
 #ifndef functionObjects_turbulenceIntensity_H
 #define functionObjects_turbulenceIntensity_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "writeLocalObjects.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "db/functionObjects/writeLocalObjects/writeLocalObjects.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ SourceFiles
 #ifndef genericPatchField_H
 #define genericPatchField_H
 
-#include "typeInfo.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

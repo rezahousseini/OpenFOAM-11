@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedInterfacialAreaDiameter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/fixedInterfacialAreaDiameter/fixedInterfacialAreaDiameter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

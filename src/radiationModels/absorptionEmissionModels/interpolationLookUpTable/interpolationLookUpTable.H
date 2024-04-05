@@ -40,11 +40,11 @@ SourceFiles
 #ifndef interpolationLookUpTable_H
 #define interpolationLookUpTable_H
 
-#include "List.H"
-#include "ListOps.H"
-#include "scalarField.H"
-#include "HashTable.H"
-#include "IOdictionary.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -218,7 +218,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationLookUpTableI.H"
+#include "absorptionEmissionModels/interpolationLookUpTable/interpolationLookUpTableI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

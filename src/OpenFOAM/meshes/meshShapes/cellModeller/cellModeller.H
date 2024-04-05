@@ -37,9 +37,9 @@ SourceFiles
 #ifndef cellModeller_H
 #define cellModeller_H
 
-#include "cellModel.H"
-#include "PtrList.H"
-#include "HashTable.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

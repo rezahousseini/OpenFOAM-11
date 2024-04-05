@@ -36,7 +36,7 @@ SourceFiles
 #ifndef proxySurfaceWriter_H
 #define proxySurfaceWriter_H
 
-#include "surfaceWriter.H"
+#include "sampledSurface/writers/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

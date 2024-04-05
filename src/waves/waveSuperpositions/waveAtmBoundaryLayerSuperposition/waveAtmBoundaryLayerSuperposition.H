@@ -63,7 +63,7 @@ SourceFiles
 #ifndef waveAtmBoundaryLayerSuperposition_H
 #define waveAtmBoundaryLayerSuperposition_H
 
-#include "waveSuperposition.H"
+#include "waveSuperpositions/waveSuperposition/waveSuperposition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef cutPolyValue_H
 #define cutPolyValue_H
 
-#include "cutPoly.H"
+#include "cutPoly/cutPoly.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -334,12 +334,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cutPolyValueI.H"
+#include "cutPoly/cutPolyValueI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cutPolyValueTemplates.C"
+    #include "cutPoly/cutPolyValueTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

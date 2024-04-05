@@ -42,9 +42,9 @@ SourceFiles
 #ifndef dictionaryEntry_H
 #define dictionaryEntry_H
 
-#include "entry.H"
-#include "dictionary.H"
-#include "InfoProxy.H"
+#include "db/dictionary/entry/entry.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

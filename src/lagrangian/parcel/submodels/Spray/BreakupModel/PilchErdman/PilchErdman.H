@@ -63,7 +63,7 @@ Description
 #ifndef PilchErdman_H
 #define PilchErdman_H
 
-#include "BreakupModel.H"
+#include "submodels/Spray/BreakupModel/BreakupModel/BreakupModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -151,7 +151,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PilchErdman.C"
+    #include "submodels/Spray/BreakupModel/PilchErdman/PilchErdman.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

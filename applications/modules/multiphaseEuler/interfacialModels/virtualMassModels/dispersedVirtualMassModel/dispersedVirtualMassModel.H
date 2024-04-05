@@ -39,8 +39,8 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "virtualMassModel.H"
-#include "dispersedPhaseInterface.H"
+#include "virtualMassModels/virtualMassModel/virtualMassModel.H"
+#include "phaseInterface/dispersedPhaseInterface/dispersedPhaseInterface.H"
 
 namespace Foam
 {

@@ -41,11 +41,11 @@ SourceFiles
 #ifndef cellShape_H
 #define cellShape_H
 
-#include "pointField.H"
-#include "labelList.H"
-#include "cellModel.H"
-#include "autoPtr.H"
-#include "InfoProxy.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ Ostream& operator<<(Ostream& os, const InfoProxy<cellShape>& ip);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellShapeI.H"
+#include "meshes/meshShapes/cellShape/cellShapeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

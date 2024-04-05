@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "autoPtr.H"
-#include "tmp.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "memory/tmp/tmp.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

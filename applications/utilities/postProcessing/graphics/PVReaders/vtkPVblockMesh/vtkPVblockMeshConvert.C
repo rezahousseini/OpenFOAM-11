@@ -27,8 +27,8 @@ License
 #include "vtkPVblockMeshReader.h"
 
 // OpenFOAM includes
-#include "blockMesh.H"
-#include "Time.H"
+#include "blockMesh/blockMesh.H"
+#include "db/Time/Time.H"
 
 #include "vtkOpenFOAMPoints.H"
 

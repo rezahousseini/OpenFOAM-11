@@ -31,17 +31,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "zeroDimensionalFvMesh.H"
-#include "basicChemistryModel.H"
-#include "physicoChemicalConstants.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "fvMesh/zeroDimensionalFvMesh/zeroDimensionalFvMesh.H"
+#include "basicChemistryModel/basicChemistryModel.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 #include "thermoTypeFunctions.H"
 
-#include "fvcFlux.H"
+#include "finiteVolume/fvc/fvcFlux.H"
 
-#include "fvmDdt.H"
+#include "finiteVolume/fvm/fvmDdt.H"
 
 using namespace Foam;
 
@@ -53,10 +53,10 @@ int main(int argc, char *argv[])
 
     #define CREATE_MESH createZeroDimensionalFvMesh.H
     #define NO_CONTROL
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     #include "createZeroDimensionalFvMesh.H"
     #include "createFields.H"
     #include "createFieldRefs.H"

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeFilmCompressibleMomentumTransportModel.H"
+#include "filmCompressibleMomentumTransportModels/makeFilmCompressibleMomentumTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -60,22 +60,22 @@ namespace Foam
 // Laminar models
 // -------------------------------------------------------------------------- //
 
-#include "Stokes.H"
+#include "laminar/Stokes/Stokes.H"
 makeLaminarModel(Stokes);
 
-#include "generalisedNewtonian.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonian.H"
 makeLaminarModel(generalisedNewtonian);
 
-#include "lambdaThixotropic.H"
+#include "laminar/lambdaThixotropic/lambdaThixotropic.H"
 makeLaminarModel(lambdaThixotropic);
 
-#include "Maxwell.H"
+#include "laminar/Maxwell/Maxwell.H"
 makeLaminarModel(Maxwell);
 
-#include "Giesekus.H"
+#include "laminar/Giesekus/Giesekus.H"
 makeLaminarModel(Giesekus);
 
-#include "PTT.H"
+#include "laminar/PTT/PTT.H"
 makeLaminarModel(PTT);
 
 

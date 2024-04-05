@@ -95,9 +95,9 @@ SourceFiles
 #ifndef effectivenessHeatExchangerSource_H
 #define effectivenessHeatExchangerSource_H
 
-#include "fvModel.H"
-#include "fvCellSet.H"
-#include "Function2.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

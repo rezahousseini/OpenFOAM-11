@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PCICG.H"
-#include "PBiCCCG.H"
-#include "PBiCICG.H"
-#include "SmoothSolver.H"
-#include "fieldTypes.H"
+#include "matrices/LduMatrix/Solvers/PCICG/PCICG.H"
+#include "matrices/LduMatrix/Solvers/PBiCCCG/PBiCCCG.H"
+#include "matrices/LduMatrix/Solvers/PBiCICG/PBiCICG.H"
+#include "matrices/LduMatrix/Solvers/SmoothSolver/SmoothSolver.H"
+#include "fields/Fields/fieldTypes.H"
 
 #define makeLduSolvers(Type, DType, LUType)                                    \
                                                                                \

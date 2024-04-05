@@ -52,9 +52,9 @@ See also
 #define compressibleMultiphaseVoF_H
 
 #include "multiphaseVoFSolver.H"
-#include "compressibleMultiphaseVoFMixture.H"
+#include "compressibleMultiphaseVoFMixture/compressibleMultiphaseVoFMixture.H"
 #include "compressibleMomentumTransportModel.H"
-#include "pressureReference.H"
+#include "cfdTools/general/pressureReference/pressureReference.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

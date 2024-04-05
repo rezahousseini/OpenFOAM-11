@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DRGEP.H"
-#include "SortableListDRGEP.H"
+#include "chemistryModel/reduction/DRGEP/DRGEP.H"
+#include "chemistryModel/reduction/DRGEP/SortableListDRGEP.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

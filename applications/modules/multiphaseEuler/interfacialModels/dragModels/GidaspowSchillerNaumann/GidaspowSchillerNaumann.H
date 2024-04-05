@@ -48,7 +48,7 @@ SourceFiles
 #ifndef GidaspowSchillerNaumann_H
 #define GidaspowSchillerNaumann_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

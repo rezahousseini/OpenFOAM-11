@@ -38,11 +38,11 @@ SourceFiles
 #ifndef waveModel_H
 #define waveModel_H
 
-#include "dictionary.H"
-#include "Function1.H"
-#include "runTimeSelectionTables.H"
-#include "vectorField.H"
-#include "vector2DField.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "fields/Fields/vector2DField/vector2DField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

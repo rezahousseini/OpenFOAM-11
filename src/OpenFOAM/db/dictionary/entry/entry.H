@@ -41,10 +41,10 @@ SourceFiles
 #ifndef entry_H
 #define entry_H
 
-#include "keyType.H"
-#include "IDLList.H"
-#include "fileName.H"
-#include "autoPtr.H"
+#include "db/dictionary/keyType/keyType.H"
+#include "containers/LinkedLists/user/IDLList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

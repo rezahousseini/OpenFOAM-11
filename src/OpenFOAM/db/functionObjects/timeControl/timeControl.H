@@ -36,7 +36,7 @@ SourceFiles
 #ifndef timeControl_H
 #define timeControl_H
 
-#include "Time.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "timeControlI.H"
+#include "db/functionObjects/timeControl/timeControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

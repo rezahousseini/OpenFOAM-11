@@ -27,13 +27,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 
-#include "scalar.H"
-#include "IOstreams.H"
-#include "PtrList.H"
-#include "plane.H"
-#include "DynamicList.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 using namespace Foam;
 

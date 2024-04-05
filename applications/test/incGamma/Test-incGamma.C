@@ -35,9 +35,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "mathematicalConstants.H"
-#include "rawSetWriter.H"
+#include "global/argList/argList.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "sampledSet/writers/raw/rawSetWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

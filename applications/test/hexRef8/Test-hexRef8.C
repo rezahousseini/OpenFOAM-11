@@ -30,19 +30,19 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "hexRef8.H"
-#include "polyTopoChangeMap.H"
-#include "polyTopoChange.H"
-#include "Random.H"
-#include "zeroGradientFvPatchFields.H"
-#include "calculatedPointPatchFields.H"
-#include "pointConstraints.H"
-#include "fvcDiv.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "primitives/Random/Random.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "fields/pointPatchFields/basic/calculated/calculatedPointPatchFields.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
+#include "finiteVolume/fvc/fvcDiv.H"
 
 using namespace Foam;
 
@@ -59,10 +59,10 @@ int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
     argList::validArgs.append("inflate (true|false)");
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     timeSelector::select0(runTime, args);
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
 
     const pointConstraints& pc = pointConstraints::New(pointMesh::New(mesh));
@@ -301,7 +301,7 @@ int main(int argc, char *argv[])
         // Check mesh volume conservation
         if (mesh.moving())
         {
-            #include "volContinuity.H"
+            #include "cfdTools/general/include/volContinuity.H"
         }
         else
         {

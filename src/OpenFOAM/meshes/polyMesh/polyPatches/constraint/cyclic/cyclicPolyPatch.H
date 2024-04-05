@@ -46,12 +46,12 @@ SourceFiles
 #ifndef cyclicPolyPatch_H
 #define cyclicPolyPatch_H
 
-#include "coupledPolyPatch.H"
-#include "cyclicTransform.H"
-#include "edgeList.H"
-#include "polyBoundaryMesh.H"
-#include "diagTensorField.H"
-#include "coupleGroupIdentifier.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicTransform.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "fields/Fields/diagTensorField/diagTensorField.H"
+#include "meshes/Identifiers/patch/coupleGroupIdentifier.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

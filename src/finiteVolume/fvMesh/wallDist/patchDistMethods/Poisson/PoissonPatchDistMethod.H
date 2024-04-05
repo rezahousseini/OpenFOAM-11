@@ -102,7 +102,7 @@ SourceFiles
 #ifndef PoissonPatchDistMethod_H
 #define PoissonPatchDistMethod_H
 
-#include "patchDistMethod.H"
+#include "fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

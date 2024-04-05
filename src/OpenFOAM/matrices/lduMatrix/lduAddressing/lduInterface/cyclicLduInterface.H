@@ -35,9 +35,9 @@ SourceFiles
 #ifndef cyclicLduInterface_H
 #define cyclicLduInterface_H
 
-#include "lduInterface.H"
-#include "transformer.H"
-#include "primitiveFieldsFwd.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

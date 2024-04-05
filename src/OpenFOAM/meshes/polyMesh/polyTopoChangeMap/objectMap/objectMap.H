@@ -36,7 +36,7 @@ SourceFiles
 #ifndef objectMap_H
 #define objectMap_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "objectMapI.H"
+#include "meshes/polyMesh/polyTopoChangeMap/objectMap/objectMapI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

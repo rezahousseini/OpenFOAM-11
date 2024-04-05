@@ -39,8 +39,8 @@ SourceFiles
 #ifndef LLTMatrix_H
 #define LLTMatrix_H
 
-#include "SquareMatrix.H"
-#include "Field.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -91,7 +91,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LLTMatrix.C"
+    #include "matrices/LLTMatrix/LLTMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef UILList_H
 #define UILList_H
 
-#include "label.H"
-#include "uLabel.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -387,7 +387,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UILList.C"
+    #include "containers/LinkedLists/accessTypes/UILList/UILList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

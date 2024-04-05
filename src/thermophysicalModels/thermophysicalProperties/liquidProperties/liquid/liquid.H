@@ -36,8 +36,8 @@ SourceFiles
 #ifndef liquid_H
 #define liquid_H
 
-#include "liquidProperties.H"
-#include "Function1.H"
+#include "liquidProperties/liquidProperties/liquidProperties.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,7 +168,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "liquidI.H"
+#include "liquidProperties/liquid/liquidI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

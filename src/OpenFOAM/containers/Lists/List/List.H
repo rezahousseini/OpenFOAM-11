@@ -40,9 +40,9 @@ SourceFiles
 #ifndef List_H
 #define List_H
 
-#include "UList.H"
-#include "autoPtr.H"
-#include "DynamicListFwd.H"
+#include "containers/Lists/UList/UList.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "containers/Lists/DynamicList/DynamicListFwd.H"
 #include <initializer_list>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -304,12 +304,12 @@ List<T> readList(Istream&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ListI.H"
+#include "containers/Lists/List/ListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "List.C"
+    #include "containers/Lists/List/List.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

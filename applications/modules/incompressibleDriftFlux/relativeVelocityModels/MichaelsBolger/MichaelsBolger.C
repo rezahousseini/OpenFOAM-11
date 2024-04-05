@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MichaelsBolger.H"
-#include "addToRunTimeSelectionTable.H"
+#include "relativeVelocityModels/MichaelsBolger/MichaelsBolger.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

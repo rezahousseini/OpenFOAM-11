@@ -52,10 +52,10 @@ See also
 #define multiphaseEuler_H
 
 #include "fluidSolver.H"
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 #include "phaseCompressibleMomentumTransportModel.H"
-#include "buoyancy.H"
-#include "pressureReference.H"
+#include "cfdTools/general/buoyancy/buoyancy.H"
+#include "cfdTools/general/pressureReference/pressureReference.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

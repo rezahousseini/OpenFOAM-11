@@ -35,11 +35,11 @@ SourceFiles
 #ifndef vtkWriteOps_H
 #define vtkWriteOps_H
 
-#include "floatScalar.H"
-#include "point.H"
-#include "tensor.H"
-#include "labelList.H"
-#include "DynamicList.H"
+#include "primitives/Scalar/floatScalar/floatScalar.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,7 +149,7 @@ namespace vtkWriteOps
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "vtkWriteOpsTemplates.C"
+    #include "vtk/vtkWriteOpsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

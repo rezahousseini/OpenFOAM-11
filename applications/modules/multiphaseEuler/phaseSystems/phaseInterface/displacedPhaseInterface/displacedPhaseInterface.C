@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacedPhaseInterface.H"
-#include "addToRunTimeSelectionTable.H"
+#include "phaseInterface/displacedPhaseInterface/displacedPhaseInterface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

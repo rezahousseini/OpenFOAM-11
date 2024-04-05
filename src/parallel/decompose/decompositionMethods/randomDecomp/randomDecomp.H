@@ -35,7 +35,7 @@ SourceFiles
 #ifndef randomDecomp_H
 #define randomDecomp_H
 
-#include "decompositionMethod.H"
+#include "decompositionMethod/decompositionMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

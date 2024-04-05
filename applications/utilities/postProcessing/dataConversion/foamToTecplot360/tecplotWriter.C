@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "tecplotWriter.H"
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

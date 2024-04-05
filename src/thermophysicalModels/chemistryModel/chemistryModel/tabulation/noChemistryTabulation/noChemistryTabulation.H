@@ -38,7 +38,7 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "chemistryTabulationMethod.H"
+#include "chemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.H"
 
 namespace Foam
 {

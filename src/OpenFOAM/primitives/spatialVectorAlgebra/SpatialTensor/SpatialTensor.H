@@ -49,8 +49,8 @@ See also
 #ifndef SpatialTensor_H
 #define SpatialTensor_H
 
-#include "Tensor.H"
-#include "SpatialVector.H"
+#include "primitives/Tensor/Tensor.H"
+#include "primitives/spatialVectorAlgebra/SpatialVector/SpatialVector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "SpatialTensorI.H"
+#include "primitives/spatialVectorAlgebra/SpatialTensor/SpatialTensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

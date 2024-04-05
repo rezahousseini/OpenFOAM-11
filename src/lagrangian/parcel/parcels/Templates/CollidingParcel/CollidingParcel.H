@@ -37,11 +37,11 @@ SourceFiles
 #ifndef CollidingParcel_H
 #define CollidingParcel_H
 
-#include "particle.H"
-#include "demandDrivenEntry.H"
-#include "CollisionRecordList.H"
-#include "labelFieldIOField.H"
-#include "vectorFieldIOField.H"
+#include "particle/particle.H"
+#include "demandDrivenEntry/demandDrivenEntry.H"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/CollisionRecordList.H"
+#include "fields/Fields/labelField/labelFieldIOField.H"
+#include "fields/Fields/vectorField/vectorFieldIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -321,13 +321,13 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CollidingParcelI.H"
-#include "CollidingParcelTrackingDataI.H"
+#include "parcels/Templates/CollidingParcel/CollidingParcelI.H"
+#include "parcels/Templates/CollidingParcel/CollidingParcelTrackingDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CollidingParcel.C"
+    #include "parcels/Templates/CollidingParcel/CollidingParcel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

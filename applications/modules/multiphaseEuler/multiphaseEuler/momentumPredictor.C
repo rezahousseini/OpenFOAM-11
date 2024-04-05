@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "multiphaseEuler.H"
-#include "fvmSup.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

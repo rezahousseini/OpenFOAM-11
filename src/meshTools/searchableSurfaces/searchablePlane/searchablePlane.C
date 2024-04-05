@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchablePlane.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SortableList.H"
+#include "searchableSurfaces/searchablePlane/searchablePlane.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "containers/Lists/SortableList/SortableList.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

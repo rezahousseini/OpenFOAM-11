@@ -37,7 +37,7 @@ SourceFiles
 #ifndef fluidSolutionControl_H
 #define fluidSolutionControl_H
 
-#include "nonOrthogonalSolutionControl.H"
+#include "cfdTools/general/solutionControl/solutionControl/nonOrthogonalSolutionControl/nonOrthogonalSolutionControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fluidSolutionControlI.H"
+#include "cfdTools/general/solutionControl/solutionControl/fluidSolutionControl/fluidSolutionControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

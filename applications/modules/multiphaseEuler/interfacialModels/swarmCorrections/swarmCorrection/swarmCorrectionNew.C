@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "swarmCorrection.H"
-#include "phaseSystem.H"
+#include "swarmCorrections/swarmCorrection/swarmCorrection.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

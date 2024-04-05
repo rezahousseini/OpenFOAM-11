@@ -39,10 +39,10 @@ makeThermophysicalTransportModelTables
 // Laminar models
 // -------------------------------------------------------------------------- //
 
-#include "Fourier.H"
+#include "laminar/Fourier/Fourier.H"
 makeLaminarThermophysicalTransportModel(Fourier);
 
-#include "unityLewisFourier.H"
+#include "laminar/unityLewisFourier/unityLewisFourier.H"
 makeLaminarThermophysicalTransportModel(unityLewisFourier);
 
 
@@ -50,10 +50,10 @@ makeLaminarThermophysicalTransportModel(unityLewisFourier);
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "eddyDiffusivity.H"
+#include "turbulence/eddyDiffusivity/eddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(RAS, eddyDiffusivity);
 
-#include "unityLewisEddyDiffusivity.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(RAS, unityLewisEddyDiffusivity);
 
 
@@ -61,10 +61,10 @@ makeRASLESThermophysicalTransportModel(RAS, unityLewisEddyDiffusivity);
 // LES models
 // -------------------------------------------------------------------------- //
 
-#include "eddyDiffusivity.H"
+#include "turbulence/eddyDiffusivity/eddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(LES, eddyDiffusivity);
 
-#include "unityLewisEddyDiffusivity.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(LES, unityLewisEddyDiffusivity);
 
 

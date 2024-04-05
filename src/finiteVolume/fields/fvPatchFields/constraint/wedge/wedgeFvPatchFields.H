@@ -26,8 +26,8 @@ License
 #ifndef wedgeFvPatchFields_H
 #define wedgeFvPatchFields_H
 
-#include "wedgeFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/wedge/wedgeFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef segregatedPhaseInterface_H
 #define segregatedPhaseInterface_H
 
-#include "phaseInterface.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

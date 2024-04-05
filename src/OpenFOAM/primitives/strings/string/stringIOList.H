@@ -32,8 +32,8 @@ Description
 #ifndef stringIOList_H
 #define stringIOList_H
 
-#include "stringList.H"
-#include "IOList.H"
+#include "primitives/strings/lists/stringList.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

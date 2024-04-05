@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "limitWith.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/limitWith/limitWith.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

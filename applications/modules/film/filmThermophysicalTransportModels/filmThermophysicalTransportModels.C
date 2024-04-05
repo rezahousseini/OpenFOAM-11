@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmThermophysicalTransportModels.H"
+#include "filmThermophysicalTransportModels/filmThermophysicalTransportModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -47,10 +47,10 @@ makeThermophysicalTransportModelTableType
 // Laminar models
 // -------------------------------------------------------------------------- //
 
-#include "Fourier.H"
+#include "laminar/Fourier/Fourier.H"
 makeLaminarThermophysicalTransportModel(Fourier);
 
-#include "unityLewisFourier.H"
+#include "laminar/unityLewisFourier/unityLewisFourier.H"
 makeLaminarThermophysicalTransportModel(unityLewisFourier);
 
 

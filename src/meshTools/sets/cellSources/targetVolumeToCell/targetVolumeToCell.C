@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "targetVolumeToCell.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "plane.H"
-#include "cellSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sets/cellSources/targetVolumeToCell/targetVolumeToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "sets/topoSets/cellSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

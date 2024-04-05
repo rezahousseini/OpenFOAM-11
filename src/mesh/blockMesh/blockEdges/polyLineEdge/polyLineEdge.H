@@ -35,8 +35,8 @@ SourceFiles
 #ifndef blockEdges_polyLineEdge_H
 #define blockEdges_polyLineEdge_H
 
-#include "blockEdge.H"
-#include "polyLine.H"
+#include "blockEdges/blockEdge/blockEdge.H"
+#include "blockEdges/polyLineEdge/polyLine.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

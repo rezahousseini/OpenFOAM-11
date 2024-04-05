@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellsToCells.H"
-#include "processorPolyPatch.H"
-#include "SubField.H"
-#include "Time.H"
+#include "cellsToCells/cellsToCells/cellsToCells.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

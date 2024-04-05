@@ -35,11 +35,11 @@ SourceFiles
 #ifndef surfaceInterpolation_H
 #define surfaceInterpolation_H
 
-#include "tmp.H"
-#include "scalar.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "className.H"
+#include "memory/tmp/tmp.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

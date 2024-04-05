@@ -67,8 +67,8 @@ SourceFiles
 #ifndef rotatedBoxToFace_H
 #define rotatedBoxToFace_H
 
-#include "topoSetSource.H"
-#include "treeBoundBox.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

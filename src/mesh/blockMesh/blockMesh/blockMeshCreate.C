@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockMesh.H"
-#include "cellModeller.H"
+#include "blockMesh/blockMesh.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

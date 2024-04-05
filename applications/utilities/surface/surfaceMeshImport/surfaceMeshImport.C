@@ -56,11 +56,11 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
 
-#include "MeshedSurfaces.H"
-#include "coordinateSystems.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "coordinateSystems/coordinateSystems.H"
 
 using namespace Foam;
 
@@ -113,8 +113,8 @@ int main(int argc, char *argv[])
         "specify a local coordinate system when writing files."
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // try for the latestTime, but create "constant" as needed
     instantList Times = runTime.times();

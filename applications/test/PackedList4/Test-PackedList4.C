@@ -27,11 +27,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "uLabel.H"
-#include "IOstreams.H"
-#include "PackedBoolList.H"
-#include "IStringStream.H"
-#include "dictionary.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "db/dictionary/dictionary.H"
 
 using namespace Foam;
 

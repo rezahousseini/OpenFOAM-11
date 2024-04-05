@@ -36,7 +36,7 @@ SourceFiles
 #ifndef blockEdge_H
 #define blockEdge_H
 
-#include "searchableSurfaces.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -226,7 +226,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "blockEdgeI.H"
+#include "blockEdges/blockEdge/blockEdgeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

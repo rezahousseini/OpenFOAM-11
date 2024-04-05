@@ -76,20 +76,20 @@ SourceFiles
 #ifndef argList_H
 #define argList_H
 
-#include "stringList.H"
-#include "SubList.H"
-#include "SLList.H"
-#include "HashTable.H"
-#include "word.H"
-#include "fileName.H"
-#include "parRun.H"
-#include "IStringStream.H"
-#include "OSspecific.H"
+#include "primitives/strings/lists/stringList.H"
+#include "containers/Lists/SubList/SubList.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "global/argList/parRun.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "include/OSspecific.H"
 
-#include "sigFpe.H"
-#include "sigInt.H"
-#include "sigQuit.H"
-#include "sigSegv.H"
+#include "signals/sigFpe.H"
+#include "signals/sigInt.H"
+#include "signals/sigQuit.H"
+#include "signals/sigSegv.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -413,7 +413,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "argListI.H"
+#include "global/argList/argListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

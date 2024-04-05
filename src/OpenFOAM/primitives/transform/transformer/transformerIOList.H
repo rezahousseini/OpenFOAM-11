@@ -32,8 +32,8 @@ Description
 #ifndef transformerIOList_H
 #define transformerIOList_H
 
-#include "transformer.H"
-#include "IOList.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

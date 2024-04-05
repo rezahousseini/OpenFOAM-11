@@ -34,8 +34,8 @@ SourceFiles
 #ifndef primitiveMeshTools_H
 #define primitiveMeshTools_H
 
-#include "primitiveMesh.H"
-#include "PackedBoolList.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

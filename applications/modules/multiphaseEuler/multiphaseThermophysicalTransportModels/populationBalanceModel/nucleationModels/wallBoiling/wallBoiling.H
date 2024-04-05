@@ -40,7 +40,7 @@ SourceFiles
 #ifndef wallBoiling_H
 #define wallBoiling_H
 
-#include "nucleationModel.H"
+#include "populationBalanceModel/nucleationModels/nucleationModel/nucleationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

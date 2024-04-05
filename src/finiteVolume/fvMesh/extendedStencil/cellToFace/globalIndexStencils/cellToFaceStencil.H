@@ -36,10 +36,10 @@ SourceFiles
 #ifndef cellToFaceStencil_H
 #define cellToFaceStencil_H
 
-#include "globalIndex.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "indirectPrimitivePatch.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

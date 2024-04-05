@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonUnityLewisEddyDiffusivity.H"
-#include "fvcDiv.H"
-#include "fvcLaplacian.H"
-#include "fvcSnGrad.H"
-#include "fvmSup.H"
-#include "surfaceInterpolate.H"
+#include "turbulence/nonUnityLewisEddyDiffusivity/nonUnityLewisEddyDiffusivity.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

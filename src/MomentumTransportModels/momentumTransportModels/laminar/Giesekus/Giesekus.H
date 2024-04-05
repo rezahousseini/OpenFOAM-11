@@ -47,7 +47,7 @@ SourceFiles
 #ifndef Giesekus_H
 #define Giesekus_H
 
-#include "Maxwell.H"
+#include "laminar/Maxwell/Maxwell.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Giesekus.C"
+    #include "laminar/Giesekus/Giesekus.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

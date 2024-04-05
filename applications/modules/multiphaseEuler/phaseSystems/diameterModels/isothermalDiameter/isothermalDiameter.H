@@ -35,7 +35,7 @@ SourceFiles
 #ifndef isothermalDiameter_H
 #define isothermalDiameter_H
 
-#include "sphericalDiameter.H"
+#include "diameterModels/sphericalDiameter/sphericalDiameter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -75,7 +75,7 @@ SourceFiles
 #ifndef DemandDrivenMeshObject_H
 #define DemandDrivenMeshObject_H
 
-#include "MeshObjects.H"
+#include "meshes/meshObjects/MeshObjects.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -158,7 +158,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DemandDrivenMeshObject.C"
+    #include "meshes/meshObjects/DemandDrivenMeshObject.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

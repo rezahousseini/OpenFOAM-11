@@ -46,8 +46,8 @@ See also
 #ifndef TAB_H
 #define TAB_H
 
-#include "BreakupModel.H"
-#include "FixedList.H"
+#include "submodels/Spray/BreakupModel/BreakupModel/BreakupModel.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TAB.C"
+    #include "submodels/Spray/BreakupModel/TAB/TAB.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

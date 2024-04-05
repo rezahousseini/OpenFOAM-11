@@ -35,11 +35,11 @@ SourceFiles
 #ifndef pairPatchAgglomeration_H
 #define pairPatchAgglomeration_H
 
-#include "mathematicalConstants.H"
-#include "polyPatch.H"
-#include "indirectPrimitivePatch.H"
-#include "List.H"
-#include "EdgeMap.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "containers/Lists/List/List.H"
+#include "meshes/meshShapes/edge/EdgeMap.H"
 
 namespace Foam
 {

@@ -39,7 +39,7 @@ Description
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifndef CREATE_MESH
-    #define CREATE_MESH createMesh.H
+    #define CREATE_MESH include/createMesh.H
 #endif
 
 #ifndef CREATE_FIELDS
@@ -47,7 +47,7 @@ Description
 #endif
 
 #ifndef CREATE_CONTROL
-    #define CREATE_CONTROL createControl.H
+    #define CREATE_CONTROL cfdTools/general/solutionControl/createControl.H
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -66,13 +66,13 @@ Foam::argList::addBoolOption
 if (argList::postProcess(argc, argv))
 {
     Foam::timeSelector::addOptions();
-    #include "addRegionOption.H"
-    #include "addFunctionObjectOptions.H"
+    #include "include/addRegionOption.H"
+    #include "include/addFunctionObjectOptions.H"
 
     // Set functionObject post-processing mode
     functionObject::postProcess = true;
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (args.optionFound("list"))
     {
@@ -86,7 +86,7 @@ if (argList::postProcess(argc, argv))
         return 0;
     }
 
-    #include "createTime.H"
+    #include "include/createTime.H"
     const Foam::instantList timeDirs =
         Foam::timeSelector::select0(runTime, args);
     #include INCLUDE_FILE(CREATE_MESH)

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hierarchGeomDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "PstreamReduceOps.H"
-#include "SortableList.H"
+#include "hierarchGeomDecomp/hierarchGeomDecomp.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "containers/Lists/SortableList/SortableList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

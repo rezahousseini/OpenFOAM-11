@@ -45,9 +45,9 @@ SourceFiles
 #ifndef VoFClouds_H
 #define VoFClouds_H
 
-#include "fvModel.H"
-#include "fluidThermo.H"
-#include "parcelCloudList.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fluidThermo/fluidThermo.H"
+#include "parcelCloud/parcelCloudList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TomiyamaLiftForce.H"
+#include "submodels/Momentum/ParticleForces/Lift/TomiyamaLift/TomiyamaLiftForce.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

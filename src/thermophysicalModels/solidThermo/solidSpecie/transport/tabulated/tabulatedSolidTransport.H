@@ -59,7 +59,7 @@ SourceFiles
 #ifndef tabulatedSolidTransport_H
 #define tabulatedSolidTransport_H
 
-#include "NonUniformTable1.H"
+#include "primitives/functions/Function1/NonUniformTable1/NonUniformTable1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,10 +164,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tabulatedSolidTransportI.H"
+#include "solidSpecie/transport/tabulated/tabulatedSolidTransportI.H"
 
 #ifdef NoRepository
-    #include "tabulatedSolidTransport.C"
+    #include "solidSpecie/transport/tabulated/tabulatedSolidTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

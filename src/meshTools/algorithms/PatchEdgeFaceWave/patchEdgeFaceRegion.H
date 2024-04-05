@@ -36,11 +36,11 @@ SourceFiles
 #ifndef patchEdgeFaceRegion_H
 #define patchEdgeFaceRegion_H
 
-#include "point.H"
-#include "label.H"
-#include "scalar.H"
-#include "tensor.H"
-#include "indirectPrimitivePatch.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -191,7 +191,7 @@ inline bool contiguous<patchEdgeFaceRegion>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchEdgeFaceRegionI.H"
+#include "algorithms/PatchEdgeFaceWave/patchEdgeFaceRegionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

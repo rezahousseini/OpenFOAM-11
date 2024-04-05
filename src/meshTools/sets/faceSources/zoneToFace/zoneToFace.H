@@ -35,8 +35,8 @@ SourceFiles
 #ifndef zoneToFace_H
 #define zoneToFace_H
 
-#include "topoSetSource.H"
-#include "wordRe.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "primitives/strings/wordRe/wordRe.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

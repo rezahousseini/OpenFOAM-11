@@ -29,12 +29,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "clock.H"
-#include "distribution.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "rawSetWriter.H"
+#include "global/argList/argList.H"
+#include "global/clock/clock.H"
+#include "distributions/distribution/distribution.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "sampledSet/writers/raw/rawSetWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

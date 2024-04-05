@@ -24,10 +24,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "loadOrCreateMesh.H"
-#include "processorPolyPatch.H"
-#include "processorCyclicPolyPatch.H"
-#include "IOPtrList.H"
-#include "OSspecific.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processorCyclic/processorCyclicPolyPatch.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

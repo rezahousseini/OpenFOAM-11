@@ -27,12 +27,12 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "starMesh.H"
-#include "boolList.H"
-#include "pointHit.H"
-#include "IOmanip.H"
-#include "boundBox.H"
-#include "Map.H"
-#include "unitConversion.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "meshes/boundBox/boundBox.H"
+#include "containers/HashTables/Map/Map.H"
+#include "global/unitConversion/unitConversion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

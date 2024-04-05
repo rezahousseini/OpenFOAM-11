@@ -35,7 +35,7 @@ SourceFiles
 #ifndef alphaOneFvPatchScalarField_H
 #define alphaOneFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

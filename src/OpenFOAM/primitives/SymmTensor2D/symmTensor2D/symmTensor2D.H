@@ -35,8 +35,8 @@ SourceFiles
 #ifndef symmTensor2D_H
 #define symmTensor2D_H
 
-#include "SymmTensor2D.H"
-#include "contiguous.H"
+#include "primitives/SymmTensor2D/SymmTensor2D.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

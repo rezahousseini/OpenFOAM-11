@@ -32,9 +32,9 @@ Description
 #ifndef faceIOList_H
 #define faceIOList_H
 
-#include "face.H"
-#include "IOList.H"
-#include "CompactIOList.H"
+#include "meshes/meshShapes/face/face.H"
+#include "db/IOobjects/IOList/IOList.H"
+#include "db/IOobjects/CompactIOList/CompactIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

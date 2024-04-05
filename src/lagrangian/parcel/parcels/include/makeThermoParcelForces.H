@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "makeParcelForces.H"
+#include "parcels/include/makeParcelForces.H"
 
-#include "BrownianMotionForce.H"
+#include "submodels/Thermodynamic/ParticleForces/BrownianMotion/BrownianMotionForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

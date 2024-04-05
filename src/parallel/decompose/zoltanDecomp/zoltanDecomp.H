@@ -81,7 +81,7 @@ SourceFiles
 #ifndef zoltanDecomp_H
 #define zoltanDecomp_H
 
-#include "decompositionMethod.H"
+#include "decompositionMethod/decompositionMethod.H"
 
 namespace Foam
 {

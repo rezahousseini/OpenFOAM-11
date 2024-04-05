@@ -38,11 +38,11 @@ SourceFiles
 #ifndef cellsToCells_H
 #define cellsToCells_H
 
-#include "remote.H"
-#include "distributionMap.H"
-#include "polyMesh.H"
-#include "runTimeSelectionTables.H"
-#include "treeBoundBox.H"
+#include "primitives/remote/remote.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -292,12 +292,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellsToCellsI.H"
+#include "cellsToCells/cellsToCells/cellsToCellsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cellsToCellsTemplates.C"
+    #include "cellsToCells/cellsToCells/cellsToCellsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

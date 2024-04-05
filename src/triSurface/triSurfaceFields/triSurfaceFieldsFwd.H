@@ -26,8 +26,8 @@ License
 #ifndef triSurfaceFieldsFwd_H
 #define triSurfaceFieldsFwd_H
 
-#include "fieldTypes.H"
-#include "triSurface.H"
+#include "fields/Fields/fieldTypes.H"
+#include "triSurface/triSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef liquidProperties_H
 #define liquidProperties_H
 
-#include "thermophysicalProperties.H"
+#include "thermophysicalProperties/thermophysicalProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -324,7 +324,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "liquidPropertiesI.H"
+#include "liquidProperties/liquidProperties/liquidPropertiesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -59,8 +59,8 @@ SourceFiles
 #ifndef mappedInternalPatchBase_H
 #define mappedInternalPatchBase_H
 
-#include "polyBoundaryMesh.H"
-#include "distributionMap.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,12 +214,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "mappedInternalPatchBaseI.H"
+#include "mappedPatches/mappedInternalPatchBase/mappedInternalPatchBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedInternalPatchBaseTemplates.C"
+    #include "mappedPatches/mappedInternalPatchBase/mappedInternalPatchBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

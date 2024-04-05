@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveInletOutletFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/waveInletOutlet/waveInletOutletFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

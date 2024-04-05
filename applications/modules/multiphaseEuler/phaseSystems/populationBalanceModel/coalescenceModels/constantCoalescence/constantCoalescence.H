@@ -35,7 +35,7 @@ SourceFiles
 #ifndef constantCoalescence_H
 #define constantCoalescence_H
 
-#include "coalescenceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dripping.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvModels/filmCloudTransfer/ejectionModels/dripping/dripping.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

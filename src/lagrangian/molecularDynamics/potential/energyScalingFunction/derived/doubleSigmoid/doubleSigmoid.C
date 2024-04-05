@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "doubleSigmoid.H"
-#include "addToRunTimeSelectionTable.H"
+#include "energyScalingFunction/derived/doubleSigmoid/doubleSigmoid.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "specieExponent.H"
+#include "reaction/specieExponent/specieExponent.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

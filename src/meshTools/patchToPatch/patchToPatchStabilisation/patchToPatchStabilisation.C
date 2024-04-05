@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchToPatchStabilisation.H"
-#include "PatchEdgeFacePointData.H"
-#include "PatchEdgeFaceWave.H"
-#include "SubField.H"
-#include "globalIndex.H"
-#include "OBJstream.H"
+#include "patchToPatch/patchToPatchStabilisation/patchToPatchStabilisation.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFacePointData.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+#include "fields/Fields/Field/SubField.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

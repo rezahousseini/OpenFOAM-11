@@ -35,10 +35,10 @@ SourceFiles
 #ifndef mppicParcel_H
 #define mppicParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "MomentumParcel.H"
-#include "MPPICParcel.H"
+#include "primitives/contiguous/contiguous.H"
+#include "particle/particle.H"
+#include "parcels/Templates/MomentumParcel/MomentumParcel.H"
+#include "parcels/Templates/MPPICParcel/MPPICParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

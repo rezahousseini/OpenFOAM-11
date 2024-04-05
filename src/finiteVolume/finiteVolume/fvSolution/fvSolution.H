@@ -34,7 +34,7 @@ Description
 #ifndef fvSolution_H
 #define fvSolution_H
 
-#include "solution.H"
+#include "matrices/solution/solution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

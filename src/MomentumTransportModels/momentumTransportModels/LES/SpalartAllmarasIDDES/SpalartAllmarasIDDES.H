@@ -44,8 +44,8 @@ SourceFiles
 #ifndef SpalartAllmarasIDDES_H
 #define SpalartAllmarasIDDES_H
 
-#include "SpalartAllmarasDES.H"
-#include "IDDESDelta.H"
+#include "LES/SpalartAllmarasDES/SpalartAllmarasDES.H"
+#include "LES/LESdeltas/IDDESDelta/IDDESDelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -170,7 +170,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SpalartAllmarasIDDES.C"
+    #include "LES/SpalartAllmarasIDDES/SpalartAllmarasIDDES.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

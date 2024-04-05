@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "buoyancyEnergy.H"
-#include "fvMatrices.H"
-#include "basicThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derived/buoyancyEnergy/buoyancyEnergy.H"
+#include "fvMatrices/fvMatrices.H"
+#include "basicThermo/basicThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

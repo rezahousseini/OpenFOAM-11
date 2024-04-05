@@ -29,12 +29,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "syncTools.H"
-#include "argList.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "Random.H"
-#include "PackedList.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "primitives/Random/Random.H"
+#include "containers/Lists/PackedList/PackedList.H"
 
 using namespace Foam;
 
@@ -588,9 +588,9 @@ void testFaceSync(const polyMesh& mesh, Random& rndGen)
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
 
     Random rndGen(5341*(Pstream::myProcNo()+1));

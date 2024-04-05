@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshObjects.H"
-#include "MeshObjects.H"
+#include "meshes/meshObjects/meshObjects.H"
+#include "meshes/meshObjects/MeshObjects.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

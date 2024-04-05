@@ -63,8 +63,8 @@ SourceFiles
 #ifndef sizeGroup_H
 #define sizeGroup_H
 
-#include "dictionaryEntry.H"
-#include "velocityGroup.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
+#include "diameterModels/velocityGroup/velocityGroup.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,7 +213,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sizeGroupI.H"
+#include "diameterModels/velocityGroup/sizeGroup/sizeGroupI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

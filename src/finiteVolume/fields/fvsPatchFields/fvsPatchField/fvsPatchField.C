@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "dictionary.H"
-#include "fvMesh.H"
-#include "fvPatchFieldMapper.H"
+#include "db/IOobject/IOobject.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -389,6 +389,6 @@ Foam::Ostream& Foam::operator<<(Ostream& os, const fvsPatchField<Type>& ptf)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvsPatchFieldNew.C"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFieldNew.C"
 
 // ************************************************************************* //

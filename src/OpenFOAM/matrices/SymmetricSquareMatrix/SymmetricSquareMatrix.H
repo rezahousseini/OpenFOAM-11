@@ -37,8 +37,8 @@ SourceFiles
 #ifndef SymmetricSquareMatrix_H
 #define SymmetricSquareMatrix_H
 
-#include "SquareMatrix.H"
-#include "Identity.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
+#include "primitives/SphericalTensor/Identity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,12 +118,12 @@ Type det(const SymmetricSquareMatrix<Type>&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SymmetricSquareMatrixI.H"
+#include "matrices/SymmetricSquareMatrix/SymmetricSquareMatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SymmetricSquareMatrix.C"
+    #include "matrices/SymmetricSquareMatrix/SymmetricSquareMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

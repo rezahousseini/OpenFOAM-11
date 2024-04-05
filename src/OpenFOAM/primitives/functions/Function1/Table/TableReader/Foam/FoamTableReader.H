@@ -45,7 +45,7 @@ SourceFiles
 #ifndef FoamTableReader_H
 #define FoamTableReader_H
 
-#include "TableFileReader.H"
+#include "primitives/functions/Function1/Table/TableReader/TableFileReader/TableFileReader.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -105,7 +105,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FoamTableReader.C"
+    #include "primitives/functions/Function1/Table/TableReader/Foam/FoamTableReader.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitedSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "finiteVolume/snGradSchemes/limitedSnGrad/limitedSnGrad.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

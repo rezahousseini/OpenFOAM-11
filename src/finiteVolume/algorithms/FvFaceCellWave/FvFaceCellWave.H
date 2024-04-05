@@ -47,8 +47,8 @@ SourceFiles
 #ifndef FvFaceCellWave_H
 #define FvFaceCellWave_H
 
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -360,7 +360,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FvFaceCellWave.C"
+    #include "algorithms/FvFaceCellWave/FvFaceCellWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

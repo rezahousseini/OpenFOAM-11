@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "powerLaw.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/breakupModels/powerLaw/powerLaw.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ifeqEntry.H"
-#include "stringOps.H"
-#include "ifEntry.H"
-#include "Switch.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/ifeqEntry/ifeqEntry.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/dictionary/functionEntries/ifEntry/ifEntry.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

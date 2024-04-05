@@ -35,7 +35,7 @@ SourceFiles
 #ifndef snappyLayerDriver_H
 #define snappyLayerDriver_H
 
-#include "meshRefinement.H"
+#include "meshRefinement/meshRefinement.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -610,7 +610,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "snappyLayerDriverTemplates.C"
+    #include "snappyHexMeshDriver/snappyLayerDriverTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

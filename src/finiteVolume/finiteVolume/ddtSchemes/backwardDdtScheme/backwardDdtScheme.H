@@ -36,7 +36,7 @@ SourceFiles
 #ifndef backwardDdtScheme_H
 #define backwardDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -311,7 +311,7 @@ tmp<surfaceScalarField> backwardDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "backwardDdtScheme.C"
+    #include "finiteVolume/ddtSchemes/backwardDdtScheme/backwardDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

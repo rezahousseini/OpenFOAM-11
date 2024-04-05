@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceSurfaceTensionModel.H"
-#include "phaseSystem.H"
+#include "interfaceSurfaceTensionModels/interfaceSurfaceTensionModel/interfaceSurfaceTensionModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

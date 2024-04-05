@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SchillerNaumann.H"
-#include "addToRunTimeSelectionTable.H"
+#include "dragModels/SchillerNaumann/SchillerNaumann.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef blendingMethod_H
 #define blendingMethod_H
 
-#include "phaseInterface.H"
-#include "runTimeSelectionTables.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

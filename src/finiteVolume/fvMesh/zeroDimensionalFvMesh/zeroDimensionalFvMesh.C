@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroDimensionalFvMesh.H"
-#include "emptyPolyPatch.H"
+#include "fvMesh/zeroDimensionalFvMesh/zeroDimensionalFvMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

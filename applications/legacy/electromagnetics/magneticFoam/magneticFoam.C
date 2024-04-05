@@ -34,16 +34,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
+#include "global/argList/argList.H"
 #include "magnet.H"
-#include "electromagneticConstants.H"
-#include "simpleControl.H"
+#include "global/constants/electromagnetic/electromagneticConstants.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
 
-#include "fvcGrad.H"
-#include "fvcSnGrad.H"
-#include "fvcReconstruct.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
 
-#include "fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 using namespace Foam;
 
@@ -69,9 +69,9 @@ int main(int argc, char *argv[])
         "write the paramagnetic particle force field"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     simpleControl simple(mesh);
 

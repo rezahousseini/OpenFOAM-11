@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonConformalCyclicPointPatchField.H"
+#include "nonConformal/pointPatchFields/nonConformalCyclic/nonConformalCyclicPointPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

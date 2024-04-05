@@ -43,7 +43,7 @@ SourceFiles
 #ifndef laplaceFilter_H
 #define laplaceFilter_H
 
-#include "LESfilter.H"
+#include "LES/LESfilters/LESfilter/LESfilter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

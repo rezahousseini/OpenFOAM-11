@@ -35,7 +35,7 @@ Description
 #ifndef quadraticFitPolynomial_H
 #define quadraticFitPolynomial_H
 
-#include "vector.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

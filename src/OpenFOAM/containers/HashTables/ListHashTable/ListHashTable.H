@@ -41,10 +41,10 @@ SourceFiles
 #ifndef ListHashTable_H
 #define ListHashTable_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "word.H"
-#include "className.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/strings/word/word.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -395,13 +395,13 @@ private:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "ListHashTableI.H"
+    #include "containers/HashTables/ListHashTable/ListHashTableI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifndef NoListHashTableC
 #ifdef NoRepository
-    #include "ListHashTable.C"
+    #include "containers/HashTables/ListHashTable/ListHashTable.C"
 #endif
 #endif
 

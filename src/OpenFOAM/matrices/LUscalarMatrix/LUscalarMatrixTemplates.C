@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LUscalarMatrix.H"
-#include "SubField.H"
+#include "matrices/LUscalarMatrix/LUscalarMatrix.H"
+#include "fields/Fields/Field/SubField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

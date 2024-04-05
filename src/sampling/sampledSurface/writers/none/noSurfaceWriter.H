@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noSurfaceWriter_H
 #define noSurfaceWriter_H
 
-#include "surfaceWriter.H"
+#include "sampledSurface/writers/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

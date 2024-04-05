@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshReader.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "faceSet.H"
-#include "emptyPolyPatch.H"
-#include "cellModeller.H"
-#include "demandDrivenData.H"
-#include "polyMeshUnMergeCyclics.H"
+#include "meshReader/meshReader.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "sets/topoSets/faceSet.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "include/demandDrivenData.H"
+#include "mergedCyclic/polyMeshUnMergeCyclics.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

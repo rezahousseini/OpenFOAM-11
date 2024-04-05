@@ -44,7 +44,7 @@ Usage
 #ifndef constant_H
 #define constant_H
 
-#include "heatTransferCoefficientModel.H"
+#include "derived/heatTransfer/heatTransferCoefficientModels/heatTransferCoefficientModel/heatTransferCoefficientModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

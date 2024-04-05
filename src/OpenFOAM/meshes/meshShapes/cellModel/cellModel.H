@@ -39,11 +39,11 @@ SourceFiles
 #ifndef cellModel_H
 #define cellModel_H
 
-#include "pointField.H"
-#include "edgeList.H"
-#include "faceList.H"
-#include "InfoProxy.H"
-#include "autoPtr.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ Ostream& operator<<(Ostream& os, const InfoProxy<cellModel>& ip);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellModelI.H"
+#include "meshes/meshShapes/cellModel/cellModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

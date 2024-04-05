@@ -43,7 +43,7 @@ SourceFiles
 #ifndef KocamustafaogullariIshiiNucleationSite_H
 #define KocamustafaogullariIshiiNucleationSite_H
 
-#include "nucleationSiteModel.H"
+#include "wallBoilingSubModels/nucleationSiteModels/nucleationSiteModel/nucleationSiteModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

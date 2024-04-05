@@ -50,8 +50,8 @@ SourceFiles
 #ifndef bladeModel_H
 #define bladeModel_H
 
-#include "List.H"
-#include "dictionary.H"
+#include "containers/Lists/List/List.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

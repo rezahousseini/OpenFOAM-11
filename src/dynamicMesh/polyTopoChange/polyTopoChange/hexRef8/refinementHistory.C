@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementHistory.H"
-#include "polyTopoChangeMap.H"
-#include "polyDistributionMap.H"
-#include "polyMesh.H"
-#include "syncTools.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/refinementHistory.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

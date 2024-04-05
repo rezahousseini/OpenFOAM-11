@@ -39,9 +39,9 @@ SourceFiles
 #ifndef createShellMesh_H
 #define createShellMesh_H
 
-#include "primitiveFacePatch.H"
-#include "PackedBoolList.H"
-#include "labelPair.H"
+#include "meshes/primitiveMesh/primitivePatch/primitiveFacePatch.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

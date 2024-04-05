@@ -39,7 +39,7 @@ SourceFiles
 #ifndef quarterSineRamp_H
 #define quarterSineRamp_H
 
-#include "Ramp.H"
+#include "primitives/functions/Function1/Ramp/Ramp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -104,7 +104,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "quarterSineRampI.H"
+#include "primitives/functions/Function1/quarterSineRamp/quarterSineRampI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

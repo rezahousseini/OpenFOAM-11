@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kkLOmega.H"
-#include "bound.H"
-#include "wallDist.H"
+#include "RAS/kkLOmega/kkLOmega.H"
+#include "cfdTools/general/bound/bound.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
 #include "makeMomentumTransportModel.H"
 
 makeMomentumTransportModelTypes

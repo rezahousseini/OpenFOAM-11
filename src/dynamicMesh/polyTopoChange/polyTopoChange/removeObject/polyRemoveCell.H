@@ -32,8 +32,8 @@ Description
 #ifndef polyRemoveCell_H
 #define polyRemoveCell_H
 
-#include "label.H"
-#include "topoAction.H"
+#include "primitives/ints/label/label.H"
+#include "polyTopoChange/polyTopoChange/topoAction/topoAction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

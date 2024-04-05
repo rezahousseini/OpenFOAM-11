@@ -25,9 +25,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "db/Time/timeSelector.H"
 
 using namespace Foam;
 
@@ -40,8 +40,8 @@ int main(int argc, char *argv[])
     // timeSelector::addOptions();
     timeSelector::addOptions(true, true);
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     Info<< "Times found:" << runTime.times() << endl;
 

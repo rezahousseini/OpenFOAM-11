@@ -43,15 +43,15 @@ SourceFiles
 #ifndef face_H
 #define face_H
 
-#include "pointField.H"
-#include "labelList.H"
-#include "edgeList.H"
-#include "vectorField.H"
-#include "faceListFwd.H"
-#include "DynamicListFwd.H"
-#include "intersection.H"
-#include "pointHit.H"
-#include "ListListOps.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "meshes/meshShapes/face/faceListFwd.H"
+#include "containers/Lists/DynamicList/DynamicListFwd.H"
+#include "meshes/primitiveShapes/triangle/intersection.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -343,10 +343,10 @@ label longestEdge(const face& f, const pointField& pts);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "faceI.H"
+#include "meshes/meshShapes/face/faceI.H"
 
 #ifdef NoRepository
-    #include "faceTemplates.C"
+    #include "meshes/meshShapes/face/faceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setWriteIntervalFunctionObject.H"
-#include "addToRunTimeSelectionTable.H"
+#include "setWriteInterval/setWriteIntervalFunctionObject.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

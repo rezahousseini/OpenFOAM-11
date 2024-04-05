@@ -36,7 +36,7 @@ SourceFiles
 #define solidThermophysicalTransportModel_H
 
 #include "thermophysicalTransportModel.H"
-#include "solidThermo.H"
+#include "solidThermo/solidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -122,11 +122,11 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "runTimeSelectionToC.H"
-#include "dlLibraryTable.H"
-#include "HashSet.H"
-#include "IOmanip.H"
+#include "global/argList/argList.H"
+#include "global/runTimeSelectionToC/runTimeSelectionToC.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 using namespace Foam;
 

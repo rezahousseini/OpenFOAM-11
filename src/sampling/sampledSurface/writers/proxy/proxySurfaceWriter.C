@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "proxySurfaceWriter.H"
-#include "MeshedSurfaceProxy.H"
+#include "sampledSurface/writers/proxy/proxySurfaceWriter.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

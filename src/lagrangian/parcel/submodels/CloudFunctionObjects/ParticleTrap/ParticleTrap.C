@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleTrap.H"
-#include "fvcGrad.H"
+#include "submodels/CloudFunctionObjects/ParticleTrap/ParticleTrap.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

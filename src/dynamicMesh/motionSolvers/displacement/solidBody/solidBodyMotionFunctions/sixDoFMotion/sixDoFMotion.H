@@ -39,10 +39,10 @@ SourceFiles
 #ifndef sixDoFMotion_H
 #define sixDoFMotion_H
 
-#include "solidBodyMotionFunction.H"
-#include "Function1.H"
-#include "Vector2D.H"
-#include "primitiveFields.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/solidBodyMotionFunction/solidBodyMotionFunction.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "primitives/Vector2D/Vector2D.H"
+#include "fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

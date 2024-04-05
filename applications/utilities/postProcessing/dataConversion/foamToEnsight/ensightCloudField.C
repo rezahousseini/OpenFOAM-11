@@ -24,10 +24,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ensightCloudField.H"
-#include "Time.H"
-#include "IOField.H"
-#include "OFstream.H"
-#include "IOmanip.H"
+#include "db/Time/Time.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 using namespace Foam;
 

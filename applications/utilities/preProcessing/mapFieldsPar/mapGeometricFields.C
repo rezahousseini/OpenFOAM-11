@@ -24,11 +24,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "mapGeometricFields.H"
-#include "fvMeshToFvMesh.H"
-#include "surfaceMesh.H"
-#include "pointMesh.H"
-#include "IOobjectList.H"
-#include "OSspecific.H"
+#include "fvMeshToFvMesh/fvMeshToFvMesh.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

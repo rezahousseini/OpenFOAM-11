@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heatSource.H"
-#include "basicThermo.H"
-#include "fvModels.H"
-#include "fvMatrix.H"
-#include "Scale.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derived/heatSource/heatSource.H"
+#include "basicThermo/basicThermo.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "primitives/functions/Function1/Scale/Scale.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

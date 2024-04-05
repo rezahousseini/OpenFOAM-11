@@ -40,8 +40,8 @@ SourceFiles
 #ifndef EulerImplicit_H
 #define EulerImplicit_H
 
-#include "chemistrySolver.H"
-#include "simpleMatrix.H"
+#include "chemistrySolver/chemistrySolver/chemistrySolver.H"
+#include "matrices/simpleMatrix/simpleMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "EulerImplicit.C"
+    #include "chemistrySolver/EulerImplicit/EulerImplicit.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MPLICU.H"
-#include "slicedSurfaceFields.H"
-#include "upwind.H"
+#include "MPLIC/MPLICU.H"
+#include "fields/surfaceFields/slicedSurfaceFields.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -157,8 +157,8 @@ SourceFiles
 #ifndef functionObjects_surfaceFieldValue_H
 #define functionObjects_surfaceFieldValue_H
 
-#include "fieldValue.H"
-#include "NamedEnum.H"
+#include "fieldValues/fieldValue/fieldValue.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -505,12 +505,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "surfaceFieldValueI.H"
+#include "fieldValues/surfaceFieldValue/surfaceFieldValueI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "surfaceFieldValueTemplates.C"
+    #include "fieldValues/surfaceFieldValue/surfaceFieldValueTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

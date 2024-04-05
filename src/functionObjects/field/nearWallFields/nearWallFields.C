@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nearWallFields.H"
-#include "wordReList.H"
-#include "findCellParticle.H"
-#include "OBJstream.H"
-#include "globalIndex.H"
-#include "addToRunTimeSelectionTable.H"
+#include "nearWallFields/nearWallFields.H"
+#include "primitives/strings/lists/wordReList.H"
+#include "nearWallFields/findCellParticle.H"
+#include "obj/OBJstream.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

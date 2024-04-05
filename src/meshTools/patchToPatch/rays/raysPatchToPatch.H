@@ -41,7 +41,7 @@ SourceFiles
 #ifndef raysPatchToPatch_H
 #define raysPatchToPatch_H
 
-#include "patchToPatch.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

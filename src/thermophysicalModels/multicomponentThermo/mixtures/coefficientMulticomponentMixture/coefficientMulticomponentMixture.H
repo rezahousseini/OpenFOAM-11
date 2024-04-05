@@ -36,7 +36,7 @@ SourceFiles
 #ifndef coefficientMulticomponentMixture_H
 #define coefficientMulticomponentMixture_H
 
-#include "multicomponentMixture.H"
+#include "mixtures/multicomponentMixture/multicomponentMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coefficientMulticomponentMixture.C"
+    #include "mixtures/coefficientMulticomponentMixture/coefficientMulticomponentMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

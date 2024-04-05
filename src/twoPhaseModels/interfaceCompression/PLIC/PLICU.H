@@ -67,7 +67,7 @@ SourceFiles
 #ifndef PLICU_H
 #define PLICU_H
 
-#include "PLIC.H"
+#include "PLIC/PLIC.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

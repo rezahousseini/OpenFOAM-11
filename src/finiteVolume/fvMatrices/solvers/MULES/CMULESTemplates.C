@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CMULES.H"
-#include "fvcSurfaceIntegrate.H"
-#include "localEulerDdtScheme.H"
-#include "slicedSurfaceFields.H"
-#include "wedgeFvPatch.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "fields/surfaceFields/slicedSurfaceFields.H"
+#include "fvMesh/fvPatches/constraint/wedge/wedgeFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

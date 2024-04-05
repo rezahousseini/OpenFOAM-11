@@ -62,8 +62,8 @@ SourceFiles
 #ifndef fvModelFunctionObject_H
 #define fvModelFunctionObject_H
 
-#include "fvMeshFunctionObject.H"
-#include "fvModel.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "cfdTools/general/fvModels/fvModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

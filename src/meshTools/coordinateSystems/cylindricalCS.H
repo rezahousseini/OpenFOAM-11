@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cylindricalCS_H
 #define cylindricalCS_H
 
-#include "coordinateSystem.H"
+#include "coordinateSystems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

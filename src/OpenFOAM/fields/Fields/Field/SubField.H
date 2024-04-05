@@ -39,9 +39,9 @@ SourceFiles
 #ifndef SubField_H
 #define SubField_H
 
-#include "SubList.H"
-#include "Field.H"
-#include "VectorSpace.H"
+#include "containers/Lists/SubList/SubList.H"
+#include "fields/Fields/Field/Field.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SubFieldI.H"
+#include "fields/Fields/Field/SubFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

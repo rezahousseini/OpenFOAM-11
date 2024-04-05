@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TDILUPreconditioner.H"
+#include "matrices/LduMatrix/Preconditioners/DILUPreconditioner/TDILUPreconditioner.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

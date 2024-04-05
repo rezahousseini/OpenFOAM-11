@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "pointFieldReconstructor.H"
-#include "fvMesh.H"
-#include "reversePointPatchFieldMapper.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/pointPatchFields/pointPatchField/reversePointPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

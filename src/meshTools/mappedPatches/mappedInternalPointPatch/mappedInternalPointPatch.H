@@ -32,9 +32,9 @@ SourceFiles
 #ifndef mappedInternalPointPatch_H
 #define mappedInternalPointPatch_H
 
-#include "facePointPatch.H"
-#include "mappedInternalPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "mappedPatches/mappedInternalPolyPatch/mappedInternalPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

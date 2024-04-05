@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussConvectionScheme.H"
-#include "blendedSchemeBase.H"
-#include "fvcCellReduce.H"
+#include "finiteVolume/convectionSchemes/gaussConvectionScheme/gaussConvectionScheme.H"
+#include "interpolation/surfaceInterpolation/blendedSchemeBase/blendedSchemeBase.H"
+#include "finiteVolume/fvc/fvcCellReduce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

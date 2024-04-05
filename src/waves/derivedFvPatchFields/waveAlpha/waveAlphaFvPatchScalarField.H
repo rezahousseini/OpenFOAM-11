@@ -58,8 +58,8 @@ SourceFiles
 #ifndef waveAlphaFvPatchScalarField_H
 #define waveAlphaFvPatchScalarField_H
 
-#include "fixedValueInletOutletFvPatchFields.H"
-#include "waveSuperposition.H"
+#include "fields/fvPatchFields/derived/fixedValueInletOutlet/fixedValueInletOutletFvPatchFields.H"
+#include "waveSuperpositions/waveSuperposition/waveSuperposition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

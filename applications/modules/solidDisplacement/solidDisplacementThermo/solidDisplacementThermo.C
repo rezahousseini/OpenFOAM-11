@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidDisplacementThermo.H"
+#include "solidDisplacementThermo/solidDisplacementThermo.H"
 
 /* * * * * * * * * * * * * * * Private Static Data * * * * * * * * * * * * * */
 

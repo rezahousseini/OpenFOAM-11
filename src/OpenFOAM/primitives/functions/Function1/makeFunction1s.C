@@ -23,21 +23,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "None.H"
-#include "Constant.H"
-#include "Uniform.H"
-#include "ZeroConstant.H"
-#include "OneConstant.H"
-#include "Polynomial1.H"
-#include "Sine.H"
-#include "Square.H"
-#include "Table.H"
-#include "UniformTable1.H"
-#include "NonUniformTable1.H"
-#include "Scale.H"
-#include "CodedFunction1.H"
+#include "primitives/functions/Function1/None/None.H"
+#include "primitives/functions/Function1/Constant/Constant.H"
+#include "primitives/functions/Function1/Uniform/Uniform.H"
+#include "primitives/functions/Function1/Zero/ZeroConstant.H"
+#include "primitives/functions/Function1/One/OneConstant.H"
+#include "primitives/functions/Function1/Polynomial1/Polynomial1.H"
+#include "primitives/functions/Function1/Sine/Sine.H"
+#include "primitives/functions/Function1/Square/Square.H"
+#include "primitives/functions/Function1/Table/Table.H"
+#include "primitives/functions/Function1/UniformTable1/UniformTable1.H"
+#include "primitives/functions/Function1/NonUniformTable1/NonUniformTable1.H"
+#include "primitives/functions/Function1/Scale/Scale.H"
+#include "primitives/functions/Function1/Coded/CodedFunction1.H"
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

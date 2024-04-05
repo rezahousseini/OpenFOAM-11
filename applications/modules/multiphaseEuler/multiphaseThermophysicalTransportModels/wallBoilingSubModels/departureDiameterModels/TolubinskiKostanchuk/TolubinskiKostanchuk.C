@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TolubinskiKostanchuk.H"
-#include "wallBoilingModelsCoefficient.H"
-#include "addToRunTimeSelectionTable.H"
+#include "wallBoilingSubModels/departureDiameterModels/TolubinskiKostanchuk/TolubinskiKostanchuk.H"
+#include "wallBoilingSubModels/wallBoilingModelsCoefficient.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

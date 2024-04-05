@@ -45,8 +45,8 @@ SourceFiles
 #ifndef SizeDistribution_H
 #define SizeDistribution_H
 
-#include "CloudFunctionObject.H"
-#include "setWriter.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "sampledSet/writers/setWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -120,7 +120,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SizeDistribution.C"
+    #include "submodels/CloudFunctionObjects/SizeDistribution/SizeDistribution.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

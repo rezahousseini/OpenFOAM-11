@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nearestPatchToPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "boundSphere.H"
-#include "OFstream.H"
-#include "OBJstream.H"
-#include "vtkWritePolyData.H"
-#include "mathematicalConstants.H"
+#include "patchToPatch/nearest/nearestPatchToPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "algorithms/boundSphere/boundSphere.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "obj/OBJstream.H"
+#include "vtk/vtkWritePolyData.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

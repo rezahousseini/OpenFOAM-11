@@ -32,8 +32,8 @@ Description
 #ifndef objectHit_H
 #define objectHit_H
 
-#include "bool.H"
-#include "label.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

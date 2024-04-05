@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseSystem.H"
-#include "MomentumTransferPhaseSystem.H"
-#include "OneResistanceHeatTransferPhaseSystem.H"
-#include "TwoResistanceHeatTransferPhaseSystem.H"
-#include "PhaseTransferPhaseSystem.H"
-#include "InterfaceCompositionPhaseChangePhaseSystem.H"
-#include "ThermalPhaseChangePhaseSystem.H"
-#include "PopulationBalancePhaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "phaseSystem/phaseSystem.H"
+#include "PhaseSystems/MomentumTransferPhaseSystem/MomentumTransferPhaseSystem.H"
+#include "PhaseSystems/OneResistanceHeatTransferPhaseSystem/OneResistanceHeatTransferPhaseSystem.H"
+#include "TwoResistanceHeatTransferPhaseSystem/TwoResistanceHeatTransferPhaseSystem.H"
+#include "PhaseSystems/PhaseTransferPhaseSystem/PhaseTransferPhaseSystem.H"
+#include "PhaseSystems/InterfaceCompositionPhaseChangePhaseSystem/InterfaceCompositionPhaseChangePhaseSystem.H"
+#include "PhaseSystems/ThermalPhaseChangePhaseSystem/ThermalPhaseChangePhaseSystem.H"
+#include "PhaseSystems/PopulationBalancePhaseSystem/PopulationBalancePhaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

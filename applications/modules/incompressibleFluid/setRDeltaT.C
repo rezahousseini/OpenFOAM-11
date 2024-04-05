@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleFluid.H"
-#include "fvcSmooth.H"
-#include "fvcSurfaceIntegrate.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

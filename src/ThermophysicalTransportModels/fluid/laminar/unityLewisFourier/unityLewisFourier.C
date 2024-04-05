@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "unityLewisFourier.H"
-#include "fvmLaplacian.H"
-#include "fvcSnGrad.H"
-#include "surfaceInterpolate.H"
+#include "laminar/unityLewisFourier/unityLewisFourier.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

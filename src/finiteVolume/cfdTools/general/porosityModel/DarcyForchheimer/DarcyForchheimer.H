@@ -52,8 +52,8 @@ SourceFiles
 #ifndef DarcyForchheimer_H
 #define DarcyForchheimer_H
 
-#include "porosityModel.H"
-#include "dimensionedTensor.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModel.H"
+#include "dimensionedTypes/dimensionedTensor/dimensionedTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -189,7 +189,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DarcyForchheimerTemplates.C"
+    #include "cfdTools/general/porosityModel/DarcyForchheimer/DarcyForchheimerTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

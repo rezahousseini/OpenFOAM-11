@@ -35,9 +35,9 @@ SourceFiles
 #ifndef STLtriangle_H
 #define STLtriangle_H
 
-#include "STLpoint.H"
-#include "Istream.H"
-#include "Ostream.H"
+#include "surfaceFormats/stl/STLpoint.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -128,7 +128,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "STLtriangleI.H"
+#include "surfaceFormats/stl/STLtriangleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

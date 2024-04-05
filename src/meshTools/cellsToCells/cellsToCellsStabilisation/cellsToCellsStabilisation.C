@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellsToCellsStabilisation.H"
-#include "syncTools.H"
-#include "wallPoint.H"
-#include "WallLocationData.H"
-#include "WallInfo.H"
-#include "FaceCellWave.H"
-#include "globalIndex.H"
-#include "OBJstream.H"
+#include "cellsToCells/cellsToCellsStabilisation/cellsToCellsStabilisation.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "patchDist/WallLocation/wallPoint.H"
+#include "patchDist/WallLocation/WallLocationData.H"
+#include "patchDist/WallInfo/WallInfo.H"
+#include "algorithms/FaceCellWave/FaceCellWave.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

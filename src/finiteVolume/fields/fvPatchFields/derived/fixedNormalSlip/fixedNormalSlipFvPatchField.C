@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedNormalSlipFvPatchField.H"
-#include "symmTransformField.H"
+#include "fields/fvPatchFields/derived/fixedNormalSlip/fixedNormalSlipFvPatchField.H"
+#include "fields/Fields/symmTransformField/symmTransformField.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

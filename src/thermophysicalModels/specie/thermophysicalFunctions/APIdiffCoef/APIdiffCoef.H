@@ -38,7 +38,7 @@ Description
 #ifndef APIdiffCoef_H
 #define APIdiffCoef_H
 
-#include "Function2.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

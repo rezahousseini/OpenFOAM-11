@@ -75,7 +75,7 @@ SourceFiles
 #ifndef Laakkonen_H
 #define Laakkonen_H
 
-#include "breakupModel.H"
+#include "populationBalanceModel/breakupModels/breakupModel/breakupModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

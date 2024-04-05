@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "decomposedBlockData.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 using namespace Foam;
 
@@ -42,7 +42,7 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
     argList::validArgs.append("file");
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (!Pstream::parRun())
     {
@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
             << "Run in parallel" << exit(FatalError);
     }
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     const fileName file(args[1]);
 

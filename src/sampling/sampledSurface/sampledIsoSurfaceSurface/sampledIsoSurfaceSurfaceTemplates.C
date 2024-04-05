@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledIsoSurfaceSurface.H"
-#include "interpolationVolPointInterpolation.H"
+#include "sampledSurface/sampledIsoSurfaceSurface/sampledIsoSurfaceSurface.H"
+#include "interpolation/interpolation/interpolationVolPointInterpolation/interpolationVolPointInterpolation.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

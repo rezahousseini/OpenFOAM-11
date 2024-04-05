@@ -34,8 +34,8 @@ SourceFiles
 #ifndef uniformDimensionedFields_H
 #define uniformDimensionedFields_H
 
-#include "UniformDimensionedField.H"
-#include "fieldTypes.H"
+#include "fields/UniformDimensionedFields/UniformDimensionedField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

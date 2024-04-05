@@ -44,7 +44,7 @@ SourceFiles
 #ifndef equilibrium_H
 #define equilibrium_H
 
-#include "TimeScaleModel.H"
+#include "submodels/MPPIC/TimeScaleModels/TimeScaleModel/TimeScaleModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

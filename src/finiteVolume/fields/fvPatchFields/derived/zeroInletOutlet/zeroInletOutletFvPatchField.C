@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroInletOutletFvPatchField.H"
+#include "fields/fvPatchFields/derived/zeroInletOutlet/zeroInletOutletFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

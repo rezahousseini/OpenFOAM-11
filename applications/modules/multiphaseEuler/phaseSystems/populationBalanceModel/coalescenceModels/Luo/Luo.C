@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Luo.H"
-#include "addToRunTimeSelectionTable.H"
-#include "dispersedVirtualMassModel.H"
-#include "phaseSystem.H"
+#include "populationBalanceModel/coalescenceModels/Luo/Luo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "virtualMassModels/dispersedVirtualMassModel/dispersedVirtualMassModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

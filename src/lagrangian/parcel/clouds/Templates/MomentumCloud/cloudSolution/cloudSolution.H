@@ -36,9 +36,9 @@ SourceFiles
 #ifndef cloudSolution_H
 #define cloudSolution_H
 
-#include "fvMesh.H"
-#include "Switch.H"
-#include "Tuple2.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/Tuple2/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -210,7 +210,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cloudSolutionI.H"
+#include "clouds/Templates/MomentumCloud/cloudSolution/cloudSolutionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

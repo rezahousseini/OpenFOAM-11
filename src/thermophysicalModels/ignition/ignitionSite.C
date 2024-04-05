@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ignitionSite.H"
-#include "Time.H"
-#include "volFields.H"
+#include "db/Time/Time.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

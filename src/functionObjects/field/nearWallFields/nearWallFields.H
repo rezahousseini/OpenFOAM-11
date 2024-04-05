@@ -76,10 +76,10 @@ SourceFiles
 #ifndef functionObjects_nearWallFields_H
 #define functionObjects_nearWallFields_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFields.H"
-#include "Tuple2.H"
-#include "interpolationCellPoint.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFields.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -220,7 +220,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nearWallFieldsTemplates.C"
+    #include "nearWallFields/nearWallFieldsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

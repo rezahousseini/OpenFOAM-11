@@ -34,7 +34,7 @@ SourceFiles
 #ifndef compressibleMultiphaseVoFMixtureThermo_H
 #define compressibleMultiphaseVoFMixtureThermo_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

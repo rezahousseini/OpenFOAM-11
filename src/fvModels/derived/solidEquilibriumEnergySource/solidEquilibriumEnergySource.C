@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidEquilibriumEnergySource.H"
-#include "fvmDdt.H"
-#include "fvmLaplacian.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derived/solidEquilibriumEnergySource/solidEquilibriumEnergySource.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

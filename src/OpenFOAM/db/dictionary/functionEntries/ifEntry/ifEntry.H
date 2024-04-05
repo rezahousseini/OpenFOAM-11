@@ -55,7 +55,7 @@ SourceFiles
 #ifndef ifEntry_H
 #define ifEntry_H
 
-#include "ifeqEntry.H"
+#include "db/dictionary/functionEntries/ifeqEntry/ifeqEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

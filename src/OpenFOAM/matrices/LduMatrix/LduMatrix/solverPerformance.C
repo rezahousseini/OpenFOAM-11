@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solverPerformance.H"
-#include "fieldTypes.H"
+#include "matrices/LduMatrix/LduMatrix/solverPerformance.H"
+#include "fields/Fields/fieldTypes.H"
 
 namespace Foam
 {

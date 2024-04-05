@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "metisDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/Time.H"
 
 static const char* notImplementedMessage =
 "You are trying to use metis but do not have the metisDecomp library loaded."

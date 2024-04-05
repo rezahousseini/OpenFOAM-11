@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetPointRef.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "cutTriTet.H"
+#include "meshes/primitiveShapes/tetrahedron/tetPointRef.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "cutTriTet/cutTriTet.H"
 
 using namespace Foam;
 

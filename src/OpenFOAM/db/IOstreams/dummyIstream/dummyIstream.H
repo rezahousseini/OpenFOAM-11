@@ -34,7 +34,7 @@ SourceFiles
 #ifndef dummyIstream_H
 #define dummyIstream_H
 
-#include "Istream.H"
+#include "db/IOstreams/IOstreams/Istream.H"
 //#include <sstream>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

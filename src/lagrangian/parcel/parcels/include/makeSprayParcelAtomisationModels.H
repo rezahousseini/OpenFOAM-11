@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoAtomisation.H"
-#include "BlobsSheetAtomisation.H"
-#include "LISAAtomisation.H"
+#include "submodels/Spray/AtomisationModel/NoAtomisation/NoAtomisation.H"
+#include "submodels/Spray/AtomisationModel/BlobsSheetAtomisation/BlobsSheetAtomisation.H"
+#include "submodels/Spray/AtomisationModel/LISAAtomisation/LISAAtomisation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -48,7 +48,7 @@ See also
 #ifndef CompactSpatialTensor_H
 #define CompactSpatialTensor_H
 
-#include "SpatialTensor.H"
+#include "primitives/spatialVectorAlgebra/SpatialTensor/SpatialTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,8 +130,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "CompactSpatialTensorT.H"
-#include "CompactSpatialTensorI.H"
+#include "primitives/spatialVectorAlgebra/CompactSpatialTensorT/CompactSpatialTensorT.H"
+#include "primitives/spatialVectorAlgebra/CompactSpatialTensor/CompactSpatialTensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

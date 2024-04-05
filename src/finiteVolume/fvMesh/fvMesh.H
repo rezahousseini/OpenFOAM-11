@@ -47,22 +47,22 @@ SourceFiles
 #ifndef fvMesh_H
 #define fvMesh_H
 
-#include "polyMesh.H"
-#include "lduMesh.H"
-#include "primitiveMesh.H"
-#include "fvBoundaryMesh.H"
-#include "surfaceInterpolation.H"
-#include "fvSchemes.H"
-#include "fvSolution.H"
-#include "data.H"
-#include "DimensionedField.H"
-#include "SlicedDimensionedField.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "pointFieldsFwd.H"
-#include "slicedVolFieldsFwd.H"
-#include "slicedSurfaceFieldsFwd.H"
-#include "className.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolation.H"
+#include "finiteVolume/fvSchemes/fvSchemes.H"
+#include "finiteVolume/fvSolution/fvSolution.H"
+#include "meshes/data/data.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "fields/DimensionedFields/SlicedDimensionedField/SlicedDimensionedField.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
+#include "fields/volFields/slicedVolFieldsFwd.H"
+#include "fields/surfaceFields/slicedSurfaceFieldsFwd.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -662,7 +662,7 @@ fvMesh::validComponents<sphericalTensor>() const;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshTemplates.C"
+    #include "fvMesh/fvMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

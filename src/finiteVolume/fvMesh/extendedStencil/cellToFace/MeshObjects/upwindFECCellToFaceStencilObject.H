@@ -33,9 +33,9 @@ SourceFiles
 #ifndef upwindFECCellToFaceStencilObject_H
 #define upwindFECCellToFaceStencilObject_H
 
-#include "extendedUpwindCellToFaceStencil.H"
-#include "FECCellToFaceStencil.H"
-#include "DemandDrivenMeshObject.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencil.H"
+#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/FECCellToFaceStencil.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

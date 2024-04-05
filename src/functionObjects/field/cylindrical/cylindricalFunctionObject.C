@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cylindricalFunctionObject.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cylindrical/cylindricalFunctionObject.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

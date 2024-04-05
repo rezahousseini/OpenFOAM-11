@@ -35,10 +35,10 @@ SourceFiles
 #ifndef surfacePatchIOList_H
 #define surfacePatchIOList_H
 
-#include "surfacePatchList.H"
-#include "regIOobject.H"
-#include "faceList.H"
-#include "className.H"
+#include "triSurface/surfacePatch/surfacePatchList.H"
+#include "db/regIOobject/regIOobject.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

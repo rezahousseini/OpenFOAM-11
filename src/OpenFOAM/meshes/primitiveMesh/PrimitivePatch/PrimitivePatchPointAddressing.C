@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatch.H"
-#include "SLList.H"
-#include "ListOps.H"
+#include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

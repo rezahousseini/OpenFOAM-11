@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "UList.H"
+#include "db/IOobject/IOobject.H"
+#include "containers/Lists/UList/UList.H"
 
-#include "hexRef8Data.H"
-#include "polyTopoChangeMap.H"
-#include "polyDistributionMap.H"
-#include "polyMesh.H"
-#include "syncTools.H"
-#include "refinementHistory.H"
-#include "fvMesh.H"
-#include "polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/refinementHistory.H"
+#include "fvMesh/fvMesh.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

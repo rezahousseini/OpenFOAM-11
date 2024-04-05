@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfacePatch.H"
-#include "dictionary.H"
-#include "word.H"
+#include "triSurface/surfacePatch/surfacePatch.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

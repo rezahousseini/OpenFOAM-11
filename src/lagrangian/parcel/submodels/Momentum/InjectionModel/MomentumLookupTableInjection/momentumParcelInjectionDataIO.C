@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "momentumParcelInjectionData.H"
+#include "submodels/Momentum/InjectionModel/MomentumLookupTableInjection/momentumParcelInjectionData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

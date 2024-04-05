@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "Time.H"
-#include "cellIOList.H"
-#include "OSspecific.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "meshes/meshShapes/cell/cellIOList.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

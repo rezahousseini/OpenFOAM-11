@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FieldActivatedInjection.H"
-#include "volFields.H"
-#include "mathematicalConstants.H"
+#include "submodels/Momentum/InjectionModel/FieldActivatedInjection/FieldActivatedInjection.H"
+#include "fields/volFields/volFields.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant::mathematical;
 

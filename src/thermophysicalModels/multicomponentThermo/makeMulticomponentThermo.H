@@ -26,8 +26,8 @@ License
 #ifndef makeMulticomponentThermo_H
 #define makeMulticomponentThermo_H
 
-#include "makeThermo.H"
-#include "SpecieMixture.H"
+#include "include/makeThermo.H"
+#include "mixtures/SpecieMixture/SpecieMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

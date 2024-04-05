@@ -36,7 +36,7 @@ SourceFiles
 #ifndef AnisothermalPhaseModel_H
 #define AnisothermalPhaseModel_H
 
-#include "phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -98,7 +98,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AnisothermalPhaseModel.C"
+    #include "phaseModel/AnisothermalPhaseModel/AnisothermalPhaseModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

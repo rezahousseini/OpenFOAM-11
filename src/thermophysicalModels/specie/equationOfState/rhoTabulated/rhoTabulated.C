@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rhoTabulated.H"
-#include "IOstreams.H"
+#include "equationOfState/rhoTabulated/rhoTabulated.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

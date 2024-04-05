@@ -35,9 +35,9 @@ SourceFiles
 #ifndef multicomponentMixture_H
 #define multicomponentMixture_H
 
-#include "basicSpecieMixture.H"
-#include "HashPtrTable.H"
-#include "specieElement.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "specieElement/specieElement.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "multicomponentMixture.C"
+    #include "mixtures/multicomponentMixture/multicomponentMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

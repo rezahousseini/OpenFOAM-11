@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeVTK.H"
-#include "Time.H"
+#include "writeVTK/writeVTK.H"
+#include "db/Time/Time.H"
 #include "vtkMesh.H"
 #include "internalWriter.H"
-#include "OSspecific.H"
-#include "addToRunTimeSelectionTable.H"
+#include "include/OSspecific.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

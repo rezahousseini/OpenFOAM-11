@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshRefinement.H"
-#include "combineFaces.H"
-#include "polyTopoChange.H"
-#include "removePoints.H"
-#include "faceSet.H"
-#include "Time.H"
-#include "motionSmoother.H"
-#include "syncTools.H"
+#include "meshRefinement/meshRefinement.H"
+#include "polyTopoChange/polyTopoChange/combineFaces.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/removePoints.H"
+#include "sets/topoSets/faceSet.H"
+#include "db/Time/Time.H"
+#include "motionSmoother/motionSmoother.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

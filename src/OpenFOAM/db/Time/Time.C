@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Time.H"
-#include "timeIOdictionary.H"
-#include "argList.H"
+#include "db/Time/Time.H"
+#include "db/IOobjects/IOdictionary/timeIOdictionary.H"
+#include "global/argList/argList.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

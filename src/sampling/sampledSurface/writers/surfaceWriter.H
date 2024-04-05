@@ -35,13 +35,13 @@ SourceFiles
 #ifndef surfaceWriter_H
 #define surfaceWriter_H
 
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "fileName.H"
-#include "setWriter.H"
-#include "runTimeSelectionTables.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "sampledSet/writers/setWriter.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

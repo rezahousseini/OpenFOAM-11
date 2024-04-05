@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "shapeModel.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/shapeModel/shapeModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef projectCurveEdge_H
 #define projectCurveEdge_H
 
-#include "blockEdge.H"
+#include "blockEdges/blockEdge/blockEdge.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

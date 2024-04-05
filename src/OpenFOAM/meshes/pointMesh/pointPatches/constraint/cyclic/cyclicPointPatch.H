@@ -35,9 +35,9 @@ SourceFiles
 #ifndef cyclicPointPatch_H
 #define cyclicPointPatch_H
 
-#include "coupledFacePointPatch.H"
-#include "cyclicPolyPatch.H"
-#include "pointBoundaryMesh.H"
+#include "meshes/pointMesh/pointPatches/derived/coupled/coupledFacePointPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

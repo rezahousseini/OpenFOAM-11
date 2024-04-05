@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "raysPatchToPatch.H"
-#include "intersectionPatchToPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patchToPatch/rays/raysPatchToPatch.H"
+#include "patchToPatch/intersection/intersectionPatchToPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

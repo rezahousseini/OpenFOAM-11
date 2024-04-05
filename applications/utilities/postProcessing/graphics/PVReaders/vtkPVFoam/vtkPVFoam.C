@@ -27,12 +27,12 @@ License
 #include "vtkPVFoamReader.h"
 
 // OpenFOAM includes
-#include "fvMesh.H"
-#include "fvMeshStitcher.H"
-#include "Time.H"
-#include "patchZones.H"
-#include "collatedFileOperation.H"
-#include "etcFiles.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMesh/fvMeshStitchers/fvMeshStitcher/fvMeshStitcher.H"
+#include "db/Time/Time.H"
+#include "meshes/primitiveMesh/primitivePatch/patchZones.H"
+#include "global/fileOperations/collatedFileOperation/collatedFileOperation.H"
+#include "global/etcFiles/etcFiles.H"
 
 // VTK includes
 #include "vtkDataArraySelection.h"

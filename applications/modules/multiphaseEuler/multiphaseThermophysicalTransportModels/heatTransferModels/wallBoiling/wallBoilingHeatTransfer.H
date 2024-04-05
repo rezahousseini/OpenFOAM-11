@@ -91,11 +91,11 @@ SourceFiles
 #ifndef wallBoilingHeatTransfer_H
 #define wallBoilingHeatTransfer_H
 
-#include "heatTransferModel.H"
-#include "partitioningModel.H"
-#include "nucleationSiteModel.H"
-#include "departureDiameterModel.H"
-#include "departureFrequencyModel.H"
+#include "heatTransferModels/heatTransferModel/heatTransferModel.H"
+#include "wallBoilingSubModels/partitioningModels/partitioningModel/partitioningModel.H"
+#include "wallBoilingSubModels/nucleationSiteModels/nucleationSiteModel/nucleationSiteModel.H"
+#include "wallBoilingSubModels/departureDiameterModels/departureDiameterModel/departureDiameterModel.H"
+#include "wallBoilingSubModels/departureFrequencyModels/departureFrequencyModel/departureFrequencyModel.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

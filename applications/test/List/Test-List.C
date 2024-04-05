@@ -32,15 +32,15 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "argList.H"
-#include "wordReList.H"
+#include "include/OSspecific.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/lists/wordReList.H"
 
-#include "IOstreams.H"
-#include "IStringStream.H"
-#include "scalar.H"
-#include "vector.H"
-#include "ListOps.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/vector/vector.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 using namespace Foam;
 
@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
     argList::addOption("float", "xx");
     argList::addBoolOption("flag");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     List<vector> list1(IStringStream("1 ((0 1 2))")());
     Info<< "list1: " << list1 << endl;

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef SVD_H
 #define SVD_H
 
-#include "scalarMatrices.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -123,7 +123,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SVDI.H"
+#include "matrices/scalarMatrices/SVD/SVDI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

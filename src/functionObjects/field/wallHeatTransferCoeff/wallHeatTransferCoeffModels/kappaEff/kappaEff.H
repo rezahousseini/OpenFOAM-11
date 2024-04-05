@@ -109,7 +109,7 @@ SourceFiles
 #ifndef wallHeatTransferCoeffModels_kappaEff_H
 #define wallHeatTransferCoeffModels_kappaEff_H
 
-#include "wallHeatTransferCoeffModel.H"
+#include "wallHeatTransferCoeff/wallHeatTransferCoeffModels/wallHeatTransferCoeffModel/wallHeatTransferCoeffModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

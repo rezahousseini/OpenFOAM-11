@@ -82,9 +82,9 @@ SourceFiles
 #ifndef globalMeshData_H
 #define globalMeshData_H
 
-#include "processorTopology.H"
-#include "labelPair.H"
-#include "indirectPrimitivePatch.H"
+#include "meshes/polyMesh/globalMeshData/processorTopology.H"
+#include "primitives/Pair/labelPair.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -637,7 +637,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "globalMeshDataTemplates.C"
+    #include "meshes/polyMesh/globalMeshData/globalMeshDataTemplates.C"
 #endif
 
 

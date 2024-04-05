@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MaxwellStefanFourier.H"
+#include "laminar/MaxwellStefanFourier/MaxwellStefanFourier.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

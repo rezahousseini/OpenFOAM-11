@@ -59,7 +59,7 @@ SourceFiles
 #ifndef LaheyKEpsilon_H
 #define LaheyKEpsilon_H
 
-#include "kEpsilon.H"
+#include "RAS/kEpsilon/kEpsilon.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LaheyKEpsilon.C"
+    #include "RAS/LaheyKEpsilon/LaheyKEpsilon.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

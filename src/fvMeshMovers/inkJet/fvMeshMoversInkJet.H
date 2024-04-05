@@ -40,9 +40,9 @@ SourceFiles
 #ifndef fvMeshMoversInkJet_H
 #define fvMeshMoversInkJet_H
 
-#include "fvMeshMover.H"
-#include "dictionary.H"
-#include "pointIOField.H"
+#include "fvMesh/fvMeshMovers/fvMeshMover/fvMeshMover.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

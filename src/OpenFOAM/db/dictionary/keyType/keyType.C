@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "keyType.H"
+#include "db/dictionary/keyType/keyType.H"
 #include "regExp.H"
-#include "IOstreams.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

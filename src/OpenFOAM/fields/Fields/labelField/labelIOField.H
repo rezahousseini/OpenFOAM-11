@@ -32,8 +32,8 @@ Description
 #ifndef labelIOField_H
 #define labelIOField_H
 
-#include "primitiveFields.H"
-#include "IOField.H"
+#include "fields/Fields/primitiveFields.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

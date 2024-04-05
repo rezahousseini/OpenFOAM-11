@@ -31,10 +31,10 @@ Description
 #ifndef primitiveFaceZone_H
 #define primitiveFaceZone_H
 
-#include "face.H"
-#include "PrimitivePatch.H"
-#include "indirectFaceList.H"
-#include "pointField.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.H"
+#include "meshes/polyMesh/zones/faceZone/indirectFaceList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,9 +32,9 @@ Description
 #ifndef labelFieldIOField_H
 #define labelFieldIOField_H
 
-#include "labelField.H"
-#include "IOField.H"
-#include "CompactIOField.H"
+#include "fields/Fields/labelField/labelField.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOobjects/CompactIOField/CompactIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

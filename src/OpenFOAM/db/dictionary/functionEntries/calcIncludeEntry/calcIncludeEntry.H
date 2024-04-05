@@ -52,7 +52,7 @@ SourceFiles
 #ifndef calcIncludeEntry_H
 #define calcIncludeEntry_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

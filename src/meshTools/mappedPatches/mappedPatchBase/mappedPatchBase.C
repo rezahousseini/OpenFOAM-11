@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedPatchBase.H"
-#include "SubField.H"
-#include "Time.H"
-#include "triPointRef.H"
-#include "treeDataPoint.H"
-#include "indexedOctree.H"
-#include "globalIndex.H"
-#include "RemoteData.H"
+#include "mappedPatches/mappedPatchBase/mappedPatchBase.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/Time/Time.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "indexedOctree/treeDataPoint.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "primitives/RemoteData/RemoteData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,8 +34,8 @@ Description
 #ifndef PointHit_H
 #define PointHit_H
 
-#include "bool.H"
-#include "token.H"
+#include "primitives/bools/bool/bool.H"
+#include "db/IOstreams/token/token.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

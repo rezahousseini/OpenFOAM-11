@@ -26,8 +26,8 @@ License
 #ifndef calculatedFvsPatchFields_H
 #define calculatedFvsPatchFields_H
 
-#include "calculatedFvsPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvsPatchFields/basic/calculated/calculatedFvsPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

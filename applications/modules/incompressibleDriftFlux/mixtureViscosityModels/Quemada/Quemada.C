@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Quemada.H"
-#include "incompressibleDriftFluxMixture.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mixtureViscosityModels/Quemada/Quemada.H"
+#include "incompressibleDriftFluxMixture/incompressibleDriftFluxMixture.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Newmark_H
 #define Newmark_H
 
-#include "sixDoFSolver.H"
+#include "sixDoFSolvers/sixDoFSolver/sixDoFSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

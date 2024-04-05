@@ -36,9 +36,9 @@ SourceFiles
 #ifndef ISstream_H
 #define ISstream_H
 
-#include "Istream.H"
-#include "fileName.H"
-#include "DynamicList.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 #include <iostream>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -232,7 +232,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ISstreamI.H"
+#include "db/IOstreams/Sstreams/ISstreamI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

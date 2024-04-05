@@ -35,12 +35,12 @@ SourceFiles
 #ifndef fvModel_H
 #define fvModel_H
 
-#include "fvMatricesFwd.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "dimensionSet.H"
-#include "fvModelM.H"
-#include "geometricOneField.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "dimensionSet/dimensionSet.H"
+#include "cfdTools/general/fvModels/fvModelM.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -405,10 +405,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvModelI.H"
+#include "cfdTools/general/fvModels/fvModelI.H"
 
 #ifdef NoRepository
-    #include "fvModelTemplates.C"
+    #include "cfdTools/general/fvModels/fvModelTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

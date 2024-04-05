@@ -35,11 +35,11 @@ SourceFiles
 #ifndef surfaceFormatsCore_H
 #define surfaceFormatsCore_H
 
-#include "Map.H"
-#include "HashSet.H"
-#include "labelList.H"
-#include "surfZoneList.H"
-#include "surfZoneIdentifierList.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/ints/lists/labelList.H"
+#include "surfZone/surfZone/surfZoneList.H"
+#include "surfZone/surfZoneIdentifier/surfZoneIdentifierList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

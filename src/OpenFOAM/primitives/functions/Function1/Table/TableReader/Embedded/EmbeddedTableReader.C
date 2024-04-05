@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EmbeddedTableReader.H"
+#include "primitives/functions/Function1/Table/TableReader/Embedded/EmbeddedTableReader.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

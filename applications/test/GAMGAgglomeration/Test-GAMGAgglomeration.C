@@ -29,11 +29,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "volFields.H"
-#include "GAMGAgglomeration.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "global/argList/argList.H"
+#include "fields/volFields/volFields.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
 
 using namespace Foam;
 
@@ -53,13 +53,13 @@ int main(int argc, char *argv[])
         "normalise agglomeration (0..1)"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     bool writeObj = args.optionFound("writeObj");
     bool normalise = args.optionFound("normalise");
 
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
     const fvSolution& sol = static_cast<const fvSolution&>(mesh);
     const dictionary& pDict = sol.subDict("solvers").subDict("p");

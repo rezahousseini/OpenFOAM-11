@@ -101,11 +101,11 @@ SourceFiles
 #ifndef wideBand_H
 #define wideBand_H
 
-#include "interpolationLookUpTable.H"
-#include "absorptionEmissionModel.H"
-#include "HashTable.H"
-#include "absorptionCoeffs.H"
-#include "fluidThermo.H"
+#include "absorptionEmissionModels/interpolationLookUpTable/interpolationLookUpTable.H"
+#include "absorptionEmissionModels/absorptionEmissionModel/absorptionEmissionModel.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "radiationModels/fvDOM/absorptionCoeffs/absorptionCoeffs.H"
+#include "fluidThermo/fluidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

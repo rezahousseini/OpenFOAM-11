@@ -99,10 +99,10 @@ SourceFiles
 #ifndef EDC_H
 #define EDC_H
 
-#include "autoPtr.H"
-#include "combustionModel.H"
-#include "basicChemistryModel.H"
-#include "NamedEnum.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "combustionModel/combustionModel.H"
+#include "basicChemistryModel/basicChemistryModel.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

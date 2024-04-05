@@ -39,13 +39,13 @@ SourceFiles
 #ifndef UPstream_H
 #define UPstream_H
 
-#include "labelList.H"
-#include "DynamicList.H"
-#include "HashTable.H"
-#include "string.H"
-#include "NamedEnum.H"
-#include "ListOps.H"
-#include "LIFOStack.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/strings/string/string.H"
+#include "containers/NamedEnum/NamedEnum.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/LinkedLists/user/LIFOStack.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

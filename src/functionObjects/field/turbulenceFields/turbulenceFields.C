@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulenceFields.H"
+#include "turbulenceFields/turbulenceFields.H"
 #include "incompressibleMomentumTransportModel.H"
-#include "fluidThermophysicalTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

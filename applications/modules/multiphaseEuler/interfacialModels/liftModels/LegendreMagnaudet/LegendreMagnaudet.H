@@ -49,7 +49,7 @@ SourceFiles
 #ifndef LegendreMagnaudet_H
 #define LegendreMagnaudet_H
 
-#include "dispersedLiftModel.H"
+#include "liftModels/dispersedLiftModel/dispersedLiftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

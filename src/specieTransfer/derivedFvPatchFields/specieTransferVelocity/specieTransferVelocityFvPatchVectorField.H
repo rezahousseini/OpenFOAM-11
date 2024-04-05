@@ -62,7 +62,7 @@ SourceFiles
 #ifndef specieTransferVelocityFvPatchVectorField_H
 #define specieTransferVelocityFvPatchVectorField_H
 
-#include "fixedValueInletOutletFvPatchFields.H"
+#include "fields/fvPatchFields/derived/fixedValueInletOutlet/fixedValueInletOutletFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

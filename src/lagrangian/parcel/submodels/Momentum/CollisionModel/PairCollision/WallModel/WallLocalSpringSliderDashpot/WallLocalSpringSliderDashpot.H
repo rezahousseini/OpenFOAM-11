@@ -33,9 +33,9 @@ Description
 #ifndef WallLocalSpringSliderDashpot_H
 #define WallLocalSpringSliderDashpot_H
 
-#include "WallModel.H"
-#include "scalarList.H"
-#include "boolList.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/WallModel/WallModel/WallModel.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -183,7 +183,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "WallLocalSpringSliderDashpot.C"
+    #include "submodels/Momentum/CollisionModel/PairCollision/WallModel/WallLocalSpringSliderDashpot/WallLocalSpringSliderDashpot.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

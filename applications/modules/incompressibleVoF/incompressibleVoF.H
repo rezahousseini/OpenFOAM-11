@@ -59,8 +59,8 @@ See also
 #define incompressibleVoF_H
 
 #include "twoPhaseVoFSolver.H"
-#include "incompressibleTwoPhaseVoFMixture.H"
-#include "incompressibleInterPhaseTransportModel.H"
+#include "incompressibleTwoPhaseVoFMixture/incompressibleTwoPhaseVoFMixture.H"
+#include "incompressibleInterPhaseTransportModel/incompressibleInterPhaseTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

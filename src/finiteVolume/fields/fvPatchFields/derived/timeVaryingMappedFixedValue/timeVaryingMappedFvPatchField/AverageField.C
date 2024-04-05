@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AverageField.H"
+#include "fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFvPatchField/AverageField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

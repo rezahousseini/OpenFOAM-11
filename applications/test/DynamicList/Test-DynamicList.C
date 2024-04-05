@@ -25,9 +25,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "DynamicList.H"
-#include "IOstreams.H"
-#include "ListOps.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 using namespace Foam;
 

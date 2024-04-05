@@ -56,7 +56,7 @@ SourceFiles
 #ifndef functionObjects_multiply_H
 #define functionObjects_multiply_H
 
-#include "fieldsExpression.H"
+#include "fieldsExpression/fieldsExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

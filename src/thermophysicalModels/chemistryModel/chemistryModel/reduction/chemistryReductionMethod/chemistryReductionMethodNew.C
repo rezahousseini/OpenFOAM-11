@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemistryReductionMethod.H"
-#include "noChemistryReduction.H"
-#include "Time.H"
+#include "chemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.H"
+#include "chemistryModel/reduction/noChemistryReduction/noChemistryReduction.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

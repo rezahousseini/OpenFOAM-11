@@ -38,15 +38,15 @@ SourceFiles
 #ifndef topoSetSource_H
 #define topoSetSource_H
 
-#include "pointField.H"
-#include "word.H"
-#include "labelList.H"
-#include "faceList.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "NamedEnum.H"
-#include "HashTable.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "containers/NamedEnum/NamedEnum.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

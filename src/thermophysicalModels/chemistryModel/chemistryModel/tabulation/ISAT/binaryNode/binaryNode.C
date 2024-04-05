@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "binaryNode.H"
-#include "ISAT.H"
+#include "chemistryModel/tabulation/ISAT/binaryNode/binaryNode.H"
+#include "chemistryModel/tabulation/ISAT/ISAT.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

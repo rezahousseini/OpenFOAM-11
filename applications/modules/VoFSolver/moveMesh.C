@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "VoFSolver.H"
-#include "fvCorrectPhi.H"
-#include "fvcMeshPhi.H"
-#include "fvcDiv.H"
+#include "cfdTools/general/correctPhi/fvCorrectPhi.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "finiteVolume/fvc/fvcDiv.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

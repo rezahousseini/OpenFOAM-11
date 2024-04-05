@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeFile.H"
-#include "Time.H"
-#include "polyMesh.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

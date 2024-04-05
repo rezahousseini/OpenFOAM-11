@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantSurfaceTensionCoefficient.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfaceSurfaceTensionModels/constantSurfaceTensionCoefficient/constantSurfaceTensionCoefficient.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

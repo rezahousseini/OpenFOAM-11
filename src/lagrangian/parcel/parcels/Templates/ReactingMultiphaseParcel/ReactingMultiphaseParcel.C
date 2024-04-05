@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingMultiphaseParcel.H"
-#include "CompositionModel.H"
-#include "NoDevolatilisation.H"
-#include "NoSurfaceReaction.H"
-#include "mathematicalConstants.H"
+#include "parcels/Templates/ReactingMultiphaseParcel/ReactingMultiphaseParcel.H"
+#include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.H"
+#include "submodels/ReactingMultiphase/DevolatilisationModel/NoDevolatilisation/NoDevolatilisation.H"
+#include "submodels/ReactingMultiphase/SurfaceReactionModel/NoSurfaceReaction/NoSurfaceReaction.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant::mathematical;
 
@@ -726,6 +726,6 @@ Foam::ReactingMultiphaseParcel<ParcelType>::ReactingMultiphaseParcel
 
 // * * * * * * * * * * * * * * IOStream operators  * * * * * * * * * * * * * //
 
-#include "ReactingMultiphaseParcelIO.C"
+#include "parcels/Templates/ReactingMultiphaseParcel/ReactingMultiphaseParcelIO.C"
 
 // ************************************************************************* //

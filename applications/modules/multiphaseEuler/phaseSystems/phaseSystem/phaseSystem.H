@@ -36,24 +36,24 @@ SourceFiles
 #ifndef phaseSystem_H
 #define phaseSystem_H
 
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
-#include "phaseModel.H"
-#include "phaseInterface.H"
-#include "phaseInterfaceKey.H"
-#include "HashPtrTable.H"
-#include "PtrListDictionary.H"
-#include "hashedWordList.H"
+#include "phaseModel/phaseModel/phaseModel.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
+#include "phaseInterface/phaseInterfaceKey/phaseInterfaceKey.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "containers/Dictionaries/PtrListDictionary/PtrListDictionary.H"
+#include "primitives/strings/lists/hashedWordList.H"
 
-#include "pimpleNoLoopControl.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleNoLoopControl/pimpleNoLoopControl.H"
 
-#include "IOMRFZoneList.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMatricesFwd.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMatrices/fvMatricesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -680,12 +680,12 @@ tmp<surfaceScalarField> byDt(const surfaceScalarField& sf);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "phaseSystemI.H"
+#include "phaseSystem/phaseSystemI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "phaseSystemTemplates.C"
+    #include "phaseSystem/phaseSystemTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

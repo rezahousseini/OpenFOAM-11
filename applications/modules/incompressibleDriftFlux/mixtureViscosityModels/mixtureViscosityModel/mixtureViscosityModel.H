@@ -42,8 +42,8 @@ SourceFiles
 #ifndef mixtureViscosityModel_H
 #define mixtureViscosityModel_H
 
-#include "viscosityModel.H"
-#include "runTimeSelectionTables.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

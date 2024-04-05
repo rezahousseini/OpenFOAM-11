@@ -36,9 +36,9 @@ SourceFiles
 #ifndef pointToPointPlanarInterpolation_H
 #define pointToPointPlanarInterpolation_H
 
-#include "FixedList.H"
-#include "coordinateSystem.H"
-#include "instantList.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "coordinateSystems/coordinateSystem.H"
+#include "db/Time/instant/instantList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "pointToPointPlanarInterpolationTemplates.C"
+    #include "triSurface/triSurfaceTools/pointToPointPlanarInterpolationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

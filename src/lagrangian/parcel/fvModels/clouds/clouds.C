@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "clouds.H"
-#include "basicSpecieMixture.H"
-#include "fvMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvModels/clouds/clouds.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -35,11 +35,11 @@ SourceFiles
 #ifndef reactingParcel_H
 #define reactingParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "MomentumParcel.H"
-#include "ThermoParcel.H"
-#include "ReactingParcel.H"
+#include "primitives/contiguous/contiguous.H"
+#include "particle/particle.H"
+#include "parcels/Templates/MomentumParcel/MomentumParcel.H"
+#include "parcels/Templates/ThermoParcel/ThermoParcel.H"
+#include "parcels/Templates/ReactingParcel/ReactingParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

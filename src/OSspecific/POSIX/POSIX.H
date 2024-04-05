@@ -35,7 +35,7 @@ SourceFiles
 #ifndef POSIX_H
 #define POSIX_H
 
-#include "className.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

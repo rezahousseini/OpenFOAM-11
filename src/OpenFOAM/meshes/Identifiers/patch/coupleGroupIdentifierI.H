@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupleGroupIdentifier.H"
+#include "meshes/Identifiers/patch/coupleGroupIdentifier.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

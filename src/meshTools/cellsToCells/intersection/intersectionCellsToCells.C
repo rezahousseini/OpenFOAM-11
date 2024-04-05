@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "intersectionCellsToCells.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "tetOverlapVolume.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cellsToCells/intersection/intersectionCellsToCells.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "tetOverlapVolume/tetOverlapVolume.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

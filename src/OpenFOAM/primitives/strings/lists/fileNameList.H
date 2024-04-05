@@ -38,8 +38,8 @@ Description
 #ifndef fileNameList_H
 #define fileNameList_H
 
-#include "fileName.H"
-#include "List.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

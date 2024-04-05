@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonConformalErrorFvPatchField.H"
-#include "transformField.H"
+#include "fields/fvPatchFields/constraint/nonConformalError/nonConformalErrorFvPatchField.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

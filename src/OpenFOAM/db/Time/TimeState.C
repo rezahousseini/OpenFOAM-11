@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeState.H"
-#include "Time.H"
+#include "db/Time/TimeState.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

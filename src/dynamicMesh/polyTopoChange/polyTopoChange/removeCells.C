@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "removeCells.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyRemoveCell.H"
-#include "polyRemoveFace.H"
-#include "polyModifyFace.H"
-#include "polyRemovePoint.H"
-#include "syncTools.H"
+#include "polyTopoChange/polyTopoChange/removeCells.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/removeObject/polyRemoveCell.H"
+#include "polyTopoChange/polyTopoChange/removeObject/polyRemoveFace.H"
+#include "polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/polyTopoChange/removeObject/polyRemovePoint.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

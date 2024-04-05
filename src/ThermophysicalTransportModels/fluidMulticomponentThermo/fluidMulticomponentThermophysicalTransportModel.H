@@ -42,10 +42,10 @@ Description
 #ifndef fluidMulticomponentThermophysicalTransportModel_H
 #define fluidMulticomponentThermophysicalTransportModel_H
 
-#include "fluidMulticomponentThermo.H"
-#include "laminarThermophysicalTransportModel.H"
-#include "RASThermophysicalTransportModel.H"
-#include "LESThermophysicalTransportModel.H"
+#include "fluidMulticomponentThermo/fluidMulticomponentThermo.H"
+#include "laminar/laminarThermophysicalTransportModel/laminarThermophysicalTransportModel.H"
+#include "turbulence/RAS/RASThermophysicalTransportModel/RASThermophysicalTransportModel.H"
+#include "turbulence/LES/LESThermophysicalTransportModel/LESThermophysicalTransportModel.H"
 #include "compressibleMomentumTransportModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

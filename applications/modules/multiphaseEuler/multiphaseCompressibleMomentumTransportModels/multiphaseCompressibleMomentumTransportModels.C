@@ -27,28 +27,28 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LaheyKEpsilon.H"
+#include "RAS/LaheyKEpsilon/LaheyKEpsilon.H"
 makeRASModel(LaheyKEpsilon);
 
-#include "kOmegaSSTSato.H"
+#include "RAS/kOmegaSSTSato/kOmegaSSTSato.H"
 makeRASModel(kOmegaSSTSato);
 
-#include "continuousGasKEpsilon.H"
+#include "RAS/continuousGasKEpsilon/continuousGasKEpsilon.H"
 makeRASModel(continuousGasKEpsilon);
 
-#include "mixtureKEpsilon.H"
+#include "RAS/mixtureKEpsilon/mixtureKEpsilon.H"
 makeRASModel(mixtureKEpsilon);
 
-#include "SmagorinskyZhang.H"
+#include "LES/SmagorinskyZhang/SmagorinskyZhang.H"
 makeLESModel(SmagorinskyZhang);
 
-#include "NicenoKEqn.H"
+#include "LES/Niceno/NicenoKEqn.H"
 makeLESModel(NicenoKEqn);
 
-#include "continuousGasKEqn.H"
+#include "LES/continuousGasKEqn/continuousGasKEqn.H"
 makeLESModel(continuousGasKEqn);
 
-#include "kineticTheoryModel.H"
+#include "kineticTheoryModels/kineticTheoryModel/kineticTheoryModel.H"
 makeMomentumTransportModel
 (
     phaseCompressibleMomentumTransportModel,
@@ -56,7 +56,7 @@ makeMomentumTransportModel
     kineticTheoryModel
 );
 
-#include "phasePressureModel.H"
+#include "phasePressureModel/phasePressureModel.H"
 makeMomentumTransportModel
 (
     phaseCompressibleMomentumTransportModel,

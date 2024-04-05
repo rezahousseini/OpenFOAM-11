@@ -35,9 +35,9 @@ SourceFiles
 #ifndef leastSquaresVectors_H
 #define leastSquaresVectors_H
 
-#include "DemandDrivenMeshObject.H"
-#include "fvMesh.H"
-#include "surfaceFields.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

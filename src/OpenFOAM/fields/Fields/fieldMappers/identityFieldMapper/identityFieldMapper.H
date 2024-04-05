@@ -32,7 +32,7 @@ Description
 #ifndef identityFieldMapper_H
 #define identityFieldMapper_H
 
-#include "fieldMapper.H"
+#include "fields/Fields/fieldMappers/fieldMapper/fieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -97,7 +97,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "identityFieldMapperTemplates.C"
+    #include "fields/Fields/fieldMappers/identityFieldMapper/identityFieldMapperTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

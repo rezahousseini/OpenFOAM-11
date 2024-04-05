@@ -36,12 +36,12 @@ SourceFiles
 #ifndef triIntersect_H
 #define triIntersect_H
 
-#include "barycentric2D.H"
-#include "DynamicField.H"
-#include "primitivePatch.H"
-#include "triFace.H"
-#include "triIntersectLocation.H"
-#include "unitConversion.H"
+#include "primitives/Barycentric2D/barycentric2D/barycentric2D.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "triIntersect/triIntersectLocation.H"
+#include "global/unitConversion/unitConversion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ void intersectTris
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "triIntersectTemplates.C"
+    #include "triIntersect/triIntersectTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

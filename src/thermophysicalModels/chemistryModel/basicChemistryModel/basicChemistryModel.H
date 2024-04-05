@@ -36,7 +36,7 @@ SourceFiles
 #ifndef basicChemistryModel_H
 #define basicChemistryModel_H
 
-#include "fluidMulticomponentThermo.H"
+#include "fluidMulticomponentThermo/fluidMulticomponentThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicChemistryModelI.H"
+#include "basicChemistryModel/basicChemistryModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

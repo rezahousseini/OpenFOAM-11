@@ -32,8 +32,8 @@ Description
 #ifndef vectorIOList_H
 #define vectorIOList_H
 
-#include "vector.H"
-#include "IOList.H"
+#include "primitives/Vector/vector/vector.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "departureDiameterModel.H"
+#include "wallBoilingSubModels/departureDiameterModels/departureDiameterModel/departureDiameterModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

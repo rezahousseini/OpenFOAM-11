@@ -35,11 +35,11 @@ SourceFiles
 #ifndef treeDataTriSurface_H
 #define treeDataTriSurface_H
 
-#include "treeDataPrimitivePatch.H"
-#include "triSurface.H"
-#include "point.H"
-#include "indexedOctree.H"
-#include "volumeType.H"
+#include "indexedOctree/treeDataPrimitivePatch.H"
+#include "triSurface/triSurface.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/indexedOctree/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

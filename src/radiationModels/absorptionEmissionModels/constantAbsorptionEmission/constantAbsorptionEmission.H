@@ -36,7 +36,7 @@ SourceFiles
 #ifndef constantAbsorptionEmission_H
 #define constantAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
+#include "absorptionEmissionModels/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

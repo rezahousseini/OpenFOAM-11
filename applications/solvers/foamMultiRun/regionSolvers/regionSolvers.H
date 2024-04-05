@@ -68,7 +68,7 @@ SourceFiles
 #ifndef regionSolvers_H
 #define regionSolvers_H
 
-#include "solver.H"
+#include "solver/solver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regionSolversI.H"
+#include "regionSolvers/regionSolversI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

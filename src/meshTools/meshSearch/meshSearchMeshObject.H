@@ -34,8 +34,8 @@ SourceFiles
 #ifndef meshSearchMeshObject_H
 #define meshSearchMeshObject_H
 
-#include "DemandDrivenMeshObject.H"
-#include "meshSearch.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "meshSearch/meshSearch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

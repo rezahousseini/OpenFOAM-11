@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "totalEnthalpy.H"
-#include "fluidThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "totalEnthalpy/totalEnthalpy.H"
+#include "fluidThermo/fluidThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

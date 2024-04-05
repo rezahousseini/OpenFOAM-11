@@ -43,8 +43,8 @@ SourceFiles
 #ifndef TomiyamaAspectRatio_H
 #define TomiyamaAspectRatio_H
 
-#include "VakhrushevEfremov.H"
-#include "wallDependentModel.H"
+#include "aspectRatioModels/VakhrushevEfremov/VakhrushevEfremov.H"
+#include "wallDependentModel/wallDependentModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

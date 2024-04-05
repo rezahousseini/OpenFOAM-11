@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "C2H6.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liquidProperties/C2H6/C2H6.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "thermodynamicConstants.H"
+#include "global/constants/thermodynamic/thermodynamicConstants.H"
 using namespace Foam::constant::thermodynamic;
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

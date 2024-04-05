@@ -32,8 +32,8 @@ Description
 #ifndef parRun_H
 #define parRun_H
 
-#include "Pstream.H"
-#include "IOstreams.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

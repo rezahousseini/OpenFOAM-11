@@ -32,9 +32,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
+#include "global/argList/argList.H"
 #include "mapMeshes.H"
-#include "decompositionMethod.H"
+#include "decompositionMethod/decompositionMethod.H"
 
 using namespace Foam;
 

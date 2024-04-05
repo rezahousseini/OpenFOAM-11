@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementSBRStressFvMotionSolver.H"
-#include "motionDiffusivity.H"
-#include "fvmLaplacian.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcDiv.H"
-#include "fvcGrad.H"
-#include "surfaceInterpolate.H"
-#include "fvcLaplacian.H"
-#include "polyTopoChangeMap.H"
-#include "volPointInterpolation.H"
+#include "fvMotionSolvers/displacement/SBRStress/displacementSBRStressFvMotionSolver.H"
+#include "motionDiffusivity/motionDiffusivity/motionDiffusivity.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

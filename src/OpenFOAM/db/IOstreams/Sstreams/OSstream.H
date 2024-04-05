@@ -36,8 +36,8 @@ SourceFiles
 #ifndef OSstream_H
 #define OSstream_H
 
-#include "Ostream.H"
-#include "fileName.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "primitives/strings/fileName/fileName.H"
 #include <iostream>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -203,7 +203,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "OSstreamI.H"
+#include "db/IOstreams/Sstreams/OSstreamI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

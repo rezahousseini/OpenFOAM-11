@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "spherical.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/spherical/spherical.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

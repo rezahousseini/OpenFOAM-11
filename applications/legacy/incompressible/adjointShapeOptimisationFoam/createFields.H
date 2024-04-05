@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 
 pressureReference pressureReference(p, simple.dict());
@@ -109,5 +109,5 @@ volScalarField alpha
 zeroCells(alpha, inletCells);
 //zeroCells(alpha, outletCells);
 
-#include "createFvModels.H"
-#include "createFvConstraints.H"
+#include "cfdTools/general/include/createFvModels.H"
+#include "cfdTools/general/include/createFvConstraints.H"

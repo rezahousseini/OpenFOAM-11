@@ -37,7 +37,7 @@ SourceFiles
 #ifndef functionObjects_fieldExpression_H
 #define functionObjects_fieldExpression_H
 
-#include "fvMeshFunctionObject.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

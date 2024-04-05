@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedValueFvPatchField.H"
-#include "mappedPolyPatch.H"
-#include "volFields.H"
+#include "fields/fvPatchFields/derived/mappedValue/mappedValueFvPatchField.H"
+#include "mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

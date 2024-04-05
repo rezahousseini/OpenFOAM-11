@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemistryReductionMethod.H"
+#include "chemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.H"
 
-#include "DRG.H"
+#include "chemistryModel/reduction/DRG/DRG.H"
 
-#include "forGases.H"
-#include "forLiquids.H"
-#include "makeChemistryReductionMethod.H"
+#include "include/forGases.H"
+#include "include/forLiquids.H"
+#include "chemistryModel/reduction/makeChemistryReductionMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

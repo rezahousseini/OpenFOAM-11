@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facePointPatch.H"
-#include "pointBoundaryMesh.H"
-#include "pointMesh.H"
-#include "demandDrivenData.H"
-#include "boolList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "include/demandDrivenData.H"
+#include "primitives/bools/lists/boolList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

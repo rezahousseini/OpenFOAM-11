@@ -36,7 +36,7 @@ SourceFiles
 #define compressibleTwoPhases_H
 
 #include "twoPhases.H"
-#include "rhoThermo.H"
+#include "rhoThermo/rhoThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "domainDecomposition.H"
-#include "fvMeshAdder.H"
-#include "processorPolyPatch.H"
-#include "processorCyclicPolyPatch.H"
+#include "fvMeshAdder/fvMeshAdder.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processorCyclic/processorCyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

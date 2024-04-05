@@ -177,7 +177,7 @@ public:
             //- Gibbs free energy of the mixture in the standard state [J/kg]
             inline scalar Gstd(const scalar T) const;
 
-            #include "HtoEthermo.H"
+            #include "thermo/thermo/HtoEthermo.H"
 
 
         // Derivative term used for Jacobian
@@ -234,10 +234,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hConstThermoI.H"
+#include "thermo/hConst/hConstThermoI.H"
 
 #ifdef NoRepository
-    #include "hConstThermo.C"
+    #include "thermo/hConst/hConstThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

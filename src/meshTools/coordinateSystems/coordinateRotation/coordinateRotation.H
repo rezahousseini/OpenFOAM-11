@@ -51,13 +51,13 @@ SourceFiles
 #ifndef coordinateRotation_H
 #define coordinateRotation_H
 
-#include "vector.H"
-#include "tensor.H"
-#include "tensorField.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
-#include "objectRegistry.H"
-#include "polyMesh.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

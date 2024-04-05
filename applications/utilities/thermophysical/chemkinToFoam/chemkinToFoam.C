@@ -30,11 +30,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "chemkinReader.H"
-#include "OFstream.H"
-#include "OStringStream.H"
-#include "IStringStream.H"
+#include "global/argList/argList.H"
+#include "chemkinReader/chemkinReader.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 using namespace Foam;
 
@@ -42,7 +42,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::validArgs.append("CHEMKIN file");
     argList::validArgs.append("CHEMKIN thermodynamics file");

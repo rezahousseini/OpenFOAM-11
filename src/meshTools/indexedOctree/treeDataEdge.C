@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataEdge.H"
-#include "indexedOctree.H"
+#include "indexedOctree/treeDataEdge.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

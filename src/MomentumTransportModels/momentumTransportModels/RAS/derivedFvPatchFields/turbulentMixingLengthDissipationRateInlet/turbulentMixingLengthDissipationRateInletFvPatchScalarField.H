@@ -74,7 +74,7 @@ SourceFiles
 #ifndef turbulentMixingLengthDissipationRateInletFvPatchScalarField_H
 #define turbulentMixingLengthDissipationRateInletFvPatchScalarField_H
 
-#include "inletOutletFvPatchFields.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

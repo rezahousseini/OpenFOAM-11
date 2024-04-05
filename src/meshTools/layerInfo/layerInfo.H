@@ -35,8 +35,8 @@ SourceFiles
 #ifndef layerInfo_H
 #define layerInfo_H
 
-#include "pointField.H"
-#include "face.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/face.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,7 +201,7 @@ inline bool contiguous<layerInfo>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "layerInfoI.H"
+#include "layerInfo/layerInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

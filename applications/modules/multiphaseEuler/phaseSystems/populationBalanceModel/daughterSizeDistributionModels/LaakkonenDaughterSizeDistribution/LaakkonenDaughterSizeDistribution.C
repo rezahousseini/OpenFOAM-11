@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LaakkonenDaughterSizeDistribution.H"
-#include "addToRunTimeSelectionTable.H"
-#include "breakupModel.H"
+#include "populationBalanceModel/daughterSizeDistributionModels/LaakkonenDaughterSizeDistribution/LaakkonenDaughterSizeDistribution.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/breakupModels/breakupModel/breakupModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

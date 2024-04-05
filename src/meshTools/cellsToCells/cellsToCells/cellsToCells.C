@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellsToCells.H"
-#include "globalIndex.H"
-#include "PatchTools.H"
-#include "patchToPatchTools.H"
-#include "emptyPolyPatch.H"
-#include "wedgePolyPatch.H"
-#include "processorPolyPatch.H"
-#include "Time.H"
+#include "cellsToCells/cellsToCells/cellsToCells.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "patchToPatchTools/patchToPatchTools.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

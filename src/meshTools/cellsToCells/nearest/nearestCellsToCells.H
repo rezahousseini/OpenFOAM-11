@@ -35,7 +35,7 @@ SourceFiles
 #ifndef nearestCellsToCells_H
 #define nearestCellsToCells_H
 
-#include "cellsToCells.H"
+#include "cellsToCells/cellsToCells/cellsToCells.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

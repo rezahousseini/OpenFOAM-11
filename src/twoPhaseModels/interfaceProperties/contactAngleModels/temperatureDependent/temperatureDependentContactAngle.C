@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "temperatureDependentContactAngle.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "contactAngleModels/temperatureDependent/temperatureDependentContactAngle.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -37,23 +37,23 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyTopoChange.H"
-#include "polyModifyFace.H"
-#include "polyAddFace.H"
-#include "ReadFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "fvMeshMapper.H"
-#include "faceSelection.H"
-#include "searchableSurface.H"
-#include "fvMeshTools.H"
-#include "systemDict.H"
-#include "processorPolyPatch.H"
-#include "internalPolyPatch.H"
-#include "nonConformalPolyPatch.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/polyTopoChange/addObject/polyAddFace.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fvMesh/fvMeshMapper/fvMeshMapper.H"
+#include "faceSelection/faceSelection.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "fvMeshTools/fvMeshTools.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/internal/internalPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformal/nonConformalPolyPatch.H"
 
 using namespace Foam;
 
@@ -355,14 +355,14 @@ int main(int argc, char *argv[])
         "Makes internal faces into boundary faces.\n"
         "Does not duplicate points."
     );
-    #include "addDictOption.H"
-    #include "addOverwriteOption.H"
-    #include "addDictOption.H"
-    #include "addRegionOption.H"
+    #include "include/addDictOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addDictOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createNamedMesh.H"
 
     const polyBoundaryMesh& bMesh = mesh.boundaryMesh();
 
@@ -412,9 +412,9 @@ int main(int argc, char *argv[])
     // Read fields
     IOobjectList objects(mesh, runTime.name());
     if (fields) Info<< "Reading geometric fields" << nl << endl;
-    #include "readVolFields.H"
-    #include "readSurfaceFields.H"
-    #include "readPointFields.H"
+    #include "fields/ReadFields/readVolFields.H"
+    #include "fields/ReadFields/readSurfaceFields.H"
+    #include "fields/ReadFields/readPointFields.H"
     if (fields) Info<< endl;
 
     // Creating faceZones for selectors that are not already faceZones

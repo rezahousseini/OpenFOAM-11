@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blackBodyEmission.H"
-#include "physicoChemicalConstants.H"
-#include "linearInterpolationWeights.H"
+#include "radiationModels/fvDOM/blackBodyEmission/blackBodyEmission.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
+#include "interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.H"
 
 using namespace Foam::constant;
 

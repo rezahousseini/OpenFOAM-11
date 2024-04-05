@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "multicomponentFluid.H"
-#include "fvcDdt.H"
+#include "finiteVolume/fvc/fvcDdt.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Function2.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
 
 #ifndef Fickian_H
 #define Fickian_H
@@ -178,7 +178,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Fickian.C"
+    #include "laminar/Fickian/Fickian.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

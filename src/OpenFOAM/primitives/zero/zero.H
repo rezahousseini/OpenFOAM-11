@@ -36,7 +36,7 @@ SourceFiles
 #ifndef zero_H
 #define zero_H
 
-#include "label.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -104,7 +104,7 @@ static const zero Zero;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "zeroI.H"
+#include "primitives/zero/zeroI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeVaryingMappedFvPatchField.H"
+#include "fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFvPatchField/timeVaryingMappedFvPatchField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

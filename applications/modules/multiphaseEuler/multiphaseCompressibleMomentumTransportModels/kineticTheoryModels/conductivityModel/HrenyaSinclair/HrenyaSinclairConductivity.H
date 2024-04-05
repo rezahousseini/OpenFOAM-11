@@ -34,7 +34,7 @@ SourceFiles
 #ifndef HrenyaSinclairConductivity_H
 #define HrenyaSinclairConductivity_H
 
-#include "conductivityModel.H"
+#include "kineticTheoryModels/conductivityModel/conductivityModel/conductivityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -56,8 +56,8 @@ SourceFiles
 #ifndef timeFunctionObject_H
 #define timeFunctionObject_H
 
-#include "regionFunctionObject.H"
-#include "logFiles.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

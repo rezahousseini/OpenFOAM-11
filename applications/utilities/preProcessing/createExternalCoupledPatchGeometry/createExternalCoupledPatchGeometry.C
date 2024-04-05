@@ -46,10 +46,10 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
 #include "createExternalCoupledPatchGeometryTemplates.H"
-#include "IOobjectList.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 using namespace Foam;
 
@@ -57,11 +57,11 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::validArgs.append("fieldName");
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

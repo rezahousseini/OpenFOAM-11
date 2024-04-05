@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceSetSampledSet.H"
-#include "faceSet.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/faceSetSampledSet/faceSetSampledSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicThermo.H"
-#include "zeroGradientFvPatchFields.H"
-#include "fixedEnergyFvPatchScalarField.H"
-#include "gradientEnergyFvPatchScalarField.H"
-#include "gradientEnergyCalculatedTemperatureFvPatchScalarField.H"
-#include "mixedEnergyFvPatchScalarField.H"
-#include "mixedEnergyCalculatedTemperatureFvPatchScalarField.H"
-#include "fixedJumpFvPatchFields.H"
-#include "energyJumpFvPatchScalarField.H"
+#include "basicThermo/basicThermo.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "derivedFvPatchFields/fixedEnergy/fixedEnergyFvPatchScalarField.H"
+#include "derivedFvPatchFields/gradientEnergy/gradientEnergyFvPatchScalarField.H"
+#include "derivedFvPatchFields/gradientEnergy/gradientEnergyCalculatedTemperatureFvPatchScalarField.H"
+#include "derivedFvPatchFields/mixedEnergy/mixedEnergyFvPatchScalarField.H"
+#include "derivedFvPatchFields/mixedEnergy/mixedEnergyCalculatedTemperatureFvPatchScalarField.H"
+#include "fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchFields.H"
+#include "derivedFvPatchFields/energyJump/energyJumpFvPatchScalarField.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

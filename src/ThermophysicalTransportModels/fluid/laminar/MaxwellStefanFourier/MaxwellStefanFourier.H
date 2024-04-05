@@ -66,8 +66,8 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "MaxwellStefan.H"
-#include "unityLewisFourier.H"
+#include "laminar/MaxwellStefan/MaxwellStefan.H"
+#include "laminar/unityLewisFourier/unityLewisFourier.H"
 
 #ifndef MaxwellStefanFourier_H
 #define MaxwellStefanFourier_H
@@ -149,7 +149,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MaxwellStefanFourier.C"
+    #include "laminar/MaxwellStefanFourier/MaxwellStefanFourier.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef PointEdgeLayerInfoData_H
 #define PointEdgeLayerInfoData_H
 
-#include "pointEdgeLayerInfo.H"
+#include "layerInfo/pointEdgeLayerInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -199,7 +199,7 @@ FOR_ALL_FIELD_TYPES(DefineContiguousPointEdgeLayerInfoDataType);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PointEdgeLayerInfoDataI.H"
+#include "layerInfo/PointEdgeLayerInfoDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

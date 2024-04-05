@@ -33,9 +33,9 @@ Description
 #ifndef PureUpwindFitScheme_H
 #define PureUpwindFitScheme_H
 
-#include "UpwindFitData.H"
-#include "upwind.H"
-#include "Switch.H"
+#include "interpolation/surfaceInterpolation/schemes/UpwindFitScheme/UpwindFitData.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

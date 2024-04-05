@@ -68,7 +68,7 @@ SourceFiles
 #ifndef Merkle_H
 #define Merkle_H
 
-#include "cavitationModel.H"
+#include "cavitationModel/cavitationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LiftForce.H"
-#include "fvcCurl.H"
+#include "submodels/Momentum/ParticleForces/Lift/LiftForce/LiftForce.H"
+#include "finiteVolume/fvc/fvcCurl.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussDivScheme.H"
-#include "fvcSurfaceIntegrate.H"
-#include "fvMatrices.H"
+#include "finiteVolume/divSchemes/gaussDivScheme/gaussDivScheme.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

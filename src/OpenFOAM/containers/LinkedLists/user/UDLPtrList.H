@@ -32,8 +32,8 @@ Description
 #ifndef UDLPtrList_H
 #define UDLPtrList_H
 
-#include "ULPtrList.H"
-#include "DLListBase.H"
+#include "containers/LinkedLists/accessTypes/ULPtrList/ULPtrList.H"
+#include "containers/LinkedLists/linkTypes/DLListBase/DLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

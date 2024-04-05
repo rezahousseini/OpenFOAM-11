@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "pyramidPointFaceRef.H"
-#include "ListOps.H"
-#include "unitConversion.H"
-#include "SortableList.H"
-#include "EdgeMap.H"
-#include "primitiveMeshTools.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/meshShapes/cell/pyramidPointFaceRef.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "global/unitConversion/unitConversion.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "meshes/meshShapes/edge/EdgeMap.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -35,10 +35,10 @@ SourceFiles
 #ifndef refinementFeatures_H
 #define refinementFeatures_H
 
-#include "extendedFeatureEdgeMesh.H"
-#include "indexedOctree.H"
-#include "treeDataEdge.H"
-#include "treeDataPoint.H"
+#include "edgeMesh/extendedEdgeMesh/extendedFeatureEdgeMesh/extendedFeatureEdgeMesh.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataEdge.H"
+#include "indexedOctree/treeDataPoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

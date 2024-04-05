@@ -35,8 +35,8 @@ SourceFiles
 #ifndef dynamicMeshPointInterpolator_H
 #define dynamicMeshPointInterpolator_H
 
-#include "primitiveFields.H"
-#include "pointFieldsFwd.H"
+#include "fields/Fields/primitiveFields.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

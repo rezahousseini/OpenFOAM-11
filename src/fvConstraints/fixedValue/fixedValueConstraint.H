@@ -53,10 +53,10 @@ SourceFiles
 #ifndef fixedValueConstraint_H
 #define fixedValueConstraint_H
 
-#include "fvConstraint.H"
-#include "fvCellSet.H"
-#include "unknownTypeFunction1.H"
-#include "HashPtrTable.H"
+#include "cfdTools/general/fvConstraints/fvConstraint.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "primitives/functions/Function1/unknownTypeFunction1/unknownTypeFunction1.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

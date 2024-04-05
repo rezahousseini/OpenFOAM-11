@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellModeller.H"
-#include "IFstream.H"
-#include "etcFiles.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "global/etcFiles/etcFiles.H"
 
 // * * * * * * * * * * * * * * * Static data * * * * * * * * * * * * * * * * //
 

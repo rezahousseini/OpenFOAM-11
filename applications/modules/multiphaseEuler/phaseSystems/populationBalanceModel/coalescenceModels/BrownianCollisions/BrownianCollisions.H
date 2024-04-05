@@ -71,7 +71,7 @@ SourceFiles
 #ifndef BrownianCollisions_H
 #define BrownianCollisions_H
 
-#include "coalescenceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

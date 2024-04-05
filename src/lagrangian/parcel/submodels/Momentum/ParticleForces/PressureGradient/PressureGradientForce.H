@@ -36,9 +36,9 @@ SourceFiles
 #ifndef PressureGradientForce_H
 #define PressureGradientForce_H
 
-#include "ParticleForce.H"
-#include "volFields.H"
-#include "interpolation.H"
+#include "submodels/Momentum/ParticleForces/ParticleForce/ParticleForce.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,10 +139,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PressureGradientForceI.H"
+#include "submodels/Momentum/ParticleForces/PressureGradient/PressureGradientForceI.H"
 
 #ifdef NoRepository
-    #include "PressureGradientForce.C"
+    #include "submodels/Momentum/ParticleForces/PressureGradient/PressureGradientForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

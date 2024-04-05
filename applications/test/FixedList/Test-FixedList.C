@@ -32,13 +32,13 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOstreams.H"
-#include "FixedList.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "IPstream.H"
-#include "OPstream.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
 
 using namespace Foam;
 

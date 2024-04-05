@@ -67,7 +67,7 @@ SourceFiles
 #ifndef fvMeshTopoChangersMeshToMesh_H
 #define fvMeshTopoChangersMeshToMesh_H
 
-#include "fvMeshTopoChanger.H"
+#include "fvMesh/fvMeshTopoChangers/fvMeshTopoChanger/fvMeshTopoChanger.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

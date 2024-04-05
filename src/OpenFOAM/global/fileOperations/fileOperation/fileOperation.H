@@ -29,16 +29,16 @@ Class
 #ifndef fileOperation_H
 #define fileOperation_H
 
-#include "ISstream.H"
-#include "Ostream.H"
-#include "autoPtr.H"
-#include "fileNameList.H"
-#include "instantList.H"
+#include "db/IOstreams/Sstreams/ISstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/strings/lists/fileNameList.H"
+#include "db/Time/instant/instantList.H"
 #include "fileMonitor.H"
-#include "labelList.H"
-#include "Switch.H"
-#include "tmpNrc.H"
-#include "NamedEnum.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "memory/tmpNrc/tmpNrc.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

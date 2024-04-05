@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshUnMergeCyclics.H"
-#include "cyclicPolyPatch.H"
-#include "mergedCyclicPolyPatch.H"
-#include "polyTopoChange.H"
-#include "unitConversion.H"
+#include "mergedCyclic/polyMeshUnMergeCyclics.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "mergedCyclic/mergedCyclicPolyPatch.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "global/unitConversion/unitConversion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

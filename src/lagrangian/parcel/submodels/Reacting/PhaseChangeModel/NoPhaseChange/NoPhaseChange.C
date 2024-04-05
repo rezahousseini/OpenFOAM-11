@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoPhaseChange.H"
+#include "submodels/Reacting/PhaseChangeModel/NoPhaseChange/NoPhaseChange.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

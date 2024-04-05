@@ -42,8 +42,8 @@ SourceFiles
 #ifndef pointZone_H
 #define pointZone_H
 
-#include "zone.H"
-#include "meshPointZonesFwd.H"
+#include "meshes/polyMesh/zones/zone/zone.H"
+#include "meshes/polyMesh/zones/MeshZones/meshPointZonesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

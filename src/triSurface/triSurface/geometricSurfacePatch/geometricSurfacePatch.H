@@ -36,9 +36,9 @@ SourceFiles
 #ifndef geometricSurfacePatch_H
 #define geometricSurfacePatch_H
 
-#include "word.H"
-#include "label.H"
-#include "typeInfo.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/ints/label/label.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

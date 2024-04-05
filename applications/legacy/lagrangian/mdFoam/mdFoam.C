@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "md.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "mdTools/md.H"
 
 using namespace Foam;
 
@@ -40,13 +40,13 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
     #define NO_CONTROL
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
     #include "createFields.H"
-    #include "temperatureAndPressureVariables.H"
+    #include "mdTools/temperatureAndPressureVariables.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -62,8 +62,8 @@ int main(int argc, char *argv[])
 
         molecules.evolve();
 
-        #include "meanMomentumEnergyAndNMols.H"
-        #include "temperatureAndPressure.H"
+        #include "mdTools/meanMomentumEnergyAndNMols.H"
+        #include "mdTools/temperatureAndPressure.H"
 
         runTime.write();
 

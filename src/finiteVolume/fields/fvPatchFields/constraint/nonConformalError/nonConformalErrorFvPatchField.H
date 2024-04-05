@@ -44,8 +44,8 @@ SourceFiles
 #ifndef nonConformalErrorFvPatchField_H
 #define nonConformalErrorFvPatchField_H
 
-#include "zeroGradientFvPatchField.H"
-#include "nonConformalErrorFvPatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/nonConformalError/nonConformalErrorFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nonConformalErrorFvPatchField.C"
+    #include "fields/fvPatchFields/constraint/nonConformalError/nonConformalErrorFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

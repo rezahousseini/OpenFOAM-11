@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dispersedWallLubricationModel.H"
-#include "fvcCurl.H"
-#include "fvcFlux.H"
-#include "surfaceInterpolate.H"
+#include "wallLubricationModels/dispersedWallLubricationModel/dispersedWallLubricationModel.H"
+#include "finiteVolume/fvc/fvcCurl.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

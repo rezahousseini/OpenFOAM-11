@@ -37,8 +37,8 @@ SourceFiles
 #ifndef IOdistributionMap_H
 #define IOdistributionMap_H
 
-#include "distributionMap.H"
-#include "regIOobject.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

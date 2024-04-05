@@ -35,8 +35,8 @@ SourceFiles
 #ifndef GAMGProcAgglomeration_H
 #define GAMGProcAgglomeration_H
 
-#include "runTimeSelectionTables.H"
-#include "labelList.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

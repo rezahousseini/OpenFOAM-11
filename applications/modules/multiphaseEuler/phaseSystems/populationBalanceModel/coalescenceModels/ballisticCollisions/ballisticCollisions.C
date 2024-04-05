@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ballisticCollisions.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fundamentalConstants.H"
+#include "populationBalanceModel/coalescenceModels/ballisticCollisions/ballisticCollisions.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/fundamental/fundamentalConstants.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

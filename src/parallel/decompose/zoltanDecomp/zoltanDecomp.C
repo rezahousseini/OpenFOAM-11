@@ -24,11 +24,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "zoltanDecomp.H"
-#include "globalIndex.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
 #include "PstreamGlobals.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "sigFpe.H"
+#include "signals/sigFpe.H"
 #ifdef LINUX_GNUC
     #ifndef __USE_GNU
         #define __USE_GNU

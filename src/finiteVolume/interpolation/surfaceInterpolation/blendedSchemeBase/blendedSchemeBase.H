@@ -33,10 +33,10 @@ Description
 #ifndef blendedSchemeBase_H
 #define blendedSchemeBase_H
 
-#include "className.H"
-#include "tmp.H"
-#include "surfaceFieldsFwd.H"
-#include "volFieldsFwd.H"
+#include "db/typeInfo/className.H"
+#include "memory/tmp/tmp.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

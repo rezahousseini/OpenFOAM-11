@@ -35,7 +35,7 @@ SourceFiles
 #ifndef thermoParcelInjectionData_H
 #define thermoParcelInjectionData_H
 
-#include "momentumParcelInjectionData.H"
+#include "submodels/Momentum/InjectionModel/MomentumLookupTableInjection/momentumParcelInjectionData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thermoParcelInjectionDataI.H"
+#include "submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection/thermoParcelInjectionDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

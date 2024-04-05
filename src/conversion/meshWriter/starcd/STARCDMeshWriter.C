@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDMeshWriter.H"
-#include "Time.H"
-#include "OFstream.H"
-#include "OSspecific.H"
+#include "meshWriter/starcd/STARCDMeshWriter.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

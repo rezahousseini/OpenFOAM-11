@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionedType.H"
-#include "pTraits.H"
-#include "dictionary.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "primitives/pTraits/pTraits.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

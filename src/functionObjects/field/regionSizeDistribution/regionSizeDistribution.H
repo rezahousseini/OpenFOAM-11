@@ -96,13 +96,13 @@ SourceFiles
 #ifndef functionObjects_regionSizeDistribution_H
 #define functionObjects_regionSizeDistribution_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "setWriter.H"
-#include "Map.H"
-#include "volFieldsFwd.H"
-#include "wordReList.H"
-#include "coordinateSystem.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "sampledSet/writers/setWriter.H"
+#include "containers/HashTables/Map/Map.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "primitives/strings/lists/wordReList.H"
+#include "coordinateSystems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -275,7 +275,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "regionSizeDistributionTemplates.C"
+    #include "regionSizeDistribution/regionSizeDistributionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -120,7 +120,7 @@ SourceFiles
 #ifndef Scale_H
 #define Scale_H
 
-#include "Function1.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -220,10 +220,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ScaleI.H"
+#include "primitives/functions/Function1/Scale/ScaleI.H"
 
 #ifdef NoRepository
-    #include "Scale.C"
+    #include "primitives/functions/Function1/Scale/Scale.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

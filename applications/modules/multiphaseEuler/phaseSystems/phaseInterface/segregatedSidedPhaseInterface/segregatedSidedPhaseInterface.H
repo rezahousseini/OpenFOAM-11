@@ -36,8 +36,8 @@ SourceFiles
 #ifndef segregatedSidedPhaseInterface_H
 #define segregatedSidedPhaseInterface_H
 
-#include "segregatedPhaseInterface.H"
-#include "sidedPhaseInterface.H"
+#include "phaseInterface/segregatedPhaseInterface/segregatedPhaseInterface.H"
+#include "phaseInterface/sidedPhaseInterface/sidedPhaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

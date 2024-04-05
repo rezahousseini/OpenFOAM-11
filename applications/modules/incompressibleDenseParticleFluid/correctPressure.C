@@ -24,15 +24,15 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleDenseParticleFluid.H"
-#include "constrainHbyA.H"
-#include "constrainPressure.H"
-#include "adjustPhi.H"
-#include "fvcMeshPhi.H"
-#include "fvcFlux.H"
-#include "fvcDdt.H"
-#include "fvcSnGrad.H"
-#include "fvcReconstruct.H"
-#include "fvmLaplacian.H"
+#include "cfdTools/general/constrainHbyA/constrainHbyA.H"
+#include "cfdTools/general/constrainPressure/constrainPressure.H"
+#include "cfdTools/general/adjustPhi/adjustPhi.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

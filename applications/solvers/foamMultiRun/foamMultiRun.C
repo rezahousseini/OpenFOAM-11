@@ -83,9 +83,9 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "regionSolvers.H"
-#include "pimpleMultiRegionControl.H"
+#include "global/argList/argList.H"
+#include "regionSolvers/regionSolvers.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleMultiRegionControl/pimpleMultiRegionControl.H"
 #include "setDeltaT.H"
 
 using namespace Foam;
@@ -94,8 +94,8 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Create the region meshes and solvers
     regionSolvers solvers(runTime);

@@ -60,7 +60,7 @@ See also
 #ifndef tabulatedCumulative_H
 #define tabulatedCumulative_H
 
-#include "distribution.H"
+#include "distributions/distribution/distribution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

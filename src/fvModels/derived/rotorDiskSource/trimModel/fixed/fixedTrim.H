@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fixedTrim_H
 #define fixedTrim_H
 
-#include "trimModel.H"
+#include "derived/rotorDiskSource/trimModel/trimModel/trimModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

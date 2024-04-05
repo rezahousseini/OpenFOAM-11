@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingPhaseModel.H"
-#include "phaseSystem.H"
-#include "fvMatrix.H"
-#include "combustionModel.H"
+#include "phaseModel/ReactingPhaseModel/ReactingPhaseModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "combustionModel/combustionModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

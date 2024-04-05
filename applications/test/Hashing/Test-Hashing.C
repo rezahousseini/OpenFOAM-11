@@ -28,17 +28,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "IOobject.H"
-#include "IFstream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
-#include "stringList.H"
-#include "labelList.H"
-#include "labelPair.H"
-#include "edgeList.H"
-#include "triFaceList.H"
+#include "primitives/strings/lists/stringList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Pair/labelPair.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
 
-#include "Hash.H"
+#include "primitives/hashes/Hash/Hash.H"
 
 using namespace Foam;
 

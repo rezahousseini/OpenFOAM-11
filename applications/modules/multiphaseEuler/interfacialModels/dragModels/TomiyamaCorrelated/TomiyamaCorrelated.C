@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TomiyamaCorrelated.H"
-#include "addToRunTimeSelectionTable.H"
+#include "dragModels/TomiyamaCorrelated/TomiyamaCorrelated.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

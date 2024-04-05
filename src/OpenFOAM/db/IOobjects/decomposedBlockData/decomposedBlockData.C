@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "decomposedBlockData.H"
-#include "OPstream.H"
-#include "IPstream.H"
-#include "PstreamBuffers.H"
-#include "OFstream.H"
-#include "IFstream.H"
-#include "IStringStream.H"
-#include "dictionary.H"
-#include "objectRegistry.H"
-#include "SubList.H"
-#include "labelPair.H"
-#include "masterUncollatedFileOperation.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "db/dictionary/dictionary.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "containers/Lists/SubList/SubList.H"
+#include "primitives/Pair/labelPair.H"
+#include "global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

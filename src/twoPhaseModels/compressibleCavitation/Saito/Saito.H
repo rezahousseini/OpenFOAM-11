@@ -67,7 +67,7 @@ SourceFiles
 #ifndef Saito_H
 #define Saito_H
 
-#include "cavitationModel.H"
+#include "cavitationModel/cavitationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

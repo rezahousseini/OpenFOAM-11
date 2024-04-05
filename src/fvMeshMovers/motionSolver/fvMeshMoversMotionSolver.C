@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshMoversMotionSolver.H"
-#include "motionSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionSolver/fvMeshMoversMotionSolver.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

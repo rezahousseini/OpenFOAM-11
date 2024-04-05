@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EFA.H"
-#include "SortableListEFA.H"
+#include "chemistryModel/reduction/EFA/EFA.H"
+#include "chemistryModel/reduction/EFA/SortableListEFA.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

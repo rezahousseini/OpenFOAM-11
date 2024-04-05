@@ -75,7 +75,7 @@ SourceFiles
 #ifndef AndradeTransport_H
 #define AndradeTransport_H
 
-#include "FixedList.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,10 +193,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "AndradeTransportI.H"
+#include "transport/Andrade/AndradeTransportI.H"
 
 #ifdef NoRepository
-    #include "AndradeTransport.C"
+    #include "transport/Andrade/AndradeTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

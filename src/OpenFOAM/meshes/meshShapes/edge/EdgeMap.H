@@ -32,8 +32,8 @@ Description
 #ifndef EdgeMap_H
 #define EdgeMap_H
 
-#include "HashTable.H"
-#include "edge.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "meshes/meshShapes/edge/edge.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

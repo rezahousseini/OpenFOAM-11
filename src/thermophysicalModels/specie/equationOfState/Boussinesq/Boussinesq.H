@@ -62,7 +62,7 @@ SourceFiles
 #ifndef Boussinesq_H
 #define Boussinesq_H
 
-#include "autoPtr.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -252,10 +252,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BoussinesqI.H"
+#include "equationOfState/Boussinesq/BoussinesqI.H"
 
 #ifdef NoRepository
-    #include "Boussinesq.C"
+    #include "equationOfState/Boussinesq/Boussinesq.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

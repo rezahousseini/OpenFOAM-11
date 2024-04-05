@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshFilter.H"
-#include "polyMesh.H"
-#include "fvMesh.H"
-#include "unitConversion.H"
-#include "edgeCollapser.H"
-#include "syncTools.H"
-#include "polyTopoChange.H"
-#include "globalIndex.H"
-#include "PackedBoolList.H"
-#include "pointSet.H"
-#include "faceSet.H"
-#include "cellSet.H"
+#include "polyMeshFilter/polyMeshFilter.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "global/unitConversion/unitConversion.H"
+#include "polyTopoChange/polyTopoChange/edgeCollapser.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "sets/topoSets/pointSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/cellSet.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ListHashTable.H"
-#include "IOstreams.H"
-#include "IStringStream.H"
-#include "OStringStream.H"
+#include "containers/HashTables/ListHashTable/ListHashTable.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
 
 using namespace Foam;
 

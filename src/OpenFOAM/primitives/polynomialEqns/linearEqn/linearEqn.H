@@ -35,7 +35,7 @@ SourceFiles
 #ifndef linearEqn_H
 #define linearEqn_H
 
-#include "Roots.H"
+#include "primitives/polynomialEqns/Roots.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "linearEqnI.H"
+#include "primitives/polynomialEqns/linearEqn/linearEqnI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

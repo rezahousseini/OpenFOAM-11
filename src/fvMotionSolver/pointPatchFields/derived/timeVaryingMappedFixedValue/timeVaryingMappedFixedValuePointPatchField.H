@@ -38,10 +38,10 @@ SourceFiles
 #ifndef timeVaryingMappedFixedValuePointPatchField_H
 #define timeVaryingMappedFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchField.H"
-#include "instantList.H"
-#include "pointToPointPlanarInterpolation.H"
-#include "Function1.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "db/Time/instant/instantList.H"
+#include "triSurface/triSurfaceTools/pointToPointPlanarInterpolation.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "timeVaryingMappedFixedValuePointPatchField.C"
+    #include "pointPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValuePointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

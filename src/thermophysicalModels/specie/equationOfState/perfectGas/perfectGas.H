@@ -46,7 +46,7 @@ SourceFiles
 #ifndef perfectGas_H
 #define perfectGas_H
 
-#include "autoPtr.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,10 +213,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "perfectGasI.H"
+#include "equationOfState/perfectGas/perfectGasI.H"
 
 #ifdef NoRepository
-    #include "perfectGas.C"
+    #include "equationOfState/perfectGas/perfectGas.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

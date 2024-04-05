@@ -24,13 +24,13 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "zoltanRenumber.H"
-#include "addToRunTimeSelectionTable.H"
-#include "IFstream.H"
-#include "labelIOList.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "globalIndex.H"
-#include "uint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "primitives/ints/uint/uint.H"
 #include "PstreamGlobals.H"
 
 #include "zoltan.h"

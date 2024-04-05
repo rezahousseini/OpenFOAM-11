@@ -40,7 +40,7 @@ Description
 #ifndef WenYuDragForce_H
 #define WenYuDragForce_H
 
-#include "DenseDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/DenseDrag/DenseDragForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,7 +122,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "WenYuDragForce.C"
+    #include "submodels/Momentum/ParticleForces/Drag/WenYuDrag/WenYuDragForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

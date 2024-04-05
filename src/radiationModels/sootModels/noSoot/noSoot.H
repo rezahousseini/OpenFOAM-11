@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noSoot_H
 #define noSoot_H
 
-#include "sootModel.H"
+#include "sootModels/sootModel/sootModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

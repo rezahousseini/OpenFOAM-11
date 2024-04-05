@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshStitcher.H"
+#include "fvMesh/fvMeshStitchers/fvMeshStitcher/fvMeshStitcher.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

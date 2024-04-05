@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarMatrices.H"
-#include "LUscalarMatrix.H"
-#include "LLTMatrix.H"
-#include "QRMatrix.H"
-#include "vector.H"
-#include "tensor.H"
-#include "IFstream.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "matrices/LUscalarMatrix/LUscalarMatrix.H"
+#include "matrices/LLTMatrix/LLTMatrix.H"
+#include "matrices/QRMatrix/QRMatrix.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 using namespace Foam;
 

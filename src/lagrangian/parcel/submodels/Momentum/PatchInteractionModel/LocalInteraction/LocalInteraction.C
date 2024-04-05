@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LocalInteraction.H"
-#include "wordAndDictionary.H"
+#include "submodels/Momentum/PatchInteractionModel/LocalInteraction/LocalInteraction.H"
+#include "db/functionObjects/functionObjectList/wordAndDictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

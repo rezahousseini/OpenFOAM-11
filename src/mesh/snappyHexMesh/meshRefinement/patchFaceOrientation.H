@@ -36,8 +36,8 @@ SourceFiles
 #ifndef patchFaceOrientation_H
 #define patchFaceOrientation_H
 
-#include "tensor.H"
-#include "indirectPrimitivePatch.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -176,7 +176,7 @@ inline bool contiguous<patchFaceOrientation>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchFaceOrientationI.H"
+#include "meshRefinement/patchFaceOrientationI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

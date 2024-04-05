@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSurfaces.H"
-#include "PatchTools.H"
-#include "polyTopoChangeMap.H"
-#include "polyMeshMap.H"
-#include "polyDistributionMap.H"
-#include "OSspecific.H"
-#include "writeFile.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledSurfaces/sampledSurfaces.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyMeshMap/polyMeshMap.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "include/OSspecific.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

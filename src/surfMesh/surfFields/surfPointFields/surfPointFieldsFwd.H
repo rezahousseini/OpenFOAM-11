@@ -26,7 +26,7 @@ License
 #ifndef surfPointFieldsFwd_H
 #define surfPointFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

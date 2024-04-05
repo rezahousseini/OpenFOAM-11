@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemPointISAT.H"
-#include "ISAT.H"
-#include "odeChemistryModel.H"
-#include "SVD.H"
+#include "chemistryModel/tabulation/ISAT/chemPointISAT/chemPointISAT.H"
+#include "chemistryModel/tabulation/ISAT/ISAT.H"
+#include "odeChemistryModel/odeChemistryModel.H"
+#include "matrices/scalarMatrices/SVD/SVD.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symGaussSeidelSmoother.H"
+#include "matrices/lduMatrix/smoothers/symGaussSeidel/symGaussSeidelSmoother.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "collidingCloud.H"
+#include "clouds/derived/collidingCloud/collidingCloud.H"
 
-#include "makeParcelCloudFunctionObjects.H"
+#include "parcels/include/makeParcelCloudFunctionObjects.H"
 
 // Momentum
-#include "makeParcelForces.H"
-#include "makeParcelDispersionModels.H"
-#include "makeParcelInjectionModels.H"
-#include "makeParcelCollisionModels.H"
-#include "makeParcelPatchInteractionModels.H"
-#include "makeParcelStochasticCollisionModels.H"
-#include "makeParcelSurfaceFilmModels.H"
+#include "parcels/include/makeParcelForces.H"
+#include "parcels/include/makeParcelDispersionModels.H"
+#include "parcels/include/makeParcelInjectionModels.H"
+#include "parcels/include/makeParcelCollisionModels.H"
+#include "parcels/include/makeParcelPatchInteractionModels.H"
+#include "parcels/include/makeParcelStochasticCollisionModels.H"
+#include "parcels/include/makeParcelSurfaceFilmModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

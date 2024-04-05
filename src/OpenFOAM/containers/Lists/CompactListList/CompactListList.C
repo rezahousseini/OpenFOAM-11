@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompactListList.H"
+#include "containers/Lists/CompactListList/CompactListList.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 
@@ -199,6 +199,6 @@ void Foam::CompactListList<T>::transfer(CompactListList<T>& a)
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "CompactListListIO.C"
+#include "containers/Lists/CompactListList/CompactListListIO.C"
 
 // ************************************************************************* //

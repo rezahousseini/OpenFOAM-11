@@ -38,8 +38,8 @@ Description
 #ifndef wordReList_H
 #define wordReList_H
 
-#include "wordRe.H"
-#include "List.H"
+#include "primitives/strings/wordRe/wordRe.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

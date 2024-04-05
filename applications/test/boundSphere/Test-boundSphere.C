@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "boundSphere.H"
-#include "clock.H"
-#include "cpuTime.H"
-#include "OBJstream.H"
-#include "triFace.H"
+#include "global/argList/argList.H"
+#include "algorithms/boundSphere/boundSphere.H"
+#include "global/clock/clock.H"
+#include "cpuTime/cpuTime.H"
+#include "obj/OBJstream.H"
+#include "meshes/meshShapes/triFace/triFace.H"
 
 using namespace Foam;
 

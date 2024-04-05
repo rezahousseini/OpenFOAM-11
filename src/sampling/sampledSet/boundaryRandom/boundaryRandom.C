@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryRandom.H"
-#include "sampledSet.H"
-#include "meshSearch.H"
-#include "DynamicList.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "word.H"
-#include "Random.H"
-#include "SubField.H"
-#include "barycentric2D.H"
-#include "triPointRef.H"
-#include "tetIndices.H"
+#include "sampledSet/boundaryRandom/boundaryRandom.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "meshSearch/meshSearch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/Random/Random.H"
+#include "fields/Fields/Field/SubField.H"
+#include "primitives/Barycentric2D/barycentric2D/barycentric2D.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

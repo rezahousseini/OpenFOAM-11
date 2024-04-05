@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "populationBalanceSizeDistribution.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceSizeDistribution/populationBalanceSizeDistribution.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "engineValve.H"
+#include "engine/engineValve/engineValve.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

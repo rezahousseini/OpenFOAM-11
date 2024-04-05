@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TableFileReader.H"
-#include "fileOperation.H"
+#include "primitives/functions/Function1/Table/TableReader/TableFileReader/TableFileReader.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

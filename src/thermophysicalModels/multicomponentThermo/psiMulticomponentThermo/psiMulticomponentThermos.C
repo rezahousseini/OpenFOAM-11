@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coefficientMulticomponentMixture.H"
-#include "coefficientWilkeMulticomponentMixture.H"
-#include "singleComponentMixture.H"
+#include "mixtures/coefficientMulticomponentMixture/coefficientMulticomponentMixture.H"
+#include "mixtures/coefficientWilkeMulticomponentMixture/coefficientWilkeMulticomponentMixture.H"
+#include "mixtures/singleComponentMixture/singleComponentMixture.H"
 
-#include "psiThermo.H"
-#include "psiMulticomponentThermo.H"
-#include "hePsiThermo.H"
+#include "psiThermo/psiThermo.H"
+#include "psiMulticomponentThermo/psiMulticomponentThermo.H"
+#include "psiThermo/hePsiThermo.H"
 
-#include "forGases.H"
+#include "include/forGases.H"
 #include "makeMulticomponentThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

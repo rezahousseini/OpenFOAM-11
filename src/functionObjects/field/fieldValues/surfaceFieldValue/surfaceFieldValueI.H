@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFieldValue.H"
-#include "Time.H"
+#include "fieldValues/surfaceFieldValue/surfaceFieldValue.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

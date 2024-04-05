@@ -64,8 +64,8 @@ SourceFiles
 #ifndef Liao_H
 #define Liao_H
 
-#include "binaryBreakupModel.H"
-#include "LiaoBase.H"
+#include "populationBalanceModel/binaryBreakupModels/binaryBreakupModel/binaryBreakupModel.H"
+#include "populationBalanceModel/binaryBreakupModels/Liao/LiaoBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

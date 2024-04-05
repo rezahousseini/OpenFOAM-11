@@ -61,7 +61,7 @@ SourceFiles
 #ifndef buoyantKEpsilon_H
 #define buoyantKEpsilon_H
 
-#include "kEpsilon.H"
+#include "RAS/kEpsilon/kEpsilon.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -150,7 +150,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "buoyantKEpsilon.C"
+    #include "RAS/buoyantKEpsilon/buoyantKEpsilon.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfacesQueries.H"
-#include "projectEdge.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointConstraint.H"
-#include "OBJstream.H"
-#include "linearInterpolationWeights.H"
+#include "searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.H"
+#include "blockEdges/projectEdge/projectEdge.H"
+#include "global/unitConversion/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
+#include "obj/OBJstream.H"
+#include "interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

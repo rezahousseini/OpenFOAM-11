@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noChemistrySolver.H"
-#include "chemistryModel.H"
+#include "chemistrySolver/noChemistrySolver/noChemistrySolver.H"
+#include "chemistryModel/chemistryModel.H"
 
-#include "forGases.H"
-#include "forLiquids.H"
-#include "makeChemistrySolver.H"
+#include "include/forGases.H"
+#include "include/forLiquids.H"
+#include "chemistrySolver/makeChemistrySolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

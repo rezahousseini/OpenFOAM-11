@@ -56,10 +56,10 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
 
-#include "UnsortedMeshedSurfaces.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurfaces.H"
 
 using namespace Foam;
 

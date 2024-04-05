@@ -37,12 +37,12 @@ SourceFiles
 #ifndef surfZone_H
 #define surfZone_H
 
-#include "word.H"
-#include "label.H"
-#include "className.H"
-#include "surfZoneIdentifier.H"
-#include "autoPtr.H"
-#include "dictionary.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/ints/label/label.H"
+#include "db/typeInfo/className.H"
+#include "surfZone/surfZoneIdentifier/surfZoneIdentifier.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

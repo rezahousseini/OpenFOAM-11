@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Field.H"
-#include "FieldM.H"
-#include "dictionary.H"
-#include "contiguous.H"
+#include "fields/Fields/Field/Field.H"
+#include "fields/Fields/Field/FieldM.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * Static Members  * * * * * * * * * * * * * * //
 
@@ -690,6 +690,6 @@ Foam::Ostream& Foam::operator<<(Ostream& os, const tmp<Field<Type>>& tf)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FieldFunctions.C"
+#include "fields/Fields/Field/FieldFunctions.C"
 
 // ************************************************************************* //

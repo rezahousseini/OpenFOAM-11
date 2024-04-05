@@ -32,7 +32,7 @@ SourceFiles
 #ifndef twoResistanceHeatTransferPhaseSystem_H
 #define twoResistanceHeatTransferPhaseSystem_H
 
-#include "NamedEnum.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

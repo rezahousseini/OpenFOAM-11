@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Vector.H"
-#include "Tensor.H"
+#include "primitives/Vector/Vector.H"
+#include "primitives/Tensor/Tensor.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef blockList_H
 #define blockList_H
 
-#include "block.H"
-#include "PtrList.H"
+#include "blocks/block/block.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,9 +32,9 @@ Description
 #ifndef filmThermophysicalTransportModel_H
 #define filmThermophysicalTransportModel_H
 
-#include "fluidThermo.H"
-#include "PhaseThermophysicalTransportModel.H"
-#include "filmCompressibleMomentumTransportModel.H"
+#include "fluidThermo/fluidThermo.H"
+#include "PhaseThermophysicalTransportModel/PhaseThermophysicalTransportModel.H"
+#include "filmCompressibleMomentumTransportModels/filmCompressibleMomentumTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ Description
 #ifndef labelPair_H
 #define labelPair_H
 
-#include "Pair.H"
-#include "List.H"
+#include "primitives/Pair/Pair.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

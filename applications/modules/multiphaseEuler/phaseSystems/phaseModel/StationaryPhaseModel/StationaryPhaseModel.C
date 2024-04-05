@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StationaryPhaseModel.H"
-#include "fvcLaplacian.H"
+#include "phaseModel/StationaryPhaseModel/StationaryPhaseModel.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

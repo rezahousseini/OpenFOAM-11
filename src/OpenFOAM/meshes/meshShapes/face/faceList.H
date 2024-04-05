@@ -31,10 +31,10 @@ Description
 #ifndef faceList_H
 #define faceList_H
 
-#include "face.H"
-#include "List.H"
-#include "SubList.H"
-#include "faceListFwd.H"
+#include "meshes/meshShapes/face/face.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/SubList/SubList.H"
+#include "meshes/meshShapes/face/faceListFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

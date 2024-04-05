@@ -40,8 +40,8 @@ SourceFiles
 #ifndef CodedFunction2_H
 #define CodedFunction2_H
 
-#include "Function2.H"
-#include "codedBase.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,10 +149,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CodedFunction2I.H"
+#include "primitives/functions/Function2/Coded/CodedFunction2I.H"
 
 #ifdef NoRepository
-    #include "CodedFunction2.C"
+    #include "primitives/functions/Function2/Coded/CodedFunction2.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

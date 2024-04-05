@@ -36,7 +36,7 @@ SourceFiles
 #ifndef noChemistryReduction_H
 #define noChemistryReduction_H
 
-#include "chemistryReductionMethod.H"
+#include "chemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -107,7 +107,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "noChemistryReduction.C"
+    #include "chemistryModel/reduction/noChemistryReduction/noChemistryReduction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

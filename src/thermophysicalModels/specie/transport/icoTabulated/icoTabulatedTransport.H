@@ -73,7 +73,7 @@ See also
 #ifndef icoTabulatedTransport_H
 #define icoTabulatedTransport_H
 
-#include "NonUniformTable1.H"
+#include "primitives/functions/Function1/NonUniformTable1/NonUniformTable1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,10 +168,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "icoTabulatedTransportI.H"
+#include "transport/icoTabulated/icoTabulatedTransportI.H"
 
 #ifdef NoRepository
-    #include "icoTabulatedTransport.C"
+    #include "transport/icoTabulated/icoTabulatedTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

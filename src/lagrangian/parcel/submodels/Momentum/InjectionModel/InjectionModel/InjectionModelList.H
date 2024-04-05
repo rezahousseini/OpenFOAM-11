@@ -35,8 +35,8 @@ SourceFiles
 #ifndef InjectionModelList_H
 #define InjectionModelList_H
 
-#include "PtrList.H"
-#include "InjectionModel.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "InjectionModelList.C"
+    #include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModelList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

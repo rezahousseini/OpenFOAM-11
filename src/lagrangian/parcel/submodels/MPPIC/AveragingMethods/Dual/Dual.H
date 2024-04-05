@@ -46,9 +46,9 @@ SourceFiles
 #ifndef Dual_H
 #define Dual_H
 
-#include "AveragingMethod.H"
-#include "pointMesh.H"
-#include "tetIndices.H"
+#include "submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Dual.C"
+    #include "submodels/MPPIC/AveragingMethods/Dual/Dual.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef SingleMixtureFraction_H
 #define SingleMixtureFraction_H
 
-#include "CompositionModel.H"
+#include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -132,7 +132,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SingleMixtureFraction.C"
+    #include "submodels/Reacting/CompositionModel/SingleMixtureFraction/SingleMixtureFraction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

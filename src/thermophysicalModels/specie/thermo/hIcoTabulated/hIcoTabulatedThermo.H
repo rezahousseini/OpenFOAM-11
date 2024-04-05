@@ -67,7 +67,7 @@ See also
 #ifndef hIcoTabulatedThermo_H
 #define hIcoTabulatedThermo_H
 
-#include "integratedNonUniformTable1.H"
+#include "thermophysicalFunctions/integratedNonUniformTable1/integratedNonUniformTable1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -157,7 +157,7 @@ public:
             //- Gibbs free energy of the mixture in the standard state [J/kg]
             inline scalar Gstd(const scalar T) const;
 
-            #include "HtoEthermo.H"
+            #include "thermo/thermo/HtoEthermo.H"
 
 
         // Derivative term used for Jacobian
@@ -188,10 +188,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hIcoTabulatedThermoI.H"
+#include "thermo/hIcoTabulated/hIcoTabulatedThermoI.H"
 
 #ifdef NoRepository
-    #include "hIcoTabulatedThermo.C"
+    #include "thermo/hIcoTabulated/hIcoTabulatedThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

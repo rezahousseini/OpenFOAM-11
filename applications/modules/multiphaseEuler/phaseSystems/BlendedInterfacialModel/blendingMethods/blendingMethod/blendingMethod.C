@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blendingMethod.H"
-#include "phaseSystem.H"
+#include "BlendedInterfacialModel/blendingMethods/blendingMethod/blendingMethod.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

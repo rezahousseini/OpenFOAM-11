@@ -35,7 +35,7 @@ SourceFiles
 #ifndef constantVirtualMassCoefficient_H
 #define constantVirtualMassCoefficient_H
 
-#include "dispersedVirtualMassModel.H"
+#include "virtualMassModels/dispersedVirtualMassModel/dispersedVirtualMassModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

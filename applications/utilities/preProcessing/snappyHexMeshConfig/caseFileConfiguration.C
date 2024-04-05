@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "caseFileConfiguration.H"
-#include "Time.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

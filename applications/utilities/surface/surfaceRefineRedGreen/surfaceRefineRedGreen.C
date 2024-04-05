@@ -33,10 +33,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "triSurfaceTools.H"
-#include "argList.H"
-#include "OFstream.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 using namespace Foam;
 
@@ -44,7 +44,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::validArgs.append("surface file");
     argList::validArgs.append("output surface file");

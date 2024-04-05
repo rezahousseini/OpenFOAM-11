@@ -43,15 +43,15 @@ SourceFiles
 #ifndef meshRefinement_H
 #define meshRefinement_H
 
-#include "hexRef8.H"
-#include "polyTopoChangeMap.H"
-#include "autoPtr.H"
-#include "labelPair.H"
-#include "indirectPrimitivePatch.H"
-#include "pointFieldsFwd.H"
-#include "Tuple2.H"
-#include "pointIndexHit.H"
-#include "refinementParameters.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/Pair/labelPair.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "snappyHexMeshDriver/refinementParameters/refinementParameters.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1150,7 +1150,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "meshRefinementTemplates.C"
+    #include "meshRefinement/meshRefinementTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

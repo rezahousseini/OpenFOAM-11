@@ -35,7 +35,7 @@ SourceFiles
 #ifndef dummyAgglomeration_H
 #define dummyAgglomeration_H
 
-#include "GAMGAgglomeration.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

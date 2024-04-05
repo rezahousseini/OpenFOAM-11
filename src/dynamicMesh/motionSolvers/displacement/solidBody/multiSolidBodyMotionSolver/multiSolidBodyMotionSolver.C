@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiSolidBodyMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "transformField.H"
-#include "meshCellZones.H"
-#include "boolList.H"
-#include "syncTools.H"
+#include "motionSolvers/displacement/solidBody/multiSolidBodyMotionSolver/multiSolidBodyMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "meshes/polyMesh/zones/MeshZones/meshCellZones.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

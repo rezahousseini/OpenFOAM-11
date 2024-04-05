@@ -41,7 +41,7 @@ Description
 #ifndef interpolationCellPointWallModified_H
 #define interpolationCellPointWallModified_H
 
-#include "interpolationCellPoint.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -109,7 +109,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationCellPointWallModified.C"
+    #include "interpolation/interpolation/interpolationCellPointWallModified/interpolationCellPointWallModified.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

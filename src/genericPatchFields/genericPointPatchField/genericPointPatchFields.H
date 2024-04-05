@@ -26,8 +26,8 @@ License
 #ifndef genericPointPatchFields_H
 #define genericPointPatchFields_H
 
-#include "genericPointPatchField.H"
-#include "fieldTypes.H"
+#include "genericPointPatchField/genericPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

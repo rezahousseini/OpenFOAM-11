@@ -35,7 +35,7 @@ SourceFiles
 #ifndef spherical_H
 #define spherical_H
 
-#include "shapeModel.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/shapeModel/shapeModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

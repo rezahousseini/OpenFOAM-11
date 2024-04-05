@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VoFCavitation.H"
-#include "compressibleTwoPhaseVoFMixture.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvModels/VoFCavitation/VoFCavitation.H"
+#include "compressibleTwoPhaseVoFMixture/compressibleTwoPhaseVoFMixture.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

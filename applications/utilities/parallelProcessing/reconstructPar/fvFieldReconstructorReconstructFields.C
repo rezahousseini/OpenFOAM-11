@@ -24,15 +24,15 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "fvFieldReconstructor.H"
-#include "Time.H"
-#include "PtrList.H"
-#include "fvPatchFields.H"
-#include "emptyFvPatch.H"
-#include "emptyFvPatchField.H"
-#include "emptyFvsPatchField.H"
-#include "processorCyclicFvPatch.H"
-#include "reverseFvPatchFieldMapper.H"
-#include "stringOps.H"
+#include "db/Time/Time.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchField.H"
+#include "fields/fvsPatchFields/constraint/empty/emptyFvsPatchField.H"
+#include "fvMesh/fvPatches/constraint/processorCyclic/processorCyclicFvPatch.H"
+#include "fields/fvPatchFields/fvPatchField/reverseFvPatchFieldMapper.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

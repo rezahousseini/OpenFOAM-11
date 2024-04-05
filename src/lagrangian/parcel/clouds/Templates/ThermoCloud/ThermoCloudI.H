@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvmSup.H"
-#include "physicoChemicalConstants.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
 
 using namespace Foam::constant;
 

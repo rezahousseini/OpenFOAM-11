@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementMeshMoverMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "localPointRegion.H"
+#include "externalDisplacementMeshMover/displacementMeshMoverMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "regionSplit/localPointRegion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

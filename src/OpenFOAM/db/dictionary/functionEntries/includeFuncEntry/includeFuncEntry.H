@@ -65,7 +65,7 @@ SourceFiles
 #ifndef includeFuncEntry_H
 #define includeFuncEntry_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

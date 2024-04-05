@@ -43,7 +43,7 @@ SourceFiles
 #ifndef fixedBlended_H
 #define fixedBlended_H
 
-#include "surfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

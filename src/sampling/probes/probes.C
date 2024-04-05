@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "probes.H"
-#include "volFields.H"
-#include "polyTopoChangeMap.H"
-#include "OSspecific.H"
-#include "writeFile.H"
-#include "addToRunTimeSelectionTable.H"
+#include "probes/probes.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "include/OSspecific.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

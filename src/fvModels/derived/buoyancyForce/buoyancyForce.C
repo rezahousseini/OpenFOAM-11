@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "buoyancyForce.H"
-#include "fvMatrices.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derived/buoyancyForce/buoyancyForce.H"
+#include "fvMatrices/fvMatrices.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

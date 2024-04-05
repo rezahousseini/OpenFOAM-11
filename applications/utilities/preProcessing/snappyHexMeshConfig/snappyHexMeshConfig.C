@@ -169,16 +169,16 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
 #include "meshingSurface.H"
 #include "blockMeshCartesianConfiguration.H"
 #include "blockMeshCylindricalConfiguration.H"
 #include "snappyHexMeshConfiguration.H"
 #include "meshQualityConfiguration.H"
 #include "surfaceFeaturesConfiguration.H"
-#include "boundBox.H"
-#include "searchableSurface.H"
+#include "meshes/boundBox/boundBox.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 #include "Tuple3.H"
 
 using namespace Foam;
@@ -214,7 +214,7 @@ int main(int argc, char *argv[])
         "or run\n\n    foamInfo snappyHexMeshConfig"
     );
 
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::addOption
     (
@@ -389,8 +389,8 @@ int main(int argc, char *argv[])
         "outlet regions on an external surface, e.g. '(outletA outletB)'"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     fileNameList surfaceNames;
 

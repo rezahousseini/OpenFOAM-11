@@ -1,9 +1,9 @@
 #include <ctime>
 #include <random>
 
-#include "cubicEqn.H"
-#include "IOstreams.H"
-#include "stringList.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqn.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/strings/lists/stringList.H"
 
 using namespace Foam;
 
@@ -11,7 +11,7 @@ scalar randomScalar(const scalar min, const scalar max)
 {
     static_assert
     (
-        sizeof(long) == sizeof(scalar),
+        sizeof(long) != sizeof(scalar),
         "Scalar and long are not the same size"
     );
     static std::default_random_engine generator(std::time(0));

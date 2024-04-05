@@ -42,11 +42,11 @@ SourceFiles
 #ifndef solidBodyMotionFunction_H
 #define solidBodyMotionFunction_H
 
-#include "Time.H"
-#include "dictionary.H"
-#include "septernion.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "db/Time/Time.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/septernion/septernion.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

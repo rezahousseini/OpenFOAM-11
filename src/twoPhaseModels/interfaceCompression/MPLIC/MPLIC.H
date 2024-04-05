@@ -69,8 +69,8 @@ SourceFiles
 #ifndef MPLIC_H
 #define MPLIC_H
 
-#include "surfaceInterpolationScheme.H"
-#include "DynamicList.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

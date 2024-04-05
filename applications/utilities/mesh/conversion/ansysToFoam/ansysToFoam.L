@@ -35,20 +35,20 @@ License
 // For EOF only
 #include <cstdio>
 
-#include "scalar.H"
-#include "IStringStream.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 using namespace Foam;
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "emptyPolyPatch.H"
-#include "preservePatchTypes.H"
-#include "cellShape.H"
-#include "cellModeller.H"
-#include "SLList.H"
-#include "SLPtrList.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "containers/LinkedLists/user/SLPtrList.H"
 
 SLList<point> slPoints;
 SLList<label> slPointMap;
@@ -259,7 +259,7 @@ elementType           ^{space}"TYPE"{cspace}
 %%
 
 
-#include "fileName.H"
+#include "primitives/strings/fileName/fileName.H"
 #include <fstream>
 using std::ifstream;
 
@@ -306,7 +306,7 @@ int main(int argc, char *argv[])
 
     const scalar scaleFactor = args.optionLookupOrDefault("scale", 1.0);
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     fileName ansysFile(args[1]);
     ifstream ansysStream(ansysFile.c_str());

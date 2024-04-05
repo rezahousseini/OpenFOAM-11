@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "residuals.H"
-#include "volFields.H"
-#include "Residuals.H"
-#include "ListOps.H"
+#include "residuals/residuals.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/Residuals/Residuals.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

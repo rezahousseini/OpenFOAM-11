@@ -32,10 +32,10 @@ Description
 #ifndef collidingParcel_H
 #define collidingParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "MomentumParcel.H"
-#include "CollidingParcel.H"
+#include "primitives/contiguous/contiguous.H"
+#include "particle/particle.H"
+#include "parcels/Templates/MomentumParcel/MomentumParcel.H"
+#include "parcels/Templates/CollidingParcel/CollidingParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

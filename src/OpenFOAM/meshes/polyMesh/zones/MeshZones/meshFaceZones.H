@@ -29,9 +29,9 @@ Description
 #ifndef meshFaceZones_H
 #define meshFaceZones_H
 
-#include "MeshZones.H"
-#include "faceZone.H"
-#include "meshFaceZonesFwd.H"
+#include "meshes/polyMesh/zones/MeshZones/MeshZones.H"
+#include "meshes/polyMesh/zones/faceZone/faceZone.H"
+#include "meshes/polyMesh/zones/MeshZones/meshFaceZonesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -29,35 +29,35 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "fvMesh.H"
-#include "snappyRefineDriver.H"
-#include "snappySnapDriver.H"
-#include "snappyLayerDriver.H"
-#include "searchableSurfaces.H"
-#include "refinementSurfaces.H"
-#include "refinementFeatures.H"
-#include "refinementRegions.H"
-#include "decompositionMethod.H"
-#include "noDecomp.H"
-#include "fvMeshDistribute.H"
-#include "wallPolyPatch.H"
-#include "refinementParameters.H"
-#include "snapParameters.H"
-#include "layerParameters.H"
-#include "faceSet.H"
-#include "motionSmoother.H"
-#include "polyTopoChange.H"
-#include "cellModeller.H"
-#include "uindirectPrimitivePatch.H"
-#include "surfZoneIdentifierList.H"
-#include "UnsortedMeshedSurface.H"
-#include "MeshedSurface.H"
-#include "globalIndex.H"
-#include "IOmanip.H"
-#include "fvMeshTools.H"
-#include "systemDict.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "fvMesh/fvMesh.H"
+#include "snappyHexMeshDriver/snappyRefineDriver.H"
+#include "snappyHexMeshDriver/snappySnapDriver.H"
+#include "snappyHexMeshDriver/snappyLayerDriver.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "refinementFeatures/refinementFeatures.H"
+#include "refinementRegions/refinementRegions.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "noDecomp/noDecomp.H"
+#include "fvMeshDistribute/fvMeshDistribute.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "snappyHexMeshDriver/refinementParameters/refinementParameters.H"
+#include "snappyHexMeshDriver/snapParameters/snapParameters.H"
+#include "snappyHexMeshDriver/layerParameters/layerParameters.H"
+#include "sets/topoSets/faceSet.H"
+#include "motionSmoother/motionSmoother.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "meshes/primitiveMesh/primitivePatch/uindirectPrimitivePatch.H"
+#include "surfZone/surfZoneIdentifier/surfZoneIdentifierList.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "fvMeshTools/fvMeshTools.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
 using namespace Foam;
 
@@ -638,7 +638,7 @@ void writeMesh
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     Foam::argList::addBoolOption
     (
         "checkGeometry",
@@ -662,10 +662,10 @@ int main(int argc, char *argv[])
         "file",
         "name of the file to save the simplified surface to"
     );
-    #include "addDictOption.H"
+    #include "include/addDictOption.H"
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
 
     const bool overwrite = args.optionFound("overwrite");
     const bool checkGeometry = args.optionFound("checkGeometry");

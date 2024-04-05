@@ -37,7 +37,7 @@ SourceFiles
 #ifndef pisoControl_H
 #define pisoControl_H
 
-#include "fluidSolutionControl.H"
+#include "cfdTools/general/solutionControl/solutionControl/fluidSolutionControl/fluidSolutionControl.H"
 
 #define PISO_CONTROL
 
@@ -135,7 +135,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pisoControlI.H"
+#include "cfdTools/general/solutionControl/pisoControl/pisoControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

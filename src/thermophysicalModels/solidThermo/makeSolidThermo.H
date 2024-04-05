@@ -32,8 +32,8 @@ Description
 #ifndef makeSolidThermo_H
 #define makeSolidThermo_H
 
-#include "basicThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "basicThermo/basicThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -43,7 +43,7 @@ SourceFiles
 #ifndef AntoineExtended_H
 #define AntoineExtended_H
 
-#include "saturationPressureModel.H"
+#include "saturationPressureModel/saturationPressureModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

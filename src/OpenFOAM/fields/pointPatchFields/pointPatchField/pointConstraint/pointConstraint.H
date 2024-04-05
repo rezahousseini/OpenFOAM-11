@@ -40,10 +40,10 @@ SourceFiles
 #ifndef pointConstraint_H
 #define pointConstraint_H
 
-#include "label.H"
-#include "vector.H"
-#include "Tuple2.H"
-#include "transform.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ inline bool contiguous<pointConstraint>() {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointConstraintI.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraintI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

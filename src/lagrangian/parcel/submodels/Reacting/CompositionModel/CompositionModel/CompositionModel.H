@@ -38,11 +38,11 @@ SourceFiles
 #ifndef CompositionModel_H
 #define CompositionModel_H
 
-#include "CloudSubModelBase.H"
-#include "parcelThermo.H"
-#include "basicSpecieMixture.H"
-#include "phasePropertiesList.H"
-#include "runTimeSelectionTables.H"
+#include "submodels/CloudSubModelBase.H"
+#include "parcelThermo/parcelThermo.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "phaseProperties/phasePropertiesList/phasePropertiesList.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -298,7 +298,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CompositionModel.C"
+    #include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

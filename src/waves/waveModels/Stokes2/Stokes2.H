@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Stokes2_H
 #define Stokes2_H
 
-#include "Airy.H"
+#include "waveModels/Airy/Airy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

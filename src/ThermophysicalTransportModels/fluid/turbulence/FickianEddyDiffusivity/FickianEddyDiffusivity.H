@@ -100,8 +100,8 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Fickian.H"
-#include "unityLewisEddyDiffusivity.H"
+#include "laminar/Fickian/Fickian.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
 
 #ifndef FickianEddyDiffusivity_H
 #define FickianEddyDiffusivity_H
@@ -195,7 +195,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FickianEddyDiffusivity.C"
+    #include "turbulence/FickianEddyDiffusivity/FickianEddyDiffusivity.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

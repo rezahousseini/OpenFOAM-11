@@ -43,7 +43,7 @@ SourceFiles
 #ifndef planeToFaceZone_H
 #define planeToFaceZone_H
 
-#include "topoSetSource.H"
+#include "sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

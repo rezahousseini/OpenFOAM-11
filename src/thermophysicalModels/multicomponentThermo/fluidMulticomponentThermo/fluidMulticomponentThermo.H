@@ -38,8 +38,8 @@ SourceFiles
 #ifndef fluidMulticomponentThermo_H
 #define fluidMulticomponentThermo_H
 
-#include "fluidThermo.H"
-#include "basicSpecieMixture.H"
+#include "fluidThermo/fluidThermo.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

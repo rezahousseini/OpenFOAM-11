@@ -38,7 +38,7 @@ SourceFiles
 #ifndef localIOdictionary_H
 #define localIOdictionary_H
 
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

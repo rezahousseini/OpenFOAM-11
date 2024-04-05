@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "createExternalCoupledPatchGeometryTemplates.H"
-#include "fvMesh.H"
-#include "externalCoupledMixedFvPatchField.H"
-#include "IOobjectList.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvPatchFields/derived/externalCoupledMixed/externalCoupledMixedFvPatchField.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 using namespace Foam;
 

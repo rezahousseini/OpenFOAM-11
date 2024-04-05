@@ -38,8 +38,8 @@ See also
 #ifndef nonConformalCyclicPointPatch_H
 #define nonConformalCyclicPointPatch_H
 
-#include "cyclicPointPatch.H"
-#include "nonConformalCyclicPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/constraint/cyclic/cyclicPointPatch.H"
+#include "nonConformal/polyPatches/nonConformalCyclic/nonConformalCyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef RBD_jointBody_H
 #define RBD_jointBody_H
 
-#include "masslessBody.H"
+#include "bodies/masslessBody/masslessBody.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -90,7 +90,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "jointBodyI.H"
+#include "bodies/jointBody/jointBodyI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

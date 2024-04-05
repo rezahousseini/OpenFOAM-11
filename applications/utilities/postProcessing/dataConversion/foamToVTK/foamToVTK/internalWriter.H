@@ -36,9 +36,9 @@ SourceFiles
 #ifndef internalWriter_H
 #define internalWriter_H
 
-#include "OFstream.H"
-#include "volFields.H"
-#include "pointFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 #include "vtkMesh.H"
 
 using namespace Foam;

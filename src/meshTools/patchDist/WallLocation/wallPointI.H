@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallPoint.H"
-#include "transformer.H"
-#include "SubField.H"
+#include "patchDist/WallLocation/wallPoint.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "fields/Fields/Field/SubField.H"
 
 // * * * * * * * * * * * *  Protected Member Functions * * * * * * * * * * * //
 

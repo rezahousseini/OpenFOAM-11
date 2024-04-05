@@ -32,8 +32,8 @@ Description
 #ifndef cellIOList_H
 #define cellIOList_H
 
-#include "cell.H"
-#include "CompactIOList.H"
+#include "meshes/meshShapes/cell/cell.H"
+#include "db/IOobjects/CompactIOList/CompactIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

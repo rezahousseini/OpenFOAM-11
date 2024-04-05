@@ -35,12 +35,12 @@ SourceFiles
 #ifndef TRIsurfaceFormatCore_H
 #define TRIsurfaceFormatCore_H
 
-#include "surfaceFormatsCore.H"
-#include "triFace.H"
+#include "surfaceFormats/surfaceFormatsCore.H"
+#include "meshes/meshShapes/triFace/triFace.H"
 
-#include "IFstream.H"
-#include "Ostream.H"
-#include "OFstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

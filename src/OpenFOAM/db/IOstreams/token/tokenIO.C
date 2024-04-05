@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "token.H"
+#include "db/error/error.H"
+#include "db/IOstreams/token/token.H"
 
-#include "IOstreams.H"
-#include "scalar.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

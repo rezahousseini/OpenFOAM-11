@@ -55,9 +55,9 @@ SourceFiles
 #ifndef Quemada_H
 #define Quemada_H
 
-#include "mixtureViscosityModel.H"
-#include "dimensionedScalar.H"
-#include "volFieldsFwd.H"
+#include "mixtureViscosityModels/mixtureViscosityModel/mixtureViscosityModel.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

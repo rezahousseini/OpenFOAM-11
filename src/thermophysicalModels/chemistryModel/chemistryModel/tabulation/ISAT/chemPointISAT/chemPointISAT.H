@@ -122,9 +122,9 @@ Description
 #ifndef chemPointISAT_H
 #define chemPointISAT_H
 
-#include "scalarField.H"
-#include "LUscalarMatrix.H"
-#include "Switch.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "matrices/LUscalarMatrix/LUscalarMatrix.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -382,7 +382,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "chemPointISATI.H"
+#include "chemistryModel/tabulation/ISAT/chemPointISAT/chemPointISATI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

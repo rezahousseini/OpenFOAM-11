@@ -35,7 +35,7 @@ SourceFiles
 #ifndef faceSet_H
 #define faceSet_H
 
-#include "topoSet.H"
+#include "sets/topoSets/topoSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledMultiphaseTemperatureFvPatchScalarField.H"
-#include "fvPatchFieldMapper.H"
-#include "phaseSystem.H"
+#include "derivedFvPatchFields/coupledMultiphaseTemperature/coupledMultiphaseTemperatureFvPatchScalarField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "phaseSystem/phaseSystem.H"
 #include "compressibleMomentumTransportModel.H"
 #include "phaseCompressibleMomentumTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

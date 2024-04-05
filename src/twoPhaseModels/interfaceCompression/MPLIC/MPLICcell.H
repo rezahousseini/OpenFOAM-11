@@ -41,8 +41,8 @@ SourceFiles
 #ifndef MPLICcell_H
 #define MPLICcell_H
 
-#include "MPLICface.H"
-#include "MPLICcellStorage.H"
+#include "MPLIC/MPLICface.H"
+#include "MPLIC/MPLICcellStorage.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -390,7 +390,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MPLICcellI.H"
+#include "MPLIC/MPLICcellI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

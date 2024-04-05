@@ -25,8 +25,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "argList.H"
+#include "include/OSspecific.H"
+#include "global/argList/argList.H"
 
 using namespace Foam;
 

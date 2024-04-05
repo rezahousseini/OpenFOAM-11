@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VirtualMassForce.H"
+#include "submodels/Momentum/ParticleForces/VirtualMass/VirtualMassForce.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setWriter.H"
-#include "coordSet.H"
-#include "OFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/writers/setWriter.H"
+#include "coordSet/coordSet.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

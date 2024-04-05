@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "degenerateMatcher.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/meshShapes/cellMatcher/degenerateMatcher.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

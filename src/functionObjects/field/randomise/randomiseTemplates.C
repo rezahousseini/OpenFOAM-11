@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "Random.H"
+#include "fields/volFields/volFields.H"
+#include "primitives/Random/Random.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

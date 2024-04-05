@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateRotation.H"
-#include "dictionary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "coordinateSystems/coordinateRotation/coordinateRotation.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

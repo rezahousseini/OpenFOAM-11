@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGSolver.H"
-#include "PCG.H"
-#include "PBiCGStab.H"
-#include "SubField.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGSolver.H"
+#include "matrices/lduMatrix/solvers/PCG/PCG.H"
+#include "matrices/lduMatrix/solvers/PBiCGStab/PBiCGStab.H"
+#include "fields/Fields/Field/SubField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

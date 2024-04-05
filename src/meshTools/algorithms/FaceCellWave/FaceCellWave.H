@@ -47,10 +47,10 @@ SourceFiles
 #ifndef FaceCellWave_H
 #define FaceCellWave_H
 
-#include "PackedBoolList.H"
-#include "DynamicList.H"
-#include "primitiveFieldsFwd.H"
-#include "labelPair.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -372,7 +372,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FaceCellWave.C"
+    #include "algorithms/FaceCellWave/FaceCellWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

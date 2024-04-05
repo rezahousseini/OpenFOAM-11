@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonConformalPolyPatch.H"
-#include "polyMesh.H"
+#include "nonConformal/polyPatches/nonConformal/nonConformalPolyPatch.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

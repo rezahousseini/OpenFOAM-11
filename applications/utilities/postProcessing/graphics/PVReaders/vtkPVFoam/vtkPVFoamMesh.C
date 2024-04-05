@@ -26,12 +26,12 @@ License
 #include "vtkPVFoam.H"
 
 // OpenFOAM includes
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "fvMeshSubset.H"
+#include "sets/topoSets/cellSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/pointSet.H"
+#include "fvMeshSubset/fvMeshSubset.H"
 #include "vtkPVFoamReader.h"
-#include "uindirectPrimitivePatch.H"
+#include "meshes/primitiveMesh/primitivePatch/uindirectPrimitivePatch.H"
 
 // VTK includes
 #include "vtkDataArraySelection.h"

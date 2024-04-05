@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiLevelDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "IFstream.H"
-#include "globalIndex.H"
-#include "distributionMap.H"
+#include "multiLevelDecomp/multiLevelDecomp.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

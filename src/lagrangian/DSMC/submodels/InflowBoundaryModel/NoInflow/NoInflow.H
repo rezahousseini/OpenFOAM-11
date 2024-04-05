@@ -32,7 +32,7 @@ Description
 #ifndef NoInflow_H
 #define NoInflow_H
 
-#include "InflowBoundaryModel.H"
+#include "submodels/InflowBoundaryModel/InflowBoundaryModel/InflowBoundaryModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -81,7 +81,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoInflow.C"
+    #include "submodels/InflowBoundaryModel/NoInflow/NoInflow.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

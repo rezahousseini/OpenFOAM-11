@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cellZoneSet_H
 #define cellZoneSet_H
 
-#include "cellSet.H"
-#include "boolList.H"
+#include "sets/topoSets/cellSet.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

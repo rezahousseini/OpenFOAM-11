@@ -36,7 +36,7 @@ SourceFiles
 #ifndef segregatedBlendingMethod_H
 #define segregatedBlendingMethod_H
 
-#include "blendingMethod.H"
+#include "BlendedInterfacialModel/blendingMethods/blendingMethod/blendingMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tabulatedCumulative.H"
-#include "unintegrable.H"
-#include "SubField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "distributions/tabulatedCumulative/tabulatedCumulative.H"
+#include "distributions/unintegrable/unintegrable.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

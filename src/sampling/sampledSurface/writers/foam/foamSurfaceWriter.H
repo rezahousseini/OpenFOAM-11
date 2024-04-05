@@ -36,7 +36,7 @@ SourceFiles
 #ifndef foamSurfaceWriter_H
 #define foamSurfaceWriter_H
 
-#include "surfaceWriter.H"
+#include "sampledSurface/writers/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

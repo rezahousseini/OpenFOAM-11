@@ -50,8 +50,8 @@ SourceFiles
 #ifndef contactAngleModel_H
 #define contactAngleModel_H
 
-#include "fvPatchFields.H"
-#include "runTimeSelectionTables.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,8 +34,8 @@ SourceFiles:
 #ifndef levelSet_H
 #define levelSet_H
 
-#include "volFields.H"
-#include "pointFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ tmp<volScalarField> levelSetFraction
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "levelSetTemplates.C"
+    #include "cfdTools/general/levelSet/levelSetTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SlicedDimensionedField.H"
+#include "fields/DimensionedFields/SlicedDimensionedField/SlicedDimensionedField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

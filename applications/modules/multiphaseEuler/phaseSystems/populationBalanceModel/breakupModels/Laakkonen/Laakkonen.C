@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Laakkonen.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/breakupModels/Laakkonen/Laakkonen.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

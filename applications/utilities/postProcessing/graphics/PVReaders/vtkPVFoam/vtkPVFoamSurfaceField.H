@@ -29,8 +29,8 @@ InClass
 #ifndef vtkPVFoamSurfaceField_H
 #define vtkPVFoamSurfaceField_H
 
-#include "surfaceFields.H"
-#include "emptyFvsPatchField.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/fvsPatchFields/constraint/empty/emptyFvsPatchField.H"
 
 // VTK includes
 #include "vtkCellData.h"

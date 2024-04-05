@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceCompositionModel.H"
-#include "phaseModel.H"
-#include "phaseSystem.H"
-#include "rhoMulticomponentThermo.H"
+#include "interfaceCompositionModels/interfaceCompositionModel/interfaceCompositionModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "rhoMulticomponentThermo/rhoMulticomponentThermo.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

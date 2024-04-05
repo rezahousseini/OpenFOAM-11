@@ -36,8 +36,8 @@ SourceFiles
 #define LESdelta_H
 
 #include "momentumTransportModel.H"
-#include "volFields.H"
-#include "runTimeSelectionTables.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -61,7 +61,7 @@ SourceFiles
 #ifndef inputSyntaxEntry_H
 #define inputSyntaxEntry_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

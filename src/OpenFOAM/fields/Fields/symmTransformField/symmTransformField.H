@@ -35,9 +35,9 @@ SourceFiles
 #ifndef symmTransformField_H
 #define symmTransformField_H
 
-#include "symmTransform.H"
-#include "symmTensorField.H"
-#include "sphericalTensor.H"
+#include "primitives/transform/symmTransform.H"
+#include "fields/Fields/symmTensorField/symmTensorField.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,7 +122,7 @@ tmp<Field<tensor>> transformFieldMask<tensor>
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "symmTransformField.C"
+    #include "fields/Fields/symmTransformField/symmTransformField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

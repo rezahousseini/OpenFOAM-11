@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cutPolyIsoSurface.H"
-#include "cutPolyValue.H"
+#include "cutPoly/cutPolyIsoSurface.H"
+#include "cutPoly/cutPolyValue.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

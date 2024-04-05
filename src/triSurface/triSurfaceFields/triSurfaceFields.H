@@ -35,10 +35,10 @@ SourceFiles
 #ifndef triSurfaceFields_H
 #define triSurfaceFields_H
 
-#include "DimensionedField.H"
-#include "triSurfaceGeoMesh.H"
-#include "triSurfacePointGeoMesh.H"
-#include "triSurfaceFieldsFwd.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "triSurfaceFields/triSurfaceGeoMesh.H"
+#include "triSurfaceFields/triSurfacePointGeoMesh.H"
+#include "triSurfaceFields/triSurfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

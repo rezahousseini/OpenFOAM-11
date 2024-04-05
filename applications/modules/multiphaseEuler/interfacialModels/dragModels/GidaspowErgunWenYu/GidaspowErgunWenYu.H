@@ -43,9 +43,9 @@ SourceFiles
 #ifndef GidaspowErgunWenYu_H
 #define GidaspowErgunWenYu_H
 
-#include "dispersedDragModel.H"
-#include "Ergun.H"
-#include "WenYu.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
+#include "dragModels/Ergun/Ergun.H"
+#include "dragModels/WenYu/WenYu.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

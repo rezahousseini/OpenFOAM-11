@@ -34,7 +34,7 @@ SourceFiles
 #ifndef noVirtualMass_H
 #define noVirtualMass_H
 
-#include "virtualMassModel.H"
+#include "virtualMassModels/virtualMassModel/virtualMassModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

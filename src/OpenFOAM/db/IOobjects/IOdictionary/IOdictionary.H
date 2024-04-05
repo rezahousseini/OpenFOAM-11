@@ -39,8 +39,8 @@ SourceFiles
 #ifndef IOdictionary_H
 #define IOdictionary_H
 
-#include "dictionary.H"
-#include "regIOobject.H"
+#include "db/dictionary/dictionary.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,9 +34,9 @@ SourceFiles
 #ifndef relativeVelocityModel_H
 #define relativeVelocityModel_H
 
-#include "incompressibleDriftFluxMixture.H"
-#include "uniformDimensionedFields.H"
-#include "runTimeSelectionTables.H"
+#include "incompressibleDriftFluxMixture/incompressibleDriftFluxMixture.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

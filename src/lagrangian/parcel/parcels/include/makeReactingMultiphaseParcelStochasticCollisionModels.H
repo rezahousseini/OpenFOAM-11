@@ -28,8 +28,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoStochasticCollision.H"
-#include "SuppressionCollision.H"
+#include "submodels/Momentum/StochasticCollision/NoStochasticCollision/NoStochasticCollision.H"
+#include "submodels/ReactingMultiphase/StochasticCollision/SuppressionCollision/SuppressionCollision.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

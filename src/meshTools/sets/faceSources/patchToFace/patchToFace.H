@@ -35,8 +35,8 @@ SourceFiles
 #ifndef patchToFace_H
 #define patchToFace_H
 
-#include "topoSetSource.H"
-#include "wordRe.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "primitives/strings/wordRe/wordRe.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

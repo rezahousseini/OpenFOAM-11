@@ -33,24 +33,24 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "IOobjectList.H"
-#include "fvMesh.H"
-#include "polyTopoChange.H"
-#include "ReadFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "SortableList.H"
-#include "decompositionMethod.H"
-#include "renumberMethod.H"
-#include "zeroGradientFvPatchFields.H"
-#include "CuthillMcKeeRenumber.H"
-#include "fvMeshSubset.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "systemDict.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fvMesh/fvMesh.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "renumberMethod/renumberMethod.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "CuthillMcKeeRenumber/CuthillMcKeeRenumber.H"
+#include "fvMeshSubset/fvMeshSubset.H"
+#include "sets/topoSets/cellSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/pointSet.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
 #ifdef FOAM_USE_ZOLTAN
     #include "zoltanRenumber.H"
@@ -604,10 +604,10 @@ int main(int argc, char *argv[])
         "Renumber mesh to minimise bandwidth"
     );
 
-    #include "addRegionOption.H"
-    #include "addOverwriteOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addOverwriteOption.H"
     timeSelector::addOptions();
-    #include "addDictOption.H"
+    #include "include/addDictOption.H"
     argList::addBoolOption
     (
         "frontWidth",
@@ -619,8 +619,8 @@ int main(int argc, char *argv[])
         "do not update fields"
     );
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
 
     // Force linker to include zoltan symbols. This section is only needed since
     // Zoltan is a static library
@@ -632,7 +632,7 @@ int main(int argc, char *argv[])
     // Get times list
     const instantList Times = timeSelector::select0(runTime, args);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
     const word oldInstance = mesh.pointsInstance();
 
     const bool readDict = args.optionFound("dict");
@@ -798,9 +798,9 @@ int main(int argc, char *argv[])
 
     if (fields) Info<< "Reading geometric fields" << nl << endl;
 
-    #include "readVolFields.H"
-    #include "readSurfaceFields.H"
-    #include "readPointFields.H"
+    #include "fields/ReadFields/readVolFields.H"
+    #include "fields/ReadFields/readSurfaceFields.H"
+    #include "fields/ReadFields/readPointFields.H"
 
     Info<< endl;
 

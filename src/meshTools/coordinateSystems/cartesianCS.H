@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cartesianCS_H
 #define cartesianCS_H
 
-#include "coordinateSystem.H"
+#include "coordinateSystems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

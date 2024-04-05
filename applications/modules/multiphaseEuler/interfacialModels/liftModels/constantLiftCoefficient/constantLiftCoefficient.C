@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantLiftCoefficient.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liftModels/constantLiftCoefficient/constantLiftCoefficient.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -42,9 +42,9 @@ SourceFiles
 #ifndef SecondaryPropertyModel_H
 #define SecondaryPropertyModel_H
 
-#include "sizeGroup.H"
-#include "driftModel.H"
-#include "nucleationModel.H"
+#include "diameterModels/velocityGroup/sizeGroup/sizeGroup.H"
+#include "populationBalanceModel/driftModels/driftModel/driftModel.H"
+#include "populationBalanceModel/nucleationModels/nucleationModel/nucleationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SecondaryPropertyModel.C"
+    #include "diameterModels/velocityGroup/sizeGroup/SecondaryPropertyModel/SecondaryPropertyModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

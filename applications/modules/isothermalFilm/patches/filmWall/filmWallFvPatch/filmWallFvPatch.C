@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmWallFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patches/filmWall/filmWallFvPatch/filmWallFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

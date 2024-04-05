@@ -50,14 +50,14 @@ SourceFiles
 #ifndef dictionary_H
 #define dictionary_H
 
-#include "entry.H"
-#include "IDLList.H"
-#include "DLList.H"
-#include "HashSet.H"
-#include "ITstream.H"
-#include "wordReList.H"
-#include "Pair.H"
-#include "className.H"
+#include "db/dictionary/entry/entry.H"
+#include "containers/LinkedLists/user/IDLList.H"
+#include "containers/LinkedLists/user/DLList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "primitives/strings/lists/wordReList.H"
+#include "primitives/Pair/Pair.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -911,7 +911,7 @@ void writeEntryIfDifferent
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dictionaryTemplates.C"
+    #include "db/dictionary/dictionaryTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

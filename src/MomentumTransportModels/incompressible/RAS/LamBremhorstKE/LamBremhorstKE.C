@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LamBremhorstKE.H"
-#include "wallDist.H"
-#include "bound.H"
+#include "RAS/LamBremhorstKE/LamBremhorstKE.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "cfdTools/general/bound/bound.H"
 #include "makeMomentumTransportModel.H"
 
 makeMomentumTransportModelTypes

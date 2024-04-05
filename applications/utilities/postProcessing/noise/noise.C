@@ -77,13 +77,13 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "noiseFFT.H"
-#include "argList.H"
-#include "Time.H"
-#include "Table.H"
-#include "systemDict.H"
-#include "setWriter.H"
-#include "writeFile.H"
+#include "noise/noiseFFT.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "primitives/functions/Function1/Table/Table.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
+#include "sampledSet/writers/setWriter.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -129,9 +129,9 @@ Foam::scalar checkUniformTimeStep(const scalarField& t)
 int main(int argc, char *argv[])
 {
     argList::noParallel();
-    #include "addDictOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addDictOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const word dictName("noiseDict");
 

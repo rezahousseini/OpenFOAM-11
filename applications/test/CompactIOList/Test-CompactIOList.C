@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
+#include "db/IOstreams/IOstreams.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 using namespace Foam;
 
@@ -43,8 +43,8 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     IOstream::streamFormat format=IOstream::BINARY;
     // IOstream::streamFormat format=IOstream::ASCII;

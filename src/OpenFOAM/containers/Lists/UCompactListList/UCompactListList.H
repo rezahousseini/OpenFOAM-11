@@ -37,7 +37,7 @@ SourceFiles
 #ifndef UCompactListList_H
 #define UCompactListList_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,12 +182,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UCompactListListI.H"
+#include "containers/Lists/UCompactListList/UCompactListListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UCompactListList.C"
+    #include "containers/Lists/UCompactListList/UCompactListList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NonInertialFrameForce.H"
-#include "uniformDimensionedFields.H"
+#include "submodels/Momentum/ParticleForces/NonInertialFrame/NonInertialFrameForce.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

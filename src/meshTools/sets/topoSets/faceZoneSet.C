@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceZoneSet.H"
-#include "polyTopoChangeMap.H"
-#include "polyMesh.H"
-#include "setToFaceZone.H"
-#include "setsToFaceZone.H"
-#include "syncTools.H"
+#include "sets/topoSets/faceZoneSet.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "sets/faceZoneSources/setToFaceZone/setToFaceZone.H"
+#include "sets/faceZoneSources/setsToFaceZone/setsToFaceZone.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

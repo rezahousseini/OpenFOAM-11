@@ -35,8 +35,8 @@ SourceFiles
 #ifndef intersection_H
 #define intersection_H
 
-#include "scalar.H"
-#include "NamedEnum.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -217,7 +217,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "unityLewisEddyDiffusivity.C"
+    #include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef nbrToCell_H
 #define nbrToCell_H
 
-#include "topoSetSource.H"
+#include "sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

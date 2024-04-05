@@ -36,10 +36,10 @@ SourceFiles
 #ifndef patchEdgeFaceRegions_H
 #define patchEdgeFaceRegions_H
 
-#include "labelList.H"
-#include "scalar.H"
-#include "tensor.H"
-#include "labelPair.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -179,7 +179,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchEdgeFaceRegionsI.H"
+#include "algorithms/PatchEdgeFaceWave/patchEdgeFaceRegionsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

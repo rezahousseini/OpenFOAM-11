@@ -36,8 +36,8 @@ SourceFiles
 #ifndef internalPointPatchField_H
 #define internalPointPatchField_H
 
-#include "pointPatchField.H"
-#include "internalPointPatch.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "meshes/pointMesh/pointPatches/constraint/internal/internalPointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "internalPointPatchField.C"
+    #include "fields/pointPatchFields/constraint/internal/internalPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

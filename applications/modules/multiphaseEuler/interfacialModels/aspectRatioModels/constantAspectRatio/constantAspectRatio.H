@@ -35,7 +35,7 @@ SourceFiles
 #ifndef constantAspectRatio_H
 #define constantAspectRatio_H
 
-#include "aspectRatioModel.H"
+#include "aspectRatioModels/aspectRatioModel/aspectRatioModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

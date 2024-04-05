@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TGaussSeidelSmoother.H"
-#include "fieldTypes.H"
+#include "matrices/LduMatrix/Smoothers/GaussSeidel/TGaussSeidelSmoother.H"
+#include "fields/Fields/fieldTypes.H"
 
 #define makeLduSmoothers(Type, DType, LUType)                                  \
                                                                                \

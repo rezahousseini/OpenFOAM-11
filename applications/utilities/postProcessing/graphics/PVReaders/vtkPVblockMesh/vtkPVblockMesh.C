@@ -27,11 +27,11 @@ License
 #include "vtkPVblockMeshReader.h"
 
 // OpenFOAM includes
-#include "blockMesh.H"
-#include "Time.H"
-#include "patchZones.H"
-#include "OStringStream.H"
-#include "OSspecific.H"
+#include "blockMesh/blockMesh.H"
+#include "db/Time/Time.H"
+#include "meshes/primitiveMesh/primitivePatch/patchZones.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
+#include "include/OSspecific.H"
 
 // VTK includes
 #include "vtkDataArraySelection.h"

@@ -35,10 +35,10 @@ SourceFiles
 #ifndef ReadFields_H
 #define ReadFields_H
 
-#include "PtrList.H"
-#include "wordList.H"
-#include "HashSet.H"
-#include "LIFOStack.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/LinkedLists/user/LIFOStack.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ void readUniformFields
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReadFields.C"
+    #include "fields/ReadFields/ReadFields.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

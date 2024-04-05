@@ -32,7 +32,7 @@ Description
 #ifndef generalFieldMapper_H
 #define generalFieldMapper_H
 
-#include "fieldMapper.H"
+#include "fields/Fields/fieldMappers/fieldMapper/fieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -102,7 +102,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "generalFieldMapperTemplates.C"
+    #include "fields/Fields/fieldMappers/generalFieldMapper/generalFieldMapperTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef chemistryTabulationMethod_H
 #define chemistryTabulationMethod_H
 
-#include "IOdictionary.H"
-#include "scalarField.H"
-#include "runTimeSelectionTables.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

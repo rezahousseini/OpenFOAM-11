@@ -26,7 +26,7 @@ License
 #ifndef internalFvsPatchFieldsFwd_H
 #define internalFvsPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

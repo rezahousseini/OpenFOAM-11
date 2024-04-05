@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseSurfaceArrheniusReactionRate.H"
-#include "phaseSystem.H"
-#include "diameterModel.H"
+#include "phaseSurfaceArrheniusReactionRate/phaseSurfaceArrheniusReactionRate.H"
+#include "phaseSystem/phaseSystem.H"
+#include "diameterModels/diameterModel/diameterModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

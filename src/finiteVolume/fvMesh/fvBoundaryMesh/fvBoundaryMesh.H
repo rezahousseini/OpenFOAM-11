@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fvBoundaryMesh_H
 #define fvBoundaryMesh_H
 
-#include "fvPatchList.H"
-#include "lduInterfacePtrsList.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatchList.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

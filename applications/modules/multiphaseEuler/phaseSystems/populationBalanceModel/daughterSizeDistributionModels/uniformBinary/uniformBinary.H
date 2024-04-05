@@ -35,7 +35,7 @@ SourceFiles
 #ifndef uniformBinary_H
 #define uniformBinary_H
 
-#include "daughterSizeDistributionModel.H"
+#include "populationBalanceModel/daughterSizeDistributionModels/daughterSizeDistributionModel/daughterSizeDistributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

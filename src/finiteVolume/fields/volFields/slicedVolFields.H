@@ -29,10 +29,10 @@ InClass
 #ifndef slicedVolFields_H
 #define slicedVolFields_H
 
-#include "SlicedGeometricField.H"
-#include "slicedFvPatchField.H"
-#include "volMesh.H"
-#include "slicedVolFieldsFwd.H"
+#include "fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.H"
+#include "fields/fvPatchFields/basic/sliced/slicedFvPatchField.H"
+#include "volMesh/volMesh.H"
+#include "fields/volFields/slicedVolFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -76,7 +76,7 @@ SourceFiles
 #ifndef functionObjects_stopAtFile_H
 #define functionObjects_stopAtFile_H
 
-#include "stopAt.H"
+#include "stopAt/stopAt.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

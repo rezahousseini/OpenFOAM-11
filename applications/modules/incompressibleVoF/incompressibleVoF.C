@@ -24,10 +24,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleVoF.H"
-#include "localEulerDdtScheme.H"
-#include "fvCorrectPhi.H"
-#include "geometricZeroField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "cfdTools/general/correctPhi/fvCorrectPhi.H"
+#include "fields/GeometricFields/geometricZeroField/geometricZeroField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

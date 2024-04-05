@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshZipUpCells.H"
-#include "polyMesh.H"
-#include "Time.H"
+#include "polyMeshZipUpCells/polyMeshZipUpCells.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
 
 // #define DEBUG_ZIPUP 1
 // #define DEBUG_CHAIN 1

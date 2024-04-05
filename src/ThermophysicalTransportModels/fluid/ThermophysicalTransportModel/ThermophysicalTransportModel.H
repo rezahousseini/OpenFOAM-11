@@ -35,8 +35,8 @@ SourceFiles
 #ifndef ThermophysicalTransportModel_H
 #define ThermophysicalTransportModel_H
 
-#include "fluidThermophysicalTransportModel.H"
-#include "runTimeSelectionTables.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -151,7 +151,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermophysicalTransportModel.C"
+    #include "ThermophysicalTransportModel/ThermophysicalTransportModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

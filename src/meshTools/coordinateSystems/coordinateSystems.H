@@ -80,9 +80,9 @@ SourceFiles
 #ifndef coordinateSystems_H
 #define coordinateSystems_H
 
-#include "coordinateSystem.H"
-#include "PtrDictionary.H"
-#include "DemandDrivenMeshObject.H"
+#include "coordinateSystems/coordinateSystem.H"
+#include "containers/Dictionaries/PtrDictionary/PtrDictionary.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

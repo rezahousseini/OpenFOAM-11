@@ -32,8 +32,8 @@ Description
 #ifndef scalarIOList_H
 #define scalarIOList_H
 
-#include "scalar.H"
-#include "IOList.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

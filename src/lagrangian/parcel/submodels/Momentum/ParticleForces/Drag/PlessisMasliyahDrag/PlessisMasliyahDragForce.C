@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PlessisMasliyahDragForce.H"
-#include "volFields.H"
+#include "submodels/Momentum/ParticleForces/Drag/PlessisMasliyahDrag/PlessisMasliyahDragForce.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

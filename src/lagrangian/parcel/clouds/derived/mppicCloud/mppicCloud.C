@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mppicCloud.H"
-#include "addToRunTimeSelectionTable.H"
+#include "clouds/derived/mppicCloud/mppicCloud.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

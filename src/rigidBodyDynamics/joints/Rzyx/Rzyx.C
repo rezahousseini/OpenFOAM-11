@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Rzyx.H"
-#include "rigidBodyModelState.H"
-#include "addToRunTimeSelectionTable.H"
+#include "joints/Rzyx/Rzyx.H"
+#include "rigidBodyModelState/rigidBodyModelState.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

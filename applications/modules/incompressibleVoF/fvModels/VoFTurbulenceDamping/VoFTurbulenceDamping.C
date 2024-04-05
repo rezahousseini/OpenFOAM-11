@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VoFTurbulenceDamping.H"
-#include "incompressibleTwoPhaseVoFMixture.H"
+#include "fvModels/VoFTurbulenceDamping/VoFTurbulenceDamping.H"
+#include "incompressibleTwoPhaseVoFMixture/incompressibleTwoPhaseVoFMixture.H"
 #include "incompressibleMomentumTransportModel.H"
-#include "fvMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

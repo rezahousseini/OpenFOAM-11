@@ -70,9 +70,9 @@ SourceFiles
 #ifndef volumeFractionSource_H
 #define volumeFractionSource_H
 
-#include "fvModel.H"
-#include "surfaceFields.H"
-#include "volFields.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

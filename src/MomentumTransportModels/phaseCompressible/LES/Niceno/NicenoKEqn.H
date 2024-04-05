@@ -56,7 +56,7 @@ SourceFiles
 #ifndef NicenoKEqn_H
 #define NicenoKEqn_H
 
-#include "kEqn.H"
+#include "LES/kEqn/kEqn.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NicenoKEqn.C"
+    #include "LES/Niceno/NicenoKEqn.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

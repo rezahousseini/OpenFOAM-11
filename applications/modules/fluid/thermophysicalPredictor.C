@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "fluid.H"
-#include "fvcDdt.H"
-#include "fvmDiv.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

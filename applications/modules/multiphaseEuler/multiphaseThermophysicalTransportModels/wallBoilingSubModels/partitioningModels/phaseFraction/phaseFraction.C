@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseFraction.H"
-#include "addToRunTimeSelectionTable.H"
+#include "wallBoilingSubModels/partitioningModels/phaseFraction/phaseFraction.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

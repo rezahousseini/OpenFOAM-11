@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "runTimeSelectionToC.H"
-#include "addToRunTimeSelectionTable.H"
+#include "global/runTimeSelectionToC/runTimeSelectionToC.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Static Data * * * * * * * * * * * * * * * //
 

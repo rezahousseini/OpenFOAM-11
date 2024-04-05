@@ -31,8 +31,8 @@ Description
 #ifndef triPointRef_H
 #define triPointRef_H
 
-#include "point.H"
-#include "triangle.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

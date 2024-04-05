@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "string.H"
-#include "stringOps.H"
-#include "UList.H"
+#include "primitives/strings/string/string.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "containers/Lists/UList/UList.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

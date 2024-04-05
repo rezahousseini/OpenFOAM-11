@@ -25,11 +25,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "UIndirectList.H"
-#include "DynamicList.H"
-#include "IOstreams.H"
-#include "ListOps.H"
-#include "OFstream.H"
+#include "containers/Lists/UIndirectList/UIndirectList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 using namespace Foam;
 

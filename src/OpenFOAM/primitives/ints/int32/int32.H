@@ -40,9 +40,9 @@ SourceFiles
 #include <climits>
 #include <cstdlib>
 
-#include "word.H"
-#include "pTraits.H"
-#include "direction.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/pTraits/pTraits.H"
+#include "primitives/direction/direction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

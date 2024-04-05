@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laplaceFilter.H"
-#include "fvcLaplacian.H"
-#include "addToRunTimeSelectionTable.H"
+#include "LES/LESfilters/laplaceFilter/laplaceFilter.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef gradientEnergyCalculatedTemperatureFvPatchScalarField_H
 #define gradientEnergyCalculatedTemperatureFvPatchScalarField_H
 
-#include "calculatedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

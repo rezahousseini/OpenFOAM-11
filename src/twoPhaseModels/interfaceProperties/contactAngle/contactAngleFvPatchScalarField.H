@@ -61,8 +61,8 @@ SourceFiles
 #ifndef contactAngleFvPatchScalarField_H
 #define contactAngleFvPatchScalarField_H
 
-#include "fixedGradientFvPatchFields.H"
-#include "contactAngleModel.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "contactAngleModels/contactAngleModel/contactAngleModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

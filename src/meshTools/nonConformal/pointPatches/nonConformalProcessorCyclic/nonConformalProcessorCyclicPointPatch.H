@@ -35,8 +35,8 @@ SourceFiles
 #ifndef nonConformalProcessorCyclicPointPatch_H
 #define nonConformalProcessorCyclicPointPatch_H
 
-#include "processorCyclicPointPatch.H"
-#include "nonConformalProcessorCyclicPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/constraint/processorCyclic/processorCyclicPointPatch.H"
+#include "nonConformal/polyPatches/nonConformalProcessorCyclic/nonConformalProcessorCyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

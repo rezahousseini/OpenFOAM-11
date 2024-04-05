@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DictionaryBase.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 
@@ -279,6 +279,6 @@ void Foam::DictionaryBase<IDLListType, T>::operator=
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DictionaryBaseIO.C"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBaseIO.C"
 
 // ************************************************************************* //

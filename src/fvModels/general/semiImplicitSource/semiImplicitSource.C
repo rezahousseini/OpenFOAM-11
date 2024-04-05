@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "semiImplicitSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "general/semiImplicitSource/semiImplicitSource.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

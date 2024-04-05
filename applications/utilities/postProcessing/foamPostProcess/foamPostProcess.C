@@ -88,14 +88,14 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "solver.H"
-#include "ReadFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "uniformDimensionedFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "solver/solver.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 using namespace Foam;
 
@@ -205,13 +205,13 @@ int main(int argc, char *argv[])
     );
 
     timeSelector::addOptions();
-    #include "addRegionOption.H"
-    #include "addFunctionObjectOptions.H"
+    #include "include/addRegionOption.H"
+    #include "include/addFunctionObjectOptions.H"
 
     // Set functionObject post-processing mode
     functionObject::postProcess = true;
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (args.optionFound("list"))
     {
@@ -225,7 +225,7 @@ int main(int argc, char *argv[])
         return 0;
     }
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     const instantList timeDirs = timeSelector::select0(runTime, args);
 

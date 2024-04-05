@@ -29,8 +29,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "zeroDimensionalFvMesh.H"
+#include "global/argList/argList.H"
+#include "fvMesh/zeroDimensionalFvMesh/zeroDimensionalFvMesh.H"
 
 using namespace Foam;
 
@@ -40,8 +40,8 @@ int main(int argc, char *argv[])
 {
     argList::noParallel();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     fvMesh mesh(zeroDimensionalFvMesh(runTime));
 

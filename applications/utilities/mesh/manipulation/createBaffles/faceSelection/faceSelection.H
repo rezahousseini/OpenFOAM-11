@@ -35,13 +35,13 @@ SourceFiles
 #ifndef faceSelection_H
 #define faceSelection_H
 
-#include "dictionary.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "boolList.H"
-#include "labelList.H"
-#include "Switch.H"
+#include "db/dictionary/dictionary.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

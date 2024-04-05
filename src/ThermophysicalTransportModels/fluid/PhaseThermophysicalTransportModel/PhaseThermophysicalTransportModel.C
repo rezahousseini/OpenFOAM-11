@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhaseThermophysicalTransportModel.H"
+#include "PhaseThermophysicalTransportModel/PhaseThermophysicalTransportModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

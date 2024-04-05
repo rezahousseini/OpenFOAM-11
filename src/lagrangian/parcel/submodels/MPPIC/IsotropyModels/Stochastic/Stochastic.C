@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Stochastic.H"
+#include "submodels/MPPIC/IsotropyModels/Stochastic/Stochastic.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

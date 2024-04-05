@@ -44,9 +44,9 @@ SourceFiles
 #ifndef hydrostaticInitialisation_H
 #define hydrostaticInitialisation_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "uniformDimensionedFields.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -30,16 +30,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "levelSet.H"
-#include "pointFields.H"
-#include "timeSelector.H"
-#include "uniformDimensionedFields.H"
-#include "volFields.H"
-#include "wallPolyPatch.H"
-#include "waveAlphaFvPatchScalarField.H"
-#include "waveVelocityFvPatchVectorField.H"
-#include "systemDict.H"
+#include "global/argList/argList.H"
+#include "cfdTools/general/levelSet/levelSet.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "db/Time/timeSelector.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "derivedFvPatchFields/waveAlpha/waveAlphaFvPatchScalarField.H"
+#include "derivedFvPatchFields/waveVelocity/waveVelocityFvPatchVectorField.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
 using namespace Foam;
 
@@ -49,8 +49,8 @@ int main(int argc, char *argv[])
 {
     timeSelector::addOptions(false, false);
 
-    #include "addDictOption.H"
-    #include "addRegionOption.H"
+    #include "include/addDictOption.H"
+    #include "include/addRegionOption.H"
 
     argList::addOption
     (
@@ -72,16 +72,16 @@ int main(int argc, char *argv[])
         "the volume fraction field is that of the gas above the wave"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const instantList timeDirs = timeSelector::selectIfPresent(runTime, args);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     const dictionary setWavesDict(systemDict("setWavesDict", args, mesh));
 
-    #include "readGravitationalAcceleration.H"
+    #include "cfdTools/general/include/readGravitationalAcceleration.H"
 
     const pointMesh& pMesh = pointMesh::New(mesh);
 

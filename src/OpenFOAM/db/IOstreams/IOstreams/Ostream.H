@@ -36,9 +36,9 @@ SourceFiles
 #ifndef Ostream_H
 #define Ostream_H
 
-#include "IOstream.H"
-#include "verbatimString.H"
-#include "keyType.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "primitives/strings/verbatimString/verbatimString.H"
+#include "db/dictionary/keyType/keyType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -31,7 +31,7 @@ Description
 #ifndef faceSets_H
 #define faceSets_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

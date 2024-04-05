@@ -29,8 +29,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "triSurface.H"
+#include "global/argList/argList.H"
+#include "triSurface/triSurface.H"
 
 using namespace Foam;
 
@@ -38,7 +38,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::addNote
     (

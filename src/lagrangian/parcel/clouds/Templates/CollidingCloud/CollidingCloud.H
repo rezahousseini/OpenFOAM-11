@@ -36,12 +36,12 @@ SourceFiles
 #ifndef CollidingCloud_H
 #define CollidingCloud_H
 
-#include "volFieldsFwd.H"
-#include "fvMatricesFwd.H"
-#include "dimensionedTypes.H"
-#include "fvMesh.H"
-#include "fluidThermo.H"
-#include "Cloud.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "fvMesh/fvMesh.H"
+#include "fluidThermo/fluidThermo.H"
+#include "Cloud/Cloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -254,12 +254,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CollidingCloudI.H"
+#include "clouds/Templates/CollidingCloud/CollidingCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CollidingCloud.C"
+    #include "clouds/Templates/CollidingCloud/CollidingCloud.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

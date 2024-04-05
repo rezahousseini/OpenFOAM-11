@@ -58,20 +58,20 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "fvMesh.H"
-#include "unitConversion.H"
-#include "polyTopoChange.H"
-#include "polyTopoChangeMap.H"
-#include "PackedBoolList.H"
-#include "meshTools.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "fvMesh/fvMesh.H"
+#include "global/unitConversion/unitConversion.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "meshTools/meshTools.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 #include "meshDualiser.H"
-#include "ReadFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 using namespace Foam;
 
@@ -356,7 +356,7 @@ void dumpFeatures
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     argList::noParallel();
 
     argList::validArgs.append("featureAngle [0-180]");
@@ -382,9 +382,9 @@ int main(int argc, char *argv[])
         "do not update fields"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMeshNoChangers.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMeshNoChangers.H"
 
     const word oldInstance = mesh.pointsInstance();
 
@@ -483,9 +483,9 @@ int main(int argc, char *argv[])
 
     if (fields) Info<< "Reading geometric fields" << nl << endl;
 
-    #include "readVolFields.H"
-    #include "readSurfaceFields.H"
-    #include "readPointFields.H"
+    #include "fields/ReadFields/readVolFields.H"
+    #include "fields/ReadFields/readSurfaceFields.H"
+    #include "fields/ReadFields/readPointFields.H"
 
     Info<< endl;
 

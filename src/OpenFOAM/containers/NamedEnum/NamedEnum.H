@@ -35,9 +35,9 @@ SourceFiles
 #ifndef NamedEnum_H
 #define NamedEnum_H
 
-#include "HashTable.H"
-#include "stringList.H"
-#include "wordList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/strings/lists/stringList.H"
+#include "primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NamedEnum.C"
+    #include "containers/NamedEnum/NamedEnum.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

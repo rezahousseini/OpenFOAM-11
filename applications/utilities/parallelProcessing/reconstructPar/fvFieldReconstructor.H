@@ -36,12 +36,12 @@ SourceFiles
 #ifndef fvFieldReconstructor_H
 #define fvFieldReconstructor_H
 
-#include "PtrList.H"
-#include "surfaceFields.H"
-#include "IOobjectList.H"
-#include "fvPatchFieldMapper.H"
-#include "setSizeFvPatchFieldMapper.H"
-#include "labelIOList.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/fvPatchFields/fvPatchField/setSizeFvPatchFieldMapper.H"
+#include "primitives/ints/lists/labelIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

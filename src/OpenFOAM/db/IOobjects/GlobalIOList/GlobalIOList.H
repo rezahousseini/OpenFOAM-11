@@ -35,8 +35,8 @@ SourceFiles
 #ifndef GlobalIOList_H
 #define GlobalIOList_H
 
-#include "regIOobject.H"
-#include "List.H"
+#include "db/regIOobject/regIOobject.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

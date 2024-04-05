@@ -35,7 +35,7 @@ SourceFiles
 #ifndef NoInjection_H
 #define NoInjection_H
 
-#include "InjectionModel.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -127,7 +127,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoInjection.C"
+    #include "submodels/Momentum/InjectionModel/NoInjection/NoInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

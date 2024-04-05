@@ -33,11 +33,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshReader.H"
-#include "Time.H"
-#include "polyPatch.H"
-#include "emptyPolyPatch.H"
-#include "preservePatchTypes.H"
+#include "meshReader/meshReader.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

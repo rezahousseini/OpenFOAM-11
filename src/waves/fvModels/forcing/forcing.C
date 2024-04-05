@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "forcing.H"
-#include "fvMatrix.H"
-#include "zeroGradientFvPatchField.H"
+#include "fvModels/forcing/forcing.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

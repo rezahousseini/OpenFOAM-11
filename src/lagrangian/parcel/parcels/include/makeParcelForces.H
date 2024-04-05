@@ -28,23 +28,23 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SphereDragForce.H"
-#include "NonSphereDragForce.H"
-#include "SchillerNaumannDragForce.H"
-#include "WenYuDragForce.H"
-#include "ErgunWenYuDragForce.H"
-#include "PlessisMasliyahDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/SphereDrag/SphereDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/NonSphereDrag/NonSphereDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/SchillerNaumannDrag/SchillerNaumannDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/WenYuDrag/WenYuDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/ErgunWenYuDrag/ErgunWenYuDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/PlessisMasliyahDrag/PlessisMasliyahDragForce.H"
 
-#include "SaffmanMeiLiftForce.H"
-#include "TomiyamaLiftForce.H"
+#include "submodels/Momentum/ParticleForces/Lift/SaffmanMeiLift/SaffmanMeiLiftForce.H"
+#include "submodels/Momentum/ParticleForces/Lift/TomiyamaLift/TomiyamaLiftForce.H"
 
-#include "GravityForce.H"
-#include "NonInertialFrameForce.H"
-#include "ParamagneticForce.H"
-#include "PressureGradientForce.H"
-#include "VirtualMassForce.H"
+#include "submodels/Momentum/ParticleForces/Gravity/GravityForce.H"
+#include "submodels/Momentum/ParticleForces/NonInertialFrame/NonInertialFrameForce.H"
+#include "submodels/Momentum/ParticleForces/Paramagnetic/ParamagneticForce.H"
+#include "submodels/Momentum/ParticleForces/PressureGradient/PressureGradientForce.H"
+#include "submodels/Momentum/ParticleForces/VirtualMass/VirtualMassForce.H"
 
-#include "ScaledForce.H"
+#include "submodels/Momentum/ParticleForces/Scaled/ScaledForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

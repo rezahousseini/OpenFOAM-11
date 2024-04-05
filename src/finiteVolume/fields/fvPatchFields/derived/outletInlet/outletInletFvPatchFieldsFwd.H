@@ -26,7 +26,7 @@ License
 #ifndef outletInletFvPatchFieldsFwd_H
 #define outletInletFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

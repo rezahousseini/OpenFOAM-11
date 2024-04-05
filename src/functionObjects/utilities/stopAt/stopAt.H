@@ -40,8 +40,8 @@ SourceFiles
 #ifndef functionObjects_stopAt_H
 #define functionObjects_stopAt_H
 
-#include "functionObject.H"
-#include "NamedEnum.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

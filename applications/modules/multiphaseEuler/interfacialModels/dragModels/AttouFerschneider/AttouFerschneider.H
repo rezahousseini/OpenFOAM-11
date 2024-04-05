@@ -45,7 +45,7 @@ SourceFiles
 #ifndef AttouFerschneider_H
 #define AttouFerschneider_H
 
-#include "dragModel.H"
+#include "dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

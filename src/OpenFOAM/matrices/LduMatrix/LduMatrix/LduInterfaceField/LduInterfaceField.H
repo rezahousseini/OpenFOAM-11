@@ -36,9 +36,9 @@ SourceFiles
 #ifndef LduInterfaceField_H
 #define LduInterfaceField_H
 
-#include "lduInterfaceField.H"
-#include "primitiveFieldsFwd.H"
-#include "Pstream.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceField.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LduInterfaceField.C"
+    #include "matrices/LduMatrix/LduMatrix/LduInterfaceField/LduInterfaceField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

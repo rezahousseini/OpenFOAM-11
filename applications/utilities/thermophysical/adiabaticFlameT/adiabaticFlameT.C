@@ -30,16 +30,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IFstream.H"
-#include "etcFiles.H"
-#include "dimensionedTypes.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "global/etcFiles/etcFiles.H"
+#include "dimensionedTypes/dimensionedTypes.H"
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "thermo.H"
-#include "janafThermo.H"
-#include "absoluteEnthalpy.H"
+#include "specie/specie.H"
+#include "equationOfState/perfectGas/perfectGas.H"
+#include "thermo/thermo/thermo.H"
+#include "thermo/janaf/janafThermo.H"
+#include "thermo/absoluteEnthalpy/absoluteEnthalpy.H"
 
 using namespace Foam;
 
@@ -50,7 +50,7 @@ typedef species::thermo<janafThermo<perfectGas<specie>>, absoluteEnthalpy>
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::validArgs.append("properties dictionary");
     argList args(argc, argv);

@@ -42,8 +42,8 @@ SourceFiles
 #ifndef nonConformalErrorPolyPatch_H
 #define nonConformalErrorPolyPatch_H
 
-#include "polyPatch.H"
-#include "nonConformalPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "nonConformal/polyPatches/nonConformal/nonConformalPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

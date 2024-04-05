@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoAtomisation.H"
+#include "submodels/Spray/AtomisationModel/NoAtomisation/NoAtomisation.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

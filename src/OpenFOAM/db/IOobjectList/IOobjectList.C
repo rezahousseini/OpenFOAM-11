@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobjectList.H"
-#include "Time.H"
-#include "OSspecific.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/Time/Time.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

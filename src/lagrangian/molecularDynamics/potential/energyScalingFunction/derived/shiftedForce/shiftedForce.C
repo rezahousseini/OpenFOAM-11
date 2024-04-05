@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "shiftedForce.H"
-#include "addToRunTimeSelectionTable.H"
+#include "energyScalingFunction/derived/shiftedForce/shiftedForce.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

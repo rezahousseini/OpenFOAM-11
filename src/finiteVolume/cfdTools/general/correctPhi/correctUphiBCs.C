@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCorrectPhi.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "cfdTools/general/correctPhi/fvCorrectPhi.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

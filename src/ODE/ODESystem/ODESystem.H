@@ -32,8 +32,8 @@ Description
 #ifndef ODESystem_H
 #define ODESystem_H
 
-#include "scalarField.H"
-#include "scalarMatrices.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

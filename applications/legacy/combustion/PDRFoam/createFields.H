@@ -41,7 +41,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 mesh.schemes().setFluxRequired(p.name());
 
@@ -239,6 +239,6 @@ fields.add(thermo.he());
 fields.add(thermo.heu());
 flameWrinkling->addXi(fields);
 
-#include "createMRF.H"
-#include "createFvModels.H"
-#include "createFvConstraints.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "cfdTools/general/include/createFvModels.H"
+#include "cfdTools/general/include/createFvConstraints.H"

@@ -53,9 +53,9 @@ SourceFiles
 #ifndef kOmegaSSTDES_H
 #define kOmegaSSTDES_H
 
-#include "kOmegaSSTBase.H"
-#include "LESModel.H"
-#include "LESeddyViscosity.H"
+#include "Base/kOmegaSST/kOmegaSSTBase.H"
+#include "LES/LESModel/LESModel.H"
+#include "LES/LESeddyViscosity/LESeddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -160,7 +160,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 #ifdef NoRepository
-    #include "kOmegaSSTDES.C"
+    #include "LES/kOmegaSSTDES/kOmegaSSTDES.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

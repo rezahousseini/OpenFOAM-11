@@ -36,7 +36,7 @@ SourceFiles
 #ifndef setDeltaT_H
 #define setDeltaT_H
 
-#include "solver.H"
+#include "solver/solver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

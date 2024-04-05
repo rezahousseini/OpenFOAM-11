@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshPhiCorrectInfo.H"
-#include "fvMesh.H"
+#include "moving/meshPhiCorrectInfo.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

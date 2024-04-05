@@ -32,8 +32,8 @@ SourceFiles
 #ifndef mappedFilmSurfacePointPatch_H
 #define mappedFilmSurfacePointPatch_H
 
-#include "filmSurfacePointPatch.H"
-#include "mappedFilmSurfacePolyPatch.H"
+#include "patches/filmSurface/filmSurfacePointPatch/filmSurfacePointPatch.H"
+#include "patches/mappedFilmSurface/mappedFilmSurfacePolyPatch/mappedFilmSurfacePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

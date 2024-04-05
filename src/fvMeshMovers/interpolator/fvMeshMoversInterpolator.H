@@ -58,8 +58,8 @@ SourceFiles
 #ifndef fvMeshMoversInterpolator_H
 #define fvMeshMoversInterpolator_H
 
-#include "fvMeshMover.H"
-#include "dynamicMeshPointInterpolator.H"
+#include "fvMesh/fvMeshMovers/fvMeshMover/fvMeshMover.H"
+#include "pointInterpolator/dynamicMeshPointInterpolator.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

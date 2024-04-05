@@ -40,11 +40,11 @@ SourceFiles
 #ifndef functionObjectList_H
 #define functionObjectList_H
 
-#include "PtrList.H"
-#include "functionObject.H"
-#include "SHA1Digest.H"
-#include "HashSet.H"
-#include "includeFuncEntry.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "primitives/hashes/SHA1/SHA1Digest.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/dictionary/functionEntries/includeFuncEntry/includeFuncEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

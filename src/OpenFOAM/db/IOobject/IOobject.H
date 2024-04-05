@@ -79,11 +79,11 @@ SourceFiles
 #ifndef IOobject_H
 #define IOobject_H
 
-#include "fileName.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "InfoProxy.H"
-#include "NamedEnum.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -575,7 +575,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "IOobjectI.H"
+#include "db/IOobject/IOobjectI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

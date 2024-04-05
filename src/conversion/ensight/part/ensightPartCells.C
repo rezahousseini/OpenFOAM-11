@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightPartCells.H"
-#include "IOstream.H"
-#include "IStringStream.H"
-#include "dictionary.H"
-#include "cellModeller.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ensight/part/ensightPartCells.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

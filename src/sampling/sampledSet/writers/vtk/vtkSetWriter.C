@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkSetWriter.H"
-#include "coordSet.H"
-#include "faceList.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "vtkWritePolyData.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/writers/vtk/vtkSetWriter.H"
+#include "coordSet/coordSet.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "vtk/vtkWritePolyData.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef phaseStabilised_H
 #define phaseStabilised_H
 
-#include "upwind.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -135,7 +135,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "phaseStabilisedTemplates.C"
+    #include "interpolation/surfaceInterpolation/schemes/phaseStabilised/phaseStabilisedTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

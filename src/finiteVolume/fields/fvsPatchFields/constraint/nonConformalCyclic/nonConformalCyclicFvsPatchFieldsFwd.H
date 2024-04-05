@@ -26,7 +26,7 @@ License
 #ifndef nonConformalCyclicFvsPatchFieldsFwd_H
 #define nonConformalCyclicFvsPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshTopoChangersRefiner.H"
-#include "surfaceInterpolate.H"
-#include "polyTopoChange.H"
-#include "syncTools.H"
-#include "pointFields.H"
-#include "sigFpe.H"
-#include "cellSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "refiner/fvMeshTopoChangersRefiner.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "signals/sigFpe.H"
+#include "sets/topoSets/cellSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

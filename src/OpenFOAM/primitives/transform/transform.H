@@ -32,8 +32,8 @@ Description
 #ifndef transform_H
 #define transform_H
 
-#include "tensor.H"
-#include "mathematicalConstants.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -58,9 +58,9 @@ SourceFiles
 #ifndef PointEdgeWave_H
 #define PointEdgeWave_H
 
-#include "boolList.H"
-#include "scalarField.H"
-#include "tensorField.H"
+#include "primitives/bools/lists/boolList.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/tensorField/tensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -347,7 +347,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PointEdgeWave.C"
+    #include "algorithms/PointEdgeWave/PointEdgeWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

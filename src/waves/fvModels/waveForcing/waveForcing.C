@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveForcing.H"
-#include "levelSet.H"
-#include "fvMatrix.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvModels/waveForcing/waveForcing.H"
+#include "cfdTools/general/levelSet/levelSet.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "fvcDdt.H"
-#include "fvcDiv.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

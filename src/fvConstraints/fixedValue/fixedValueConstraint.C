@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedValueConstraint.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "fvcSurfaceIntegrate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fixedValue/fixedValueConstraint.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

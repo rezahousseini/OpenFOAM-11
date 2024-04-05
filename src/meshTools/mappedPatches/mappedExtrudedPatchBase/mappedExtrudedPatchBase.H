@@ -36,7 +36,7 @@ SourceFiles
 #ifndef mappedExtrudedPatchBase_H
 #define mappedExtrudedPatchBase_H
 
-#include "mappedPatchBase.H"
+#include "mappedPatches/mappedPatchBase/mappedPatchBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

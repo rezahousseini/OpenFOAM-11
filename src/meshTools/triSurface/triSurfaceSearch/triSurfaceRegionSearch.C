@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceRegionSearch.H"
-#include "indexedOctree.H"
-#include "triSurface.H"
-#include "PatchTools.H"
+#include "triSurface/triSurfaceSearch/triSurfaceRegionSearch.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "triSurface/triSurface.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

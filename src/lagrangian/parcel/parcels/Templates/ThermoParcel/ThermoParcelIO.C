@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoParcel.H"
-#include "IOstreams.H"
+#include "parcels/Templates/ThermoParcel/ThermoParcel.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

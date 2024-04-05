@@ -43,7 +43,7 @@ SourceFiles
 #ifndef TomiyamaCorrelated_H
 #define TomiyamaCorrelated_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -1,6 +1,6 @@
-#include "UniformField.H"
-#include "vector.H"
-#include "IOstreams.H"
+#include "fields/Fields/UniformField/UniformField.H"
+#include "primitives/Vector/vector/vector.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

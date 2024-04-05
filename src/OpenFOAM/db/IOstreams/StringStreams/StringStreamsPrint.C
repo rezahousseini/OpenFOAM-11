@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IStringStream.H"
-#include "OStringStream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

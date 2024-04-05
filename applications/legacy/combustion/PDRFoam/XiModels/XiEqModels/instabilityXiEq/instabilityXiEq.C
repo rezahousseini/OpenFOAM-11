@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "instabilityXiEq.H"
-#include "addToRunTimeSelectionTable.H"
+#include "XiModels/XiEqModels/instabilityXiEq/instabilityXiEq.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

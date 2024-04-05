@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmVoFTransfer.H"
-#include "VoFFilmTransfer.H"
-#include "mappedPatchBase.H"
+#include "fvModels/filmVoFTransfer/filmVoFTransfer.H"
+#include "fvModels/filmVoFTransfer/VoFFilmTransfer.H"
+#include "mappedPatches/mappedPatchBase/mappedPatchBase.H"
 #include "compressibleVoF.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

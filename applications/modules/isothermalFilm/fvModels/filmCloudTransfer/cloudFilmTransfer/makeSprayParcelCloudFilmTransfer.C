@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sprayCloud.H"
-#include "CloudFilmTransfer.H"
+#include "clouds/derived/sprayCloud/sprayCloud.H"
+#include "fvModels/filmCloudTransfer/cloudFilmTransfer/CloudFilmTransfer/CloudFilmTransfer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

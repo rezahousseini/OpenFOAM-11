@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetIndices.H"
-#include "Time.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

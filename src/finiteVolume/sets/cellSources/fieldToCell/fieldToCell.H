@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fieldToCell_H
 #define fieldToCell_H
 
-#include "topoSetSource.H"
-#include "scalarField.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

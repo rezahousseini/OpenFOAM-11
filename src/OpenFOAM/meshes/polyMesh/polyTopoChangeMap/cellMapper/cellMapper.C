@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellMapper.H"
-#include "demandDrivenData.H"
-#include "polyMesh.H"
-#include "polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyTopoChangeMap/cellMapper/cellMapper.H"
+#include "include/demandDrivenData.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

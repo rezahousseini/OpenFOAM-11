@@ -38,7 +38,7 @@ SourceFiles
 
 #include "thermophysicalTransportModel.H"
 #include "compressibleMomentumTransportModel.H"
-#include "fluidThermo.H"
+#include "fluidThermo/fluidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

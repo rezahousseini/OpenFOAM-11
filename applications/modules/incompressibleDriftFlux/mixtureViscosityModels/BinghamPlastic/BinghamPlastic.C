@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BinghamPlastic.H"
-#include "incompressibleDriftFluxMixture.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mixtureViscosityModels/BinghamPlastic/BinghamPlastic.H"
+#include "incompressibleDriftFluxMixture/incompressibleDriftFluxMixture.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

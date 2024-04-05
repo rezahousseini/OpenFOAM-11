@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantCoalescence.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/coalescenceModels/constantCoalescence/constantCoalescence.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

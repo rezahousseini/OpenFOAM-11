@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellInfo.H"
+#include "cellClassification/cellInfo.H"
 
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //

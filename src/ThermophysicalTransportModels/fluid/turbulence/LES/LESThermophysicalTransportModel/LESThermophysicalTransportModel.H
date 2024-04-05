@@ -35,7 +35,7 @@ SourceFiles
 #ifndef LESThermophysicalTransportModel_H
 #define LESThermophysicalTransportModel_H
 
-#include "ThermophysicalTransportModel.H"
+#include "ThermophysicalTransportModel/ThermophysicalTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LESThermophysicalTransportModel.C"
+    #include "turbulence/LES/LESThermophysicalTransportModel/LESThermophysicalTransportModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

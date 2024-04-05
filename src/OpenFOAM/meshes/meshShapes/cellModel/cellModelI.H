@@ -25,8 +25,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "cellModel.H"
+#include "db/error/error.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "badQualityToFace.H"
-#include "polyMesh.H"
-#include "motionSmoother.H"
-#include "addToRunTimeSelectionTable.H"
-#include "faceSet.H"
+#include "motionSmoother/badQualityToFace/badQualityToFace.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "motionSmoother/motionSmoother.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "sets/topoSets/faceSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

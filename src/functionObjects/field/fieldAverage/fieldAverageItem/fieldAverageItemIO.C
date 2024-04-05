@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldAverageItem.H"
-#include "fieldAverage.H"
-#include "wordAndDictionary.H"
+#include "fieldAverage/fieldAverageItem/fieldAverageItem.H"
+#include "fieldAverage/fieldAverage.H"
+#include "db/functionObjects/functionObjectList/wordAndDictionary.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

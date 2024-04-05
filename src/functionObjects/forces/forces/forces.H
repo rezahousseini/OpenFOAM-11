@@ -115,11 +115,11 @@ SourceFiles
 #ifndef functionObjects_forces_H
 #define functionObjects_forces_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "coordinateSystem.H"
-#include "volFieldsFwd.H"
-#include "HashSet.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "coordinateSystems/coordinateSystem.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

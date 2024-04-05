@@ -23,21 +23,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "populationBalanceModel.H"
-#include "phaseSystem.H"
-#include "coalescenceModel.H"
-#include "breakupModel.H"
-#include "binaryBreakupModel.H"
-#include "driftModel.H"
-#include "nucleationModel.H"
-#include "interfaceSurfaceTensionModel.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvcSup.H"
-#include "shapeModel.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
+#include "populationBalanceModel/breakupModels/breakupModel/breakupModel.H"
+#include "populationBalanceModel/binaryBreakupModels/binaryBreakupModel/binaryBreakupModel.H"
+#include "populationBalanceModel/driftModels/driftModel/driftModel.H"
+#include "populationBalanceModel/nucleationModels/nucleationModel/nucleationModel.H"
+#include "interfaceSurfaceTensionModels/interfaceSurfaceTensionModel/interfaceSurfaceTensionModel.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcSup.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/shapeModel/shapeModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

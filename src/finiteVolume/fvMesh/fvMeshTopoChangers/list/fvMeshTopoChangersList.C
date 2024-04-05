@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshTopoChangersList.H"
-#include "polyTopoChangeMap.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMeshTopoChangers/list/fvMeshTopoChangersList.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

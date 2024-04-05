@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "particle.H"
-#include "polyMesh.H"
-#include "Time.H"
+#include "particle/particle.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

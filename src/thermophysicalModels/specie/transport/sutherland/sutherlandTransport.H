@@ -214,10 +214,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sutherlandTransportI.H"
+#include "transport/sutherland/sutherlandTransportI.H"
 
 #ifdef NoRepository
-    #include "sutherlandTransport.C"
+    #include "transport/sutherland/sutherlandTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

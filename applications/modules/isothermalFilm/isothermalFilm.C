@@ -24,18 +24,18 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "isothermalFilm.H"
-#include "filmWallPolyPatch.H"
-#include "filmSurfacePolyPatch.H"
-#include "mappedPatchBase.H"
-#include "zeroGradientFvPatchFields.H"
-#include "alphaOneFvPatchScalarField.H"
-#include "constantSurfaceTension.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvcFlux.H"
-#include "fvcSurfaceIntegrate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patches/filmWall/filmWallPolyPatch/filmWallPolyPatch.H"
+#include "patches/filmSurface/filmSurfacePolyPatch/filmSurfacePolyPatch.H"
+#include "mappedPatches/mappedPatchBase/mappedPatchBase.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "derivedFvPatchFields/alphaOne/alphaOneFvPatchScalarField.H"
+#include "surfaceTensionModels/constant/constantSurfaceTension.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -29,13 +29,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 #include <fstream>
 #include <sstream>
-#include "IStringStream.H"
-#include "point.H"
-#include "DynamicList.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 using namespace Foam;
 
@@ -109,7 +109,7 @@ labelList parseVertices(const string& line)
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::validArgs.append("OBJ file");
     argList::validArgs.append("output VTK file");

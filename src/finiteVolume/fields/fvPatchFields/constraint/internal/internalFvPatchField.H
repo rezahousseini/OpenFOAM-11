@@ -45,8 +45,8 @@ SourceFiles
 #ifndef internalFvPatchField_H
 #define internalFvPatchField_H
 
-#include "fvPatchField.H"
-#include "internalFvPatch.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "fvMesh/fvPatches/constraint/internal/internalFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "internalFvPatchField.C"
+    #include "fields/fvPatchFields/constraint/internal/internalFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

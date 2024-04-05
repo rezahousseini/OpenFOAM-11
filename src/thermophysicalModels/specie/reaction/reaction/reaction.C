@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reaction.H"
-#include "dictionary.H"
+#include "reaction/reaction/reaction.H"
+#include "db/dictionary/dictionary.H"
 
 
 // * * * * * * * * * * * * * * * * Static Data * * * * * * * * * * * * * * * //

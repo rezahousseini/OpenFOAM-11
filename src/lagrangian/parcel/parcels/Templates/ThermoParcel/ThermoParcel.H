@@ -38,10 +38,10 @@ SourceFiles
 #ifndef ThermoParcel_H
 #define ThermoParcel_H
 
-#include "particle.H"
-#include "interpolation.H"
-#include "fluidThermo.H"
-#include "demandDrivenEntry.H"
+#include "particle/particle.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "fluidThermo/fluidThermo.H"
+#include "demandDrivenEntry/demandDrivenEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -440,13 +440,13 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ThermoParcelI.H"
-#include "ThermoParcelTrackingDataI.H"
+#include "parcels/Templates/ThermoParcel/ThermoParcelI.H"
+#include "parcels/Templates/ThermoParcel/ThermoParcelTrackingDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermoParcel.C"
+    #include "parcels/Templates/ThermoParcel/ThermoParcel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

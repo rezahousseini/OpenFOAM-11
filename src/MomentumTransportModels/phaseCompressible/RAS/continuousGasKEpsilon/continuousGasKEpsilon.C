@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "continuousGasKEpsilon.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
-#include "phaseSystem.H"
-#include "dragModel.H"
-#include "dispersedVirtualMassModel.H"
+#include "RAS/continuousGasKEpsilon/continuousGasKEpsilon.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "phaseSystem/phaseSystem.H"
+#include "dragModels/dragModel/dragModel.H"
+#include "virtualMassModels/dispersedVirtualMassModel/dispersedVirtualMassModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

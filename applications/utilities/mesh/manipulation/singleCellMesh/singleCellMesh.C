@@ -34,13 +34,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "Time.H"
-#include "ReadFields.H"
-#include "singleCellFvMesh.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "db/Time/Time.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fvMesh/singleCellFvMesh/singleCellFvMesh.H"
+#include "db/Time/timeSelector.H"
 
 using namespace Foam;
 
@@ -78,14 +78,14 @@ int main(int argc, char *argv[])
         "do not update fields"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool fields = !args.optionFound("noFields");
 
     const instantList timeDirs = timeSelector::select0(runTime, args);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     if (regionName == singleCellName)
     {
@@ -148,7 +148,7 @@ int main(int argc, char *argv[])
 
         if (fields) Info<< "Reading geometric fields" << nl << endl;
 
-        #include "readVolFields.H"
+        #include "fields/ReadFields/readVolFields.H"
 
         // Map and store the fields on the scMesh.
         if (fields) interpolateFields(scMesh(), vsFlds);

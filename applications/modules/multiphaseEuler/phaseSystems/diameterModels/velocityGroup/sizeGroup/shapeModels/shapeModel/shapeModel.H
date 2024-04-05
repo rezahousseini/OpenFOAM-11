@@ -41,11 +41,11 @@ SourceFiles
 #ifndef shapeModel_H
 #define shapeModel_H
 
-#include "dictionary.H"
-#include "sizeGroup.H"
-#include "driftModel.H"
-#include "nucleationModel.H"
-#include "runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "diameterModels/velocityGroup/sizeGroup/sizeGroup.H"
+#include "populationBalanceModel/driftModels/driftModel/driftModel.H"
+#include "populationBalanceModel/nucleationModels/nucleationModel/nucleationModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

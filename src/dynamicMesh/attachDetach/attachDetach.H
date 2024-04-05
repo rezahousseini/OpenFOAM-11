@@ -44,9 +44,9 @@ SourceFiles
 #ifndef attachDetach_H
 #define attachDetach_H
 
-#include "polyMeshModifier.H"
-#include "polyPatchID.H"
-#include "ZoneIDs.H"
+#include "polyTopoChange/polyMeshModifier/polyMeshModifier.H"
+#include "meshes/Identifiers/patch/polyPatchID.H"
+#include "meshes/Identifiers/zones/ZoneIDs.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

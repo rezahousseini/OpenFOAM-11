@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallBoilingProperties.H"
-#include "addToRunTimeSelectionTable.H"
-#include "alphatWallBoilingWallFunctionFvPatchScalarField.H"
+#include "wallBoilingProperties/wallBoilingProperties.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

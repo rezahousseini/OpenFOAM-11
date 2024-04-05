@@ -75,10 +75,10 @@ See also
 #define XiFluid_H
 
 #include "isothermalFluid.H"
-#include "psiuMulticomponentThermo.H"
-#include "RASThermophysicalTransportModel.H"
-#include "unityLewisEddyDiffusivity.H"
-#include "laminarFlameSpeed.H"
+#include "psiuMulticomponentThermo/psiuMulticomponentThermo.H"
+#include "turbulence/RAS/RASThermophysicalTransportModel/RASThermophysicalTransportModel.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
+#include "laminarFlameSpeed/laminarFlameSpeed.H"
 #include "ignition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

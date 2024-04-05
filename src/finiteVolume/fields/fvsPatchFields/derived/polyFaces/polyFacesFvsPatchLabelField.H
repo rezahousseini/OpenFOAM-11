@@ -32,7 +32,7 @@ SourceFiles
 #ifndef polyFacesFvsPatchLabelField_H
 #define polyFacesFvsPatchLabelField_H
 
-#include "fvsPatchFields.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

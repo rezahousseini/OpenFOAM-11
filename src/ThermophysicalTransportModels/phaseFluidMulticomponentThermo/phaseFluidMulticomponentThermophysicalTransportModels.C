@@ -39,16 +39,16 @@ makeThermophysicalTransportModelTables
 // Laminar models
 // -------------------------------------------------------------------------- //
 
-#include "Fourier.H"
+#include "laminar/Fourier/Fourier.H"
 makeLaminarThermophysicalTransportModel(Fourier);
 
-#include "unityLewisFourier.H"
+#include "laminar/unityLewisFourier/unityLewisFourier.H"
 makeLaminarThermophysicalTransportModel(unityLewisFourier);
 
-#include "FickianFourier.H"
+#include "laminar/FickianFourier/FickianFourier.H"
 makeLaminarThermophysicalTransportModel(FickianFourier);
 
-#include "MaxwellStefanFourier.H"
+#include "laminar/MaxwellStefanFourier/MaxwellStefanFourier.H"
 makeLaminarThermophysicalTransportModel(MaxwellStefanFourier);
 
 
@@ -56,16 +56,16 @@ makeLaminarThermophysicalTransportModel(MaxwellStefanFourier);
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "eddyDiffusivity.H"
+#include "turbulence/eddyDiffusivity/eddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(RAS, eddyDiffusivity);
 
-#include "unityLewisEddyDiffusivity.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(RAS, unityLewisEddyDiffusivity);
 
-#include "nonUnityLewisEddyDiffusivity.H"
+#include "turbulence/nonUnityLewisEddyDiffusivity/nonUnityLewisEddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(RAS, nonUnityLewisEddyDiffusivity);
 
-#include "FickianEddyDiffusivity.H"
+#include "turbulence/FickianEddyDiffusivity/FickianEddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(RAS, FickianEddyDiffusivity);
 
 
@@ -73,13 +73,13 @@ makeRASLESThermophysicalTransportModel(RAS, FickianEddyDiffusivity);
 // LES models
 // -------------------------------------------------------------------------- //
 
-#include "eddyDiffusivity.H"
+#include "turbulence/eddyDiffusivity/eddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(LES, eddyDiffusivity);
 
-#include "unityLewisEddyDiffusivity.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(LES, unityLewisEddyDiffusivity);
 
-#include "nonUnityLewisEddyDiffusivity.H"
+#include "turbulence/nonUnityLewisEddyDiffusivity/nonUnityLewisEddyDiffusivity.H"
 makeRASLESThermophysicalTransportModel(LES, nonUnityLewisEddyDiffusivity);
 
 

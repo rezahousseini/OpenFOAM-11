@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshZones.H"
-#include "entry.H"
-#include "demandDrivenData.H"
-#include "stringListOps.H"
-#include "Pstream.H"
+#include "meshes/polyMesh/zones/MeshZones/MeshZones.H"
+#include "db/dictionary/entry/entry.H"
+#include "include/demandDrivenData.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -30,7 +30,7 @@ InClass
 #define vtkPVFoamPointFields_H
 
 // OpenFOAM includes
-#include "interpolatePointToCell.H"
+#include "interpolations/interpolatePointToCell/interpolatePointToCell.H"
 
 #include "vtkOpenFOAMTupleRemap.H"
 

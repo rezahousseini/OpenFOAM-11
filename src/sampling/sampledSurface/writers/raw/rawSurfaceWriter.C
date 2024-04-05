@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rawSurfaceWriter.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "primitivePatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/writers/raw/rawSurfaceWriter.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UIndirectList.H"
-#include "Ostream.H"
-#include "token.H"
-#include "contiguous.H"
+#include "containers/Lists/UIndirectList/UIndirectList.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/token/token.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * Ostream Operator *  * * * * * * * * * * * * //
 

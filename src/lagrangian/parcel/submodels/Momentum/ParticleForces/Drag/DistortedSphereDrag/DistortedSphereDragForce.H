@@ -39,7 +39,7 @@ Description
 #ifndef DistortedSphereDragForce_H
 #define DistortedSphereDragForce_H
 
-#include "ParticleForce.H"
+#include "submodels/Momentum/ParticleForces/ParticleForce/ParticleForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -111,7 +111,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DistortedSphereDragForce.C"
+    #include "submodels/Momentum/ParticleForces/Drag/DistortedSphereDrag/DistortedSphereDragForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

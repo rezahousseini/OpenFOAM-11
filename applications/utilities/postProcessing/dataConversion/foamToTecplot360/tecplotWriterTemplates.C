@@ -31,7 +31,7 @@ License
 
 #include "tecplotWriter.H"
 
-#include "fvc.H"
+#include "finiteVolume/fvc/fvc.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

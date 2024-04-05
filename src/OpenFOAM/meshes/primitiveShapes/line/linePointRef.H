@@ -32,8 +32,8 @@ Description
 #ifndef linePointRef_H
 #define linePointRef_H
 
-#include "point.H"
-#include "line.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/primitiveShapes/line/line.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef decomposedBlockData_H
 #define decomposedBlockData_H
 
-#include "IOList.H"
-#include "regIOobject.H"
-#include "UPstream.H"
+#include "db/IOobjects/IOList/IOList.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

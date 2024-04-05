@@ -32,8 +32,8 @@ Description
 #ifndef setSizeFvPatchFieldMapper_H
 #define setSizeFvPatchFieldMapper_H
 
-#include "fvPatchFieldMapper.H"
-#include "setSizeFieldMapper.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/Fields/fieldMappers/setSizeFieldMapper/setSizeFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

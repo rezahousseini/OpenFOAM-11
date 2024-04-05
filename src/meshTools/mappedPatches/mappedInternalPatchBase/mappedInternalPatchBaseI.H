@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedInternalPatchBase.H"
+#include "mappedPatches/mappedInternalPatchBase/mappedInternalPatchBase.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

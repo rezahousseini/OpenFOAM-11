@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Histogram.H"
-#include "ListOps.H"
+#include "containers/Lists/Histogram/Histogram.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

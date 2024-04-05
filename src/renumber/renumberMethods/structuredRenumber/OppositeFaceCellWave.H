@@ -44,7 +44,7 @@ SourceFiles
 #ifndef OppositeFaceCellWave_H
 #define OppositeFaceCellWave_H
 
-#include "FaceCellWave.H"
+#include "algorithms/FaceCellWave/FaceCellWave.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "OppositeFaceCellWave.C"
+    #include "structuredRenumber/OppositeFaceCellWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

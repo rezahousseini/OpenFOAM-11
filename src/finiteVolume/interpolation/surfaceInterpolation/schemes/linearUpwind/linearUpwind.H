@@ -37,8 +37,8 @@ SourceFiles
 #ifndef linearUpwind_H
 #define linearUpwind_H
 
-#include "upwind.H"
-#include "gaussGrad.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
+#include "finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -133,7 +133,7 @@ tmp<surfaceVectorField> linearUpwind<vector>::correction
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "linearUpwindTemplates.C"
+    #include "interpolation/surfaceInterpolation/schemes/linearUpwind/linearUpwindTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

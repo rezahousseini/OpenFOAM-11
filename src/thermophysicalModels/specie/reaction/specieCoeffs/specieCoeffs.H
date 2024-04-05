@@ -36,8 +36,8 @@ SourceFiles
 #ifndef specieCoeffs_H
 #define specieCoeffs_H
 
-#include "specieExponent.H"
-#include "speciesTable.H"
+#include "reaction/specieExponent/specieExponent.H"
+#include "speciesTable/speciesTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

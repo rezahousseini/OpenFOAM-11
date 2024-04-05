@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MomentumLookupTableInjection.H"
-#include "scalarIOList.H"
+#include "submodels/Momentum/InjectionModel/MomentumLookupTableInjection/MomentumLookupTableInjection.H"
+#include "primitives/Scalar/lists/scalarIOList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

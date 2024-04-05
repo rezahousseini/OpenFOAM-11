@@ -29,11 +29,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
 #include "writeFluentFields.H"
-#include "OFstream.H"
-#include "IOobjectList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 using namespace Foam;
 
@@ -44,12 +44,12 @@ int main(int argc, char *argv[])
     argList::noParallel();
     timeSelector::addOptions(false);   // no constant
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const instantList timeDirs = timeSelector::select0(runTime, args);
 
-    #include "createMeshNoChangers.H"
+    #include "include/createMeshNoChangers.H"
 
     // make a directory called proInterface in the case
     mkDir(runTime.rootPath()/runTime.caseName()/"fluentInterface");

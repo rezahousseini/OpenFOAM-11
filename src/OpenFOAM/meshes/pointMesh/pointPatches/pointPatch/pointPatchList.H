@@ -32,8 +32,8 @@ Description
 #ifndef pointPatchList_H
 #define pointPatchList_H
 
-#include "pointPatch.H"
-#include "PtrList.H"
+#include "meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

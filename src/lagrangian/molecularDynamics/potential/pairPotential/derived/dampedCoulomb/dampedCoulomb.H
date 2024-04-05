@@ -35,7 +35,7 @@ SourceFiles
 #ifndef dampedCoulomb_H
 #define dampedCoulomb_H
 
-#include "pairPotential.H"
+#include "pairPotential/basic/pairPotential.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

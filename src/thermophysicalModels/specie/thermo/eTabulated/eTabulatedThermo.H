@@ -97,7 +97,7 @@ See also
 #ifndef eTabulatedThermo_H
 #define eTabulatedThermo_H
 
-#include "UniformTable2.H"
+#include "primitives/functions/Function2/UniformTable2/UniformTable2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -231,10 +231,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "eTabulatedThermoI.H"
+#include "thermo/eTabulated/eTabulatedThermoI.H"
 
 #ifdef NoRepository
-    #include "eTabulatedThermo.C"
+    #include "thermo/eTabulated/eTabulatedThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

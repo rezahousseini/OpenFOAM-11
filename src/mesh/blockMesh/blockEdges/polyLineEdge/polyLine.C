@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyLine.H"
+#include "blockEdges/polyLineEdge/polyLine.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

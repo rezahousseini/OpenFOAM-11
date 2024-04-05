@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchCutLayerAverage.H"
-#include "cutPolyIntegral.H"
-#include "OSspecific.H"
-#include "volFields.H"
-#include "writeFile.H"
-#include "polyTopoChangeMap.H"
-#include "polyMeshMap.H"
-#include "polyDistributionMap.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patchCutLayerAverage/patchCutLayerAverage.H"
+#include "cutPoly/cutPolyIntegral.H"
+#include "include/OSspecific.H"
+#include "fields/volFields/volFields.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyMeshMap/polyMeshMap.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

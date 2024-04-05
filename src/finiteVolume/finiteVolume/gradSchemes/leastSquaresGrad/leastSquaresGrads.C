@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "leastSquaresGrad.H"
+#include "fvMesh/fvMesh.H"
+#include "finiteVolume/gradSchemes/leastSquaresGrad/leastSquaresGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

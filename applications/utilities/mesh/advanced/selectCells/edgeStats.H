@@ -35,8 +35,8 @@ SourceFiles
 #ifndef edgeStats_H
 #define edgeStats_H
 
-#include "direction.H"
-#include "scalar.H"
+#include "primitives/direction/direction.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

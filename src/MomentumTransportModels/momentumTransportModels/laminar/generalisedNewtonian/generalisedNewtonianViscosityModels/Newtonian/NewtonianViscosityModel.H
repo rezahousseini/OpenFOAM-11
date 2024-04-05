@@ -35,7 +35,7 @@ SourceFiles
 #ifndef NewtonianViscosityModel_H
 #define NewtonianViscosityModel_H
 
-#include "generalisedNewtonianViscosityModel.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonianViscosityModels/generalisedNewtonianViscosityModel/generalisedNewtonianViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

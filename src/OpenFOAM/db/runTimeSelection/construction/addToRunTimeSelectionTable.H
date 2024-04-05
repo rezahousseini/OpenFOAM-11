@@ -29,7 +29,7 @@ Description
 #ifndef addToRunTimeSelectionTable_H
 #define addToRunTimeSelectionTable_H
 
-#include "macros.H"
+#include "include/macros.H"
 
 namespace Foam
 {

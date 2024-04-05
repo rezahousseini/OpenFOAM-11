@@ -43,7 +43,7 @@ SourceFiles
 #ifndef specieTransferMassFractionFvPatchScalarField_H
 #define specieTransferMassFractionFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

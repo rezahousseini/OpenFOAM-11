@@ -39,8 +39,8 @@ SourceFiles
 #ifndef motionSolverList_H
 #define motionSolverList_H
 
-#include "motionSolver.H"
-#include "PtrDictionary.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "containers/Dictionaries/PtrDictionary/PtrDictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

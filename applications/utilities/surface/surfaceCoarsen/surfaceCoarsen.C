@@ -34,15 +34,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "triSurface.H"
-#include "OFstream.H"
-#include "triFace.H"
-#include "triFaceList.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "triSurface/triSurface.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
 
 // From bunnylod
-#include "progmesh.h"
+#include "bunnylod/progmesh.h"
 
 using namespace Foam;
 
@@ -65,7 +65,7 @@ int mapVertex(::List<int>& collapse_map, int a, int mx)
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::validArgs.append("surface file");
     argList::validArgs.append("output surface file");

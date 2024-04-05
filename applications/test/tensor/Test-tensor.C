@@ -1,8 +1,8 @@
-#include "tensor.H"
-#include "symmTensor.H"
-#include "transform.H"
-#include "stringList.H"
-#include "IOstreams.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/transform/transform.H"
+#include "primitives/strings/lists/stringList.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

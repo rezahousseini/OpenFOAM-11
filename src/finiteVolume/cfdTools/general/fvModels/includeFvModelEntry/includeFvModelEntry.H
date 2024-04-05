@@ -67,7 +67,7 @@ SourceFiles
 #ifndef includeFvModelEntry_H
 #define includeFvModelEntry_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

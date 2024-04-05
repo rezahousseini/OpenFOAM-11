@@ -56,9 +56,9 @@ SourceFiles
 #ifndef sixDoFRigidBodyState_H
 #define sixDoFRigidBodyState_H
 
-#include "fvMeshFunctionObject.H"
-#include "vector.H"
-#include "logFiles.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "primitives/Vector/vector/vector.H"
+#include "db/functionObjects/logFiles/logFiles.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

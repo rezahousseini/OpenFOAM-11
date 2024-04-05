@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fvMeshMoversNone_H
 #define fvMeshMoversNone_H
 
-#include "fvMeshMover.H"
+#include "fvMesh/fvMeshMovers/fvMeshMover/fvMeshMover.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

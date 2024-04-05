@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateRotation.H"
-#include "objectRegistry.H"
+#include "coordinateSystems/coordinateRotation/coordinateRotation.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

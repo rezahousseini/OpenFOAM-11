@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoParcel.H"
-#include "NoHeatTransfer.H"
-#include "physicoChemicalConstants.H"
+#include "parcels/Templates/ThermoParcel/ThermoParcel.H"
+#include "submodels/Thermodynamic/HeatTransferModel/NoHeatTransfer/NoHeatTransfer.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
 
 using namespace Foam::constant;
 
@@ -329,6 +329,6 @@ Foam::ThermoParcel<ParcelType>::ThermoParcel
 
 // * * * * * * * * * * * * * * IOStream operators  * * * * * * * * * * * * * //
 
-#include "ThermoParcelIO.C"
+#include "parcels/Templates/ThermoParcel/ThermoParcelIO.C"
 
 // ************************************************************************* //

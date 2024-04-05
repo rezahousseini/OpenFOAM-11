@@ -29,8 +29,8 @@ Description
 #ifndef defineDebugSwitch_H
 #define defineDebugSwitch_H
 
-#include "debug.H"
-#include "label.H"
+#include "global/debug/debug.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

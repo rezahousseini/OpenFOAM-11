@@ -35,7 +35,7 @@ SourceFiles
 #ifndef restrainedHarmonicSpring_H
 #define restrainedHarmonicSpring_H
 
-#include "tetherPotential.H"
+#include "tetherPotential/basic/tetherPotential.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 #ifndef mixedFixedValueSlipFvPatchFieldsFwd_H
 #define mixedFixedValueSlipFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

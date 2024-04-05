@@ -36,9 +36,9 @@ SourceFiles
 #ifndef heatTransferCoefficientModel_H
 #define heatTransferCoefficientModel_H
 
-#include "volFields.H"
-#include "interRegionModel.H"
-#include "runTimeSelectionTables.H"
+#include "fields/volFields/volFields.H"
+#include "interRegion/interRegionModel/interRegionModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

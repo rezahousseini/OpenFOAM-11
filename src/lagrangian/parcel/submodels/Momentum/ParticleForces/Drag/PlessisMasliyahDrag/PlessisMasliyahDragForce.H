@@ -40,7 +40,7 @@ Description
 #ifndef PlessisMasliyahDragForce_H
 #define PlessisMasliyahDragForce_H
 
-#include "DenseDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/DenseDrag/DenseDragForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,7 +113,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PlessisMasliyahDragForce.C"
+    #include "submodels/Momentum/ParticleForces/Drag/PlessisMasliyahDrag/PlessisMasliyahDragForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

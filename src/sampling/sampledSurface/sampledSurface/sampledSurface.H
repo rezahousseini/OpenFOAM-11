@@ -49,19 +49,19 @@ SourceFiles
 #ifndef sampledSurface_H
 #define sampledSurface_H
 
-#include "pointField.H"
-#include "word.H"
-#include "labelList.H"
-#include "faceList.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "surfaceMesh.H"
-#include "polyMesh.H"
-#include "coordinateSystems.H"
-#include "interpolation.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "coordinateSystems/coordinateSystems.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -448,7 +448,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledSurfaceTemplates.C"
+    #include "sampledSurface/sampledSurface/sampledSurfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

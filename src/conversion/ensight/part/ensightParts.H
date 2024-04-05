@@ -36,10 +36,10 @@ SourceFiles
 #ifndef ensightParts_H
 #define ensightParts_H
 
-#include "ensightPart.H"
-#include "ensightPartFaces.H"
-#include "ensightPartCells.H"
-#include "volFields.H"
+#include "ensight/part/ensightPart.H"
+#include "ensight/part/ensightPartFaces.H"
+#include "ensight/part/ensightPartCells.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,7 +165,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ensightPartsTemplates.C"
+    #include "ensight/part/ensightPartsTemplates.C"
 #endif
 
 #endif

@@ -32,7 +32,7 @@ Description
 #ifndef DispersionRASModel_H
 #define DispersionRASModel_H
 
-#include "DispersionModel.H"
+#include "submodels/Momentum/DispersionModel/DispersionModel/DispersionModel.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -130,7 +130,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DispersionRASModel.C"
+    #include "submodels/Momentum/DispersionModel/DispersionRASModel/DispersionRASModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

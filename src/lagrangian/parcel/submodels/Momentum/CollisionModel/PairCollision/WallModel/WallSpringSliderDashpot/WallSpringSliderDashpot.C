@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallSpringSliderDashpot.H"
-#include "polyMesh.H"
-#include "mathematicalConstants.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/WallModel/WallSpringSliderDashpot/WallSpringSliderDashpot.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

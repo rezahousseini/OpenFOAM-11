@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleCollector.H"
-#include "Pstream.H"
-#include "surfaceWriter.H"
-#include "unitConversion.H"
-#include "Random.H"
-#include "triangle.H"
-#include "cloud.H"
-#include "axesRotation.H"
-#include "OSspecific.H"
+#include "submodels/CloudFunctionObjects/ParticleCollector/ParticleCollector.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "sampledSurface/writers/surfaceWriter.H"
+#include "global/unitConversion/unitConversion.H"
+#include "primitives/Random/Random.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "cloud/cloud.H"
+#include "coordinateSystems/coordinateRotation/axesRotation.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

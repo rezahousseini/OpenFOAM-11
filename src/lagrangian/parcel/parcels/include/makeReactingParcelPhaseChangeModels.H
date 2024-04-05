@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoPhaseChange.H"
-#include "LiquidEvaporation.H"
-#include "LiquidEvaporationBoil.H"
+#include "submodels/Reacting/PhaseChangeModel/NoPhaseChange/NoPhaseChange.H"
+#include "submodels/Reacting/PhaseChangeModel/LiquidEvaporation/LiquidEvaporation.H"
+#include "submodels/Reacting/PhaseChangeModel/LiquidEvaporationBoil/LiquidEvaporationBoil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

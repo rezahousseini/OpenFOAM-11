@@ -35,7 +35,7 @@ SourceFiles
 #ifndef splineInterpolationWeights_H
 #define splineInterpolationWeights_H
 
-#include "interpolationWeights.H"
+#include "interpolations/interpolationWeights/interpolationWeights/interpolationWeights.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

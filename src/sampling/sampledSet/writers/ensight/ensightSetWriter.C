@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightSetWriter.H"
-#include "coordSet.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "IOmanip.H"
-#include "ensightPart.H"
-#include "ensightPTraits.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/writers/ensight/ensightSetWriter.H"
+#include "coordSet/coordSet.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "ensight/part/ensightPart.H"
+#include "sampledSurface/writers/ensight/ensightPTraits.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

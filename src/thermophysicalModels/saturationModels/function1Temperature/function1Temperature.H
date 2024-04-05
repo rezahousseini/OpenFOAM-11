@@ -72,8 +72,8 @@ SourceFiles
 #ifndef function1Temperature_H
 #define function1Temperature_H
 
-#include "saturationTemperatureModel.H"
-#include "Function1.H"
+#include "saturationTemperatureModel/saturationTemperatureModel.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -63,8 +63,8 @@ SourceFiles
 #ifndef functionObjects_residuals_H
 #define functionObjects_residuals_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "residualsTemplates.C"
+    #include "residuals/residualsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

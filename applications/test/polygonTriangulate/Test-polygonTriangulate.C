@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "clock.H"
-#include "OBJstream.H"
-#include "polygonTriangulate.H"
+#include "global/argList/argList.H"
+#include "global/clock/clock.H"
+#include "obj/OBJstream.H"
+#include "algorithms/polygonTriangulate/polygonTriangulate.H"
 
 using namespace Foam;
 

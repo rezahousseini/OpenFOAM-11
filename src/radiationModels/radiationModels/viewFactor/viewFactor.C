@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "viewFactor.H"
-#include "surfaceFields.H"
-#include "constants.H"
-#include "greyDiffusiveViewFactorFixedValueFvPatchScalarField.H"
-#include "typeInfo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "radiationModels/viewFactor/viewFactor.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "global/constants/constants.H"
+#include "derivedFvPatchFields/greyDiffusiveViewFactor/greyDiffusiveViewFactorFixedValueFvPatchScalarField.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant;
 

@@ -38,12 +38,12 @@ Description
 
 #include <stdio.h>
 
-#include "IOobjectList.H"
-#include "Cloud.H"
-#include "passiveParticle.H"
-#include "volFields.H"
-#include "cellModeller.H"
-#include "OSspecific.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "Cloud/Cloud.H"
+#include "passiveParticle/passiveParticle.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "include/OSspecific.H"
 
 using namespace Foam;
 

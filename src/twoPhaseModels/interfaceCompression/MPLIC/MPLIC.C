@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MPLIC.H"
-#include "MPLICcell.H"
-#include "volPointInterpolation.H"
-#include "syncTools.H"
-#include "slicedSurfaceFields.H"
-#include "upwind.H"
+#include "MPLIC/MPLIC.H"
+#include "MPLIC/MPLICcell.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fields/surfaceFields/slicedSurfaceFields.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

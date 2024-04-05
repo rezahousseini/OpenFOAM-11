@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IATEsource.H"
-#include "fvMatrix.H"
+#include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 #include "phaseCompressibleMomentumTransportModel.H"
-#include "uniformDimensionedFields.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

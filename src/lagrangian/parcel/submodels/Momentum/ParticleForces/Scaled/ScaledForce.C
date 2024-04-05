@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ScaledForce.H"
+#include "submodels/Momentum/ParticleForces/Scaled/ScaledForce.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

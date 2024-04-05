@@ -24,17 +24,17 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "domainDecomposition.H"
-#include "decompositionMethod.H"
-#include "IOobjectList.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "hexRef8Data.H"
-#include "cyclicFvPatch.H"
-#include "processorCyclicFvPatch.H"
-#include "nonConformalCyclicFvPatch.H"
-#include "nonConformalProcessorCyclicFvPatch.H"
-#include "nonConformalErrorFvPatch.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "sets/topoSets/cellSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/pointSet.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/processorCyclic/processorCyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/nonConformalCyclic/nonConformalCyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/nonConformalProcessorCyclic/nonConformalProcessorCyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/nonConformalError/nonConformalErrorFvPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

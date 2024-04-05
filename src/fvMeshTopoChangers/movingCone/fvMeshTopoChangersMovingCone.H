@@ -36,8 +36,8 @@ SourceFiles
 #ifndef fvMeshTopoChangersMovingCone_H
 #define fvMeshTopoChangersMovingCone_H
 
-#include "fvMeshTopoChanger.H"
-#include "polyTopoChanger.H"
+#include "fvMesh/fvMeshTopoChangers/fvMeshTopoChanger/fvMeshTopoChanger.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

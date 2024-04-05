@@ -34,7 +34,7 @@ SourceFiles
 #ifndef cosineWallDamping_H
 #define cosineWallDamping_H
 
-#include "wallDampingModel.H"
+#include "wallDampingModels/wallDampingModel/wallDampingModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

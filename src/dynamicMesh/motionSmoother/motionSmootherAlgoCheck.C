@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionSmootherAlgo.H"
-#include "dynamicMeshCheck.H"
-#include "IOmanip.H"
+#include "motionSmoother/motionSmootherAlgo.H"
+#include "motionSmoother/dynamicMeshCheck/dynamicMeshCheck.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

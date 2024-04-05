@@ -36,11 +36,11 @@ SourceFiles
 #ifndef tecplotWriter_H
 #define tecplotWriter_H
 
-#include "TECIO.h"
-#include "Time.H"
-#include "indirectPrimitivePatch.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include <TECIO.h>
+#include "db/Time/Time.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 using namespace Foam;
 

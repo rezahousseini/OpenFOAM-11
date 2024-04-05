@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thresholdCellFaces.H"
-#include "emptyPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "polygonTriangulate.H"
+#include "sampledSurface/sampledThresholdCellFaces/thresholdCellFaces.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "algorithms/polygonTriangulate/polygonTriangulate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

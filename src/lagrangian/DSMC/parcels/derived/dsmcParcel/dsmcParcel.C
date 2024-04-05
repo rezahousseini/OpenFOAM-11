@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dsmcParcel.H"
+#include "parcels/derived/dsmcParcel/dsmcParcel.H"
 /*
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

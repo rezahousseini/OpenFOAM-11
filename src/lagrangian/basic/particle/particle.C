@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "particle.H"
-#include "polyTopoChangeMap.H"
-#include "transform.H"
-#include "treeDataCell.H"
-#include "indexedOctree.H"
-#include "cubicEqn.H"
+#include "particle/particle.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "primitives/transform/transform.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqn.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

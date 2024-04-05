@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonConformalErrorPointPatchField.H"
+#include "nonConformal/pointPatchFields/nonConformalError/nonConformalErrorPointPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

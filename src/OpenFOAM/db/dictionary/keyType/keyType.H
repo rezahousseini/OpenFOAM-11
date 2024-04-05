@@ -38,8 +38,8 @@ SourceFiles
 #ifndef keyType_H
 #define keyType_H
 
-#include "functionName.H"
-#include "variable.H"
+#include "primitives/strings/functionName/functionName.H"
+#include "primitives/strings/variable/variable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -188,7 +188,7 @@ Ostream& writeKeyword(Foam::Ostream& os, const keyType& kw);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "keyTypeI.H"
+#include "db/dictionary/keyType/keyTypeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

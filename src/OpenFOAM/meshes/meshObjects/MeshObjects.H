@@ -39,7 +39,7 @@ Description
 #ifndef MeshObjects_H
 #define MeshObjects_H
 
-#include "regIOobject.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

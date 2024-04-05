@@ -39,8 +39,8 @@ SourceFiles
 #ifndef nonConformalProcessorCyclicPolyPatch_H
 #define nonConformalProcessorCyclicPolyPatch_H
 
-#include "processorCyclicPolyPatch.H"
-#include "nonConformalCyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processorCyclic/processorCyclicPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformalCyclic/nonConformalCyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,10 +32,10 @@ Description
 #ifndef uindirectPrimitiveOldTimePatch_H
 #define uindirectPrimitiveOldTimePatch_H
 
-#include "PrimitiveOldTimePatch.H"
-#include "face.H"
-#include "UIndirectList.H"
-#include "pointField.H"
+#include "PrimitiveOldTimePatch/PrimitiveOldTimePatch.H"
+#include "meshes/meshShapes/face/face.H"
+#include "containers/Lists/UIndirectList/UIndirectList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

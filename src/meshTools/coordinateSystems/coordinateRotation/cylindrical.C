@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cylindrical.H"
-#include "axesRotation.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "coordinateSystems/coordinateRotation/cylindrical.H"
+#include "coordinateSystems/coordinateRotation/axesRotation.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

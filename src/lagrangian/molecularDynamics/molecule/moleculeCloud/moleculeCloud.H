@@ -36,14 +36,14 @@ SourceFiles
 #ifndef moleculeCloud_H
 #define moleculeCloud_H
 
-#include "Cloud.H"
-#include "molecule.H"
-#include "IOdictionary.H"
-#include "potential.H"
-#include "InteractionLists.H"
-#include "labelVector.H"
-#include "Random.H"
-#include "fileName.H"
+#include "Cloud/Cloud.H"
+#include "molecule/molecule.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "potential/potential.H"
+#include "InteractionLists/InteractionLists.H"
+#include "primitives/Vector/labelVector/labelVector.H"
+#include "primitives/Random/Random.H"
+#include "primitives/strings/fileName/fileName.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -212,7 +212,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "moleculeCloudI.H"
+#include "moleculeCloud/moleculeCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

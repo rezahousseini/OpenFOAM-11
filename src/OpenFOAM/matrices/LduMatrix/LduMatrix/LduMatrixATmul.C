@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LduMatrix.H"
-#include "LduInterfaceFieldPtrsList.H"
+#include "matrices/LduMatrix/LduMatrix/LduMatrix.H"
+#include "matrices/LduMatrix/LduMatrix/LduInterfaceField/LduInterfaceFieldPtrsList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

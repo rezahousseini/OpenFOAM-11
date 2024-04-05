@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UList.H"
-#include "SLList.H"
-#include "contiguous.H"
+#include "containers/Lists/UList/UList.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

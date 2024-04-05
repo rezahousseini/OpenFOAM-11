@@ -41,7 +41,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "mathematicalConstants.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant::mathematical;
 

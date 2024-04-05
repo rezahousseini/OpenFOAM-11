@@ -61,8 +61,8 @@ SourceFiles
 #ifndef functionObjects_adjustTimeStepToCombustion_H
 #define functionObjects_adjustTimeStepToCombustion_H
 
-#include "regionFunctionObject.H"
-#include "timeIOdictionary.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
+#include "db/IOobjects/IOdictionary/timeIOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

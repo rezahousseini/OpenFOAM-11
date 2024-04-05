@@ -36,9 +36,9 @@ SourceFiles
 #ifndef fvFieldDecomposer_H
 #define fvFieldDecomposer_H
 
-#include "fvMesh.H"
-#include "directFvPatchFieldMapper.H"
-#include "surfaceFields.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvPatchFields/fvPatchField/directFvPatchFieldMapper.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

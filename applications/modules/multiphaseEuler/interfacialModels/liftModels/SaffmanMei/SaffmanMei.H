@@ -48,7 +48,7 @@ SourceFiles
 #ifndef SaffmanMei_H
 #define SaffmanMei_H
 
-#include "dispersedLiftModel.H"
+#include "liftModels/dispersedLiftModel/dispersedLiftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

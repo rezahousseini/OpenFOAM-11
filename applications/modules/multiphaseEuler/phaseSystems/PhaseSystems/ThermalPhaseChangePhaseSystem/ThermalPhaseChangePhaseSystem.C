@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermalPhaseChangePhaseSystem.H"
-#include "heatTransferModel.H"
-#include "alphatPhaseChangeWallFunctionBase.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvmSup.H"
-#include "rhoMulticomponentThermo.H"
-#include "wallBoilingHeatTransfer.H"
+#include "PhaseSystems/ThermalPhaseChangePhaseSystem/ThermalPhaseChangePhaseSystem.H"
+#include "heatTransferModels/heatTransferModel/heatTransferModel.H"
+#include "derivedFvPatchFields/alphatPhaseChangeWallFunctionBase/alphatPhaseChangeWallFunctionBase.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "rhoMulticomponentThermo/rhoMulticomponentThermo.H"
+#include "heatTransferModels/wallBoiling/wallBoilingHeatTransfer.H"
 
 // * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef nonSphericalHeatTransfer_H
 #define nonSphericalHeatTransfer_H
 
-#include "sphericalHeatTransfer.H"
+#include "heatTransferModels/sphericalHeatTransfer/sphericalHeatTransfer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

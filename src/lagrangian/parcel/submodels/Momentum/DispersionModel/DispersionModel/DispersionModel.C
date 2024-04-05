@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DispersionModel.H"
+#include "submodels/Momentum/DispersionModel/DispersionModel/DispersionModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -65,6 +65,6 @@ Foam::DispersionModel<CloudType>::~DispersionModel()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DispersionModelNew.C"
+#include "submodels/Momentum/DispersionModel/DispersionModel/DispersionModelNew.C"
 
 // ************************************************************************* //

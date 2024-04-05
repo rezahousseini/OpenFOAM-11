@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inputSyntaxEntry.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/inputSyntaxEntry/inputSyntaxEntry.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -38,22 +38,22 @@ SourceFiles
 #ifndef Time_H
 #define Time_H
 
-#include "TimePaths.H"
-#include "objectRegistry.H"
-#include "IOdictionary.H"
-#include "FIFOStack.H"
-#include "clock.H"
-#include "cpuTime.H"
-#include "TimeState.H"
-#include "userTime.H"
-#include "Switch.H"
-#include "instantList.H"
-#include "NamedEnum.H"
-#include "typeInfo.H"
-#include "dlLibraryTable.H"
-#include "functionObjectList.H"
-#include "sigWriteNow.H"
-#include "sigStopAtWriteNow.H"
+#include "db/Time/TimePaths.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "containers/LinkedLists/user/FIFOStack.H"
+#include "global/clock/clock.H"
+#include "cpuTime/cpuTime.H"
+#include "db/Time/TimeState.H"
+#include "db/Time/userTime/userTime/userTime.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/Time/instant/instantList.H"
+#include "containers/NamedEnum/NamedEnum.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "db/functionObjects/functionObjectList/functionObjectList.H"
+#include "signals/sigWriteNow.H"
+#include "signals/sigStopAtWriteNow.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Burns.H"
+#include "turbulentDispersionModels/Burns/Burns.H"
 #include "phaseCompressibleMomentumTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
-#include "dispersedDragModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

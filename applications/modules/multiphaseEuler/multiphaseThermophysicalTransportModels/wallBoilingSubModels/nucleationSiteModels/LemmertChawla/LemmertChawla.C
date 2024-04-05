@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LemmertChawla.H"
-#include "addToRunTimeSelectionTable.H"
-#include "wallBoilingModelsCoefficient.H"
+#include "wallBoilingSubModels/nucleationSiteModels/LemmertChawla/LemmertChawla.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "wallBoilingSubModels/wallBoilingModelsCoefficient.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicThermo.H"
-#include "wordIOList.H"
-#include "compileTemplate.H"
+#include "basicThermo/basicThermo.H"
+#include "primitives/strings/word/wordIOList.H"
+#include "db/dynamicLibrary/compileTemplate/compileTemplate.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

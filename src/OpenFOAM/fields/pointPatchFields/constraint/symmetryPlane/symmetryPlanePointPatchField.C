@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryPlanePointPatchField.H"
+#include "fields/pointPatchFields/constraint/symmetryPlane/symmetryPlanePointPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

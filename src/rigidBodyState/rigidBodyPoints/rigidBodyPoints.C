@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyPoints.H"
-#include "fvMeshMoversMotionSolver.H"
-#include "motionSolver.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "rigidBodyPoints/rigidBodyPoints.H"
+#include "motionSolver/fvMeshMoversMotionSolver.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "global/unitConversion/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

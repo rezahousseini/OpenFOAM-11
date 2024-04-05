@@ -35,7 +35,7 @@ SourceFiles
 #ifndef wallPolyPatch_H
 #define wallPolyPatch_H
 
-#include "polyPatch.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

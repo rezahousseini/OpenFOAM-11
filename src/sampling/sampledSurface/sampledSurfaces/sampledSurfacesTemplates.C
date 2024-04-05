@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSurfaces.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "ListListOps.H"
-#include "stringListOps.H"
+#include "sampledSurface/sampledSurfaces/sampledSurfaces.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "primitives/strings/lists/stringListOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

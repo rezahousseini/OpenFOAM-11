@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stopAtFile.H"
-#include "dictionary.H"
-#include "OSspecific.H"
-#include "PstreamReduceOps.H"
-#include "addToRunTimeSelectionTable.H"
+#include "stopAt/stopAtFile/stopAtFile.H"
+#include "db/dictionary/dictionary.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

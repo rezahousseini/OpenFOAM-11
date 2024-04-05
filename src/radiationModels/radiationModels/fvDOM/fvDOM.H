@@ -57,9 +57,9 @@ SourceFiles
 #ifndef radiation_fvDOM_H
 #define radiation_fvDOM_H
 
-#include "radiativeIntensityRay.H"
-#include "radiationModel.H"
-#include "fvMatrices.H"
+#include "radiationModels/fvDOM/radiativeIntensityRay/radiativeIntensityRay.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -243,7 +243,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvDOMI.H"
+#include "radiationModels/fvDOM/fvDOMI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

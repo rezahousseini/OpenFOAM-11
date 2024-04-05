@@ -165,7 +165,7 @@ SourceFiles
 #ifndef advectionDiffusionPatchDistMethod_H
 #define advectionDiffusionPatchDistMethod_H
 
-#include "patchDistMethod.H"
+#include "fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

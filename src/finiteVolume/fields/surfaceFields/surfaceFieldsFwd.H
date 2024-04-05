@@ -34,7 +34,7 @@ SourceFiles
 #ifndef surfaceFieldsFwd_H
 #define surfaceFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

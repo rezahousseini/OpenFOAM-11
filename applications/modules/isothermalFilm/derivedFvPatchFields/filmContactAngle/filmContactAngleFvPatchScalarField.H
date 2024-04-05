@@ -84,8 +84,8 @@ SourceFiles
 #ifndef filmContactAngleFvPatchScalarField_H
 #define filmContactAngleFvPatchScalarField_H
 
-#include "zeroGradientFvPatchFields.H"
-#include "contactAngleModel.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "contactAngleModels/contactAngleModel/contactAngleModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

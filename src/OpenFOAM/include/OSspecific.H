@@ -36,7 +36,7 @@ SourceFiles
 #ifndef OSspecific_H
 #define OSspecific_H
 
-#include "fileNameList.H"
+#include "primitives/strings/lists/fileNameList.H"
 
 #include <sys/types.h>
 

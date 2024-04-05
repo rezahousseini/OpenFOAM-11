@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmGaussGrad.H"
-#include "filmFvPatch.H"
+#include "filmGaussGrad/filmGaussGrad.H"
+#include "patches/filmFvPatch/filmFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fvMeshTopoChangersList_H
 #define fvMeshTopoChangersList_H
 
-#include "fvMeshTopoChanger.H"
-#include "PtrDictionary.H"
+#include "fvMesh/fvMeshTopoChangers/fvMeshTopoChanger/fvMeshTopoChanger.H"
+#include "containers/Dictionaries/PtrDictionary/PtrDictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

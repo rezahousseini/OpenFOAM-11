@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalCoupledTemperatureMixedFvPatchScalarField.H"
-#include "fluidThermophysicalTransportModel.H"
-#include "OFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/externalCoupledTemperatureMixed/externalCoupledTemperatureMixedFvPatchScalarField.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

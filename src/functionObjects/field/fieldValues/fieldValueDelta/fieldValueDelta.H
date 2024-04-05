@@ -76,9 +76,9 @@ SourceFiles
 #ifndef functionObjects_fieldValueDelta_H
 #define functionObjects_fieldValueDelta_H
 
-#include "regionFunctionObject.H"
-#include "logFiles.H"
-#include "fieldValue.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "fieldValues/fieldValue/fieldValue.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldValueDeltaTemplates.C"
+    #include "fieldValues/fieldValueDelta/fieldValueDeltaTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

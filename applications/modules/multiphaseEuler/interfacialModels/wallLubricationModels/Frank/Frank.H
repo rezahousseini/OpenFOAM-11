@@ -51,7 +51,7 @@ SourceFiles
 #ifndef Frank_H
 #define Frank_H
 
-#include "dispersedWallLubricationModel.H"
+#include "wallLubricationModels/dispersedWallLubricationModel/dispersedWallLubricationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

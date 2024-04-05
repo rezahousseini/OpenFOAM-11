@@ -26,8 +26,8 @@ License
 #ifndef mappedValueAndPatchInternalValueFvPatchFields_H
 #define mappedValueAndPatchInternalValueFvPatchFields_H
 
-#include "mappedValueAndPatchInternalValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/mappedValueAndPatchInternalValue/mappedValueAndPatchInternalValueFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

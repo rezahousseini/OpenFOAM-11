@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldAverage.H"
-#include "fieldAverageItem.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "fieldAverage/fieldAverage.H"
+#include "fieldAverage/fieldAverageItem/fieldAverageItem.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pyrMatcher.H"
-#include "cellMatcher.H"
-#include "primitiveMesh.H"
-#include "primitiveMesh.H"
-#include "cellModeller.H"
-#include "ListOps.H"
+#include "meshes/meshShapes/cellMatcher/pyrMatcher.H"
+#include "meshes/meshShapes/cellMatcher/cellMatcher.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

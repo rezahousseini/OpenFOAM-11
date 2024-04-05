@@ -23,28 +23,28 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeReaction.H"
+#include "reaction/makeReaction.H"
 
-#include "ArrheniusReactionRate.H"
-#include "LandauTellerReactionRate.H"
-#include "thirdBodyArrheniusReactionRate.H"
+#include "reaction/reactionRate/ArrheniusReactionRate/ArrheniusReactionRate.H"
+#include "reaction/reactionRate/LandauTellerReactionRate/LandauTellerReactionRate.H"
+#include "reaction/reactionRate/thirdBodyArrheniusReactionRate/thirdBodyArrheniusReactionRate.H"
 
-#include "JanevReactionRate.H"
-#include "powerSeriesReactionRate.H"
+#include "reaction/reactionRate/JanevReactionRate/JanevReactionRate.H"
+#include "reaction/reactionRate/powerSeries/powerSeriesReactionRate.H"
 
-#include "FallOffReactionRate.H"
-#include "ChemicallyActivatedReactionRate.H"
-#include "LindemannFallOffFunction.H"
-#include "SRIFallOffFunction.H"
-#include "TroeFallOffFunction.H"
+#include "reaction/reactionRate/FallOffReactionRate/FallOffReactionRate.H"
+#include "reaction/reactionRate/ChemicallyActivatedReactionRate/ChemicallyActivatedReactionRate.H"
+#include "reaction/reactionRate/fallOffFunctions/LindemannFallOffFunction/LindemannFallOffFunction.H"
+#include "reaction/reactionRate/fallOffFunctions/SRIFallOffFunction/SRIFallOffFunction.H"
+#include "reaction/reactionRate/fallOffFunctions/TroeFallOffFunction/TroeFallOffFunction.H"
 
-#include "MichaelisMentenReactionRate.H"
-#include "LangmuirHinshelwoodReactionRate.H"
-#include "fluxLimitedLangmuirHinshelwoodReactionRate.H"
-#include "surfaceArrheniusReactionRate.H"
+#include "reaction/reactionRate/MichaelisMenten/MichaelisMentenReactionRate.H"
+#include "reaction/reactionRate/LangmuirHinshelwood/LangmuirHinshelwoodReactionRate.H"
+#include "reaction/reactionRate/fluxLimitedLangmuirHinshelwoodReactionRate/fluxLimitedLangmuirHinshelwoodReactionRate.H"
+#include "reaction/reactionRate/surfaceArrheniusReactionRate/surfaceArrheniusReactionRate.H"
 
-#include "forGases.H"
-#include "forLiquids.H"
+#include "include/forGases.H"
+#include "include/forLiquids.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

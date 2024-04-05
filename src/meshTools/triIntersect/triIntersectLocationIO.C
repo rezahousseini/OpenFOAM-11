@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triIntersectLocation.H"
-#include "Ostream.H"
+#include "triIntersect/triIntersectLocation.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * IOstream Operators * * * * * * * * * * * * * * //
 

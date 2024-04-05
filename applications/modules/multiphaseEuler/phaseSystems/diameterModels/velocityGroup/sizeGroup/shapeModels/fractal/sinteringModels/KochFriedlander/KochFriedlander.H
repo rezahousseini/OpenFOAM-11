@@ -61,7 +61,7 @@ SourceFiles
 #ifndef KochFriedlander_H
 #define KochFriedlander_H
 
-#include "sinteringModel.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/fractal/sinteringModels/sinteringModel/sinteringModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

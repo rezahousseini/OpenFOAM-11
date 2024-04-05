@@ -36,23 +36,23 @@ SourceFiles
 #ifndef chemkinReader_H
 #define chemkinReader_H
 
-#include "fileName.H"
-#include "typeInfo.H"
-#include "Switch.H"
-#include "HashPtrTable.H"
-#include "ReactionList.H"
-#include "DynamicList.H"
-#include "labelList.H"
-#include "speciesTable.H"
-#include "specieElement.H"
-#include "atomicWeights.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/typeInfo/typeInfo.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "reaction/Reactions/ReactionList/ReactionList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "speciesTable/speciesTable.H"
+#include "specieElement/specieElement.H"
+#include "atomicWeights/atomicWeights.H"
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "janafThermo.H"
-#include "sensibleEnthalpy.H"
-#include "sutherlandTransport.H"
-#include "thermo.H"
+#include "specie/specie.H"
+#include "equationOfState/perfectGas/perfectGas.H"
+#include "thermo/janaf/janafThermo.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "transport/sutherland/sutherlandTransport.H"
+#include "thermo/thermo/thermo.H"
 
 #include <FlexLexer.h>
 

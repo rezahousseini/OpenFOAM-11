@@ -36,8 +36,8 @@ SourceFiles
 #ifndef FvWallInfo_H
 #define FvWallInfo_H
 
-#include "fieldTypes.H"
-#include "labelPair.H"
+#include "fields/Fields/fieldTypes.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ FOR_ALL_FIELD_TYPES(DefineContiguousFvWallLocationDataType);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FvWallInfoI.H"
+#include "fvMesh/wallDist/FvWallInfo/FvWallInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

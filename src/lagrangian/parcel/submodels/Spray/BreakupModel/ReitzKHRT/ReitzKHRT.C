@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReitzKHRT.H"
+#include "submodels/Spray/BreakupModel/ReitzKHRT/ReitzKHRT.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

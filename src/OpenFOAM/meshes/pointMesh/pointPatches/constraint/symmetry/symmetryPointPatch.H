@@ -38,8 +38,8 @@ See also
 #ifndef symmetryPointPatch_H
 #define symmetryPointPatch_H
 
-#include "facePointPatch.H"
-#include "symmetryPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

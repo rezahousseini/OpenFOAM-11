@@ -35,8 +35,8 @@ SourceFiles
 #ifndef dimensionedVector_H
 #define dimensionedVector_H
 
-#include "dimensionedScalar.H"
-#include "vector.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

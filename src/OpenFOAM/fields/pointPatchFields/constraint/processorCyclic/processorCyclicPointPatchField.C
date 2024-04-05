@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorCyclicPointPatchField.H"
-#include "processorPolyPatch.H"
+#include "fields/pointPatchFields/constraint/processorCyclic/processorCyclicPointPatchField.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //

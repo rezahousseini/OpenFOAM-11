@@ -54,8 +54,8 @@ SourceFiles
 #ifndef limitTemperature_H
 #define limitTemperature_H
 
-#include "fvConstraint.H"
-#include "fvCellSet.H"
+#include "cfdTools/general/fvConstraints/fvConstraint.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

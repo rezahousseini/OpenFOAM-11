@@ -44,9 +44,9 @@ SourceFiles
 #ifndef MomentumParcel_H
 #define MomentumParcel_H
 
-#include "particle.H"
-#include "interpolation.H"
-#include "demandDrivenEntry.H"
+#include "particle/particle.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "demandDrivenEntry/demandDrivenEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -655,13 +655,13 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MomentumParcelI.H"
-#include "MomentumParcelTrackingDataI.H"
+#include "parcels/Templates/MomentumParcel/MomentumParcelI.H"
+#include "parcels/Templates/MomentumParcel/MomentumParcelTrackingDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MomentumParcel.C"
+    #include "parcels/Templates/MomentumParcel/MomentumParcel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

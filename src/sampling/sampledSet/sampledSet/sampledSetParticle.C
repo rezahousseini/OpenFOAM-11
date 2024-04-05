@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSetParticle.H"
-#include "sampledSetCloud.H"
+#include "sampledSet/sampledSet/sampledSetParticle.H"
+#include "sampledSet/sampledSet/sampledSetCloud.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,26 +23,26 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MomentumTransferPhaseSystem.H"
+#include "PhaseSystems/MomentumTransferPhaseSystem/MomentumTransferPhaseSystem.H"
 
-#include "dragModel.H"
-#include "virtualMassModel.H"
-#include "liftModel.H"
-#include "wallLubricationModel.H"
-#include "turbulentDispersionModel.H"
+#include "dragModels/dragModel/dragModel.H"
+#include "virtualMassModels/virtualMassModel/virtualMassModel.H"
+#include "liftModels/liftModel/liftModel.H"
+#include "wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
+#include "turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvcFlux.H"
-#include "fvcSnGrad.H"
-#include "fvcMeshPhi.H"
-#include "fvcReconstruct.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
 
-#include "pimpleNoLoopControl.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleNoLoopControl/pimpleNoLoopControl.H"
 
 // * * * * * * * * * * * * Protected Member Functions * * * * * * * * * * * //
 

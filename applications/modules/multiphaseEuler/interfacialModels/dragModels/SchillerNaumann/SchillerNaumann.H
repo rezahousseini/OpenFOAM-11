@@ -35,7 +35,7 @@ SourceFiles
 #ifndef SchillerNaumann_H
 #define SchillerNaumann_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -33,7 +33,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include <iostream>
-#include "foamVersion.H"
+#include "global/foamVersion.H"
 
 int main()
 {

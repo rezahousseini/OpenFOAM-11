@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "slidingInterface.H"
-#include "polyTopoChange.H"
-#include "polyMesh.H"
-#include "polyTopoChanger.H"
-#include "polyRemovePoint.H"
-#include "polyRemoveFace.H"
+#include "slidingInterface/slidingInterface.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "polyTopoChange/polyTopoChange/removeObject/polyRemovePoint.H"
+#include "polyTopoChange/polyTopoChange/removeObject/polyRemoveFace.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

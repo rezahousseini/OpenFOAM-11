@@ -35,7 +35,7 @@ SourceFiles
 #ifndef constantDiameter_H
 #define constantDiameter_H
 
-#include "sphericalDiameter.H"
+#include "diameterModels/sphericalDiameter/sphericalDiameter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

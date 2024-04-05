@@ -53,9 +53,9 @@ SourceFiles
 #ifndef hierarchGeomDecomp_H
 #define hierarchGeomDecomp_H
 
-#include "geomDecomp.H"
-#include "FixedList.H"
-#include "direction.H"
+#include "geomDecomp/geomDecomp.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "primitives/direction/direction.H"
 
 namespace Foam
 {

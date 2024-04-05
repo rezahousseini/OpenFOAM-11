@@ -35,9 +35,9 @@ SourceFiles
 #ifndef cyclicTransform_H
 #define cyclicTransform_H
 
-#include "transformer.H"
-#include "dictionary.H"
-#include "NamedEnum.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -59,7 +59,7 @@ See also
 #ifndef multiNormal_H
 #define multiNormal_H
 
-#include "normal.H"
+#include "distributions/normal/normal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

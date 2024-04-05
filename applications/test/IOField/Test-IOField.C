@@ -29,11 +29,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "IOField.H"
-#include "polyMesh.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
 
 using namespace Foam;
 
@@ -134,10 +134,10 @@ int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     timeSelector::select0(runTime, args);
-    #include "createPolyMesh.H"
+    #include "include/createPolyMesh.H"
 
     label sz = 0;
     if (Pstream::myProcNo() % 2)

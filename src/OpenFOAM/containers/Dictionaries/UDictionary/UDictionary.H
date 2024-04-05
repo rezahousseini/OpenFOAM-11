@@ -39,8 +39,8 @@ SourceFiles
 #ifndef UDictionary_H
 #define UDictionary_H
 
-#include "DictionaryBase.H"
-#include "UIDLList.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "containers/LinkedLists/user/UIDLList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,7 +76,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UDictionary.C"
+    #include "containers/Dictionaries/UDictionary/UDictionary.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

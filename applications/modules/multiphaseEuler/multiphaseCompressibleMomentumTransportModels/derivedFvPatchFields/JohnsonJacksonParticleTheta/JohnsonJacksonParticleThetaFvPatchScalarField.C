@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "JohnsonJacksonParticleThetaFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "kineticTheoryModel.H"
+#include "derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "kineticTheoryModels/kineticTheoryModel/kineticTheoryModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

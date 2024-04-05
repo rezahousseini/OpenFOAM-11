@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshDistributorsNone.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMeshDistributors/none/fvMeshDistributorsNone.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

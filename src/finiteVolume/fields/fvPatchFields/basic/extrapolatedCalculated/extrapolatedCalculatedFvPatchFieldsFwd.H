@@ -26,7 +26,7 @@ License
 #ifndef extrapolatedCalculatedFvPatchFieldsFwd_H
 #define extrapolatedCalculatedFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef TableFileReader_H
 #define TableFileReader_H
 
-#include "TableReader.H"
+#include "primitives/functions/Function1/Table/TableReader/TableReader/TableReader.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TableFileReader.C"
+    #include "primitives/functions/Function1/Table/TableReader/TableFileReader/TableFileReader.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

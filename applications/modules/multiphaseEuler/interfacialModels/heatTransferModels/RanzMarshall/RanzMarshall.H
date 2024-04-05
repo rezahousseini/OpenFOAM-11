@@ -36,7 +36,7 @@ SourceFiles
 #ifndef RanzMarshall_H
 #define RanzMarshall_H
 
-#include "heatTransferModel.H"
+#include "heatTransferModels/heatTransferModel/heatTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

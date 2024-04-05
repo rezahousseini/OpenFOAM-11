@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeScaleFilteredHeatTransfer.H"
-#include "addToRunTimeSelectionTable.H"
+#include "heatTransferModels/timeScaleFilteredHeatTransfer/timeScaleFilteredHeatTransfer.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

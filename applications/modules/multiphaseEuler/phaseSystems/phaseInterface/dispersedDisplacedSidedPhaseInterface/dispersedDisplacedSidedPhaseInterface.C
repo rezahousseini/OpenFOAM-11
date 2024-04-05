@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dispersedDisplacedSidedPhaseInterface.H"
-#include "dispersedDisplacedPhaseInterface.H"
-#include "displacedSidedPhaseInterface.H"
-#include "dispersedSidedPhaseInterface.H"
-#include "addToRunTimeSelectionTable.H"
+#include "phaseInterface/dispersedDisplacedSidedPhaseInterface/dispersedDisplacedSidedPhaseInterface.H"
+#include "phaseInterface/dispersedDisplacedPhaseInterface/dispersedDisplacedPhaseInterface.H"
+#include "phaseInterface/displacedSidedPhaseInterface/displacedSidedPhaseInterface.H"
+#include "phaseInterface/dispersedSidedPhaseInterface/dispersedSidedPhaseInterface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

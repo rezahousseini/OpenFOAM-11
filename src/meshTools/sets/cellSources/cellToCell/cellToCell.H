@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cellToCell_H
 #define cellToCell_H
 
-#include "topoSetSource.H"
+#include "sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

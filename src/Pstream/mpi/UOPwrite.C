@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "UOPstream.H"
+#include "db/IOstreams/Pstreams/UOPstream.H"
 #include "PstreamGlobals.H"
 
 #include <mpi.h>

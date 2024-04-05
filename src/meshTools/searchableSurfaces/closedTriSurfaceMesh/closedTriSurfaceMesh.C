@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "closedTriSurfaceMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/closedTriSurfaceMesh/closedTriSurfaceMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

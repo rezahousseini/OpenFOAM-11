@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MixedDiffuseSpecular.H"
+#include "submodels/WallInteractionModel/MixedDiffuseSpecular/MixedDiffuseSpecular.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

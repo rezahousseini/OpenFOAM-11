@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicTransform.H"
-#include "unitConversion.H"
-#include "IOmanip.H"
-#include "stringOps.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicTransform.H"
+#include "global/unitConversion/unitConversion.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

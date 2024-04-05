@@ -42,8 +42,8 @@ See also
 #ifndef compressibleVoFphase_H
 #define compressibleVoFphase_H
 
-#include "VoFphase.H"
-#include "rhoThermo.H"
+#include "multiphaseVoFMixture/VoFphase/VoFphase.H"
+#include "rhoThermo/rhoThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

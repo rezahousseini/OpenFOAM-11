@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StochasticCollisionModel.H"
+#include "submodels/Momentum/StochasticCollision/StochasticCollisionModel/StochasticCollisionModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -80,6 +80,6 @@ void Foam::StochasticCollisionModel<CloudType>::update
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "StochasticCollisionModelNew.C"
+#include "submodels/Momentum/StochasticCollision/StochasticCollisionModel/StochasticCollisionModelNew.C"
 
 // ************************************************************************* //

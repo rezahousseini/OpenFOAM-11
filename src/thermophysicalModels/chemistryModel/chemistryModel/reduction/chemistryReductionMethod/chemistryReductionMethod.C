@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemistryReductionMethod.H"
-#include "chemistryModel.H"
+#include "chemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.H"
+#include "chemistryModel/chemistryModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

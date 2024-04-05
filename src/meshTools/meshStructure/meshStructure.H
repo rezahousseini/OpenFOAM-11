@@ -35,9 +35,9 @@ SourceFiles
 #ifndef meshStructure_H
 #define meshStructure_H
 
-#include "labelList.H"
-#include "uindirectPrimitivePatch.H"
-#include "className.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveMesh/primitivePatch/uindirectPrimitivePatch.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -166,7 +166,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshStructureI.H"
+#include "meshStructure/meshStructureI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

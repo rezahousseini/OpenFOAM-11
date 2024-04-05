@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformFixedMultiphaseHeatFluxFvPatchScalarField.H"
-#include "fvPatchFieldMapper.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/uniformFixedMultiphaseHeatFlux/uniformFixedMultiphaseHeatFluxFvPatchScalarField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

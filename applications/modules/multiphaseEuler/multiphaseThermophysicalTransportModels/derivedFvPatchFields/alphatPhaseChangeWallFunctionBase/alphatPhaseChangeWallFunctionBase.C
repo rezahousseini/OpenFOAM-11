@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "alphatPhaseChangeWallFunctionBase.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "phaseInterface.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/alphatPhaseChangeWallFunctionBase/alphatPhaseChangeWallFunctionBase.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef pointIndexHitList_H
 #define pointIndexHitList_H
 
-#include "pointIndexHit.H"
-#include "List.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

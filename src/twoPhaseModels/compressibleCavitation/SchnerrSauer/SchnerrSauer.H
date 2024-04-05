@@ -69,7 +69,7 @@ SourceFiles
 #ifndef SchnerrSauer_H
 #define SchnerrSauer_H
 
-#include "cavitationModel.H"
+#include "cavitationModel/cavitationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundConstraint.H"
-#include "volFields.H"
-#include "bound.H"
-#include "addToRunTimeSelectionTable.H"
+#include "bound/boundConstraint.H"
+#include "fields/volFields/volFields.H"
+#include "cfdTools/general/bound/bound.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

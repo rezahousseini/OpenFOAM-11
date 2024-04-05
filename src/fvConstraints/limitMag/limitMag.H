@@ -50,8 +50,8 @@ SourceFiles
 #ifndef limitMag_H
 #define limitMag_H
 
-#include "fvConstraint.H"
-#include "fvCellSet.H"
+#include "cfdTools/general/fvConstraints/fvConstraint.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

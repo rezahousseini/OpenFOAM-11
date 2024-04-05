@@ -54,7 +54,7 @@ SourceFiles
 #ifndef VoFFilmTransfer_H
 #define VoFFilmTransfer_H
 
-#include "fvModel.H"
+#include "cfdTools/general/fvModels/fvModel.H"
 #include "compressibleVoF.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

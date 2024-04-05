@@ -40,7 +40,7 @@ SourceFiles
 #ifndef parcelCloudList_H
 #define parcelCloudList_H
 
-#include "parcelCloud.H"
+#include "parcelCloud/parcelCloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

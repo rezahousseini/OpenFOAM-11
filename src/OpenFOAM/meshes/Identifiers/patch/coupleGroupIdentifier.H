@@ -37,8 +37,8 @@ SourceFiles
 #ifndef coupleGroupIdentifier_H
 #define coupleGroupIdentifier_H
 
-#include "word.H"
-#include "label.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "coupleGroupIdentifierI.H"
+#include "meshes/Identifiers/patch/coupleGroupIdentifierI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

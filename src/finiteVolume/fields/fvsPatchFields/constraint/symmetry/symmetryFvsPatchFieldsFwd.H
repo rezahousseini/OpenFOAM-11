@@ -26,7 +26,7 @@ License
 #ifndef symmetryFvsPatchFieldsFwd_H
 #define symmetryFvsPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

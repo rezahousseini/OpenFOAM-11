@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvModelFunctionObject.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/fvModelFunctionObject/fvModelFunctionObject.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

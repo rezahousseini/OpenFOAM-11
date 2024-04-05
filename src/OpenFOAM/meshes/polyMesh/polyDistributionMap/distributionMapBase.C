@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributionMapBase.H"
-#include "commSchedule.H"
-#include "HashSet.H"
-#include "globalIndex.H"
-#include "ListOps.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMapBase.H"
+#include "meshes/polyMesh/globalMeshData/commSchedule.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

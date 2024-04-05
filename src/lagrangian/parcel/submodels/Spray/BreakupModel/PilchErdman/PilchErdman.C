@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PilchErdman.H"
+#include "submodels/Spray/BreakupModel/PilchErdman/PilchErdman.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

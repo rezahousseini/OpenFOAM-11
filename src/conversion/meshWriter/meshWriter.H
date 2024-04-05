@@ -74,9 +74,9 @@ SourceFiles
 #ifndef meshWriter_H
 #define meshWriter_H
 
-#include "polyMesh.H"
-#include "boundaryRegion.H"
-#include "cellTable.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshTables/boundaryRegion.H"
+#include "meshTables/cellTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

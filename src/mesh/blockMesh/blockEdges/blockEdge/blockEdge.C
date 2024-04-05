@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockEdge.H"
-#include "blockVertex.H"
+#include "blockEdges/blockEdge/blockEdge.H"
+#include "blockVertices/blockVertex/blockVertex.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

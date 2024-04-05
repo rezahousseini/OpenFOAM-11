@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "plane.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

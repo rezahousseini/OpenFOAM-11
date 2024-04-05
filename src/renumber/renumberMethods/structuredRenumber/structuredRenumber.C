@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "structuredRenumber.H"
-#include "addToRunTimeSelectionTable.H"
-#include "topoDistanceData.H"
-#include "fvMeshSubset.H"
-#include "OppositeFaceCellWave.H"
-#include "globalIndex.H"
+#include "structuredRenumber/structuredRenumber.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshStructure/topoDistanceData.H"
+#include "fvMeshSubset/fvMeshSubset.H"
+#include "structuredRenumber/OppositeFaceCellWave.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

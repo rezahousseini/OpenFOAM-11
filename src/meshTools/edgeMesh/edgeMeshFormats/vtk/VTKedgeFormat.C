@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VTKedgeFormat.H"
-#include "OFstream.H"
-#include "clock.H"
-#include "IFstream.H"
-#include "vtkUnstructuredReader.H"
-#include "Time.H"
+#include "edgeMesh/edgeMeshFormats/vtk/VTKedgeFormat.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "vtk/vtkUnstructuredReader.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

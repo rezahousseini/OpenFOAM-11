@@ -26,11 +26,11 @@ License
 #ifndef steadyParticleTracksTemplates_H
 #define steadyParticleTracksTemplates_H
 
-#include "OFstream.H"
-#include "SortableList.H"
-#include "IOobjectList.H"
-#include "PtrList.H"
-#include "Field.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

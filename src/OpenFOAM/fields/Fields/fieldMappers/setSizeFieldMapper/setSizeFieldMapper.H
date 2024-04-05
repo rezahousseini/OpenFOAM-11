@@ -32,7 +32,7 @@ Description
 #ifndef setSizeFieldMapper_H
 #define setSizeFieldMapper_H
 
-#include "fieldMapper.H"
+#include "fields/Fields/fieldMappers/fieldMapper/fieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "setSizeFieldMapperTemplates.C"
+    #include "fields/Fields/fieldMappers/setSizeFieldMapper/setSizeFieldMapperTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

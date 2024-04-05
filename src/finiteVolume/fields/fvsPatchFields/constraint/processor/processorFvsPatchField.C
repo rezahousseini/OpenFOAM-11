@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorFvsPatchField.H"
-#include "surfaceMesh.H"
+#include "fields/fvsPatchFields/constraint/processor/processorFvsPatchField.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

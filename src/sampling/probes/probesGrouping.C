@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "probes.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "IOobjectList.H"
-#include "stringListOps.H"
+#include "probes/probes.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "primitives/strings/lists/stringListOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

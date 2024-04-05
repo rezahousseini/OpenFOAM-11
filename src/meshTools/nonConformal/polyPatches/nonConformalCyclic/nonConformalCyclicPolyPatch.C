@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonConformalCyclicPolyPatch.H"
-#include "nonConformalErrorPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
-#include "SubField.H"
-#include "nonConformalBoundary.H"
+#include "nonConformal/polyPatches/nonConformalCyclic/nonConformalCyclicPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformalError/nonConformalErrorPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/Fields/Field/SubField.H"
+#include "nonConformal/boundary/nonConformalBoundary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -32,10 +32,10 @@ Description
 #ifndef primitiveOldTimePatch_H
 #define primitiveOldTimePatch_H
 
-#include "PrimitiveOldTimePatch.H"
-#include "face.H"
-#include "SubList.H"
-#include "pointField.H"
+#include "PrimitiveOldTimePatch/PrimitiveOldTimePatch.H"
+#include "meshes/meshShapes/face/face.H"
+#include "containers/Lists/SubList/SubList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -49,7 +49,7 @@ SourceFiles
 #ifndef TomiyamaWallLubrication_H
 #define TomiyamaWallLubrication_H
 
-#include "dispersedWallLubricationModel.H"
+#include "wallLubricationModels/dispersedWallLubricationModel/dispersedWallLubricationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

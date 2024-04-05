@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meanVelocityForce.H"
-#include "volFields.H"
-#include "fvMatrices.H"
-#include "timeIOdictionary.H"
-#include "IFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meanVelocityForce/meanVelocityForce.H"
+#include "fields/volFields/volFields.H"
+#include "fvMatrices/fvMatrices.H"
+#include "db/IOobjects/IOdictionary/timeIOdictionary.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

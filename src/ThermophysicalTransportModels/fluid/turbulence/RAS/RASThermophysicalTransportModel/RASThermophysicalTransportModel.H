@@ -35,7 +35,7 @@ SourceFiles
 #ifndef RASThermophysicalTransportModel_H
 #define RASThermophysicalTransportModel_H
 
-#include "ThermophysicalTransportModel.H"
+#include "ThermophysicalTransportModel/ThermophysicalTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "RASThermophysicalTransportModel.C"
+    #include "turbulence/RAS/RASThermophysicalTransportModel/RASThermophysicalTransportModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

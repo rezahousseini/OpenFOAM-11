@@ -32,7 +32,7 @@ Description
 #ifndef interpolationCellPointFace_H
 #define interpolationCellPointFace_H
 
-#include "interpolationVolPointInterpolation.H"
+#include "interpolation/interpolation/interpolationVolPointInterpolation/interpolationVolPointInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -128,7 +128,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationCellPointFace.C"
+    #include "interpolation/interpolation/interpolationCellPointFace/interpolationCellPointFace.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

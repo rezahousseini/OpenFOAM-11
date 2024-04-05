@@ -35,17 +35,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "IFstream.H"
-#include "cellModeller.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "DynamicList.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "sets/topoSets/cellSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 #include <cassert>
-#include "MeshedSurfaces.H"
+#include "MeshedSurface/MeshedSurfaces.H"
 
 using namespace Foam;
 
@@ -673,8 +673,8 @@ int main(int argc, char *argv[])
         "specify the mesh region"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const fileName ideasName = args[1];
     IFstream inFile(ideasName);

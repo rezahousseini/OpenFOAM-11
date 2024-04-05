@@ -49,7 +49,7 @@ SourceFiles
 #ifndef mixedEnergyFvPatchScalarField_H
 #define mixedEnergyFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

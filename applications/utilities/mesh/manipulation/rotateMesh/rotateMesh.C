@@ -29,14 +29,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "Time.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "transformGeometricField.H"
-#include "IOobjectList.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/Time.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/transformGeometricField/transformGeometricField.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 using namespace Foam;
 
@@ -71,8 +71,8 @@ int main(int argc, char *argv[])
     argList::validArgs.append("n1");
     argList::validArgs.append("n2");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     vector n1(args.argRead<vector>(1));
     n1 /= mag(n1);
@@ -109,7 +109,7 @@ int main(int argc, char *argv[])
 
     const instantList timeDirs = timeSelector::select0(runTime, args);
 
-    #include "createMeshNoChangers.H"
+    #include "include/createMeshNoChangers.H"
 
     forAll(timeDirs, timeI)
     {

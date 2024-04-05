@@ -35,10 +35,10 @@ SourceFiles
 #ifndef refinementParameters_H
 #define refinementParameters_H
 
-#include "dictionary.H"
-#include "labelList.H"
-#include "point.H"
-#include "Switch.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

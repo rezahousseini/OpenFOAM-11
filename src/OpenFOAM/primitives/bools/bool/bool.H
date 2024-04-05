@@ -35,7 +35,7 @@ SourceFiles
 #ifndef bool_H
 #define bool_H
 
-#include "word.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -68,8 +68,8 @@ inline void writeEntry(Ostream& os, const bool value)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pTraits.H"
-#include "direction.H"
+#include "primitives/pTraits/pTraits.H"
+#include "primitives/direction/direction.H"
 
 namespace Foam
 {

@@ -26,8 +26,8 @@ License
 #ifndef mappedValueFvPatchFields_H
 #define mappedValueFvPatchFields_H
 
-#include "mappedValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/mappedValue/mappedValueFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

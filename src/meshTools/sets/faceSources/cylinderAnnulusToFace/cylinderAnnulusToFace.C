@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cylinderAnnulusToFace.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sets/faceSources/cylinderAnnulusToFace/cylinderAnnulusToFace.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

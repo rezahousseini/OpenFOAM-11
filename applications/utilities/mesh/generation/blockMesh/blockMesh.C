@@ -48,23 +48,23 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "Time.H"
-#include "IOdictionary.H"
-#include "IOPtrList.H"
-#include "systemDict.H"
+#include "db/Time/Time.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
-#include "blockMesh.H"
-#include "attachPolyTopoChanger.H"
-#include "polyTopoChange.H"
-#include "emptyPolyPatch.H"
-#include "cyclicPolyPatch.H"
+#include "blockMesh/blockMesh.H"
+#include "polyTopoChange/attachPolyTopoChanger/attachPolyTopoChanger.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
-#include "argList.H"
-#include "OSspecific.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
-#include "Pair.H"
-#include "slidingInterface.H"
+#include "primitives/Pair/Pair.H"
+#include "slidingInterface/slidingInterface.H"
 
 using namespace Foam;
 
@@ -73,7 +73,7 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
     argList::noParallel();
-    #include "addDictOption.H"
+    #include "include/addDictOption.H"
     argList::addBoolOption
     (
         "blockTopology",
@@ -109,9 +109,9 @@ int main(int argc, char *argv[])
         "       O --- X\n"
     );
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const word dictName("blockMeshDict");
 

@@ -72,7 +72,7 @@ SourceFiles
 #ifndef filmSurfaceVelocityFvPatchVectorField_H
 #define filmSurfaceVelocityFvPatchVectorField_H
 
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

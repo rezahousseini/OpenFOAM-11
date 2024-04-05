@@ -34,7 +34,7 @@ SourceFiles
 #ifndef noSintering_H
 #define noSintering_H
 
-#include "sinteringModel.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/fractal/sinteringModels/sinteringModel/sinteringModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

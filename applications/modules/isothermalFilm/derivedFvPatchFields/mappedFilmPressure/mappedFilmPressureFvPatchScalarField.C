@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedFilmPressureFvPatchScalarField.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/mappedFilmPressure/mappedFilmPressureFvPatchScalarField.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

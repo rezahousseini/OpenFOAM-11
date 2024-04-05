@@ -35,7 +35,7 @@ SourceFiles
 #ifndef NoCollision_H
 #define NoCollision_H
 
-#include "CollisionModel.H"
+#include "submodels/Momentum/CollisionModel/CollisionModel/CollisionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoCollision.C"
+    #include "submodels/Momentum/CollisionModel/NoCollision/NoCollision.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -118,7 +118,7 @@ inline bool notNull(T* t);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "nullObjectI.H"
+#include "primitives/nullObject/nullObjectI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

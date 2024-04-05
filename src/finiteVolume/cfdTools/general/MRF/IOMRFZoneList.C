@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOMRFZoneList.H"
-#include "fvMesh.H"
-#include "Time.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

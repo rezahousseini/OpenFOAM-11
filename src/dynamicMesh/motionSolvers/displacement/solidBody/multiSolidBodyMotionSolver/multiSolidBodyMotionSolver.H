@@ -36,8 +36,8 @@ SourceFiles
 #ifndef multiSolidBodyMotionSolver_H
 #define multiSolidBodyMotionSolver_H
 
-#include "points0MotionSolver.H"
-#include "solidBodyMotionFunction.H"
+#include "motionSolvers/displacement/points0/points0MotionSolver.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/solidBodyMotionFunction/solidBodyMotionFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

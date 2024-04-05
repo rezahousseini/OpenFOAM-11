@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfZone.H"
-#include "dictionary.H"
-#include "word.H"
+#include "surfZone/surfZone/surfZone.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

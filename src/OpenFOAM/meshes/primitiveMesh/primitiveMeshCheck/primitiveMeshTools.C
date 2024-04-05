@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMeshTools.H"
-#include "syncTools.H"
-#include "pyramidPointFaceRef.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/meshShapes/cell/pyramidPointFaceRef.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

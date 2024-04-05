@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshSearchFACE_CENTRE_TRISMeshObject.H"
+#include "meshSearch/meshSearchFACE_CENTRE_TRISMeshObject.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

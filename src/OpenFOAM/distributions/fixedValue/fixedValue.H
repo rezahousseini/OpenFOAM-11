@@ -47,7 +47,7 @@ See also
 #ifndef fixedValue_H
 #define fixedValue_H
 
-#include "distribution.H"
+#include "distributions/distribution/distribution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

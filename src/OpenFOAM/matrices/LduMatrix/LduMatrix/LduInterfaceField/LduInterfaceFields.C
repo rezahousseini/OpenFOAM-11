@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LduInterfaceField.H"
-#include "fieldTypes.H"
+#include "matrices/LduMatrix/LduMatrix/LduInterfaceField/LduInterfaceField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

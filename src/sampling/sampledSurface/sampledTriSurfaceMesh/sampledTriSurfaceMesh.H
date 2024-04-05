@@ -86,9 +86,9 @@ SourceFiles
 #ifndef sampledTriSurfaceMesh_H
 #define sampledTriSurfaceMesh_H
 
-#include "sampledSurface.H"
-#include "triSurfaceMesh.H"
-#include "MeshedSurface.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "MeshedSurface/MeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -314,7 +314,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledTriSurfaceMeshTemplates.C"
+    #include "sampledSurface/sampledTriSurfaceMesh/sampledTriSurfaceMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

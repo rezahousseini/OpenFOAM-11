@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeMeshFormat.H"
-#include "IOobject.H"
-#include "IFstream.H"
-#include "clock.H"
-#include "Time.H"
-#include "featureEdgeMesh.H"
+#include "edgeMesh/edgeMeshFormats/edgeMesh/edgeMeshFormat.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "global/clock/clock.H"
+#include "db/Time/Time.H"
+#include "edgeMesh/featureEdgeMesh/featureEdgeMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

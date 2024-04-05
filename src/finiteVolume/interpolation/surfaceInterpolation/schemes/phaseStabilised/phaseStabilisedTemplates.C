@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseStabilised.H"
+#include "interpolation/surfaceInterpolation/schemes/phaseStabilised/phaseStabilised.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

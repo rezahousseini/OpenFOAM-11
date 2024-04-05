@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseStabilisedSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "localMin.H"
+#include "finiteVolume/snGradSchemes/phaseStabilisedSnGrad/phaseStabilisedSnGrad.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "interpolation/surfaceInterpolation/schemes/localMin/localMin.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

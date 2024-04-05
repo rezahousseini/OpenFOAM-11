@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noiseFFT.H"
-#include "IFstream.H"
-#include "DynamicList.H"
-#include "fft.H"
-#include "SubField.H"
-#include "mathematicalConstants.H"
+#include "noise/noiseFFT.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "fft/fft.H"
+#include "fields/Fields/Field/SubField.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * //
 

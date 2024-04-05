@@ -59,7 +59,7 @@ SourceFiles
 #ifndef gravitationalContactAngle_H
 #define gravitationalContactAngle_H
 
-#include "contactAngleModel.H"
+#include "contactAngleModels/contactAngleModel/contactAngleModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -24,10 +24,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "solid.H"
-#include "fvcSurfaceIntegrate.H"
-#include "fvMeshMover.H"
-#include "localEulerDdtScheme.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "fvMesh/fvMeshMovers/fvMeshMover/fvMeshMover.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

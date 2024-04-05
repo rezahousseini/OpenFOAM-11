@@ -28,9 +28,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "Tuple2.H"
-#include "label.H"
-#include "scalar.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 using namespace Foam;
 

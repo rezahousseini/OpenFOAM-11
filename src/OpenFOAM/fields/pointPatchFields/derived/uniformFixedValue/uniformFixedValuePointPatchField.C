@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformFixedValuePointPatchField.H"
+#include "fields/pointPatchFields/derived/uniformFixedValue/uniformFixedValuePointPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * * //
 

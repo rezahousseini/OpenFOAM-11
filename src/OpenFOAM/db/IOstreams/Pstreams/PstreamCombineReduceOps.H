@@ -36,9 +36,9 @@ Description
 #ifndef PstreamCombineReduceOps_H
 #define PstreamCombineReduceOps_H
 
-#include "UPstream.H"
-#include "Pstream.H"
-#include "ops.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/ops/ops.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

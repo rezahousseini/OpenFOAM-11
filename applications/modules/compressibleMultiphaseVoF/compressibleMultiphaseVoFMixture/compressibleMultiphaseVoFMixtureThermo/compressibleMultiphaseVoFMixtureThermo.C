@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compressibleMultiphaseVoFMixtureThermo.H"
+#include "compressibleMultiphaseVoFMixture/compressibleMultiphaseVoFMixtureThermo/compressibleMultiphaseVoFMixtureThermo.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

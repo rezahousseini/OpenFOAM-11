@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceTurbulenceDamping.H"
-#include "surfaceInterpolate.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfaceTurbulenceDamping/interfaceTurbulenceDamping.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

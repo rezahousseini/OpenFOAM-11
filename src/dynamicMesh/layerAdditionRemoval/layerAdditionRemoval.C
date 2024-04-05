@@ -26,13 +26,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "layerAdditionRemoval.H"
-#include "polyTopoChanger.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "primitiveMesh.H"
-#include "polyTopoChange.H"
-#include "addToRunTimeSelectionTable.H"
+#include "layerAdditionRemoval/layerAdditionRemoval.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

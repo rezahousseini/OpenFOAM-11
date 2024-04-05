@@ -30,12 +30,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "pointField.H"
-#include "unitConversion.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "global/unitConversion/unitConversion.H"
 
 using namespace Foam;
 
@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
          FatalError.exit();
     }
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     std::ifstream plot3dFile(args.args()[1].c_str());
 

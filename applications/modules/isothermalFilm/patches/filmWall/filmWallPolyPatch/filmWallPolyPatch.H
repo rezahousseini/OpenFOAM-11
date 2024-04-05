@@ -35,7 +35,7 @@ SourceFiles
 #ifndef filmWallPolyPatch_H
 #define filmWallPolyPatch_H
 
-#include "polyPatch.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

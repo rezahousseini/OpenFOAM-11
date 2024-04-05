@@ -37,10 +37,10 @@ SourceFiles
 #ifndef interfaceSaturationTemperatureModel_H
 #define interfaceSaturationTemperatureModel_H
 
-#include "volFields.H"
-#include "dictionary.H"
-#include "phaseInterface.H"
-#include "saturationTemperatureModel.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
+#include "saturationTemperatureModel/saturationTemperatureModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

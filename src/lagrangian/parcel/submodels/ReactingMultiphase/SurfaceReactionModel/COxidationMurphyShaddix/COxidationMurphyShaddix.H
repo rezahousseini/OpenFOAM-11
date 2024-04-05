@@ -37,7 +37,7 @@ Description
 #ifndef COxidationMurphyShaddix_H
 #define COxidationMurphyShaddix_H
 
-#include "SurfaceReactionModel.H"
+#include "submodels/ReactingMultiphase/SurfaceReactionModel/SurfaceReactionModel/SurfaceReactionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "COxidationMurphyShaddix.C"
+    #include "submodels/ReactingMultiphase/SurfaceReactionModel/COxidationMurphyShaddix/COxidationMurphyShaddix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

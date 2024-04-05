@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "checkMesh.H"
-#include "fvMesh.H"
-#include "polyMeshCheck.H"
-#include "addToRunTimeSelectionTable.H"
+#include "checkMesh/checkMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/polyMeshCheck/polyMeshCheck.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

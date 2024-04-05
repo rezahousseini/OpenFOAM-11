@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricField.H"
-#include "volMesh.H"
-#include "surfaceMesh.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "volMesh/volMesh.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

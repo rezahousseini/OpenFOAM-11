@@ -35,8 +35,8 @@ See also
 #ifndef Tuple2_H
 #define Tuple2_H
 
-#include "Istream.H"
-#include "Hash.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "primitives/hashes/Hash/Hash.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

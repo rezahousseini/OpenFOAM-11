@@ -29,12 +29,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "token.H"
+#include "db/IOstreams/token/token.H"
 
 #ifndef memberFunctionSelectionTables_H
 #define memberFunctionSelectionTables_H
 
-#include "HashTable.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,8 +34,8 @@ SourceFiles
 #ifndef uniformFixedValuePointPatchFields_H
 #define uniformFixedValuePointPatchFields_H
 
-#include "uniformFixedValuePointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/derived/uniformFixedValue/uniformFixedValuePointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

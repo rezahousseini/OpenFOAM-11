@@ -46,9 +46,9 @@ SourceFiles
 #ifndef PatchFlowRateInjection_H
 #define PatchFlowRateInjection_H
 
-#include "InjectionModel.H"
-#include "patchInjectionBase.H"
-#include "TimeFunction1.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.H"
+#include "submodels/Momentum/InjectionModel/PatchInjection/patchInjectionBase.H"
+#include "primitives/functions/TimeFunction1/TimeFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchFlowRateInjection.C"
+    #include "submodels/Momentum/InjectionModel/PatchFlowRateInjection/PatchFlowRateInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldMapper.H"
+#include "fields/Fields/fieldMappers/fieldMapper/fieldMapper.H"
 
 // * * * * * * * * * * * * * * * Member Operators  * * * * * * * * * * * * * //
 

@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedInternalPatchBase.H"
-#include "SubField.H"
-#include "Time.H"
-#include "triPointRef.H"
-#include "treeDataCell.H"
-#include "indexedOctree.H"
-#include "globalIndex.H"
-#include "RemoteData.H"
-#include "OBJstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedInternalPatchBase/mappedInternalPatchBase.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/Time/Time.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "primitives/RemoteData/RemoteData.H"
+#include "obj/OBJstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

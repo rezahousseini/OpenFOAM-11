@@ -35,9 +35,9 @@ SourceFiles
 #ifndef coupledFvPatchField_H
 #define coupledFvPatchField_H
 
-#include "LduInterfaceField.H"
-#include "fvPatchField.H"
-#include "coupledFvPatch.H"
+#include "matrices/LduMatrix/LduMatrix/LduInterfaceField/LduInterfaceField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -231,7 +231,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coupledFvPatchField.C"
+    #include "fields/fvPatchFields/basic/coupled/coupledFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

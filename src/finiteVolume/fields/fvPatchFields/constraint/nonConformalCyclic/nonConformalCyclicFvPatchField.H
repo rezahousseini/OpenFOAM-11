@@ -50,8 +50,8 @@ SourceFiles
 #ifndef nonConformalCyclicFvPatchField_H
 #define nonConformalCyclicFvPatchField_H
 
-#include "cyclicFvPatchField.H"
-#include "nonConformalCyclicFvPatch.H"
+#include "fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/nonConformalCyclic/nonConformalCyclicFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -140,7 +140,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nonConformalCyclicFvPatchField.C"
+    #include "fields/fvPatchFields/constraint/nonConformalCyclic/nonConformalCyclicFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

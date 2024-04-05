@@ -62,8 +62,8 @@ SourceFiles
 #ifndef MRFslipFvPatchVectorField_H
 #define MRFslipFvPatchVectorField_H
 
-#include "MRFPatchField.H"
-#include "fixedValueFvPatchFields.H"
+#include "cfdTools/general/MRF/derivedFvPatchFields/MRFPatchField/MRFPatchField.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

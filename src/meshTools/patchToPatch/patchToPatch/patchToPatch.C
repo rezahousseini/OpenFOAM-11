@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchToPatch.H"
-#include "patchToPatchTools.H"
-#include "cpuTime.H"
-#include "distributionMap.H"
-#include "globalIndex.H"
-#include "indexedOctree.H"
-#include "treeDataPrimitivePatch.H"
-#include "vtkWritePolyData.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
+#include "patchToPatchTools/patchToPatchTools.H"
+#include "cpuTime/cpuTime.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataPrimitivePatch.H"
+#include "vtk/vtkWritePolyData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

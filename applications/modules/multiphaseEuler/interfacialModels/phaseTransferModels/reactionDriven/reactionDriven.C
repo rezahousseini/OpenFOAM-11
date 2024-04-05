@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactionDriven.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "phaseTransferModels/reactionDriven/reactionDriven.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

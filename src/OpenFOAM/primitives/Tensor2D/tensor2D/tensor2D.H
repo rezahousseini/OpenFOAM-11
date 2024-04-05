@@ -35,9 +35,9 @@ SourceFiles
 #ifndef tensor2D_H
 #define tensor2D_H
 
-#include "Tensor2D.H"
-#include "vector2D.H"
-#include "contiguous.H"
+#include "primitives/Tensor2D/Tensor2D.H"
+#include "primitives/Vector2D/vector2D/vector2D.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -69,7 +69,7 @@ inline bool contiguous<tensor2D>() {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sphericalTensor2D.H"
+#include "primitives/SphericalTensor2D/sphericalTensor2D/sphericalTensor2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

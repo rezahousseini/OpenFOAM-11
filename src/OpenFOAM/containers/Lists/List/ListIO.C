@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "Istream.H"
-#include "token.H"
-#include "SLList.H"
-#include "contiguous.H"
+#include "containers/Lists/List/List.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/token/token.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constSolidThermo.H"
+#include "constSolidThermo/constSolidThermo.H"
 
 /* * * * * * * * * * * * * * Protected Member Functions   * * * * * * * * * * */
 

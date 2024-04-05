@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fractal.H"
-#include "addToRunTimeSelectionTable.H"
-#include "sinteringModel.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
-#include "mixedFvPatchField.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/fractal/fractal.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/fractal/sinteringModels/sinteringModel/sinteringModel.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

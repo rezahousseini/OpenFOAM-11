@@ -31,8 +31,8 @@ Description
 #ifndef fvsPatchFields_H
 #define fvsPatchFields_H
 
-#include "fvsPatchField.H"
-#include "fvsPatchFieldsFwd.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

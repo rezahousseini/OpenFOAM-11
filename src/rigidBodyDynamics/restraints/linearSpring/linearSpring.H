@@ -35,8 +35,8 @@ SourceFiles
 #ifndef RBD_restraints_linearSpring_H
 #define RBD_restraints_linearSpring_H
 
-#include "rigidBodyRestraint.H"
-#include "Switch.H"
+#include "restraints/restraint/rigidBodyRestraint.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

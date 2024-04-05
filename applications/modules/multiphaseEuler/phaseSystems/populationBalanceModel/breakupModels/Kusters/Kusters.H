@@ -75,7 +75,7 @@ SourceFiles
 #ifndef Kusters_H
 #define Kusters_H
 
-#include "breakupModel.H"
+#include "populationBalanceModel/breakupModels/breakupModel/breakupModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

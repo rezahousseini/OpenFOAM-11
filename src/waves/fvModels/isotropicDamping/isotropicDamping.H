@@ -79,7 +79,7 @@ SourceFiles
 #ifndef isotropicDamping_H
 #define isotropicDamping_H
 
-#include "forcing.H"
+#include "fvModels/forcing/forcing.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

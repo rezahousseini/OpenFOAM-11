@@ -36,9 +36,9 @@ SourceFiles
 #ifndef regionToFace_H
 #define regionToFace_H
 
-#include "topoSetSource.H"
-#include "PackedBoolList.H"
-#include "indirectPrimitivePatch.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pairPotential.H"
-#include "IOstreams.H"
+#include "pairPotential/basic/pairPotential.H"
+#include "db/IOstreams/IOstreams.H"
 
 bool Foam::pairPotential::writeEnergyAndForceTables(Ostream& os) const
 {

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interRegionModel.H"
-#include "fvModels.H"
-#include "matchingCellsToCells.H"
+#include "interRegion/interRegionModel/interRegionModel.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cellsToCells/matching/matchingCellsToCells.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef constantTemperature_H
 #define constantTemperature_H
 
-#include "saturationTemperatureModel.H"
+#include "saturationTemperatureModel/saturationTemperatureModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef DICPreconditioner_H
 #define DICPreconditioner_H
 
-#include "lduMatrix.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

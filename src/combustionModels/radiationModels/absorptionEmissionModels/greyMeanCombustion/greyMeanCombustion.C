@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "greyMeanCombustion.H"
-#include "combustionModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "radiationModels/absorptionEmissionModels/greyMeanCombustion/greyMeanCombustion.H"
+#include "combustionModel/combustionModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

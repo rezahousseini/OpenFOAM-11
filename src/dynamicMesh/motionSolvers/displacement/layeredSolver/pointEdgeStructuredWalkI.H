@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "transformer.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "primitives/transform/transformer/transformer.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

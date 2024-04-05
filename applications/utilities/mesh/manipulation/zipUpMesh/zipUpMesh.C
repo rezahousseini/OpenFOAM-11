@@ -33,11 +33,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "polyMeshZipUpCells.H"
-#include "boolList.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyMeshZipUpCells/polyMeshZipUpCells.H"
+#include "primitives/bools/lists/boolList.H"
 
 using namespace Foam;
 
@@ -45,11 +45,11 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedPolyMesh.H"
 
     if (polyMeshZipUpCells(mesh))
     {

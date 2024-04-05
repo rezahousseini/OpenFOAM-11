@@ -46,16 +46,16 @@ Description
     \endverbatim
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "decompositionMethod.H"
-#include "PstreamReduceOps.H"
-#include "fvMeshDistribute.H"
-#include "polyDistributionMap.H"
-#include "IOobjectList.H"
-#include "globalIndex.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "fvMeshDistribute/fvMeshDistribute.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
 #include "loadOrCreateMesh.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
 
 using namespace Foam;
 
@@ -311,13 +311,13 @@ void readFields
 
 int main(int argc, char *argv[])
 {
-    #include "addRegionOption.H"
-    #include "addOverwriteOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addOverwriteOption.H"
 
     // Include explicit constant options, have zero from time range
     timeSelector::addOptions();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (env("FOAM_SIGFPE"))
     {
@@ -339,7 +339,7 @@ int main(int argc, char *argv[])
 
     // Make sure we do not use the master-only reading.
     regIOobject::fileModificationChecking = regIOobject::timeStamp;
-    #include "createTimeNoFunctionObjects.H"
+    #include "include/createTimeNoFunctionObjects.H"
     // Allow override of time
     instantList times = timeSelector::selectIfPresent(runTime, args);
     runTime.setTime(times[0], 0);

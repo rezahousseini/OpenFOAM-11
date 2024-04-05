@@ -58,10 +58,10 @@ SourceFiles
 #ifndef fixedTemperatureConstraint_H
 #define fixedTemperatureConstraint_H
 
-#include "fvConstraint.H"
-#include "fvCellSet.H"
-#include "NamedEnum.H"
-#include "Function1.H"
+#include "cfdTools/general/fvConstraints/fvConstraint.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "containers/NamedEnum/NamedEnum.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

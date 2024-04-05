@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionSizeDistribution.H"
-#include "regionSplit.H"
-#include "volFields.H"
+#include "regionSizeDistribution/regionSizeDistribution.H"
+#include "regionSplit/regionSplit.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

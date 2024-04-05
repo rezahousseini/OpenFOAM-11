@@ -37,9 +37,9 @@ SourceFiles
 #ifndef odeChemistryModel_H
 #define odeChemistryModel_H
 
-#include "basicChemistryModel.H"
-#include "ODESystem.H"
-#include "OFstream.H"
+#include "basicChemistryModel/basicChemistryModel.H"
+#include "ODESystem/ODESystem.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,7 +149,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "odeChemistryModelI.H"
+#include "odeChemistryModel/odeChemistryModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

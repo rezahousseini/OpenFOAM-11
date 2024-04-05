@@ -44,7 +44,7 @@ SourceFiles
 #ifndef compressibleInterPhaseTransportModel_H
 #define compressibleInterPhaseTransportModel_H
 
-#include "compressibleTwoPhaseVoFMixture.H"
+#include "compressibleTwoPhaseVoFMixture/compressibleTwoPhaseVoFMixture.H"
 #include "compressibleMomentumTransportModel.H"
 #include "phaseCompressibleMomentumTransportModel.H"
 

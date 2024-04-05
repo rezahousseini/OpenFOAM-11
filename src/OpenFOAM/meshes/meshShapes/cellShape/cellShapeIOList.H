@@ -32,8 +32,8 @@ Description
 #ifndef cellShapeIOList_H
 #define cellShapeIOList_H
 
-#include "cellShape.H"
-#include "IOList.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

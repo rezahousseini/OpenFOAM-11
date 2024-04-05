@@ -36,7 +36,7 @@ SourceFiles
 #ifndef NonInertialFrameForce_H
 #define NonInertialFrameForce_H
 
-#include "ParticleForce.H"
+#include "submodels/Momentum/ParticleForces/ParticleForce/ParticleForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,10 +155,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NonInertialFrameForceI.H"
+#include "submodels/Momentum/ParticleForces/NonInertialFrame/NonInertialFrameForceI.H"
 
 #ifdef NoRepository
-    #include "NonInertialFrameForce.C"
+    #include "submodels/Momentum/ParticleForces/NonInertialFrame/NonInertialFrameForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "shockFluid.H"
-#include "fvcSmooth.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

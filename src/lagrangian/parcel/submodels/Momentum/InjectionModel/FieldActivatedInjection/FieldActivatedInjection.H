@@ -46,10 +46,10 @@ SourceFiles
 #ifndef FieldActivatedInjection_H
 #define FieldActivatedInjection_H
 
-#include "InjectionModel.H"
-#include "distribution.H"
-#include "volFieldsFwd.H"
-#include "GlobalIOField.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.H"
+#include "distributions/distribution/distribution.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "db/IOobjects/GlobalIOField/GlobalIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -205,7 +205,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FieldActivatedInjection.C"
+    #include "submodels/Momentum/InjectionModel/FieldActivatedInjection/FieldActivatedInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

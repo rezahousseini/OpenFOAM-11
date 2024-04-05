@@ -40,12 +40,12 @@ SourceFiles
 #ifndef dimensionSet_H
 #define dimensionSet_H
 
-#include "bool.H"
-#include "dimensionedScalarFwd.H"
-#include "className.H"
-#include "scalarField.H"
-#include "PtrList.H"
-#include "HashTable.H"
+#include "primitives/bools/bool/bool.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalarFwd.H"
+#include "db/typeInfo/className.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -441,7 +441,7 @@ void writeEntry(Ostream& os, const dimensionSet& value);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "dimensionSets.H"
+#include "dimensionSet/dimensionSets.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

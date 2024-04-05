@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noSetWriter_H
 #define noSetWriter_H
 
-#include "setWriter.H"
+#include "sampledSet/writers/setWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

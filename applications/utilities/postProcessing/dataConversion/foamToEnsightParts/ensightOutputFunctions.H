@@ -32,10 +32,10 @@ SourceFiles
 #ifndef ensightOutputFunctions_H
 #define ensightOutputFunctions_H
 
-#include "ensightFile.H"
-#include "Cloud.H"
-#include "polyMesh.H"
-#include "IOobject.H"
+#include "ensight/file/ensightFile.H"
+#include "Cloud/Cloud.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOobject/IOobject.H"
 
 namespace Foam
 {

@@ -42,11 +42,11 @@ SourceFiles
 #ifndef UList_H
 #define UList_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "nullObject.H"
-#include "zero.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/nullObject/nullObject.H"
+#include "primitives/zero/zero.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -419,7 +419,7 @@ void writeListEntries(Ostream& os, const word& keyword, const ListType& l);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UListI.H"
+#include "containers/Lists/UList/UListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -487,7 +487,7 @@ void writeListEntries(Ostream& os, const word& keyword, const ListType& l);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UList.C"
+    #include "containers/Lists/UList/UList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

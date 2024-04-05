@@ -36,7 +36,7 @@ See also
 #ifndef planeExtrusion_H
 #define planeExtrusion_H
 
-#include "linearNormal.H"
+#include "linearNormal/linearNormal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

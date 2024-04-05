@@ -55,11 +55,11 @@ SourceFiles
 #ifndef meshReader_H
 #define meshReader_H
 
-#include "polyMesh.H"
-#include "HashTable.H"
-#include "IOstream.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
-#include "cellTable.H"
+#include "meshTables/cellTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

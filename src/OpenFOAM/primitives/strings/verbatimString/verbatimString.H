@@ -38,7 +38,7 @@ SourceFiles
 #ifndef verbatimString_H
 #define verbatimString_H
 
-#include "string.H"
+#include "primitives/strings/string/string.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ void writeEntry(Ostream& os, const verbatimString& value);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "verbatimStringI.H"
+#include "primitives/strings/verbatimString/verbatimStringI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

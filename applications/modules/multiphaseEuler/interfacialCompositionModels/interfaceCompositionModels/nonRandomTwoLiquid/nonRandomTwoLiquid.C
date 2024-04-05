@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonRandomTwoLiquid.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfaceCompositionModels/nonRandomTwoLiquid/nonRandomTwoLiquid.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

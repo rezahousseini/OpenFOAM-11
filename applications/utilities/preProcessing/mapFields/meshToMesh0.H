@@ -38,11 +38,11 @@ SourceFiles
 #ifndef meshToMesh0_H
 #define meshToMesh0_H
 
-#include "fvMesh.H"
-#include "HashTable.H"
-#include "fvPatchMapper.H"
-#include "scalarList.H"
-#include "className.H"
+#include "fvMesh/fvMesh.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "fvMesh/fvMeshMapper/fvPatchMapper.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

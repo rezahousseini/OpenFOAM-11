@@ -50,7 +50,7 @@ SourceFiles
 #ifndef movingWallVelocityFvPatchVectorField_H
 #define movingWallVelocityFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,21 +23,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "snappySnapDriver.H"
-#include "polyTopoChange.H"
-#include "syncTools.H"
-#include "fvMesh.H"
-#include "OBJstream.H"
-#include "motionSmoother.H"
-#include "refinementSurfaces.H"
-#include "refinementFeatures.H"
-#include "unitConversion.H"
-#include "plane.H"
-#include "featureEdgeMesh.H"
-#include "treeDataPoint.H"
-#include "indexedOctree.H"
-#include "snapParameters.H"
-#include "PatchTools.H"
+#include "snappyHexMeshDriver/snappySnapDriver.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fvMesh/fvMesh.H"
+#include "obj/OBJstream.H"
+#include "motionSmoother/motionSmoother.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "refinementFeatures/refinementFeatures.H"
+#include "global/unitConversion/unitConversion.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "edgeMesh/featureEdgeMesh/featureEdgeMesh.H"
+#include "indexedOctree/treeDataPoint.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "snappyHexMeshDriver/snapParameters/snapParameters.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

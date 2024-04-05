@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedBase.H"
-#include "SHA1Digest.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "dlLibraryTable.H"
-#include "regIOobject.H"
-#include "PstreamReduceOps.H"
-#include "OSspecific.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
+#include "primitives/hashes/SHA1/SHA1Digest.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

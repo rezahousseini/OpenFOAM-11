@@ -62,7 +62,7 @@ SourceFiles
 #ifndef SCOPELaminarFlameSpeed_H
 #define SCOPELaminarFlameSpeed_H
 
-#include "laminarFlameSpeed.H"
+#include "laminarFlameSpeed/laminarFlameSpeed.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

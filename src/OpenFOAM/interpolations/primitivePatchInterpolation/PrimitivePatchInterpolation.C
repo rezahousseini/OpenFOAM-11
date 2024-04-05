@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatchInterpolation.H"
-#include "faceList.H"
-#include "demandDrivenData.H"
+#include "interpolations/primitivePatchInterpolation/PrimitivePatchInterpolation.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

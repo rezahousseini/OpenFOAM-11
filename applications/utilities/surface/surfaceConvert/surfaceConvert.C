@@ -45,11 +45,11 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "triSurface.H"
-#include "OFstream.H"
-#include "OSspecific.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "triSurface/triSurface.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
 
 using namespace Foam;
 
@@ -57,7 +57,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::addNote
     (

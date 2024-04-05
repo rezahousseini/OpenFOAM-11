@@ -40,7 +40,7 @@ SourceFiles
 #ifndef forceSuSp_H
 #define forceSuSp_H
 
-#include "Tuple2.H"
+#include "primitives/Tuple2/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "forceSuSpI.H"
+#include "submodels/Momentum/ParticleForces/forceSuSp/forceSuSpI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

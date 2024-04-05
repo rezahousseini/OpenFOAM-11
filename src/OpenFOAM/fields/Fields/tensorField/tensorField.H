@@ -35,14 +35,14 @@ SourceFiles
 #ifndef tensorField_H
 #define tensorField_H
 
-#include "scalarField.H"
-#include "vectorField.H"
-#include "sphericalTensorField.H"
-#include "symmTensorField.H"
-#include "tensor.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorField.H"
+#include "fields/Fields/symmTensorField/symmTensorField.H"
+#include "primitives/Tensor/tensor/tensor.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "fields/Fields/Field/FieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -85,7 +85,7 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

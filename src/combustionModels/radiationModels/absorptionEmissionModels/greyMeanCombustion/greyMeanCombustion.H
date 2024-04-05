@@ -40,7 +40,7 @@ SourceFiles
 #ifndef greyMeanCombustion_H
 #define greyMeanCombustion_H
 
-#include "greyMean.H"
+#include "absorptionEmissionModels/greyMean/greyMean.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceWithGaps.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
-#include "ListOps.H"
+#include "searchableSurfaces/searchableSurfaceWithGaps/searchableSurfaceWithGaps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/Time.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

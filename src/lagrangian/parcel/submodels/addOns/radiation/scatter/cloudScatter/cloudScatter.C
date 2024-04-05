@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloudScatter.H"
-#include "addToRunTimeSelectionTable.H"
-#include "parcelCloud.H"
+#include "submodels/addOns/radiation/scatter/cloudScatter/cloudScatter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "parcelCloud/parcelCloud.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

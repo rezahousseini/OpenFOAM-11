@@ -52,14 +52,14 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "surfaceWriter.H"
-#include "vtkSetWriter.H"
-#include "IOdictionary.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "sampledSurface/writers/surfaceWriter.H"
+#include "sampledSet/writers/vtk/vtkSetWriter.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 #include "checkTools.H"
 #include "checkTopology.H"
@@ -73,7 +73,7 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::addBoolOption
     (
         "noTopology",
@@ -101,10 +101,10 @@ int main(int argc, char *argv[])
         "reconstruct and write all faceSets and cellSets in selected format"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     const instantList timeDirs = timeSelector::select0(runTime, args);
-    #include "createNamedPolyMesh.H"
+    #include "include/createNamedPolyMesh.H"
 
     const bool noTopology  = args.optionFound("noTopology");
     const bool allGeometry = args.optionFound("allGeometry");

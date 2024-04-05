@@ -53,8 +53,8 @@ Description
 #ifndef typeInfo_H
 #define typeInfo_H
 
-#include "error.H"
-#include "className.H"
+#include "db/error/error.H"
+#include "db/typeInfo/className.H"
 #include <type_traits>
 #include <typeinfo>
 

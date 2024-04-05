@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ListOps.H"
-#include "point.H"
-#include "Field.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

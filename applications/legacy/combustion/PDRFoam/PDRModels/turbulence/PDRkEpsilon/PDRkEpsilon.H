@@ -60,7 +60,7 @@ SourceFiles
 #ifndef compressible_PDRkEpsilon_H
 #define compressible_PDRkEpsilon_H
 
-#include "kEpsilon.H"
+#include "RAS/kEpsilon/kEpsilon.H"
 #include "compressibleMomentumTransportModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

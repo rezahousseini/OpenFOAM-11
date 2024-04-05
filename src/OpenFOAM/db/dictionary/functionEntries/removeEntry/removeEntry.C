@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "removeEntry.H"
-#include "dictionary.H"
-#include "stringListOps.H"
-#include "IStringStream.H"
-#include "OStringStream.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/removeEntry/removeEntry.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

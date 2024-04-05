@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "continuousGasKEqn.H"
-#include "phaseSystem.H"
+#include "LES/continuousGasKEqn/continuousGasKEqn.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

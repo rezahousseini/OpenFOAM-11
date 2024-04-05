@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubset.H"
-#include "surfaceFields.H"
-#include "internalFvsPatchField.H"
-#include "internalPointPatchField.H"
-#include "internalFvPatchFields.H"
-#include "directFvPatchFieldMapper.H"
-#include "directPointPatchFieldMapper.H"
-#include "flipOp.H"
+#include "fvMeshSubset/fvMeshSubset.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/fvsPatchFields/constraint/internal/internalFvsPatchField.H"
+#include "fields/pointPatchFields/constraint/internal/internalPointPatchField.H"
+#include "fields/fvPatchFields/constraint/internal/internalFvPatchFields.H"
+#include "fields/fvPatchFields/fvPatchField/directFvPatchFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/directPointPatchFieldMapper.H"
+#include "primitives/ops/flipOp.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

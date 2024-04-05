@@ -42,8 +42,8 @@ SourceFiles
 #ifndef LangmuirHinshelwoodReactionRate_H
 #define LangmuirHinshelwoodReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LangmuirHinshelwoodReactionRateI.H"
+#include "reaction/reactionRate/LangmuirHinshelwood/LangmuirHinshelwoodReactionRateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

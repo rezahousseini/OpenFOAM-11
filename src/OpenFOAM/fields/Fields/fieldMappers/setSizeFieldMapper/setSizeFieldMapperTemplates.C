@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setSizeFieldMapper.H"
+#include "fields/Fields/fieldMappers/setSizeFieldMapper/setSizeFieldMapper.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

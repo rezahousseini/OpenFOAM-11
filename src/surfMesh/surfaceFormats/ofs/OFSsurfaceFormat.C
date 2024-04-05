@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OFSsurfaceFormat.H"
-#include "IFstream.H"
-#include "IStringStream.H"
-#include "ListOps.H"
+#include "surfaceFormats/ofs/OFSsurfaceFormat.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

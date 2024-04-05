@@ -36,8 +36,8 @@ SourceFiles
 #ifndef PrimitivePatchInterpolation_H
 #define PrimitivePatchInterpolation_H
 
-#include "scalarList.H"
-#include "Field.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PrimitivePatchInterpolation.C"
+    #include "interpolations/primitivePatchInterpolation/PrimitivePatchInterpolation.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

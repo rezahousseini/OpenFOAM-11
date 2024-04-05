@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "volFields.H"
-#include "IFstream.H"
+#include "global/argList/argList.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 using namespace Foam;
 
@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
         FatalError.exit();
     }
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     fileNameList fieldNames = readDir(runTime.timePath(), fileType::file);
     dictionary fieldNameDict;
@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
     if (fieldNameDict.found("epsilon")) nameMap.add("ED", word("epsilon"));
     if (fieldNameDict.found("nuEff")) nameMap.add("VIS", word("nuEff"));
 
-    #include "createMeshNoChangers.H"
+    #include "include/createMeshNoChangers.H"
 
     IFstream smapFile(args[1]);
 

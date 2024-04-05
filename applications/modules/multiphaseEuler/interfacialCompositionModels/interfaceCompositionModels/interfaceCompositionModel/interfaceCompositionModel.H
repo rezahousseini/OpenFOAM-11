@@ -39,13 +39,13 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "volFields.H"
-#include "dictionary.H"
-#include "hashedWordList.H"
-#include "rhoMulticomponentThermo.H"
-#include "runTimeSelectionTables.H"
-#include "sidedPhaseInterface.H"
-#include "SidedInterfacialModel.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/lists/hashedWordList.H"
+#include "rhoMulticomponentThermo/rhoMulticomponentThermo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "phaseInterface/sidedPhaseInterface/sidedPhaseInterface.H"
+#include "SidedInterfacialModel/SidedInterfacialModel.H"
 
 namespace Foam
 {
@@ -222,7 +222,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interfaceCompositionModelI.H"
+#include "interfaceCompositionModels/interfaceCompositionModel/interfaceCompositionModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef IrreversibleReaction_H
 #define IrreversibleReaction_H
 
-#include "Reaction.H"
+#include "reaction/Reactions/Reaction/Reaction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -242,7 +242,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IrreversibleReaction.C"
+    #include "reaction/Reactions/IrreversibleReaction/IrreversibleReaction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

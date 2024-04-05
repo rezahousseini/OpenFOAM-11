@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "septernion.H"
-#include "IOstreams.H"
-#include "OStringStream.H"
+#include "primitives/septernion/septernion.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

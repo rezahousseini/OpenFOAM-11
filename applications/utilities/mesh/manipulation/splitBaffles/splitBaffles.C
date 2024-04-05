@@ -30,16 +30,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyTopoChange.H"
-#include "localPointRegion.H"
-#include "duplicatePoints.H"
-#include "hexRef8Data.H"
-#include "ReadFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "regionSplit/localPointRegion.H"
+#include "polyTopoChange/polyTopoChange/duplicatePoints.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 using namespace Foam;
 
@@ -53,17 +53,17 @@ int main(int argc, char *argv[])
         "and duplicate the points to separate them."
     );
 
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
     argList::addBoolOption
     (
         "fields",
         "update fields"
     );
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createNamedMesh.H"
 
     const bool overwrite  = args.optionFound("overwrite");
     const bool fields     = args.optionFound("fields");
@@ -75,9 +75,9 @@ int main(int argc, char *argv[])
 
     if (fields) Info<< "Reading geometric fields" << nl << endl;
 
-    #include "readVolFields.H"
-    #include "readSurfaceFields.H"
-    #include "readPointFields.H"
+    #include "fields/ReadFields/readVolFields.H"
+    #include "fields/ReadFields/readSurfaceFields.H"
+    #include "fields/ReadFields/readPointFields.H"
 
     // Mesh change engine
     polyTopoChange meshMod(mesh);

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "functionObjectList.H"
-#include "argList.H"
-#include "timeControlFunctionObject.H"
-#include "dictionaryEntry.H"
+#include "db/functionObjects/functionObjectList/functionObjectList.H"
+#include "global/argList/argList.H"
+#include "db/functionObjects/timeControl/timeControlFunctionObject.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

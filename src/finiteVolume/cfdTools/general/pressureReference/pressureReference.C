@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pressureReference.H"
-#include "findRefCell.H"
+#include "cfdTools/general/pressureReference/pressureReference.H"
+#include "cfdTools/general/findRefCell/findRefCell.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

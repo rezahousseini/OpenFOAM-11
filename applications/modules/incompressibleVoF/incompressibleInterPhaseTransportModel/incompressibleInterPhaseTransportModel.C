@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressibleInterPhaseTransportModel.H"
-#include "fvMatrix.H"
+#include "incompressibleInterPhaseTransportModel/incompressibleInterPhaseTransportModel.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

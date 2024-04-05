@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshTools.H"
-#include "syncTools.H"
-#include "pyramidPointFaceRef.H"
-#include "primitiveMeshTools.H"
-#include "polyMeshTools.H"
+#include "meshes/polyMesh/polyMeshCheck/polyMeshTools.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/meshShapes/cell/pyramidPointFaceRef.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
+#include "meshes/polyMesh/polyMeshCheck/polyMeshTools.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

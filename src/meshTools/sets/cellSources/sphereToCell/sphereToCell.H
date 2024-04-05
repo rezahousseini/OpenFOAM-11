@@ -35,7 +35,7 @@ SourceFiles
 #ifndef sphereToCell_H
 #define sphereToCell_H
 
-#include "topoSetSource.H"
+#include "sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

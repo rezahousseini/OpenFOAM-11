@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CellZoneInjection.H"
-#include "mathematicalConstants.H"
-#include "polyMeshTetDecomposition.H"
-#include "globalIndex.H"
-#include "Pstream.H"
+#include "submodels/Momentum/InjectionModel/CellZoneInjection/CellZoneInjection.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

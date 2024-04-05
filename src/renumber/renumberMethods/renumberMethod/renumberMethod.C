@@ -26,9 +26,9 @@ InClass
 
 \*---------------------------------------------------------------------------*/
 
-#include "renumberMethod.H"
-#include "decompositionMethod.H"
-#include "dlLibraryTable.H"
+#include "renumberMethod/renumberMethod.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

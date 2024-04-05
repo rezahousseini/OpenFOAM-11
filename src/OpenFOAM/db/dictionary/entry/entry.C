@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "entry.H"
-#include "dictionary.H"
-#include "OStringStream.H"
+#include "db/dictionary/entry/entry.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

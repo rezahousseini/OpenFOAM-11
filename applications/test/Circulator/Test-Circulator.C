@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "ListOps.H"
-#include "face.H"
-#include "Circulator.H"
-#include "ConstCirculator.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/meshShapes/face/face.H"
+#include "containers/Circulators/Circulator/Circulator.H"
+#include "containers/Circulators/ConstCirculator/ConstCirculator.H"
 
 
 using namespace Foam;

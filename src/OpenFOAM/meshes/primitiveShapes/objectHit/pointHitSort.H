@@ -34,8 +34,8 @@ SourceFiles
 #ifndef pointHitSort_H
 #define pointHitSort_H
 
-#include "pointHit.H"
-#include "label.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

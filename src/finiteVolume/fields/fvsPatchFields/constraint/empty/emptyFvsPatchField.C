@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "emptyFvsPatchField.H"
-#include "fvPatchFieldMapper.H"
-#include "surfaceMesh.H"
+#include "fields/fvsPatchFields/constraint/empty/emptyFvsPatchField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

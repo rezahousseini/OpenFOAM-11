@@ -24,11 +24,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "mapClouds.H"
-#include "fvMeshToFvMesh.H"
-#include "IOobjectList.H"
-#include "OSspecific.H"
-#include "passiveParticleCloud.H"
-#include "patchToPatchTools.H"
+#include "fvMeshToFvMesh/fvMeshToFvMesh.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "include/OSspecific.H"
+#include "passiveParticle/passiveParticleCloud.H"
+#include "patchToPatchTools/patchToPatchTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

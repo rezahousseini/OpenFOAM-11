@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDedgeFormat.H"
-#include "ListOps.H"
-#include "clock.H"
-#include "PackedBoolList.H"
-#include "IStringStream.H"
+#include "edgeMesh/edgeMeshFormats/starcd/STARCDedgeFormat.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "global/clock/clock.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

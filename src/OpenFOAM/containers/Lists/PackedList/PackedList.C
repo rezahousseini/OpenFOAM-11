@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PackedList.H"
-#include "IOstreams.H"
+#include "containers/Lists/PackedList/PackedList.H"
+#include "db/IOstreams/IOstreams.H"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

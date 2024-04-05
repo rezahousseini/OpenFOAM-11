@@ -86,7 +86,7 @@ SourceFiles
 #ifndef wallHeatTransferCoeffModels_ReynoldsAnalogy_H
 #define wallHeatTransferCoeffModels_ReynoldsAnalogy_H
 
-#include "wallHeatTransferCoeffModel.H"
+#include "wallHeatTransferCoeff/wallHeatTransferCoeffModels/wallHeatTransferCoeffModel/wallHeatTransferCoeffModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

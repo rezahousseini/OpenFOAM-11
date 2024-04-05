@@ -35,10 +35,10 @@ SourceFiles
 #ifndef surfZoneIOList_H
 #define surfZoneIOList_H
 
-#include "surfZoneList.H"
-#include "regIOobject.H"
-#include "faceList.H"
-#include "className.H"
+#include "surfZone/surfZone/surfZoneList.H"
+#include "db/regIOobject/regIOobject.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

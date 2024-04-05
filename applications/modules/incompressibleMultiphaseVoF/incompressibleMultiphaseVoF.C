@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleMultiphaseVoF.H"
-#include "fvCorrectPhi.H"
-#include "geometricZeroField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cfdTools/general/correctPhi/fvCorrectPhi.H"
+#include "fields/GeometricFields/geometricZeroField/geometricZeroField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

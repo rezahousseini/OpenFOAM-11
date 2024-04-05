@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedValueAndPatchInternalValueFvPatchField.H"
-#include "UIndirectList.H"
+#include "fields/fvPatchFields/derived/mappedValueAndPatchInternalValue/mappedValueAndPatchInternalValueFvPatchField.H"
+#include "containers/Lists/UIndirectList/UIndirectList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

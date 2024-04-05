@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationPointMVC.H"
-#include "volPointInterpolation.H"
+#include "interpolation/interpolation/interpolationPointMVC/interpolationPointMVC.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

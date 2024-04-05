@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "repatchMesh.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "repatchPolyTopoChanger.H"
-#include "faceList.H"
-#include "indexedOctree.H"
-#include "treeDataPrimitivePatch.H"
-#include "triSurface.H"
-#include "SortableList.H"
-#include "OFstream.H"
-#include "uindirectPrimitivePatch.H"
+#include "repatchMesh/repatchMesh.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/repatchPolyTopoChanger/repatchPolyTopoChanger.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataPrimitivePatch.H"
+#include "triSurface/triSurface.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/primitiveMesh/primitivePatch/uindirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

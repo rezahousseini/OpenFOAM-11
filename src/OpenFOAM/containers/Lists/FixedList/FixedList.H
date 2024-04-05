@@ -37,11 +37,11 @@ SourceFiles
 #ifndef FixedList_H
 #define FixedList_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "Hash.H"
-#include "autoPtr.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/hashes/Hash/Hash.H"
+#include "memory/autoPtr/autoPtr.H"
 #include <type_traits>
 #include <initializer_list>
 
@@ -372,12 +372,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FixedListI.H"
+#include "containers/Lists/FixedList/FixedListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FixedList.C"
+    #include "containers/Lists/FixedList/FixedList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

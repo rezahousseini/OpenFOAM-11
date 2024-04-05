@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryPlaneFvPatchField.H"
-#include "volFields.H"
+#include "fields/fvPatchFields/constraint/symmetryPlane/symmetryPlaneFvPatchField.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -27,9 +27,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cell.H"
-#include "oppositeFace.H"
-#include "boolList.H"
+#include "meshes/meshShapes/cell/cell.H"
+#include "meshes/meshShapes/face/oppositeFace.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

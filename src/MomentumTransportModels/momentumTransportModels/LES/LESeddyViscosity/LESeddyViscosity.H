@@ -35,8 +35,8 @@ SourceFiles
 #ifndef LESeddyViscosity_H
 #define LESeddyViscosity_H
 
-#include "LESModel.H"
-#include "eddyViscosity.H"
+#include "LES/LESModel/LESModel.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LESeddyViscosity.C"
+    #include "LES/LESeddyViscosity/LESeddyViscosity.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

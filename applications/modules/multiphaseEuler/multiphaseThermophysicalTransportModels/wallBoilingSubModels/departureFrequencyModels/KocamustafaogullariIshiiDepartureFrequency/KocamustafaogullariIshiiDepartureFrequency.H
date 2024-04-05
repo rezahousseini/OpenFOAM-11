@@ -44,7 +44,7 @@ SourceFiles
 #ifndef KocamustafaogullariIshiiDepartureFrequency_H
 #define KocamustafaogullariIshiiDepartureFrequency_H
 
-#include "departureFrequencyModel.H"
+#include "wallBoilingSubModels/departureFrequencyModels/departureFrequencyModel/departureFrequencyModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

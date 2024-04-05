@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledPatchInternalField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledPatchInternalField/sampledPatchInternalField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

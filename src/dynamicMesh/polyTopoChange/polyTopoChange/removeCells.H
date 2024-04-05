@@ -40,8 +40,8 @@ SourceFiles
 #ifndef removeCells_H
 #define removeCells_H
 
-#include "labelList.H"
-#include "typeInfo.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

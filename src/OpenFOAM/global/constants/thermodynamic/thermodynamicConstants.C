@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermodynamicConstants.H"
-#include "physicoChemicalConstants.H"
+#include "global/constants/thermodynamic/thermodynamicConstants.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

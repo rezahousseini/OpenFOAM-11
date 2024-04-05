@@ -35,7 +35,7 @@ SourceFiles
 #ifndef heheuPsiThermo_H
 #define heheuPsiThermo_H
 
-#include "heThermo.H"
+#include "heThermo/heThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,7 +164,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 #ifdef NoRepository
-    #include "heheuPsiThermo.C"
+    #include "psiuMulticomponentThermo/heheuPsiThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

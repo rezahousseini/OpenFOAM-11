@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "passiveParticleCloud.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "passiveParticle/passiveParticleCloud.H"
 
 using namespace Foam;
 
@@ -40,9 +40,9 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
     argList::validArgs.append("cloudName");
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createMesh.H"
 
     const word cloudName = args[1];
 

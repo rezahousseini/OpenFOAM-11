@@ -38,7 +38,7 @@ SourceFiles
 #ifndef prefixOSstream_H
 #define prefixOSstream_H
 
-#include "OSstream.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

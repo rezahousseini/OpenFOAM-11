@@ -56,9 +56,9 @@ Usage
 #ifndef solidEquilibriumEnergySource_H
 #define solidEquilibriumEnergySource_H
 
-#include "fvModel.H"
-#include "volFields.H"
-#include "solidThermo.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fields/volFields/volFields.H"
+#include "solidThermo/solidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

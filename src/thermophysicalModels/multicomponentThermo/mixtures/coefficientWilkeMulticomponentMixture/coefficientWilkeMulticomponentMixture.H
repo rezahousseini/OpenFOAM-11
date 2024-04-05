@@ -44,8 +44,8 @@ SourceFiles
 #ifndef coefficientWilkeMulticomponentMixture_H
 #define coefficientWilkeMulticomponentMixture_H
 
-#include "multicomponentMixture.H"
-#include "scalarMatrices.H"
+#include "mixtures/multicomponentMixture/multicomponentMixture.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -211,7 +211,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coefficientWilkeMulticomponentMixture.C"
+    #include "mixtures/coefficientWilkeMulticomponentMixture/coefficientWilkeMulticomponentMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

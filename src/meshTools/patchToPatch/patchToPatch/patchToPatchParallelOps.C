@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchToPatch.H"
-#include "uindirectPrimitivePatch.H"
-#include "uindirectPrimitiveOldTimePatch.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
+#include "meshes/primitiveMesh/primitivePatch/uindirectPrimitivePatch.H"
+#include "PrimitiveOldTimePatch/uindirectPrimitiveOldTimePatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

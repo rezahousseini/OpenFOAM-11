@@ -48,7 +48,7 @@ SourceFiles
 #ifndef limitedSnGrad_H
 #define limitedSnGrad_H
 
-#include "correctedSnGrad.H"
+#include "finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,7 +164,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "limitedSnGrad.C"
+    #include "finiteVolume/snGradSchemes/limitedSnGrad/limitedSnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

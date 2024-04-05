@@ -35,7 +35,7 @@ SourceFiles
 #ifndef structuredDecomp_H
 #define structuredDecomp_H
 
-#include "decompositionMethod.H"
+#include "decompositionMethod/decompositionMethod.H"
 
 namespace Foam
 {

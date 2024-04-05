@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "COxidationMurphyShaddix.H"
-#include "mathematicalConstants.H"
+#include "submodels/ReactingMultiphase/SurfaceReactionModel/COxidationMurphyShaddix/COxidationMurphyShaddix.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

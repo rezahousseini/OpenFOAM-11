@@ -40,9 +40,9 @@ SourceFiles
 #ifndef phaseSurfaceArrheniusReactionRate_H
 #define phaseSurfaceArrheniusReactionRate_H
 
-#include "ArrheniusReactionRate.H"
-#include "speciesTable.H"
-#include "volFields.H"
+#include "reaction/reactionRate/ArrheniusReactionRate/ArrheniusReactionRate.H"
+#include "speciesTable/speciesTable.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -140,7 +140,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "phaseSurfaceArrheniusReactionRateI.H"
+#include "phaseSurfaceArrheniusReactionRate/phaseSurfaceArrheniusReactionRateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

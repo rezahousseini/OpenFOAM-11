@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LiaoCoalescence.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcGrad.H"
-#include "dragModel.H"
-#include "phaseSystem.H"
+#include "populationBalanceModel/coalescenceModels/LiaoCoalescence/LiaoCoalescence.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "dragModels/dragModel/dragModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

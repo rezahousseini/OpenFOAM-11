@@ -37,9 +37,9 @@ SourceFiles
 #ifndef ParticleForce_H
 #define ParticleForce_H
 
-#include "dictionary.H"
-#include "forceSuSp.H"
-#include "fvMesh.H"
+#include "db/dictionary/dictionary.H"
+#include "submodels/Momentum/ParticleForces/forceSuSp/forceSuSp.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -188,10 +188,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParticleForceI.H"
+#include "submodels/Momentum/ParticleForces/ParticleForce/ParticleForceI.H"
 
 #ifdef NoRepository
-    #include "ParticleForce.C"
+    #include "submodels/Momentum/ParticleForces/ParticleForce/ParticleForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

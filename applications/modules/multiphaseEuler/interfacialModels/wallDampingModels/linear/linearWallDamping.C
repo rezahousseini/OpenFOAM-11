@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearWallDamping.H"
-#include "addToRunTimeSelectionTable.H"
+#include "wallDampingModels/linear/linearWallDamping.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

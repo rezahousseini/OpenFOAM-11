@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundBox.H"
-#include "PstreamReduceOps.H"
-#include "tmp.H"
+#include "meshes/boundBox/boundBox.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "memory/tmp/tmp.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

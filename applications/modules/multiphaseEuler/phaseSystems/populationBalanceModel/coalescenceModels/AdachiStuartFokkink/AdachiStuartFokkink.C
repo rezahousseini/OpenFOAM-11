@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AdachiStuartFokkink.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/coalescenceModels/AdachiStuartFokkink/AdachiStuartFokkink.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

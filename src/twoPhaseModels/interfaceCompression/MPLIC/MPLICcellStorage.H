@@ -35,9 +35,9 @@ SourceFiles
 #ifndef MPLICcellStorage_H
 #define MPLICcellStorage_H
 
-#include "primitiveMesh.H"
-#include "UIndirectList.H"
-#include "uindirectPrimitivePatch.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "containers/Lists/UIndirectList/UIndirectList.H"
+#include "meshes/primitiveMesh/primitivePatch/uindirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -232,7 +232,7 @@ class MPLICcellStorage
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MPLICcellStorageI.H"
+#include "MPLIC/MPLICcellStorageI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

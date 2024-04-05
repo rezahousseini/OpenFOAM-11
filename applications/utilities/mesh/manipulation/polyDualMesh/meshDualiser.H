@@ -47,10 +47,10 @@ SourceFiles
 #ifndef meshDualiser_H
 #define meshDualiser_H
 
-#include "DynamicList.H"
-#include "PackedBoolList.H"
-#include "boolList.H"
-#include "typeInfo.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

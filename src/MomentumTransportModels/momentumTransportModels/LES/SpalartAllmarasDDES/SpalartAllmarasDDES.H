@@ -45,7 +45,7 @@ SourceFiles
 #ifndef SpalartAllmarasDDES_H
 #define SpalartAllmarasDDES_H
 
-#include "SpalartAllmarasDES.H"
+#include "LES/SpalartAllmarasDES/SpalartAllmarasDES.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -137,7 +137,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SpalartAllmarasDDES.C"
+    #include "LES/SpalartAllmarasDDES/SpalartAllmarasDDES.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

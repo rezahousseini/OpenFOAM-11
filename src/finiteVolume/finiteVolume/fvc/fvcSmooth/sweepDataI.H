@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sweepData.H"
-#include "transformer.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "finiteVolume/fvc/fvcSmooth/sweepData.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

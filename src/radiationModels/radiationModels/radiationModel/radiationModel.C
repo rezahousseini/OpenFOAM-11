@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "radiationModel.H"
-#include "absorptionEmissionModel.H"
-#include "scatterModel.H"
-#include "sootModel.H"
-#include "fvmSup.H"
-#include "basicThermo.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "absorptionEmissionModels/absorptionEmissionModel/absorptionEmissionModel.H"
+#include "scatterModels/scatterModel/scatterModel.H"
+#include "sootModels/sootModel/sootModel.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "basicThermo/basicThermo.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

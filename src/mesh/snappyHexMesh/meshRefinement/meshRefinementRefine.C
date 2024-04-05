@@ -23,22 +23,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshRefinement.H"
-#include "trackedParticle.H"
-#include "syncTools.H"
-#include "Time.H"
-#include "refinementSurfaces.H"
-#include "refinementFeatures.H"
-#include "refinementRegions.H"
-#include "faceSet.H"
-#include "decompositionMethod.H"
-#include "fvMeshDistribute.H"
-#include "polyTopoChange.H"
-#include "polyDistributionMap.H"
-#include "Cloud.H"
-#include "OBJstream.H"
-#include "cellSet.H"
-#include "treeDataCell.H"
+#include "meshRefinement/meshRefinement.H"
+#include "trackedParticle/trackedParticle.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "db/Time/Time.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "refinementFeatures/refinementFeatures.H"
+#include "refinementRegions/refinementRegions.H"
+#include "sets/topoSets/faceSet.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "fvMeshDistribute/fvMeshDistribute.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "Cloud/Cloud.H"
+#include "obj/OBJstream.H"
+#include "sets/topoSets/cellSet.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

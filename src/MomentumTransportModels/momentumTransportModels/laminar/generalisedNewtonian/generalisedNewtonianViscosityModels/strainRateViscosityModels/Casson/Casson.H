@@ -58,7 +58,7 @@ SourceFiles
 #ifndef Casson_H
 #define Casson_H
 
-#include "strainRateViscosityModel.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonianViscosityModels/strainRateViscosityModels/strainRateViscosityModel/strainRateViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

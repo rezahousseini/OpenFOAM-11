@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "calculatedFvPatchFields.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "coupledFvPatchFields.H"
-#include "UIndirectList.H"
-#include "UCompactListList.H"
-#include "fvmDdt.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchFields.H"
+#include "containers/Lists/UIndirectList/UIndirectList.H"
+#include "containers/Lists/UCompactListList/UCompactListList.H"
+#include "finiteVolume/fvm/fvmDdt.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 
@@ -2589,6 +2589,6 @@ Foam::Ostream& Foam::operator<<(Ostream& os, const fvMatrix<Type>& fvm)
 
 // * * * * * * * * * * * * * * * * Solvers * * * * * * * * * * * * * * * * * //
 
-#include "fvMatrixSolve.C"
+#include "fvMatrices/fvMatrix/fvMatrixSolve.C"
 
 // ************************************************************************* //

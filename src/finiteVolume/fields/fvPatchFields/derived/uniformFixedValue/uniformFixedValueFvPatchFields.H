@@ -26,8 +26,8 @@ License
 #ifndef uniformFixedValueFvPatchFields_H
 #define uniformFixedValueFvPatchFields_H
 
-#include "uniformFixedValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/uniformFixedValue/uniformFixedValueFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

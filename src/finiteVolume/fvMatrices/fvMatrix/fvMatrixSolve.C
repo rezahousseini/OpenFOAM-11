@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LduMatrix.H"
-#include "diagTensorField.H"
-#include "Residuals.H"
+#include "matrices/LduMatrix/LduMatrix/LduMatrix.H"
+#include "fields/Fields/diagTensorField/diagTensorField.H"
+#include "meshes/Residuals/Residuals.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "List.H"
-#include "SubList.H"
-#include "ListOps.H"
-#include "face.H"
+#include "global/argList/argList.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/SubList/SubList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/meshShapes/face/face.H"
 
 using namespace Foam;
 

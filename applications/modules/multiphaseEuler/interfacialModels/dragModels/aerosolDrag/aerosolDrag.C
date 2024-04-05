@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "aerosolDrag.H"
-#include "swarmCorrection.H"
-#include "addToRunTimeSelectionTable.H"
-#include "constants.H"
+#include "dragModels/aerosolDrag/aerosolDrag.H"
+#include "swarmCorrections/swarmCorrection/swarmCorrection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/constants.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

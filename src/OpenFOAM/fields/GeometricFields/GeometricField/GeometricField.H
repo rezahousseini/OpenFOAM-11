@@ -38,9 +38,9 @@ SourceFiles
 #ifndef GeometricField_H
 #define GeometricField_H
 
-#include "lduInterfaceFieldPtrsList.H"
-#include "LduInterfaceFieldPtrsList.H"
-#include "GeometricBoundaryField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceFieldPtrsList.H"
+#include "matrices/LduMatrix/LduMatrix/LduInterfaceField/LduInterfaceFieldPtrsList.H"
+#include "fields/GeometricFields/GeometricField/GeometricBoundaryField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -599,13 +599,13 @@ Ostream& operator<<
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "GeometricFieldI.H"
+#include "fields/GeometricFields/GeometricField/GeometricFieldI.H"
 
 #ifdef NoRepository
-    #include "GeometricField.C"
+    #include "fields/GeometricFields/GeometricField/GeometricField.C"
 #endif
 
-#include "GeometricFieldFunctions.H"
+#include "fields/GeometricFields/GeometricField/GeometricFieldFunctions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

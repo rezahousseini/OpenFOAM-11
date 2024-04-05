@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SHA1.H"
+#include "primitives/hashes/SHA1/SHA1.H"
 #include <cstring>
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

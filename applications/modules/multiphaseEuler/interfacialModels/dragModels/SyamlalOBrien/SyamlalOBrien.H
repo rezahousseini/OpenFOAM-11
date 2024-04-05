@@ -42,7 +42,7 @@ SourceFiles
 #ifndef SyamlalOBrien_H
 #define SyamlalOBrien_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

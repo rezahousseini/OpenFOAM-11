@@ -29,7 +29,7 @@ Class
 #ifndef zeroDimensionalFvMesh_H
 #define zeroDimensionalFvMesh_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

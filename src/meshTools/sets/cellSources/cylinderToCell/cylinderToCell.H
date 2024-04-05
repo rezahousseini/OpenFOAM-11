@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cylinderToCell_H
 #define cylinderToCell_H
 
-#include "topoSetSource.H"
+#include "sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef polyDistributionMap_H
 #define polyDistributionMap_H
 
-#include "distributionMap.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

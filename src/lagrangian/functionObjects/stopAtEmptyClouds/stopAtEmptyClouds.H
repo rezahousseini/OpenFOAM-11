@@ -63,7 +63,7 @@ SourceFiles
 #ifndef stopAtEmptyClouds_H
 #define stopAtEmptyClouds_H
 
-#include "stopAt.H"
+#include "stopAt/stopAt.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

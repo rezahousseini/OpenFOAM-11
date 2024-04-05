@@ -35,11 +35,11 @@ SourceFiles
 #ifndef scalarFieldField_H
 #define scalarFieldField_H
 
-#include "FieldField.H"
-#include "scalar.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 #define TEMPLATE template<template<class> class Field>
-#include "FieldFieldFunctionsM.H"
+#include "fields/FieldFields/FieldField/FieldFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -152,10 +152,10 @@ BesselFunc(yn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 #ifdef NoRepository
-    #include "scalarFieldField.C"
+    #include "fields/FieldFields/scalarFieldField/scalarFieldField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

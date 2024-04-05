@@ -33,10 +33,10 @@ Description
 #ifndef lduMesh_H
 #define lduMesh_H
 
-#include "lduAddressing.H"
-#include "lduInterfacePtrsList.H"
-#include "typeInfo.H"
-#include "InfoProxy.H"
+#include "matrices/lduMatrix/lduAddressing/lduAddressing.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,7 +122,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "lduMeshTemplates.C"
+    #include "meshes/lduMesh/lduMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

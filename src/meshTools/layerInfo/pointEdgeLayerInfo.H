@@ -35,9 +35,9 @@ SourceFiles
 #ifndef pointEdgeLayerInfo_H
 #define pointEdgeLayerInfo_H
 
-#include "contiguous.H"
-#include "label.H"
-#include "scalar.H"
+#include "primitives/contiguous/contiguous.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -197,7 +197,7 @@ inline bool contiguous<pointEdgeLayerInfo>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointEdgeLayerInfoI.H"
+#include "layerInfo/pointEdgeLayerInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

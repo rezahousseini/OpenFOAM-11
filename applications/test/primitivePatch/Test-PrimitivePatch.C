@@ -26,13 +26,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatch.H"
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "primitivePatch.H"
-#include "IFstream.H"
-#include "OFstream.H"
+#include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 using namespace Foam;
 
@@ -215,9 +215,9 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::validArgs.append("patch");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const word patchName = args[1];
     const polyPatch& patch = mesh.boundaryMesh()[patchName];

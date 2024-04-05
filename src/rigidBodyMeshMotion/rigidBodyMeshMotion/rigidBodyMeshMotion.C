@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyMeshMotion.H"
-#include "polyMesh.H"
-#include "polyTopoChangeMap.H"
-#include "pointPatchDist.H"
-#include "pointConstraints.H"
-#include "timeIOdictionary.H"
-#include "uniformDimensionedFields.H"
-#include "forces.H"
-#include "OneConstant.H"
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "rigidBodyMeshMotion/rigidBodyMeshMotion.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "pointPatchDist/pointPatchDist.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
+#include "db/IOobjects/IOdictionary/timeIOdictionary.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "forces/forces.H"
+#include "primitives/functions/Function1/One/OneConstant.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

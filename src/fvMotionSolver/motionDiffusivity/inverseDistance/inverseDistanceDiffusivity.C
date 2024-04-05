@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inverseDistanceDiffusivity.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchDistWave.H"
-#include "HashSet.H"
-#include "surfaceInterpolate.H"
-#include "zeroGradientFvPatchFields.H"
+#include "motionDiffusivity/inverseDistance/inverseDistanceDiffusivity.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/wallDist/fvPatchDistWave/fvPatchDistWave.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

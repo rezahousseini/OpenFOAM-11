@@ -36,8 +36,8 @@ SourceFiles
 #ifndef complexVector_H
 #define complexVector_H
 
-#include "complex.H"
-#include "vector.H"
+#include "primitives/complex/complex.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -46,7 +46,7 @@ namespace Foam
     typedef Vector<complex> complexVector;
 }
 
-#include "complexVectorI.H"
+#include "primitives/Vector/complexVector/complexVectorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,8 +34,8 @@ Description
 #ifndef surfGeoMesh_H
 #define surfGeoMesh_H
 
-#include "GeoMesh.H"
-#include "surfMesh.H"
+#include "meshes/GeoMesh/GeoMesh.H"
+#include "surfMesh/surfMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

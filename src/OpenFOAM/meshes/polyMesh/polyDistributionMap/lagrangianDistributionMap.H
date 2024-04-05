@@ -35,7 +35,7 @@ SourceFiles
 #ifndef lagrangianDistributionMap_H
 #define lagrangianDistributionMap_H
 
-#include "distributionMap.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

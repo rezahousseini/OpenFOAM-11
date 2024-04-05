@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearTsubDiameter.H"
-#include "phaseSystem.H"
-#include "interfaceSaturationTemperatureModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/linearTsubDiameter/linearTsubDiameter.H"
+#include "phaseSystem/phaseSystem.H"
+#include "interfaceSaturationTemperatureModel/interfaceSaturationTemperatureModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

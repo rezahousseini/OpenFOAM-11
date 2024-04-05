@@ -35,11 +35,11 @@ SourceFiles
 #ifndef MeshZones_H
 #define MeshZones_H
 
-#include "List.H"
-#include "regIOobject.H"
-#include "pointField.H"
-#include "Map.H"
-#include "PackedBoolList.H"
+#include "containers/Lists/List/List.H"
+#include "db/regIOobject/regIOobject.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -207,7 +207,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MeshZones.C"
+    #include "meshes/polyMesh/zones/MeshZones/MeshZones.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

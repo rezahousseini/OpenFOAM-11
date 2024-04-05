@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compressibleVoFphase.H"
+#include "compressibleMultiphaseVoFMixture/compressibleVoFphase/compressibleVoFphase.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

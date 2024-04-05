@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFeatures.H"
-#include "triSurface.H"
-#include "indexedOctree.H"
-#include "treeDataEdge.H"
-#include "treeDataPoint.H"
-#include "meshTools.H"
-#include "linePointRef.H"
-#include "OFstream.H"
-#include "IFstream.H"
-#include "unitConversion.H"
-#include "EdgeMap.H"
+#include "triSurface/surfaceFeatures/surfaceFeatures.H"
+#include "triSurface/triSurface.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataEdge.H"
+#include "indexedOctree/treeDataPoint.H"
+#include "meshTools/meshTools.H"
+#include "meshes/primitiveShapes/line/linePointRef.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "global/unitConversion/unitConversion.H"
+#include "meshes/meshShapes/edge/EdgeMap.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

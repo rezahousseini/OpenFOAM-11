@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Fickian.H"
-#include "fvcDiv.H"
-#include "fvcLaplacian.H"
-#include "fvcSnGrad.H"
-#include "fvmSup.H"
-#include "surfaceInterpolate.H"
-#include "Function2Evaluate.H"
+#include "laminar/Fickian/Fickian.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "primitives/functions/Function2/evaluate/Function2Evaluate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

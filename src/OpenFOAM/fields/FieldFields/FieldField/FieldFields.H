@@ -31,9 +31,9 @@ Description
 #ifndef FieldFields_H
 #define FieldFields_H
 
-#include "scalarFieldField.H"
-#include "tensorFieldField.H"
-#include "sphericalTensorFieldField.H"
+#include "fields/FieldFields/scalarFieldField/scalarFieldField.H"
+#include "fields/FieldFields/tensorFieldField/tensorFieldField.H"
+#include "fields/FieldFields/sphericalTensorFieldField/sphericalTensorFieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

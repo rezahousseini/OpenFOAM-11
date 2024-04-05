@@ -35,8 +35,8 @@ SourceFiles
 #ifndef nonConformalErrorFvsPatchField_H
 #define nonConformalErrorFvsPatchField_H
 
-#include "fvsPatchField.H"
-#include "nonConformalErrorFvPatch.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
+#include "fvMesh/fvPatches/constraint/nonConformalError/nonConformalErrorFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -127,7 +127,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nonConformalErrorFvsPatchField.C"
+    #include "fields/fvsPatchFields/constraint/nonConformalError/nonConformalErrorFvsPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

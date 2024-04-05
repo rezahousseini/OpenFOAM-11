@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "outletStabilised.H"
-#include "zeroGradientFvPatchField.H"
-#include "mixedFvPatchField.H"
-#include "directionMixedFvPatchField.H"
+#include "interpolation/surfaceInterpolation/schemes/outletStabilised/outletStabilised.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
+#include "fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

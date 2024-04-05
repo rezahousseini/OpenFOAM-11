@@ -35,7 +35,7 @@ SourceFiles
 #ifndef laminarThermophysicalTransportModel_H
 #define laminarThermophysicalTransportModel_H
 
-#include "ThermophysicalTransportModel.H"
+#include "ThermophysicalTransportModel/ThermophysicalTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -209,7 +209,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "laminarThermophysicalTransportModel.C"
+    #include "laminar/laminarThermophysicalTransportModel/laminarThermophysicalTransportModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

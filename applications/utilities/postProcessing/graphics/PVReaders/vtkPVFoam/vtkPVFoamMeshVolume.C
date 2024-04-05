@@ -27,11 +27,11 @@ License
 #include "vtkPVFoamReader.h"
 
 // OpenFOAM includes
-#include "fvMesh.H"
-#include "cellModeller.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
 #include "vtkOpenFOAMPoints.H"
-#include "Swap.H"
-#include "polygonTriangulate.H"
+#include "primitives/Swap/Swap.H"
+#include "algorithms/polygonTriangulate/polygonTriangulate.H"
 
 // VTK includes
 #include "vtkCellArray.h"

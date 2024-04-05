@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pa.H"
-#include "rigidBodyModelState.H"
-#include "addToRunTimeSelectionTable.H"
+#include "joints/Pa/Pa.H"
+#include "rigidBodyModelState/rigidBodyModelState.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

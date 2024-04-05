@@ -62,7 +62,7 @@ SourceFiles
 #ifndef ePowerThermo_H
 #define ePowerThermo_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
             //- Gibbs free energy of the mixture in the standard state [J/kg]
             inline scalar Gstd(const scalar T) const;
 
-            #include "EtoHthermo.H"
+            #include "thermo/thermo/EtoHthermo.H"
 
 
         // Derivative term used for Jacobian
@@ -240,8 +240,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ePowerThermoI.H"
-    #include "ePowerThermo.C"
+    #include "thermo/ePower/ePowerThermoI.H"
+    #include "thermo/ePower/ePowerThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

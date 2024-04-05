@@ -73,7 +73,7 @@ SourceFiles
 #ifndef BrunDripping_H
 #define BrunDripping_H
 
-#include "ejectionModel.H"
+#include "fvModels/filmCloudTransfer/ejectionModels/ejectionModel/ejectionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

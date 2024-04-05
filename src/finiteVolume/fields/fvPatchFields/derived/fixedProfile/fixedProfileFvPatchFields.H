@@ -26,8 +26,8 @@ License
 #ifndef fixedProfileFvPatchFields_H
 #define fixedProfileFvPatchFields_H
 
-#include "fixedProfileFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/fixedProfile/fixedProfileFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

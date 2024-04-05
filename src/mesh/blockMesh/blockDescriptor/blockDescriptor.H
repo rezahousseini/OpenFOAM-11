@@ -55,12 +55,12 @@ SourceFiles
 #ifndef blockDescriptor_H
 #define blockDescriptor_H
 
-#include "cellShape.H"
-#include "pointField.H"
-#include "scalarList.H"
-#include "blockEdgeList.H"
-#include "blockFaceList.H"
-#include "gradingDescriptors.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "blockEdges/blockEdge/blockEdgeList.H"
+#include "blockFaces/blockFace/blockFaceList.H"
+#include "gradingDescriptor/gradingDescriptors.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -260,7 +260,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "blockDescriptorI.H"
+#include "blockDescriptor/blockDescriptorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

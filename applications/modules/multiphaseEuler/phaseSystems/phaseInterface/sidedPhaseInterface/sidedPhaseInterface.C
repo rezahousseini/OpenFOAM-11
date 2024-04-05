@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseInterface.H"
-#include "sidedPhaseInterface.H"
-#include "addToRunTimeSelectionTable.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
+#include "phaseInterface/sidedPhaseInterface/sidedPhaseInterface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

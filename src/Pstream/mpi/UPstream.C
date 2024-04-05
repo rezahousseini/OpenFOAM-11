@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPstream.H"
-#include "PstreamReduceOps.H"
-#include "OSspecific.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "include/OSspecific.H"
 #include "PstreamGlobals.H"
-#include "SubList.H"
+#include "containers/Lists/SubList/SubList.H"
 #include "allReduce.H"
 
 #include <mpi.h>

@@ -36,12 +36,12 @@ SourceFiles
 #ifndef Cloud_H
 #define Cloud_H
 
-#include "cloud.H"
-#include "IDLList.H"
-#include "IOField.H"
-#include "CompactIOField.H"
-#include "polyMesh.H"
-#include "PackedBoolList.H"
+#include "cloud/cloud.H"
+#include "containers/LinkedLists/user/IDLList.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOobjects/CompactIOField/CompactIOField.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -338,7 +338,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Cloud.C"
+    #include "Cloud/Cloud.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

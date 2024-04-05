@@ -32,13 +32,13 @@ Description
 #ifndef sprayCloud_H
 #define sprayCloud_H
 
-#include "ParcelCloudBase.H"
-#include "MomentumCloud.H"
-#include "ThermoCloud.H"
-#include "ReactingCloud.H"
-#include "SprayCloud.H"
-#include "ParcelCloud.H"
-#include "sprayParcel.H"
+#include "parcelCloud/ParcelCloudBase.H"
+#include "clouds/Templates/MomentumCloud/MomentumCloud.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloud.H"
+#include "clouds/Templates/ReactingCloud/ReactingCloud.H"
+#include "clouds/Templates/SprayCloud/SprayCloud.H"
+#include "parcelCloud/ParcelCloud.H"
+#include "parcels/derived/sprayParcel/sprayParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

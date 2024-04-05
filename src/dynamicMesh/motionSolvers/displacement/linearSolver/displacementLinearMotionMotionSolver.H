@@ -59,8 +59,8 @@ SourceFiles
 #ifndef displacementLinearMotionMotionSolver_H
 #define displacementLinearMotionMotionSolver_H
 
-#include "points0MotionSolver.H"
-#include "Function1.H"
+#include "motionSolvers/displacement/points0/points0MotionSolver.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

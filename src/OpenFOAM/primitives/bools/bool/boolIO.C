@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "db/error/error.H"
 
-#include "bool.H"
-#include "Switch.H"
-#include "IOstreams.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

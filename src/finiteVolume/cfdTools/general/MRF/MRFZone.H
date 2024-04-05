@@ -39,10 +39,10 @@ SourceFiles
 #ifndef MRFZone_H
 #define MRFZone_H
 
-#include "fvCellSet.H"
-#include "volFieldsFwd.H"
-#include "surfaceFields.H"
-#include "omega.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "primitives/functions/Function1/omega/omega.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -245,12 +245,12 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MRFZoneTemplates.C"
+    #include "cfdTools/general/MRF/MRFZoneTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MRFZoneI.H"
+#include "cfdTools/general/MRF/MRFZoneI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

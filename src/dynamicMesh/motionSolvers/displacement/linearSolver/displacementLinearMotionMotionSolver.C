@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementLinearMotionMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionSolvers/displacement/linearSolver/displacementLinearMotionMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

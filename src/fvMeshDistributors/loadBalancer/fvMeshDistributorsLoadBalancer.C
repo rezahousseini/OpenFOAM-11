@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshDistributorsLoadBalancer.H"
-#include "decompositionMethod.H"
-#include "cpuLoad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "loadBalancer/fvMeshDistributorsLoadBalancer.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "fvMesh/fvMeshDistributors/cpuLoad/cpuLoad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

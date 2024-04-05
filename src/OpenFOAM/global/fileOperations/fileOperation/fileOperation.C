@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileOperation.H"
-#include "decomposedBlockData.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "OSspecific.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "include/OSspecific.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

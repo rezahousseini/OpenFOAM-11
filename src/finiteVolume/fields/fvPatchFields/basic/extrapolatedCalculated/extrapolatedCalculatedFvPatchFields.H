@@ -26,8 +26,8 @@ License
 #ifndef extrapolatedCalculatedFvPatchFields_H
 #define extrapolatedCalculatedFvPatchFields_H
 
-#include "extrapolatedCalculatedFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

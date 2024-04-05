@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "functionName.H"
-#include "debug.H"
+#include "primitives/strings/functionName/functionName.H"
+#include "global/debug/debug.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

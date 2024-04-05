@@ -32,9 +32,9 @@ Description
 #ifndef barycentricTensor2D_H
 #define barycentricTensor2D_H
 
-#include "scalar.H"
-#include "BarycentricTensor2D.H"
-#include "contiguous.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Barycentric2D/BarycentricTensor2D.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointMesh.H"
-#include "globalMeshData.H"
-#include "pointFields.H"
-#include "facePointPatch.H"
-#include "MapGeometricFields.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "fields/GeometricFields/GeometricField/MapGeometricFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

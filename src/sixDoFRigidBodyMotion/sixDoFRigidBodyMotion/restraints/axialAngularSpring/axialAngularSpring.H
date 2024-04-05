@@ -36,10 +36,10 @@ SourceFiles
 #ifndef axialAngularSpring_H
 #define axialAngularSpring_H
 
-#include "sixDoFRigidBodyMotionRestraint.H"
-#include "point.H"
-#include "tensor.H"
-#include "Table.H"
+#include "sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint/sixDoFRigidBodyMotionRestraint.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "primitives/functions/Function1/Table/Table.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

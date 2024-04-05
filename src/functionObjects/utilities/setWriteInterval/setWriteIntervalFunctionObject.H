@@ -60,9 +60,9 @@ SourceFiles
 #ifndef functionObjects_setWriteIntervalFunctionObject_H
 #define functionObjects_setWriteIntervalFunctionObject_H
 
-#include "functionObject.H"
-#include "Function1.H"
-#include "Time.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

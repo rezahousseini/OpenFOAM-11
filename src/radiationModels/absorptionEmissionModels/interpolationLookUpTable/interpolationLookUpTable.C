@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationLookUpTable.H"
+#include "absorptionEmissionModels/interpolationLookUpTable/interpolationLookUpTable.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

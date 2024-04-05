@@ -26,23 +26,23 @@ License
 #ifndef forLiquids_H
 #define forLiquids_H
 
-#include "specie.H"
+#include "specie/specie.H"
 
-#include "adiabaticPerfectFluid.H"
-#include "rhoConst.H"
-#include "rPolynomial.H"
+#include "equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluid.H"
+#include "equationOfState/rhoConst/rhoConst.H"
+#include "equationOfState/rPolynomial/rPolynomial.H"
 
-#include "eConstThermo.H"
-#include "hConstThermo.H"
+#include "thermo/eConst/eConstThermo.H"
+#include "thermo/hConst/hConstThermo.H"
 
-#include "sensibleEnthalpy.H"
-#include "sensibleInternalEnergy.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "thermo/sensibleInternalEnergy/sensibleInternalEnergy.H"
 
-#include "constTransport.H"
+#include "transport/const/constTransport.H"
 
-#include "thermo.H"
+#include "thermo/thermo/thermo.H"
 
-#include "forThermo.H"
+#include "include/forThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

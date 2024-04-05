@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockMesh.H"
-#include "Time.H"
-#include "cyclicTransform.H"
+#include "blockMesh/blockMesh.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicTransform.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

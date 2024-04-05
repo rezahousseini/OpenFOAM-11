@@ -56,8 +56,8 @@ SourceFiles
 #ifndef fvMeshSubset_H
 #define fvMeshSubset_H
 
-#include "fvMesh.H"
-#include "HashSet.H"
+#include "fvMesh/fvMesh.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -337,7 +337,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshSubsetInterpolate.C"
+    #include "fvMeshSubset/fvMeshSubsetInterpolate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

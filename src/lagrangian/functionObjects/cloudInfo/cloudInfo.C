@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloudInfo.H"
-#include "parcelCloud.H"
-#include "dictionary.H"
-#include "PstreamReduceOps.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cloudInfo/cloudInfo.H"
+#include "parcelCloud/parcelCloud.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -37,12 +37,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "distributedTriSurfaceMesh.H"
-#include "distributionMap.H"
-#include "localIOdictionary.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
 
 using namespace Foam;
 
@@ -108,8 +108,8 @@ int main(int argc, char *argv[])
         "preserve surface outside of mesh bounds"
     );
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
 
     const fileName surfFileName = args[1];
     const word distType = args[2];
@@ -141,7 +141,7 @@ int main(int argc, char *argv[])
     }
 
 
-    #include "createPolyMesh.H"
+    #include "include/createPolyMesh.H"
 
     // Determine mesh bounding boxes:
     List<List<treeBoundBox>> meshBb(Pstream::nProcs());

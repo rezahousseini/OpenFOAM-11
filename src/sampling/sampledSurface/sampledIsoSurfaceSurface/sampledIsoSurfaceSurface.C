@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledIsoSurfaceSurface.H"
+#include "sampledSurface/sampledIsoSurfaceSurface/sampledIsoSurfaceSurface.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

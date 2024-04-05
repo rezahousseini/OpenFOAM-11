@@ -45,9 +45,9 @@ SourceFiles
 #ifndef radiation_H
 #define radiation_H
 
-#include "fvModel.H"
-#include "uniformDimensionedFields.H"
-#include "radiationModel.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "radiationModels/radiationModel/radiationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

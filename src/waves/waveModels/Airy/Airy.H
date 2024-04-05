@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Airy_H
 #define Airy_H
 
-#include "waveModel.H"
+#include "waveModels/waveModel/waveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

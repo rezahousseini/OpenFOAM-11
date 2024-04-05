@@ -55,7 +55,7 @@ SourceFiles
 #define LienLeschziner_H
 
 #include "incompressibleMomentumTransportModels.H"
-#include "eddyViscosity.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

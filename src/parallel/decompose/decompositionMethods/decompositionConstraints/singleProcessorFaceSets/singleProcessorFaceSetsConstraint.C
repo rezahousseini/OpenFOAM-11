@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleProcessorFaceSetsConstraint.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
-#include "faceSet.H"
+#include "decompositionConstraints/singleProcessorFaceSets/singleProcessorFaceSetsConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "sets/topoSets/faceSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

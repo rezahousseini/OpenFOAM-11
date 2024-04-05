@@ -71,12 +71,12 @@ SourceFiles
 #ifndef functionObjects_wallHeatFlux_H
 #define functionObjects_wallHeatFlux_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "writeLocalObjects.H"
-#include "HashSet.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "db/functionObjects/writeLocalObjects/writeLocalObjects.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

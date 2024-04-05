@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SaffmanMei.H"
-#include "fvcCurl.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liftModels/SaffmanMei/SaffmanMei.H"
+#include "finiteVolume/fvc/fvcCurl.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

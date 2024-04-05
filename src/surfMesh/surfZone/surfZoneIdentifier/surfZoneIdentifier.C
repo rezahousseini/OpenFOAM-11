@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfZoneIdentifier.H"
-#include "dictionary.H"
+#include "surfZone/surfZoneIdentifier/surfZoneIdentifier.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

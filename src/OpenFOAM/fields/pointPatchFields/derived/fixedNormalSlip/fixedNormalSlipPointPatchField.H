@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fixedNormalSlipPointPatchField_H
 #define fixedNormalSlipPointPatchField_H
 
-#include "slipPointPatchField.H"
+#include "fields/pointPatchFields/derived/slip/slipPointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedNormalSlipPointPatchField.C"
+    #include "fields/pointPatchFields/derived/fixedNormalSlip/fixedNormalSlipPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

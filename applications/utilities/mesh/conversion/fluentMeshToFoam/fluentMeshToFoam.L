@@ -31,22 +31,22 @@ License
    ------ local definitions
  \* ------------------------------------------------------------------------- */
 
-#include "argList.H"
-#include "Time.H"
-#include "IStringStream.H"
-#include "polyMesh.H"
-#include "emptyPolyPatch.H"
-#include "wallPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "cellShape.H"
-#include "faceSet.H"
-#include "cellSet.H"
-#include "meshTools.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/cellSet.H"
+#include "meshTools/meshTools.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
-#include "readHexLabel.H"
+#include "db/IOstreams/Sstreams/readHexLabel.H"
 #include "cellShapeRecognition.H"
-#include "repatchPolyTopoChanger.H"
+#include "polyTopoChange/repatchPolyTopoChanger/repatchPolyTopoChanger.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -826,7 +826,7 @@ endOfSection               {space}")"{space}
 %%
 
 
-#include "fileName.H"
+#include "primitives/strings/fileName/fileName.H"
 #include <fstream>
 
 // Find label of face.
@@ -893,7 +893,7 @@ int main(int argc, char *argv[])
     const bool writeSets  = args.optionFound("writeSets");
     const bool writeZones = args.optionFound("writeZones");
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     const fileName fluentFile = args[1];
     std::ifstream fluentStream(fluentFile.c_str());

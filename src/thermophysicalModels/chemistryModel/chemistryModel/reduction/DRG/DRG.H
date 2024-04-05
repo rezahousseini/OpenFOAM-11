@@ -35,7 +35,7 @@ SourceFiles
 #ifndef DRG_H
 #define DRG_H
 
-#include "chemistryReductionMethod.H"
+#include "chemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DRG.C"
+    #include "chemistryModel/reduction/DRG/DRG.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

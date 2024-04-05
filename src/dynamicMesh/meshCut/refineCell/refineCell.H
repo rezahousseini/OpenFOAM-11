@@ -35,8 +35,8 @@ SourceFiles
 #ifndef refineCell_H
 #define refineCell_H
 
-#include "label.H"
-#include "vector.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -24,11 +24,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "meshToMesh0.H"
-#include "processorFvPatch.H"
-#include "demandDrivenData.H"
-#include "treeDataCell.H"
-#include "treeDataFace.H"
-#include "tetOverlapVolume.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "include/demandDrivenData.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "indexedOctree/treeDataFace.H"
+#include "tetOverlapVolume/tetOverlapVolume.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef egrMixture_H
 #define egrMixture_H
 
-#include "basicCombustionMixture.H"
+#include "mixtures/basicCombustionMixture/basicCombustionMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -239,7 +239,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 #ifdef NoRepository
-    #include "egrMixture.C"
+    #include "mixtures/egrMixture/egrMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

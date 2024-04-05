@@ -36,12 +36,12 @@ SourceFiles
 #ifndef reactingMultiphaseParcel_H
 #define reactingMultiphaseParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "MomentumParcel.H"
-#include "ThermoParcel.H"
-#include "ReactingParcel.H"
-#include "ReactingMultiphaseParcel.H"
+#include "primitives/contiguous/contiguous.H"
+#include "particle/particle.H"
+#include "parcels/Templates/MomentumParcel/MomentumParcel.H"
+#include "parcels/Templates/ThermoParcel/ThermoParcel.H"
+#include "parcels/Templates/ReactingParcel/ReactingParcel.H"
+#include "parcels/Templates/ReactingMultiphaseParcel/ReactingMultiphaseParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

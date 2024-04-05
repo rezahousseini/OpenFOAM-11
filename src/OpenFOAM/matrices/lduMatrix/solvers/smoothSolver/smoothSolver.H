@@ -40,7 +40,7 @@ SourceFiles
 #ifndef smoothSolver_H
 #define smoothSolver_H
 
-#include "lduMatrix.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HashTable.H"
-#include "uLabel.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/ints/uLabel/uLabel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

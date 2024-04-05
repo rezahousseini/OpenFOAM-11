@@ -77,10 +77,10 @@ SourceFiles
 #ifndef cellMatcher_H
 #define cellMatcher_H
 
-#include "labelList.H"
-#include "faceList.H"
-#include "boolList.H"
-#include "Map.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -277,7 +277,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellMatcherI.H"
+#include "meshes/meshShapes/cellMatcher/cellMatcherI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

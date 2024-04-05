@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StandardWallInteraction.H"
+#include "submodels/Momentum/PatchInteractionModel/StandardWallInteraction/StandardWallInteraction.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

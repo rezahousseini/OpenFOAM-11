@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fvmDdt_H
 #define fvmDdt_H
 
-#include "volFieldsFwd.H"
-#include "one.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "primitives/one/one.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ namespace fvm
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvmDdt.C"
+    #include "finiteVolume/fvm/fvmDdt.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

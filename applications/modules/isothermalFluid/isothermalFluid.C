@@ -24,14 +24,14 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "isothermalFluid.H"
-#include "localEulerDdtScheme.H"
-#include "hydrostaticInitialisation.H"
-#include "fvcMeshPhi.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvcReconstruct.H"
-#include "fvcDiv.H"
-#include "fvcSnGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "fluidThermo/hydrostaticInitialisation.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

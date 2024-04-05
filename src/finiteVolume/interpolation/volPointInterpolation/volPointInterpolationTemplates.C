@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volPointInterpolation.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "surfaceFields.H"
-#include "emptyFvPatch.H"
-#include "coupledPointPatchField.H"
-#include "pointConstraints.H"
-#include "UCompactListList.H"
-#include "syncTools.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "fields/pointPatchFields/basic/coupled/coupledPointPatchField.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
+#include "containers/Lists/UCompactListList/UCompactListList.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

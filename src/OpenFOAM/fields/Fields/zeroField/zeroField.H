@@ -36,8 +36,8 @@ Description
 #ifndef zeroField_H
 #define zeroField_H
 
-#include "zero.H"
-#include "scalar.H"
+#include "primitives/zero/zero.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -79,7 +79,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "zeroFieldI.H"
+#include "fields/Fields/zeroField/zeroFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

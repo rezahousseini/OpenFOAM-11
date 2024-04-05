@@ -23,24 +23,24 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 #include "checkGeometry.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "EdgeMap.H"
-#include "wedgePolyPatch.H"
-#include "unitConversion.H"
-#include "polyMeshTetDecomposition.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "sets/topoSets/cellSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/pointSet.H"
+#include "meshes/meshShapes/edge/EdgeMap.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "global/unitConversion/unitConversion.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
 
-#include "vtkSurfaceWriter.H"
-#include "setWriter.H"
-#include "writeFile.H"
-#include "nonConformalCyclicPolyPatch.H"
+#include "sampledSurface/writers/vtk/vtkSurfaceWriter.H"
+#include "sampledSet/writers/setWriter.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "nonConformal/polyPatches/nonConformalCyclic/nonConformalCyclicPolyPatch.H"
 
 #include "checkTools.H"
-#include "Time.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

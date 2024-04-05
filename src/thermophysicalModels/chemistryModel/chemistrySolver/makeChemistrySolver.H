@@ -26,7 +26,7 @@ License
 #ifndef makeChemistrySolver_H
 #define makeChemistrySolver_H
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

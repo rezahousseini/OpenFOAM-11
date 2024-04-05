@@ -36,7 +36,7 @@ SourceFiles
 #ifndef cellsToCellsStabilisation_H
 #define cellsToCellsStabilisation_H
 
-#include "cellsToCells.H"
+#include "cellsToCells/cellsToCells/cellsToCells.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cellsToCellsStabilisationTemplates.C"
+    #include "cellsToCells/cellsToCellsStabilisation/cellsToCellsStabilisationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

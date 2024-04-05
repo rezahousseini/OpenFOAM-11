@@ -42,11 +42,11 @@ Description
 #ifndef phaseFluidMulticomponentThermophysicalTransportModel_H
 #define phaseFluidMulticomponentThermophysicalTransportModel_H
 
-#include "fluidMulticomponentThermo.H"
-#include "PhaseThermophysicalTransportModel.H"
-#include "laminarThermophysicalTransportModel.H"
-#include "RASThermophysicalTransportModel.H"
-#include "LESThermophysicalTransportModel.H"
+#include "fluidMulticomponentThermo/fluidMulticomponentThermo.H"
+#include "PhaseThermophysicalTransportModel/PhaseThermophysicalTransportModel.H"
+#include "laminar/laminarThermophysicalTransportModel/laminarThermophysicalTransportModel.H"
+#include "turbulence/RAS/RASThermophysicalTransportModel/RASThermophysicalTransportModel.H"
+#include "turbulence/LES/LESThermophysicalTransportModel/LESThermophysicalTransportModel.H"
 #include "phaseCompressibleMomentumTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

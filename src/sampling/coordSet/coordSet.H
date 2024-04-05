@@ -35,9 +35,9 @@ SourceFiles
 #ifndef coordSet_H
 #define coordSet_H
 
-#include "pointField.H"
-#include "word.H"
-#include "labelPair.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -209,7 +209,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coordSetTemplates.C"
+    #include "coordSet/coordSetTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

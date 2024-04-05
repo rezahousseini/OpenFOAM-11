@@ -28,11 +28,11 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "dimensionedScalar.H"
-#include "dimensionedVector.H"
-#include "dimensionedSphericalTensor.H"
-#include "dimensionedSymmTensor.H"
-#include "dimensionedTensor.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "dimensionedTypes/dimensionedVector/dimensionedVector.H"
+#include "dimensionedTypes/dimensionedSphericalTensor/dimensionedSphericalTensor.H"
+#include "dimensionedTypes/dimensionedSymmTensor/dimensionedSymmTensor.H"
+#include "dimensionedTypes/dimensionedTensor/dimensionedTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

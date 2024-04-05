@@ -35,7 +35,7 @@ SourceFiles
 #define ensightField_H
 
 #include "ensightMesh.H"
-#include "fvMeshSubset.H"
+#include "fvMeshSubset/fvMeshSubset.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

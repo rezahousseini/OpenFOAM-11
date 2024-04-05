@@ -31,9 +31,9 @@ Description
 #ifndef pyramidPointFaceRef_H
 #define pyramidPointFaceRef_H
 
-#include "point.H"
-#include "face.H"
-#include "pyramid.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/pyramid/pyramid.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledFacePointPatch.H"
-#include "pointBoundaryMesh.H"
+#include "meshes/pointMesh/pointPatches/derived/coupled/coupledFacePointPatch.H"
+#include "meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

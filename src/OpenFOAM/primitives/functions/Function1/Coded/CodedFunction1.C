@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CodedFunction1.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
+#include "primitives/functions/Function1/Coded/CodedFunction1.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

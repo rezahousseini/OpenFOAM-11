@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fixedValueFvsPatchField_H
 #define fixedValueFvsPatchField_H
 
-#include "fvsPatchField.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedValueFvsPatchField.C"
+    #include "fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

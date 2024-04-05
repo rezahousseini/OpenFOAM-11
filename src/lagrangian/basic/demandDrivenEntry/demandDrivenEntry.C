@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "demandDrivenEntry.H"
+#include "demandDrivenEntry/demandDrivenEntry.H"
 
 // * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * * //
 

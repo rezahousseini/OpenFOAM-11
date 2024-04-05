@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wordRe.H"
-#include "IOstreams.H"
-#include "InfoProxy.H"
+#include "primitives/strings/wordRe/wordRe.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

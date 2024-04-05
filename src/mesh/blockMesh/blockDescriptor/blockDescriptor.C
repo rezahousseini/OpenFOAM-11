@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockDescriptor.H"
-#include "blockMesh.H"
-#include "blockMeshTools.H"
+#include "blockDescriptor/blockDescriptor.H"
+#include "blockMesh/blockMesh.H"
+#include "blockMeshTools/blockMeshTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Burns_H
 #define Burns_H
 
-#include "dispersedTurbulentDispersionModel.H"
+#include "turbulentDispersionModels/dispersedTurbulentDispersionModel/dispersedTurbulentDispersionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

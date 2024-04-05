@@ -61,8 +61,8 @@ SourceFiles
 #ifndef coordinateSystem_H
 #define coordinateSystem_H
 
-#include "coordinateRotation.H"
-#include "objectRegistry.H"
+#include "coordinateSystems/coordinateRotation/coordinateRotation.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

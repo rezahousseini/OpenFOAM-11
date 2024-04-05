@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NSRDS6.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalFunctions/NSRDS/NSRDS6/NSRDS6.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

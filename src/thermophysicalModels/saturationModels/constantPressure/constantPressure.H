@@ -35,7 +35,7 @@ SourceFiles
 #ifndef constantPressure_H
 #define constantPressure_H
 
-#include "saturationPressureModel.H"
+#include "saturationPressureModel/saturationPressureModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -49,7 +49,7 @@ SourceFiles
 #ifndef fvcSmooth_H
 #define fvcSmooth_H
 
-#include "volFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

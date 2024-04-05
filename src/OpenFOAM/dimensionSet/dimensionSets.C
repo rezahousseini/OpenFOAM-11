@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionSet.H"
-#include "dimensionedScalar.H"
-#include "demandDrivenData.H"
+#include "dimensionSet/dimensionSet.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

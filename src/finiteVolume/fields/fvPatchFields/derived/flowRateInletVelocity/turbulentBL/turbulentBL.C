@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentBL.H"
+#include "fields/fvPatchFields/derived/flowRateInletVelocity/turbulentBL/turbulentBL.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

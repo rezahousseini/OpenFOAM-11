@@ -31,8 +31,8 @@ Description
 #ifndef faceListFwd_H
 #define faceListFwd_H
 
-#include "List.H"
-#include "SubList.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/SubList/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

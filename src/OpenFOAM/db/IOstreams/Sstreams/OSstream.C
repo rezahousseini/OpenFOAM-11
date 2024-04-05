@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "OSstream.H"
-#include "token.H"
+#include "db/error/error.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
+#include "db/IOstreams/token/token.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

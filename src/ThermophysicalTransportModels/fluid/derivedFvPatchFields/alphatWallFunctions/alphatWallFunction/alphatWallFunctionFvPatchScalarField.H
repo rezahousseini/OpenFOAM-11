@@ -72,7 +72,7 @@ SourceFiles
 #ifndef alphatWallFunctionFvPatchScalarField_H
 #define alphatWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

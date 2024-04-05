@@ -29,8 +29,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
 #include "mergePolyMesh.H"
 
 using namespace Foam;
@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
     );
 
     argList::noParallel();
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
     argList::validArgs.append("masterCase");
     argList::addOption

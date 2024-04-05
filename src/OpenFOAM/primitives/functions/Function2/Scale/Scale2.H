@@ -41,8 +41,8 @@ SourceFiles
 #ifndef Scale2_H
 #define Scale2_H
 
-#include "Function2.H"
-#include "Function1.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -127,10 +127,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "Scale2I.H"
+#include "primitives/functions/Function2/Scale/Scale2I.H"
 
 #ifdef NoRepository
-    #include "Scale2.C"
+    #include "primitives/functions/Function2/Scale/Scale2.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

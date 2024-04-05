@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DSMCParcel.H"
-#include "mathematicalConstants.H"
+#include "parcels/Templates/DSMCParcel/DSMCParcel.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

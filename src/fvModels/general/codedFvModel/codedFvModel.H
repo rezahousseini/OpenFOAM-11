@@ -72,8 +72,8 @@ SourceFiles
 #ifndef codedFvModel_H
 #define codedFvModel_H
 
-#include "fvModel.H"
-#include "codedBase.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

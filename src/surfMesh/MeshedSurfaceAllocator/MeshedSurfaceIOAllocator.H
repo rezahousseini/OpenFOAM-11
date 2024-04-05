@@ -35,9 +35,9 @@ SourceFiles
 #ifndef MeshedSurfaceIOAllocator_H
 #define MeshedSurfaceIOAllocator_H
 
-#include "pointIOField.H"
-#include "faceIOList.H"
-#include "surfZoneIOList.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
+#include "meshes/meshShapes/face/faceIOList.H"
+#include "surfZone/surfZone/surfZoneIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef wideBandCombustion_H
 #define wideBandCombustion_H
 
-#include "wideBand.H"
+#include "absorptionEmissionModels/wideBand/wideBand.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

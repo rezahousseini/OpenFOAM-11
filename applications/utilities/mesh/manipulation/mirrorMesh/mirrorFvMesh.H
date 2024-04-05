@@ -34,7 +34,7 @@ SourceFiles
 #ifndef mirrorFvMesh_H
 #define mirrorFvMesh_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

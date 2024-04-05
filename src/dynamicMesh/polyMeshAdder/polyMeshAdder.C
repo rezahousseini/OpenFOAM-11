@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshAdder.H"
-#include "mapAddedPolyMesh.H"
-#include "faceCoupleInfo.H"
-#include "processorPolyPatch.H"
-#include "Time.H"
+#include "polyMeshAdder/polyMeshAdder.H"
+#include "meshes/polyMesh/polyTopoChangeMap/mapAddedPolyMesh.H"
+#include "polyMeshAdder/faceCoupleInfo.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

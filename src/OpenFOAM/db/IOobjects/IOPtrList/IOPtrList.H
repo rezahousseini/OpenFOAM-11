@@ -35,8 +35,8 @@ SourceFiles
 #ifndef IOPtrList_H
 #define IOPtrList_H
 
-#include "IOList.H"
-#include "PtrList.H"
+#include "db/IOobjects/IOList/IOList.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -89,7 +89,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IOPtrList.C"
+    #include "db/IOobjects/IOPtrList/IOPtrList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

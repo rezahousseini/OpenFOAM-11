@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StochasticCollisionModel.H"
+#include "submodels/Momentum/StochasticCollision/StochasticCollisionModel/StochasticCollisionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

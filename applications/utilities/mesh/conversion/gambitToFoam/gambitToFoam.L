@@ -31,23 +31,23 @@ License
    ------ local definitions
  \* ------------------------------------------------------------------------- */
 
-#include "scalarList.H"
-#include "IStringStream.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 // For EOF only
 #include <cstdio>
 
 using namespace Foam;
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "emptyPolyPatch.H"
-#include "preservePatchTypes.H"
-#include "cellModeller.H"
-#include "cellShape.H"
-#include "SLList.H"
-#include "SLPtrList.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "containers/LinkedLists/user/SLPtrList.H"
 
 label nPoints = 0;
 label nCells = 0;
@@ -611,7 +611,7 @@ mtype                 {space}"MTYPE:"{space}
 %%
 
 
-#include "fileName.H"
+#include "primitives/strings/fileName/fileName.H"
 #include <fstream>
 using std::ifstream;
 
@@ -635,7 +635,7 @@ int main(int argc, char *argv[])
 
     const scalar scaleFactor = args.optionLookupOrDefault("scale", 1.0);
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     const fileName gambitFile = args[1];
     ifstream gambitStream(gambitFile.c_str());

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidThermo.H"
-#include "heSolidThermo.H"
-#include "pureMixture.H"
+#include "solidThermo/solidThermo.H"
+#include "solidThermo/heSolidThermo.H"
+#include "mixtures/pureMixture/pureMixture.H"
 
-#include "forSolids.H"
+#include "solidSpecie/include/forSolids.H"
 #include "makeSolidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

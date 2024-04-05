@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDsurfaceFormatCore.H"
-#include "clock.H"
+#include "surfaceFormats/starcd/STARCDsurfaceFormatCore.H"
+#include "global/clock/clock.H"
 #include "regExp.H"
-#include "IStringStream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

@@ -35,11 +35,11 @@ SourceFiles
 #ifndef STARCDsurfaceFormatCore_H
 #define STARCDsurfaceFormatCore_H
 
-#include "IFstream.H"
-#include "Ostream.H"
-#include "OFstream.H"
-#include "MeshedSurface.H"
-#include "STARCDCore.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "starcd/STARCDCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

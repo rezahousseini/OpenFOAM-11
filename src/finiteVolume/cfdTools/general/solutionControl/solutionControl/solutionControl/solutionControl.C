@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solutionControl.H"
+#include "cfdTools/general/solutionControl/solutionControl/solutionControl/solutionControl.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "qZeta.H"
-#include "fvcMagSqrGradGrad.H"
-#include "bound.H"
+#include "RAS/qZeta/qZeta.H"
+#include "finiteVolume/fvc/fvcMagSqrGradGrad.H"
+#include "cfdTools/general/bound/bound.H"
 #include "makeMomentumTransportModel.H"
 
 makeMomentumTransportModelTypes

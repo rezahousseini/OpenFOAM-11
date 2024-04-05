@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmSurfacePolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patches/filmSurface/filmSurfacePolyPatch/filmSurfacePolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

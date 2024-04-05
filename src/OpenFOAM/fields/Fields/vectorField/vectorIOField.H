@@ -32,9 +32,9 @@ Description
 #ifndef vectorIOField_H
 #define vectorIOField_H
 
-#include "vectorField.H"
-#include "IOField.H"
-#include "GlobalIOField.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOobjects/GlobalIOField/GlobalIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

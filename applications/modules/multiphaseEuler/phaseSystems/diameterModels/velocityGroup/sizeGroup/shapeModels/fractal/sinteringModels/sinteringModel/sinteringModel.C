@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sinteringModel.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/fractal/sinteringModels/sinteringModel/sinteringModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

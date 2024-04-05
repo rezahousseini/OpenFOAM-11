@@ -32,10 +32,10 @@ Description
 #ifndef indirectPrimitivePatch_H
 #define indirectPrimitivePatch_H
 
-#include "PrimitivePatch.H"
-#include "face.H"
-#include "IndirectList.H"
-#include "pointField.H"
+#include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.H"
+#include "meshes/meshShapes/face/face.H"
+#include "containers/Lists/IndirectList/IndirectList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

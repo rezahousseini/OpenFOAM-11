@@ -78,11 +78,11 @@ SourceFiles
 #ifndef VoFSolidificationMeltingSource_H
 #define VoFSolidificationMeltingSource_H
 
-#include "fvModel.H"
-#include "fvCellSet.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "Function1.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "unknownTypeFunction1.H"
+#include "primitives/functions/Function1/unknownTypeFunction1/unknownTypeFunction1.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -26,14 +26,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "pointMesh.H"
-#include "OSspecific.H"
-#include "IFstream.H"
-#include "pointEdgePoint.H"
-#include "PointEdgeWave.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "algorithms/PointEdgeWave/pointEdgePoint.H"
+#include "algorithms/PointEdgeWave/PointEdgeWave.H"
 
 using namespace Foam;
 
@@ -43,9 +43,9 @@ int main(int argc, char *argv[])
 {
     argList::validArgs.append("(patches)");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const polyBoundaryMesh& pbm = mesh.boundaryMesh();
 

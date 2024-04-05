@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DemandDrivenMeshObject.H"
-#include "meshObjects.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "meshes/meshObjects/meshObjects.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

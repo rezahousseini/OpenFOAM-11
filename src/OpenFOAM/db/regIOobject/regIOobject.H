@@ -38,7 +38,7 @@ SourceFiles
 #ifndef regIOobject_H
 #define regIOobject_H
 
-#include "IOobject.H"
+#include "db/IOobject/IOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -322,7 +322,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regIOobjectI.H"
+#include "db/regIOobject/regIOobjectI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

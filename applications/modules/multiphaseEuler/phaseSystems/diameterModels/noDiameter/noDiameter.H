@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noDiameter_H
 #define noDiameter_H
 
-#include "diameterModel.H"
+#include "diameterModels/diameterModel/diameterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

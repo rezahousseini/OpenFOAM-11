@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceLocation.H"
-#include "triSurface.H"
+#include "triSurface/surfaceLocation/surfaceLocation.H"
+#include "triSurface/triSurface.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef DLList_H
 #define DLList_H
 
-#include "LList.H"
-#include "DLListBase.H"
+#include "containers/LinkedLists/accessTypes/LList/LList.H"
+#include "containers/LinkedLists/linkTypes/DLListBase/DLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

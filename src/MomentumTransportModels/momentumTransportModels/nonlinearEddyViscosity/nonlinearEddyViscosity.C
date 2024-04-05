@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonlinearEddyViscosity.H"
+#include "nonlinearEddyViscosity/nonlinearEddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

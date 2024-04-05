@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleDenseParticleFluid.H"
-#include "fvCorrectPhi.H"
-#include "fvcMeshPhi.H"
-#include "geometricZeroField.H"
+#include "cfdTools/general/correctPhi/fvCorrectPhi.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "fields/GeometricFields/geometricZeroField/geometricZeroField.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

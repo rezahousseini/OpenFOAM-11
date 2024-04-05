@@ -37,8 +37,8 @@ SourceFiles
 #ifndef UniformGeometricField_H
 #define UniformGeometricField_H
 
-#include "UniformDimensionedField.H"
-#include "UniformFieldField.H"
+#include "fields/UniformDimensionedFields/UniformDimensionedField.H"
+#include "fields/FieldFields/UniformFieldField/UniformFieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -105,8 +105,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UniformGeometricField.C"
-    #include "UniformGeometricFieldI.H"
+    #include "fields/UniformGeometricFields/UniformGeometricField.C"
+    #include "fields/UniformGeometricFields/UniformGeometricFieldI.H"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

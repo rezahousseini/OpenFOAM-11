@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchFluxToFace.H"
-#include "polyMesh.H"
-#include "faceSet.H"
-#include "Time.H"
-#include "IFstream.H"
-#include "fieldDictionary.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sets/faceSources/patchFluxToFace/patchFluxToFace.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "sets/topoSets/faceSet.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "sets/cellSources/fieldToCell/fieldDictionary.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

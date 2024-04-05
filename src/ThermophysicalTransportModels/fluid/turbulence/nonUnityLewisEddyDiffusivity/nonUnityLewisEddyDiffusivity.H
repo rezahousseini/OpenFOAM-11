@@ -49,7 +49,7 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "unityLewisEddyDiffusivity.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
 
 #ifndef nonUnityLewisEddyDiffusivity_H
 #define nonUnityLewisEddyDiffusivity_H
@@ -160,7 +160,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nonUnityLewisEddyDiffusivity.C"
+    #include "turbulence/nonUnityLewisEddyDiffusivity/nonUnityLewisEddyDiffusivity.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

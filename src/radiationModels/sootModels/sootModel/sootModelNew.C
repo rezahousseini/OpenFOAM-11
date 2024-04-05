@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "sootModel.H"
-#include "noSoot.H"
-#include "basicThermo.H"
+#include "db/error/error.H"
+#include "sootModels/sootModel/sootModel.H"
+#include "sootModels/noSoot/noSoot.H"
+#include "basicThermo/basicThermo.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

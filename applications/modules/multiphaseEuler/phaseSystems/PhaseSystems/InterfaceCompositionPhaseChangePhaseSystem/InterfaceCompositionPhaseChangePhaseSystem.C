@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InterfaceCompositionPhaseChangePhaseSystem.H"
-#include "interfaceCompositionModel.H"
-#include "heatTransferModel.H"
-#include "diffusiveMassTransferModel.H"
-#include "fvmSup.H"
+#include "PhaseSystems/InterfaceCompositionPhaseChangePhaseSystem/InterfaceCompositionPhaseChangePhaseSystem.H"
+#include "interfaceCompositionModels/interfaceCompositionModel/interfaceCompositionModel.H"
+#include "heatTransferModels/heatTransferModel/heatTransferModel.H"
+#include "diffusiveMassTransferModels/diffusiveMassTransferModel/diffusiveMassTransferModel.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * //
 

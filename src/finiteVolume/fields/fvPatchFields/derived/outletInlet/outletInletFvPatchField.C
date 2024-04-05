@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "outletInletFvPatchField.H"
-#include "surfaceFields.H"
+#include "fields/fvPatchFields/derived/outletInlet/outletInletFvPatchField.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

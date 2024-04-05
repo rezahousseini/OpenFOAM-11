@@ -35,7 +35,7 @@ SourceFiles
 #ifndef pureMixture_H
 #define pureMixture_H
 
-#include "basicMixture.H"
+#include "mixtures/basicMixture/basicMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 #ifdef NoRepository
-    #include "pureMixture.C"
+    #include "mixtures/pureMixture/pureMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

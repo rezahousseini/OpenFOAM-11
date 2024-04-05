@@ -24,10 +24,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "compressibleMultiphaseVoF.H"
-#include "subCycle.H"
-#include "CMULES.H"
-#include "fvcFlux.H"
-#include "fvcMeshPhi.H"
+#include "algorithms/subCycle/subCycle.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

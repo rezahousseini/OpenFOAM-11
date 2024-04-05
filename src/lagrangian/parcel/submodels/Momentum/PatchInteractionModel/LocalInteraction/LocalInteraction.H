@@ -32,8 +32,8 @@ Description
 #ifndef LocalInteraction_H
 #define LocalInteraction_H
 
-#include "PatchInteractionModel.H"
-#include "Switch.H"
+#include "submodels/Momentum/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LocalInteraction.C"
+    #include "submodels/Momentum/PatchInteractionModel/LocalInteraction/LocalInteraction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

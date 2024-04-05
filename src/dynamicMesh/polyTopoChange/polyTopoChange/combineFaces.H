@@ -36,7 +36,7 @@ SourceFiles
 #ifndef combineFaces_H
 #define combineFaces_H
 
-#include "indirectPrimitivePatch.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

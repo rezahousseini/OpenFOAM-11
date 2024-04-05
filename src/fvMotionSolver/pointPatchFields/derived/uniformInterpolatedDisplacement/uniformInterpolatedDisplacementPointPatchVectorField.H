@@ -55,8 +55,8 @@ SourceFiles
 #ifndef uniformInterpolatedDisplacementPointPatchVectorField_H
 #define uniformInterpolatedDisplacementPointPatchVectorField_H
 
-#include "fixedValuePointPatchField.H"
-#include "dynamicMeshPointInterpolator.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "pointInterpolator/dynamicMeshPointInterpolator.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

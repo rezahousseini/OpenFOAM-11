@@ -35,8 +35,8 @@ SourceFiles
 #ifndef HeatTransferPhaseSystem_H
 #define HeatTransferPhaseSystem_H
 
-#include "heatTransferPhaseSystem.H"
-#include "phaseSystem.H"
+#include "HeatTransferPhaseSystem/heatTransferPhaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -216,7 +216,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "HeatTransferPhaseSystem.C"
+    #include "HeatTransferPhaseSystem/HeatTransferPhaseSystem.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

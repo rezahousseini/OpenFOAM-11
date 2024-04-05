@@ -217,10 +217,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WLFTransportI.H"
+#include "transport/WLF/WLFTransportI.H"
 
 #ifdef NoRepository
-    #include "WLFTransport.C"
+    #include "transport/WLF/WLFTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

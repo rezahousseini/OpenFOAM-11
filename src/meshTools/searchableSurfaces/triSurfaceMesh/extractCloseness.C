@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceMesh.H"
-#include "triSurfaceFields.H"
-#include "meshTools.H"
-#include "Time.H"
-#include "unitConversion.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "triSurfaceFields/triSurfaceFields.H"
+#include "meshTools/meshTools.H"
+#include "db/Time/Time.H"
+#include "global/unitConversion/unitConversion.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

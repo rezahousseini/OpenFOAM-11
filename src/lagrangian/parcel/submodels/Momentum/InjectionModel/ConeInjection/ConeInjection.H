@@ -143,9 +143,9 @@ SourceFiles
 #ifndef ConeInjection_H
 #define ConeInjection_H
 
-#include "InjectionModel.H"
-#include "distribution.H"
-#include "TimeFunction1.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.H"
+#include "distributions/distribution/distribution.H"
+#include "primitives/functions/TimeFunction1/TimeFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -343,7 +343,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ConeInjection.C"
+    #include "submodels/Momentum/InjectionModel/ConeInjection/ConeInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

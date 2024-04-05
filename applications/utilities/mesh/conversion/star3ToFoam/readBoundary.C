@@ -27,12 +27,12 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "starMesh.H"
-#include "Time.H"
-#include "wallPolyPatch.H"
-#include "mergedCyclicPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "preservePatchTypes.H"
-#include "IFstream.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "mergedCyclic/mergedCyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

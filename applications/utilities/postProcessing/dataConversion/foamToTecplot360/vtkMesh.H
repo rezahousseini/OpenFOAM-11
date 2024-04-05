@@ -36,7 +36,7 @@ SourceFiles
 #ifndef vtkMesh_H
 #define vtkMesh_H
 
-#include "fvMeshSubset.H"
+#include "fvMeshSubset/fvMeshSubset.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

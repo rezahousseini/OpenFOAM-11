@@ -70,7 +70,7 @@ SourceFiles
 #ifndef mappedValueAndPatchInternalValueFvPatchField_H
 #define mappedValueAndPatchInternalValueFvPatchField_H
 
-#include "mappedValueFvPatchField.H"
+#include "fields/fvPatchFields/derived/mappedValue/mappedValueFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedValueAndPatchInternalValueFvPatchField.C"
+    #include "fields/fvPatchFields/derived/mappedValueAndPatchInternalValue/mappedValueAndPatchInternalValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

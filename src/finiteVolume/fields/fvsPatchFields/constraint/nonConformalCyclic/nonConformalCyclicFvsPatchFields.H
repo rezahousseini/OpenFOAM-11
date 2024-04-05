@@ -26,8 +26,8 @@ License
 #ifndef nonConformalCyclicFvsPatchFields_H
 #define nonConformalCyclicFvsPatchFields_H
 
-#include "nonConformalCyclicFvsPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvsPatchFields/constraint/nonConformalCyclic/nonConformalCyclicFvsPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

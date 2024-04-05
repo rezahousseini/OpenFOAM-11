@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rawSetWriter.H"
-#include "coordSet.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "SubList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/writers/raw/rawSetWriter.H"
+#include "coordSet/coordSet.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "containers/Lists/SubList/SubList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

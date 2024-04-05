@@ -51,8 +51,8 @@ SourceFiles
 #ifndef lookupProfile_H
 #define lookupProfile_H
 
-#include "profileModel.H"
-#include "List.H"
+#include "derived/rotorDiskSource/profileModel/profileModel.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LuoSvendsen.H"
-#include "addToRunTimeSelectionTable.H"
-#include "linearInterpolationWeights.H"
+#include "populationBalanceModel/binaryBreakupModels/LuoSvendsen/LuoSvendsen.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

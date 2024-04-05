@@ -38,9 +38,9 @@ SourceFiles
 #ifndef memInfo_H
 #define memInfo_H
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 #include "POSIX.H"
-#include "IFstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

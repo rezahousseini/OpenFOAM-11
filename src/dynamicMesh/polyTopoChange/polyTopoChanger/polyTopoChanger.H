@@ -35,9 +35,9 @@ SourceFiles
 #ifndef polyTopoChanger_H
 #define polyTopoChanger_H
 
-#include "regIOobject.H"
-#include "PtrList.H"
-#include "polyMeshModifier.H"
+#include "db/regIOobject/regIOobject.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "polyTopoChange/polyMeshModifier/polyMeshModifier.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

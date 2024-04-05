@@ -30,19 +30,19 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "argList.H"
-#include "OFstream.H"
-#include "IFstream.H"
-#include "Switch.H"
-#include "IOdictionary.H"
-#include "boundBox.H"
-#include "indexedOctree.H"
-#include "treeDataTriSurface.H"
-#include "Random.H"
-#include "volumeType.H"
-#include "plane.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "meshes/boundBox/boundBox.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataTriSurface.H"
+#include "primitives/Random/Random.H"
+#include "algorithms/indexedOctree/volumeType.H"
+#include "meshes/primitiveShapes/plane/plane.H"
 
 using namespace Foam;
 
@@ -50,7 +50,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::validArgs.append("surface file");
     argList::validArgs.append("output surface file");

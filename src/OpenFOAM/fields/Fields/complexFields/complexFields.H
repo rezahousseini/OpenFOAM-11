@@ -41,9 +41,9 @@ SourceFiles
 #ifndef complexFields_H
 #define complexFields_H
 
-#include "complex.H"
-#include "complexVector.H"
-#include "primitiveFields.H"
+#include "primitives/complex/complex.H"
+#include "primitives/Vector/complexVector/complexVector.H"
+#include "fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

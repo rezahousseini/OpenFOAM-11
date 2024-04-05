@@ -25,7 +25,7 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "surfaceMesh.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 template<class MomentumTransportModel>
 inline Foam::autoPtr<MomentumTransportModel> Foam::momentumTransportModel::New

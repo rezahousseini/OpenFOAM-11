@@ -29,8 +29,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
 #include "sammMesh.H"
 
 using namespace Foam;
@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 
     const scalar scaleFactor = args.optionLookupOrDefault("scale", 1.0);
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     sammMesh makeMesh(args[1], runTime, scaleFactor);
 

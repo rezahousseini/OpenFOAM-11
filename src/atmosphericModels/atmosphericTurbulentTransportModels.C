@@ -29,7 +29,7 @@ License
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "kEpsilonLopesdaCosta.H"
+#include "kEpsilonLopesdaCosta/kEpsilonLopesdaCosta.H"
 makeRASModel(kEpsilonLopesdaCosta);
 
 // ************************************************************************* //

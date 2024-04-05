@@ -67,35 +67,35 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "psiuMulticomponentThermo.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "psiuMulticomponentThermo/psiuMulticomponentThermo.H"
 #include "compressibleMomentumTransportModels.H"
-#include "RASThermophysicalTransportModel.H"
-#include "unityLewisEddyDiffusivity.H"
-#include "laminarFlameSpeed.H"
-#include "XiModel.H"
-#include "PDRDragModel.H"
+#include "turbulence/RAS/RASThermophysicalTransportModel/RASThermophysicalTransportModel.H"
+#include "turbulence/unityLewisEddyDiffusivity/unityLewisEddyDiffusivity.H"
+#include "laminarFlameSpeed/laminarFlameSpeed.H"
+#include "XiModels/XiModel/XiModel.H"
+#include "PDRModels/dragModels/PDRDragModel/PDRDragModel.H"
 #include "ignition.H"
-#include "pimpleControl.H"
-#include "pressureReference.H"
-#include "findRefCell.H"
-#include "constrainPressure.H"
-#include "constrainHbyA.H"
-#include "adjustPhi.H"
-#include "uniformDimensionedFields.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/pressureReference/pressureReference.H"
+#include "cfdTools/general/findRefCell/findRefCell.H"
+#include "cfdTools/general/constrainPressure/constrainPressure.H"
+#include "cfdTools/general/constrainHbyA/constrainHbyA.H"
+#include "cfdTools/general/adjustPhi/adjustPhi.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
 
-#include "fvcDdt.H"
-#include "fvcGrad.H"
-#include "fvcFlux.H"
-#include "fvcReconstruct.H"
-#include "fvcMeshPhi.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 using namespace Foam;
 
@@ -103,20 +103,20 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "readCombustionProperties.H"
-    #include "readGravitationalAcceleration.H"
+    #include "cfdTools/general/include/readGravitationalAcceleration.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "initContinuityErrs.H"
-    #include "createTimeControls.H"
-    #include "compressibleCourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/general/include/initContinuityErrs.H"
+    #include "cfdTools/general/include/createTimeControls.H"
+    #include "cfdTools/compressible/compressibleCourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     turbulence->validate();
     scalar StCoNum = 0.0;
@@ -127,14 +127,14 @@ int main(int argc, char *argv[])
 
     while (pimple.run(runTime))
     {
-        #include "readTimeControls.H"
-        #include "compressibleCourantNo.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/readTimeControls.H"
+        #include "cfdTools/compressible/compressibleCourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         runTime++;
         Info<< "\n\nTime = " << runTime.name() << endl;
 
-        #include "rhoEqn.H"
+        #include "cfdTools/compressible/rhoEqn.H"
 
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())

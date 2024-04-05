@@ -93,7 +93,7 @@ SourceFiles
 #ifndef verticalDamping_H
 #define verticalDamping_H
 
-#include "forcing.H"
+#include "fvModels/forcing/forcing.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

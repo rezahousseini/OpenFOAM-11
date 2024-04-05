@@ -37,11 +37,11 @@ SourceFiles
 #ifndef refinementSurfaces_H
 #define refinementSurfaces_H
 
-#include "triSurfaceGeoMesh.H"
-#include "triSurfaceFields.H"
-#include "vectorList.H"
-#include "pointIndexHit.H"
-#include "surfaceZonesInfo.H"
+#include "triSurfaceFields/triSurfaceGeoMesh.H"
+#include "triSurfaceFields/triSurfaceFields.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "refinementSurfaces/surfaceZonesInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

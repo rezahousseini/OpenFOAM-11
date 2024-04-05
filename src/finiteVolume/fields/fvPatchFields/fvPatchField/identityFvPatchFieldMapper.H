@@ -32,8 +32,8 @@ Description
 #ifndef identityFvPatchFieldMapper_H
 #define identityFvPatchFieldMapper_H
 
-#include "fvPatchFieldMapper.H"
-#include "identityFieldMapper.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/Fields/fieldMappers/identityFieldMapper/identityFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

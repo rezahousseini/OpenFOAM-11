@@ -32,13 +32,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "triSurface.H"
-#include "OFstream.H"
-#include "IFstream.H"
-#include "triFace.H"
-#include "triFaceList.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "triSurface/triSurface.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
 
 using namespace Foam;
 
@@ -47,7 +47,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::addNote
     (

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef singleRegionCorrectorConvergenceControl_H
 #define singleRegionCorrectorConvergenceControl_H
 
-#include "correctorConvergenceControl.H"
-#include "singleRegionSolutionControl.H"
+#include "cfdTools/general/solutionControl/convergenceControl/correctorConvergenceControl/correctorConvergenceControl.H"
+#include "cfdTools/general/solutionControl/solutionControl/singleRegionSolutionControl/singleRegionSolutionControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

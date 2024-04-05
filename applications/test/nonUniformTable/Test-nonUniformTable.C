@@ -30,8 +30,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "NonUniformTable1.H"
-#include "IFstream.H"
+#include "primitives/functions/Function1/NonUniformTable1/NonUniformTable1.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 using namespace Foam;
 

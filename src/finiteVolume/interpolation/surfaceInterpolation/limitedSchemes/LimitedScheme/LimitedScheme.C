@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvcGrad.H"
-#include "coupledFvPatchFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchFields.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

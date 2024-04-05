@@ -36,7 +36,7 @@ SourceFiles
 #ifndef reactionDriven_H
 #define reactionDriven_H
 
-#include "nucleationModel.H"
+#include "populationBalanceModel/nucleationModels/nucleationModel/nucleationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

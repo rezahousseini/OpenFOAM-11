@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "moleFractions.H"
-#include "fluidMulticomponentThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/moleFractions/moleFractions.H"
+#include "fluidMulticomponentThermo/fluidMulticomponentThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

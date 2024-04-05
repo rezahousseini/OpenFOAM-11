@@ -35,9 +35,9 @@ SourceFiles
 #ifndef processorLduInterfaceField_H
 #define processorLduInterfaceField_H
 
-#include "primitiveFieldsFwd.H"
-#include "transformer.H"
-#include "typeInfo.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,7 +113,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tensorField.H"
+#include "fields/Fields/tensorField/tensorField.H"
 
 template<class Type>
 void Foam::processorLduInterfaceField::transformCoupleField

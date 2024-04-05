@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTSAS.H"
-#include "fvcLaplacian.H"
+#include "RAS/kOmegaSSTSAS/kOmegaSSTSAS.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

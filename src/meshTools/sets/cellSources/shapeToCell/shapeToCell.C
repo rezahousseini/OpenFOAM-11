@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "shapeToCell.H"
-#include "polyMesh.H"
-#include "unitConversion.H"
-#include "hexMatcher.H"
-#include "cellFeatures.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sets/cellSources/shapeToCell/shapeToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "global/unitConversion/unitConversion.H"
+#include "meshes/meshShapes/cellMatcher/hexMatcher.H"
+#include "cellFeatures/cellFeatures.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

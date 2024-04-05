@@ -61,7 +61,7 @@ See also
 #ifndef tabulatedDensity_H
 #define tabulatedDensity_H
 
-#include "distribution.H"
+#include "distributions/distribution/distribution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef dynamicCode_H
 #define dynamicCode_H
 
-#include "Tuple2.H"
-#include "HashTable.H"
-#include "DynamicList.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

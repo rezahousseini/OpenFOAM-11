@@ -73,8 +73,8 @@ SourceFiles
 #ifndef interfaceTurbulenceDamping_H
 #define interfaceTurbulenceDamping_H
 
-#include "fvModel.H"
-#include "phaseSystem.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "phaseSystem/phaseSystem.H"
 #include "phaseCompressibleMomentumTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

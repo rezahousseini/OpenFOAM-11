@@ -48,7 +48,7 @@ SourceFiles
 #ifndef LemmertChawla_H
 #define LemmertChawla_H
 
-#include "nucleationSiteModel.H"
+#include "wallBoilingSubModels/nucleationSiteModels/nucleationSiteModel/nucleationSiteModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "masterUncollatedFileOperation.H"
-#include "Time.H"
-#include "masterOFstream.H"
-#include "decomposedBlockData.H"
-#include "dummyISstream.H"
-#include "SubList.H"
-#include "PackedBoolList.H"
+#include "global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/masterOFstream.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "db/IOstreams/dummyISstream/dummyISstream.H"
+#include "containers/Lists/SubList/SubList.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 #include <gzstream.h>
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

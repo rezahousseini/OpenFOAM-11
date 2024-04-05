@@ -45,8 +45,8 @@ SourceFiles
 #define LESModel_H
 
 #include "momentumTransportModel.H"
-#include "generalisedNewtonianViscosityModel.H"
-#include "LESdelta.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonianViscosityModels/generalisedNewtonianViscosityModel/generalisedNewtonianViscosityModel.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -248,7 +248,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LESModel.C"
+    #include "LES/LESModel/LESModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

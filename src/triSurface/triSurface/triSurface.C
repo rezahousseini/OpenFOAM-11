@@ -23,19 +23,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "demandDrivenData.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "Time.H"
-#include "boundBox.H"
-#include "SortableList.H"
-#include "PackedBoolList.H"
-#include "plane.H"
-#include "tensor2D.H"
-#include "symmTensor2D.H"
-#include "transform.H"
-#include "OSspecific.H"
+#include "triSurface/triSurface.H"
+#include "include/demandDrivenData.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/Time/Time.H"
+#include "meshes/boundBox/boundBox.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "primitives/Tensor2D/tensor2D/tensor2D.H"
+#include "primitives/SymmTensor2D/symmTensor2D/symmTensor2D.H"
+#include "primitives/transform/transform.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

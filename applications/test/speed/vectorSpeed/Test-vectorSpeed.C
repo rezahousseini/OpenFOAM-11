@@ -1,7 +1,7 @@
-#include "primitiveFields.H"
-#include "cpuTime.H"
-#include "IOstreams.H"
-#include "OFstream.H"
+#include "fields/Fields/primitiveFields.H"
+#include "cpuTime/cpuTime.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 using namespace Foam;
 

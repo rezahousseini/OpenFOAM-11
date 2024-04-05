@@ -32,7 +32,7 @@ Description
 #ifndef NoPhaseChange_H
 #define NoPhaseChange_H
 
-#include "PhaseChangeModel.H"
+#include "submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -111,7 +111,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoPhaseChange.C"
+    #include "submodels/Reacting/PhaseChangeModel/NoPhaseChange/NoPhaseChange.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

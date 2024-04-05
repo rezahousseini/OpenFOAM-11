@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "streamlinesParticle.H"
-#include "streamlinesCloud.H"
-#include "vectorFieldIOField.H"
-#include "scalarFieldIOField.H"
-#include "transformerIOList.H"
+#include "streamlines/streamlinesParticle.H"
+#include "streamlines/streamlinesCloud.H"
+#include "fields/Fields/vectorField/vectorFieldIOField.H"
+#include "fields/Fields/scalarField/scalarFieldIOField.H"
+#include "primitives/transform/transformer/transformerIOList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

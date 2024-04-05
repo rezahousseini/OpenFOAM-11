@@ -32,9 +32,9 @@ Description
 #ifndef barycentricTensor_H
 #define barycentricTensor_H
 
-#include "scalar.H"
-#include "BarycentricTensor.H"
-#include "contiguous.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Barycentric/BarycentricTensor.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

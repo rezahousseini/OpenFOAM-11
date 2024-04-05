@@ -35,8 +35,8 @@ SourceFiles
 #ifndef STARCDCore_H
 #define STARCDCore_H
 
-#include "IFstream.H"
-#include "pointField.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

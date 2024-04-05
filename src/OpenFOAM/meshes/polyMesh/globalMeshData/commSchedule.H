@@ -50,9 +50,9 @@ SourceFiles
 #ifndef commSchedule_H
 #define commSchedule_H
 
-#include "DynamicList.H"
-#include "labelPair.H"
-#include "labelList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/Pair/labelPair.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

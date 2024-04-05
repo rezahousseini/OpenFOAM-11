@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceSlipDisplacementFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

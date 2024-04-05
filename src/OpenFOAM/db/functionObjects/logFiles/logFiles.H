@@ -40,9 +40,9 @@ SourceFiles
 #ifndef functionObjects_logFiles_H
 #define functionObjects_logFiles_H
 
-#include "writeFile.H"
-#include "OFstream.H"
-#include "PtrList.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

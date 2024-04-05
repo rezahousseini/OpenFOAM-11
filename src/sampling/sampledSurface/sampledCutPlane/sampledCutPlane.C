@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledCutPlane.H"
-#include "emptyFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledCutPlane/sampledCutPlane.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

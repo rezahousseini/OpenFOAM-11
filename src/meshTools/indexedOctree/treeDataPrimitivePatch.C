@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataPrimitivePatch.H"
-#include "indexedOctree.H"
-#include "triangleFuncs.H"
-#include "triSurfaceTools.H"
-#include "triFace.H"
+#include "indexedOctree/treeDataPrimitivePatch.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "triSurface/triangleFuncs/triangleFuncs.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "meshes/meshShapes/triFace/triFace.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

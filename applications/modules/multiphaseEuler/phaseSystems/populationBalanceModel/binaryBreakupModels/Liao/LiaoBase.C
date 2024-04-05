@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LiaoBase.H"
-#include "fvcGrad.H"
+#include "populationBalanceModel/binaryBreakupModels/Liao/LiaoBase.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

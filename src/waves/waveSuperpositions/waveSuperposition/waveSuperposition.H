@@ -79,9 +79,9 @@ SourceFiles
 #ifndef waveSuperposition_H
 #define waveSuperposition_H
 
-#include "waveModel.H"
-#include "IOdictionary.H"
-#include "tensor.H"
+#include "waveModels/waveModel/waveModel.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

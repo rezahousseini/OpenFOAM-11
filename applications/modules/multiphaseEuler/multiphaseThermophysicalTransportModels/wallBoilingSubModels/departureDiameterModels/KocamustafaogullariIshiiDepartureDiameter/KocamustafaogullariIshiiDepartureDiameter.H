@@ -45,8 +45,8 @@ SourceFiles
 #ifndef KocamustafaogullariIshiiDepartureDiameter_H
 #define KocamustafaogullariIshiiDepartureDiameter_H
 
-#include "departureDiameterModel.H"
-#include "uniformDimensionedFields.H"
+#include "wallBoilingSubModels/departureDiameterModels/departureDiameterModel/departureDiameterModel.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

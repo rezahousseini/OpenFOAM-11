@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshMoversEngine.H"
-#include "engineTime.H"
-#include "unitConversion.H"
+#include "engine/engine/fvMeshMoversEngine.H"
+#include "db/Time/userTime/engineTime/engineTime.H"
+#include "global/unitConversion/unitConversion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

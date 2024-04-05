@@ -39,9 +39,9 @@ SourceFiles
 #ifndef forcing_H
 #define forcing_H
 
-#include "fvModel.H"
-#include "Function1.H"
-#include "volFields.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef processorCyclicPolyPatch_H
 #define processorCyclicPolyPatch_H
 
-#include "processorPolyPatch.H"
-#include "cyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

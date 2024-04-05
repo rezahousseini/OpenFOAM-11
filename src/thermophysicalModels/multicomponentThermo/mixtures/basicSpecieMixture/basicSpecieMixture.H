@@ -36,10 +36,10 @@ SourceFiles
 #ifndef basicSpecieMixture_H
 #define basicSpecieMixture_H
 
-#include "volFields.H"
-#include "PtrList.H"
-#include "basicMixture.H"
-#include "speciesTable.H"
+#include "fields/volFields/volFields.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "mixtures/basicMixture/basicMixture.H"
+#include "speciesTable/speciesTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -325,7 +325,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicSpecieMixtureI.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixtureI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermoCloud.H"
-#include "addToRunTimeSelectionTable.H"
+#include "clouds/derived/thermoCloud/thermoCloud.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

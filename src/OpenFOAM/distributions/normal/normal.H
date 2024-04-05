@@ -57,7 +57,7 @@ See also
 #ifndef normal_H
 #define normal_H
 
-#include "unintegrable.H"
+#include "distributions/unintegrable/unintegrable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

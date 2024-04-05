@@ -79,8 +79,8 @@ SourceFiles
 #ifndef cylindricalFunctionObject_H
 #define cylindricalFunctionObject_H
 
-#include "fieldExpression.H"
-#include "primitiveFieldsFwd.H"
+#include "fieldExpression/fieldExpression.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

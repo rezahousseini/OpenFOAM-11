@@ -40,7 +40,7 @@ See also
 #ifndef unintegrable_H
 #define unintegrable_H
 
-#include "distribution.H"
+#include "distributions/distribution/distribution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

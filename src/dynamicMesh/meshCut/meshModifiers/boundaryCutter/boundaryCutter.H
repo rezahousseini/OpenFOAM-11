@@ -42,11 +42,11 @@ SourceFiles
 #ifndef boundaryCutter_H
 #define boundaryCutter_H
 
-#include "Map.H"
-#include "labelList.H"
-#include "edge.H"
-#include "typeInfo.H"
-#include "labelPair.H"
+#include "containers/HashTables/Map/Map.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "db/typeInfo/typeInfo.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

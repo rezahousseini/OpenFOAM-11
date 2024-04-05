@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellTable.H"
-#include "IOMap.H"
-#include "OFstream.H"
-#include "wordList.H"
-#include "stringListOps.H"
+#include "meshTables/cellTable.H"
+#include "db/IOobjects/IOMap/IOMap.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/strings/lists/stringListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

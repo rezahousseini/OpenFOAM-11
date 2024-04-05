@@ -35,8 +35,8 @@ SourceFiles
 #ifndef functionObjects_meshToMeshAdjustTimeStepFunctionObject_H
 #define functionObjects_meshToMeshAdjustTimeStepFunctionObject_H
 
-#include "fvMeshFunctionObject.H"
-#include "fvMeshTopoChangersMeshToMesh.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "meshToMesh/fvMeshTopoChangersMeshToMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

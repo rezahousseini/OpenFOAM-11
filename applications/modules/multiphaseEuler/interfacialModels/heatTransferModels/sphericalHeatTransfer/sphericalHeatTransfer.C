@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalHeatTransfer.H"
-#include "addToRunTimeSelectionTable.H"
+#include "heatTransferModels/sphericalHeatTransfer/sphericalHeatTransfer.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

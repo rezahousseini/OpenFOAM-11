@@ -35,7 +35,7 @@ SourceFiles
 #ifndef mapGeometricFields_H
 #define mapGeometricFields_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

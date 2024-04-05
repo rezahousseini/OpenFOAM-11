@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Function2Evaluate.H"
+#include "primitives/functions/Function2/evaluate/Function2Evaluate.H"
 
 // * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * * //
 

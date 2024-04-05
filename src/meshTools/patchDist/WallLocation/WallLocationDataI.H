@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallLocationData.H"
-#include "transformer.H"
+#include "patchDist/WallLocation/WallLocationData.H"
+#include "primitives/transform/transformer/transformer.H"
 
 // * * * * * * * * * * * *  Protected Member Functions * * * * * * * * * * * //
 

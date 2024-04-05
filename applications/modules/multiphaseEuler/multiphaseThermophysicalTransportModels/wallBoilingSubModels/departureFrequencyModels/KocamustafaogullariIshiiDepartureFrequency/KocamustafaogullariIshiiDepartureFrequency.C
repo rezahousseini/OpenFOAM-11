@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KocamustafaogullariIshiiDepartureFrequency.H"
-#include "wallBoilingModelsCoefficient.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "wallBoilingSubModels/departureFrequencyModels/KocamustafaogullariIshiiDepartureFrequency/KocamustafaogullariIshiiDepartureFrequency.H"
+#include "wallBoilingSubModels/wallBoilingModelsCoefficient.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MULES.H"
-#include "upwind.H"
-#include "fvcSurfaceIntegrate.H"
-#include "localEulerDdtScheme.H"
-#include "slicedSurfaceFields.H"
-#include "wedgeFvPatch.H"
+#include "fvMatrices/solvers/MULES/MULES.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "fields/surfaceFields/slicedSurfaceFields.H"
+#include "fvMesh/fvPatches/constraint/wedge/wedgeFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

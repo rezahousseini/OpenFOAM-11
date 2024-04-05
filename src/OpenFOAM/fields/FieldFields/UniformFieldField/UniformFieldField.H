@@ -36,7 +36,7 @@ SourceFiles
 #ifndef UniformFieldField_H
 #define UniformFieldField_H
 
-#include "UniformField.H"
+#include "fields/Fields/UniformField/UniformField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -81,7 +81,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UniformFieldFieldI.H"
+#include "fields/FieldFields/UniformFieldField/UniformFieldFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NH3.H"
-#include "thermodynamicConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liquidProperties/NH3/NH3.H"
+#include "global/constants/thermodynamic/thermodynamicConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant::thermodynamic;
 

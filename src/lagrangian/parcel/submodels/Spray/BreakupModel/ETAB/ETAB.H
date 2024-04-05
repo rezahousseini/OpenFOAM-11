@@ -50,7 +50,7 @@ See also
 #ifndef ETAB_H
 #define ETAB_H
 
-#include "BreakupModel.H"
+#include "submodels/Spray/BreakupModel/BreakupModel/BreakupModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ETAB.C"
+    #include "submodels/Spray/BreakupModel/ETAB/ETAB.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

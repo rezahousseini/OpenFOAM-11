@@ -38,15 +38,15 @@ SourceFiles
 #ifndef tetrahedron_H
 #define tetrahedron_H
 
-#include "point.H"
-#include "primitiveFieldsFwd.H"
-#include "pointHit.H"
-#include "Random.H"
-#include "FixedList.H"
-#include "UList.H"
-#include "triPointRef.H"
-#include "boundBox.H"
-#include "barycentric.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "primitives/Random/Random.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/Lists/UList/UList.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "meshes/boundBox/boundBox.H"
+#include "primitives/Barycentric/barycentric/barycentric.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -211,7 +211,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tetrahedronI.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedronI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef DynamicField_H
 #define DynamicField_H
 
-#include "Field.H"
-#include "DynamicFieldFwd.H"
+#include "fields/Fields/Field/Field.H"
+#include "fields/Fields/DynamicField/DynamicFieldFwd.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -258,12 +258,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DynamicFieldI.H"
+#include "fields/Fields/DynamicField/DynamicFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DynamicField.C"
+    #include "fields/Fields/DynamicField/DynamicField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -32,7 +32,7 @@ Description
 #ifndef directFieldMapper_H
 #define directFieldMapper_H
 
-#include "fieldMapper.H"
+#include "fields/Fields/fieldMappers/fieldMapper/fieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -97,7 +97,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "directFieldMapperTemplates.C"
+    #include "fields/Fields/fieldMappers/directFieldMapper/directFieldMapperTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

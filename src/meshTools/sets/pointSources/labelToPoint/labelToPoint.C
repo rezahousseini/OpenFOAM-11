@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelToPoint.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sets/pointSources/labelToPoint/labelToPoint.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

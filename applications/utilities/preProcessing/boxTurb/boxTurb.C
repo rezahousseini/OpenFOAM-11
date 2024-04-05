@@ -30,13 +30,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "volFields.H"
-#include "OFstream.H"
-#include "Kmesh.H"
-#include "turbGen.H"
-#include "writeEk.H"
-#include "writeFile.H"
+#include "global/argList/argList.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "Kmesh/Kmesh.H"
+#include "turbulence/turbGen.H"
+#include "fft/writeEk.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 using namespace Foam;
 
@@ -45,10 +45,10 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
     argList::noParallel();
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMeshNoChangers.H"
+    #include "include/createTime.H"
+    #include "include/createMeshNoChangers.H"
     #include "createFields.H"
     #include "readBoxTurbDict.H"
 

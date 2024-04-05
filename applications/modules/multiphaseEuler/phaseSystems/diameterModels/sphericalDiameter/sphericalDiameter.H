@@ -36,7 +36,7 @@ SourceFiles
 #ifndef sphericalDiameter_H
 #define sphericalDiameter_H
 
-#include "diameterModel.H"
+#include "diameterModels/diameterModel/diameterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

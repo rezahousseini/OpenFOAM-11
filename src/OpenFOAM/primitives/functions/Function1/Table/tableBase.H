@@ -32,7 +32,7 @@ SourceFiles
 #ifndef tableBase_H
 #define tableBase_H
 
-#include "NamedEnum.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

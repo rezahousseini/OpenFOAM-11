@@ -33,7 +33,7 @@ Description
 #ifndef ParcelCloud_H
 #define ParcelCloud_H
 
-#include "parcelCloud.H"
+#include "parcelCloud/parcelCloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

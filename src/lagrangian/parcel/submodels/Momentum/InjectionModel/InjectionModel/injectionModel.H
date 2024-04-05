@@ -35,7 +35,7 @@ SourceFiles
 #ifndef injectionModel_H
 #define injectionModel_H
 
-#include "NamedEnum.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

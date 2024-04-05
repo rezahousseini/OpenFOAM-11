@@ -38,7 +38,7 @@ SourceFiles
 #ifndef matchingPatchToPatch_H
 #define matchingPatchToPatch_H
 
-#include "nearestPatchToPatch.H"
+#include "patchToPatch/nearest/nearestPatchToPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

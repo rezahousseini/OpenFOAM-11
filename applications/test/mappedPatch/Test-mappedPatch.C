@@ -30,18 +30,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "meshTools.H"
-#include "Time.H"
-#include "OBJstream.H"
-#include "volFields.H"
-#include "mappedPolyPatch.H"
-#include "mappedInternalPolyPatch.H"
-#include "mappedValueFvPatchFields.H"
-#include "mappedInternalValueFvPatchFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "meshTools/meshTools.H"
+#include "db/Time/Time.H"
+#include "obj/OBJstream.H"
+#include "fields/volFields/volFields.H"
+#include "mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
+#include "mappedPatches/mappedInternalPolyPatch/mappedInternalPolyPatch.H"
+#include "fields/fvPatchFields/derived/mappedValue/mappedValueFvPatchFields.H"
+#include "fields/fvPatchFields/derived/mappedInternalValue/mappedInternalValueFvPatchFields.H"
 
 using namespace Foam;
 
@@ -50,10 +50,10 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     timeSelector::select0(runTime, args);
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
     wordList patchFieldTypes
     (

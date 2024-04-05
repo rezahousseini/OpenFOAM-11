@@ -37,8 +37,8 @@ SourceFiles
 #ifndef solid_H
 #define solid_H
 
-#include "solver.H"
-#include "solidThermophysicalTransportModel.H"
+#include "solver/solver.H"
+#include "solidThermophysicalTransportModel/solidThermophysicalTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

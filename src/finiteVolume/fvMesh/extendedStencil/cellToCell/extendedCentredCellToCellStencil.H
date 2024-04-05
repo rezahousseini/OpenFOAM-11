@@ -34,8 +34,8 @@ SourceFiles
 #ifndef extendedCentredCellToCellStencil_H
 #define extendedCentredCellToCellStencil_H
 
-#include "extendedCellToCellStencil.H"
-#include "extendedCellToFaceStencil.H"
+#include "fvMesh/extendedStencil/cellToCell/extendedCellToCellStencil.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedCellToFaceStencil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

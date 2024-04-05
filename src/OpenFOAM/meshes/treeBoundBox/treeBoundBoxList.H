@@ -34,8 +34,8 @@ SourceFiles
 #ifndef treeBoundBoxList_H
 #define treeBoundBoxList_H
 
-#include "treeBoundBox.H"
-#include "List.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lineFace.H"
-#include "meshSearch.H"
-#include "DynamicList.H"
-#include "polyMesh.H"
-#include "treeDataCell.H"
-#include "sampledSetCloud.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/lineFace/lineFace.H"
+#include "meshSearch/meshSearch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "sampledSet/sampledSet/sampledSetCloud.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

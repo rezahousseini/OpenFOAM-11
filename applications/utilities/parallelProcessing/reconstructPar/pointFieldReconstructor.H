@@ -35,11 +35,11 @@ SourceFiles
 #ifndef pointFieldReconstructor_H
 #define pointFieldReconstructor_H
 
-#include "pointMesh.H"
-#include "pointFields.H"
-#include "pointPatchFieldMapper.H"
-#include "setSizePointPatchFieldMapper.H"
-#include "IOobjectList.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/setSizePointPatchFieldMapper.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

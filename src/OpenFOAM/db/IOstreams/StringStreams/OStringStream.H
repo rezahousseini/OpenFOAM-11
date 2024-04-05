@@ -35,7 +35,7 @@ SourceFiles
 #ifndef OStringStream_H
 #define OStringStream_H
 
-#include "OSstream.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
 #include <sstream>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

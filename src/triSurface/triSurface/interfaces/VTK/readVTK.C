@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "VTKsurfaceFormat.H"
+#include "triSurface/triSurface.H"
+#include "surfaceFormats/vtk/VTKsurfaceFormat.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -81,11 +81,11 @@ SourceFiles
 #ifndef functionObjects_wallShearStress_H
 #define functionObjects_wallShearStress_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "writeLocalObjects.H"
-#include "volFieldsFwd.H"
-#include "HashSet.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "db/functionObjects/writeLocalObjects/writeLocalObjects.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

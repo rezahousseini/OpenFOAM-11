@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BlendedInterfacialModel.H"
-#include "phaseSystem.H"
-#include "dispersedDisplacedPhaseInterface.H"
-#include "segregatedDisplacedPhaseInterface.H"
-#include "fixedValueFvsPatchFields.H"
-#include "surfaceInterpolate.H"
-#include "zeroDimensionalFvMesh.H"
-#include "mathematicalConstants.H"
-#include "writeFile.H"
-#include "triFace.H"
-#include "noSetWriter.H"
-#include "noSurfaceWriter.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "phaseInterface/dispersedDisplacedPhaseInterface/dispersedDisplacedPhaseInterface.H"
+#include "phaseInterface/segregatedDisplacedPhaseInterface/segregatedDisplacedPhaseInterface.H"
+#include "fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fvMesh/zeroDimensionalFvMesh/zeroDimensionalFvMesh.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "sampledSet/writers/none/noSetWriter.H"
+#include "sampledSurface/writers/none/noSurfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Gosman_H
 #define Gosman_H
 
-#include "dispersedTurbulentDispersionModel.H"
+#include "turbulentDispersionModels/dispersedTurbulentDispersionModel/dispersedTurbulentDispersionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

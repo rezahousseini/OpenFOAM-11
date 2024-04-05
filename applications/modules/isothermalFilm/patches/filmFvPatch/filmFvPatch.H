@@ -35,7 +35,7 @@ SourceFiles
 #ifndef filmFvPatch_H
 #define filmFvPatch_H
 
-#include "fvPatch.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

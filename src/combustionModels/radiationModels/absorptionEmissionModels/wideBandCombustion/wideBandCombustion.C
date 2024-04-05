@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wideBandCombustion.H"
-#include "combustionModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "radiationModels/absorptionEmissionModels/wideBandCombustion/wideBandCombustion.H"
+#include "combustionModel/combustionModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -1,9 +1,3 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 3.5.1)
-
-PROJECT(PVblockMeshReader)
-
-FIND_PACKAGE(ParaView REQUIRED)
-
 IF(${ParaView_VERSION} VERSION_LESS 5.7)
     # ParaView-5.7.x and lower will prepend "lib" to the target name
     SET(TARGET_NAME PVblockMeshReader_SM)

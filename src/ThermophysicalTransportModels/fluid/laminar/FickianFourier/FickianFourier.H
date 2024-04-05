@@ -93,8 +93,8 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Fickian.H"
-#include "unityLewisFourier.H"
+#include "laminar/Fickian/Fickian.H"
+#include "laminar/unityLewisFourier/unityLewisFourier.H"
 
 #ifndef FickianFourier_H
 #define FickianFourier_H
@@ -176,7 +176,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FickianFourier.C"
+    #include "laminar/FickianFourier/FickianFourier.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

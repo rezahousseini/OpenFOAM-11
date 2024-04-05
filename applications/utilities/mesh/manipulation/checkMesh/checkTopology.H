@@ -32,8 +32,8 @@ SourceFiles
 #ifndef checkTopology_H
 #define checkTopology_H
 
-#include "label.H"
-#include "autoPtr.H"
+#include "primitives/ints/label/label.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

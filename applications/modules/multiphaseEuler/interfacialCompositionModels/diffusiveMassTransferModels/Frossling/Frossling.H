@@ -36,7 +36,7 @@ SourceFiles
 #ifndef Frossling_H
 #define Frossling_H
 
-#include "diffusiveMassTransferModel.H"
+#include "diffusiveMassTransferModels/diffusiveMassTransferModel/diffusiveMassTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

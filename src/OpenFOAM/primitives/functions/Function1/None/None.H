@@ -32,7 +32,7 @@ Description
 #ifndef None_H
 #define None_H
 
-#include "Function1.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -97,7 +97,7 @@ public:
 } // End namespace Foam
 
 #ifdef NoRepository
-    #include "None.C"
+    #include "primitives/functions/Function1/None/None.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LaheyKEpsilon.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
-#include "phaseSystem.H"
-#include "dispersedDragModel.H"
+#include "RAS/LaheyKEpsilon/LaheyKEpsilon.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "phaseSystem/phaseSystem.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

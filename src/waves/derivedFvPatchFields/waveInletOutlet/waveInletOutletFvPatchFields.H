@@ -26,8 +26,8 @@ License
 #ifndef waveInletOutletFvPatchFields_H
 #define waveInletOutletFvPatchFields_H
 
-#include "waveInletOutletFvPatchField.H"
-#include "fieldTypes.H"
+#include "derivedFvPatchFields/waveInletOutlet/waveInletOutletFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

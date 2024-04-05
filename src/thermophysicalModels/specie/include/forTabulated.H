@@ -26,22 +26,22 @@ License
 #ifndef forTabulated_H
 #define forTabulated_H
 
-#include "specie.H"
-#include "thermo.H"
-#include "sensibleEnthalpy.H"
-#include "sensibleInternalEnergy.H"
+#include "specie/specie.H"
+#include "thermo/thermo/thermo.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "thermo/sensibleInternalEnergy/sensibleInternalEnergy.H"
 
-#include "rhoTabulated.H"
-#include "hTabulatedThermo.H"
-#include "eTabulatedThermo.H"
-#include "tabulatedTransport.H"
+#include "equationOfState/rhoTabulated/rhoTabulated.H"
+#include "thermo/hTabulated/hTabulatedThermo.H"
+#include "thermo/eTabulated/eTabulatedThermo.H"
+#include "transport/tabulated/tabulatedTransport.H"
 
-#include "icoTabulated.H"
-#include "hIcoTabulatedThermo.H"
-#include "eIcoTabulatedThermo.H"
-#include "icoTabulatedTransport.H"
+#include "equationOfState/icoTabulated/icoTabulated.H"
+#include "thermo/hIcoTabulated/hIcoTabulatedThermo.H"
+#include "thermo/eIcoTabulated/eIcoTabulatedThermo.H"
+#include "transport/icoTabulated/icoTabulatedTransport.H"
 
-#include "forThermo.H"
+#include "include/forThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

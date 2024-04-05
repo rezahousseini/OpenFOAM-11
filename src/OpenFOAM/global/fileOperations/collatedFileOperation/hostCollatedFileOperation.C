@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hostCollatedFileOperation.H"
-#include "PackedBoolList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "global/fileOperations/collatedFileOperation/hostCollatedFileOperation.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

@@ -64,7 +64,7 @@ Usage
 #ifndef heatTransferCoefficientModels_variable_H
 #define heatTransferCoefficientModels_variable_H
 
-#include "heatTransferCoefficientModel.H"
+#include "derived/heatTransfer/heatTransferCoefficientModels/heatTransferCoefficientModel/heatTransferCoefficientModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

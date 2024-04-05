@@ -26,8 +26,8 @@ License
 #ifndef symmetryPointPatchFields_H
 #define symmetryPointPatchFields_H
 
-#include "symmetryPointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/constraint/symmetry/symmetryPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

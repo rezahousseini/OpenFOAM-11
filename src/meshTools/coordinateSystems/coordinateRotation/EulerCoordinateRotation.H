@@ -53,7 +53,7 @@ SourceFiles
 #ifndef EulerCoordinateRotation_H
 #define EulerCoordinateRotation_H
 
-#include "coordinateRotation.H"
+#include "coordinateSystems/coordinateRotation/coordinateRotation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

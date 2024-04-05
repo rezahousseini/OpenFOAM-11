@@ -35,10 +35,10 @@ SourceFiles
 #ifndef thermoParcel_H
 #define thermoParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "MomentumParcel.H"
-#include "ThermoParcel.H"
+#include "primitives/contiguous/contiguous.H"
+#include "particle/particle.H"
+#include "parcels/Templates/MomentumParcel/MomentumParcel.H"
+#include "parcels/Templates/ThermoParcel/ThermoParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

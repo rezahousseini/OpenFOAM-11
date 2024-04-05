@@ -34,7 +34,7 @@ SourceFiles
 #ifndef fvMeshMoversMotionSolver_H
 #define fvMeshMoversMotionSolver_H
 
-#include "fvMeshMover.H"
+#include "fvMesh/fvMeshMovers/fvMeshMover/fvMeshMover.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

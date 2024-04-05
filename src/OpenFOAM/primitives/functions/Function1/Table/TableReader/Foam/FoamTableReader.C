@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FoamTableReader.H"
+#include "primitives/functions/Function1/Table/TableReader/Foam/FoamTableReader.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

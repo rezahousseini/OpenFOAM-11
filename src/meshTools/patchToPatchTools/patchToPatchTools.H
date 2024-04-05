@@ -29,8 +29,8 @@ Namespace
 #ifndef patchToPatchTools_H
 #define patchToPatchTools_H
 
-#include "distributionMap.H"
-#include "remote.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "primitives/remote/remote.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,7 +168,7 @@ static tmp<Field<Type>> interpolate
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "patchToPatchToolsTemplates.C"
+    #include "patchToPatchTools/patchToPatchToolsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

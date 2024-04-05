@@ -47,7 +47,7 @@ SourceFiles
 #ifndef PTT_H
 #define PTT_H
 
-#include "Maxwell.H"
+#include "laminar/Maxwell/Maxwell.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PTT.C"
+    #include "laminar/PTT/PTT.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

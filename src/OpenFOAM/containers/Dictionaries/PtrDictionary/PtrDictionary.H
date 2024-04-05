@@ -38,8 +38,8 @@ SourceFiles
 #ifndef PtrDictionary_H
 #define PtrDictionary_H
 
-#include "DictionaryBase.H"
-#include "DLPtrList.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "containers/LinkedLists/user/DLPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -100,7 +100,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PtrDictionary.C"
+    #include "containers/Dictionaries/PtrDictionary/PtrDictionary.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

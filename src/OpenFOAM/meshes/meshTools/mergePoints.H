@@ -32,8 +32,8 @@ SourceFiles
 #ifndef mergePoints_H
 #define mergePoints_H
 
-#include "scalar.H"
-#include "labelList.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,7 +76,7 @@ bool mergePoints
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mergePoints.C"
+    #include "meshes/meshTools/mergePoints.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

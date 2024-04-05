@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Lavieville.H"
-#include "addToRunTimeSelectionTable.H"
+#include "wallBoilingSubModels/partitioningModels/Lavieville/Lavieville.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

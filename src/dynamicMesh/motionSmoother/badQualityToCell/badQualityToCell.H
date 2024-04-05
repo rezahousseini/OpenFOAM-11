@@ -35,8 +35,8 @@ SourceFiles
 #ifndef badQualityToCell_H
 #define badQualityToCell_H
 
-#include "topoSetSource.H"
-#include "PackedBoolList.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

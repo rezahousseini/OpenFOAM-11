@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGPreconditioner.H"
+#include "matrices/lduMatrix/preconditioners/GAMGPreconditioner/GAMGPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

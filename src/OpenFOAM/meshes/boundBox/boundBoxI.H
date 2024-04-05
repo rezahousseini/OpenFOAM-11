@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundBox.H"
-#include "pointField.H"
+#include "meshes/boundBox/boundBox.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

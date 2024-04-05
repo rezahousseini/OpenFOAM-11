@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "enrichedPatch.H"
-#include "demandDrivenData.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "slidingInterface/enrichedPatch/enrichedPatch.H"
+#include "include/demandDrivenData.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

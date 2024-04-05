@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidBodyMotionSolver.H"
-#include "polyCellSet.H"
-#include "transformField.H"
-#include "syncTools.H"
-#include "polyTopoChangeMap.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionSolver/solidBodyMotionSolver.H"
+#include "sets/polyCellSet/polyCellSet.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

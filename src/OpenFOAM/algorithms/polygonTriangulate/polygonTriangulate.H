@@ -35,10 +35,10 @@ SourceFiles
 #ifndef polygonTriangulate_H
 #define polygonTriangulate_H
 
-#include "DynamicList.H"
-#include "HashSet.H"
-#include "labelPair.H"
-#include "triFace.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/Pair/labelPair.H"
+#include "meshes/meshShapes/triFace/triFace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -342,7 +342,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "polygonTriangulateI.H"
+#include "algorithms/polygonTriangulate/polygonTriangulateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

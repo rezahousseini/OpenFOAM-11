@@ -38,8 +38,8 @@ Description
 #ifndef wordList_H
 #define wordList_H
 
-#include "word.H"
-#include "List.H"
+#include "primitives/strings/word/word.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

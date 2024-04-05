@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Lamb.H"
-#include "aspectRatioModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "virtualMassModels/Lamb/Lamb.H"
+#include "aspectRatioModels/aspectRatioModel/aspectRatioModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

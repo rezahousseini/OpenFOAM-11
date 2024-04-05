@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dsmcParcel.H"
-#include "DSMCParcel.H"
+#include "parcels/derived/dsmcParcel/dsmcParcel.H"
+#include "parcels/Templates/DSMCParcel/DSMCParcel.H"
 
 namespace Foam
 {

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "binaryTree.H"
-#include "SortableList.H"
+#include "chemistryModel/tabulation/ISAT/binaryTree/binaryTree.H"
+#include "containers/Lists/SortableList/SortableList.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

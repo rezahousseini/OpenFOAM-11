@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LehrMilliesMewes.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/binaryBreakupModels/LehrMilliesMewes/LehrMilliesMewes.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

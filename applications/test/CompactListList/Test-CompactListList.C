@@ -29,11 +29,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompactListList.H"
-#include "IOstreams.H"
-#include "OStringStream.H"
-#include "IStringStream.H"
-#include "faceList.H"
+#include "containers/Lists/CompactListList/CompactListList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "meshes/meshShapes/face/faceList.H"
 
 using namespace Foam;
 

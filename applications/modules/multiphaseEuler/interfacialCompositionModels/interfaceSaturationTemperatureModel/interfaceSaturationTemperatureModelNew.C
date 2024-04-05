@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceSaturationTemperatureModel.H"
-#include "phaseSystem.H"
+#include "interfaceSaturationTemperatureModel/interfaceSaturationTemperatureModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

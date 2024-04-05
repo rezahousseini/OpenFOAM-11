@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvDOM.H"
-#include "absorptionEmissionModel.H"
-#include "scatterModel.H"
-#include "constants.H"
-#include "fvm.H"
-#include "wedgePolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "radiationModels/fvDOM/fvDOM.H"
+#include "absorptionEmissionModels/absorptionEmissionModel/absorptionEmissionModel.H"
+#include "scatterModels/scatterModel/scatterModel.H"
+#include "global/constants/constants.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant;
 using namespace Foam::constant::mathematical;

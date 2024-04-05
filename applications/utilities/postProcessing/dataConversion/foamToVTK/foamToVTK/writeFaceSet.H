@@ -37,7 +37,7 @@ SourceFiles
 #define writeFaceSet_H
 
 #include "vtkMesh.H"
-#include "faceSet.H"
+#include "sets/topoSets/faceSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HarrisCrighton.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/MPPIC/ParticleStressModels/HarrisCrighton/HarrisCrighton.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

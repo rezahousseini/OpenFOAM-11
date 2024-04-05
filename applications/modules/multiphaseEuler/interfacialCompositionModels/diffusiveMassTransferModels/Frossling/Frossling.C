@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Frossling.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diffusiveMassTransferModels/Frossling/Frossling.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

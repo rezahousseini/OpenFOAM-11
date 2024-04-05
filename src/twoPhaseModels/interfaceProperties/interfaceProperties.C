@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "interfaceProperties.H"
-#include "contactAngleFvPatchScalarField.H"
-#include "unitConversion.H"
-#include "surfaceInterpolate.H"
-#include "fvcDiv.H"
-#include "fvcGrad.H"
-#include "fvcSnGrad.H"
+#include "contactAngle/contactAngleFvPatchScalarField.H"
+#include "global/unitConversion/unitConversion.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

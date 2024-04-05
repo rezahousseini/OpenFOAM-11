@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stopAtEmptyClouds.H"
-#include "parcelCloudList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "stopAtEmptyClouds/stopAtEmptyClouds.H"
+#include "parcelCloud/parcelCloudList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

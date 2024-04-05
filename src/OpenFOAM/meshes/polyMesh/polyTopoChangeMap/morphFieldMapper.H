@@ -32,8 +32,8 @@ Description
 #ifndef morphFieldMapper_H
 #define morphFieldMapper_H
 
-#include "generalFieldMapper.H"
-#include "Map.H"
+#include "fields/Fields/fieldMappers/generalFieldMapper/generalFieldMapper.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

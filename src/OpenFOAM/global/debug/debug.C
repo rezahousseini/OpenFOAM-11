@@ -26,14 +26,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "debug.H"
-#include "dictionary.H"
-#include "IFstream.H"
-#include "etcFiles.H"
-#include "Ostream.H"
-#include "demandDrivenData.H"
-#include "IOobject.H"
-#include "HashSet.H"
+#include "global/debug/debug.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "global/etcFiles/etcFiles.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "include/demandDrivenData.H"
+#include "db/IOobject/IOobject.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

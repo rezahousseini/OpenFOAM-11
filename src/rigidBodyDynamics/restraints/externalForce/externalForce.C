@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalForce.H"
-#include "rigidBodyModel.H"
-#include "rigidBodyModelState.H"
-#include "OneConstant.H"
-#include "addToRunTimeSelectionTable.H"
+#include "restraints/externalForce/externalForce.H"
+#include "rigidBodyModel/rigidBodyModel.H"
+#include "rigidBodyModelState/rigidBodyModelState.H"
+#include "primitives/functions/Function1/One/OneConstant.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

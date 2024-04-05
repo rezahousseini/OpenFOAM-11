@@ -40,7 +40,7 @@ Description
 #ifndef ErgunWenYuDragForce_H
 #define ErgunWenYuDragForce_H
 
-#include "WenYuDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/WenYuDrag/WenYuDragForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,7 +113,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ErgunWenYuDragForce.C"
+    #include "submodels/Momentum/ParticleForces/Drag/ErgunWenYuDrag/ErgunWenYuDragForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -49,8 +49,8 @@ SourceFiles
 #ifndef faceSetSampledSet_H
 #define faceSetSampledSet_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

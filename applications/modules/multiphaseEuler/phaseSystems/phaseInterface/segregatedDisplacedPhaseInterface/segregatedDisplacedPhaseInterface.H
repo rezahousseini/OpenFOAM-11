@@ -37,8 +37,8 @@ SourceFiles
 #ifndef segregatedDisplacedPhaseInterface_H
 #define segregatedDisplacedPhaseInterface_H
 
-#include "segregatedPhaseInterface.H"
-#include "displacedPhaseInterface.H"
+#include "phaseInterface/segregatedPhaseInterface/segregatedPhaseInterface.H"
+#include "phaseInterface/displacedPhaseInterface/displacedPhaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

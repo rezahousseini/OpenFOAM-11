@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceWriter.H"
-#include "MeshedSurfaceProxy.H"
-#include "proxySurfaceWriter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/writers/surfaceWriter.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "sampledSurface/writers/proxy/proxySurfaceWriter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -73,7 +73,7 @@ SourceFiles
 #ifndef includeFvConstraintEntry_H
 #define includeFvConstraintEntry_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

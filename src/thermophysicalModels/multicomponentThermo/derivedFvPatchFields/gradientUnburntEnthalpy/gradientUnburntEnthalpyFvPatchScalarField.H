@@ -35,7 +35,7 @@ SourceFiles
 #ifndef gradientUnburntEnthalpyFvPatchScalarField_H
 #define gradientUnburntEnthalpyFvPatchScalarField_H
 
-#include "fixedGradientFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

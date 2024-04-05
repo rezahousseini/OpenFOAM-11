@@ -35,9 +35,9 @@ SourceFiles
 #ifndef dlLibraryTable_H
 #define dlLibraryTable_H
 
-#include "label.H"
-#include "DynamicList.H"
-#include "fileNameList.H"
+#include "primitives/ints/label/label.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/strings/lists/fileNameList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ extern dlLibraryTable libs;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dlLibraryTableTemplates.C"
+    #include "db/dynamicLibrary/dlLibraryTable/dlLibraryTableTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

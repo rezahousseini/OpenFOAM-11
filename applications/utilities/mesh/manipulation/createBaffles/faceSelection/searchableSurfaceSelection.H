@@ -35,7 +35,7 @@ SourceFiles
 #ifndef searchableSurfaceSelection_H
 #define searchableSurfaceSelection_H
 
-#include "faceSelection.H"
+#include "faceSelection/faceSelection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef basicSymmetryPointPatchField_H
 #define basicSymmetryPointPatchField_H
 
-#include "pointPatchField.H"
-#include "symmetryPointPatch.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "meshes/pointMesh/pointPatches/constraint/symmetry/symmetryPointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "basicSymmetryPointPatchField.C"
+    #include "fields/pointPatchFields/basic/basicSymmetry/basicSymmetryPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

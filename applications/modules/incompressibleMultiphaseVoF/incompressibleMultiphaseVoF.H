@@ -52,7 +52,7 @@ See also
 #define incompressibleMultiphaseVoF_H
 
 #include "multiphaseVoFSolver.H"
-#include "incompressibleMultiphaseVoFMixture.H"
+#include "incompressibleMultiphaseVoFMixture/incompressibleMultiphaseVoFMixture.H"
 #include "incompressibleMomentumTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

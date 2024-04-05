@@ -47,10 +47,10 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "STARCDMeshReader.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshReader/starcd/STARCDMeshReader.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 using namespace Foam;
 

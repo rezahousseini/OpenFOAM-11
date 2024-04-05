@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleErosion.H"
-#include "mathematicalConstants.H"
+#include "submodels/CloudFunctionObjects/ParticleErosion/ParticleErosion.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant;
 

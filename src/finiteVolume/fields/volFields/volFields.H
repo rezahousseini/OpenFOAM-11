@@ -34,12 +34,12 @@ SourceFiles
 #ifndef volFields_H
 #define volFields_H
 
-#include "GeometricFields.H"
-#include "volMesh.H"
-#include "fvMesh.H"
-#include "fvPatchField.H"
-#include "volFieldsFwd.H"
-#include "calculatedFvPatchFields.H"
+#include "fields/GeometricFields/GeometricField/GeometricFields.H"
+#include "volMesh/volMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -68,7 +68,7 @@ void VolField<scalar>::replace
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "volFieldsI.H"
+#include "fields/volFields/volFieldsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

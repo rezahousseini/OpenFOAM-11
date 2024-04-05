@@ -26,8 +26,8 @@ License
 #include "vtkPVFoam.H"
 
 // OpenFOAM includes
-#include "faceSet.H"
-#include "pointSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/pointSet.H"
 #include "vtkOpenFOAMPoints.H"
 
 // VTK includes

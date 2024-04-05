@@ -24,11 +24,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ensightParticlePositions.H"
-#include "fvMesh.H"
-#include "passiveParticle.H"
-#include "Cloud.H"
-#include "OFstream.H"
-#include "IOmanip.H"
+#include "fvMesh/fvMesh.H"
+#include "passiveParticle/passiveParticle.H"
+#include "Cloud/Cloud.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 #include "itoa.H"
 
 using namespace Foam;

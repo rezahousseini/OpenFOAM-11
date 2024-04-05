@@ -56,7 +56,7 @@ SourceFiles
 #ifndef incompressiblePerfectGas_H
 #define incompressiblePerfectGas_H
 
-#include "autoPtr.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -234,10 +234,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "incompressiblePerfectGasI.H"
+#include "equationOfState/incompressiblePerfectGas/incompressiblePerfectGasI.H"
 
 #ifdef NoRepository
-    #include "incompressiblePerfectGas.C"
+    #include "equationOfState/incompressiblePerfectGas/incompressiblePerfectGas.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

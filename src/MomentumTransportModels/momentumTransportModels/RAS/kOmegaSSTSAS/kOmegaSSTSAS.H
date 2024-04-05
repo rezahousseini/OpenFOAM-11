@@ -78,8 +78,8 @@ SourceFiles
 #ifndef kOmegaSSTSAS_H
 #define kOmegaSSTSAS_H
 
-#include "kOmegaSST.H"
-#include "LESdelta.H"
+#include "RAS/kOmegaSST/kOmegaSST.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kOmegaSSTSAS.C"
+    #include "RAS/kOmegaSSTSAS/kOmegaSSTSAS.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

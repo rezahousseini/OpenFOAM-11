@@ -38,10 +38,10 @@ SourceFiles
 #ifndef blackBodyEmission_H
 #define blackBodyEmission_H
 
-#include "volFields.H"
-#include "dimensionedScalar.H"
-#include "Table.H"
-#include "Vector2D.H"
+#include "fields/volFields/volFields.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "primitives/functions/Function1/Table/Table.H"
+#include "primitives/Vector2D/Vector2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

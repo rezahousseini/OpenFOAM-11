@@ -27,9 +27,9 @@ License
 #define vtkPVFoamAddToSelection_H
 
 // OpenFOAM includes
-#include "IOobjectList.H"
-#include "SortableList.H"
-#include "surfaceFields.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // VTK includes
 #include "vtkDataArraySelection.h"

@@ -34,9 +34,9 @@ SourceFiles
 #ifndef RBD_rigidBody_H
 #define RBD_rigidBody_H
 
-#include "rigidBodyInertia.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "rigidBodyInertia/rigidBodyInertia.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyI.H"
+#include "bodies/rigidBody/rigidBodyI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

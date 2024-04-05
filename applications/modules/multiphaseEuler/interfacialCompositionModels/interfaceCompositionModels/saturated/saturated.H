@@ -36,8 +36,8 @@ SourceFiles
 #ifndef saturated_H
 #define saturated_H
 
-#include "interfaceCompositionModel.H"
-#include "saturationPressureModel.H"
+#include "interfaceCompositionModels/interfaceCompositionModel/interfaceCompositionModel.H"
+#include "saturationPressureModel/saturationPressureModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

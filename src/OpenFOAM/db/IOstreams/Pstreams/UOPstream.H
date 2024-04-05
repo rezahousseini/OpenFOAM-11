@@ -33,15 +33,15 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 #ifndef UOPstream_H
 #define UOPstream_H
 
-#include "UPstream.H"
-#include "Ostream.H"
-#include "DynamicList.H"
-#include "PstreamBuffers.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

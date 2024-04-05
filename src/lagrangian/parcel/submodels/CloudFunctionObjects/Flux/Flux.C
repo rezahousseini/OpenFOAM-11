@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Flux.H"
+#include "submodels/CloudFunctionObjects/Flux/Flux.H"
 
 // * * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * //
 

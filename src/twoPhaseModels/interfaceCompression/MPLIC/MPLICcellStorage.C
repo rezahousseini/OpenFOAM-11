@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MPLICcellStorage.H"
+#include "MPLIC/MPLICcellStorage.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

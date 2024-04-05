@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "systemDict.H"
-#include "IOdictionary.H"
-#include "Time.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * * //
 

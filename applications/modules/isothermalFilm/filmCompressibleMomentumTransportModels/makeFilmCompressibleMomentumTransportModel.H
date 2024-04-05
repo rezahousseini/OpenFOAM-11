@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmCompressibleMomentumTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "filmCompressibleMomentumTransportModels/filmCompressibleMomentumTransportModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "makeMomentumTransportModel.H"
 
-#include "laminarModel.H"
+#include "laminar/laminarModel/laminarModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

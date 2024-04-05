@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvModel.H"
-#include "volFields.H"
-#include "cellsToCells.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fields/volFields/volFields.H"
+#include "cellsToCells/cellsToCells/cellsToCells.H"
 
 #ifndef interRegionModel_H
 #define interRegionModel_H
@@ -151,10 +151,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interRegionModelI.H"
+#include "interRegion/interRegionModel/interRegionModelI.H"
 
 #ifdef NoRepository
-    #include "interRegionModelTemplates.C"
+    #include "interRegion/interRegionModel/interRegionModelTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

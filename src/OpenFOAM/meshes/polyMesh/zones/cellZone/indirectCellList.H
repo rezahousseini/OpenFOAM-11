@@ -31,8 +31,8 @@ Description
 #ifndef indirectCellList_H
 #define indirectCellList_H
 
-#include "cell.H"
-#include "IndirectList.H"
+#include "meshes/meshShapes/cell/cell.H"
+#include "containers/Lists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

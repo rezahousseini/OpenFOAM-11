@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedExtrudedPatchBase.H"
-#include "LayerInfoData.H"
-#include "PointEdgeLayerInfoData.H"
-#include "FaceCellWave.H"
-#include "PointEdgeWave.H"
+#include "mappedPatches/mappedExtrudedPatchBase/mappedExtrudedPatchBase.H"
+#include "layerInfo/LayerInfoData.H"
+#include "layerInfo/PointEdgeLayerInfoData.H"
+#include "algorithms/FaceCellWave/FaceCellWave.H"
+#include "algorithms/PointEdgeWave/PointEdgeWave.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

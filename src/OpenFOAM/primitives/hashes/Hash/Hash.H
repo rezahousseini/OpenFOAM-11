@@ -33,12 +33,12 @@ Description
 #ifndef Hash_H
 #define Hash_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "Hasher.H"
-#include "pTraits.H"
-#include "fileName.H"
-#include "wordRe.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/hashes/Hasher/Hasher.H"
+#include "primitives/pTraits/pTraits.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "primitives/strings/wordRe/wordRe.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

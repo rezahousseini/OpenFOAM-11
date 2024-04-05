@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hIcoTabulatedThermo.H"
-#include "IOstreams.H"
+#include "thermo/hIcoTabulated/hIcoTabulatedThermo.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

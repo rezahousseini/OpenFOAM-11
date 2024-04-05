@@ -36,7 +36,7 @@ SourceFiles
 #ifndef LPtrList_H
 #define LPtrList_H
 
-#include "ULPtrList.H"
+#include "containers/LinkedLists/accessTypes/ULPtrList/ULPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -144,7 +144,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LPtrList.C"
+    #include "containers/LinkedLists/accessTypes/LPtrList/LPtrList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

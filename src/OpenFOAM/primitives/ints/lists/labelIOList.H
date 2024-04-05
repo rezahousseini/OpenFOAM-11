@@ -32,8 +32,8 @@ Description
 #ifndef labelIOList_H
 #define labelIOList_H
 
-#include "label.H"
-#include "IOList.H"
+#include "primitives/ints/label/label.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

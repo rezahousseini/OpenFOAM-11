@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeControlFunctionObject.H"
-#include "polyMesh.H"
-#include "polyTopoChangeMap.H"
-#include "polyMeshMap.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/functionObjects/timeControl/timeControlFunctionObject.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyMeshMap/polyMeshMap.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

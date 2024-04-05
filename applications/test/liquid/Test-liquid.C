@@ -25,10 +25,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "liquidProperties.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "liquidProperties/liquidProperties/liquidProperties.H"
 
 using namespace Foam;
 

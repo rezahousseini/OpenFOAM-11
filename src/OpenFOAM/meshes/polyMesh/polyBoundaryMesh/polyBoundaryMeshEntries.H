@@ -35,9 +35,9 @@ SourceFiles
 #ifndef polyBoundaryMeshEntries_H
 #define polyBoundaryMeshEntries_H
 
-#include "regIOobject.H"
-#include "PtrList.H"
-#include "entry.H"
+#include "db/regIOobject/regIOobject.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "db/dictionary/entry/entry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

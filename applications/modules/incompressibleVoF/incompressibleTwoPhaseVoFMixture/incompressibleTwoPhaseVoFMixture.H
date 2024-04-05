@@ -35,9 +35,9 @@ SourceFiles
 #ifndef incompressibleTwoPhaseVoFMixture_H
 #define incompressibleTwoPhaseVoFMixture_H
 
-#include "twoPhaseVoFMixture.H"
+#include "twoPhaseVoFMixture/twoPhaseVoFMixture.H"
 #include "incompressibleTwoPhases.H"
-#include "viscosityModel.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

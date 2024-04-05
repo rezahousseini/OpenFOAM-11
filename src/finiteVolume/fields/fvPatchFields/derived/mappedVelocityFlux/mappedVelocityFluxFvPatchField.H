@@ -60,8 +60,8 @@ SourceFiles
 #ifndef mappedVelocityFluxFvPatchField_H
 #define mappedVelocityFluxFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "mappedFvPatch.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fvMesh/fvPatches/derived/mapped/mappedFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

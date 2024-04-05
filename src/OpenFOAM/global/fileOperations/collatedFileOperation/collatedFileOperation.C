@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "collatedFileOperation.H"
-#include "Time.H"
-#include "threadedCollatedOFstream.H"
-#include "decomposedBlockData.H"
-#include "masterOFstream.H"
-#include "OFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "global/fileOperations/collatedFileOperation/collatedFileOperation.H"
+#include "db/Time/Time.H"
+#include "global/fileOperations/collatedFileOperation/threadedCollatedOFstream.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "db/IOstreams/Fstreams/masterOFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

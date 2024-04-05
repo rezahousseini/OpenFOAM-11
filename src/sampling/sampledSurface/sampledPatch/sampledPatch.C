@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledPatch.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledPatch/sampledPatch.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

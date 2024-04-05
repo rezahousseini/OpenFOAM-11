@@ -24,16 +24,16 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "checkTopology.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "regionSplit.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "IOmanip.H"
-#include "emptyPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "surfaceWriter.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "regionSplit/regionSplit.H"
+#include "sets/topoSets/cellSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/pointSet.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "sampledSurface/writers/surfaceWriter.H"
 #include "checkTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

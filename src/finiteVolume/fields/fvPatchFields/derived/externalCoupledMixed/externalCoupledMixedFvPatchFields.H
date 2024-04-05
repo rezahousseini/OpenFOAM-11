@@ -26,8 +26,8 @@ License
 #ifndef externalCoupledMixedFvPatchFields_H
 #define externalCoupledMixedFvPatchFields_H
 
-#include "externalCoupledMixedFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/externalCoupledMixed/externalCoupledMixedFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

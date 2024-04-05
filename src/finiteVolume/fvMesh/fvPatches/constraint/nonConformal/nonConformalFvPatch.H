@@ -42,8 +42,8 @@ SourceFiles
 #ifndef nonConformalFvPatch_H
 #define nonConformalFvPatch_H
 
-#include "fvPatch.H"
-#include "nonConformalPolyPatch.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "nonConformal/polyPatches/nonConformal/nonConformalPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

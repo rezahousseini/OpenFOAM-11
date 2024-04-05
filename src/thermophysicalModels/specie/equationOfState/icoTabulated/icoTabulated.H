@@ -62,7 +62,7 @@ See also
 #ifndef icoTabulated_H
 #define icoTabulated_H
 
-#include "NonUniformTable1.H"
+#include "primitives/functions/Function1/NonUniformTable1/NonUniformTable1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -197,12 +197,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "icoTabulatedI.H"
+#include "equationOfState/icoTabulated/icoTabulatedI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "icoTabulated.C"
+    #include "equationOfState/icoTabulated/icoTabulated.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

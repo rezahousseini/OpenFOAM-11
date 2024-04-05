@@ -37,7 +37,7 @@ SourceFiles
 #ifndef hydrostaticDisplacementFvPatchVectorField_H
 #define hydrostaticDisplacementFvPatchVectorField_H
 
-#include "tractionDisplacementFvPatchVectorField.H"
+#include "derivedFvPatchFields/tractionDisplacement/tractionDisplacementFvPatchVectorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

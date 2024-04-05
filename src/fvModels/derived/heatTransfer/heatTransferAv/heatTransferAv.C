@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heatTransferAv.H"
-#include "heatTransfer.H"
+#include "derived/heatTransfer/heatTransferAv/heatTransferAv.H"
+#include "derived/heatTransfer/heatTransfer.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

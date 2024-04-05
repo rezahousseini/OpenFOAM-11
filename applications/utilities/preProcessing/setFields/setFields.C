@@ -26,17 +26,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "Time.H"
-#include "fvMesh.H"
-#include "topoSetSource.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "volFields.H"
-#include "systemDict.H"
-#include "processorFvPatch.H"
-#include "CompactListList.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/Time.H"
+#include "fvMesh/fvMesh.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "sets/topoSets/cellSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "containers/Lists/CompactListList/CompactListList.H"
 
 using namespace Foam;
 
@@ -404,12 +404,12 @@ public:
 int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
-    #include "addDictOption.H"
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addDictOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     timeSelector::select0(runTime, args);
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     const dictionary setFieldsDict(systemDict("setFieldsDict", args, mesh));
 

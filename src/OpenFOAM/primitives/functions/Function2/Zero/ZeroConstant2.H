@@ -40,7 +40,7 @@ SourceFiles
 #ifndef ZeroConstant2_H
 #define ZeroConstant2_H
 
-#include "Function2.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -105,10 +105,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ZeroConstant2I.H"
+#include "primitives/functions/Function2/Zero/ZeroConstant2I.H"
 
 #ifdef NoRepository
-    #include "ZeroConstant2.C"
+    #include "primitives/functions/Function2/Zero/ZeroConstant2.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

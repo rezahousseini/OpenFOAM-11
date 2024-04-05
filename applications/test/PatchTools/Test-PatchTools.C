@@ -29,11 +29,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "fvMesh.H"
-#include "PatchTools.H"
-#include "OBJstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "obj/OBJstream.H"
 
 using namespace Foam;
 
@@ -201,11 +201,11 @@ int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
     argList::validArgs.append("patch");
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     timeSelector::select0(runTime, args);
 
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
     const word patchName = args[1];
     label patchi = mesh.boundaryMesh().findPatchID(patchName);

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef meshSearchFACE_CENTRE_TRISMeshObject_H
 #define meshSearchFACE_CENTRE_TRISMeshObject_H
 
-#include "DemandDrivenMeshObject.H"
-#include "meshSearch.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "meshSearch/meshSearch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

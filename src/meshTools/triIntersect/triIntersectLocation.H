@@ -33,7 +33,7 @@ SourceFiles
 #ifndef triIntersectLocation_H
 #define triIntersectLocation_H
 
-#include "labelPair.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ inline bool contiguous<triIntersect::location>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triIntersectLocationI.H"
+#include "triIntersect/triIntersectLocationI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

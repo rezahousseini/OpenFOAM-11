@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ULPtrList.H"
+#include "containers/LinkedLists/accessTypes/ULPtrList/ULPtrList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -68,7 +68,7 @@ void Foam::ULPtrList<LListBase, T>::operator=(ULPtrList<LListBase, T>&& lst)
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "ULPtrListIO.C"
+#include "containers/LinkedLists/accessTypes/ULPtrList/ULPtrListIO.C"
 
 
 // ************************************************************************* //

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef WallLocationYPlus_H
 #define WallLocationYPlus_H
 
-#include "WallLocationData.H"
+#include "patchDist/WallLocation/WallLocationData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,7 +122,7 @@ inline bool contiguous<FvWallInfo<WallLocationYPlus<wallPoint>>>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WallLocationYPlusI.H"
+#include "LES/LESdeltas/vanDriestDelta/WallLocationYPlusI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

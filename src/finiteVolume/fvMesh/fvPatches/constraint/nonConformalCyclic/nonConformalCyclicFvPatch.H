@@ -40,9 +40,9 @@ SourceFiles
 #ifndef nonConformalCyclicFvPatch_H
 #define nonConformalCyclicFvPatch_H
 
-#include "cyclicFvPatch.H"
-#include "nonConformalCyclicPolyPatch.H"
-#include "nonConformalCoupledFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
+#include "nonConformal/polyPatches/nonConformalCyclic/nonConformalCyclicPolyPatch.H"
+#include "fvMesh/fvPatches/constraint/nonConformalCoupled/nonConformalCoupledFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

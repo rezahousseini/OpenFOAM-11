@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fvMeshStitchersMoving_H
 #define fvMeshStitchersMoving_H
 
-#include "fvMeshStitcher.H"
+#include "fvMesh/fvMeshStitchers/fvMeshStitcher/fvMeshStitcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

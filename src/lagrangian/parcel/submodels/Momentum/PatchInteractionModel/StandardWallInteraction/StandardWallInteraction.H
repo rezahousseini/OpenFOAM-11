@@ -47,7 +47,7 @@ Description
 #ifndef StandardWallInteraction_H
 #define StandardWallInteraction_H
 
-#include "PatchInteractionModel.H"
+#include "submodels/Momentum/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "StandardWallInteraction.C"
+    #include "submodels/Momentum/PatchInteractionModel/StandardWallInteraction/StandardWallInteraction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Saito.H"
-#include "addToRunTimeSelectionTable.H"
+#include "Saito/Saito.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "mathematicalConstants.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 using Foam::constant::mathematical::pi;
 
-#include "physicoChemicalConstants.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
 using Foam::constant::physicoChemical::RR;
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

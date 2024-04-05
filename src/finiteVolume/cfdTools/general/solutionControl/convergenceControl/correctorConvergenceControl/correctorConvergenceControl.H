@@ -38,8 +38,8 @@ SourceFiles
 #ifndef correctorConvergenceControl_H
 #define correctorConvergenceControl_H
 
-#include "fvMesh.H"
-#include "solutionControl.H"
+#include "fvMesh/fvMesh.H"
+#include "cfdTools/general/solutionControl/solutionControl/solutionControl/solutionControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -160,7 +160,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "correctorConvergenceControlTemplates.C"
+    #include "cfdTools/general/solutionControl/convergenceControl/correctorConvergenceControl/correctorConvergenceControlTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

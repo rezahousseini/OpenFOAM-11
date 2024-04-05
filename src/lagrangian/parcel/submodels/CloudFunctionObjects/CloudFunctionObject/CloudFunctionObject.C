@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CloudFunctionObject.H"
-#include "writeFile.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * * //
 
@@ -154,6 +154,6 @@ Foam::fileName Foam::CloudFunctionObject<CloudType>::writeTimeDir() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CloudFunctionObjectNew.C"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObjectNew.C"
 
 // ************************************************************************* //

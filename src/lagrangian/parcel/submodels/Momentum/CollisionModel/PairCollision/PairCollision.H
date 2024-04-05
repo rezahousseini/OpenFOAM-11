@@ -34,9 +34,9 @@ SourceFiles
 #ifndef PairCollision_H
 #define PairCollision_H
 
-#include "CollisionModel.H"
-#include "InteractionLists.H"
-#include "WallSiteData.H"
+#include "submodels/Momentum/CollisionModel/CollisionModel/CollisionModel.H"
+#include "InteractionLists/InteractionLists.H"
+#include "submodels/Momentum/CollisionModel/PairCollision/WallSiteData/WallSiteData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PairCollision.C"
+    #include "submodels/Momentum/CollisionModel/PairCollision/PairCollision.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

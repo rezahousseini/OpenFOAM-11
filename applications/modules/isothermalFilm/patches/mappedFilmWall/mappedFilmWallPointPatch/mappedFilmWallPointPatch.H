@@ -32,8 +32,8 @@ SourceFiles
 #ifndef mappedFilmWallPointPatch_H
 #define mappedFilmWallPointPatch_H
 
-#include "filmWallPointPatch.H"
-#include "mappedFilmWallPolyPatch.H"
+#include "patches/filmWall/filmWallPointPatch/filmWallPointPatch.H"
+#include "patches/mappedFilmWall/mappedFilmWallPolyPatch/mappedFilmWallPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

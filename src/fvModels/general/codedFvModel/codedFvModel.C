@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedFvModel.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "addToRunTimeSelectionTable.H"
+#include "general/codedFvModel/codedFvModel.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

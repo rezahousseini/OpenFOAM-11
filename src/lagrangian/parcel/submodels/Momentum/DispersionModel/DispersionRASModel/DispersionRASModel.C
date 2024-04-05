@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DispersionRASModel.H"
-#include "demandDrivenData.H"
+#include "submodels/Momentum/DispersionModel/DispersionRASModel/DispersionRASModel.H"
+#include "include/demandDrivenData.H"
 #include "momentumTransportModel.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //

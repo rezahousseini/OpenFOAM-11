@@ -26,8 +26,8 @@ License
 #ifndef timeVaryingMappedFixedValueFvPatchFields_H
 #define timeVaryingMappedFixedValueFvPatchFields_H
 
-#include "timeVaryingMappedFixedValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValueFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LienLeschziner.H"
-#include "wallDist.H"
-#include "bound.H"
+#include "RAS/LienLeschziner/LienLeschziner.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "cfdTools/general/bound/bound.H"
 #include "makeMomentumTransportModel.H"
 
 makeMomentumTransportModelTypes

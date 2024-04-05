@@ -36,8 +36,8 @@ SourceFiles
 #ifndef tractionDisplacementFvPatchVectorField_H
 #define tractionDisplacementFvPatchVectorField_H
 
-#include "fixedGradientFvPatchFields.H"
-#include "Function1.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,7 +168,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "tractionDisplacementFvPatchVectorFieldTemplates.C"
+    #include "derivedFvPatchFields/tractionDisplacement/tractionDisplacementFvPatchVectorFieldTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchToPoly2DMesh.H"
-#include "PatchTools.H"
+#include "patchToPoly2DMesh/patchToPoly2DMesh.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

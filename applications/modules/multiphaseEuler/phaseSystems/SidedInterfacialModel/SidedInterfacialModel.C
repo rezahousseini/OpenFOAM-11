@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SidedInterfacialModel.H"
-#include "phaseSystem.H"
-#include "sidedPhaseInterface.H"
+#include "SidedInterfacialModel/SidedInterfacialModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "phaseInterface/sidedPhaseInterface/sidedPhaseInterface.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

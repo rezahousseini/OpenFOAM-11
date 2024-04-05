@@ -69,7 +69,7 @@ SourceFiles
 #ifndef meshObjects_H
 #define meshObjects_H
 
-#include "objectRegistry.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -144,7 +144,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "meshObjectsTemplates.C"
+    #include "meshes/meshObjects/meshObjectsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

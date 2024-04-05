@@ -37,8 +37,8 @@ SourceFiles
 #ifndef MRFPatchField_H
 #define MRFPatchField_H
 
-#include "fvPatchFields.H"
-#include "MRFZone.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "cfdTools/general/MRF/MRFZone.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

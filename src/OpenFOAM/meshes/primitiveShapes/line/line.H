@@ -35,11 +35,11 @@ SourceFiles
 #ifndef line_H
 #define line_H
 
-#include "vector.H"
-#include "PointHit.H"
-#include "point2D.H"
-#include "FixedList.H"
-#include "UList.H"
+#include "primitives/Vector/vector/vector.H"
+#include "meshes/primitiveShapes/objectHit/PointHit.H"
+#include "meshes/primitiveShapes/point2D/point2D.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/Lists/UList/UList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ scalar line<point2D, const point2D&>::nearestDist
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "lineI.H"
+#include "meshes/primitiveShapes/line/lineI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

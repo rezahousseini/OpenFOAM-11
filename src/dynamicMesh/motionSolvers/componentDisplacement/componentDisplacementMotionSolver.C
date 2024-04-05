@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "componentDisplacementMotionSolver.H"
-#include "polyTopoChangeMap.H"
+#include "motionSolvers/componentDisplacement/componentDisplacementMotionSolver.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

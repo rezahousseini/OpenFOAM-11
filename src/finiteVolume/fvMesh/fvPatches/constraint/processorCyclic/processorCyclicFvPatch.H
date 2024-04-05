@@ -35,9 +35,9 @@ SourceFiles
 #ifndef processorCyclicFvPatch_H
 #define processorCyclicFvPatch_H
 
-#include "processorCyclicPolyPatch.H"
-#include "processorFvPatch.H"
-#include "cyclicFvPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processorCyclic/processorCyclicPolyPatch.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

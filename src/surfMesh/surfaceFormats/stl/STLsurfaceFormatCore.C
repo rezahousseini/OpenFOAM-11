@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STLsurfaceFormatCore.H"
+#include "surfaceFormats/stl/STLsurfaceFormatCore.H"
 #include <gzstream.h>
-#include "OSspecific.H"
-#include "Map.H"
-#include "IFstream.H"
-#include "Ostream.H"
+#include "include/OSspecific.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 #undef DEBUG_STLBINARY
 

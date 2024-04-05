@@ -31,8 +31,8 @@ Description
 #ifndef point2DHit_H
 #define point2DHit_H
 
-#include "point2D.H"
-#include "PointHit.H"
+#include "meshes/primitiveShapes/point2D/point2D.H"
+#include "meshes/primitiveShapes/objectHit/PointHit.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

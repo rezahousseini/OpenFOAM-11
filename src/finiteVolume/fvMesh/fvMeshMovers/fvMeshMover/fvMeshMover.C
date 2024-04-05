@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshMover.H"
-#include "volFields.H"
+#include "fvMesh/fvMeshMovers/fvMeshMover/fvMeshMover.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

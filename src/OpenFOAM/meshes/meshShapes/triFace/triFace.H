@@ -40,13 +40,13 @@ SourceFiles
 #ifndef triFace_H
 #define triFace_H
 
-#include "FixedList.H"
-#include "edgeList.H"
-#include "pointHit.H"
-#include "intersection.H"
-#include "pointField.H"
-#include "triPointRef.H"
-#include "ListListOps.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "meshes/primitiveShapes/triangle/intersection.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -293,10 +293,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triFaceI.H"
+#include "meshes/meshShapes/triFace/triFaceI.H"
 
 #ifdef NoRepository
-    #include "triFaceTemplates.C"
+    #include "meshes/meshShapes/triFace/triFaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "UIPstream.H"
+#include "db/IOstreams/Pstreams/UIPstream.H"
 #include "PstreamGlobals.H"
-#include "IOstreams.H"
+#include "db/IOstreams/IOstreams.H"
 
 #include <mpi.h>
 

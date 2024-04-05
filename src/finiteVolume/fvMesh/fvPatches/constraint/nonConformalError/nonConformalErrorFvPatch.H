@@ -42,9 +42,9 @@ SourceFiles
 #ifndef nonConformalErrorFvPatch_H
 #define nonConformalErrorFvPatch_H
 
-#include "fvPatch.H"
-#include "nonConformalErrorPolyPatch.H"
-#include "nonConformalFvPatch.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "nonConformal/polyPatches/nonConformalError/nonConformalErrorPolyPatch.H"
+#include "fvMesh/fvPatches/constraint/nonConformal/nonConformalFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

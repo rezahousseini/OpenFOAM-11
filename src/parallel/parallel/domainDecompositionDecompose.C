@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "domainDecomposition.H"
-#include "decompositionMethod.H"
-#include "IOobjectList.H"
-#include "cyclicFvPatch.H"
-#include "processorCyclicFvPatch.H"
-#include "nonConformalCyclicFvPatch.H"
-#include "nonConformalProcessorCyclicFvPatch.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/processorCyclic/processorCyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/nonConformalCyclic/nonConformalCyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/nonConformalProcessorCyclic/nonConformalProcessorCyclicFvPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

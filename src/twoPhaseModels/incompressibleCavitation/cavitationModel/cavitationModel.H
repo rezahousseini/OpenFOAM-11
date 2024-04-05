@@ -36,8 +36,8 @@ SourceFiles
 #define cavitationModel_H
 
 #include "incompressibleTwoPhases.H"
-#include "fvMatricesFwd.H"
-#include "Pair.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "primitives/Pair/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

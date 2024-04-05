@@ -35,8 +35,8 @@ SourceFiles
 #ifndef processorPointPatchField_H
 #define processorPointPatchField_H
 
-#include "coupledPointPatchField.H"
-#include "processorPointPatch.H"
+#include "fields/pointPatchFields/basic/coupled/coupledPointPatchField.H"
+#include "meshes/pointMesh/pointPatches/constraint/processor/processorPointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -171,7 +171,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorPointPatchField.C"
+    #include "fields/pointPatchFields/constraint/processor/processorPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

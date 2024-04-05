@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "intersectionPatchToPatch.H"
-#include "triIntersect.H"
-#include "vtkWritePolyData.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patchToPatch/intersection/intersectionPatchToPatch.H"
+#include "triIntersect/triIntersect.H"
+#include "vtk/vtkWritePolyData.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

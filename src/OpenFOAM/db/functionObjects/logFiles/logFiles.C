@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "logFiles.H"
-#include "Time.H"
-#include "OSspecific.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "db/Time/Time.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

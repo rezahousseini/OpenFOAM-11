@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
 
-#include "edgeMesh.H"
+#include "edgeMesh/edgeMesh.H"
 
 using namespace Foam;
 

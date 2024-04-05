@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "variable.H"
-#include "debug.H"
+#include "primitives/strings/variable/variable.H"
+#include "global/debug/debug.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

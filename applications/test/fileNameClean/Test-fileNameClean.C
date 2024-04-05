@@ -28,12 +28,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "SubList.H"
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "OSspecific.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "containers/Lists/SubList/SubList.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "include/OSspecific.H"
 
 
 using namespace Foam;

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef opaqueSolid_H
 #define opaqueSolid_H
 
-#include "radiationModel.H"
+#include "radiationModels/radiationModel/radiationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

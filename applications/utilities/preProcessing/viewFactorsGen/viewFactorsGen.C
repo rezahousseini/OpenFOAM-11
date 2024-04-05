@@ -37,22 +37,22 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "singleCellFvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fixedValueFvPatchFields.H"
-#include "distributedTriSurfaceMesh.H"
-#include "symmetryPolyPatch.H"
-#include "symmetryPlanePolyPatch.H"
-#include "wedgePolyPatch.H"
-#include "meshTools.H"
-#include "uindirectPrimitivePatch.H"
-#include "DynamicField.H"
-#include "scalarListIOList.H"
-#include "polygonTriangulate.H"
-#include "vtkWritePolyData.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "fvMesh/singleCellFvMesh/singleCellFvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetryPlane/symmetryPlanePolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "meshTools/meshTools.H"
+#include "meshes/primitiveMesh/primitivePatch/uindirectPrimitivePatch.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "primitives/Scalar/lists/scalarListIOList.H"
+#include "algorithms/polygonTriangulate/polygonTriangulate.H"
+#include "vtk/vtkWritePolyData.H"
 
 using namespace Foam;
 
@@ -252,10 +252,10 @@ void insertMatrixElements
 
 int main(int argc, char *argv[])
 {
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     const polyBoundaryMesh& patches = mesh.boundaryMesh();
 

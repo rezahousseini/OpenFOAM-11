@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CentredFitSnGradScheme.H"
-#include "quadraticFitPolynomial.H"
-#include "centredCFCCellToFaceStencilObject.H"
+#include "finiteVolume/snGradSchemes/CentredFitSnGrad/CentredFitSnGradScheme.H"
+#include "interpolation/surfaceInterpolation/schemes/quadraticFit/quadraticFitPolynomial.H"
+#include "fvMesh/extendedStencil/cellToFace/MeshObjects/centredCFCCellToFaceStencilObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

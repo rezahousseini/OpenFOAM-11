@@ -37,8 +37,8 @@ SourceFiles
 #ifndef refinementDistanceData_H
 #define refinementDistanceData_H
 
-#include "point.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -244,7 +244,7 @@ inline bool contiguous<refinementDistanceData>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "refinementDistanceDataI.H"
+#include "polyTopoChange/polyTopoChange/refinementDistanceDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

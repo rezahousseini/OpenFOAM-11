@@ -38,11 +38,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "boundBox.H"
-#include "edgeMesh.H"
-#include "matchPoints.H"
-#include "MeshedSurfaces.H"
+#include "global/argList/argList.H"
+#include "meshes/boundBox/boundBox.H"
+#include "edgeMesh/edgeMesh.H"
+#include "meshes/meshTools/matchPoints.H"
+#include "MeshedSurface/MeshedSurfaces.H"
 
 using namespace Foam;
 
@@ -128,7 +128,7 @@ void getFixedPoints
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::validOptions.clear();
     argList::validArgs.append("surface file");

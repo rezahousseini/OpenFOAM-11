@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "alphaOneFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/alphaOne/alphaOneFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

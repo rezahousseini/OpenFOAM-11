@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "contactAngleModel.H"
-#include "constantContactAngle.H"
+#include "contactAngleModels/contactAngleModel/contactAngleModel.H"
+#include "contactAngleModels/constant/constantContactAngle.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

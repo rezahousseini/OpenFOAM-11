@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Sine.H"
+#include "primitives/functions/Function1/Sine/Sine.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

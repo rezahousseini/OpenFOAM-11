@@ -34,12 +34,12 @@ SourceFiles:
 #ifndef cutTriTet_H
 #define cutTriTet_H
 
-#include "FixedList.H"
-#include "nil.H"
-#include "plane.H"
-#include "tetPointRef.H"
-#include "triPointRef.H"
-#include "zero.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "primitives/nil/nil.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "meshes/primitiveShapes/tetrahedron/tetPointRef.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "primitives/zero/zero.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -612,10 +612,10 @@ typename cutTriTet::opAddResult<AboveOp, BelowOp>::type tetCut
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cutTriTetI.H"
+#include "cutTriTet/cutTriTetI.H"
 
 #ifdef NoRepository
-    #include "cutTriTetTemplates.C"
+    #include "cutTriTet/cutTriTetTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

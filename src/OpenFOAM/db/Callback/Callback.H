@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Callback_H
 #define Callback_H
 
-#include "CallbackRegistry.H"
+#include "db/CallbackRegistry/CallbackRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Callback.C"
+    #include "db/Callback/Callback.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

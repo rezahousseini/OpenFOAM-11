@@ -40,8 +40,8 @@ SourceFiles
 #ifndef functionObjects_shearStress_H
 #define functionObjects_shearStress_H
 
-#include "fieldExpression.H"
-#include "writeLocalObjects.H"
+#include "fieldExpression/fieldExpression.H"
+#include "db/functionObjects/writeLocalObjects/writeLocalObjects.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

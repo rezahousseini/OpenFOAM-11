@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DSMCParcel.H"
-#include "IOstreams.H"
-#include "IOField.H"
-#include "Cloud.H"
+#include "parcels/Templates/DSMCParcel/DSMCParcel.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "Cloud/Cloud.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

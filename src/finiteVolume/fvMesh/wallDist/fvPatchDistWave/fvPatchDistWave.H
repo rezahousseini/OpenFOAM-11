@@ -36,12 +36,12 @@ SourceFiles
 #ifndef fvPatchDistWave_H
 #define fvPatchDistWave_H
 
-#include "FvFaceCellWave.H"
-#include "volFields.H"
-#include "wallPoint.H"
-#include "wallFace.H"
-#include "WallLocationData.H"
-#include "FvWallInfo.H"
+#include "algorithms/FvFaceCellWave/FvFaceCellWave.H"
+#include "fields/volFields/volFields.H"
+#include "patchDist/WallLocation/wallPoint.H"
+#include "patchDist/WallLocation/wallFace.H"
+#include "patchDist/WallLocation/WallLocationData.H"
+#include "fvMesh/wallDist/FvWallInfo/FvWallInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -242,7 +242,7 @@ label calculateAndCorrect
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvPatchDistWaveTemplates.C"
+    #include "fvMesh/wallDist/fvPatchDistWave/fvPatchDistWaveTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

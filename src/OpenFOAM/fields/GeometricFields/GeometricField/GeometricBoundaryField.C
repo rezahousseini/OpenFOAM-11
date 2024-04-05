@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricBoundaryField.H"
-#include "emptyPolyPatch.H"
-#include "commSchedule.H"
-#include "globalMeshData.H"
-#include "cyclicPolyPatch.H"
-#include "processorPolyPatch.H"
+#include "fields/GeometricFields/GeometricField/GeometricBoundaryField.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/globalMeshData/commSchedule.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

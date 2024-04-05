@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeVaryingMappedFvPatchField.H"
-#include "Time.H"
-#include "AverageField.H"
-#include "IFstream.H"
-#include "OSspecific.H"
+#include "fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFvPatchField/timeVaryingMappedFvPatchField.H"
+#include "db/Time/Time.H"
+#include "fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFvPatchField/AverageField.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

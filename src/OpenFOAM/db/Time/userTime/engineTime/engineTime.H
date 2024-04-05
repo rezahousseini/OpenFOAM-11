@@ -35,8 +35,8 @@ SourceFiles
 #ifndef engineTime_H
 #define engineTime_H
 
-#include "userTime.H"
-#include "dimensionedTypes.H"
+#include "db/Time/userTime/userTime/userTime.H"
+#include "dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

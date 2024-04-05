@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPatchField.H"
-#include "pointMesh.H"
-#include "dictionary.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -302,6 +302,6 @@ Foam::Ostream& Foam::operator<<
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointPatchFieldNew.C"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldNew.C"
 
 // ************************************************************************* //

@@ -70,8 +70,8 @@ SourceFiles
 #ifndef mappedValueFvPatchField_H
 #define mappedValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "mappedFvPatchField.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/derived/mapped/mappedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -175,7 +175,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedValueFvPatchField.C"
+    #include "fields/fvPatchFields/derived/mappedValue/mappedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeReaction.H"
+#include "reaction/makeReaction.H"
 
-#include "phaseSurfaceArrheniusReactionRate.H"
+#include "phaseSurfaceArrheniusReactionRate/phaseSurfaceArrheniusReactionRate.H"
 
-#include "forGases.H"
+#include "include/forGases.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "barycentric.H"
-#include "Random.H"
+#include "primitives/Barycentric/barycentric/barycentric.H"
+#include "primitives/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

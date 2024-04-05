@@ -75,8 +75,8 @@ SourceFiles
 #ifndef SSG_H
 #define SSG_H
 
-#include "RASModel.H"
-#include "ReynoldsStress.H"
+#include "RAS/RASModel/RASModel.H"
+#include "ReynoldsStress/ReynoldsStress.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -216,7 +216,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SSG.C"
+    #include "RAS/SSG/SSG.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

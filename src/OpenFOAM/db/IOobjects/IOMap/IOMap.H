@@ -33,8 +33,8 @@ Description
 #ifndef IOMap_H
 #define IOMap_H
 
-#include "IOList.H"
-#include "Map.H"
+#include "db/IOobjects/IOList/IOList.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

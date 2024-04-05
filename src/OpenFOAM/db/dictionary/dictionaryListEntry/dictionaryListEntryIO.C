@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionaryListEntry.H"
-#include "keyType.H"
-#include "IOobject.H"
+#include "db/dictionary/dictionaryListEntry/dictionaryListEntry.H"
+#include "db/dictionary/keyType/keyType.H"
+#include "db/IOobject/IOobject.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

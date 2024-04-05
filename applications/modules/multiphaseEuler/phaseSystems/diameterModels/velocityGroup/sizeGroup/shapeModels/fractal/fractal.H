@@ -64,8 +64,8 @@ SourceFiles
 #ifndef fractal_H
 #define fractal_H
 
-#include "SecondaryPropertyModel.H"
-#include "shapeModel.H"
+#include "diameterModels/velocityGroup/sizeGroup/SecondaryPropertyModel/SecondaryPropertyModel.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/shapeModel/shapeModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triIntersect.H"
-#include "vtkWritePolyData.H"
+#include "triIntersect/triIntersect.H"
+#include "vtk/vtkWritePolyData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

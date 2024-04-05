@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codeStream.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "Time.H"
-#include "OSspecific.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/codeStream/codeStream.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
+#include "db/Time/Time.H"
+#include "include/OSspecific.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

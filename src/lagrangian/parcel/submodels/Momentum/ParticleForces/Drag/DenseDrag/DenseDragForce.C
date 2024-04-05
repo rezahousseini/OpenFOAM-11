@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DenseDragForce.H"
-#include "SchillerNaumannDragForce.H"
-#include "volFields.H"
+#include "submodels/Momentum/ParticleForces/Drag/DenseDrag/DenseDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/SchillerNaumannDrag/SchillerNaumannDragForce.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

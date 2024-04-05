@@ -25,20 +25,20 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "label.H"
-#include "labelList.H"
-#include "OStringStream.H"
-#include "IStringStream.H"
-#include "OFstream.H"
-#include "IFstream.H"
-#include "point.H"
-#include "Time.H"
-#include "fvMesh.H"
+#include "global/argList/argList.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "db/Time/Time.H"
+#include "fvMesh/fvMesh.H"
 #include "router.H"
-#include "processorPolyPatch.H"
-#include "typeInfo.H"
-#include "Gather.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "db/typeInfo/typeInfo.H"
+#include "Gather/Gather.H"
 
 
 using namespace Foam;
@@ -95,9 +95,9 @@ point meshCentre(const polyMesh& mesh)
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     word procLabel = '[' + word(name(Pstream::myProcNo())) + "]-";
 

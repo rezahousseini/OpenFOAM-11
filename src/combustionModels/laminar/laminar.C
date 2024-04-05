@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminar.H"
-#include "fvmSup.H"
-#include "localEulerDdtScheme.H"
-#include "addToRunTimeSelectionTable.H"
+#include "laminar/laminar.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

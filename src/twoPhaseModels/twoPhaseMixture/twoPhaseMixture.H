@@ -35,8 +35,8 @@ SourceFiles
 #ifndef twoPhaseMixture_H
 #define twoPhaseMixture_H
 
-#include "IOdictionary.H"
-#include "volFields.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/volFields/volFields.H"
 #include "twoPhases.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

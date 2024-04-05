@@ -44,9 +44,9 @@ SourceFiles
 #ifndef filmCloudTransfer_H
 #define filmCloudTransfer_H
 
-#include "fvModel.H"
+#include "cfdTools/general/fvModels/fvModel.H"
 #include "isothermalFilm.H"
-#include "ejectionModel.H"
+#include "fvModels/filmCloudTransfer/ejectionModels/ejectionModel/ejectionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

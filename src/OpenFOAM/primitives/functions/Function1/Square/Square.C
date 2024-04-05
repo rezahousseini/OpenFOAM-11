@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Square.H"
+#include "primitives/functions/Function1/Square/Square.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

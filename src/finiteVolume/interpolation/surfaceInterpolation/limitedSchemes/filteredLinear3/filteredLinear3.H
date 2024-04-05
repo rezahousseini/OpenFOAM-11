@@ -43,7 +43,7 @@ SourceFiles
 #ifndef filteredLinear3_H
 #define filteredLinear3_H
 
-#include "vector.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

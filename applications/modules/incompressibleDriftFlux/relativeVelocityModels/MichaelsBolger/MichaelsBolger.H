@@ -55,7 +55,7 @@ SourceFiles
 #ifndef MichaelsBolger_H
 #define MichaelsBolger_H
 
-#include "relativeVelocityModel.H"
+#include "relativeVelocityModels/relativeVelocityModel/relativeVelocityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

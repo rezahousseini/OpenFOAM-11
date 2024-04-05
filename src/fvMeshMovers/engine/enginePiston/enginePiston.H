@@ -35,9 +35,9 @@ SourceFiles
 #ifndef enginePiston_H
 #define enginePiston_H
 
-#include "fvMeshMoversEngine.H"
-#include "polyPatchID.H"
-#include "coordinateSystem.H"
+#include "engine/engine/fvMeshMoversEngine.H"
+#include "meshes/Identifiers/patch/polyPatchID.H"
+#include "coordinateSystems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

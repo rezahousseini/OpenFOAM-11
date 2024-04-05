@@ -35,8 +35,8 @@ SourceFiles
 #ifndef caseFileConfiguration_H
 #define caseFileConfiguration_H
 
-#include "IOobject.H"
-#include "OFstream.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

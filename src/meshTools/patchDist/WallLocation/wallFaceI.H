@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallFace.H"
-#include "polyMesh.H"
-#include "transformer.H"
+#include "patchDist/WallLocation/wallFace.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "primitives/transform/transformer/transformer.H"
 
 // * * * * * * * * * * * *  Protected Member Functions * * * * * * * * * * * //
 

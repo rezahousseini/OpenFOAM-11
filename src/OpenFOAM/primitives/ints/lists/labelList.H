@@ -44,8 +44,8 @@ Description
 #ifndef labelList_H
 #define labelList_H
 
-#include "label.H"
-#include "List.H"
+#include "primitives/ints/label/label.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

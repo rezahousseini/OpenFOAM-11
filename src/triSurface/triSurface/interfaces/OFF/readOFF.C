@@ -26,10 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "polygonTriangulate.H"
-#include "IFstream.H"
-#include "IStringStream.H"
+#include "triSurface/triSurface.H"
+#include "algorithms/polygonTriangulate/polygonTriangulate.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

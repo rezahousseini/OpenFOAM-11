@@ -55,9 +55,9 @@ SourceFiles
 #ifndef lineUniform_H
 #define lineUniform_H
 
-#include "passiveParticleCloud.H"
-#include "sampledSet.H"
-#include "DynamicList.H"
+#include "passiveParticle/passiveParticleCloud.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

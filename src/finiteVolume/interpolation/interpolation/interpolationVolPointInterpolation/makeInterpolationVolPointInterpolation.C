@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationVolPointInterpolation.H"
+#include "interpolation/interpolation/interpolationVolPointInterpolation/interpolationVolPointInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

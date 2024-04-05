@@ -27,15 +27,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "triSurfaceMesh.H"
-#include "featureEdgeMesh.H"
-#include "extendedFeatureEdgeMesh.H"
-#include "surfaceFeatures.H"
-#include "triSurfaceFields.H"
-#include "vtkWritePolyData.H"
-#include "systemDict.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "edgeMesh/featureEdgeMesh/featureEdgeMesh.H"
+#include "edgeMesh/extendedEdgeMesh/extendedFeatureEdgeMesh/extendedFeatureEdgeMesh.H"
+#include "triSurface/surfaceFeatures/surfaceFeatures.H"
+#include "triSurfaceFields/triSurfaceFields.H"
+#include "vtk/vtkWritePolyData.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
 using namespace Foam;
 
@@ -726,10 +726,10 @@ int main(int argc, char *argv[])
     );
     argList::noParallel();
 
-    #include "addDictOption.H"
+    #include "include/addDictOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const dictionary dict(systemDict("surfaceFeaturesDict", args, runTime));
 

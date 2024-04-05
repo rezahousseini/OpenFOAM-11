@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvSolution.H"
-#include "singleStepCombustion.H"
-#include "fvmSup.H"
+#include "finiteVolume/fvSolution/fvSolution.H"
+#include "singleStepCombustion/singleStepCombustion.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //

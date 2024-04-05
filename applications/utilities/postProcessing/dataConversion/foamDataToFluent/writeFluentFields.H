@@ -29,8 +29,8 @@ InClass
 #ifndef writeFluentFields_H
 #define writeFluentFields_H
 
-#include "volFields.H"
-#include "Ostream.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

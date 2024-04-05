@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reconstruct.H"
-#include "fvcReconstruct.H"
-#include "addToRunTimeSelectionTable.H"
+#include "reconstruct/reconstruct.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

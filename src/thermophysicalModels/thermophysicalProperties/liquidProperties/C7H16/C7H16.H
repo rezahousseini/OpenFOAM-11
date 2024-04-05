@@ -35,17 +35,17 @@ SourceFiles
 #ifndef C7H16_H
 #define C7H16_H
 
-#include "liquidProperties.H"
-#include "NSRDS0.H"
-#include "NSRDS1.H"
-#include "NSRDS2.H"
-#include "NSRDS3.H"
-#include "NSRDS4.H"
-#include "NSRDS5.H"
-#include "NSRDS6.H"
-#include "NSRDS7.H"
-#include "NSRDS14.H"
-#include "APIdiffCoef.H"
+#include "liquidProperties/liquidProperties/liquidProperties.H"
+#include "thermophysicalFunctions/NSRDS/NSRDS0/NSRDS0.H"
+#include "thermophysicalFunctions/NSRDS/NSRDS1/NSRDS1.H"
+#include "thermophysicalFunctions/NSRDS/NSRDS2/NSRDS2.H"
+#include "thermophysicalFunctions/NSRDS/NSRDS3/NSRDS3.H"
+#include "thermophysicalFunctions/NSRDS/NSRDS4/NSRDS4.H"
+#include "thermophysicalFunctions/NSRDS/NSRDS5/NSRDS5.H"
+#include "thermophysicalFunctions/NSRDS/NSRDS6/NSRDS6.H"
+#include "thermophysicalFunctions/NSRDS/NSRDS7/NSRDS7.H"
+#include "thermophysicalFunctions/NSRDS/NSRDS14/NSRDS14.H"
+#include "thermophysicalFunctions/APIdiffCoef/APIdiffCoef.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "C7H16I.H"
+#include "liquidProperties/C7H16/C7H16I.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoSet.H"
-#include "polyTopoChangeMap.H"
-#include "polyMesh.H"
-#include "boundBox.H"
-#include "Time.H"
+#include "sets/topoSets/topoSet.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/boundBox/boundBox.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 #ifndef internalFvPatchFields_H
 #define internalFvPatchFields_H
 
-#include "internalFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/internal/internalFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

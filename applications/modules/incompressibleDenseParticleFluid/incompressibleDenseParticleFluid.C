@@ -24,11 +24,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleDenseParticleFluid.H"
-#include "surfaceInterpolate.H"
-#include "fvMatrix.H"
-#include "fvcFlux.H"
-#include "zeroGradientFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

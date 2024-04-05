@@ -35,8 +35,8 @@ SourceFiles
 #ifndef IOField_H
 #define IOField_H
 
-#include "IOList.H"
-#include "Field.H"
+#include "db/IOobjects/IOList/IOList.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -82,7 +82,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IOField.C"
+    #include "db/IOobjects/IOField/IOField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

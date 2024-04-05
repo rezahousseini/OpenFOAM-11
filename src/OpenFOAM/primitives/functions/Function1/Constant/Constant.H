@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Constant_H
 #define Constant_H
 
-#include "Function1.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,11 +124,11 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ConstantI.H"
+#include "primitives/functions/Function1/Constant/ConstantI.H"
 
 #ifdef NoRepository
-    #include "Constant.C"
-    #include "Function1New.C"
+    #include "primitives/functions/Function1/Constant/Constant.C"
+    #include "primitives/functions/Function1/Function1/Function1New.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

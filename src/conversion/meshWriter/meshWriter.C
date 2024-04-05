@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshWriter.H"
-#include "cellModeller.H"
+#include "meshWriter/meshWriter.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

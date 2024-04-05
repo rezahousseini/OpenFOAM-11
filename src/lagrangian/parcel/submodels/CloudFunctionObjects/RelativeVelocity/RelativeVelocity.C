@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RelativeVelocity.H"
+#include "submodels/CloudFunctionObjects/RelativeVelocity/RelativeVelocity.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

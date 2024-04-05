@@ -73,10 +73,10 @@ SourceFiles
 #ifndef heatTransfer_H
 #define heatTransfer_H
 
-#include "fvModel.H"
-#include "fvCellSet.H"
-#include "heatTransferCoefficientModel.H"
-#include "heatTransferAv.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
+#include "derived/heatTransfer/heatTransferCoefficientModels/heatTransferCoefficientModel/heatTransferCoefficientModel.H"
+#include "derived/heatTransfer/heatTransferAv/heatTransferAv.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

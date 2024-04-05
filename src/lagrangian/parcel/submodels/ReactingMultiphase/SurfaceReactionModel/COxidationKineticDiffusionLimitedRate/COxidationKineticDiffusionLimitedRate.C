@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "COxidationKineticDiffusionLimitedRate.H"
-#include "mathematicalConstants.H"
+#include "submodels/ReactingMultiphase/SurfaceReactionModel/COxidationKineticDiffusionLimitedRate/COxidationKineticDiffusionLimitedRate.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

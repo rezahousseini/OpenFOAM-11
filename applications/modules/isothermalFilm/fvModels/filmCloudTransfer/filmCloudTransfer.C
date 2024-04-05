@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmCloudTransfer.H"
-#include "mappedPatchBase.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvModels/filmCloudTransfer/filmCloudTransfer.H"
+#include "mappedPatches/mappedPatchBase/mappedPatchBase.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

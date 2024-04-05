@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalTensorField.H"
-#include "transformField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorField.H"
+#include "fields/Fields/transformField/transformField.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.C"
+#include "fields/Fields/Field/FieldFunctionsM.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -95,6 +95,6 @@ tmp<Field<sphericalTensor>> transformFieldMask<sphericalTensor>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

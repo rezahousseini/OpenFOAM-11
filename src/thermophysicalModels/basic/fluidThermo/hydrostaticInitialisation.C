@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hydrostaticInitialisation.H"
+#include "fluidThermo/hydrostaticInitialisation.H"
 
-#include "fluidThermo.H"
-#include "fvmLaplacian.H"
-#include "fvcDiv.H"
-#include "fvcSnGrad.H"
-#include "surfaceInterpolate.H"
-#include "constrainPressure.H"
-#include "uniformDimensionedFields.H"
+#include "fluidThermo/fluidThermo.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "cfdTools/general/constrainPressure/constrainPressure.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

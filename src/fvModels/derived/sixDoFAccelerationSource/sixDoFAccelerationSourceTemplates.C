@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFAccelerationSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "uniformDimensionedFields.H"
+#include "derived/sixDoFAccelerationSource/sixDoFAccelerationSource.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

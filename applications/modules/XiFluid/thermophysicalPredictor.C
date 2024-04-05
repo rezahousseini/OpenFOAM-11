@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "XiFluid.H"
-#include "fvcSnGrad.H"
-#include "fvcLaplacian.H"
-#include "fvcDdt.H"
-#include "fvcMeshPhi.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

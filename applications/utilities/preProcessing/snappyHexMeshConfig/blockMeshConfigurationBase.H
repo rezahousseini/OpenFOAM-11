@@ -37,7 +37,7 @@ SourceFiles
 
 #include "caseFileConfiguration.H"
 #include "meshingSurfaceList.H"
-#include "boundBox.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

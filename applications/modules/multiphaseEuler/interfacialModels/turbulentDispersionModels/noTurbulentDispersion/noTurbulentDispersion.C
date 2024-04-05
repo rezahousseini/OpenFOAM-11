@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noTurbulentDispersion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulentDispersionModels/noTurbulentDispersion/noTurbulentDispersion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

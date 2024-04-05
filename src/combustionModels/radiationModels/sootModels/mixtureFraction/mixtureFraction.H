@@ -58,7 +58,7 @@ SourceFiles
 #ifndef mixtureFraction_H
 #define mixtureFraction_H
 
-#include "sootModel.H"
+#include "sootModels/sootModel/sootModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

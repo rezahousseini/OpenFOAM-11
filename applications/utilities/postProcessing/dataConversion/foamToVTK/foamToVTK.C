@@ -133,34 +133,34 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "pointMesh.H"
-#include "volPointInterpolation.H"
-#include "emptyPolyPatch.H"
-#include "nonConformalPolyPatch.H"
-#include "labelIOField.H"
-#include "scalarIOField.H"
-#include "sphericalTensorIOField.H"
-#include "symmTensorIOField.H"
-#include "tensorIOField.H"
-#include "meshFaceZones.H"
-#include "Cloud.H"
-#include "passiveParticle.H"
-#include "stringListOps.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformal/nonConformalPolyPatch.H"
+#include "fields/Fields/labelField/labelIOField.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorIOField.H"
+#include "fields/Fields/symmTensorField/symmTensorIOField.H"
+#include "fields/Fields/tensorField/tensorIOField.H"
+#include "meshes/polyMesh/zones/MeshZones/meshFaceZones.H"
+#include "Cloud/Cloud.H"
+#include "passiveParticle/passiveParticle.H"
+#include "primitives/strings/lists/stringListOps.H"
 
 #include "vtkMesh.H"
 #include "readFields.H"
-#include "vtkWriteOps.H"
+#include "vtk/vtkWriteOps.H"
 
-#include "internalWriter.H"
-#include "patchWriter.H"
-#include "lagrangianWriter.H"
+#include "foamToVTK/internalWriter.H"
+#include "foamToVTK/patchWriter.H"
+#include "foamToVTK/lagrangianWriter.H"
 
-#include "writeFaceSet.H"
-#include "writePointSet.H"
-#include "surfaceMeshWriter.H"
-#include "writeSurfFields.H"
+#include "foamToVTK/writeFaceSet.H"
+#include "foamToVTK/writePointSet.H"
+#include "foamToVTK/surfaceMeshWriter.H"
+#include "foamToVTK/writeSurfFields.H"
 
 using namespace Foam;
 
@@ -241,7 +241,7 @@ int main(int argc, char *argv[])
     );
     timeSelector::addOptions();
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::addOption
     (
         "fields",
@@ -324,8 +324,8 @@ int main(int argc, char *argv[])
         "use the time name instead of the time index when naming the files"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool doWriteInternal = !args.optionFound("noInternal");
     const bool doFaceZones     = !args.optionFound("noFaceZones");
@@ -404,7 +404,7 @@ int main(int argc, char *argv[])
 
     const instantList timeDirs = timeSelector::select0(runTime, args);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // VTK/ directory in the case
     fileName fvPath(runTime.path()/"VTK");

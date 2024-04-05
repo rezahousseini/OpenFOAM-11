@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kineticTheoryModel.H"
-#include "mathematicalConstants.H"
-#include "phaseSystem.H"
-#include "fvcDdt.H"
-#include "fvcSup.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
+#include "kineticTheoryModels/kineticTheoryModel/kineticTheoryModel.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "phaseSystem/phaseSystem.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcSup.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -43,8 +43,8 @@ See also
 #ifndef PackedBoolList_H
 #define PackedBoolList_H
 
-#include "PackedList.H"
-#include "UIndirectList.H"
+#include "containers/Lists/PackedList/PackedList.H"
+#include "containers/Lists/UIndirectList/UIndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -283,7 +283,7 @@ PackedBoolList operator|
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PackedBoolListI.H"
+#include "containers/Lists/PackedList/PackedBoolListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

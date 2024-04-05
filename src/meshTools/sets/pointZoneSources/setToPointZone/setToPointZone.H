@@ -35,7 +35,7 @@ SourceFiles
 #ifndef setToPointZone_H
 #define setToPointZone_H
 
-#include "topoSetSource.H"
+#include "sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

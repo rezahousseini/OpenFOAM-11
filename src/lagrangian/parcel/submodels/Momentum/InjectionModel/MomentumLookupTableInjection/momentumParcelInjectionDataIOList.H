@@ -34,8 +34,8 @@ SourceFiles
 #ifndef momentumParcelInjectionDataIOList_H
 #define momentumParcelInjectionDataIOList_H
 
-#include "GlobalIOList.H"
-#include "momentumParcelInjectionData.H"
+#include "db/IOobjects/GlobalIOList/GlobalIOList.H"
+#include "submodels/Momentum/InjectionModel/MomentumLookupTableInjection/momentumParcelInjectionData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

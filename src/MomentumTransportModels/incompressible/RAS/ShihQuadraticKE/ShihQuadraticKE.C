@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ShihQuadraticKE.H"
-#include "bound.H"
-#include "wallFvPatch.H"
-#include "nutkWallFunctionFvPatchScalarField.H"
+#include "RAS/ShihQuadraticKE/ShihQuadraticKE.H"
+#include "cfdTools/general/bound/bound.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutkWallFunction/nutkWallFunctionFvPatchScalarField.H"
 #include "makeMomentumTransportModel.H"
 
 makeMomentumTransportModelTypes

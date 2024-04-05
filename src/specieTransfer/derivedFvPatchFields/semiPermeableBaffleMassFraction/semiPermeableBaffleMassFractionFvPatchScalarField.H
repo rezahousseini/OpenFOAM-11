@@ -85,7 +85,7 @@ SourceFiles
 #ifndef semiPermeableBaffleMassFractionFvPatchScalarField_H
 #define semiPermeableBaffleMassFractionFvPatchScalarField_H
 
-#include "specieTransferMassFractionFvPatchScalarField.H"
+#include "derivedFvPatchFields/specieTransferMassFraction/specieTransferMassFractionFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

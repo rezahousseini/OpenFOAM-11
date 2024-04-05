@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonConformalCoupledPolyPatch.H"
-#include "nonConformalErrorPolyPatch.H"
-#include "polyMesh.H"
+#include "nonConformal/polyPatches/nonConformalCoupled/nonConformalCoupledPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformalError/nonConformalErrorPolyPatch.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

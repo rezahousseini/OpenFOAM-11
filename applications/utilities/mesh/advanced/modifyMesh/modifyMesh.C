@@ -48,18 +48,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyTopoChangeMap.H"
-#include "boundaryCutter.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshCut/meshModifiers/boundaryCutter/boundaryCutter.H"
 #include "cellSplitter.H"
-#include "edgeCollapser.H"
-#include "meshTools.H"
-#include "Pair.H"
-#include "globalIndex.H"
-#include "systemDict.H"
+#include "polyTopoChange/polyTopoChange/edgeCollapser.H"
+#include "meshTools/meshTools.H"
+#include "primitives/Pair/Pair.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
 using namespace Foam;
 
@@ -329,11 +329,11 @@ label findCell(const primitiveMesh& mesh, const point& nearPoint)
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createPolyMesh.H"
     const word oldInstance = mesh.pointsInstance();
 
     const bool overwrite = args.optionFound("overwrite");

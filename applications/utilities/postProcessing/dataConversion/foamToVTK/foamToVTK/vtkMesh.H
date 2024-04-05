@@ -37,7 +37,7 @@ SourceFiles
 #define vtkMesh_H
 
 #include "vtkTopo.H"
-#include "fvMeshSubset.H"
+#include "fvMeshSubset/fvMeshSubset.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

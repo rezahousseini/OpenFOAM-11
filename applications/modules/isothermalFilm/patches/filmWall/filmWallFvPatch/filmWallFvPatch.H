@@ -35,8 +35,8 @@ SourceFiles
 #ifndef filmWallFvPatch_H
 #define filmWallFvPatch_H
 
-#include "filmFvPatch.H"
-#include "filmWallPolyPatch.H"
+#include "patches/filmFvPatch/filmFvPatch.H"
+#include "patches/filmWall/filmWallPolyPatch/filmWallPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

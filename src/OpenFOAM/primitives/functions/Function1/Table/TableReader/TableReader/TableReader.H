@@ -35,8 +35,8 @@ SourceFiles
 #ifndef TableReader_H
 #define TableReader_H
 
-#include "dictionary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,8 +139,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TableReader.C"
-    #include "TableReaderNew.C"
+    #include "primitives/functions/Function1/Table/TableReader/TableReader/TableReader.C"
+    #include "primitives/functions/Function1/Table/TableReader/TableReader/TableReaderNew.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -24,10 +24,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "compressibleVoF.H"
-#include "localEulerDdtScheme.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

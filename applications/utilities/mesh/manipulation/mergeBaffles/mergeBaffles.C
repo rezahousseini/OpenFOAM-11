@@ -30,23 +30,23 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "syncTools.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "meshTools.H"
-#include "polyTopoChange.H"
-#include "polyRemoveFace.H"
-#include "polyModifyFace.H"
-#include "indirectPrimitivePatch.H"
-#include "processorPolyPatch.H"
-#include "localPointRegion.H"
-#include "duplicatePoints.H"
-#include "ReadFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/pointSet.H"
+#include "meshTools/meshTools.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/removeObject/polyRemoveFace.H"
+#include "polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "regionSplit/localPointRegion.H"
+#include "polyTopoChange/polyTopoChange/duplicatePoints.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 using namespace Foam;
 
@@ -177,17 +177,17 @@ int main(int argc, char *argv[])
         "and merge them into internal faces."
     );
 
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
     argList::addBoolOption
     (
         "fields",
         "update fields"
     );
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createNamedMesh.H"
 
     const bool overwrite  = args.optionFound("overwrite");
     const bool fields     = args.optionFound("fields");
@@ -199,9 +199,9 @@ int main(int argc, char *argv[])
 
     if (fields) Info<< "Reading geometric fields" << nl << endl;
 
-    #include "readVolFields.H"
-    #include "readSurfaceFields.H"
-    #include "readPointFields.H"
+    #include "fields/ReadFields/readVolFields.H"
+    #include "fields/ReadFields/readSurfaceFields.H"
+    #include "fields/ReadFields/readPointFields.H"
 
     // Mesh change engine
     polyTopoChange meshMod(mesh);

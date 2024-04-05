@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalMeshData.H"
-#include "Pstream.H"
-#include "PstreamCombineReduceOps.H"
-#include "processorPolyPatch.H"
-#include "globalPoints.H"
-#include "polyMesh.H"
-#include "distributionMap.H"
-#include "labelIOList.H"
-#include "globalIndexAndTransform.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/IOstreams/Pstreams/PstreamCombineReduceOps.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/globalMeshData/globalPoints.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "primitives/globalIndexAndTransform/globalIndexAndTransform.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

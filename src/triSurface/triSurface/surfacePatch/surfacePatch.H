@@ -35,10 +35,10 @@ SourceFiles
 #ifndef surfacePatch_H
 #define surfacePatch_H
 
-#include "geometricSurfacePatch.H"
-#include "word.H"
-#include "label.H"
-#include "className.H"
+#include "triSurface/geometricSurfacePatch/geometricSurfacePatch.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/ints/label/label.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

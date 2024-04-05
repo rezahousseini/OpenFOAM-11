@@ -43,7 +43,7 @@ SourceFiles
 #ifndef anisotropicFilter_H
 #define anisotropicFilter_H
 
-#include "LESfilter.H"
+#include "LES/LESfilters/LESfilter/LESfilter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

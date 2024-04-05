@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "twoPhaseVoFSolver.H"
-#include "fvcAverage.H"
+#include "finiteVolume/fvc/fvcAverage.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

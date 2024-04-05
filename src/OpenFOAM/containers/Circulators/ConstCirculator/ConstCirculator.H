@@ -79,7 +79,7 @@ SourceFiles
 #ifndef ConstCirculator_H
 #define ConstCirculator_H
 
-#include "CirculatorBase.H"
+#include "containers/Circulators/CirculatorBase/CirculatorBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -245,7 +245,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ConstCirculatorI.H"
+#include "containers/Circulators/ConstCirculator/ConstCirculatorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

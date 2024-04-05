@@ -32,7 +32,7 @@ SourceFiles
 #ifndef meshPhiCorrectInfo_H
 #define meshPhiCorrectInfo_H
 
-#include "meshPhiPreCorrectInfo.H"
+#include "moving/meshPhiPreCorrectInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -234,7 +234,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshPhiCorrectInfoI.H"
+#include "moving/meshPhiCorrectInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

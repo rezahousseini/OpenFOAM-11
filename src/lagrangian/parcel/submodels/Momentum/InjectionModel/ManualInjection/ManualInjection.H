@@ -43,10 +43,10 @@ SourceFiles
 #ifndef ManualInjection_H
 #define ManualInjection_H
 
-#include "InjectionModel.H"
-#include "distribution.H"
-#include "Switch.H"
-#include "GlobalIOField.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.H"
+#include "distributions/distribution/distribution.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/IOobjects/GlobalIOField/GlobalIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ManualInjection.C"
+    #include "submodels/Momentum/InjectionModel/ManualInjection/ManualInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

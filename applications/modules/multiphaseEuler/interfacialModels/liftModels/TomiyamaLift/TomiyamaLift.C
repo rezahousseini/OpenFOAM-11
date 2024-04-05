@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TomiyamaLift.H"
-#include "aspectRatioModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liftModels/TomiyamaLift/TomiyamaLift.H"
+#include "aspectRatioModels/aspectRatioModel/aspectRatioModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

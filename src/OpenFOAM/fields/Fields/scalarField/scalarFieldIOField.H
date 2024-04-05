@@ -32,8 +32,8 @@ Description
 #ifndef scalarFieldIOField_H
 #define scalarFieldIOField_H
 
-#include "scalarField.H"
-#include "CompactIOField.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/IOobjects/CompactIOField/CompactIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

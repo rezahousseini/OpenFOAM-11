@@ -35,8 +35,8 @@ SourceFiles
 #ifndef motionDiffusivity_H
 #define motionDiffusivity_H
 
-#include "surfaceFieldsFwd.H"
-#include "fvMesh.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

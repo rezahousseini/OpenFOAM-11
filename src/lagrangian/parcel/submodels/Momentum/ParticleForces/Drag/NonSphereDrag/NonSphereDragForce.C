@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NonSphereDragForce.H"
+#include "submodels/Momentum/ParticleForces/Drag/NonSphereDrag/NonSphereDragForce.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

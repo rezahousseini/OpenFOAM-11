@@ -38,9 +38,9 @@ SourceFiles
 #ifndef fluidThermo_H
 #define fluidThermo_H
 
-#include "basicThermo.H"
-#include "viscosity.H"
-#include "viscosity.H"
+#include "basicThermo/basicThermo.H"
+#include "viscosity/viscosity.H"
+#include "viscosity/viscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

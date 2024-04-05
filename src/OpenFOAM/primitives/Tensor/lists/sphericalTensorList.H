@@ -38,8 +38,8 @@ Description
 #ifndef sphericalTensorList_H
 #define sphericalTensorList_H
 
-#include "sphericalTensor.H"
-#include "List.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -50,8 +50,8 @@ SourceFiles
 #ifndef limitPressure_H
 #define limitPressure_H
 
-#include "fvConstraint.H"
-#include "dimensionedScalar.H"
+#include "cfdTools/general/fvConstraints/fvConstraint.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

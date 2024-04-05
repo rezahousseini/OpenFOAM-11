@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "aspectRatioModel.H"
-#include "phaseSystem.H"
+#include "aspectRatioModels/aspectRatioModel/aspectRatioModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

@@ -50,7 +50,7 @@ SourceFiles
 #ifndef CloudFilmTransfer_H
 #define CloudFilmTransfer_H
 
-#include "SurfaceFilmModel.H"
+#include "submodels/Momentum/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -311,7 +311,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CloudFilmTransfer.C"
+    #include "fvModels/filmCloudTransfer/cloudFilmTransfer/CloudFilmTransfer/CloudFilmTransfer.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

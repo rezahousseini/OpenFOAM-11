@@ -35,7 +35,7 @@ SourceFiles
 #ifndef blockVertex_H
 #define blockVertex_H
 
-#include "searchableSurfaces.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

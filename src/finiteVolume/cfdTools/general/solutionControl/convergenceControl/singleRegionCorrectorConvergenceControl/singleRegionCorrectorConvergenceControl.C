@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleRegionCorrectorConvergenceControl.H"
-#include "convergenceControl.H"
-#include "volFields.H"
+#include "cfdTools/general/solutionControl/convergenceControl/singleRegionCorrectorConvergenceControl/singleRegionCorrectorConvergenceControl.H"
+#include "cfdTools/general/solutionControl/convergenceControl/convergenceControl/convergenceControl.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

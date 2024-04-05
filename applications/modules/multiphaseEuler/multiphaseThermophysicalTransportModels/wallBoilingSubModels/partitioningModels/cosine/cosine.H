@@ -47,7 +47,7 @@ SourceFiles
 #ifndef cosine_H
 #define cosine_H
 
-#include "partitioningModel.H"
+#include "wallBoilingSubModels/partitioningModels/partitioningModel/partitioningModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

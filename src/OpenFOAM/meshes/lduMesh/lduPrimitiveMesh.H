@@ -35,8 +35,8 @@ SourceFiles
 #ifndef lduPrimitiveMesh_H
 #define lduPrimitiveMesh_H
 
-#include "lduMesh.H"
-#include "labelList.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -274,7 +274,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "lduPrimitiveMeshTemplates.C"
+    #include "meshes/lduMesh/lduPrimitiveMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

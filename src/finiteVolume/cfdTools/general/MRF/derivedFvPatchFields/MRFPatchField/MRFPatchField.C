@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MRFPatchField.H"
-#include "IOMRFZoneList.H"
+#include "cfdTools/general/MRF/derivedFvPatchFields/MRFPatchField/MRFPatchField.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

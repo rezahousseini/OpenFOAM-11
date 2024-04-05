@@ -44,8 +44,8 @@ SourceFiles
 #ifndef CellZoneInjection_H
 #define CellZoneInjection_H
 
-#include "InjectionModel.H"
-#include "distribution.H"
+#include "submodels/Momentum/InjectionModel/InjectionModel/InjectionModel.H"
+#include "distributions/distribution/distribution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -184,7 +184,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CellZoneInjection.C"
+    #include "submodels/Momentum/InjectionModel/CellZoneInjection/CellZoneInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

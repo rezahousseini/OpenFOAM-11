@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveAtmBoundaryLayerSuperposition.H"
-#include "uniformDimensionedFields.H"
-#include "atmBoundaryLayer.H"
-#include "addToRunTimeSelectionTable.H"
+#include "waveSuperpositions/waveAtmBoundaryLayerSuperposition/waveAtmBoundaryLayerSuperposition.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "derivedFvPatchFields/atmBoundaryLayer/atmBoundaryLayer.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

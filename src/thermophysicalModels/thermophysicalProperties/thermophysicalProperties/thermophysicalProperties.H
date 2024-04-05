@@ -38,8 +38,8 @@ SourceFiles
 #ifndef thermophysicalProperties_H
 #define thermophysicalProperties_H
 
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thermophysicalPropertiesI.H"
+#include "thermophysicalProperties/thermophysicalPropertiesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

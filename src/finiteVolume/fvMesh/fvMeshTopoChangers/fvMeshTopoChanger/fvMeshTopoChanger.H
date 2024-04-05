@@ -40,7 +40,7 @@ SourceFiles
 #ifndef fvMeshTopoChanger_H
 #define fvMeshTopoChanger_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

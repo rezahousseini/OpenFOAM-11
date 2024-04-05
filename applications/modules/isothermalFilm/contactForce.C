@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "isothermalFilm.H"
-#include "fvcGrad.H"
-#include "filmContactAngleFvPatchScalarField.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "derivedFvPatchFields/filmContactAngle/filmContactAngleFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef strainRateViscosityModel_H
 #define strainRateViscosityModel_H
 
-#include "generalisedNewtonianViscosityModel.H"
-#include "volFields.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonianViscosityModels/generalisedNewtonianViscosityModel/generalisedNewtonianViscosityModel.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

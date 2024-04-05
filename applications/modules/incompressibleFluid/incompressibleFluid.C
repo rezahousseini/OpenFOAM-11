@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleFluid.H"
-#include "localEulerDdtScheme.H"
-#include "linear.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

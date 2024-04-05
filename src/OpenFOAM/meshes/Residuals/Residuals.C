@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Residuals.H"
-#include "Time.H"
+#include "meshes/Residuals/Residuals.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

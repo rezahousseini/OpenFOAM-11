@@ -69,8 +69,8 @@ SourceFiles
 #ifndef ifeqEntry_H
 #define ifeqEntry_H
 
-#include "functionEntry.H"
-#include "DynamicList.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

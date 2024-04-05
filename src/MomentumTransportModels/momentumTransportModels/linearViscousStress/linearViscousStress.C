@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearViscousStress.H"
-#include "fvcGrad.H"
-#include "fvcDiv.H"
-#include "fvmLaplacian.H"
+#include "linearViscousStress/linearViscousStress.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

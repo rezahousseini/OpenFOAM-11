@@ -40,18 +40,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "IStringStream.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "OFstream.H"
-#include "IFstream.H"
-#include "IOobjectList.H"
-#include "SortableList.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "sets/topoSets/cellSet.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/pointSet.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/Lists/SortableList/SortableList.H"
 
 using namespace Foam;
 
@@ -72,16 +72,16 @@ int main(int argc, char *argv[])
         "ignore orientation of faceSet"
     );
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool noFlipMap = args.optionFound("noFlipMap");
 
     // Get times list
     timeSelector::selectIfPresent(runTime, args);
 
-    #include "createNamedPolyMesh.H"
+    #include "include/createNamedPolyMesh.H"
 
     const fileName setsSubPath(mesh.dbDir()/polyMesh::meshSubDir/"sets");
 

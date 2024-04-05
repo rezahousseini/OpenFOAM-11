@@ -58,11 +58,11 @@ Description
 #ifndef fileOperations_masterUncollatedFileOperation_H
 #define fileOperations_masterUncollatedFileOperation_H
 
-#include "fileOperation.H"
-#include "HashPtrTable.H"
-#include "unthreadedInitialise.H"
-#include "boolList.H"
-#include "OSspecific.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "global/fileOperations/fileOperationInitialise/unthreadedInitialise.H"
+#include "primitives/bools/lists/boolList.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -822,7 +822,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "masterUncollatedFileOperationTemplates.C"
+    #include "global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

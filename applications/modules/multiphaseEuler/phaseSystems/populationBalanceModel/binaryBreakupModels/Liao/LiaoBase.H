@@ -45,7 +45,7 @@ SourceFiles
 #ifndef LiaoBase_H
 #define LiaoBase_H
 
-#include "populationBalanceModel.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

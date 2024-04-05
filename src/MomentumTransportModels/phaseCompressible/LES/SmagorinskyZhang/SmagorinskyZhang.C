@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SmagorinskyZhang.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
+#include "LES/SmagorinskyZhang/SmagorinskyZhang.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

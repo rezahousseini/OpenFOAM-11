@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellsToCellsStabilisation.H"
+#include "cellsToCells/cellsToCellsStabilisation/cellsToCellsStabilisation.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

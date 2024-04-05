@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemistryModel.H"
-#include "UniformField.H"
-#include "localEulerDdtScheme.H"
-#include "cpuLoad.H"
+#include "chemistryModel/chemistryModel.H"
+#include "fields/Fields/UniformField/UniformField.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "fvMesh/fvMeshDistributors/cpuLoad/cpuLoad.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -24,13 +24,13 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "isothermalFilm.H"
-#include "surfaceTensionModel.H"
-#include "constrainHbyA.H"
-#include "fvcFlux.H"
-#include "fvcSnGrad.H"
-#include "fvcReconstruct.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
+#include "surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "cfdTools/general/constrainHbyA/constrainHbyA.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

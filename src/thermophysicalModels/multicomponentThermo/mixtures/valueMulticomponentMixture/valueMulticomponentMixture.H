@@ -37,7 +37,7 @@ SourceFiles
 #ifndef valueMulticomponentMixture_H
 #define valueMulticomponentMixture_H
 
-#include "multicomponentMixture.H"
+#include "mixtures/multicomponentMixture/multicomponentMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -279,7 +279,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "valueMulticomponentMixture.C"
+    #include "mixtures/valueMulticomponentMixture/valueMulticomponentMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

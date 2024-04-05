@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleRegionSolutionControl.H"
-#include "volFields.H"
+#include "cfdTools/general/solutionControl/solutionControl/singleRegionSolutionControl/singleRegionSolutionControl.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

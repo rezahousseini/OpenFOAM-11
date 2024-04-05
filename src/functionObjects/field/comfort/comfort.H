@@ -79,8 +79,8 @@ SourceFiles
 #ifndef comfort_H
 #define comfort_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFields.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

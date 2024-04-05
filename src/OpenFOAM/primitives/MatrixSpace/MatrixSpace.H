@@ -41,7 +41,7 @@ See also
 #ifndef MatrixSpace_H
 #define MatrixSpace_H
 
-#include "VectorSpace.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -319,7 +319,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MatrixSpaceI.H"
+#include "primitives/MatrixSpace/MatrixSpaceI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

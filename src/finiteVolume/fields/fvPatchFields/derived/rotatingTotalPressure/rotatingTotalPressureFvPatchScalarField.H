@@ -74,8 +74,8 @@ SourceFiles
 #ifndef rotatingTotalPressureFvPatchScalarField_H
 #define rotatingTotalPressureFvPatchScalarField_H
 
-#include "totalPressureFvPatchScalarField.H"
-#include "omega.H"
+#include "fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.H"
+#include "primitives/functions/Function1/omega/omega.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

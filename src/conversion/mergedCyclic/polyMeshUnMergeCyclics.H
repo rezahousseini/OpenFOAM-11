@@ -26,7 +26,7 @@ License
 #ifndef polyMeshUnMergeCyclics_H
 #define polyMeshUnMergeCyclics_H
 
-#include "polyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

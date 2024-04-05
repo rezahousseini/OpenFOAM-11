@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IFstream.H"
-#include "OSspecific.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "include/OSspecific.H"
 #include <gzstream.h>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

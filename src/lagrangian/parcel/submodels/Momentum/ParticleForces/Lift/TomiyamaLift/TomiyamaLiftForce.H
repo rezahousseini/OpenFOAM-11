@@ -35,7 +35,7 @@ SourceFiles
 #ifndef TomiyamaLiftForce_H
 #define TomiyamaLiftForce_H
 
-#include "LiftForce.H"
+#include "submodels/Momentum/ParticleForces/Lift/LiftForce/LiftForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -114,7 +114,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TomiyamaLiftForce.C"
+    #include "submodels/Momentum/ParticleForces/Lift/TomiyamaLift/TomiyamaLiftForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

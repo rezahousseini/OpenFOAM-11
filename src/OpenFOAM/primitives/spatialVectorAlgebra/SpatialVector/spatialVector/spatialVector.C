@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "spatialVector.H"
+#include "primitives/spatialVectorAlgebra/SpatialVector/spatialVector/spatialVector.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

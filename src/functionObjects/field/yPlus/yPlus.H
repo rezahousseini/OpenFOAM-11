@@ -64,10 +64,10 @@ SourceFiles
 #ifndef functionObjects_yPlus_H
 #define functionObjects_yPlus_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "writeLocalObjects.H"
-#include "volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "db/functionObjects/writeLocalObjects/writeLocalObjects.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

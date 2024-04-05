@@ -43,7 +43,7 @@ SourceFiles
 #ifndef TolubinskiKostanchuk_H
 #define TolubinskiKostanchuk_H
 
-#include "departureDiameterModel.H"
+#include "wallBoilingSubModels/departureDiameterModels/departureDiameterModel/departureDiameterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

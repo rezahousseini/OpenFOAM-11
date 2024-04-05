@@ -38,9 +38,9 @@ SourceFiles
 #ifndef pimpleNoLoopControl_H
 #define pimpleNoLoopControl_H
 
-#include "pisoControl.H"
-#include "singleRegionConvergenceControl.H"
-#include "singleRegionCorrectorConvergenceControl.H"
+#include "cfdTools/general/solutionControl/pisoControl/pisoControl.H"
+#include "cfdTools/general/solutionControl/convergenceControl/singleRegionConvergenceControl/singleRegionConvergenceControl.H"
+#include "cfdTools/general/solutionControl/convergenceControl/singleRegionCorrectorConvergenceControl/singleRegionCorrectorConvergenceControl.H"
 
 #undef PISO_CONTROL
 #define PIMPLE_CONTROL
@@ -156,7 +156,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pimpleNoLoopControlI.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleNoLoopControl/pimpleNoLoopControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,10 +36,10 @@ SourceFiles
 #ifndef complex_H
 #define complex_H
 
-#include "scalar.H"
-#include "bool.H"
-#include "word.H"
-#include "contiguous.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -195,7 +195,7 @@ inline bool contiguous<complex>() {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "complexI.H"
+#include "primitives/complex/complexI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

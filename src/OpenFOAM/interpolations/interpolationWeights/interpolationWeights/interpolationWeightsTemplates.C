@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationWeights.H"
-#include "ListOps.H"
-#include "IOobject.H"
-#include "HashSet.H"
-#include "objectRegistry.H"
+#include "interpolations/interpolationWeights/interpolationWeights/interpolationWeights.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOobject/IOobject.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeEk.H"
-#include "fft.H"
-#include "kShellIntegration.H"
-#include "volFields.H"
-#include "setWriter.H"
-#include "writeFile.H"
+#include "fft/writeEk.H"
+#include "fft/fft.H"
+#include "fft/kShellIntegration.H"
+#include "fields/volFields/volFields.H"
+#include "sampledSet/writers/setWriter.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

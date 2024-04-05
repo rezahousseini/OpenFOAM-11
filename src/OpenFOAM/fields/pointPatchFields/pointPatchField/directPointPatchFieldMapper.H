@@ -32,8 +32,8 @@ Description
 #ifndef directPointPatchFieldMapper_H
 #define directPointPatchFieldMapper_H
 
-#include "pointPatchFieldMapper.H"
-#include "directFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+#include "fields/Fields/fieldMappers/directFieldMapper/directFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

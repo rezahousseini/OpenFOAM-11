@@ -148,14 +148,14 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "localIOdictionary.H"
-#include "Pair.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "includeEntry.H"
-#include "inputSyntaxEntry.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
+#include "primitives/Pair/Pair.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/dictionary/functionEntries/includeEntry/includeEntry.H"
+#include "db/dictionary/functionEntries/inputSyntaxEntry/inputSyntaxEntry.H"
 
 using namespace Foam;
 

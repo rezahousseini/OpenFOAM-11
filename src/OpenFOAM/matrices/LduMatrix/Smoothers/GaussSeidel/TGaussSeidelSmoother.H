@@ -35,7 +35,7 @@ SourceFiles
 #ifndef TGaussSeidelSmoother_H
 #define TGaussSeidelSmoother_H
 
-#include "LduMatrix.H"
+#include "matrices/LduMatrix/LduMatrix/LduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -102,7 +102,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TGaussSeidelSmoother.C"
+    #include "matrices/LduMatrix/Smoothers/GaussSeidel/TGaussSeidelSmoother.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TrajectoryCollision.H"
+#include "submodels/Spray/StochasticCollision/TrajectoryCollision/TrajectoryCollision.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

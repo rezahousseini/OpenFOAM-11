@@ -40,7 +40,7 @@ SourceFiles
 #ifndef outletStabilised_H
 #define outletStabilised_H
 
-#include "surfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

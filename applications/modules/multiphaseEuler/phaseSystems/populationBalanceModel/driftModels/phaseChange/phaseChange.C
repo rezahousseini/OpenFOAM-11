@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseChange.H"
-#include "addToRunTimeSelectionTable.H"
-#include "phaseSystem.H"
+#include "populationBalanceModel/driftModels/phaseChange/phaseChange.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

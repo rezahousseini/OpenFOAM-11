@@ -48,5 +48,5 @@ dimensionedVector gradP
     Zero
 );
 
-#include "createFvModels.H"
-#include "createFvConstraints.H"
+#include "cfdTools/general/include/createFvModels.H"
+#include "cfdTools/general/include/createFvConstraints.H"

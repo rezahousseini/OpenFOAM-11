@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heatTransfer.H"
-#include "basicThermo.H"
-#include "fvmSup.H"
-#include "zeroGradientFvPatchFields.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvModels.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derived/heatTransfer/heatTransfer.H"
+#include "basicThermo/basicThermo.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

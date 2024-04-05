@@ -35,7 +35,7 @@ SourceFiles
 #ifndef intersectionCellsToCells_H
 #define intersectionCellsToCells_H
 
-#include "cellsToCells.H"
+#include "cellsToCells/cellsToCells/cellsToCells.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

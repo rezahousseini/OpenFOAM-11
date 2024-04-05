@@ -32,8 +32,8 @@ Description
 #ifndef makeThermo_H
 #define makeThermo_H
 
-#include "fluidThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fluidThermo/fluidThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

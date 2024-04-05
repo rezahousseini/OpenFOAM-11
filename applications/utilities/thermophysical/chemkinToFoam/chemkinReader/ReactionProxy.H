@@ -38,7 +38,7 @@ SourceFiles
 #ifndef ReactionProxy_H
 #define ReactionProxy_H
 
-#include "Reaction.H"
+#include "reaction/Reactions/Reaction/Reaction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -181,7 +181,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactionProxy.C"
+    #include "chemkinReader/ReactionProxy.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyMotion.H"
-#include "sixDoFSolver.H"
-#include "septernion.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.H"
+#include "sixDoFSolvers/sixDoFSolver/sixDoFSolver.H"
+#include "primitives/septernion/septernion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

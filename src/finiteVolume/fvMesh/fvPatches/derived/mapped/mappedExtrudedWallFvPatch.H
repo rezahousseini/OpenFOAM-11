@@ -32,8 +32,8 @@ SourceFiles
 #ifndef mappedExtrudedWallFvPatch_H
 #define mappedExtrudedWallFvPatch_H
 
-#include "wallFvPatch.H"
-#include "mappedExtrudedWallPolyPatch.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "mappedPatches/mappedExtrudedPolyPatch/mappedExtrudedWallPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

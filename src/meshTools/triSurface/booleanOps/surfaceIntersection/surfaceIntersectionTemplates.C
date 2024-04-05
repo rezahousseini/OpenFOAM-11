@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceIntersection.H"
+#include "triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

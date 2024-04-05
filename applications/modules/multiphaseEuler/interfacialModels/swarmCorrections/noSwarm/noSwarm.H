@@ -35,8 +35,8 @@ SourceFiles
 #ifndef noSwarm_H
 #define noSwarm_H
 
-#include "swarmCorrection.H"
-#include "phaseInterface.H"
+#include "swarmCorrections/swarmCorrection/swarmCorrection.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ConeInjection.H"
-#include "TimeFunction1.H"
-#include "Constant.H"
-#include "mathematicalConstants.H"
-#include "unitConversion.H"
+#include "submodels/Momentum/InjectionModel/ConeInjection/ConeInjection.H"
+#include "primitives/functions/TimeFunction1/TimeFunction1.H"
+#include "primitives/functions/Function1/Constant/Constant.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "global/unitConversion/unitConversion.H"
 
 using namespace Foam::constant::mathematical;
 

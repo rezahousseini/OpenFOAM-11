@@ -43,13 +43,13 @@ SourceFiles
 #ifndef blockMesh_H
 #define blockMesh_H
 
-#include "blockList.H"
-#include "searchableSurfaces.H"
-#include "polyMesh.H"
-#include "IOdictionary.H"
-#include "blockVertexList.H"
-#include "blockEdgeList.H"
-#include "blockFaceList.H"
+#include "blocks/block/blockList.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "blockVertices/blockVertex/blockVertexList.H"
+#include "blockEdges/blockEdge/blockEdgeList.H"
+#include "blockFaces/blockFace/blockFaceList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

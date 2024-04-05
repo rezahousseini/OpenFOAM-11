@@ -45,10 +45,10 @@ SourceFiles
 #ifndef PatchTools_H
 #define PatchTools_H
 
-#include "PrimitivePatch.H"
-#include "HashSet.H"
-#include "globalIndex.H"
-#include "autoPtr.H"
+#include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -265,7 +265,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchTools.C"
+    #include "meshes/primitiveMesh/PatchTools/PatchTools.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

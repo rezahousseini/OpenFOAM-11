@@ -98,9 +98,9 @@ SourceFiles
 #ifndef kOmegaSSTSato_H
 #define kOmegaSSTSato_H
 
-#include "kOmegaSST.H"
-#include "phaseSystem.H"
-#include "hashedWordList.H"
+#include "RAS/kOmegaSST/kOmegaSST.H"
+#include "phaseSystem/phaseSystem.H"
+#include "primitives/strings/lists/hashedWordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -210,7 +210,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kOmegaSSTSato.C"
+    #include "RAS/kOmegaSSTSato/kOmegaSSTSato.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

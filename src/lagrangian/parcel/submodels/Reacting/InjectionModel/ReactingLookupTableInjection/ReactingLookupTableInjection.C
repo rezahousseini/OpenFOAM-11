@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingLookupTableInjection.H"
+#include "submodels/Reacting/InjectionModel/ReactingLookupTableInjection/ReactingLookupTableInjection.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

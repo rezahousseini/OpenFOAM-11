@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hexCellLooper.H"
-#include "cellFeatures.H"
-#include "polyMesh.H"
-#include "cellModeller.H"
-#include "plane.H"
-#include "ListOps.H"
-#include "meshTools.H"
-#include "OFstream.H"
+#include "meshCut/cellLooper/hexCellLooper.H"
+#include "cellFeatures/cellFeatures.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshTools/meshTools.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

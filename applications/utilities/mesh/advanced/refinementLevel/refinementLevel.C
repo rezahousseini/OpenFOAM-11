@@ -37,14 +37,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "SortableList.H"
-#include "labelIOList.H"
-#include "fvMesh.H"
-#include "volFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "sets/topoSets/cellSet.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
 
 using namespace Foam;
 
@@ -104,9 +104,9 @@ int main(int argc, char *argv[])
         "read level from refinementLevel file"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     Info<< "Dividing cells into bins depending on cell volume.\nThis will"
         << " correspond to refinement levels for a mesh with only 2x2x2"

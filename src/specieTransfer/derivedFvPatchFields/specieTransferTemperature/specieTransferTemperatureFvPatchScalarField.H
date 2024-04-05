@@ -63,7 +63,7 @@ SourceFiles
 #ifndef specieTransferTemperatureFvPatchScalarField_H
 #define specieTransferTemperatureFvPatchScalarField_H
 
-#include "mixedEnergyCalculatedTemperatureFvPatchScalarField.H"
+#include "derivedFvPatchFields/mixedEnergy/mixedEnergyCalculatedTemperatureFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

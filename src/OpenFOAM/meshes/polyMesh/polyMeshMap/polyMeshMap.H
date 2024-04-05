@@ -35,7 +35,7 @@ SourceFiles
 #ifndef polyMeshMap_H
 #define polyMeshMap_H
 
-#include "polyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

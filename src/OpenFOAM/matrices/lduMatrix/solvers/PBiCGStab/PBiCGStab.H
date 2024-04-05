@@ -51,7 +51,7 @@ SourceFiles
 #ifndef PBiCGStab_H
 #define PBiCGStab_H
 
-#include "lduMatrix.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

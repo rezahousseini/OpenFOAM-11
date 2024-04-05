@@ -32,8 +32,8 @@ Description
 #ifndef quaternionIOField_H
 #define quaternionIOField_H
 
-#include "quaternionField.H"
-#include "IOField.H"
+#include "fields/Fields/quaternionField/quaternionField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

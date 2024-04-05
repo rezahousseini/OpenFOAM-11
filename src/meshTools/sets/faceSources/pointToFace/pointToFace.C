@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointToFace.H"
-#include "polyMesh.H"
-#include "pointSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sets/faceSources/pointToFace/pointToFace.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "sets/topoSets/pointSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

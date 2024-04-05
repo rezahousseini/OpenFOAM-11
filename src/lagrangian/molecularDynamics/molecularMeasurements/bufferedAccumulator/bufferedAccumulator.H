@@ -36,7 +36,7 @@ SourceFiles
 #ifndef bufferedAccumulator_H
 #define bufferedAccumulator_H
 
-#include "Field.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,12 +161,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "bufferedAccumulatorI.H"
+#include "bufferedAccumulator/bufferedAccumulatorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "bufferedAccumulator.C"
+    #include "bufferedAccumulator/bufferedAccumulator.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

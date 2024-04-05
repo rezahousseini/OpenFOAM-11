@@ -35,12 +35,12 @@ SourceFiles
 #ifndef OBJstream_H
 #define OBJstream_H
 
-#include "OFstream.H"
-#include "point.H"
-#include "edge.H"
-#include "face.H"
-#include "triPointRef.H"
-#include "linePointRef.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "meshes/primitiveShapes/line/linePointRef.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

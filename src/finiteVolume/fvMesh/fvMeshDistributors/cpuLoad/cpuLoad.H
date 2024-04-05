@@ -43,7 +43,7 @@ SourceFiles
 #ifndef cpuLoad_H
 #define cpuLoad_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

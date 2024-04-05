@@ -49,7 +49,7 @@ See also
 #define multiphaseVoFSolver_H
 
 #include "VoFSolver.H"
-#include "multiphaseVoFMixture.H"
+#include "multiphaseVoFMixture/multiphaseVoFMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

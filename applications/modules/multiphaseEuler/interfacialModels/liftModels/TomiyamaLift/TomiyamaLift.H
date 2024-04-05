@@ -46,7 +46,7 @@ SourceFiles
 #ifndef TomiyamaLift_H
 #define TomiyamaLift_H
 
-#include "dispersedLiftModel.H"
+#include "liftModels/dispersedLiftModel/dispersedLiftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

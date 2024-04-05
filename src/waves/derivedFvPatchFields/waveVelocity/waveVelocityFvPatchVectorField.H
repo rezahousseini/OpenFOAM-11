@@ -56,8 +56,8 @@ SourceFiles
 #ifndef waveVelocityFvPatchVectorField_H
 #define waveVelocityFvPatchVectorField_H
 
-#include "fixedValueInletOutletFvPatchFields.H"
-#include "waveSuperposition.H"
+#include "fields/fvPatchFields/derived/fixedValueInletOutlet/fixedValueInletOutletFvPatchFields.H"
+#include "waveSuperpositions/waveSuperposition/waveSuperposition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -29,16 +29,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "setWriter.H"
-#include "writeFile.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "sampledSet/writers/setWriter.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
-#include "fvcGrad.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 using namespace Foam;
 
@@ -47,11 +47,11 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
     #define NO_CONTROL
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
     #include "createFields.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

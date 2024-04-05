@@ -43,7 +43,7 @@ SourceFiles
 #ifndef Gunn_H
 #define Gunn_H
 
-#include "heatTransferModel.H"
+#include "heatTransferModels/heatTransferModel/heatTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

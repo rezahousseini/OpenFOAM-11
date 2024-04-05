@@ -36,8 +36,8 @@ SourceFiles
 #ifndef surfaceToVolVelocity_H
 #define surfaceToVolVelocity_H
 
-#include "surfaceFields.H"
-#include "volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

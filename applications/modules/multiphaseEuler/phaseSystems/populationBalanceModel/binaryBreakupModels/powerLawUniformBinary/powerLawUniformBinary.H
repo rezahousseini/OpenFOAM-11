@@ -35,7 +35,7 @@ SourceFiles
 #ifndef powerLawUniformBinary_H
 #define powerLawUniformBinary_H
 
-#include "binaryBreakupModel.H"
+#include "populationBalanceModel/binaryBreakupModels/binaryBreakupModel/binaryBreakupModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

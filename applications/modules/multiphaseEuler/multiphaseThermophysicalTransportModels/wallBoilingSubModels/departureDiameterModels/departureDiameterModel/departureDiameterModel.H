@@ -36,8 +36,8 @@ SourceFiles
 #ifndef departureDiameterModel_H
 #define departureDiameterModel_H
 
-#include "phaseModel.H"
-#include "runTimeSelectionTables.H"
+#include "phaseModel/phaseModel/phaseModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

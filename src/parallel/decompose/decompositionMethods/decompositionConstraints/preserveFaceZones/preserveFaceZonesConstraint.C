@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "preserveFaceZonesConstraint.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
+#include "decompositionConstraints/preserveFaceZones/preserveFaceZonesConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

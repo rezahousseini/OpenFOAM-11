@@ -170,7 +170,7 @@ SourceFiles
 #ifndef calcEntry_H
 #define calcEntry_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

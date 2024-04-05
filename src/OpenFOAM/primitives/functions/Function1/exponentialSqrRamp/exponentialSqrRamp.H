@@ -43,7 +43,7 @@ SourceFiles
 #ifndef exponentialSqrRamp_H
 #define exponentialSqrRamp_H
 
-#include "Ramp.H"
+#include "primitives/functions/Function1/Ramp/Ramp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -108,7 +108,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "exponentialSqrRampI.H"
+#include "primitives/functions/Function1/exponentialSqrRamp/exponentialSqrRampI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

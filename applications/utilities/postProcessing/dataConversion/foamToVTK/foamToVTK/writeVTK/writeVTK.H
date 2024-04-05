@@ -63,7 +63,7 @@ SourceFiles
 #ifndef functionObjects_writeVTK_H
 #define functionObjects_writeVTK_H
 
-#include "fvMeshFunctionObject.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -29,36 +29,36 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "Time.H"
-//#include "distributionMap.H"
-#include "OFstream.H"
-#include "meshTools.H"
-//#include "FECCellToFaceStencil.H"
-//#include "CFCCellToFaceStencil.H"
-//#include "CPCCellToFaceStencil.H"
-//#include "CECCellToFaceStencil.H"
-//#include "extendedCentredCellToFaceStencil.H"
-//#include "extendedUpwindCellToFaceStencil.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "db/Time/Time.H"
+//#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+//#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/FECCellToFaceStencil.H"
+//#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/CFCCellToFaceStencil.H"
+//#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/CPCCellToFaceStencil.H"
+//#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/CECCellToFaceStencil.H"
+//#include "fvMesh/extendedStencil/cellToFace/extendedCentredCellToFaceStencil.H"
+//#include "fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencil.H"
 
-//#include "centredCFCCellToFaceStencilObject.H"
-//#include "centredFECCellToFaceStencilObject.H"
-//#include "centredCPCCellToFaceStencilObject.H"
-//#include "centredCECCellToFaceStencilObject.H"
+//#include "fvMesh/extendedStencil/cellToFace/MeshObjects/centredCFCCellToFaceStencilObject.H"
+//#include "fvMesh/extendedStencil/cellToFace/MeshObjects/centredFECCellToFaceStencilObject.H"
+//#include "fvMesh/extendedStencil/cellToFace/MeshObjects/centredCPCCellToFaceStencilObject.H"
+//#include "fvMesh/extendedStencil/cellToFace/MeshObjects/centredCECCellToFaceStencilObject.H"
 
-//#include "upwindFECCellToFaceStencilObject.H"
-//#include "upwindCPCCellToFaceStencilObject.H"
-//#include "upwindCECCellToFaceStencilObject.H"
+//#include "fvMesh/extendedStencil/cellToFace/MeshObjects/upwindFECCellToFaceStencilObject.H"
+//#include "fvMesh/extendedStencil/cellToFace/MeshObjects/upwindCPCCellToFaceStencilObject.H"
+//#include "fvMesh/extendedStencil/cellToFace/MeshObjects/upwindCECCellToFaceStencilObject.H"
 
-//#include "upwindCFCCellToFaceStencilObject.H"
-//#include "centredCFCFaceToCellStencilObject.H"
+//#include "fvMesh/extendedStencil/cellToFace/MeshObjects/upwindCFCCellToFaceStencilObject.H"
+//#include "fvMesh/extendedStencil/faceToCell/MeshObjects/centredCFCFaceToCellStencilObject.H"
 
-#include "centredCECCellToCellStencilObject.H"
-#include "centredCFCCellToCellStencilObject.H"
-#include "centredCPCCellToCellStencilObject.H"
+#include "fvMesh/extendedStencil/cellToCell/MeshObjects/centredCECCellToCellStencilObject.H"
+#include "fvMesh/extendedStencil/cellToCell/MeshObjects/centredCFCCellToCellStencilObject.H"
+#include "fvMesh/extendedStencil/cellToCell/MeshObjects/centredCPCCellToCellStencilObject.H"
 
 using namespace Foam;
 
@@ -126,10 +126,10 @@ void writeStencilStats(const labelListList& stencil)
 int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     timeSelector::select0(runTime, args);
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
     // Force calculation of extended edge addressing
     const labelListList& edgeFaces = mesh.edgeFaces();

@@ -32,10 +32,10 @@ SourceFiles
 #ifndef checkGeometry_H
 #define checkGeometry_H
 
-#include "label.H"
-#include "HashSet.H"
-#include "labelVector.H"
-#include "setWriter.H"
+#include "primitives/ints/label/label.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/Vector/labelVector/labelVector.H"
+#include "sampledSet/writers/setWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

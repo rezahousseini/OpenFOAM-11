@@ -36,10 +36,10 @@ SourceFiles
 #ifndef SurfaceFilmModel_H
 #define SurfaceFilmModel_H
 
-#include "CloudSubModelBase.H"
-#include "dimensionedTypes.H"
-#include "polyPatch.H"
-#include "runTimeSelectionTables.H"
+#include "submodels/CloudSubModelBase.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -242,12 +242,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SurfaceFilmModelI.H"
+#include "submodels/Momentum/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SurfaceFilmModel.C"
+    #include "submodels/Momentum/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

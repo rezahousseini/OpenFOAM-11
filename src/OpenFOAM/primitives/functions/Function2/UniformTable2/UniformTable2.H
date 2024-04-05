@@ -60,9 +60,9 @@ Usage
 #ifndef UniformTable2_H
 #define UniformTable2_H
 
-#include "Function2.H"
-#include "RectangularMatrix.H"
-#include "Pair.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
+#include "matrices/RectangularMatrix/RectangularMatrix.H"
+#include "primitives/Pair/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UniformTable2.C"
+    #include "primitives/functions/Function2/UniformTable2/UniformTable2.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

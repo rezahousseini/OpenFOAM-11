@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedInternalPointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedInternalPointPatch/mappedInternalPointPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

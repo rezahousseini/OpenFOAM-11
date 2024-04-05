@@ -36,7 +36,7 @@ SourceFiles
 #ifndef patchDistWave_H
 #define patchDistWave_H
 
-#include "polyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SuppressionCollision.H"
-#include "parcelCloud.H"
+#include "submodels/ReactingMultiphase/StochasticCollision/SuppressionCollision/SuppressionCollision.H"
+#include "parcelCloud/parcelCloud.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

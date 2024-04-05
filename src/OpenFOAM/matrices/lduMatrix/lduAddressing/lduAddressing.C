@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduAddressing.H"
-#include "demandDrivenData.H"
-#include "scalarField.H"
+#include "matrices/lduMatrix/lduAddressing/lduAddressing.H"
+#include "include/demandDrivenData.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

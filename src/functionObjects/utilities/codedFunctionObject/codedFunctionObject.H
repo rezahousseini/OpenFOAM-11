@@ -71,8 +71,8 @@ SourceFiles
 #ifndef functionObjects_codedFunctionObject_H
 #define functionObjects_codedFunctionObject_H
 
-#include "functionObject.H"
-#include "codedBase.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

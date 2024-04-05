@@ -35,10 +35,10 @@ SourceFiles
 #ifndef fvMeshMapper_H
 #define fvMeshMapper_H
 
-#include "faceMapper.H"
-#include "cellMapper.H"
-#include "fvSurfaceMapper.H"
-#include "fvBoundaryMeshMapper.H"
+#include "meshes/polyMesh/polyTopoChangeMap/faceMapper/faceMapper.H"
+#include "meshes/polyMesh/polyTopoChangeMap/cellMapper/cellMapper.H"
+#include "fvMesh/fvMeshMapper/fvSurfaceMapper.H"
+#include "fvMesh/fvMeshMapper/fvBoundaryMeshMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 #ifndef fixedNormalSlipFvPatchFieldsFwd_H
 #define fixedNormalSlipFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

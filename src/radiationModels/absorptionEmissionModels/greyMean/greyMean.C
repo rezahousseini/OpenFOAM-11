@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "greyMean.H"
-#include "addToRunTimeSelectionTable.H"
-#include "unitConversion.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "basicSpecieMixture.H"
+#include "absorptionEmissionModels/greyMean/greyMean.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/unitConversion/unitConversion.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

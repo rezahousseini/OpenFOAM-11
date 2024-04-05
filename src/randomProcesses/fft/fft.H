@@ -41,8 +41,8 @@ SourceFiles
 #ifndef fft_H
 #define fft_H
 
-#include "complexFields.H"
-#include "labelList.H"
+#include "fields/Fields/complexFields/complexFields.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

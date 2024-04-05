@@ -35,9 +35,9 @@ SourceFiles
 #ifndef indexedParticle_H
 #define indexedParticle_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
+#include "particle/particle.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

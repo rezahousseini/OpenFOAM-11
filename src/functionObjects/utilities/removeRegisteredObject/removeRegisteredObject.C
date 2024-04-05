@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "removeRegisteredObject.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "removeRegisteredObject/removeRegisteredObject.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

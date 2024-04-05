@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "db/error/error.H"
 
-#include "DLListBase.H"
-#include "IOstreams.H"
+#include "containers/LinkedLists/linkTypes/DLListBase/DLListBase.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

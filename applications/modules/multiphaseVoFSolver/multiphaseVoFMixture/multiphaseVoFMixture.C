@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiphaseVoFMixture.H"
-#include "correctContactAngle.H"
-#include "surfaceInterpolate.H"
-#include "fvcGrad.H"
-#include "fvcSnGrad.H"
-#include "fvcDiv.H"
+#include "multiphaseVoFMixture/multiphaseVoFMixture.H"
+#include "correctContactAngle/correctContactAngle.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcDiv.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

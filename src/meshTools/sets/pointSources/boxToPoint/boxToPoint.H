@@ -35,8 +35,8 @@ SourceFiles
 #ifndef boxToPoint_H
 #define boxToPoint_H
 
-#include "topoSetSource.H"
-#include "treeBoundBoxList.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

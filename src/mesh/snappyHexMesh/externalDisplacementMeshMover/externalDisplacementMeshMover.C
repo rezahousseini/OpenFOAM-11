@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalDisplacementMeshMover.H"
-#include "polyTopoChangeMap.H"
+#include "externalDisplacementMeshMover/externalDisplacementMeshMover.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

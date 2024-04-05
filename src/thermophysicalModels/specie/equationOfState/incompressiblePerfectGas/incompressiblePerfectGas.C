@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressiblePerfectGas.H"
-#include "IOstreams.H"
+#include "equationOfState/incompressiblePerfectGas/incompressiblePerfectGas.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

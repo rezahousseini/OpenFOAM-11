@@ -73,11 +73,11 @@ SourceFiles
 #ifndef clouds_H
 #define clouds_H
 
-#include "fvModel.H"
-#include "fluidThermo.H"
-#include "viscosityModel.H"
-#include "uniformDimensionedFields.H"
-#include "parcelCloudList.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fluidThermo/fluidThermo.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "parcelCloud/parcelCloudList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

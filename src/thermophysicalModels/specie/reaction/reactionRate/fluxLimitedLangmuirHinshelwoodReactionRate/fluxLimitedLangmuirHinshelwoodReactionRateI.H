@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "mathematicalConstants.H"
-#include "thermodynamicConstants.H"
+#include "fields/volFields/volFields.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "global/constants/thermodynamic/thermodynamicConstants.H"
 
 using namespace Foam::constant::mathematical;
 using namespace Foam::constant::thermodynamic;

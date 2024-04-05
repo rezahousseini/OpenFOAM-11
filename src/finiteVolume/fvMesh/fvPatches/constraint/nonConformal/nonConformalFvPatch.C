@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonConformalFvPatch.H"
-#include "surfaceFields.H"
+#include "fvMesh/fvPatches/constraint/nonConformal/nonConformalFvPatch.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

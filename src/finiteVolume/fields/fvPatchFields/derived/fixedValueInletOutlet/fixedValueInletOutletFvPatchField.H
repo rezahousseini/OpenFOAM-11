@@ -61,7 +61,7 @@ SourceFiles
 #ifndef fixedValueInletOutletFvPatchField_H
 #define fixedValueInletOutletFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedValueInletOutletFvPatchField.C"
+    #include "fields/fvPatchFields/derived/fixedValueInletOutlet/fixedValueInletOutletFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

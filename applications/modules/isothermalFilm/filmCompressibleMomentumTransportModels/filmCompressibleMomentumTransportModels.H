@@ -35,8 +35,8 @@ Description
 #ifndef filmCompressibleMomentumTransportModels_H
 #define filmCompressibleMomentumTransportModels_H
 
-#include "filmCompressibleMomentumTransportModel.H"
-#include "laminarModel.H"
+#include "filmCompressibleMomentumTransportModels/filmCompressibleMomentumTransportModel.H"
+#include "laminar/laminarModel/laminarModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

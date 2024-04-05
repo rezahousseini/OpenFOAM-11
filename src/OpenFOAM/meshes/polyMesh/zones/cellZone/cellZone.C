@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellZone.H"
-#include "addToRunTimeSelectionTable.H"
-#include "meshCellZones.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "IOstream.H"
-#include "demandDrivenData.H"
+#include "meshes/polyMesh/zones/cellZone/cellZone.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/zones/MeshZones/meshCellZones.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

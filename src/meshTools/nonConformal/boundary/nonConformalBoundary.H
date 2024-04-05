@@ -36,9 +36,9 @@ SourceFiles
 #ifndef nonConformalBoundary_H
 #define nonConformalBoundary_H
 
-#include "DemandDrivenMeshObject.H"
-#include "polyMesh.H"
-#include "indirectPrimitivePatch.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

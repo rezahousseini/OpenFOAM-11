@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fvMeshTopoChangersNone_H
 #define fvMeshTopoChangersNone_H
 
-#include "fvMeshTopoChanger.H"
+#include "fvMesh/fvMeshTopoChangers/fvMeshTopoChanger/fvMeshTopoChanger.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

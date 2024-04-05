@@ -36,7 +36,7 @@ SourceFiles
 #ifndef cyclicSlipPolyPatch_H
 #define cyclicSlipPolyPatch_H
 
-#include "cyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

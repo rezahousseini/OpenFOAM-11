@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isotropicDamping.H"
-#include "fvMatrix.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvModels/isotropicDamping/isotropicDamping.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

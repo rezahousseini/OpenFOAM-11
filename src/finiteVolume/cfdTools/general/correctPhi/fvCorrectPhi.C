@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCorrectPhi.H"
-#include "CorrectPhi.H"
+#include "cfdTools/general/correctPhi/fvCorrectPhi.H"
+#include "cfdTools/general/correctPhi/CorrectPhi.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

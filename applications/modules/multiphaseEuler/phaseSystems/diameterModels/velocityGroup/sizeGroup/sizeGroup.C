@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sizeGroup.H"
-#include "mixedFvPatchField.H"
-#include "shapeModel.H"
+#include "diameterModels/velocityGroup/sizeGroup/sizeGroup.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/shapeModel/shapeModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

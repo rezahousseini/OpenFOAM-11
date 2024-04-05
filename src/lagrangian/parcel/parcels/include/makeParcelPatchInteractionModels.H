@@ -28,10 +28,10 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LocalInteraction.H"
-#include "NoInteraction.H"
-#include "Rebound.H"
-#include "StandardWallInteraction.H"
+#include "submodels/Momentum/PatchInteractionModel/LocalInteraction/LocalInteraction.H"
+#include "submodels/Momentum/PatchInteractionModel/NoInteraction/NoInteraction.H"
+#include "submodels/Momentum/PatchInteractionModel/Rebound/Rebound.H"
+#include "submodels/Momentum/PatchInteractionModel/StandardWallInteraction/StandardWallInteraction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

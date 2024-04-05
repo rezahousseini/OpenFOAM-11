@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TRIsurfaceFormat.H"
-#include "IFstream.H"
-#include "IOmanip.H"
-#include "IStringStream.H"
-#include "Map.H"
+#include "surfaceFormats/tri/TRIsurfaceFormat.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

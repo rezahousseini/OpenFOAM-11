@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressibleVoFphase.H"
+#include "incompressibleMultiphaseVoFMixture/incompressibleVoFphase/incompressibleVoFphase.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

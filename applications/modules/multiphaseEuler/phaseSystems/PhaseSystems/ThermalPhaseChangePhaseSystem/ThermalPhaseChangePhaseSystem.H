@@ -58,9 +58,9 @@ SourceFiles
 #ifndef ThermalPhaseChangePhaseSystem_H
 #define ThermalPhaseChangePhaseSystem_H
 
-#include "phaseSystem.H"
-#include "interfaceSaturationTemperatureModel.H"
-#include "Switch.H"
+#include "phaseSystem/phaseSystem.H"
+#include "interfaceSaturationTemperatureModel/interfaceSaturationTemperatureModel.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -190,7 +190,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermalPhaseChangePhaseSystem.C"
+    #include "PhaseSystems/ThermalPhaseChangePhaseSystem/ThermalPhaseChangePhaseSystem.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

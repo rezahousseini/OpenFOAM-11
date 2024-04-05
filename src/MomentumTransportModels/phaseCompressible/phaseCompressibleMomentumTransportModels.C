@@ -39,22 +39,22 @@ makeBaseMomentumTransportModel
 // Laminar models
 // -------------------------------------------------------------------------- //
 
-#include "Stokes.H"
+#include "laminar/Stokes/Stokes.H"
 makeLaminarModel(Stokes);
 
-#include "generalisedNewtonian.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonian.H"
 makeLaminarModel(generalisedNewtonian);
 
-#include "lambdaThixotropic.H"
+#include "laminar/lambdaThixotropic/lambdaThixotropic.H"
 makeLaminarModel(lambdaThixotropic);
 
-#include "Maxwell.H"
+#include "laminar/Maxwell/Maxwell.H"
 makeLaminarModel(Maxwell);
 
-#include "Giesekus.H"
+#include "laminar/Giesekus/Giesekus.H"
 makeLaminarModel(Giesekus);
 
-#include "PTT.H"
+#include "laminar/PTT/PTT.H"
 makeLaminarModel(PTT);
 
 
@@ -62,13 +62,13 @@ makeLaminarModel(PTT);
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "kEpsilon.H"
+#include "RAS/kEpsilon/kEpsilon.H"
 makeRASModel(kEpsilon);
 
-#include "RNGkEpsilon.H"
+#include "RAS/RNGkEpsilon/RNGkEpsilon.H"
 makeRASModel(RNGkEpsilon);
 
-#include "kOmegaSST.H"
+#include "RAS/kOmegaSST/kOmegaSST.H"
 makeRASModel(kOmegaSST);
 
 
@@ -76,10 +76,10 @@ makeRASModel(kOmegaSST);
 // LES models
 // -------------------------------------------------------------------------- //
 
-#include "Smagorinsky.H"
+#include "LES/Smagorinsky/Smagorinsky.H"
 makeLESModel(Smagorinsky);
 
-#include "kEqn.H"
+#include "LES/kEqn/kEqn.H"
 makeLESModel(kEqn);
 
 

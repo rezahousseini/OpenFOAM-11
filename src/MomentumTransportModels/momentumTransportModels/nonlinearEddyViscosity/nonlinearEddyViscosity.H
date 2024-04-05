@@ -35,7 +35,7 @@ SourceFiles
 #ifndef nonlinearEddyViscosity_H
 #define nonlinearEddyViscosity_H
 
-#include "eddyViscosity.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nonlinearEddyViscosity.C"
+    #include "nonlinearEddyViscosity/nonlinearEddyViscosity.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

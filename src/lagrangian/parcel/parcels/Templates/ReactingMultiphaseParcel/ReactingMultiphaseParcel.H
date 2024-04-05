@@ -38,9 +38,9 @@ SourceFiles
 #ifndef ReactingMultiphaseParcel_H
 #define ReactingMultiphaseParcel_H
 
-#include "particle.H"
-#include "fluidThermo.H"
-#include "demandDrivenEntry.H"
+#include "particle/particle.H"
+#include "fluidThermo/fluidThermo.H"
+#include "demandDrivenEntry/demandDrivenEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -436,12 +436,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactingMultiphaseParcelI.H"
+#include "parcels/Templates/ReactingMultiphaseParcel/ReactingMultiphaseParcelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactingMultiphaseParcel.C"
+    #include "parcels/Templates/ReactingMultiphaseParcel/ReactingMultiphaseParcel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

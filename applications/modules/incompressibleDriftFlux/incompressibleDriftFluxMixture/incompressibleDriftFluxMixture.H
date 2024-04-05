@@ -35,10 +35,10 @@ SourceFiles
 #ifndef incompressibleDriftFluxMixture_H
 #define incompressibleDriftFluxMixture_H
 
-#include "twoPhaseVoFMixture.H"
+#include "twoPhaseVoFMixture/twoPhaseVoFMixture.H"
 #include "incompressibleTwoPhases.H"
-#include "viscosityModel.H"
-#include "mixtureViscosityModel.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
+#include "mixtureViscosityModels/mixtureViscosityModel/mixtureViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

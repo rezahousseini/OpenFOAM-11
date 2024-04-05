@@ -36,8 +36,8 @@ Description
 #ifndef DynamicID_H
 #define DynamicID_H
 
-#include "wordRe.H"
-#include "labelList.H"
+#include "primitives/strings/wordRe/wordRe.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

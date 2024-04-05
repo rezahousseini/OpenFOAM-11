@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RNGkEpsilon.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
-#include "bound.H"
+#include "RAS/RNGkEpsilon/RNGkEpsilon.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "cfdTools/general/bound/bound.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

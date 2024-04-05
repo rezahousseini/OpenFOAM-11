@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledTriSurfaceMesh.H"
-#include "meshSearch.H"
-#include "treeDataCell.H"
-#include "treeDataFace.H"
-#include "meshTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledTriSurfaceMesh/sampledTriSurfaceMesh.H"
+#include "meshSearch/meshSearch.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "indexedOctree/treeDataFace.H"
+#include "meshTools/meshTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

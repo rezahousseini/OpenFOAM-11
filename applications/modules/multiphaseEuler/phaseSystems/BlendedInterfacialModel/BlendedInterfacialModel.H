@@ -34,10 +34,10 @@ SourceFiles
 #ifndef BlendedInterfacialModel_H
 #define BlendedInterfacialModel_H
 
-#include "blendingMethod.H"
-#include "phaseInterface.H"
-#include "HashPtrTable.H"
-#include "hashedWordList.H"
+#include "BlendedInterfacialModel/blendingMethods/blendingMethod/blendingMethod.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "primitives/strings/lists/hashedWordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -244,7 +244,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "BlendedInterfacialModel.C"
+    #include "BlendedInterfacialModel/BlendedInterfacialModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

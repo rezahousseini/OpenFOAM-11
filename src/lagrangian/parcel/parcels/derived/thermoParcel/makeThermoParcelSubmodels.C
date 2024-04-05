@@ -23,24 +23,24 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermoCloud.H"
+#include "clouds/derived/thermoCloud/thermoCloud.H"
 
-#include "makeParcelCloudFunctionObjects.H"
+#include "parcels/include/makeParcelCloudFunctionObjects.H"
 
 // Momentum
-#include "makeThermoParcelForces.H"
-#include "makeParcelDispersionModels.H"
-#include "makeThermoParcelInjectionModels.H"
-#include "makeParcelPatchInteractionModels.H"
-#include "makeParcelStochasticCollisionModels.H"
-#include "makeParcelSurfaceFilmModels.H"
+#include "parcels/include/makeThermoParcelForces.H"
+#include "parcels/include/makeParcelDispersionModels.H"
+#include "parcels/include/makeThermoParcelInjectionModels.H"
+#include "parcels/include/makeParcelPatchInteractionModels.H"
+#include "parcels/include/makeParcelStochasticCollisionModels.H"
+#include "parcels/include/makeParcelSurfaceFilmModels.H"
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
-#include "makeParcelCompositionModels.H"
+#include "parcels/include/makeParcelHeatTransferModels.H"
+#include "parcels/include/makeParcelCompositionModels.H"
 
-#include "NoComposition.H"
-#include "SinglePhaseMixture.H"
+#include "submodels/Reacting/CompositionModel/NoComposition/NoComposition.H"
+#include "submodels/Reacting/CompositionModel/SinglePhaseMixture/SinglePhaseMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

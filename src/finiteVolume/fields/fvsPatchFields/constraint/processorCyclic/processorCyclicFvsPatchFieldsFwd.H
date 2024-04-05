@@ -26,7 +26,7 @@ License
 #ifndef processorCyclicFvsPatchFieldsFwd_H
 #define processorCyclicFvsPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

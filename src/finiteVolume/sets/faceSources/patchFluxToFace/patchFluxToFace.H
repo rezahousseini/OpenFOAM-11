@@ -63,7 +63,7 @@ SourceFiles
 #ifndef patchFluxToFace_H
 #define patchFluxToFace_H
 
-#include "topoSetSource.H"
+#include "sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SizeDistribution.H"
-#include "OSspecific.H"
-#include "setWriter.H"
+#include "submodels/CloudFunctionObjects/SizeDistribution/SizeDistribution.H"
+#include "include/OSspecific.H"
+#include "sampledSet/writers/setWriter.H"
 
 // * * * * * * * * * * * * * Protectd Member Functions * * * * * * * * * * * //
 

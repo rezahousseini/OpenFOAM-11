@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedMeanFvPatchField.H"
-#include "volFields.H"
+#include "fields/fvPatchFields/derived/fixedMean/fixedMeanFvPatchField.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

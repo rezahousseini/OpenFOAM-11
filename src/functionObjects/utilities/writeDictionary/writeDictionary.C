@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeDictionary.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "IOdictionary.H"
+#include "writeDictionary/writeDictionary.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

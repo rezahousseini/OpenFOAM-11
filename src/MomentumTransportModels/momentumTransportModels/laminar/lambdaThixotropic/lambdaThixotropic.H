@@ -70,8 +70,8 @@ SourceFiles
 #ifndef lambdaThixotropic_H
 #define lambdaThixotropic_H
 
-#include "laminarModel.H"
-#include "linearViscousStress.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "linearViscousStress/linearViscousStress.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -198,7 +198,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "lambdaThixotropic.C"
+    #include "laminar/lambdaThixotropic/lambdaThixotropic.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

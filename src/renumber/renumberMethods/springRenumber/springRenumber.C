@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "springRenumber.H"
-#include "addToRunTimeSelectionTable.H"
-#include "decompositionMethod.H"
+#include "springRenumber/springRenumber.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "decompositionMethod/decompositionMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

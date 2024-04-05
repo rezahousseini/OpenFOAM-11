@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cutPolyIntegral_H
 #define cutPolyIntegral_H
 
-#include "cutPolyValue.H"
+#include "cutPoly/cutPolyValue.H"
 
 #include <tuple>
 #include <type_traits>
@@ -105,7 +105,7 @@ Tuple2<scalar, Type> cellCutVolumeIntegral
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cutPolyIntegralTemplates.C"
+    #include "cutPoly/cutPolyIntegralTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

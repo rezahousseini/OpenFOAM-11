@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "homogeneousMixture.H"
-#include "fvMesh.H"
+#include "mixtures/homogeneousMixture/homogeneousMixture.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

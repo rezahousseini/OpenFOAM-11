@@ -45,11 +45,11 @@ See also
 #ifndef compressibleMultiphaseVoFMixture_H
 #define compressibleMultiphaseVoFMixture_H
 
-#include "compressibleMultiphaseVoFMixtureThermo.H"
-#include "multiphaseVoFMixture.H"
-#include "viscosity.H"
-#include "UPtrListDictionary.H"
-#include "compressibleVoFphase.H"
+#include "compressibleMultiphaseVoFMixture/compressibleMultiphaseVoFMixtureThermo/compressibleMultiphaseVoFMixtureThermo.H"
+#include "multiphaseVoFMixture/multiphaseVoFMixture.H"
+#include "viscosity/viscosity.H"
+#include "containers/Dictionaries/UPtrListDictionary/UPtrListDictionary.H"
+#include "compressibleMultiphaseVoFMixture/compressibleVoFphase/compressibleVoFphase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

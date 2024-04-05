@@ -80,8 +80,8 @@ SourceFiles
 #ifndef functionObjects_fieldCoordinateSystemTransform_H
 #define functionObjects_fieldCoordinateSystemTransform_H
 
-#include "fvMeshFunctionObject.H"
-#include "coordinateSystem.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "coordinateSystems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,7 +168,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldCoordinateSystemTransformTemplates.C"
+    #include "fieldCoordinateSystemTransform/fieldCoordinateSystemTransformTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

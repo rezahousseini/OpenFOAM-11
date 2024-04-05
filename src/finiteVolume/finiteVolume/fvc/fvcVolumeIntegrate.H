@@ -39,9 +39,9 @@ SourceFiles
 #ifndef fvcVolumeIntegrate_H
 #define fvcVolumeIntegrate_H
 
-#include "volFieldsFwd.H"
-#include "primitiveFieldsFwd.H"
-#include "dimensionedTypes.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -114,7 +114,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcVolumeIntegrate.C"
+    #include "finiteVolume/fvc/fvcVolumeIntegrate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

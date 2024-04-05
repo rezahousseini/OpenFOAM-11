@@ -32,9 +32,9 @@ Description
 #ifndef cellShapeList_H
 #define cellShapeList_H
 
-#include "cellShape.H"
-#include "List.H"
-#include "PtrList.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

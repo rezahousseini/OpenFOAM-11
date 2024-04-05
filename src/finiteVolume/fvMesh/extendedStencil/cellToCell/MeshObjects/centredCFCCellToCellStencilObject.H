@@ -33,9 +33,9 @@ SourceFiles
 #ifndef centredCFCCellToCellStencilObject_H
 #define centredCFCCellToCellStencilObject_H
 
-#include "extendedCentredCellToCellStencil.H"
-#include "CFCCellToCellStencil.H"
-#include "DemandDrivenMeshObject.H"
+#include "fvMesh/extendedStencil/cellToCell/extendedCentredCellToCellStencil.H"
+#include "fvMesh/extendedStencil/cellToCell/globalIndexStencils/CFCCellToCellStencil.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

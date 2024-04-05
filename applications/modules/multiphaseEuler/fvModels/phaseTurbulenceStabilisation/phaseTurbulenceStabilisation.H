@@ -72,8 +72,8 @@ SourceFiles
 #ifndef phaseTurbulenceStabilisation_H
 #define phaseTurbulenceStabilisation_H
 
-#include "fvModel.H"
-#include "phaseModel.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 #include "phaseCompressibleMomentumTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

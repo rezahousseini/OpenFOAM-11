@@ -35,8 +35,8 @@ SourceFiles
 #ifndef Wallis_H
 #define Wallis_H
 
-#include "barotropicCompressibilityModel.H"
-#include "dimensionedScalar.H"
+#include "barotropicCompressibilityModel/barotropicCompressibilityModel.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

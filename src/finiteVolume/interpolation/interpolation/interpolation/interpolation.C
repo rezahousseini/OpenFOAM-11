@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolation.H"
-#include "volFields.H"
-#include "polyMesh.H"
-#include "calculatedPointPatchFields.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/pointPatchFields/basic/calculated/calculatedPointPatchFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

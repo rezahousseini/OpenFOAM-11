@@ -36,9 +36,9 @@ SourceFiles
 #define cavitationModel_H
 
 #include "compressibleTwoPhases.H"
-#include "fvMatricesFwd.H"
-#include "Pair.H"
-#include "saturationPressureModel.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "primitives/Pair/Pair.H"
+#include "saturationPressureModel/saturationPressureModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

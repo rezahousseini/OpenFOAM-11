@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointEdgeCollapse.H"
+#include "polyTopoChange/polyTopoChange/pointEdgeCollapse/pointEdgeCollapse.H"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

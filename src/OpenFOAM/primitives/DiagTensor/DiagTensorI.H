@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SphericalTensor.H"
-#include "SymmTensor.H"
+#include "primitives/SphericalTensor/SphericalTensor.H"
+#include "primitives/SymmTensor/SymmTensor.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

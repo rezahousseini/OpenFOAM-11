@@ -26,13 +26,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "PatchEdgeFaceWave.H"
-#include "patchEdgeFacePoint.H"
-#include "patchPatchDist.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+#include "algorithms/PatchEdgeFaceWave/patchEdgeFacePoint.H"
+#include "algorithms/PatchEdgeFaceWave/patchPatchDist.H"
 
 using namespace Foam;
 
@@ -42,9 +42,9 @@ int main(int argc, char *argv[])
 {
     argList::validArgs.append("patch");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     const polyBoundaryMesh& patches = mesh.boundaryMesh();
 

@@ -84,8 +84,8 @@ SourceFiles
 #ifndef solidification_H
 #define solidification_H
 
-#include "porosityModel.H"
-#include "Function1.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModel.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -230,7 +230,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "solidificationTemplates.C"
+    #include "cfdTools/general/porosityModel/solidification/solidificationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

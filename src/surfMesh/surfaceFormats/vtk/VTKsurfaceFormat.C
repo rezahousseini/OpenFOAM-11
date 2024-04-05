@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VTKsurfaceFormat.H"
-#include "vtkUnstructuredReader.H"
-#include "scalarIOField.H"
+#include "surfaceFormats/vtk/VTKsurfaceFormat.H"
+#include "vtk/vtkUnstructuredReader.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

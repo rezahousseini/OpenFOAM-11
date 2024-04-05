@@ -35,8 +35,8 @@ SourceFiles
 #ifndef constantViscosityModel_H
 #define constantViscosityModel_H
 
-#include "viscosityModel.H"
-#include "volFields.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

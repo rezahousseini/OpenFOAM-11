@@ -47,8 +47,8 @@ SourceFiles
 #ifndef buoyancyEnergy_H
 #define buoyancyEnergy_H
 
-#include "fvModel.H"
-#include "uniformDimensionedFields.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

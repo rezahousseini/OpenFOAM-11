@@ -26,9 +26,9 @@ License
 #ifndef HashTable_C
 #define HashTable_C
 
-#include "HashTable.H"
-#include "List.H"
-#include "Tuple2.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/Tuple2/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -642,7 +642,7 @@ bool Foam::HashTable<T, Key, Hash>::operator!=
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "HashTableIO.C"
+#include "containers/HashTables/HashTable/HashTableIO.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

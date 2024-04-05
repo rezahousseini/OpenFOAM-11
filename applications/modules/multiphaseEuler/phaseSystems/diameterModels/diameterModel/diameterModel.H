@@ -36,9 +36,9 @@ SourceFiles
 #ifndef diameterModel_H
 #define diameterModel_H
 
-#include "dictionary.H"
-#include "phaseModel.H"
-#include "runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "phaseModel/phaseModel/phaseModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

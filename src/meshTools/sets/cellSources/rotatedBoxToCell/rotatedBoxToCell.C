@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rotatedBoxToCell.H"
-#include "polyMesh.H"
-#include "cellModeller.H"
-#include "transform.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sets/cellSources/rotatedBoxToCell/rotatedBoxToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "primitives/transform/transform.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

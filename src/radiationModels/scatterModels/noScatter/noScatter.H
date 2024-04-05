@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noScatter_H
 #define noScatter_H
 
-#include "scatterModel.H"
+#include "scatterModels/scatterModel/scatterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

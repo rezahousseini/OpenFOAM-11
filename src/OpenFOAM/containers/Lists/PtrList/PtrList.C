@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PtrList.H"
-#include "SLPtrList.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "containers/LinkedLists/user/SLPtrList.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 
@@ -321,6 +321,6 @@ void Foam::PtrList<T>::operator=(PtrList<T>&& a)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PtrListIO.C"
+#include "containers/Lists/PtrList/PtrListIO.C"
 
 // ************************************************************************* //

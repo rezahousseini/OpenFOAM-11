@@ -38,11 +38,11 @@ SourceFiles
 #ifndef transformer_H
 #define transformer_H
 
-#include "tensor.H"
-#include "word.H"
-#include "contiguous.H"
-#include "pointField.H"
-#include "transformField.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/contiguous/contiguous.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -324,10 +324,10 @@ const;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "transformerI.H"
+#include "primitives/transform/transformer/transformerI.H"
 
 #ifdef NoRepository
-    #include "transformerTemplates.C"
+    #include "primitives/transform/transformer/transformerTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

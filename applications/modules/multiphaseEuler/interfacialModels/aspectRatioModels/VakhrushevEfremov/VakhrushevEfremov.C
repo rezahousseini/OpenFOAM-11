@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VakhrushevEfremov.H"
-#include "addToRunTimeSelectionTable.H"
+#include "aspectRatioModels/VakhrushevEfremov/VakhrushevEfremov.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

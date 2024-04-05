@@ -26,7 +26,7 @@ License
 #ifndef fixedMeanOutletInletFvPatchFieldsFwd_H
 #define fixedMeanOutletInletFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

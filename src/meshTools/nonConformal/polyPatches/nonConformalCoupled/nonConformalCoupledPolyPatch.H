@@ -42,8 +42,8 @@ SourceFiles
 #ifndef nonConformalCoupledPolyPatch_H
 #define nonConformalCoupledPolyPatch_H
 
-#include "cyclicPolyPatch.H"
-#include "nonConformalPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformal/nonConformalPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

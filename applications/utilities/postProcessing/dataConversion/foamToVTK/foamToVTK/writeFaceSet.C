@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "writeFaceSet.H"
-#include "OFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 #include "vtkWriteFieldOps.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //

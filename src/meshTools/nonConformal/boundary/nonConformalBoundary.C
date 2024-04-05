@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonConformalBoundary.H"
-#include "nonConformalCoupledPolyPatch.H"
-#include "nonConformalErrorPolyPatch.H"
-#include "syncTools.H"
+#include "nonConformal/boundary/nonConformalBoundary.H"
+#include "nonConformal/polyPatches/nonConformalCoupled/nonConformalCoupledPolyPatch.H"
+#include "nonConformal/polyPatches/nonConformalError/nonConformalErrorPolyPatch.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef diagTensorIOField_H
 #define diagTensorIOField_H
 
-#include "diagTensorField.H"
-#include "IOField.H"
+#include "fields/Fields/diagTensorField/diagTensorField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

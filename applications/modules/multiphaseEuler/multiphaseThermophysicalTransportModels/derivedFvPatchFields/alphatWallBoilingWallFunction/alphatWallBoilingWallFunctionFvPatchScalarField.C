@@ -23,22 +23,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "alphatWallBoilingWallFunctionFvPatchScalarField.H"
-#include "alphatJayatillekeWallFunctionFvPatchScalarField.H"
-#include "fluidThermophysicalTransportModel.H"
-#include "phaseSystem.H"
-#include "heatTransferPhaseSystem.H"
+#include "derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/alphatWallFunctions/alphatJayatillekeWallFunction/alphatJayatillekeWallFunctionFvPatchScalarField.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "HeatTransferPhaseSystem/heatTransferPhaseSystem.H"
 #include "compressibleMomentumTransportModel.H"
 #include "phaseCompressibleMomentumTransportModel.H"
-#include "interfaceSaturationTemperatureModel.H"
-#include "rhoMulticomponentThermo.H"
+#include "interfaceSaturationTemperatureModel/interfaceSaturationTemperatureModel.H"
+#include "rhoMulticomponentThermo/rhoMulticomponentThermo.H"
 
-#include "fixedValueFvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
-#include "fixedGradientFvPatchFields.H"
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant::mathematical;
 

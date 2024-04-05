@@ -36,7 +36,7 @@ SourceFiles
 #ifndef sphericalDiffusiveMassTransfer_H
 #define sphericalDiffusiveMassTransfer_H
 
-#include "diffusiveMassTransferModel.H"
+#include "diffusiveMassTransferModels/diffusiveMassTransferModel/diffusiveMassTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

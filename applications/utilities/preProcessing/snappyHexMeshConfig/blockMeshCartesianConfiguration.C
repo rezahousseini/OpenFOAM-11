@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "blockMeshCartesianConfiguration.H"
-#include "dictionary.H"
-#include "polyPatch.H"
-#include "wallPolyPatch.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
 #include "blockMeshFunctions.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

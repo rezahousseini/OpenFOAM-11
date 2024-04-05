@@ -32,9 +32,9 @@ Description
 #ifndef PstreamReduceOps_H
 #define PstreamReduceOps_H
 
-#include "Pstream.H"
-#include "ops.H"
-#include "vector2D.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/ops/ops.H"
+#include "primitives/Vector2D/vector2D/vector2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

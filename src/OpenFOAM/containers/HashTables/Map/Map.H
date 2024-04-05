@@ -35,7 +35,7 @@ See also
 #ifndef Map_H
 #define Map_H
 
-#include "HashTable.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

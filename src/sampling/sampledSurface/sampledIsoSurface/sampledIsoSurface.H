@@ -53,7 +53,7 @@ SourceFiles
 #ifndef sampledIsoSurface_H
 #define sampledIsoSurface_H
 
-#include "sampledIsoSurfaceSurface.H"
+#include "sampledSurface/sampledIsoSurfaceSurface/sampledIsoSurfaceSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

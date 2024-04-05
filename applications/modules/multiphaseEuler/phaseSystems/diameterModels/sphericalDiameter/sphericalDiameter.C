@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalDiameter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/sphericalDiameter/sphericalDiameter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

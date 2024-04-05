@@ -54,8 +54,8 @@ SourceFiles
 #ifndef fvMeshDistributorsLoadBalancer_H
 #define fvMeshDistributorsLoadBalancer_H
 
-#include "fvMeshDistributorsDistributor.H"
-#include "cpuTime.H"
+#include "distributor/fvMeshDistributorsDistributor.H"
+#include "cpuTime/cpuTime.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

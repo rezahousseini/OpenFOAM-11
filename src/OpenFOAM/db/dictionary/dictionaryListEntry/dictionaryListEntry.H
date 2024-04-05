@@ -42,7 +42,7 @@ SourceFiles
 #ifndef dictionaryListEntry_H
 #define dictionaryListEntry_H
 
-#include "dictionaryEntry.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

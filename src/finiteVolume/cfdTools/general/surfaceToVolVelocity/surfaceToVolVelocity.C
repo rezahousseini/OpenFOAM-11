@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceToVolVelocity.H"
+#include "cfdTools/general/surfaceToVolVelocity/surfaceToVolVelocity.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

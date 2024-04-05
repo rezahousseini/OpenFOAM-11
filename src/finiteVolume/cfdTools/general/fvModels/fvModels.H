@@ -35,13 +35,13 @@ SourceFiles
 #ifndef fvModels_H
 #define fvModels_H
 
-#include "fvModel.H"
-#include "PtrListDictionary.H"
-#include "DemandDrivenMeshObject.H"
-#include "HashSet.H"
-#include "volFields.H"
-#include "geometricOneField.H"
-#include "fvMesh.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "containers/Dictionaries/PtrListDictionary/PtrListDictionary.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -315,7 +315,7 @@ struct typeGlobal<fvModels>
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvModelsTemplates.C"
+    #include "cfdTools/general/fvModels/fvModelsTemplates.C"
 #endif
 
 

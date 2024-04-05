@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseSystem.H"
-#include "interfaceSurfaceTensionModel.H"
-#include "surfaceInterpolate.H"
-#include "fvcDdt.H"
-#include "localEulerDdtScheme.H"
-#include "fvcDiv.H"
-#include "fvcGrad.H"
-#include "fvcSnGrad.H"
-#include "fvCorrectPhi.H"
-#include "fvcMeshPhi.H"
-#include "correctContactAngle.H"
-#include "dragModel.H"
-#include "movingWallVelocityFvPatchVectorField.H"
-#include "pressureReference.H"
+#include "phaseSystem/phaseSystem.H"
+#include "interfaceSurfaceTensionModels/interfaceSurfaceTensionModel/interfaceSurfaceTensionModel.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "cfdTools/general/correctPhi/fvCorrectPhi.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "correctContactAngle/correctContactAngle.H"
+#include "dragModels/dragModel/dragModel.H"
+#include "fields/fvPatchFields/derived/movingWallVelocity/movingWallVelocityFvPatchVectorField.H"
+#include "cfdTools/general/pressureReference/pressureReference.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -59,9 +59,9 @@ SourceFiles
 #ifndef distribution_H
 #define distribution_H
 
-#include "dictionary.H"
-#include "Random.H"
-#include "scalarField.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/Random/Random.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

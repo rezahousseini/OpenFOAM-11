@@ -56,7 +56,7 @@ SourceFiles
 #ifndef sampledCutPlane_H
 #define sampledCutPlane_H
 
-#include "sampledIsoSurfaceSurface.H"
+#include "sampledSurface/sampledIsoSurfaceSurface/sampledIsoSurfaceSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

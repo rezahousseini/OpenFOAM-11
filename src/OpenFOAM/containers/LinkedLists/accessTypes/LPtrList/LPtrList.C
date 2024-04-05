@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LPtrList.H"
+#include "containers/LinkedLists/accessTypes/LPtrList/LPtrList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -129,7 +129,7 @@ void Foam::LPtrList<LListBase, T>::operator=(LPtrList<LListBase, T>&& lst)
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "LPtrListIO.C"
+#include "containers/LinkedLists/accessTypes/LPtrList/LPtrListIO.C"
 
 
 // ************************************************************************* //

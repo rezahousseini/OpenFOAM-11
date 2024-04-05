@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "face.H"
+#include "meshes/meshShapes/face/face.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

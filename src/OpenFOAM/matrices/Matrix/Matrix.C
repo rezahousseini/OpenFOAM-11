@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Matrix.H"
+#include "matrices/Matrix/Matrix.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 
@@ -669,6 +669,6 @@ inline Foam::tmp<Foam::Field<Type>> Foam::operator*
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "MatrixIO.C"
+#include "matrices/Matrix/MatrixIO.C"
 
 // ************************************************************************* //

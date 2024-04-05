@@ -32,9 +32,9 @@ Description
 #ifndef fieldMapper_H
 #define fieldMapper_H
 
-#include "Field.H"
-#include "fieldTypes.H"
-#include "fieldMapperM.H"
+#include "fields/Fields/Field/Field.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/Fields/fieldMappers/fieldMapper/fieldMapperM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -93,7 +93,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldMapperTemplates.C"
+    #include "fields/Fields/fieldMappers/fieldMapper/fieldMapperTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef treeDataPrimitivePatch_H
 #define treeDataPrimitivePatch_H
 
-#include "treeBoundBoxList.H"
-#include "volumeType.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
+#include "algorithms/indexedOctree/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -270,7 +270,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "treeDataPrimitivePatch.C"
+    #include "indexedOctree/treeDataPrimitivePatch.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

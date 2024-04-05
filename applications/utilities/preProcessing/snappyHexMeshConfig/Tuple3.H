@@ -32,8 +32,8 @@ Description
 #ifndef Tuple3_H
 #define Tuple3_H
 
-#include "Istream.H"
-#include "Hash.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "primitives/hashes/Hash/Hash.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

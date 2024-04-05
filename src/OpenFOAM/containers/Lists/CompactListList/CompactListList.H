@@ -46,7 +46,7 @@ SourceFiles
 #ifndef CompactListList_H
 #define CompactListList_H
 
-#include "UCompactListList.H"
+#include "containers/Lists/UCompactListList/UCompactListList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,12 +201,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CompactListListI.H"
+#include "containers/Lists/CompactListList/CompactListListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CompactListList.C"
+    #include "containers/Lists/CompactListList/CompactListList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

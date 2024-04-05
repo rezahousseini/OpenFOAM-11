@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adiabaticPerfectFluid.H"
+#include "equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluid.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

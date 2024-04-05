@@ -24,12 +24,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "scotchDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "floatScalar.H"
-#include "Time.H"
-#include "OFstream.H"
-#include "globalIndex.H"
-#include "SubField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/Scalar/floatScalar/floatScalar.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "fields/Fields/Field/SubField.H"
 
 extern "C"
 {

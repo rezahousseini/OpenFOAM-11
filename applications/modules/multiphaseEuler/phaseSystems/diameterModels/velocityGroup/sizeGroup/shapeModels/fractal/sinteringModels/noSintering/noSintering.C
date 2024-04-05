@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noSintering.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvmSup.H"
+#include "diameterModels/velocityGroup/sizeGroup/shapeModels/fractal/sinteringModels/noSintering/noSintering.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

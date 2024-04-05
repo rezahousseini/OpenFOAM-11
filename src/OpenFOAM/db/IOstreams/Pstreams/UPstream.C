@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPstream.H"
-#include "debug.H"
-#include "dictionary.H"
-#include "IOstreams.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "global/debug/debug.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

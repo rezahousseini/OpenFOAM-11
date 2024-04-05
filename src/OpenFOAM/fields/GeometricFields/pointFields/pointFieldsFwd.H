@@ -34,7 +34,7 @@ SourceFiles
 #ifndef pointFieldsFwd_H
 #define pointFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

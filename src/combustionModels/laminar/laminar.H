@@ -35,9 +35,9 @@ SourceFiles
 #ifndef laminar_H
 #define laminar_H
 
-#include "autoPtr.H"
-#include "combustionModel.H"
-#include "basicChemistryModel.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "combustionModel/combustionModel.H"
+#include "basicChemistryModel/basicChemistryModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

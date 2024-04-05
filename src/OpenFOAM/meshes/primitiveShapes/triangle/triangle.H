@@ -35,15 +35,15 @@ SourceFiles
 #ifndef triangle_H
 #define triangle_H
 
-#include "intersection.H"
-#include "vector.H"
-#include "tensor.H"
-#include "pointHit.H"
-#include "Random.H"
-#include "FixedList.H"
-#include "UList.H"
-#include "linePointRef.H"
-#include "barycentric2D.H"
+#include "meshes/primitiveShapes/triangle/intersection.H"
+#include "primitives/Vector/vector/vector.H"
+#include "primitives/Tensor/tensor/tensor.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "primitives/Random/Random.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/Lists/UList/UList.H"
+#include "meshes/primitiveShapes/line/linePointRef.H"
+#include "primitives/Barycentric2D/barycentric2D/barycentric2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -263,7 +263,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triangleI.H"
+#include "meshes/primitiveShapes/triangle/triangleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

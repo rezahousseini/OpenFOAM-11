@@ -36,11 +36,11 @@ SourceFiles
 #ifndef repatchMesh_H
 #define repatchMesh_H
 
-#include "repatchPatch.H"
-#include "PrimitivePatch.H"
-#include "PtrList.H"
-#include "polyPatchList.H"
-#include "className.H"
+#include "repatchMesh/repatchPatch.H"
+#include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatchList.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

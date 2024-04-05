@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EulerCoordinateRotation.H"
+#include "coordinateSystems/coordinateRotation/EulerCoordinateRotation.H"
 
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

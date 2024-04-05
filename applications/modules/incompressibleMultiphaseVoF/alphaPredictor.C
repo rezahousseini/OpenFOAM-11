@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "incompressibleMultiphaseVoF.H"
-#include "subCycle.H"
-#include "CMULES.H"
-#include "fvcFlux.H"
+#include "algorithms/subCycle/subCycle.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "finiteVolume/fvc/fvcFlux.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

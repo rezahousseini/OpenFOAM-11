@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zone.H"
-#include "IOstream.H"
-#include "demandDrivenData.H"
-#include "HashSet.H"
+#include "meshes/polyMesh/zones/zone/zone.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "include/demandDrivenData.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentDispersionModel.H"
-#include "phaseSystem.H"
+#include "turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

@@ -34,8 +34,8 @@ SourceFiles
 #ifndef timeVaryingMappedFixedValuePointPatchFields_H
 #define timeVaryingMappedFixedValuePointPatchFields_H
 
-#include "timeVaryingMappedFixedValuePointPatchField.H"
-#include "fieldTypes.H"
+#include "pointPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValuePointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

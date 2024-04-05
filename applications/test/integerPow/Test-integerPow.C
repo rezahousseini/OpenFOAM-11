@@ -1,6 +1,6 @@
-#include "cpuTime.H"
-#include "Pair.H"
-#include "Random.H"
+#include "cpuTime/cpuTime.H"
+#include "primitives/Pair/Pair.H"
+#include "primitives/Random/Random.H"
 
 using namespace Foam;
 

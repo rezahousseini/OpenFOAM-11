@@ -35,9 +35,9 @@ SourceFiles
 #ifndef hexBlock_H
 #define hexBlock_H
 
-#include "labelList.H"
-#include "pointField.H"
-#include "faceList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

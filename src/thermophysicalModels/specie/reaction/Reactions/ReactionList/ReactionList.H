@@ -35,9 +35,9 @@ SourceFiles
 #ifndef ReactionList_H
 #define ReactionList_H
 
-#include "Reaction.H"
-#include "speciesTable.H"
-#include "PtrList.H"
+#include "reaction/Reactions/Reaction/Reaction.H"
+#include "speciesTable/speciesTable.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -103,7 +103,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactionList.C"
+    #include "reaction/Reactions/ReactionList/ReactionList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -34,27 +34,27 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyTopoChange.H"
-#include "polyTopoChanger.H"
-#include "edgeCollapser.H"
-#include "perfectInterface.H"
-#include "addPatchCellLayer.H"
-#include "fvMesh.H"
-#include "MeshedSurfaces.H"
-#include "globalIndex.H"
-#include "cellSet.H"
-#include "systemDict.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "polyTopoChange/polyTopoChange/edgeCollapser.H"
+#include "perfectInterface/perfectInterface.H"
+#include "polyTopoChange/polyTopoChange/addPatchCellLayer.H"
+#include "fvMesh/fvMesh.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "sets/topoSets/cellSet.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
-#include "extrudedMesh.H"
-#include "extrudeModel.H"
+#include "extrudedMesh/extrudedMesh.H"
+#include "extrudeModel/extrudeModel.H"
 
-#include "wedge.H"
-#include "wedgePolyPatch.H"
-#include "planeExtrusion.H"
-#include "emptyPolyPatch.H"
-#include "processorPolyPatch.H"
+#include "wedge/wedge.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "planeExtrusion/planeExtrusion.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 using namespace Foam;
 
@@ -264,10 +264,10 @@ void changeFrontBackPatches
 
 int main(int argc, char *argv[])
 {
-    #include "addRegionOption.H"
-    #include "addDictOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addDictOption.H"
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
     #include "createTimeExtruded.H"
 
     // Get optional regionName
@@ -371,7 +371,7 @@ int main(int argc, char *argv[])
             sourceCaseDir
         );
 
-        #include "createMeshNoChangers.H"
+        #include "include/createMeshNoChangers.H"
 
         const polyBoundaryMesh& patches = mesh.boundaryMesh();
 

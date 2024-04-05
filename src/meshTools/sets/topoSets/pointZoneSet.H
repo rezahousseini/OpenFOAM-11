@@ -36,8 +36,8 @@ SourceFiles
 #ifndef pointZoneSet_H
 #define pointZoneSet_H
 
-#include "pointSet.H"
-#include "boolList.H"
+#include "sets/topoSets/pointSet.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

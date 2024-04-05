@@ -35,10 +35,10 @@ SourceFiles
 #ifndef dimensionedType_H
 #define dimensionedType_H
 
-#include "word.H"
-#include "direction.H"
-#include "dimensionSet.H"
-#include "VectorSpace.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/direction/direction.H"
+#include "dimensionSet/dimensionSet.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -341,7 +341,7 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dimensionedType.C"
+    #include "dimensionedTypes/dimensionedType/dimensionedType.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

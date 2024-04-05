@@ -35,8 +35,8 @@ SourceFiles
 #ifndef ensightStream_H
 #define ensightStream_H
 
-#include "fileName.H"
-#include "scalarField.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

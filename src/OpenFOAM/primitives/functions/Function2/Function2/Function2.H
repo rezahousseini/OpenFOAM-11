@@ -39,11 +39,11 @@ SourceFiles
 #ifndef Function2_H
 #define Function2_H
 
-#include "dictionary.H"
-#include "tmp.H"
-#include "typeInfo.H"
-#include "Field.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/dictionary/dictionary.H"
+#include "memory/tmp/tmp.H"
+#include "db/typeInfo/typeInfo.H"
+#include "fields/Fields/Field/Field.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -231,8 +231,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Function2.C"
-    #include "Constant2.H"
+    #include "primitives/functions/Function2/Function2/Function2.C"
+    #include "primitives/functions/Function2/Constant/Constant2.H"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

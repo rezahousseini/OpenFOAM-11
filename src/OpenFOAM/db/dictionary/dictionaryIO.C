@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "IOobject.H"
-#include "inputSyntaxEntry.H"
-#include "inputModeEntry.H"
-#include "calcIncludeEntry.H"
-#include "stringOps.H"
-#include "etcFiles.H"
-#include "wordAndDictionary.H"
-#include "OSspecific.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOobject/IOobject.H"
+#include "db/dictionary/functionEntries/inputSyntaxEntry/inputSyntaxEntry.H"
+#include "db/dictionary/functionEntries/inputModeEntry/inputModeEntry.H"
+#include "db/dictionary/functionEntries/calcIncludeEntry/calcIncludeEntry.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "global/etcFiles/etcFiles.H"
+#include "db/functionObjects/functionObjectList/wordAndDictionary.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

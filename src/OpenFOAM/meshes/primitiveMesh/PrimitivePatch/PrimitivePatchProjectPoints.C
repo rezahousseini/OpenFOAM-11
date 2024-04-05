@@ -27,10 +27,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "boolList.H"
-#include "PointHit.H"
-#include "objectHit.H"
-#include "bandCompression.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/primitiveShapes/objectHit/PointHit.H"
+#include "meshes/primitiveShapes/objectHit/objectHit.H"
+#include "meshes/bandCompression/bandCompression.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

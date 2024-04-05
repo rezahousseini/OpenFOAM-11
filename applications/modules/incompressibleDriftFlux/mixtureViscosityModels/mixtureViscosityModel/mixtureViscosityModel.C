@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixtureViscosityModel.H"
-#include "incompressibleDriftFluxMixture.H"
-#include "volFields.H"
+#include "mixtureViscosityModels/mixtureViscosityModel/mixtureViscosityModel.H"
+#include "incompressibleDriftFluxMixture/incompressibleDriftFluxMixture.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

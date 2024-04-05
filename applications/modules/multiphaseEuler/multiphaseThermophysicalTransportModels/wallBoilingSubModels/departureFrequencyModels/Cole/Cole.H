@@ -43,7 +43,7 @@ SourceFiles
 #ifndef Cole_H
 #define Cole_H
 
-#include "departureFrequencyModel.H"
+#include "wallBoilingSubModels/departureFrequencyModels/departureFrequencyModel/departureFrequencyModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

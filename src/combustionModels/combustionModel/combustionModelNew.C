@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "combustionModel.H"
-#include "noCombustion.H"
+#include "combustionModel/combustionModel.H"
+#include "noCombustion/noCombustion.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

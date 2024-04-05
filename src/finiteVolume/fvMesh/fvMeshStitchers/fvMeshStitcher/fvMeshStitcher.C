@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshStitcher.H"
-#include "globalIndex.H"
-#include "fvcSurfaceIntegrate.H"
-#include "meshObjects.H"
-#include "polyTopoChangeMap.H"
-#include "syncTools.H"
-#include "surfaceToVolVelocity.H"
+#include "fvMesh/fvMeshStitchers/fvMeshStitcher/fvMeshStitcher.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "meshes/meshObjects/meshObjects.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "cfdTools/general/surfaceToVolVelocity/surfaceToVolVelocity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

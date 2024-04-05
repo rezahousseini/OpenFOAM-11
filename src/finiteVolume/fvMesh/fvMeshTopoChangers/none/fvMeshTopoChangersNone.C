@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshTopoChangersNone.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMeshTopoChangers/none/fvMeshTopoChangersNone.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

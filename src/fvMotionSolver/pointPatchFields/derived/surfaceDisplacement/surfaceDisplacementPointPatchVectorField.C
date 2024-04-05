@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceDisplacementPointPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
-#include "transformField.H"
-#include "fvMeshMoversMotionSolver.H"
-#include "displacementMotionSolver.H"
+#include "pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/Time.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "motionSolver/fvMeshMoversMotionSolver.H"
+#include "motionSolvers/displacement/displacement/displacementMotionSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

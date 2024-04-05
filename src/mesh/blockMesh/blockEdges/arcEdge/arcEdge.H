@@ -42,7 +42,7 @@ SourceFiles
 #ifndef blockEdges_arcEdge_H
 #define blockEdges_arcEdge_H
 
-#include "blockEdge.H"
+#include "blockEdges/blockEdge/blockEdge.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

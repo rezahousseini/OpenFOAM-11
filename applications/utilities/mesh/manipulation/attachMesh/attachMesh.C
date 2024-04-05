@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "attachPolyTopoChanger.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "polyTopoChange/attachPolyTopoChanger/attachPolyTopoChanger.H"
 
 using namespace Foam;
 
@@ -40,12 +40,12 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     argList::noParallel();
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createPolyMesh.H"
     const word oldInstance = mesh.pointsInstance();
 
     const bool overwrite = args.optionFound("overwrite");

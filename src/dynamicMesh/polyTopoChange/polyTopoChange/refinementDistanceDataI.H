@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformer.H"
-#include "polyMesh.H"
-#include "SubField.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/Fields/Field/SubField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

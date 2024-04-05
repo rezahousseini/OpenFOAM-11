@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triangleFuncs.H"
-#include "pointField.H"
-#include "treeBoundBox.H"
-#include "SortableList.H"
-#include "boolList.H"
+#include "triSurface/triangleFuncs/triangleFuncs.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

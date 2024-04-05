@@ -32,8 +32,8 @@ SourceFiles
 #ifndef checkTools_H
 #define checkTools_H
 
-#include "scalar.H"
-#include "indirectPrimitivePatch.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

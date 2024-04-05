@@ -35,8 +35,8 @@ SourceFiles
 #ifndef vectorField_H
 #define vectorField_H
 
-#include "scalarField.H"
-#include "vector.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionSmootherAlgo.H"
-#include "twoDPointCorrector.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "fixedValuePointPatchFields.H"
-#include "pointConstraints.H"
-#include "syncTools.H"
-#include "meshTools.H"
-#include "OFstream.H"
+#include "motionSmoother/motionSmootherAlgo.H"
+#include "twoDPointCorrector/twoDPointCorrector.H"
+#include "sets/topoSets/faceSet.H"
+#include "sets/topoSets/pointSet.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchFields.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshTools/meshTools.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

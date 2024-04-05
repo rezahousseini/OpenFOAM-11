@@ -29,16 +29,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "distributionMap.H"
-#include "argList.H"
-#include "Time.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "vector.H"
-#include "IOstreams.H"
-#include "Random.H"
-#include "Tuple2.H"
+#include "containers/Lists/List/List.H"
+#include "meshes/polyMesh/polyDistributionMap/distributionMap.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "primitives/Vector/vector/vector.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/Random/Random.H"
+#include "primitives/Tuple2/Tuple2.H"
 
 using namespace Foam;
 
@@ -47,8 +47,8 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
 
     // Test distributionMap

@@ -62,7 +62,7 @@ SourceFiles
 #ifndef includeEtcEntry_H
 #define includeEtcEntry_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,13 +32,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "syncTools.H"
-#include "patchFaceOrientation.H"
-#include "PatchEdgeFaceWave.H"
-#include "orientedSurface.H"
-#include "globalIndex.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshRefinement/patchFaceOrientation.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+#include "triSurface/orientedSurface/orientedSurface.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
 
 using namespace Foam;
 
@@ -46,13 +46,13 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::validArgs.append("faceZone");
     argList::validArgs.append("outsidePoint");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedPolyMesh.H"
 
     const word zoneName  = args[1];
     const point outsidePoint = args.argRead<point>(2);

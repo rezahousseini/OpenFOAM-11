@@ -92,7 +92,7 @@ SourceFiles
 #ifndef omega_H
 #define omega_H
 
-#include "Function1.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ void writeEntry(Ostream& os, const omega& a);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "omegaI.H"
+#include "primitives/functions/Function1/omega/omegaI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

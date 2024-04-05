@@ -27,8 +27,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "objectRegistry.H"
+#include "db/IOobject/IOobject.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

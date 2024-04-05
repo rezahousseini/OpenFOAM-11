@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "fileOperation.H"
-#include "Istream.H"
-#include "IOstreams.H"
-#include "Pstream.H"
+#include "db/IOobject/IOobject.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

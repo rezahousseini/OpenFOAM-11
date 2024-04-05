@@ -31,8 +31,8 @@ Description
 #ifndef tetPointRef_H
 #define tetPointRef_H
 
-#include "point.H"
-#include "tetrahedron.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

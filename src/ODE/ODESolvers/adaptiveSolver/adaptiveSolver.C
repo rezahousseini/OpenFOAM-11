@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adaptiveSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ODESolvers/adaptiveSolver/adaptiveSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

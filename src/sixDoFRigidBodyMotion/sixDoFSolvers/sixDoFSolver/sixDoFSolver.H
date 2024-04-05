@@ -37,8 +37,8 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sixDoFRigidBodyMotion.H"
-#include "runTimeSelectionTables.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 namespace Foam
 {
@@ -181,7 +181,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sixDoFSolverI.H"
+#include "sixDoFSolvers/sixDoFSolver/sixDoFSolverI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

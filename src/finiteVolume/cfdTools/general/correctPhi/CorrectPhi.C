@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CorrectPhi.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvmDdt.H"
-#include "fvmLaplacian.H"
-#include "fvcDiv.H"
-#include "fixedValueFvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
-#include "adjustPhi.H"
-#include "fvcMeshPhi.H"
-#include "pressureReference.H"
-#include "nonOrthogonalSolutionControl.H"
+#include "cfdTools/general/correctPhi/CorrectPhi.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "cfdTools/general/adjustPhi/adjustPhi.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "cfdTools/general/pressureReference/pressureReference.H"
+#include "cfdTools/general/solutionControl/solutionControl/nonOrthogonalSolutionControl/nonOrthogonalSolutionControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

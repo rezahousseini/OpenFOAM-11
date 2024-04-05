@@ -36,9 +36,9 @@ SourceFiles
 #ifndef Residuals_H
 #define Residuals_H
 
-#include "DemandDrivenMeshObject.H"
-#include "polyMesh.H"
-#include "solverPerformance.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "matrices/LduMatrix/LduMatrix/solverPerformance.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -144,7 +144,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Residuals.C"
+    #include "meshes/Residuals/Residuals.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

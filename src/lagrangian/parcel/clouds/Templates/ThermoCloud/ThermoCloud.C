@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoCloud.H"
-#include "integrationScheme.H"
-#include "HeatTransferModel.H"
-#include "CompositionModel.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloud.H"
+#include "integrationScheme/integrationScheme/integrationScheme.H"
+#include "submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModel.H"
+#include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

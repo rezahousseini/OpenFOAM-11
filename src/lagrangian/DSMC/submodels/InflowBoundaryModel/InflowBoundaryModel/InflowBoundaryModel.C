@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InflowBoundaryModel.H"
+#include "submodels/InflowBoundaryModel/InflowBoundaryModel/InflowBoundaryModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -94,6 +94,6 @@ void Foam::InflowBoundaryModel<CloudType>::topoChange()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "InflowBoundaryModelNew.C"
+#include "submodels/InflowBoundaryModel/InflowBoundaryModel/InflowBoundaryModelNew.C"
 
 // ************************************************************************* //

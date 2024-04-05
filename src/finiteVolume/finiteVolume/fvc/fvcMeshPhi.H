@@ -36,10 +36,10 @@ SourceFiles
 #ifndef fvcMeshPhi_H
 #define fvcMeshPhi_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "dimensionedTypes.H"
-#include "IOMRFZoneList.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -207,7 +207,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcMeshPhiTemplates.C"
+    #include "finiteVolume/fvc/fvcMeshPhiTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -75,7 +75,7 @@ SourceFiles
 #ifndef Kunz_H
 #define Kunz_H
 
-#include "cavitationModel.H"
+#include "cavitationModel/cavitationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

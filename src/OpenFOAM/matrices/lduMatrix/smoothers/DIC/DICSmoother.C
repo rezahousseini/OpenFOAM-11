@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DICSmoother.H"
-#include "DICPreconditioner.H"
+#include "matrices/lduMatrix/smoothers/DIC/DICSmoother.H"
+#include "matrices/lduMatrix/preconditioners/DICPreconditioner/DICPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

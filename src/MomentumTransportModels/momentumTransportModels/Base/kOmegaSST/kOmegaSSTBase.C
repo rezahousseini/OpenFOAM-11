@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTBase.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
-#include "bound.H"
-#include "wallDist.H"
+#include "Base/kOmegaSST/kOmegaSSTBase.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "cfdTools/general/bound/bound.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

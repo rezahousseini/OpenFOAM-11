@@ -35,12 +35,12 @@ SourceFiles
 #ifndef treeDataFace_H
 #define treeDataFace_H
 
-#include "face.H"
-#include "indexedOctree.H"
-#include "treeBoundBoxList.H"
-#include "PackedBoolList.H"
-#include "primitiveMesh.H"
-#include "volumeType.H"
+#include "meshes/meshShapes/face/face.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "algorithms/indexedOctree/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

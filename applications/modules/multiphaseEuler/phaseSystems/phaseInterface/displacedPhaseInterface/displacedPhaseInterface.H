@@ -36,7 +36,7 @@ SourceFiles
 #ifndef displacedPhaseInterface_H
 #define displacedPhaseInterface_H
 
-#include "phaseInterface.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

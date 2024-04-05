@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshStitchersStationary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMeshStitchers/stationary/fvMeshStitchersStationary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

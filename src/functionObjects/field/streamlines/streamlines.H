@@ -104,15 +104,15 @@ SourceFiles
 #ifndef functionObjects_streamlines_H
 #define functionObjects_streamlines_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
-#include "DynamicList.H"
-#include "DynamicField.H"
-#include "scalarList.H"
-#include "vectorList.H"
-#include "setWriter.H"
-#include "indirectPrimitivePatch.H"
-#include "NamedEnum.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "sampledSet/writers/setWriter.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

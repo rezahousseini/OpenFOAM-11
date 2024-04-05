@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UList.H"
-#include "ListLoopM.H"
-#include "contiguous.H"
+#include "containers/Lists/UList/UList.H"
+#include "containers/Lists/List/ListLoopM.H"
+#include "primitives/contiguous/contiguous.H"
 
 #include <algorithm>
 
@@ -223,6 +223,6 @@ bool Foam::UList<T>::operator>=(const UList<T>& a) const
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "UListIO.C"
+#include "containers/Lists/UList/UListIO.C"
 
 // ************************************************************************* //

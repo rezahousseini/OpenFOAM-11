@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "processorRunTimes.H"
-#include "decompositionMethod.H"
-#include "timeSelector.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "db/Time/timeSelector.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

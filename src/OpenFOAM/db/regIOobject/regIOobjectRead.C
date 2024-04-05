@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regIOobject.H"
-#include "IFstream.H"
-#include "dictionary.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

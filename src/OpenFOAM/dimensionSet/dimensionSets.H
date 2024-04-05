@@ -36,9 +36,9 @@ SourceFiles
 #ifndef dimensionSets_H
 #define dimensionSets_H
 
-#include "scalarMatrices.H"
-#include "dimensionedScalarFwd.H"
-#include "PtrList.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalarFwd.H"
+#include "containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

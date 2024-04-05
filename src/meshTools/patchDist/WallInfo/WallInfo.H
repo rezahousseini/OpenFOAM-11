@@ -36,7 +36,7 @@ SourceFiles
 #ifndef WallInfo_H
 #define WallInfo_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ FOR_ALL_FIELD_TYPES(DefineContiguousWallLocationDataType);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WallInfoI.H"
+#include "patchDist/WallInfo/WallInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

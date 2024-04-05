@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "anisotropicFilter.H"
-#include "fvcSurfaceIntegrate.H"
-#include "fvcSnGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "LES/LESfilters/anisotropicFilter/anisotropicFilter.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

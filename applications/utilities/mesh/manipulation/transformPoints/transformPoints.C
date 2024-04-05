@@ -66,16 +66,16 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "ReadFields.H"
-#include "pointFields.H"
-#include "pointSet.H"
-#include "transformField.H"
-#include "transformGeometricField.H"
-#include "unitConversion.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/ReadFields/ReadFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "sets/topoSets/pointSet.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "fields/GeometricFields/transformGeometricField/transformGeometricField.H"
+#include "global/unitConversion/unitConversion.H"
 
 using namespace Foam;
 
@@ -102,7 +102,7 @@ void readAndRotateFields
 
 void rotateFields(const argList& args, const Time& runTime, const tensor& T)
 {
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // Read objects in time directory
     IOobjectList objects(mesh, runTime.name());
@@ -181,16 +181,16 @@ int main(int argc, char *argv[])
         "Point set to limit the transformation to"
     );
 
-    #include "addRegionOption.H"
-    #include "addAllRegionsOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addRegionOption.H"
+    #include "include/addAllRegionsOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const string transformationString(args[1]);
 
     #include "createTransforms.H"
 
-    #include "setRegionNames.H"
+    #include "include/setRegionNames.H"
 
     const bool doRotateFields = args.optionFound("rotateFields");
 

@@ -29,13 +29,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triangle.H"
-#include "triSurface.H"
-#include "argList.H"
-#include "surfaceFeatures.H"
-#include "treeBoundBox.H"
-#include "meshTools.H"
-#include "OFstream.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "triSurface/triSurface.H"
+#include "global/argList/argList.H"
+#include "triSurface/surfaceFeatures/surfaceFeatures.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "meshTools/meshTools.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 using namespace Foam;
 
@@ -43,7 +43,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::validArgs.append("surface file");
     argList::validArgs.append("output surface file");

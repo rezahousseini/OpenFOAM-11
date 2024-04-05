@@ -35,7 +35,7 @@ SourceFiles
 #ifndef homogeneousMixture_H
 #define homogeneousMixture_H
 
-#include "basicCombustionMixture.H"
+#include "mixtures/basicCombustionMixture/basicCombustionMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -197,7 +197,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 #ifdef NoRepository
-    #include "homogeneousMixture.C"
+    #include "mixtures/homogeneousMixture/homogeneousMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

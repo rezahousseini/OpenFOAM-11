@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "csvSetWriter.H"
-#include "coordSet.H"
-#include "fileName.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/writers/csv/csvSetWriter.H"
+#include "coordSet/coordSet.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

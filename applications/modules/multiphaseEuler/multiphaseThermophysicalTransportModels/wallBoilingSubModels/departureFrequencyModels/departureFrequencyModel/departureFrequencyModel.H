@@ -36,12 +36,12 @@ SourceFiles
 #ifndef departureFrequencyModel_H
 #define departureFrequencyModel_H
 
-#include "volFields.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
-#include "uniformDimensionedFields.H"
-#include "phaseModel.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -31,20 +31,20 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Cloud.H"
-#include "IOdictionary.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "timeSelector.H"
-#include "OFstream.H"
-#include "passiveParticleCloud.H"
-#include "systemDict.H"
+#include "global/argList/argList.H"
+#include "Cloud/Cloud.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/Time.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "passiveParticle/passiveParticleCloud.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
-#include "SortableList.H"
-#include "IOobjectList.H"
-#include "PtrList.H"
-#include "Field.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/Lists/PtrList/PtrList.H"
+#include "fields/Fields/Field/Field.H"
 #include "steadyParticleTracksTemplates.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -113,14 +113,14 @@ int main(int argc, char *argv[])
 {
     argList::noParallel();
     timeSelector::addOptions();
-    #include "addRegionOption.H"
-    #include "addDictOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addDictOption.H"
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
+    #include "include/createTime.H"
     const instantList timeDirs = timeSelector::select0(runTime, args);
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
     #include "createFields.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

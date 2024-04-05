@@ -35,7 +35,7 @@ SourceFiles
 #ifndef singleComponentMixture_H
 #define singleComponentMixture_H
 
-#include "basicSpecieMixture.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "singleComponentMixture.C"
+    #include "mixtures/singleComponentMixture/singleComponentMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

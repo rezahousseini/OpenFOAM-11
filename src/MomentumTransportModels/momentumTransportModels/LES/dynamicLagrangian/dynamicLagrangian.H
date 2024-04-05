@@ -42,8 +42,8 @@ SourceFiles
 #ifndef dynamicLagrangian_H
 #define dynamicLagrangian_H
 
-#include "LESeddyViscosity.H"
-#include "simpleFilter.H"
+#include "LES/LESeddyViscosity/LESeddyViscosity.H"
+#include "LES/LESfilters/simpleFilter/simpleFilter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dynamicLagrangian.C"
+    #include "LES/dynamicLagrangian/dynamicLagrangian.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurface.H"
-#include "boundBox.H"
-#include "Ostream.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "meshes/boundBox/boundBox.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

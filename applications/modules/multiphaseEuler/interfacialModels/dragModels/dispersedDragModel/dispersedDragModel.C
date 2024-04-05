@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dispersedDragModel.H"
-#include "phaseSystem.H"
-#include "noSwarm.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "swarmCorrections/noSwarm/noSwarm.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

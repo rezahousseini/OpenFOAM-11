@@ -35,10 +35,10 @@ SourceFiles
 #ifndef engineValve_H
 #define engineValve_H
 
-#include "fvMeshMoversEngine.H"
-#include "coordinateSystem.H"
-#include "polyPatchID.H"
-#include "Table.H"
+#include "engine/engine/fvMeshMoversEngine.H"
+#include "coordinateSystems/coordinateSystem.H"
+#include "meshes/Identifiers/patch/polyPatchID.H"
+#include "primitives/functions/Function1/Table/Table.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

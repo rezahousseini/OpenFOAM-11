@@ -36,7 +36,7 @@ SourceFiles
 #ifndef PatchEdgeFacePointData_H
 #define PatchEdgeFacePointData_H
 
-#include "patchEdgeFacePoint.H"
+#include "algorithms/PatchEdgeFaceWave/patchEdgeFacePoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ FOR_ALL_FIELD_TYPES(DefineContiguousPatchEdgeFacePointDataType);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PatchEdgeFacePointDataI.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFacePointDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

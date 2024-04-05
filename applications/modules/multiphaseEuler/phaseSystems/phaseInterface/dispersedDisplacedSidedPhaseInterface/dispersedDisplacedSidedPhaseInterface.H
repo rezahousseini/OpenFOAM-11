@@ -37,9 +37,9 @@ SourceFiles
 #ifndef dispersedDisplacedSidedPhaseInterface_H
 #define dispersedDisplacedSidedPhaseInterface_H
 
-#include "dispersedPhaseInterface.H"
-#include "displacedPhaseInterface.H"
-#include "sidedPhaseInterface.H"
+#include "phaseInterface/dispersedPhaseInterface/dispersedPhaseInterface.H"
+#include "phaseInterface/displacedPhaseInterface/displacedPhaseInterface.H"
+#include "phaseInterface/sidedPhaseInterface/sidedPhaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -45,18 +45,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PstreamReduceOps.H"
-#include "argList.H"
-#include "Time.H"
-#include "polyTopoChange.H"
-#include "polyModifyFace.H"
-#include "polyAddFace.H"
-#include "combineFaces.H"
-#include "removePoints.H"
-#include "polyMesh.H"
-#include "polyTopoChangeMap.H"
-#include "unitConversion.H"
-#include "motionSmoother.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/polyTopoChange/addObject/polyAddFace.H"
+#include "polyTopoChange/polyTopoChange/combineFaces.H"
+#include "polyTopoChange/polyTopoChange/removePoints.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "global/unitConversion/unitConversion.H"
+#include "motionSmoother/motionSmoother.H"
 
 using namespace Foam;
 
@@ -342,7 +342,7 @@ label mergeEdges(const scalar minCos, polyMesh& mesh)
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
     argList::validArgs.append("featureAngle [0..180]");
     argList::addOption
@@ -357,9 +357,9 @@ int main(int argc, char *argv[])
         "read user-defined mesh quality criterions from system/meshQualityDict"
     );
 
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
+    #include "include/createPolyMesh.H"
     const word oldInstance = mesh.pointsInstance();
 
     const scalar featureAngle = args.argRead<scalar>(1);

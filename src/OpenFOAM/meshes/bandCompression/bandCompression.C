@@ -30,12 +30,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "bandCompression.H"
-#include "SLList.H"
-#include "IOstreams.H"
-#include "DynamicList.H"
-#include "ListOps.H"
-#include "PackedBoolList.H"
+#include "meshes/bandCompression/bandCompression.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

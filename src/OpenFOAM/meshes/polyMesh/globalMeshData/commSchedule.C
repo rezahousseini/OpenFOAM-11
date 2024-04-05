@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "commSchedule.H"
-#include "SortableList.H"
-#include "boolList.H"
-#include "IOstreams.H"
-#include "IOmanip.H"
-#include "OStringStream.H"
-#include "Pstream.H"
+#include "meshes/polyMesh/globalMeshData/commSchedule.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

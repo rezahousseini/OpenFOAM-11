@@ -26,12 +26,12 @@ Application
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvcFlux.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "zeroGradientFvPatchFields.H"
+#include "global/argList/argList.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 using namespace Foam;
 
@@ -39,10 +39,10 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     Info<< "Reading field p\n" << endl;
     volScalarField p
@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
         mesh
     );
 
-    #include "createPhi.H"
+    #include "cfdTools/incompressible/createPhi.H"
 
     VolField<symmTensor> st
     (

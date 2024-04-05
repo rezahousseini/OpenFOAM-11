@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coefficientWilkeMulticomponentMixture.H"
+#include "mixtures/coefficientWilkeMulticomponentMixture/coefficientWilkeMulticomponentMixture.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

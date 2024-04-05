@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constrainHbyA.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fixedFluxExtrapolatedPressureFvPatchScalarField.H"
+#include "cfdTools/general/constrainHbyA/constrainHbyA.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/fvPatchFields/derived/fixedFluxExtrapolatedPressure/fixedFluxExtrapolatedPressureFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

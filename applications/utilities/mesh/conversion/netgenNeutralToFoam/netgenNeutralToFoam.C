@@ -74,13 +74,13 @@ NOTE:
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "IFstream.H"
-#include "polyPatch.H"
-#include "cellModeller.H"
-#include "triFace.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "meshes/meshShapes/triFace/triFace.H"
 
 using namespace Foam;
 
@@ -91,8 +91,8 @@ int main(int argc, char *argv[])
 {
     argList::validArgs.append("Neutral file");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     IFstream str(args[1]);
 

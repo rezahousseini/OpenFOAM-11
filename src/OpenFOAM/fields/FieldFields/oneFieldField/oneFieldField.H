@@ -37,7 +37,7 @@ Description
 #ifndef oneFieldField_H
 #define oneFieldField_H
 
-#include "oneField.H"
+#include "fields/Fields/oneField/oneField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -74,7 +74,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "oneFieldFieldI.H"
+    #include "fields/FieldFields/oneFieldField/oneFieldFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

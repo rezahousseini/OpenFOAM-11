@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inverseFaceDistanceDiffusivity.H"
-#include "surfaceFields.H"
-#include "fvPatchDistWave.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionDiffusivity/inverseFaceDistance/inverseFaceDistanceDiffusivity.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMesh/wallDist/fvPatchDistWave/fvPatchDistWave.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

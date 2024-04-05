@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallHeatTransferCoeff.H"
+#include "wallHeatTransferCoeff/wallHeatTransferCoeff.H"
 #include "incompressibleMomentumTransportModel.H"
 #include "compressibleMomentumTransportModel.H"
-#include "fvsPatchField.H"
-#include "basicThermo.H"
-#include "wallPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
+#include "basicThermo/basicThermo.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

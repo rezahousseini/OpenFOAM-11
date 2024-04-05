@@ -45,9 +45,9 @@ SourceFiles
 #ifndef surfaceLocation_H
 #define surfaceLocation_H
 
-#include "pointIndexHit.H"
-#include "triPointRef.H"
-#include "InfoProxy.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

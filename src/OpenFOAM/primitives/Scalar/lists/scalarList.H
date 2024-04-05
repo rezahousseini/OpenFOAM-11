@@ -38,8 +38,8 @@ Description
 #ifndef scalarList_H
 #define scalarList_H
 
-#include "scalar.H"
-#include "List.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

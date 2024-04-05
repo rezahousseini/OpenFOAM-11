@@ -39,9 +39,9 @@ SourceFiles
 #ifndef jobInfo_H
 #define jobInfo_H
 
-#include "dictionary.H"
-#include "fileName.H"
-#include "cpuTime.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "cpuTime/cpuTime.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

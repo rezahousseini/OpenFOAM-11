@@ -97,9 +97,9 @@ See also
 #ifndef Table_H
 #define Table_H
 
-#include "tableBase.H"
-#include "Function1.H"
-#include "TableReader.H"
+#include "primitives/functions/Function1/Table/tableBase.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "primitives/functions/Function1/Table/TableReader/TableReader/TableReader.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -248,7 +248,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Table.C"
+    #include "primitives/functions/Function1/Table/Table.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

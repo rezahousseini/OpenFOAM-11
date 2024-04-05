@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemistryTabulationMethod.H"
-#include "odeChemistryModel.H"
+#include "chemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.H"
+#include "odeChemistryModel/odeChemistryModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

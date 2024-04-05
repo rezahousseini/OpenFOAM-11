@@ -37,12 +37,12 @@ SourceFiles
 #ifndef Matrix_H
 #define Matrix_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "Field.H"
-#include "zero.H"
-#include "autoPtr.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "fields/Fields/Field/Field.H"
+#include "primitives/zero/zero.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -378,12 +378,12 @@ tmp<Field<Type>> operator*
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MatrixI.H"
+#include "matrices/Matrix/MatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Matrix.C"
+    #include "matrices/Matrix/Matrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

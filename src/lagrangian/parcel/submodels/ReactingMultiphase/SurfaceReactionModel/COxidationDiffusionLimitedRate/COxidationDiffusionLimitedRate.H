@@ -36,7 +36,7 @@ Description
 #ifndef COxidationDiffusionLimitedRate_H
 #define COxidationDiffusionLimitedRate_H
 
-#include "SurfaceReactionModel.H"
+#include "submodels/ReactingMultiphase/SurfaceReactionModel/SurfaceReactionModel/SurfaceReactionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "COxidationDiffusionLimitedRate.C"
+    #include "submodels/ReactingMultiphase/SurfaceReactionModel/COxidationDiffusionLimitedRate/COxidationDiffusionLimitedRate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

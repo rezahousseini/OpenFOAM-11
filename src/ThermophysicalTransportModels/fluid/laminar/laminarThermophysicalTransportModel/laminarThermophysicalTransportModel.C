@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminarThermophysicalTransportModel.H"
-#include "unityLewisFourier.H"
+#include "laminar/laminarThermophysicalTransportModel/laminarThermophysicalTransportModel.H"
+#include "laminar/unityLewisFourier/unityLewisFourier.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -37,10 +37,10 @@ SourceFiles
 #ifndef domainDecomposition_H
 #define domainDecomposition_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 #include "processorRunTimes.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

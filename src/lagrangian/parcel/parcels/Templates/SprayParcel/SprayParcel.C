@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SprayParcel.H"
-#include "forceSuSp.H"
-#include "CompositionModel.H"
-#include "AtomisationModel.H"
+#include "parcels/Templates/SprayParcel/SprayParcel.H"
+#include "submodels/Momentum/ParticleForces/forceSuSp/forceSuSp.H"
+#include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.H"
+#include "submodels/Spray/AtomisationModel/AtomisationModel/AtomisationModel.H"
 
 // * * * * * * * * * * *  Protected Member Functions * * * * * * * * * * * * //
 
@@ -436,7 +436,7 @@ Foam::SprayParcel<ParcelType>::SprayParcel(const SprayParcel<ParcelType>& p)
 
 // * * * * * * * * * * * * * * IOStream operators  * * * * * * * * * * * * * //
 
-#include "SprayParcelIO.C"
+#include "parcels/Templates/SprayParcel/SprayParcelIO.C"
 
 
 // ************************************************************************* //

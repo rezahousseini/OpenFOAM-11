@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PointEdgeLayerInfoData.H"
-#include "polyMesh.H"
+#include "layerInfo/PointEdgeLayerInfoData.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

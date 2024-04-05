@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileOperationInitialise.H"
-#include "addToRunTimeSelectionTable.H"
+#include "global/fileOperations/fileOperationInitialise/fileOperationInitialise.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

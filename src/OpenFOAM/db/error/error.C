@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "OStringStream.H"
-#include "fileName.H"
-#include "dictionary.H"
-#include "jobInfo.H"
-#include "Pstream.H"
-#include "OSspecific.H"
+#include "db/error/error.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/dictionary/dictionary.H"
+#include "global/jobInfo/jobInfo.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -31,16 +31,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "ListOps.H"
-#include "triSurface.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "Random.H"
-#include "transform.H"
-#include "IOmanip.H"
-#include "Pair.H"
-#include "momentOfInertia.H"
+#include "global/argList/argList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "triSurface/triSurface.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "primitives/Random/Random.H"
+#include "primitives/transform/transform.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "primitives/Pair/Pair.H"
+#include "momentOfInertia/momentOfInertia.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -48,7 +48,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "removeCaseOptions.H"
+    #include "include/removeCaseOptions.H"
 
     argList::addNote
     (

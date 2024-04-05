@@ -80,8 +80,8 @@ SourceFiles
 #ifndef coupledTemperatureFvPatchScalarField_H
 #define coupledTemperatureFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "scalarField.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

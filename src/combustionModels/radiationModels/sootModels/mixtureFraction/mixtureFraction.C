@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixtureFraction.H"
-#include "singleStepCombustion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "radiationModels/sootModels/mixtureFraction/mixtureFraction.H"
+#include "singleStepCombustion/singleStepCombustion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

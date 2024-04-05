@@ -26,10 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "regIOobject.H"
-#include "Time.H"
-#include "OSspecific.H"
-#include "OFstream.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/Time/Time.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundSphere.H"
-#include "labelPair.H"
-#include "triPointRef.H"
-#include "tetPointRef.H"
+#include "algorithms/boundSphere/boundSphere.H"
+#include "primitives/Pair/labelPair.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "meshes/primitiveShapes/tetrahedron/tetPointRef.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

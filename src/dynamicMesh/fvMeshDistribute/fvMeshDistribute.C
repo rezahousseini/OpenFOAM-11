@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshDistribute.H"
-#include "fvMeshAdder.H"
-#include "processorCyclicFvPatchField.H"
-#include "polyTopoChange.H"
-#include "removeCells.H"
-#include "polyModifyFace.H"
-#include "polyDistributionMap.H"
-#include "syncTools.H"
-#include "CompactListList.H"
-#include "fvMeshTools.H"
-#include "globalIndex.H"
+#include "fvMeshDistribute/fvMeshDistribute.H"
+#include "fvMeshAdder/fvMeshAdder.H"
+#include "fields/fvPatchFields/constraint/processorCyclic/processorCyclicFvPatchField.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/removeCells.H"
+#include "polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "containers/Lists/CompactListList/CompactListList.H"
+#include "fvMeshTools/fvMeshTools.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

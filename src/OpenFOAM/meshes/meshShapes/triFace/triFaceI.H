@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "face.H"
-#include "triPointRef.H"
-#include "Swap.H"
+#include "db/IOstreams/IOstreams.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "primitives/Swap/Swap.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MPPICParcel.H"
+#include "parcels/Templates/MPPICParcel/MPPICParcel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -40,6 +40,6 @@ Foam::MPPICParcel<ParcelType>::MPPICParcel
 
 // * * * * * * * * * * * * * * IOStream operators  * * * * * * * * * * * * * //
 
-#include "MPPICParcelIO.C"
+#include "parcels/Templates/MPPICParcel/MPPICParcelIO.C"
 
 // ************************************************************************* //

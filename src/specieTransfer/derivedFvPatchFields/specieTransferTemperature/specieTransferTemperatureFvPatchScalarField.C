@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "specieTransferTemperatureFvPatchScalarField.H"
-#include "specieTransferMassFractionFvPatchScalarField.H"
-#include "specieTransferVelocityFvPatchVectorField.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fluidThermophysicalTransportModel.H"
-#include "basicSpecieMixture.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/specieTransferTemperature/specieTransferTemperatureFvPatchScalarField.H"
+#include "derivedFvPatchFields/specieTransferMassFraction/specieTransferMassFractionFvPatchScalarField.H"
+#include "derivedFvPatchFields/specieTransferVelocity/specieTransferVelocityFvPatchVectorField.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

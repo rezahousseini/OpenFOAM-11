@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "moleculeCloud.H"
-#include "molecule.H"
-#include "Random.H"
-#include "Time.H"
+#include "moleculeCloud/moleculeCloud.H"
+#include "molecule/molecule.H"
+#include "primitives/Random/Random.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

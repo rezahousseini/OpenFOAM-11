@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BrunDripping.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvModels/filmCloudTransfer/ejectionModels/BrunDripping/BrunDripping.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

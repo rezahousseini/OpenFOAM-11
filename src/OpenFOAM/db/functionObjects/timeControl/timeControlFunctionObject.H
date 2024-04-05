@@ -35,9 +35,9 @@ SourceFiles
 #ifndef timeControlFunctionObject_H
 #define timeControlFunctionObject_H
 
-#include "functionObject.H"
-#include "dictionary.H"
-#include "timeControl.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "db/dictionary/dictionary.H"
+#include "db/functionObjects/timeControl/timeControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "timeControlFunctionObjectI.H"
+#include "db/functionObjects/timeControl/timeControlFunctionObjectI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

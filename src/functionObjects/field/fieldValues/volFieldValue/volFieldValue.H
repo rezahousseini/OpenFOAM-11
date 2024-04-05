@@ -104,8 +104,8 @@ SourceFiles
 #ifndef functionObjects_volFieldValue_H
 #define functionObjects_volFieldValue_H
 
-#include "fieldValue.H"
-#include "fvCellSet.H"
+#include "fieldValues/fieldValue/fieldValue.H"
+#include "fvMesh/fvCellSet/fvCellSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -369,7 +369,7 @@ inline Ostream& operator<<
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "volFieldValueTemplates.C"
+    #include "fieldValues/volFieldValue/volFieldValueTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

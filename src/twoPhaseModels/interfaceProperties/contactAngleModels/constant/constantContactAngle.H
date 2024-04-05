@@ -48,7 +48,7 @@ SourceFiles
 #ifndef constantContactAngle_H
 #define constantContactAngle_H
 
-#include "contactAngleModel.H"
+#include "contactAngleModels/contactAngleModel/contactAngleModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

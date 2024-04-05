@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "psiThermo.H"
-#include "hePsiThermo.H"
-#include "pureMixture.H"
+#include "psiThermo/psiThermo.H"
+#include "psiThermo/hePsiThermo.H"
+#include "mixtures/pureMixture/pureMixture.H"
 
-#include "forGases.H"
-#include "makeThermo.H"
+#include "include/forGases.H"
+#include "include/makeThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

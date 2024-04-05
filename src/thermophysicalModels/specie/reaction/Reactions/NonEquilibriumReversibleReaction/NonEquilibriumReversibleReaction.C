@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NonEquilibriumReversibleReaction.H"
+#include "reaction/Reactions/NonEquilibriumReversibleReaction/NonEquilibriumReversibleReaction.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

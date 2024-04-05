@@ -30,8 +30,8 @@ Description
 #ifndef MapFvSurfaceField_H
 #define MapFvSurfaceField_H
 
-#include "MapGeometricFields.H"
-#include "surfaceMesh.H"
+#include "fields/GeometricFields/GeometricField/MapGeometricFields.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

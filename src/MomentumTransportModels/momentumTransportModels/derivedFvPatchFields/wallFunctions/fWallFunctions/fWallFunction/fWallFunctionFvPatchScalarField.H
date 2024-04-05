@@ -52,7 +52,7 @@ SourceFiles
 #ifndef fWallFunctionFvPatchScalarField_H
 #define fWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchField.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 
 #ifndef constAnisoSolidTransport_H
 #define constAnisoSolidTransport_H
-#include "vector.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,10 +149,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "constAnisoSolidTransportI.H"
+#include "solidSpecie/transport/constAniso/constAnisoSolidTransportI.H"
 
 #ifdef NoRepository
-    #include "constAnisoSolidTransport.C"
+    #include "solidSpecie/transport/constAniso/constAnisoSolidTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

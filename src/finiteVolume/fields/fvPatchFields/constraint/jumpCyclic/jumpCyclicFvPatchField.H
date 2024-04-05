@@ -39,7 +39,7 @@ SourceFiles
 #ifndef jumpCyclicFvPatchField_H
 #define jumpCyclicFvPatchField_H
 
-#include "cyclicFvPatchField.H"
+#include "fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -160,7 +160,7 @@ void jumpCyclicFvPatchField<scalar>::updateInterfaceMatrix
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "jumpCyclicFvPatchField.C"
+    #include "fields/fvPatchFields/constraint/jumpCyclic/jumpCyclicFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

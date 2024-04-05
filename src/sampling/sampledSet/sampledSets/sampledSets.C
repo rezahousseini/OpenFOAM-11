@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSets.H"
-#include "dictionary.H"
-#include "Time.H"
-#include "volFields.H"
-#include "ListListOps.H"
-#include "SortableList.H"
-#include "volPointInterpolation.H"
-#include "polyTopoChangeMap.H"
-#include "polyMeshMap.H"
-#include "polyDistributionMap.H"
-#include "writeFile.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/sampledSets/sampledSets.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/Time.H"
+#include "fields/volFields/volFields.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyMeshMap/polyMeshMap.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -33,14 +33,14 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 #ifndef UIPstream_H
 #define UIPstream_H
 
-#include "UPstream.H"
-#include "Istream.H"
-#include "PstreamBuffers.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

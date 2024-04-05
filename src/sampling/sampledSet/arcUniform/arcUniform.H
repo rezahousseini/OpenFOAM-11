@@ -61,8 +61,8 @@ SourceFiles
 #ifndef arcUniform_H
 #define arcUniform_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

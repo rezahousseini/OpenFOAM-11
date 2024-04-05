@@ -35,8 +35,8 @@ SourceFiles
 #ifndef internalFvPatch_H
 #define internalFvPatch_H
 
-#include "fvPatch.H"
-#include "internalPolyPatch.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/internal/internalPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

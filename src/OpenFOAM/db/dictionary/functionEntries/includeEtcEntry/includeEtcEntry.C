@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "includeEtcEntry.H"
-#include "etcFiles.H"
-#include "stringOps.H"
-#include "addToMemberFunctionSelectionTable.H"
-#include "IOobject.H"
-#include "fileOperation.H"
+#include "db/dictionary/functionEntries/includeEtcEntry/includeEtcEntry.H"
+#include "global/etcFiles/etcFiles.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
+#include "db/IOobject/IOobject.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

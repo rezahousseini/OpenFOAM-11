@@ -66,14 +66,14 @@ SourceFiles
 #ifndef chemistryModel_H
 #define chemistryModel_H
 
-#include "odeChemistryModel.H"
-#include "ReactionList.H"
-#include "ODESystem.H"
-#include "volFields.H"
-#include "multicomponentMixture.H"
-#include "chemistryReductionMethod.H"
-#include "chemistryTabulationMethod.H"
-#include "DynamicField.H"
+#include "odeChemistryModel/odeChemistryModel.H"
+#include "reaction/Reactions/ReactionList/ReactionList.H"
+#include "ODESystem/ODESystem.H"
+#include "fields/volFields/volFields.H"
+#include "mixtures/multicomponentMixture/multicomponentMixture.H"
+#include "chemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.H"
+#include "chemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -312,12 +312,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "chemistryModelI.H"
+#include "chemistryModel/chemistryModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "chemistryModel.C"
+    #include "chemistryModel/chemistryModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

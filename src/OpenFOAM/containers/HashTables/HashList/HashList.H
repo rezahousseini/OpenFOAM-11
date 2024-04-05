@@ -36,9 +36,9 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "Tuple2.H"
-#include "word.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -103,7 +103,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "HashList.C"
+    #include "containers/HashTables/HashList/HashList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

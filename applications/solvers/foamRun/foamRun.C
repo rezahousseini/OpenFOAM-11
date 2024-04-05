@@ -59,9 +59,9 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "solver.H"
-#include "pimpleSingleRegionControl.H"
+#include "global/argList/argList.H"
+#include "solver/solver.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleSingleRegionControl/pimpleSingleRegionControl.H"
 #include "setDeltaT.H"
 
 using namespace Foam;
@@ -77,8 +77,8 @@ int main(int argc, char *argv[])
         "Solver name"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Read the solverName from the optional solver entry in controlDict
     word solverName
@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
     }
 
     // Create the default single region mesh
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
     // Instantiate the selected solver
     autoPtr<solver> solverPtr(solver::New(solverName, mesh));

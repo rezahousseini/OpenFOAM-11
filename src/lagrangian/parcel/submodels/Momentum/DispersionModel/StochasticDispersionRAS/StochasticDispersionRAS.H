@@ -34,7 +34,7 @@ Description
 #ifndef StochasticDispersionRAS_H
 #define StochasticDispersionRAS_H
 
-#include "DispersionRASModel.H"
+#include "submodels/Momentum/DispersionModel/DispersionRASModel/DispersionRASModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -100,7 +100,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "StochasticDispersionRAS.C"
+    #include "submodels/Momentum/DispersionModel/StochasticDispersionRAS/StochasticDispersionRAS.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

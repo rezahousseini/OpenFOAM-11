@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TableReader.H"
-#include "fieldTypes.H"
-#include "EmbeddedTableReader.H"
-#include "FoamTableReader.H"
-#include "CsvTableReader.H"
+#include "primitives/functions/Function1/Table/TableReader/TableReader/TableReader.H"
+#include "fields/Fields/fieldTypes.H"
+#include "primitives/functions/Function1/Table/TableReader/Embedded/EmbeddedTableReader.H"
+#include "primitives/functions/Function1/Table/TableReader/Foam/FoamTableReader.H"
+#include "primitives/functions/Function1/Table/TableReader/Csv/CsvTableReader.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

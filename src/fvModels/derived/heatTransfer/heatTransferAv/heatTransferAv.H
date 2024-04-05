@@ -37,7 +37,7 @@ SourceFiles
 #ifndef heatTransferAv_H
 #define heatTransferAv_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

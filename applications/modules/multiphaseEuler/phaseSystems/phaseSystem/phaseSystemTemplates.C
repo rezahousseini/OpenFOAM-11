@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseSystem.H"
-#include "sidedPhaseInterface.H"
+#include "phaseSystem/phaseSystem.H"
+#include "phaseInterface/sidedPhaseInterface/sidedPhaseInterface.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef triadIOField_H
 #define triadIOField_H
 
-#include "triadField.H"
-#include "IOField.H"
+#include "fields/Fields/triadField/triadField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

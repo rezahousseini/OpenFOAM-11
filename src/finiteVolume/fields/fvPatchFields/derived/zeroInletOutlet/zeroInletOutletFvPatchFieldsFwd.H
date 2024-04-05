@@ -26,7 +26,7 @@ License
 #ifndef zeroInletOutletFvPatchFieldsFwd_H
 #define zeroInletOutletFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

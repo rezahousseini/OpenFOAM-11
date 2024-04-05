@@ -35,9 +35,9 @@ SourceFiles
 #ifndef DLListBase_H
 #define DLListBase_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -334,7 +334,7 @@ private:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DLListBaseI.H"
+#include "containers/LinkedLists/linkTypes/DLListBase/DLListBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

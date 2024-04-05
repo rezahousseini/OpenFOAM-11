@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cutPolyIsoSurface.H"
-#include "cellEdgeAddressing.H"
-#include "cutPolyValue.H"
-#include "EdgeMap.H"
-#include "cpuTime.H"
+#include "cutPoly/cutPolyIsoSurface.H"
+#include "cutPoly/cellEdgeAddressing.H"
+#include "cutPoly/cutPolyValue.H"
+#include "meshes/meshShapes/edge/EdgeMap.H"
+#include "cpuTime/cpuTime.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

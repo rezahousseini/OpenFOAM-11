@@ -36,8 +36,8 @@ SourceFiles
 #ifndef reducedUnits_H
 #define reducedUnits_H
 
-#include "scalar.H"
-#include "IOdictionary.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -183,7 +183,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "reducedUnitsI.H"
+#include "reducedUnits/reducedUnitsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

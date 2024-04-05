@@ -45,8 +45,8 @@ SourceFiles
 #ifndef BrownianMotionForce_H
 #define BrownianMotionForce_H
 
-#include "ParticleForce.H"
-#include "Random.H"
+#include "submodels/Momentum/ParticleForces/ParticleForce/ParticleForce.H"
+#include "primitives/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -157,10 +157,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BrownianMotionForceI.H"
+#include "submodels/Thermodynamic/ParticleForces/BrownianMotion/BrownianMotionForceI.H"
 
 #ifdef NoRepository
-    #include "BrownianMotionForce.C"
+    #include "submodels/Thermodynamic/ParticleForces/BrownianMotion/BrownianMotionForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

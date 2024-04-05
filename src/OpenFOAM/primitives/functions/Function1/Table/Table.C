@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Table.H"
-#include "linearInterpolationWeights.H"
+#include "primitives/functions/Function1/Table/Table.H"
+#include "interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

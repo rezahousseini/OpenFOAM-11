@@ -31,17 +31,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "volFields.H"
-#include "CompactListList.H"
-#include "unitConversion.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/Time.H"
+#include "fields/volFields/volFields.H"
+#include "containers/Lists/CompactListList/CompactListList.H"
+#include "global/unitConversion/unitConversion.H"
 #include "pairPatchAgglomeration.H"
-#include "labelListIOList.H"
-#include "syncTools.H"
-#include "globalIndex.H"
-#include "systemDict.H"
+#include "primitives/ints/lists/labelListIOList.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
 using namespace Foam;
 
@@ -49,11 +49,11 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addRegionOption.H"
-    #include "addDictOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/addRegionOption.H"
+    #include "include/addDictOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     const word dictName("viewFactorsDict");
 

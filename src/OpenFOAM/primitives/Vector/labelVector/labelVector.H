@@ -35,9 +35,9 @@ SourceFiles
 #ifndef labelVector_H
 #define labelVector_H
 
-#include "label.H"
-#include "Vector.H"
-#include "contiguous.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Vector/Vector.H"
+#include "primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -33,7 +33,7 @@ Description
 #ifndef NoInteraction_H
 #define NoInteraction_H
 
-#include "PatchInteractionModel.H"
+#include "submodels/Momentum/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +96,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoInteraction.C"
+    #include "submodels/Momentum/PatchInteractionModel/NoInteraction/NoInteraction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

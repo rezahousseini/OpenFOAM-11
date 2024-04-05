@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "systemCall.H"
-#include "Time.H"
-#include "dynamicCode.H"
-#include "OSspecific.H"
-#include "addToRunTimeSelectionTable.H"
+#include "systemCall/systemCall.H"
+#include "db/Time/Time.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "include/OSspecific.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

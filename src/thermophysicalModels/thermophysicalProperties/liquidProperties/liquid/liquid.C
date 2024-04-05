@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "liquid.H"
-#include "None.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liquidProperties/liquid/liquid.H"
+#include "primitives/functions/Function1/None/None.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "thermodynamicConstants.H"
+#include "global/constants/thermodynamic/thermodynamicConstants.H"
 using namespace Foam::constant::thermodynamic;
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

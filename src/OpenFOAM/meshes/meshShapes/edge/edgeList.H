@@ -29,7 +29,7 @@ Typedef
 #ifndef edgeList_H
 #define edgeList_H
 
-#include "edge.H"
+#include "meshes/meshShapes/edge/edge.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

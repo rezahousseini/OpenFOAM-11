@@ -39,16 +39,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
-#include "IFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 #include "hexBlock.H"
-#include "polyMesh.H"
-#include "wallPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "cellShape.H"
-#include "cellModeller.H"
-#include "mergePoints.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "meshes/meshTools/mergePoints.H"
 
 using namespace Foam;
 
@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
     }
 
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     IFstream plot3dFile(args[1]);
 

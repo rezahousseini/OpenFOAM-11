@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedField.H"
-#include "IOstreams.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "db/IOstreams/IOstreams.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

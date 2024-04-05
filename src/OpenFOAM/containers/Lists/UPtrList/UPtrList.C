@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPtrList.H"
+#include "containers/Lists/UPtrList/UPtrList.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 
@@ -185,6 +185,6 @@ Foam::UPtrList<const T2> Foam::UPtrList<T>::convert() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UPtrListIO.C"
+#include "containers/Lists/UPtrList/UPtrListIO.C"
 
 // ************************************************************************* //

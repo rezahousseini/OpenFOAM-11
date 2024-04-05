@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
-#include "PackedBoolList.H"
-#include "boundBox.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

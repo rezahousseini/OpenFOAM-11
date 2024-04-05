@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "prismMatcher.H"
-#include "primitiveMesh.H"
-#include "ListOps.H"
+#include "meshes/meshShapes/cellMatcher/prismMatcher.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

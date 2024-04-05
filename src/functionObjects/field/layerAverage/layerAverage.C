@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "layerAverage.H"
-#include "FaceCellWave.H"
-#include "layerInfo.H"
-#include "regionSplit.H"
-#include "syncTools.H"
-#include "volFields.H"
-#include "writeFile.H"
-#include "polyTopoChangeMap.H"
-#include "polyMeshMap.H"
-#include "polyDistributionMap.H"
-#include "OSspecific.H"
-#include "addToRunTimeSelectionTable.H"
+#include "layerAverage/layerAverage.H"
+#include "algorithms/FaceCellWave/FaceCellWave.H"
+#include "layerInfo/layerInfo.H"
+#include "regionSplit/regionSplit.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fields/volFields/volFields.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyMeshMap/polyMeshMap.H"
+#include "meshes/polyMesh/polyDistributionMap/polyDistributionMap.H"
+#include "include/OSspecific.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

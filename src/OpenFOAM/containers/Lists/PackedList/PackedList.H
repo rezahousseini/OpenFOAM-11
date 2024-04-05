@@ -100,8 +100,8 @@ SourceFiles
 #ifndef PackedList_H
 #define PackedList_H
 
-#include "labelList.H"
-#include "UIndirectList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/UIndirectList/UIndirectList.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -640,12 +640,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PackedListI.H"
+#include "containers/Lists/PackedList/PackedListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PackedList.C"
+    #include "containers/Lists/PackedList/PackedList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

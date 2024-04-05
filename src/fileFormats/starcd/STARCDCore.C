@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDCore.H"
-#include "ListOps.H"
-#include "clock.H"
-#include "PackedBoolList.H"
-#include "IStringStream.H"
+#include "starcd/STARCDCore.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "global/clock/clock.H"
+#include "containers/Lists/PackedList/PackedBoolList.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

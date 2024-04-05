@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroDimensionalMassSource.H"
-#include "basicThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derived/zeroDimensionalMassSource/zeroDimensionalMassSource.H"
+#include "basicThermo/basicThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

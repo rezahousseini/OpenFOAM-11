@@ -38,9 +38,9 @@ SourceFiles
 #ifndef solidThermo_H
 #define solidThermo_H
 
-#include "basicThermo.H"
-#include "uniformGeometricFields.H"
-#include "fvScalarMatrix.H"
+#include "basicThermo/basicThermo.H"
+#include "fields/UniformGeometricFields/uniformGeometricFields.H"
+#include "fvMatrices/fvScalarMatrix/fvScalarMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

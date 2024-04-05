@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvPatchMapper.H"
-#include "fvPatch.H"
-#include "fvBoundaryMesh.H"
-#include "fvMesh.H"
-#include "polyTopoChangeMap.H"
-#include "faceMapper.H"
+#include "fvMesh/fvMeshMapper/fvPatchMapper.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "meshes/polyMesh/polyTopoChangeMap/faceMapper/faceMapper.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

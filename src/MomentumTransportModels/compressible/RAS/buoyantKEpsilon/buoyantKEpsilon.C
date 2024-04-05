@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "buoyantKEpsilon.H"
-#include "uniformDimensionedFields.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "RAS/buoyantKEpsilon/buoyantKEpsilon.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

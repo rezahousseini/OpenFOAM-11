@@ -37,9 +37,9 @@ SourceFiles
 #ifndef coupledPolyPatch_H
 #define coupledPolyPatch_H
 
-#include "polyPatch.H"
-#include "transformer.H"
-#include "diagTensorField.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "fields/Fields/diagTensorField/diagTensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

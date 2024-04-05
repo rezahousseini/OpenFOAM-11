@@ -35,8 +35,8 @@ SourceFiles
 #ifndef nonConformalCyclicPointPatchField_H
 #define nonConformalCyclicPointPatchField_H
 
-#include "pointPatchField.H"
-#include "nonConformalCyclicPointPatch.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "nonConformal/pointPatches/nonConformalCyclic/nonConformalCyclicPointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nonConformalCyclicPointPatchField.C"
+    #include "nonConformal/pointPatchFields/nonConformalCyclic/nonConformalCyclicPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

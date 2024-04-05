@@ -37,7 +37,7 @@ SourceFiles
 #ifndef fixedInterfacialAreaDiameter_H
 #define fixedInterfacialAreaDiameter_H
 
-#include "diameterModel.H"
+#include "diameterModels/diameterModel/diameterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

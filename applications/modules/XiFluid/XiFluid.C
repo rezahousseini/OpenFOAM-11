@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "XiFluid.H"
-#include "localEulerDdtScheme.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

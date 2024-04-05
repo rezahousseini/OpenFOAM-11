@@ -35,9 +35,9 @@ SourceFiles
 #ifndef IOobjectList_H
 #define IOobjectList_H
 
-#include "HashPtrTable.H"
-#include "IOobject.H"
-#include "wordReList.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "db/IOobject/IOobject.H"
+#include "primitives/strings/lists/wordReList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

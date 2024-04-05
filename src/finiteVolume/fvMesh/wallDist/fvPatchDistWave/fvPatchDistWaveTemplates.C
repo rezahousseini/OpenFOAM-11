@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvPatchDistWave.H"
-#include "FvWallInfo.H"
+#include "fvMesh/wallDist/fvPatchDistWave/fvPatchDistWave.H"
+#include "fvMesh/wallDist/FvWallInfo/FvWallInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

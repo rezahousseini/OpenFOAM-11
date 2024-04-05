@@ -34,8 +34,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatch.H"
-#include "DynamicList.H"
+#include "meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

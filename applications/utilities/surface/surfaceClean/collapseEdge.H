@@ -35,7 +35,7 @@ SourceFiles
 #ifndef collapseEdge_H
 #define collapseEdge_H
 
-#include "triSurface.H"
+#include "triSurface/triSurface.H"
 
 using namespace Foam;
 

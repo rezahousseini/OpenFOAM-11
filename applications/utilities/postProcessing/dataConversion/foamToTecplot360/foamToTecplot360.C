@@ -70,29 +70,29 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "pointMesh.H"
-#include "volPointInterpolation.H"
-#include "emptyPolyPatch.H"
-#include "labelIOField.H"
-#include "scalarIOField.H"
-#include "sphericalTensorIOField.H"
-#include "symmTensorIOField.H"
-#include "tensorIOField.H"
-#include "passiveParticleCloud.H"
-#include "faceSet.H"
-#include "stringListOps.H"
-#include "wordRe.H"
+#include "global/argList/argList.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "fields/Fields/labelField/labelIOField.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorIOField.H"
+#include "fields/Fields/symmTensorField/symmTensorIOField.H"
+#include "fields/Fields/tensorField/tensorIOField.H"
+#include "passiveParticle/passiveParticleCloud.H"
+#include "sets/topoSets/faceSet.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "primitives/strings/wordRe/wordRe.H"
 
 #include "vtkMesh.H"
 #include "readFields.H"
 #include "tecplotWriter.H"
 
-#include "TECIO.h"
+#include <TECIO.h>
 
 // Note: needs to be after TECIO to prevent Foam::Time conflicting with
 // Xlib Time.
-#include "Time.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -170,7 +170,7 @@ int main(int argc, char *argv[])
     );
 
     timeSelector::addOptions();
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
     argList::addOption
     (
@@ -216,8 +216,8 @@ int main(int argc, char *argv[])
         "no faceZones"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool doWriteInternal = !args.optionFound("noInternal");
     const bool doFaceZones     = !args.optionFound("noFaceZones");
@@ -272,7 +272,7 @@ int main(int argc, char *argv[])
 
     const instantList timeDirs = timeSelector::select0(runTime, args);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // TecplotData/ directory in the case
     fileName fvPath(runTime.path()/"Tecplot360");

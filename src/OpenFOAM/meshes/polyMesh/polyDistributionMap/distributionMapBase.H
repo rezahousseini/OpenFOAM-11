@@ -68,11 +68,11 @@ SourceFiles
 #ifndef distributionMapBase_H
 #define distributionMapBase_H
 
-#include "labelList.H"
-#include "labelPair.H"
-#include "Pstream.H"
-#include "boolList.H"
-#include "Map.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Pair/labelPair.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -475,7 +475,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "distributionMapBaseTemplates.C"
+    #include "meshes/polyMesh/polyDistributionMap/distributionMapBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

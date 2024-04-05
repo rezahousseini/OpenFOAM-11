@@ -26,8 +26,8 @@ License
 #ifndef nonConformalCyclicPointPatchFields_H
 #define nonConformalCyclicPointPatchFields_H
 
-#include "nonConformalCyclicPointPatchField.H"
-#include "fieldTypes.H"
+#include "nonConformal/pointPatchFields/nonConformalCyclic/nonConformalCyclicPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

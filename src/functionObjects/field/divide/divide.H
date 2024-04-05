@@ -55,7 +55,7 @@ SourceFiles
 #ifndef functionObjects_divide_H
 #define functionObjects_divide_H
 
-#include "fieldsExpression.H"
+#include "fieldsExpression/fieldsExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

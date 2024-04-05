@@ -27,9 +27,9 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "starMesh.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "polyMeshUnMergeCyclics.H"
+#include "db/Time/Time.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "mergedCyclic/polyMeshUnMergeCyclics.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

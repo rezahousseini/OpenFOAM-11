@@ -38,9 +38,9 @@ SourceFiles
 #ifndef singleCellFvMesh_H
 #define singleCellFvMesh_H
 
-#include "fvPatchFieldMapper.H"
-#include "fvMesh.H"
-#include "labelListIOList.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/ints/lists/labelListIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -221,7 +221,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "singleCellFvMeshInterpolate.C"
+    #include "fvMesh/singleCellFvMesh/singleCellFvMeshInterpolate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

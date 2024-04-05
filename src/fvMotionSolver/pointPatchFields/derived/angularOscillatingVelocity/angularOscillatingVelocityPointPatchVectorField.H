@@ -35,7 +35,7 @@ SourceFiles
 #ifndef angularOscillatingVelocityPointPatchVectorField_H
 #define angularOscillatingVelocityPointPatchVectorField_H
 
-#include "fixedValuePointPatchField.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

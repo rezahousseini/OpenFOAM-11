@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ISstream.H"
-#include "int.H"
-#include "token.H"
-#include "DynamicList.H"
+#include "db/IOstreams/Sstreams/ISstream.H"
+#include "primitives/ints/int/int.H"
+#include "db/IOstreams/token/token.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 #include <cctype>
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //

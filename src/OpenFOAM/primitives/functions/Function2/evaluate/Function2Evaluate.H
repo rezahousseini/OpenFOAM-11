@@ -35,7 +35,7 @@ SourceFiles
 #ifndef Function2Evaluate_H
 #define Function2Evaluate_H
 
-#include "Function2.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -70,7 +70,7 @@ tmp<GeometricField<Type, PatchField, GeoMesh>> evaluate
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Function2Evaluate.C"
+    #include "primitives/functions/Function2/evaluate/Function2Evaluate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "directFvPatchFieldMapper.H"
-#include "directPointPatchFieldMapper.H"
-#include "reverseFvPatchFieldMapper.H"
-#include "reversePointPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/fvPatchFields/fvPatchField/directFvPatchFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/directPointPatchFieldMapper.H"
+#include "fields/fvPatchFields/fvPatchField/reverseFvPatchFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/reversePointPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

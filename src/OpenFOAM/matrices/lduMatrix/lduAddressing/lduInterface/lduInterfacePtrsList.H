@@ -32,8 +32,8 @@ Description
 #ifndef lduInterfacePtrsList_H
 #define lduInterfacePtrsList_H
 
-#include "lduInterface.H"
-#include "UPtrList.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.H"
+#include "containers/Lists/UPtrList/UPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

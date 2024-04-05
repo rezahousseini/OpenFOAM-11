@@ -32,8 +32,8 @@ Description
 #ifndef tokenList_H
 #define tokenList_H
 
-#include "token.H"
-#include "List.H"
+#include "db/IOstreams/token/token.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

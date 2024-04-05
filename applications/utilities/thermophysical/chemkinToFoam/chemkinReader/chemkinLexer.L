@@ -27,10 +27,10 @@ License
 
 #undef yyFlexLexer
 
-#include "chemkinReader.H"
+#include "chemkinReader/chemkinReader.H"
 
-#include "error.H"
-#include "IStringStream.H"
+#include "db/error/error.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 // For EOF only
 #include <cstdio>
 

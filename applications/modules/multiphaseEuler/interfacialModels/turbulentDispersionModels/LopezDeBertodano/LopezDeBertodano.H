@@ -41,7 +41,7 @@ SourceFiles
 #ifndef LopezDeBertodano_H
 #define LopezDeBertodano_H
 
-#include "dispersedTurbulentDispersionModel.H"
+#include "turbulentDispersionModels/dispersedTurbulentDispersionModel/dispersedTurbulentDispersionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

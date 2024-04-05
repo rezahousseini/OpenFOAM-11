@@ -43,7 +43,7 @@ SourceFiles
 #ifndef TomiyamaAnalytic_H
 #define TomiyamaAnalytic_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

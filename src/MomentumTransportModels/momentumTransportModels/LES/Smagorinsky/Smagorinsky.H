@@ -69,8 +69,8 @@ SourceFiles
 #ifndef Smagorinsky_H
 #define Smagorinsky_H
 
-#include "LESModel.H"
-#include "LESeddyViscosity.H"
+#include "LES/LESModel/LESModel.H"
+#include "LES/LESeddyViscosity/LESeddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Smagorinsky.C"
+    #include "LES/Smagorinsky/Smagorinsky.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef hashedWordList_H
 #define hashedWordList_H
 
-#include "wordList.H"
-#include "HashTable.H"
+#include "primitives/strings/lists/wordList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -145,7 +145,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hashedWordListI.H"
+#include "primitives/strings/lists/hashedWordListI.H"
 
 #endif
 

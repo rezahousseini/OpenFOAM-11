@@ -41,7 +41,7 @@ SourceFiles
 #ifndef functionObjects_reconstruct_H
 #define functionObjects_reconstruct_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

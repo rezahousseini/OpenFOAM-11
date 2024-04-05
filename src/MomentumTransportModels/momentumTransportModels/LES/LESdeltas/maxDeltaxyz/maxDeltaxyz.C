@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "maxDeltaxyz.H"
-#include "addToRunTimeSelectionTable.H"
+#include "LES/LESdeltas/maxDeltaxyz/maxDeltaxyz.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

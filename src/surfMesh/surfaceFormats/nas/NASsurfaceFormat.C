@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NASsurfaceFormat.H"
-#include "IFstream.H"
-#include "IStringStream.H"
+#include "surfaceFormats/nas/NASsurfaceFormat.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -55,7 +55,7 @@ SourceFiles
 #ifndef powerLaw_H
 #define powerLaw_H
 
-#include "strainRateViscosityModel.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonianViscosityModels/strainRateViscosityModels/strainRateViscosityModel/strainRateViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

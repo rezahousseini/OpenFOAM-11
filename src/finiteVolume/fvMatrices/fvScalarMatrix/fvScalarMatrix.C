@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvScalarMatrix.H"
-#include "Residuals.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "fvMatrices/fvScalarMatrix/fvScalarMatrix.H"
+#include "meshes/Residuals/Residuals.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ SourceFiles
 #ifndef SidedInterfacialModel_H
 #define SidedInterfacialModel_H
 
-#include "phaseInterface.H"
+#include "phaseInterface/phaseInterface/phaseInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -135,7 +135,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SidedInterfacialModel.C"
+    #include "SidedInterfacialModel/SidedInterfacialModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

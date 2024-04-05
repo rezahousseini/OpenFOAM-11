@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "parcelCloudList.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "wordIOList.H"
-#include "fvMatrices.H"
+#include "parcelCloud/parcelCloudList.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
+#include "primitives/strings/word/wordIOList.H"
+#include "fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

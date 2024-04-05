@@ -51,7 +51,7 @@ SourceFiles
 #ifndef zeroInletOutletFvPatchField_H
 #define zeroInletOutletFvPatchField_H
 
-#include "inletOutletFvPatchField.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,7 +113,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "zeroInletOutletFvPatchField.C"
+    #include "fields/fvPatchFields/derived/zeroInletOutlet/zeroInletOutletFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTSato.H"
-#include "fvModels.H"
-#include "fvConstraints.H"
-#include "phaseSystem.H"
+#include "RAS/kOmegaSSTSato/kOmegaSSTSato.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "cfdTools/general/fvConstraints/fvConstraints.H"
+#include "phaseSystem/phaseSystem.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

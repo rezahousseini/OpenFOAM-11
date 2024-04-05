@@ -32,7 +32,7 @@ Description
 #ifndef fvPatchFieldMapper_H
 #define fvPatchFieldMapper_H
 
-#include "generalFieldMapper.H"
+#include "fields/Fields/fieldMappers/generalFieldMapper/generalFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

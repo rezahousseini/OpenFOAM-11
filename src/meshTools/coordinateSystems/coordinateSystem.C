@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateSystem.H"
-#include "coordinateSystems.H"
-#include "axesRotation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "coordinateSystems/coordinateSystem.H"
+#include "coordinateSystems/coordinateSystems.H"
+#include "coordinateSystems/coordinateRotation/axesRotation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

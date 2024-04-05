@@ -104,10 +104,10 @@ SourceFiles
 #ifndef functionObjects_wallHeatTransferCoeff_H
 #define functionObjects_wallHeatTransferCoeff_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "writeLocalObjects.H"
-#include "wallHeatTransferCoeffModel.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "db/functionObjects/writeLocalObjects/writeLocalObjects.H"
+#include "wallHeatTransferCoeff/wallHeatTransferCoeffModels/wallHeatTransferCoeffModel/wallHeatTransferCoeffModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

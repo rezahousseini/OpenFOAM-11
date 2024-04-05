@@ -37,10 +37,10 @@ SourceFiles
 #ifndef meshingSurface_H
 #define meshingSurface_H
 
-#include "Time.H"
-#include "boundBox.H"
-#include "NamedEnum.H"
-#include "triSurfaceMesh.H"
+#include "db/Time/Time.H"
+#include "meshes/boundBox/boundBox.H"
+#include "containers/NamedEnum/NamedEnum.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

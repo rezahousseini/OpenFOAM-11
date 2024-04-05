@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveVelocityFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "levelSet.H"
-#include "volFields.H"
-#include "fvMeshSubset.H"
+#include "derivedFvPatchFields/waveVelocity/waveVelocityFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "cfdTools/general/levelSet/levelSet.H"
+#include "fields/volFields/volFields.H"
+#include "fvMeshSubset/fvMeshSubset.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef plastic_H
 #define plastic_H
 
-#include "mixtureViscosityModel.H"
-#include "dimensionedScalar.H"
-#include "volFields.H"
+#include "mixtureViscosityModels/mixtureViscosityModel/mixtureViscosityModel.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

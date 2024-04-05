@@ -35,11 +35,11 @@ SourceFiles
 #ifndef zone_H
 #define zone_H
 
-#include "labelList.H"
-#include "typeInfo.H"
-#include "dictionary.H"
-#include "Map.H"
-#include "pointFieldFwd.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/HashTables/Map/Map.H"
+#include "meshes/primitiveShapes/point/pointFieldFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

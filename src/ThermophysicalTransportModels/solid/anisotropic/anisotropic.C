@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "anisotropic.H"
-#include "fvmLaplacian.H"
-#include "fvcLaplacian.H"
-#include "fvcSnGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "anisotropic/anisotropic.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

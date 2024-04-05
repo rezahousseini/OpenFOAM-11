@@ -35,7 +35,7 @@ SourceFiles
 #ifndef slipPointPatchField_H
 #define slipPointPatchField_H
 
-#include "basicSymmetryPointPatchField.H"
+#include "fields/pointPatchFields/basic/basicSymmetry/basicSymmetryPointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "slipPointPatchField.C"
+    #include "fields/pointPatchFields/derived/slip/slipPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -47,10 +47,10 @@ SourceFiles
 #ifndef setWriter_H
 #define setWriter_H
 
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "fieldTypes.H"
-#include "coordSet.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fields/Fields/fieldTypes.H"
+#include "coordSet/coordSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -457,7 +457,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "setWriterTemplates.C"
+    #include "sampledSet/writers/setWriterTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

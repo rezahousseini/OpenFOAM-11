@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "matchingPatchToPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patchToPatch/matching/matchingPatchToPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

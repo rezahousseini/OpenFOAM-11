@@ -51,19 +51,19 @@ SourceFiles
 #ifndef MomentumCloud_H
 #define MomentumCloud_H
 
-#include "particle.H"
-#include "Cloud.H"
-#include "timeIOdictionary.H"
-#include "autoPtr.H"
-#include "Random.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "fvMatrices.H"
-#include "cloudSolution.H"
-#include "fluidThermo.H"
+#include "particle/particle.H"
+#include "Cloud/Cloud.H"
+#include "db/IOobjects/IOdictionary/timeIOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/Random/Random.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fvMatrices/fvMatrices.H"
+#include "clouds/Templates/MomentumCloud/cloudSolution/cloudSolution.H"
+#include "fluidThermo/fluidThermo.H"
 
-#include "ParticleForceList.H"
-#include "CloudFunctionObjectList.H"
+#include "submodels/ForceTypes/ParticleForceList/ParticleForceList.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObjectList/CloudFunctionObjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -629,12 +629,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MomentumCloudI.H"
+#include "clouds/Templates/MomentumCloud/MomentumCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MomentumCloud.C"
+    #include "clouds/Templates/MomentumCloud/MomentumCloud.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

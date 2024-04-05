@@ -38,10 +38,10 @@ SourceFiles
 #ifndef XiGModel_H
 #define XiGModel_H
 
-#include "IOdictionary.H"
-#include "psiuMulticomponentThermo.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "psiuMulticomponentThermo/psiuMulticomponentThermo.H"
 #include "compressibleMomentumTransportModels.H"
-#include "runTimeSelectionTables.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

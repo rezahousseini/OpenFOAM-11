@@ -35,8 +35,8 @@ SourceFiles
 #ifndef pointToFace_H
 #define pointToFace_H
 
-#include "topoSetSource.H"
-#include "NamedEnum.H"
+#include "sets/topoSetSource/topoSetSource.H"
+#include "containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

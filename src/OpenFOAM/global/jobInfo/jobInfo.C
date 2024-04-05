@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "jobInfo.H"
-#include "OSspecific.H"
-#include "clock.H"
-#include "OFstream.H"
-#include "Pstream.H"
+#include "global/jobInfo/jobInfo.H"
+#include "include/OSspecific.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

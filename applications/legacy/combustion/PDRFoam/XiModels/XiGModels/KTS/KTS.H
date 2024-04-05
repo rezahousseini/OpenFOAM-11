@@ -36,7 +36,7 @@ SourceFiles
 #ifndef KTS_H
 #define KTS_H
 
-#include "XiGModel.H"
+#include "XiModels/XiGModels/XiGModel/XiGModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

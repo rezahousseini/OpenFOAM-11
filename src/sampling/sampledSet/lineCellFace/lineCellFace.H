@@ -54,7 +54,7 @@ SourceFiles
 #ifndef lineCellFace_H
 #define lineCellFace_H
 
-#include "lineCell.H"
+#include "sampledSet/lineCell/lineCell.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

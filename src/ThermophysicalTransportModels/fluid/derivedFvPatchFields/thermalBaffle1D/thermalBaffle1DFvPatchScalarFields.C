@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermalBaffle1DFvPatchScalarField.H"
-#include "forSolids.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/thermalBaffle1D/thermalBaffle1DFvPatchScalarField.H"
+#include "solidSpecie/include/forSolids.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

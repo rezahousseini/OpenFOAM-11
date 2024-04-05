@@ -30,9 +30,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "IOobjectList.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOobjectList/IOobjectList.H"
 #include "processorRunTimes.H"
 #include "domainDecomposition.H"
 #include "fvFieldReconstructor.H"
@@ -106,8 +106,8 @@ int main(int argc, char *argv[])
     // Enable -withZero to prevent accidentally trashing the initial fields
     timeSelector::addOptions(true, true);
     argList::noParallel();
-    #include "addRegionOption.H"
-    #include "addAllRegionsOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addAllRegionsOption.H"
     argList::addBoolOption
     (
         "cellProc",
@@ -150,7 +150,7 @@ int main(int argc, char *argv[])
         "only reconstruct new times (i.e. that do not exist already)"
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const bool writeCellProc = args.optionFound("cellProc");
 
@@ -207,7 +207,7 @@ int main(int argc, char *argv[])
 
     const Time& runTime = runTimes.procTimes()[0];
 
-    #include "setRegionNames.H"
+    #include "include/setRegionNames.H"
 
     // Determine the processor count
     const label nProcs = fileHandler().nProcs

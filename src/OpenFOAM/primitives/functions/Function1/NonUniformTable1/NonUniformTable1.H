@@ -58,9 +58,9 @@ Usage
 #ifndef NonUniformTable1_H
 #define NonUniformTable1_H
 
-#include "Function1.H"
-#include "Tuple2.H"
-#include "TableReader.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "primitives/Tuple2/Tuple2.H"
+#include "primitives/functions/Function1/Table/TableReader/TableReader/TableReader.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,10 +155,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NonUniformTable1I.H"
+#include "primitives/functions/Function1/NonUniformTable1/NonUniformTable1I.H"
 
 #ifdef NoRepository
-    #include "NonUniformTable1.C"
+    #include "primitives/functions/Function1/NonUniformTable1/NonUniformTable1.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

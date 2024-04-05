@@ -86,7 +86,7 @@ SourceFiles
 #ifndef ListListOps_H
 #define ListListOps_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -150,7 +150,7 @@ namespace ListListOps
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ListListOps.C"
+    #include "containers/Lists/ListListOps/ListListOps.C"
 #endif
 
 

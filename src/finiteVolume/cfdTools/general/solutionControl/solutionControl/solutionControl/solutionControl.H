@@ -36,7 +36,7 @@ SourceFiles
 #ifndef solutionControl_H
 #define solutionControl_H
 
-#include "Time.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solutionControlI.H"
+#include "cfdTools/general/solutionControl/solutionControl/solutionControl/solutionControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

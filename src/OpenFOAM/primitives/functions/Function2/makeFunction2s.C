@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "None2.H"
-#include "Constant2.H"
-#include "ZeroConstant2.H"
-#include "OneConstant2.H"
-#include "Scale2.H"
-#include "UniformTable2.H"
-#include "CodedFunction2.H"
+#include "primitives/functions/Function2/None/None2.H"
+#include "primitives/functions/Function2/Constant/Constant2.H"
+#include "primitives/functions/Function2/Zero/ZeroConstant2.H"
+#include "primitives/functions/Function2/One/OneConstant2.H"
+#include "primitives/functions/Function2/Scale/Scale2.H"
+#include "primitives/functions/Function2/UniformTable2/UniformTable2.H"
+#include "primitives/functions/Function2/Coded/CodedFunction2.H"
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

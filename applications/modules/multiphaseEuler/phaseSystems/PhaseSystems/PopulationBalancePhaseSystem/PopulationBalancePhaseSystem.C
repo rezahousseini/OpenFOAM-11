@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PopulationBalancePhaseSystem.H"
+#include "PhaseSystems/PopulationBalancePhaseSystem/PopulationBalancePhaseSystem.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

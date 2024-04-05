@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallHeatFlux.H"
+#include "wallHeatFlux/wallHeatFlux.H"
 #include "thermophysicalTransportModel.H"
-#include "surfaceInterpolate.H"
-#include "fvcGrad.H"
-#include "wallPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

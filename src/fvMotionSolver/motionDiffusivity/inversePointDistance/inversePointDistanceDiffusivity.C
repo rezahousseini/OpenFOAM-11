@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inversePointDistanceDiffusivity.H"
-#include "surfaceFields.H"
-#include "HashSet.H"
-#include "pointEdgePoint.H"
-#include "PointEdgeWave.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionDiffusivity/inversePointDistance/inversePointDistanceDiffusivity.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "algorithms/PointEdgeWave/pointEdgePoint.H"
+#include "algorithms/PointEdgeWave/PointEdgeWave.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -52,8 +52,8 @@ SourceFiles
 #ifndef searchableDisk_H
 #define searchableDisk_H
 
-#include "treeBoundBox.H"
-#include "searchableSurface.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

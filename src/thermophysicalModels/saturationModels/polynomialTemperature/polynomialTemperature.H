@@ -42,8 +42,8 @@ SourceFiles
 #ifndef polynomialTemperature_H
 #define polynomialTemperature_H
 
-#include "saturationTemperatureModel.H"
-#include "Polynomial.H"
+#include "saturationTemperatureModel/saturationTemperatureModel.H"
+#include "primitives/functions/Polynomial/Polynomial.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

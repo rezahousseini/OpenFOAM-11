@@ -99,9 +99,9 @@ SourceFiles
 #ifndef v2f_H
 #define v2f_H
 
-#include "v2fBase.H"
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "RAS/v2f/v2fBase.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -273,7 +273,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "v2f.C"
+    #include "RAS/v2f/v2f.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

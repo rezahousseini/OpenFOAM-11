@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "isothermalFluid.H"
-#include "fvmDiv.H"
-#include "fvcGrad.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

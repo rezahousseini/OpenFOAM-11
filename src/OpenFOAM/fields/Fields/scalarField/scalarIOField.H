@@ -32,9 +32,9 @@ Description
 #ifndef scalarIOField_H
 #define scalarIOField_H
 
-#include "scalarField.H"
-#include "IOField.H"
-#include "GlobalIOField.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOobjects/GlobalIOField/GlobalIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

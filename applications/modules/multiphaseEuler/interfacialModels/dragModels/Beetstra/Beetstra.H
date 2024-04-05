@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Beetstra_H
 #define Beetstra_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformer.H"
-#include "IOstreams.H"
-#include "OStringStream.H"
+#include "primitives/transform/transformer/transformer.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/StringStreams/OStringStream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

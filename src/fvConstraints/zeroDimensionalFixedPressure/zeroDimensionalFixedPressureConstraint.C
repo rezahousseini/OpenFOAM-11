@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroDimensionalFixedPressureConstraint.H"
-#include "zeroDimensionalFixedPressureModel.H"
-#include "fvModels.H"
-#include "fvMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "zeroDimensionalFixedPressure/zeroDimensionalFixedPressureConstraint.H"
+#include "zeroDimensionalFixedPressure/zeroDimensionalFixedPressureModel.H"
+#include "cfdTools/general/fvModels/fvModels.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

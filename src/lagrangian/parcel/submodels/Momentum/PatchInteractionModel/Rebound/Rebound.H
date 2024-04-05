@@ -32,7 +32,7 @@ Description
 #ifndef Rebound_H
 #define Rebound_H
 
-#include "PatchInteractionModel.H"
+#include "submodels/Momentum/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Rebound.C"
+    #include "submodels/Momentum/PatchInteractionModel/Rebound/Rebound.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

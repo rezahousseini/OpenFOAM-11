@@ -32,7 +32,7 @@ SourceFiles
 #ifndef nonConformalPolyFacesFvsPatchLabelField_H
 #define nonConformalPolyFacesFvsPatchLabelField_H
 
-#include "fvsPatchFields.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

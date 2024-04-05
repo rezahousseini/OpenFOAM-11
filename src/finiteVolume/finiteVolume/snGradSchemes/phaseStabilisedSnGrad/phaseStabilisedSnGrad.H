@@ -38,7 +38,7 @@ SourceFiles
 #ifndef phaseStabilisedSnGrad_H
 #define phaseStabilisedSnGrad_H
 
-#include "correctedSnGrad.H"
+#include "finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "phaseStabilisedSnGrad.C"
+    #include "finiteVolume/snGradSchemes/phaseStabilisedSnGrad/phaseStabilisedSnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

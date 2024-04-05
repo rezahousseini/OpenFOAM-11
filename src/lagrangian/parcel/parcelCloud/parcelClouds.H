@@ -41,8 +41,8 @@ SourceFiles
 #ifndef parcelClouds_H
 #define parcelClouds_H
 
-#include "DemandDrivenMeshObject.H"
-#include "parcelCloudList.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "parcelCloud/parcelCloudList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

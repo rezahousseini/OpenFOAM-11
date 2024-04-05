@@ -35,8 +35,8 @@ SourceFiles
 #ifndef FECCellToFaceStencil_H
 #define FECCellToFaceStencil_H
 
-#include "cellToFaceStencil.H"
-#include "EdgeMap.H"
+#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/cellToFaceStencil.H"
+#include "meshes/meshShapes/edge/EdgeMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

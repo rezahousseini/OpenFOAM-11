@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointToPointPlanarInterpolation.H"
+#include "triSurface/triSurfaceTools/pointToPointPlanarInterpolation.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

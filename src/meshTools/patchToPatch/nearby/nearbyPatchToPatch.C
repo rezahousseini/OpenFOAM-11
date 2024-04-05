@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nearbyPatchToPatch.H"
-#include "boundSphere.H"
-#include "OFstream.H"
-#include "OBJstream.H"
-#include "vtkWritePolyData.H"
-#include "mathematicalConstants.H"
+#include "patchToPatch/nearby/nearbyPatchToPatch.H"
+#include "algorithms/boundSphere/boundSphere.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "obj/OBJstream.H"
+#include "vtk/vtkWritePolyData.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

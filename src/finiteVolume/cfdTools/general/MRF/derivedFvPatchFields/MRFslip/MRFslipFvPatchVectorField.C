@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MRFslipFvPatchVectorField.H"
-#include "symmTransformField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cfdTools/general/MRF/derivedFvPatchFields/MRFslip/MRFslipFvPatchVectorField.H"
+#include "fields/Fields/symmTransformField/symmTransformField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

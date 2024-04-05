@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "directionMixedFvPatchField.H"
-#include "symmTransformField.H"
+#include "fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchField.H"
+#include "fields/Fields/symmTransformField/symmTransformField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

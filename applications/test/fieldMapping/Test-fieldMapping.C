@@ -29,19 +29,19 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "Time.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "removeFaces.H"
-#include "polyTopoChangeMap.H"
-#include "polyTopoChange.H"
-#include "fvcDiv.H"
-#include "zeroGradientFvPatchFields.H"
-#include "Random.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "polyTopoChange/polyTopoChange/removeFaces.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "primitives/Random/Random.H"
 
 using namespace Foam;
 
@@ -59,10 +59,10 @@ int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
     argList::validArgs.append("inflate (true|false)");
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     timeSelector::select0(runTime, args);
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
     const Switch inflate(args.args()[1]);
 
@@ -222,7 +222,7 @@ int main(int argc, char *argv[])
         // Check mesh volume conservation
         if (mesh.moving())
         {
-            #include "volContinuity.H"
+            #include "cfdTools/general/include/volContinuity.H"
         }
         else
         {

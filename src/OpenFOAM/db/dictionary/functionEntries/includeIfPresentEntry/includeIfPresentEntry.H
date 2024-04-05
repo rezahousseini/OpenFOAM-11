@@ -41,7 +41,7 @@ SourceFiles
 #ifndef includeIfPresentEntry_H
 #define includeIfPresentEntry_H
 
-#include "includeEntry.H"
+#include "db/dictionary/functionEntries/includeEntry/includeEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Random.H"
+#include "primitives/Random/Random.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

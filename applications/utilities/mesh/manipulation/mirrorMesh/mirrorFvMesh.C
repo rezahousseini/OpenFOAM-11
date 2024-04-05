@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "mirrorFvMesh.H"
-#include "Time.H"
-#include "plane.H"
+#include "db/Time/Time.H"
+#include "meshes/primitiveShapes/plane/plane.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

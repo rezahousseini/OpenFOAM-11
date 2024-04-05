@@ -45,10 +45,10 @@ See also
 #ifndef isothermalFilm_H
 #define isothermalFilm_H
 
-#include "solver.H"
-#include "rhoThermo.H"
-#include "filmCompressibleMomentumTransportModel.H"
-#include "uniformDimensionedFields.H"
+#include "solver/solver.H"
+#include "rhoThermo/rhoThermo.H"
+#include "filmCompressibleMomentumTransportModels/filmCompressibleMomentumTransportModel.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

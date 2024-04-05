@@ -36,7 +36,7 @@ SourceFiles
 #ifndef epsilonmWallFunctionFvPatchScalarField_H
 #define epsilonmWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchField.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

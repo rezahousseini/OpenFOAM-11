@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ULPtrList.H"
-#include "Ostream.H"
+#include "containers/LinkedLists/accessTypes/ULPtrList/ULPtrList.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * Ostream Operators * * * * * * * * * * * * * //
 

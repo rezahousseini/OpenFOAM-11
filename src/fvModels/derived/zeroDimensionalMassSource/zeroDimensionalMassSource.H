@@ -75,7 +75,7 @@ SourceFiles
 #ifndef zeroDimensionalMassSource_H
 #define zeroDimensionalMassSource_H
 
-#include "massSource.H"
+#include "derived/massSource/massSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

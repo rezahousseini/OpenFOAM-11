@@ -25,8 +25,8 @@ License
 
 #include "lagrangianWriter.H"
 #include "vtkWriteFieldOps.H"
-#include "Cloud.H"
-#include "passiveParticle.H"
+#include "Cloud/Cloud.H"
+#include "passiveParticle/passiveParticle.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

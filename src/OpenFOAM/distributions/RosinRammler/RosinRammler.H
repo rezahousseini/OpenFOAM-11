@@ -60,7 +60,7 @@ See also
 #ifndef RosinRammler_H
 #define RosinRammler_H
 
-#include "unintegrable.H"
+#include "distributions/unintegrable/unintegrable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmWallPointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patches/filmWall/filmWallPointPatch/filmWallPointPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

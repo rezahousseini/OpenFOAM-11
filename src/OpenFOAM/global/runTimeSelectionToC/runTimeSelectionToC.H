@@ -35,8 +35,8 @@ SourceFiles
 #ifndef runTimeSelectionToC_H
 #define runTimeSelectionToC_H
 
-#include "HashTable.H"
-#include "Tuple2.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/Tuple2/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

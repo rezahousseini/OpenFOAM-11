@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "HashTable.H"
-#include "linear.H"
-#include "fvMatrix.H"
+#include "finiteVolume/fv/fv.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

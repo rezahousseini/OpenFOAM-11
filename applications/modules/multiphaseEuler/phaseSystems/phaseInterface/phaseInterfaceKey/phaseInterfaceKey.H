@@ -35,8 +35,8 @@ SourceFiles
 #ifndef phaseInterfaceKey_H
 #define phaseInterfaceKey_H
 
-#include "Pair.H"
-#include "word.H"
+#include "primitives/Pair/Pair.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

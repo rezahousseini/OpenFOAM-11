@@ -42,10 +42,10 @@ SourceFiles
 #ifndef twoDPointCorrector_H
 #define twoDPointCorrector_H
 
-#include "DemandDrivenMeshObject.H"
-#include "pointField.H"
-#include "labelList.H"
-#include "vector.H"
+#include "meshes/meshObjects/DemandDrivenMeshObject.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

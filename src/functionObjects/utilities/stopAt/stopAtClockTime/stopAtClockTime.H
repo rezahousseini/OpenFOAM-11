@@ -64,7 +64,7 @@ SourceFiles
 #ifndef functionObjects_stopAtClockTime_H
 #define functionObjects_stopAtClockTime_H
 
-#include "stopAt.H"
+#include "stopAt/stopAt.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

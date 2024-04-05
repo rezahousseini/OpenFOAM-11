@@ -39,7 +39,7 @@ Usage
 
         codeInclude
         #{
-            #include "mathematicalConstants.H"
+            #include "global/constants/mathematical/mathematicalConstants.H"
         #};
 
         code
@@ -67,8 +67,8 @@ SourceFiles
 #ifndef CodedFunction1_H
 #define CodedFunction1_H
 
-#include "Function1.H"
-#include "codedBase.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -170,10 +170,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CodedFunction1I.H"
+#include "primitives/functions/Function1/Coded/CodedFunction1I.H"
 
 #ifdef NoRepository
-    #include "CodedFunction1.C"
+    #include "primitives/functions/Function1/Coded/CodedFunction1.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

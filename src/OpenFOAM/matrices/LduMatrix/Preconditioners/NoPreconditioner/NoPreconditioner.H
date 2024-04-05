@@ -35,7 +35,7 @@ SourceFiles
 #ifndef NoPreconditioner_H
 #define NoPreconditioner_H
 
-#include "LduMatrix.H"
+#include "matrices/LduMatrix/LduMatrix/LduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoPreconditioner.C"
+    #include "matrices/LduMatrix/Preconditioners/NoPreconditioner/NoPreconditioner.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

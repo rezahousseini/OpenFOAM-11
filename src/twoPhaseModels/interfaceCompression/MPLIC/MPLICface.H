@@ -36,10 +36,10 @@ SourceFiles
 #ifndef MPLICface_H
 #define MPLICface_H
 
-#include "face.H"
-#include "pointField.H"
-#include "DynamicList.H"
-#include "boolList.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,7 +168,7 @@ class MPLICface
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MPLICfaceI.H"
+#include "MPLIC/MPLICfaceI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -71,7 +71,7 @@ SourceFiles
 #ifndef LaakkonenDaughterSizeDistribution_H
 #define LaakkonenDaughterSizeDistribution_H
 
-#include "daughterSizeDistributionModel.H"
+#include "populationBalanceModel/daughterSizeDistributionModels/daughterSizeDistributionModel/daughterSizeDistributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

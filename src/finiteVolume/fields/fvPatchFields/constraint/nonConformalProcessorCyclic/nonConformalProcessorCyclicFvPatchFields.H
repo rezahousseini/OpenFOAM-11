@@ -26,8 +26,8 @@ License
 #ifndef nonConformalProcessorCyclicFvPatchFields_H
 #define nonConformalProcessorCyclicFvPatchFields_H
 
-#include "nonConformalProcessorCyclicFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/nonConformalProcessorCyclic/nonConformalProcessorCyclicFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

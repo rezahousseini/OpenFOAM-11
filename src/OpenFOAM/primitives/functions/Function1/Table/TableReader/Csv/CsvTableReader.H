@@ -48,8 +48,8 @@ SourceFiles
 #ifndef CsvTableReader_H
 #define CsvTableReader_H
 
-#include "TableFileReader.H"
-#include "labelList.H"
+#include "primitives/functions/Function1/Table/TableReader/TableFileReader/TableFileReader.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -140,7 +140,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CsvTableReader.C"
+    #include "primitives/functions/Function1/Table/TableReader/Csv/CsvTableReader.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

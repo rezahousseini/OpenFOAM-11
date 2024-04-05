@@ -34,8 +34,8 @@ SourceFiles
 #ifndef GatherBase_H
 #define GatherBase_H
 
-#include "List.H"
-#include "labelList.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -92,7 +92,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "GatherBase.C"
+    #include "Gather/GatherBase.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

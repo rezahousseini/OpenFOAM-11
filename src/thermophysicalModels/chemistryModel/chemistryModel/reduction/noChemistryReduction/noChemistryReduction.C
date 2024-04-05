@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noChemistryReduction.H"
+#include "chemistryModel/reduction/noChemistryReduction/noChemistryReduction.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

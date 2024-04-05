@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellModel.H"
-#include "pyramid.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "meshes/primitiveShapes/pyramid/pyramid.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

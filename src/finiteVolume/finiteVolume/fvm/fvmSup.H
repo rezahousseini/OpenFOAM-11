@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fvmSup_H
 #define fvmSup_H
 
-#include "volFieldsFwd.H"
-#include "zeroField.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/Fields/zeroField/zeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -171,7 +171,7 @@ namespace fvm
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvmSup.C"
+    #include "finiteVolume/fvm/fvmSup.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

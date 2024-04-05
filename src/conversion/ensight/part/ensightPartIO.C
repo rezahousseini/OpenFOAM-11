@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightPart.H"
-#include "dictionary.H"
-#include "IOstreams.H"
+#include "ensight/part/ensightPart.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

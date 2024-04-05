@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedFilmWallPolyPatch.H"
-#include "mappedPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "patches/mappedFilmWall/mappedFilmWallPolyPatch/mappedFilmWallPolyPatch.H"
+#include "mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

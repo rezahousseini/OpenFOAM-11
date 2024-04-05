@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stopAtTimeStep.H"
-#include "Time.H"
-#include "addToRunTimeSelectionTable.H"
+#include "stopAt/stopAtTimeStep/stopAtTimeStep.H"
+#include "db/Time/Time.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

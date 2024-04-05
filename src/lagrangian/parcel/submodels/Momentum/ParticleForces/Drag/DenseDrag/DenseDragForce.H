@@ -29,8 +29,8 @@ Class
 #ifndef DenseDragForce_H
 #define DenseDragForce_H
 
-#include "ParticleForce.H"
-#include "interpolation.H"
+#include "submodels/Momentum/ParticleForces/ParticleForce/ParticleForce.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -102,7 +102,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DenseDragForce.C"
+    #include "submodels/Momentum/ParticleForces/Drag/DenseDrag/DenseDragForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

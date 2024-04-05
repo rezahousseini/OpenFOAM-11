@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeSelector.H"
-#include "ListOps.H"
-#include "argList.H"
-#include "Time.H"
-#include "IStringStream.H"
+#include "db/Time/timeSelector.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

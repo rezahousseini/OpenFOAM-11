@@ -36,9 +36,9 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "label.H"
-#include "face.H"
-#include "topoAction.H"
+#include "primitives/ints/label/label.H"
+#include "meshes/meshShapes/face/face.H"
+#include "polyTopoChange/polyTopoChange/topoAction/topoAction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

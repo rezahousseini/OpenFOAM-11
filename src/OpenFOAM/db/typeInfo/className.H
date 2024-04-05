@@ -29,7 +29,7 @@ Description
 #ifndef className_H
 #define className_H
 
-#include "defineDebugSwitch.H"
+#include "global/debug/defineDebugSwitch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
                   // Declarations (without debug information)

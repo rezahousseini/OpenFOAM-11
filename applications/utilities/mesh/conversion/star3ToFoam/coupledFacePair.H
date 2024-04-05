@@ -35,7 +35,7 @@ SourceFiles
 #ifndef coupledFacePair_H
 #define coupledFacePair_H
 
-#include "label.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

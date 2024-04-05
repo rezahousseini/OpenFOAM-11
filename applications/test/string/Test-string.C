@@ -26,10 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "string.H"
-#include "stringOps.H"
-#include "dictionary.H"
-#include "IOstreams.H"
+#include "primitives/strings/string/string.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

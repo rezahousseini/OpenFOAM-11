@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stringOps.H"
-#include "OSspecific.H"
-#include "etcFiles.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "include/OSspecific.H"
+#include "global/etcFiles/etcFiles.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

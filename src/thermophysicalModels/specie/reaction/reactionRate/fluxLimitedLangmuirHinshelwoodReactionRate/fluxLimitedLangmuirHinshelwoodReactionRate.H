@@ -47,8 +47,8 @@ SourceFiles
 #ifndef fluxLimitedLangmuirHinshelwoodReactionRate_H
 #define fluxLimitedLangmuirHinshelwoodReactionRate_H
 
-#include "speciesTable.H"
-#include "volFields.H"
+#include "speciesTable/speciesTable.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -209,7 +209,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fluxLimitedLangmuirHinshelwoodReactionRateI.H"
+#include "reaction/reactionRate/fluxLimitedLangmuirHinshelwoodReactionRate/fluxLimitedLangmuirHinshelwoodReactionRateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -46,9 +46,9 @@ SourceFiles
 #ifndef sixDoFAccelerationSource_H
 #define sixDoFAccelerationSource_H
 
-#include "fvModel.H"
-#include "Function1.H"
-#include "dimensionedTypes.H"
+#include "cfdTools/general/fvModels/fvModel.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
+#include "dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,7 +201,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sixDoFAccelerationSourceTemplates.C"
+    #include "derived/sixDoFAccelerationSource/sixDoFAccelerationSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

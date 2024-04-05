@@ -57,8 +57,8 @@ SourceFiles
 #ifndef functionObjects_removeRegisteredObject_H
 #define functionObjects_removeRegisteredObject_H
 
-#include "functionObject.H"
-#include "wordList.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

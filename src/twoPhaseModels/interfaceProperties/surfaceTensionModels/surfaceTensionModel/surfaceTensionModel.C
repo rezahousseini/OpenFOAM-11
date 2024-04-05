@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceTensionModel.H"
-#include "fvMesh.H"
-#include "Time.H"
+#include "surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

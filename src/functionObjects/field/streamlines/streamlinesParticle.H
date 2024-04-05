@@ -36,12 +36,12 @@ SourceFiles
 #ifndef streamlinesParticle_H
 #define streamlinesParticle_H
 
-#include "particle.H"
-#include "Cloud.H"
-#include "autoPtr.H"
-#include "interpolation.H"
-#include "vectorList.H"
-#include "DynamicField.H"
+#include "particle/particle.H"
+#include "Cloud/Cloud.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorCyclicFvPatchField.H"
-#include "processorCyclicFvPatch.H"
-#include "demandDrivenData.H"
-#include "transformField.H"
+#include "fields/fvPatchFields/constraint/processorCyclic/processorCyclicFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/processorCyclic/processorCyclicFvPatch.H"
+#include "include/demandDrivenData.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

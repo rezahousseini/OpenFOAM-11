@@ -61,8 +61,8 @@ SourceFiles
 #ifndef wallBoilingProperties_H
 #define wallBoilingProperties_H
 
-#include "fvMeshFunctionObject.H"
-#include "phaseSystem.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

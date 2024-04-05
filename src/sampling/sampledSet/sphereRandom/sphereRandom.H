@@ -55,8 +55,8 @@ SourceFiles
 #ifndef sphereRandom_H
 #define sphereRandom_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

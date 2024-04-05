@@ -38,12 +38,12 @@ SourceFiles
 #ifndef pimpleMultiRegionControl_H
 #define pimpleMultiRegionControl_H
 
-#include "solver.H"
-#include "multiRegionSolutionControl.H"
-#include "pimpleLoop.H"
-#include "convergenceControl.H"
-#include "correctorConvergenceControl.H"
-#include "pimpleNoLoopControl.H"
+#include "solver/solver.H"
+#include "cfdTools/general/solutionControl/solutionControl/multiRegionSolutionControl/multiRegionSolutionControl.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleLoop/pimpleLoop.H"
+#include "cfdTools/general/solutionControl/convergenceControl/convergenceControl/convergenceControl.H"
+#include "cfdTools/general/solutionControl/convergenceControl/correctorConvergenceControl/correctorConvergenceControl.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleNoLoopControl/pimpleNoLoopControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -148,7 +148,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pimpleMultiRegionControlI.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleMultiRegionControl/pimpleMultiRegionControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

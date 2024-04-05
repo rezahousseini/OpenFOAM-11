@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformGeometricField.H"
-#include "transformField.H"
-#include "transformFieldField.H"
+#include "fields/GeometricFields/transformGeometricField/transformGeometricField.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "fields/FieldFields/transformFieldField/transformFieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

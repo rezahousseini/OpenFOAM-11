@@ -39,7 +39,7 @@ SourceFiles
 #ifndef vanLeer_H
 #define vanLeer_H
 
-#include "vector.H"
+#include "primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

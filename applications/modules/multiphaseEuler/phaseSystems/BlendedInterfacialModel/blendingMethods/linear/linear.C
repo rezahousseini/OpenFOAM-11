@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linear.H"
-#include "one.H"
-#include "addToRunTimeSelectionTable.H"
+#include "BlendedInterfacialModel/blendingMethods/linear/linear.H"
+#include "primitives/one/one.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

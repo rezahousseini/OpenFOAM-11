@@ -35,9 +35,9 @@ SourceFiles
 #ifndef heThermo_H
 #define heThermo_H
 
-#include "basicMixture.H"
-#include "volFields.H"
-#include "uniformGeometricFields.H"
+#include "mixtures/basicMixture/basicMixture.H"
+#include "fields/volFields/volFields.H"
+#include "fields/UniformGeometricFields/uniformGeometricFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -364,7 +364,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 #ifdef NoRepository
-    #include "heThermo.C"
+    #include "heThermo/heThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

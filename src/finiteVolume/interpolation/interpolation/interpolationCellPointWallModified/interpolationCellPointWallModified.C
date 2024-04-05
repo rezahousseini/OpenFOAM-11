@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationCellPointWallModified.H"
-#include "syncTools.H"
-#include "volPointInterpolation.H"
-#include "wallPolyPatch.H"
-#include "zeroGradientFvPatchFields.H"
+#include "interpolation/interpolation/interpolationCellPointWallModified/interpolationCellPointWallModified.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

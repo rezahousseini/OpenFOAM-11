@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bound.H"
-#include "fvcAverage.H"
+#include "cfdTools/general/bound/bound.H"
+#include "finiteVolume/fvc/fvcAverage.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

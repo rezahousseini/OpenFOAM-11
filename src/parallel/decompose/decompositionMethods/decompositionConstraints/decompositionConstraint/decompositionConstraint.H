@@ -34,11 +34,11 @@ SourceFiles
 #ifndef decompositionConstraint_H
 #define decompositionConstraint_H
 
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
-#include "boolList.H"
-#include "labelList.H"
-#include "labelPair.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

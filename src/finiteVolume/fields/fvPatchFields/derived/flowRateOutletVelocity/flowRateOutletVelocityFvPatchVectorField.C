@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "flowRateOutletVelocityFvPatchVectorField.H"
-#include "volFields.H"
-#include "one.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/flowRateOutletVelocity/flowRateOutletVelocityFvPatchVectorField.H"
+#include "fields/volFields/volFields.H"
+#include "primitives/one/one.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

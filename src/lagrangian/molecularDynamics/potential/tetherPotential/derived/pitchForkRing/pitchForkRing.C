@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pitchForkRing.H"
-#include "addToRunTimeSelectionTable.H"
+#include "tetherPotential/derived/pitchForkRing/pitchForkRing.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

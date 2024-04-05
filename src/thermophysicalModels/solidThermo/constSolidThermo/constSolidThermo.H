@@ -115,7 +115,7 @@ SourceFiles
 #ifndef constSolidThermo_H
 #define constSolidThermo_H
 
-#include "solidThermo.H"
+#include "solidThermo/solidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -378,7 +378,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 #ifdef NoRepository
-    #include "constSolidThermoTemplates.C"
+    #include "constSolidThermo/constSolidThermoTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "halfCosineRamp.H"
+#include "primitives/functions/Function1/halfCosineRamp/halfCosineRamp.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

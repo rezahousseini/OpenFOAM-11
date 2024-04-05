@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wideBandDiffusiveRadiationMixedFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
+#include "derivedFvPatchFields/wideBandDiffusiveRadiation/wideBandDiffusiveRadiationMixedFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
 
-#include "fvDOM.H"
-#include "wideBand.H"
-#include "constants.H"
+#include "radiationModels/fvDOM/fvDOM.H"
+#include "absorptionEmissionModels/wideBand/wideBand.H"
+#include "global/constants/constants.H"
 
 using namespace Foam::constant;
 using namespace Foam::constant::mathematical;

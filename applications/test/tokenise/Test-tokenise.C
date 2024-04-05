@@ -27,12 +27,12 @@ Description
     Test the tokenising of various things
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "IFstream.H"
-#include "IStringStream.H"
-#include "cpuTime.H"
+#include "global/argList/argList.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "cpuTime/cpuTime.H"
 
 using namespace Foam;
 

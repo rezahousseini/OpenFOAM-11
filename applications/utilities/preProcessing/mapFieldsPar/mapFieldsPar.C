@@ -30,11 +30,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMeshToFvMesh.H"
+#include "global/argList/argList.H"
+#include "fvMeshToFvMesh/fvMeshToFvMesh.H"
 #include "mapGeometricFields.H"
 #include "mapClouds.H"
-#include "intersectionCellsToCells.H"
+#include "cellsToCells/intersection/intersectionCellsToCells.H"
 
 using namespace Foam;
 
@@ -145,7 +145,7 @@ int main(int argc, char *argv[])
         "skip mapping lagrangian positions and fields"
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     fileName rootDirTarget(args.rootPath());
     fileName caseDirTarget(args.globalCaseName());

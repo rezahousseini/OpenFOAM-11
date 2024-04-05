@@ -34,10 +34,10 @@ Description
 #ifndef patchToPatchFvPatchFieldMapper_H
 #define patchToPatchFvPatchFieldMapper_H
 
-#include "fvPatchFieldMapper.H"
-#include "patchToPatch.H"
-#include "patchToPatchStabilisation.H"
-#include "ListOps.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "patchToPatch/patchToPatch/patchToPatch.H"
+#include "patchToPatch/patchToPatchStabilisation/patchToPatchStabilisation.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -216,7 +216,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "patchToPatchFvPatchFieldMapperTemplates.C"
+    #include "fvMeshToFvMesh/patchToPatchFvPatchFieldMapperTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

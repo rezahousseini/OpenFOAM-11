@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compileTemplate.H"
-#include "dynamicCodeContext.H"
-#include "Time.H"
-#include "IFstream.H"
-#include "OSspecific.H"
+#include "db/dynamicLibrary/compileTemplate/compileTemplate.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
+#include "db/Time/Time.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

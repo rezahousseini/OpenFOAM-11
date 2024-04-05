@@ -36,8 +36,8 @@ SourceFiles
 #ifndef dimFieldDecomposer_H
 #define dimFieldDecomposer_H
 
-#include "fvMesh.H"
-#include "surfaceFields.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

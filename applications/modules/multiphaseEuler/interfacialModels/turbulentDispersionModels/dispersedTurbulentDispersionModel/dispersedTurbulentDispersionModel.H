@@ -38,8 +38,8 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "turbulentDispersionModel.H"
-#include "dispersedPhaseInterface.H"
+#include "turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
+#include "phaseInterface/dispersedPhaseInterface/dispersedPhaseInterface.H"
 #include "phaseCompressibleMomentumTransportModel.H"
 
 namespace Foam

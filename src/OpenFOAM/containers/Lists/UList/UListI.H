@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "pTraits.H"
-#include "Swap.H"
+#include "db/error/error.H"
+#include "primitives/pTraits/pTraits.H"
+#include "primitives/Swap/Swap.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

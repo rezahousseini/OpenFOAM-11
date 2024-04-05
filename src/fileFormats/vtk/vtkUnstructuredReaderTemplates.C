@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkUnstructuredReader.H"
-#include "labelIOField.H"
-#include "scalarIOField.H"
-#include "stringIOList.H"
-#include "cellModeller.H"
-#include "vectorIOField.H"
+#include "vtk/vtkUnstructuredReader.H"
+#include "fields/Fields/labelField/labelIOField.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "primitives/strings/string/stringIOList.H"
+#include "meshes/meshShapes/cellModeller/cellModeller.H"
+#include "fields/Fields/vectorField/vectorIOField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

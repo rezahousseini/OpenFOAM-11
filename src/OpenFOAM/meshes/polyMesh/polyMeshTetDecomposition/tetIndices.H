@@ -55,12 +55,12 @@ SourceFiles
 #ifndef tetIndices_H
 #define tetIndices_H
 
-#include "label.H"
-#include "tetPointRef.H"
-#include "triPointRef.H"
-#include "polyMesh.H"
-#include "triFace.H"
-#include "face.H"
+#include "primitives/ints/label/label.H"
+#include "meshes/primitiveShapes/tetrahedron/tetPointRef.H"
+#include "meshes/primitiveShapes/triangle/triPointRef.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "meshes/meshShapes/face/face.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -166,7 +166,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tetIndicesI.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndicesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

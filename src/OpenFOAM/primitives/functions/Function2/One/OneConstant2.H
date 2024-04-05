@@ -40,7 +40,7 @@ SourceFiles
 #ifndef OneConstant2_H
 #define OneConstant2_H
 
-#include "Function2.H"
+#include "primitives/functions/Function2/Function2/Function2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -108,10 +108,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "OneConstant2I.H"
+#include "primitives/functions/Function2/One/OneConstant2I.H"
 
 #ifdef NoRepository
-    #include "OneConstant2.C"
+    #include "primitives/functions/Function2/One/OneConstant2.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

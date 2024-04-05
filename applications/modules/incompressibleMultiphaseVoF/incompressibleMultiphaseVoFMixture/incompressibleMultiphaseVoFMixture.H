@@ -45,10 +45,10 @@ See also
 #ifndef incompressibleMultiphaseVoFMixture_H
 #define incompressibleMultiphaseVoFMixture_H
 
-#include "multiphaseVoFMixture.H"
-#include "viscosity.H"
-#include "UPtrListDictionary.H"
-#include "incompressibleVoFphase.H"
+#include "multiphaseVoFMixture/multiphaseVoFMixture.H"
+#include "viscosity/viscosity.H"
+#include "containers/Dictionaries/UPtrListDictionary/UPtrListDictionary.H"
+#include "incompressibleMultiphaseVoFMixture/incompressibleVoFphase/incompressibleVoFphase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -60,8 +60,8 @@ SourceFiles
 #ifndef waveInletOutletFvPatchField_H
 #define waveInletOutletFvPatchField_H
 
-#include "mixedFvPatchField.H"
-#include "Function1.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "waveInletOutletFvPatchField.C"
+    #include "derivedFvPatchFields/waveInletOutlet/waveInletOutletFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

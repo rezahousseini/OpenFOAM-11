@@ -50,7 +50,7 @@ See also
 #ifndef uniform_H
 #define uniform_H
 
-#include "distribution.H"
+#include "distributions/distribution/distribution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

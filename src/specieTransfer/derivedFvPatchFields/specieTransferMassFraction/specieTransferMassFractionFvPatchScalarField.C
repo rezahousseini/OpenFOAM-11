@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "specieTransferMassFractionFvPatchScalarField.H"
-#include "specieTransferVelocityFvPatchVectorField.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fluidThermophysicalTransportModel.H"
-#include "fluidMulticomponentThermo.H"
+#include "derivedFvPatchFields/specieTransferMassFraction/specieTransferMassFractionFvPatchScalarField.H"
+#include "derivedFvPatchFields/specieTransferVelocity/specieTransferVelocityFvPatchVectorField.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fluidThermophysicalTransportModel/fluidThermophysicalTransportModel.H"
+#include "fluidMulticomponentThermo/fluidMulticomponentThermo.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

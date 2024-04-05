@@ -35,8 +35,8 @@ SourceFiles
 #ifndef dimensionedSphericalTensor_H
 #define dimensionedSphericalTensor_H
 
-#include "dimensionedType.H"
-#include "sphericalTensor.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

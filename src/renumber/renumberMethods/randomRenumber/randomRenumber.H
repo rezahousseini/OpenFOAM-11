@@ -35,7 +35,7 @@ SourceFiles
 #ifndef randomRenumber_H
 #define randomRenumber_H
 
-#include "renumberMethod.H"
+#include "renumberMethod/renumberMethod.H"
 
 namespace Foam
 {

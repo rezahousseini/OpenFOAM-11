@@ -40,7 +40,7 @@ SourceFiles
 #ifndef energyJumpFvPatchScalarField_H
 #define energyJumpFvPatchScalarField_H
 
-#include "fixedJumpFvPatchField.H"
+#include "fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

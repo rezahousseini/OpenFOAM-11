@@ -49,7 +49,7 @@ SourceFiles
 #define ShihQuadraticKE_H
 
 #include "incompressibleMomentumTransportModels.H"
-#include "nonlinearEddyViscosity.H"
+#include "nonlinearEddyViscosity/nonlinearEddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

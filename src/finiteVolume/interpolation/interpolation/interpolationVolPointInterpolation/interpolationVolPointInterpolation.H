@@ -32,8 +32,8 @@ Description
 #ifndef interpolationVolPointInterpolation_H
 #define interpolationVolPointInterpolation_H
 
-#include "interpolation.H"
-#include "cellPointWeight.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "interpolation/interpolation/interpolationCellPoint/cellPointWeight/cellPointWeight.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -107,7 +107,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationVolPointInterpolation.C"
+    #include "interpolation/interpolation/interpolationVolPointInterpolation/interpolationVolPointInterpolation.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

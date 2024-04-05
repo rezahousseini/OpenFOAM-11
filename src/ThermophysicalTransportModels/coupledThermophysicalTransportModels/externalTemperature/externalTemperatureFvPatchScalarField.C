@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalTemperatureFvPatchScalarField.H"
+#include "externalTemperature/externalTemperatureFvPatchScalarField.H"
 #include "thermophysicalTransportModel.H"
-#include "volFields.H"
-#include "physicoChemicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using Foam::constant::physicoChemical::sigma;
 

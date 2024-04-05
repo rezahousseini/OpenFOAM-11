@@ -35,7 +35,7 @@ SourceFiles
 #ifndef matchingCellsToCells_H
 #define matchingCellsToCells_H
 
-#include "cellsToCells.H"
+#include "cellsToCells/cellsToCells/cellsToCells.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

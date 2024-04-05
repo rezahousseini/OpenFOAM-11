@@ -56,7 +56,7 @@ SourceFiles
 #ifndef functionObjects_adjustTimeStepToChemistry_H
 #define functionObjects_adjustTimeStepToChemistry_H
 
-#include "regionFunctionObject.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

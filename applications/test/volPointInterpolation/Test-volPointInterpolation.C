@@ -26,9 +26,9 @@ Application
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "volPointInterpolation.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 using namespace Foam;
 
@@ -63,10 +63,10 @@ int main(int argc, char *argv[])
     argList::validArgs.append("field");
 
     timeSelector::addOptions();
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     const instantList timeDirs = timeSelector::select0(runTime, args);
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
     const pointMesh& pMesh = pointMesh::New(mesh);
     const pointBoundaryMesh& pbm = pMesh.boundary();

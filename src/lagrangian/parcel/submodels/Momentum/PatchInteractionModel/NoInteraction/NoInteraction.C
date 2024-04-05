@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoInteraction.H"
+#include "submodels/Momentum/PatchInteractionModel/NoInteraction/NoInteraction.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

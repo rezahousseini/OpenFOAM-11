@@ -25,9 +25,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "IOstreams.H"
-#include "dictionary.H"
+#include "db/error/error.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/dictionary/dictionary.H"
 
 using namespace Foam;
 

@@ -34,18 +34,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "nonOrthogonalSolutionControl.H"
-#include "fixedValueFvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
-#include "findRefCell.H"
-#include "IOMRFZoneList.H"
-#include "adjustPhi.H"
+#include "global/argList/argList.H"
+#include "cfdTools/general/solutionControl/solutionControl/nonOrthogonalSolutionControl/nonOrthogonalSolutionControl.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "cfdTools/general/findRefCell/findRefCell.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
+#include "cfdTools/general/adjustPhi/adjustPhi.H"
 
-#include "fvcFlux.H"
-#include "fvcReconstruct.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
 
-#include "fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 using namespace Foam;
 
@@ -84,9 +84,9 @@ int main(int argc, char *argv[])
         "execute functionObjects"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     nonOrthogonalSolutionControl potentialFlow(mesh, "potentialFlow");
 

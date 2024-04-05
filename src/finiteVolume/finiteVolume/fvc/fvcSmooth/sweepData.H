@@ -36,9 +36,9 @@ SourceFiles
 #ifndef sweepData_H
 #define sweepData_H
 
-#include "scalar.H"
-#include "point.H"
-#include "labelPair.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -212,7 +212,7 @@ inline bool contiguous<sweepData>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sweepDataI.H"
+#include "finiteVolume/fvc/fvcSmooth/sweepDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

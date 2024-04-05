@@ -35,8 +35,8 @@ SourceFiles
 #ifndef inverseFaceDistanceDiffusivity_H
 #define inverseFaceDistanceDiffusivity_H
 
-#include "motionDiffusivity.H"
-#include "wordReList.H"
+#include "motionDiffusivity/motionDiffusivity/motionDiffusivity.H"
+#include "primitives/strings/lists/wordReList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

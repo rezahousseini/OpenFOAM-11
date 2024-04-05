@@ -41,11 +41,11 @@ Description
 #ifndef ISAT_H
 #define ISAT_H
 
-#include "chemistryTabulationMethod.H"
-#include "binaryTree.H"
-#include "volFields.H"
-#include "OFstream.H"
-#include "cpuTime.H"
+#include "chemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.H"
+#include "chemistryModel/tabulation/ISAT/binaryTree/binaryTree.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "cpuTime/cpuTime.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

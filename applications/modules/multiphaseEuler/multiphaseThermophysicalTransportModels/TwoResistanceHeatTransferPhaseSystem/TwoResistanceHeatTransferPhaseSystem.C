@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TwoResistanceHeatTransferPhaseSystem.H"
-#include "heatTransferModel.H"
-#include "fvmSup.H"
-#include "rhoMulticomponentThermo.H"
+#include "TwoResistanceHeatTransferPhaseSystem/TwoResistanceHeatTransferPhaseSystem.H"
+#include "heatTransferModels/heatTransferModel/heatTransferModel.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "rhoMulticomponentThermo/rhoMulticomponentThermo.H"
 
 // * * * * * * * * * * * * Protected Member Functions * * * * * * * * * * * //
 

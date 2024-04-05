@@ -49,7 +49,7 @@ SourceFiles
 #ifndef Moraga_H
 #define Moraga_H
 
-#include "dispersedLiftModel.H"
+#include "liftModels/dispersedLiftModel/dispersedLiftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

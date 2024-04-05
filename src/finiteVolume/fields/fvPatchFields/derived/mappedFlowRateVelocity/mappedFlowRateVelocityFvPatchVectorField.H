@@ -63,7 +63,7 @@ SourceFiles
 #ifndef mappedFlowRateVelocityFvPatchVectorField_H
 #define mappedFlowRateVelocityFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

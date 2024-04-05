@@ -40,10 +40,10 @@ SourceFiles
 #ifndef treeDataPoint_H
 #define treeDataPoint_H
 
-#include "pointField.H"
-#include "treeBoundBox.H"
-#include "linePointRef.H"
-#include "volumeType.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "meshes/primitiveShapes/line/linePointRef.H"
+#include "algorithms/indexedOctree/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

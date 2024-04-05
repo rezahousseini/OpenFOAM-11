@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceHeight.H"
-#include "fvMesh.H"
-#include "interpolation.H"
-#include "IOmanip.H"
-#include "meshSearch.H"
-#include "lineCellFace.H"
-#include "Time.H"
-#include "uniformDimensionedFields.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfaceHeight/interfaceHeight.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "meshSearch/meshSearch.H"
+#include "sampledSet/lineCellFace/lineCellFace.H"
+#include "db/Time/Time.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

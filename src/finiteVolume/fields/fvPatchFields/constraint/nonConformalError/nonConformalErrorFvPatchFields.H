@@ -26,8 +26,8 @@ License
 #ifndef nonConformalErrorFvPatchFields_H
 #define nonConformalErrorFvPatchFields_H
 
-#include "nonConformalErrorFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/nonConformalError/nonConformalErrorFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

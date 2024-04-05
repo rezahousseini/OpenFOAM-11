@@ -72,9 +72,9 @@ SourceFiles
 #ifndef interRegionHeatTransfer_H
 #define interRegionHeatTransfer_H
 
-#include "interRegionModel.H"
-#include "heatTransferCoefficientModel.H"
-#include "heatTransferAv.H"
+#include "interRegion/interRegionModel/interRegionModel.H"
+#include "derived/heatTransfer/heatTransferCoefficientModels/heatTransferCoefficientModel/heatTransferCoefficientModel.H"
+#include "derived/heatTransfer/heatTransferAv/heatTransferAv.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

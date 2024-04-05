@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingMultiphaseCloud.H"
-#include "addToRunTimeSelectionTable.H"
+#include "clouds/derived/reactingMultiphaseCloud/reactingMultiphaseCloud.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

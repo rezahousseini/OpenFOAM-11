@@ -30,11 +30,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "pointFields.H"
-#include "IStringStream.H"
-#include "volPointInterpolation.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "db/IOstreams/StringStreams/IStringStream.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 using namespace Foam;
 
@@ -44,12 +44,12 @@ int main(int argc, char *argv[])
 {
     argList::validArgs.append("scaling factor");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const scalar scaleFactor = args.argRead<scalar>(1);
 
-    #include "createTime.H"
-    #include "createMeshNoChangers.H"
+    #include "include/createTime.H"
+    #include "include/createMeshNoChangers.H"
 
     const volPointInterpolation& pInterp(volPointInterpolation::New(mesh));
 

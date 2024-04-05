@@ -143,7 +143,7 @@ inline tmp<volScalarField> rhoMagSqr<scalar>::operator()
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LimitFuncs.C"
+    #include "interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitFuncs.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

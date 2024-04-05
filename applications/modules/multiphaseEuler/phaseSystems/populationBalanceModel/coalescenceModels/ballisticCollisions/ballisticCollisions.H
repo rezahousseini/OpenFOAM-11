@@ -36,7 +36,7 @@ SourceFiles
 #ifndef ballisticCollisions_H
 #define ballisticCollisions_H
 
-#include "coalescenceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

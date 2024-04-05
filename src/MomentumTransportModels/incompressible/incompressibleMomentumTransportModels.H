@@ -40,9 +40,9 @@ Description
 #define incompressibleMomentumTransportModels_H
 
 #include "incompressibleMomentumTransportModel.H"
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

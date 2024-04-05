@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "mapMeshes.H"
-#include "surfaceMesh.H"
-#include "processorFvPatch.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 #include "mapLagrangian.H"
 #include "MapVolFields.H"
 #include "MapConsistentVolFields.H"

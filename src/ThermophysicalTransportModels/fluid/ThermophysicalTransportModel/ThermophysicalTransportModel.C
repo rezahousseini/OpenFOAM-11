@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermophysicalTransportModel.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "ThermophysicalTransportModel/ThermophysicalTransportModel.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

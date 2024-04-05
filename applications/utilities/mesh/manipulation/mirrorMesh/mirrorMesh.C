@@ -29,12 +29,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Time.H"
+#include "global/argList/argList.H"
+#include "db/Time/Time.H"
 #include "mirrorFvMesh.H"
-#include "polyTopoChangeMap.H"
-#include "hexRef8Data.H"
-#include "systemDict.H"
+#include "meshes/polyMesh/polyTopoChangeMap/polyTopoChangeMap.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
 using namespace Foam;
 
@@ -42,11 +42,11 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
-    #include "addDictOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addDictOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool overwrite = args.optionFound("overwrite");
 

@@ -1,5 +1,5 @@
-#include "tensor2D.H"
-#include "IOstreams.H"
+#include "primitives/Tensor2D/tensor2D/tensor2D.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

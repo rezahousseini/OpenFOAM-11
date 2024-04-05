@@ -41,8 +41,8 @@ SourceFiles
 #ifndef fvMeshTopoChangersRaw_H
 #define fvMeshTopoChangersRaw_H
 
-#include "fvMeshTopoChanger.H"
-#include "polyTopoChanger.H"
+#include "fvMesh/fvMeshTopoChangers/fvMeshTopoChanger/fvMeshTopoChanger.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -128,7 +128,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshTopoChangersRawTemplates.C"
+    #include "raw/fvMeshTopoChangersRawTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

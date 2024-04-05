@@ -38,8 +38,8 @@ SourceFiles
 #ifndef PointIndexHit_H
 #define PointIndexHit_H
 
-#include "bool.H"
-#include "point.H"
+#include "primitives/bools/bool/bool.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

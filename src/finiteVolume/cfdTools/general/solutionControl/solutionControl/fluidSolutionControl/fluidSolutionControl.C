@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fluidSolutionControl.H"
+#include "cfdTools/general/solutionControl/solutionControl/fluidSolutionControl/fluidSolutionControl.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

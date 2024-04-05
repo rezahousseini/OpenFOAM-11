@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseTurbulenceStabilisation.H"
-#include "phaseSystem.H"
-#include "surfaceInterpolate.H"
-#include "fvcGrad.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "phaseTurbulenceStabilisation/phaseTurbulenceStabilisation.H"
+#include "phaseSystem/phaseSystem.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

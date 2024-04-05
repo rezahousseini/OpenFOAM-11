@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoSurfaceFilm.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/Momentum/SurfaceFilmModel/NoSurfaceFilm/NoSurfaceFilm.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

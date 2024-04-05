@@ -36,19 +36,19 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicPolyPatch.H"
-#include "syncTools.H"
-#include "argList.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "SortableList.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "faceSet.H"
-#include "polyTopoChange.H"
-#include "polyModifyFace.H"
-#include "wordReList.H"
-#include "systemDict.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/Time.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "sets/topoSets/faceSet.H"
+#include "polyTopoChange/polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.H"
+#include "primitives/strings/lists/wordReList.H"
+#include "db/IOobjects/IOdictionary/systemDict.H"
 
 using namespace Foam;
 
@@ -464,18 +464,18 @@ void syncPoints
 
 int main(int argc, char *argv[])
 {
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
-    #include "addDictOption.H"
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addDictOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTimeNoFunctionObjects.H"
 
     Foam::word meshRegionName = polyMesh::defaultRegion;
     args.optionReadIfPresent("region", meshRegionName);
 
     const bool overwrite = args.optionFound("overwrite");
 
-    #include "createNamedPolyMesh.H"
+    #include "include/createNamedPolyMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

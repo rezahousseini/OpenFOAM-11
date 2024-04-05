@@ -33,8 +33,8 @@ Description
 #ifndef interpolationPointMVC_H
 #define interpolationPointMVC_H
 
-#include "interpolationVolPointInterpolation.H"
-#include "pointMVCWeight.H"
+#include "interpolation/interpolation/interpolationVolPointInterpolation/interpolationVolPointInterpolation.H"
+#include "interpolation/interpolation/interpolationPointMVC/pointMVCWeight.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -105,12 +105,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationPointMVCI.H"
+#include "interpolation/interpolation/interpolationPointMVC/interpolationPointMVCI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationPointMVC.C"
+    #include "interpolation/interpolation/interpolationPointMVC/interpolationPointMVC.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef SCOPEBlendXiEq_H
 #define SCOPEBlendXiEq_H
 
-#include "XiEqModel.H"
+#include "XiModels/XiEqModels/XiEqModel/XiEqModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

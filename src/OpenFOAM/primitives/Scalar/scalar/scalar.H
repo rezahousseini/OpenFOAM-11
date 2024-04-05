@@ -36,9 +36,9 @@ SourceFiles
 #ifndef scalar_H
 #define scalar_H
 
-#include "floatScalar.H"
-#include "doubleScalar.H"
-#include "longDoubleScalar.H"
+#include "primitives/Scalar/floatScalar/floatScalar.H"
+#include "primitives/Scalar/doubleScalar/doubleScalar.H"
+#include "primitives/Scalar/longDoubleScalar/longDoubleScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -152,7 +152,7 @@ namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "scalarI.H"
+#include "primitives/Scalar/scalar/scalarI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

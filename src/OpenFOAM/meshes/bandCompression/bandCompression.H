@@ -38,7 +38,7 @@ SourceFiles
 #ifndef bandCompression_H
 #define bandCompression_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

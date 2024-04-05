@@ -46,8 +46,8 @@ SourceFiles
 #ifndef strainRateFunction_H
 #define strainRateFunction_H
 
-#include "strainRateViscosityModel.H"
-#include "Function1.H"
+#include "laminar/generalisedNewtonian/generalisedNewtonianViscosityModels/strainRateViscosityModels/strainRateViscosityModel/strainRateViscosityModel.H"
+#include "primitives/functions/Function1/Function1/Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

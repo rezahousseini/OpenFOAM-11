@@ -37,7 +37,7 @@ SourceFiles
 #ifndef timeScaleFilteredDrag_H
 #define timeScaleFilteredDrag_H
 
-#include "dispersedDragModel.H"
+#include "dragModels/dispersedDragModel/dispersedDragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

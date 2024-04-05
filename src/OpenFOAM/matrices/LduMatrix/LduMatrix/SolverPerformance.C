@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SolverPerformance.H"
-#include "IOstreams.H"
+#include "matrices/LduMatrix/LduMatrix/SolverPerformance.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

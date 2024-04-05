@@ -32,8 +32,8 @@ Description
 #ifndef SLList_H
 #define SLList_H
 
-#include "LList.H"
-#include "SLListBase.H"
+#include "containers/LinkedLists/accessTypes/LList/LList.H"
+#include "containers/LinkedLists/linkTypes/SLListBase/SLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

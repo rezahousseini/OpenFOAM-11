@@ -67,8 +67,8 @@ SourceFiles
 #ifndef functionObjects_phaseForces_H
 #define functionObjects_phaseForces_H
 
-#include "fvMeshFunctionObject.H"
-#include "phaseSystem.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

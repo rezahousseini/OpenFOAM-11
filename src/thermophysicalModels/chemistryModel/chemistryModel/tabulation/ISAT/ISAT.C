@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ISAT.H"
-#include "odeChemistryModel.H"
-#include "LUscalarMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "chemistryModel/tabulation/ISAT/ISAT.H"
+#include "odeChemistryModel/odeChemistryModel.H"
+#include "matrices/LUscalarMatrix/LUscalarMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */

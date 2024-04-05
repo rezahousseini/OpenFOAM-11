@@ -78,7 +78,7 @@ See also
 #ifndef rhoTabulated_H
 #define rhoTabulated_H
 
-#include "UniformTable2.H"
+#include "primitives/functions/Function2/UniformTable2/UniformTable2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -268,12 +268,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rhoTabulatedI.H"
+#include "equationOfState/rhoTabulated/rhoTabulatedI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "rhoTabulated.C"
+    #include "equationOfState/rhoTabulated/rhoTabulated.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedFunctionObject.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "Time.H"
-#include "SHA1Digest.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "stringOps.H"
-#include "addToRunTimeSelectionTable.H"
+#include "codedFunctionObject/codedFunctionObject.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/Time.H"
+#include "primitives/hashes/SHA1/SHA1Digest.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
