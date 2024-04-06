@@ -69,4 +69,7 @@ install( PROGRAMS
   uncoupledKinematicParcelFoam
   XiEngineFoam
   XiFoam
+  
+  DESTINATION
+  bin
 )
