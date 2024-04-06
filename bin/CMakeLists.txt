@@ -25,8 +25,6 @@ install( PROGRAMS
   foamNewApp
   foamNewBC
   foamNewFunctionObject
-  foamNewSource
-  foamNewTemplate
   foamRunTutorials
   foamSearch
   foamSequenceVTKFiles
@@ -41,9 +39,6 @@ install( PROGRAMS
   MPPICFoam
   multiphaseEulerFoam
   multiphaseInterFoam
-  org-html
-  org-latex
-  org-pdflatex
   paraFoam
   particleFoam
   pimpleFoam
