@@ -230,6 +230,23 @@ Foam::fileNameList Foam::findEtcFiles
         }
     }
 
+    // Search for user files in
+    // current working directory
+    //
+    searchDir = cwd();
+    if (isDir(searchDir))
+    {
+        fileName fullName = searchDir/name;
+        if (isFile(fullName))
+        {
+            results.append(fullName);
+            if (findFirst)
+            {
+                return results;
+            }
+        }
+    }
+
     // Not found
     if (results.empty())
     {
